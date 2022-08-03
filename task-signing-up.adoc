@@ -19,8 +19,10 @@ NetApp Cloud Central에 등록하여 NetApp의 클라우드 서비스에 액세�
 
 TIP: Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 로그인할 수 있습니다. 자세한 내용은 로 이동하십시오 https://cloud.netapp.com/help-center["Cloud Central 도움말 센터"^] 그런 다음 * Cloud Central 로그인 옵션 * 을 클릭합니다.
 
+등록 양식에는 영어 문자만 사용할 수 있습니다.
+
 .단계
-. 웹 브라우저를 열고 로 이동합니다 https://cloud.netapp.com/["NetApp Cloud Central에서"^].
+. 웹 브라우저를 열고 로 이동합니다 https://cloud.netapp.com/["NetApp Cloud Central에서"^]
 . 등록 * 을 클릭합니다.
 . 두 가지 옵션이 있습니다.
 +

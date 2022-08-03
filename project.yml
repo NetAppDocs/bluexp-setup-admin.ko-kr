@@ -108,6 +108,8 @@ sidebar:
         url: "/task-adding-gcp-accounts.html"
     - title: NetApp Support 사이트 계정
       url: "/task-adding-nss-accounts.html"
+    - title: My Opportunities를 사용하여 검색
+      url: "/concept-my-opportunities.html"
   - title: 참조하십시오
     entries:
     - title: 권한 요약

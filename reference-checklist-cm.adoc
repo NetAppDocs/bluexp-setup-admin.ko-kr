@@ -75,7 +75,7 @@ AWS 서비스(amazonaws.com):
 
 |===
 --
-커넥터의 아웃바운드 네트워킹:: Cloud Manager에 로그인한 후 계정 관리자는 클라우드 공급자 또는 온-프레미스 네트워크에 _Connector_를 배포해야 합니다. Connector를 사용하면 Cloud Manager에서 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. Azure NetApp Files, Cloud Volumes Service 또는 Cloud Sync에는 커넥터가 필요하지 않지만 Cloud Manager의 다른 모든 서비스와 기능에는 커넥터가 필요합니다. link:concept-connectors.html["커넥터 및 커넥터 작동 방식에 대해 자세히 알아보십시오"].
+커넥터의 아웃바운드 네트워킹:: Cloud Manager에 로그인한 후 Cloud Manager 계정 관리자는 클라우드 공급자 또는 사내 네트워크에 _Connector_를 배포해야 합니다. Connector를 사용하면 Cloud Manager에서 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. Azure NetApp Files, Cloud Volumes Service 또는 Cloud Sync에는 커넥터가 필요하지 않지만 Cloud Manager의 다른 모든 서비스와 기능에는 커넥터가 필요합니다. link:concept-connectors.html["커넥터 및 커넥터 작동 방식에 대해 자세히 알아보십시오"].
 +
 --
 * 커넥터를 배포하는 네트워크 위치에 아웃바운드 인터넷 연결이 있어야 합니다.
