@@ -2457,4 +2457,5 @@
   <block id="56148e3a5b597bf775527bf28e119033" category="paragraph"><block ref="56148e3a5b597bf775527bf28e119033" category="inline-link-rx"></block></block>
   <block id="a92dc2a225f00bb9e0d676f2e4ae484e" category="sidebar">My Opportunities를 사용하여 검색</block>
   <block id="efabd80ebdd217a47d9be936e5f0b8aa" category="list-text">기본 시스템 디스크는 100GiB GP2 디스크입니다.</block>
+  <block id="02bc515db3673d54b5989cdf43534729" category="list-text">데이터 동기화 * 를 클릭하여 S3 버킷과 데이터를 동기화합니다.</block>
 </blocks>
