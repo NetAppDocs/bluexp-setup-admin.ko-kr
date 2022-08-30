@@ -36,7 +36,7 @@ image:screenshot-cloud-central-signup.png["Cloud Central에 대한 등록 양식
 
 +
 
-NOTE: NetApp에 로그인하면 NetApp Support 사이트 자격 증명이 지원 대시보드의 Cloud Manager에 추가되지 않습니다.
+NOTE: NetApp으로 로그인 옵션을 사용하면 NSS(NetApp Support Site) 자격 증명이 지원 대시보드의 Cloud Manager에 추가되지 않습니다. Cloud Volumes ONTAP의 주요 워크플로우를 활성화하고 Active IQ를 통해 예측 분석 및 능동적 지원을 활성화하려면 NSS 자격 증명을 Cloud Manager에 추가해야 합니다. link:task-adding-nss-accounts.html["NSS 자격 증명을 Cloud Manager에 추가하는 방법에 대해 알아봅니다"].
 
 
 

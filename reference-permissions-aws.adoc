@@ -326,7 +326,7 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
       "Effect": "Allow",
       "Action": [
         "ec2:DescribeRegions",
-        "iam:ListInstanceProfiles",
+        "iam:GetInstanceProfile",
         "eks:ListClusters",
         "eks:DescribeCluster"
       ],
