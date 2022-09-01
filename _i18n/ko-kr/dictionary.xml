@@ -1885,7 +1885,6 @@
   <block id="75af5b4615967c5f4c52ae9be3a8526c" category="paragraph">일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. Cloud Manager 플랫폼의 대부분의 서비스와 기능은 SaaS 기반 소프트웨어를 통해 제공되지만, Connector의 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
   <block id="3cdc0b8cb855b1fb9c206c3d696b6c9e" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. T3.xLarge를 권장합니다.</block>
   <block id="a6daae7da601d04e5cdb89d612a8d9b1" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. DS3 v2를 권장합니다.</block>
-  <block id="a364c69650d36423667264592b72c7ce" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. n1-standard-4를 권장합니다.</block>
   <block id="984ca77a9a51746d3dd5a855a71d3493" category="inline-link">차폐된 VM 기능</block>
   <block id="5e59673ea4dc0650f587413c4848c02c" category="paragraph">Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서 지원됩니다<block ref="bd10301ee2e8f0cb38112a71d2b6920c" category="inline-link-rx"></block></block>
   <block id="49644953fd4e9612a9842d17bef5e79b" category="section-title">2022년 5월 2일</block>
@@ -1935,7 +1934,6 @@
   <block id="6b20346212b35fa23c8778f7b40af243" category="list-text">이미지의 운영 체제는 CentOS 7.6입니다.</block>
   <block id="474a089504b47eb34ee00ee62f121108" category="list-text">기본 시스템 디스크는 100GiB 프리미엄 SSD 디스크입니다.</block>
   <block id="f246cf5f23e765f0a7ebed4a6c1d923a" category="section-title">Google Cloud 세부 정보</block>
-  <block id="eea8625f5c96ad7dadcdf9b2b4ddc80d" category="list-text">VM 인스턴스는 n1-standard-4입니다.</block>
   <block id="eac23d653ed188286a19e5301fe3807e" category="list-text">이미지의 운영 체제는 CentOS 7.9입니다.</block>
   <block id="6cb5fb9b61376b8ee3092321445fdea4" category="list-text">기본 시스템 디스크는 100GiB SSD 영구 디스크입니다.</block>
   <block id="bc4aa6323016172de14a6835883b27c7" category="section-title">설치 폴더</block>
@@ -2459,4 +2457,6 @@
   <block id="02bc515db3673d54b5989cdf43534729" category="list-text">데이터 동기화 * 를 클릭하여 S3 버킷과 데이터를 동기화합니다.</block>
   <block id="ff544de20f1db68a595954432523da78" category="inline-link-macro">NSS 자격 증명을 Cloud Manager에 추가하는 방법에 대해 알아봅니다</block>
   <block id="d9ca7aa291299ee1e7d3ee864546df7e" category="admonition">NetApp으로 로그인 옵션을 사용하면 NSS(NetApp Support Site) 자격 증명이 지원 대시보드의 Cloud Manager에 추가되지 않습니다. Cloud Volumes ONTAP의 주요 워크플로우를 활성화하고 Active IQ를 통해 예측 분석 및 능동적 지원을 활성화하려면 NSS 자격 증명을 Cloud Manager에 추가해야 합니다. <block ref="d6386b10f546ed3137ed8f21203dfb6b" category="inline-link-macro-rx"></block>.</block>
+  <block id="98de57befcb39b412a8dac16a11d762e" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. n2-standard-4를 추천합니다.</block>
+  <block id="0964bfe0dd83b0d60f5d55fd4502a11b" category="list-text">VM 인스턴스는 n2-standard-4입니다.</block>
 </blocks>
