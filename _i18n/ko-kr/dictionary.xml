@@ -2459,4 +2459,5 @@
   <block id="d9ca7aa291299ee1e7d3ee864546df7e" category="admonition">NetApp으로 로그인 옵션을 사용하면 NSS(NetApp Support Site) 자격 증명이 지원 대시보드의 Cloud Manager에 추가되지 않습니다. Cloud Volumes ONTAP의 주요 워크플로우를 활성화하고 Active IQ를 통해 예측 분석 및 능동적 지원을 활성화하려면 NSS 자격 증명을 Cloud Manager에 추가해야 합니다. <block ref="d6386b10f546ed3137ed8f21203dfb6b" category="inline-link-macro-rx"></block>.</block>
   <block id="98de57befcb39b412a8dac16a11d762e" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. n2-standard-4를 추천합니다.</block>
   <block id="0964bfe0dd83b0d60f5d55fd4502a11b" category="list-text">VM 인스턴스는 n2-standard-4입니다.</block>
+  <block id="d17764ffa4b2b993f35778d5e7c1f22e" category="cell">API는 Azure 및 ONTAP, 클라우드 데이터 감지, 랜섬웨어 서비스 요청, AutoSupport 메시지를 NetApp에 전송합니다</block>
 </blocks>
