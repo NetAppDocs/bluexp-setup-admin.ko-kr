@@ -127,14 +127,15 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
         "cloudformation:DeleteStack",
         "ec2:DescribePlacementGroups",
         "iam:GetRolePolicy",
-		"s3:ListAllMyBuckets",
+		    "s3:ListAllMyBuckets",
         "s3:GetObject",
         "iam:GetRole",
         "s3:DeleteObject",
         "s3:DeleteObjectVersion",
         "s3:PutObject",
-		"ec2:ModifyVolume",
-        "ec2:DescribeVolumesModifications"
+		    "ec2:ModifyVolume",
+        "ec2:DescribeVolumesModifications",
+		    "s3:GetEncryptionConfiguration"
       ],
       "Resource": "*"
     },
@@ -144,7 +145,7 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
       "Action": [
         "ec2:StartInstances",
         "ec2:StopInstances",
-        "ec2:DescribeInstances",
+		    "ec2:DescribeInstances",
         "ec2:DescribeInstanceStatus",
         "ec2:RunInstances",
         "ec2:TerminateInstances",
@@ -196,7 +197,21 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
         "s3:PutBucketAcl",
         "s3:AbortMultipartUpload",
         "s3:ListMultipartUploadParts",
-        "s3:DeleteBucket"
+        "s3:DeleteBucket",
+		    "s3:GetObjectVersionTagging",
+			  "s3:GetObjectVersionAcl",
+	   		"s3:GetObjectRetention",
+	   		"s3:GetObjectTagging",
+	   		"s3:GetObjectVersion",
+	   		"s3:PutObjectVersionTagging",
+	   		"s3:PutObjectRetention",
+	   		"s3:DeleteObjectTagging",
+	   		"s3:DeleteObjectVersionTagging",
+	   		"s3:GetBucketObjectLockConfiguration",
+	   		"s3:GetBucketVersioning",
+	   		"s3:PutBucketObjectLockConfiguration",
+	   		"s3:PutBucketVersioning",
+	   		"s3:BypassGovernanceRetention"
       ],
       "Resource": [
         "arn:aws:s3:::netapp-backup-*"
@@ -326,9 +341,9 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
       "Effect": "Allow",
       "Action": [
         "ec2:DescribeRegions",
-        "iam:GetInstanceProfile",
         "eks:ListClusters",
-        "eks:DescribeCluster"
+        "eks:DescribeCluster",
+		    "iam:GetInstanceProfiles"
       ],
       "Resource": "*"
     },
@@ -718,6 +733,37 @@ Connector는 검색 및 복원 방법을 사용하여 볼륨 및 파일을 복�
 * GLUE:BatchDeletePartition
 
 
+Connector는 볼륨 백업에 DataLock 및 랜섬웨어 보호를 사용할 때 다음과 같은 API 요청을 수행합니다.
+
+* S3:GetObjectVersionTagging
+* S3:GetBuckketObjectLockConfiguration
+* S3:GetObjectVersionAcl
+* S3:PutObjectTagging
+* S3:DeleteObject 를 선택합니다
+* S3:삭제 ObjectTagging
+* S3:GetObjectRetention
+* S3:DeleteObjectVersionTagging
+* S3:PutObject
+* S3:GetObject
+* S3:PutBucketObjectLockConfiguration
+* S3:GetLifecycleConfiguration
+* S3:ListBucketByTags
+* S3:GetBucketTagging
+* S3:DeleteObjectVersion
+* S3:목록 BuckketVersions
+* S3:목록 버킷
+* S3: PutBucketTagging
+* S3:GetObjectTagging
+* S3: PutBucketVersioning
+* S3:PutObjectVersionTagging
+* S3:GetBucketVersioning
+* S3:GetBuckketAcl
+* S3:BypassGovernanceRetention
+* S3:PutObjectRetention
+* S3:GetBucketLocation
+* S3:GetObjectVersion
+
+
 
 
 === 클라우드 데이터 감지
@@ -1076,6 +1122,42 @@ Connector는 배포 중에 다음과 같은 API 요청을 통해 글로벌 파�
 
 
 
+=== ONTAP용 FSX
+
+Connector는 ONTAP용 FSx를 검색 및 관리하기 위해 다음과 같은 API 요청을 수행합니다.
+
+* EC2: DescribeInstances(지시 인스턴스)
+* EC2: DescribeInstanceStatus
+* EC2: DescribeInstanceAttribute
+* EC2: 설명표
+* EC2: DescribeImages(설명 영상)
+* EC2: CreateTags(태그 생성)
+* EC2: 설명 볼륨을 참조하십시오
+* EC2: DescribeSecurityGroups
+* EC2: DescribeNetworkInterfaces를 참조하십시오
+* EC2: DescribeSubnet
+* EC2: 설명
+* EC2: DescribeDhcpOptions
+* EC2: 설명
+* EC2: 설명
+* EC2: 설명
+* EC2: DescribeTags(설명 태그)
+* EC2: DescribeIamInstanceProfileAssociations
+* EC2: DescribeReservedInstancesOffbised
+* EC2: desceverVpcEndpoints입니다
+* EC2: 설명
+* EC2: 볼륨 수정 설명
+* EC2: DescribePlacementGroups
+* KMS: 목록 *
+* KMS: 설명 *
+* KMS: CreateGrant
+* KMS: ListAliases
+* FSX: 설명 *
+* FSX:목록 *
+
+
+
+
 === 쿠버네티스
 
 Connector는 다음과 같은 API 요청을 수행하여 Amazon EKS 클러스터를 검색하고 관리합니다.
@@ -1085,3 +1167,11 @@ Connector는 다음과 같은 API 요청을 수행하여 Amazon EKS 클러스터
 * EKS: DescribeCluster
 * IAM:GetInstanceProfile 을 참조하십시오
 
+
+
+
+=== S3 버킷 검색
+
+Connector는 Amazon S3 버킷을 검색하기 위해 다음과 같은 API 요청을 수행합니다.
+
+S3:GetEncryptionConfiguration
