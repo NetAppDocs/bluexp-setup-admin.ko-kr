@@ -1124,7 +1124,7 @@ Connector는 배포 중에 다음과 같은 API 요청을 통해 글로벌 파�
 
 === ONTAP용 FSX
 
-Connector는 ONTAP용 FSx를 검색 및 관리하기 위해 다음과 같은 API 요청을 수행합니다.
+Connector는 ONTAP용 FSx를 관리하기 위해 다음과 같은 API 요청을 수행합니다.
 
 * EC2: DescribeInstances(지시 인스턴스)
 * EC2: DescribeInstanceStatus
