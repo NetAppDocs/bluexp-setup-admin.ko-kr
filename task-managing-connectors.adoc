@@ -71,7 +71,7 @@ image:screenshot-help-support.png["도움말 메뉴의 스크린샷으로, 여�
 
 
 +
-image:screenshot-connector-autosupport.png[""]
+image:screenshot-connector-autosupport.png["사용자가 클릭하여 AutoSupport 메시지를 다운로드하고 보낼 수 있는 지원 대시보드 스크린샷"]
 
 
 

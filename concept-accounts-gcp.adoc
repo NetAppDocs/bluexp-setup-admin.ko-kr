@@ -32,7 +32,7 @@ Cloud Manager에서 직접 Connector를 구축하기 전에 다음 두 가지 �
 
 다음 이미지는 위의 숫자 1과 2에 설명된 사용 권한 요구 사항을 보여 줍니다.
 
-image:diagram_permissions_gcp.png["설명"]
+image:diagram_permissions_gcp.png["Cloud Volumes ONTAP를 배포하기 위한 Google 및 서비스 계정에 대한 권한 요구 사항을 나타내는 개념적 이미지입니다."]
 
 
 
