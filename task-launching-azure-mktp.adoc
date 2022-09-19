@@ -42,7 +42,7 @@ link:task-installing-linux.html["VM 요구 사항을 검토합니다"].
 
 ** 네트워크 보안 그룹의 경우 Connector는 SSH, HTTP 및 HTTPS를 사용하는 인바운드 연결을 필요로 합니다.
 +
-link:reference-networking-cloud-manager.html#rules-for-the-connector-in-azure["Connector의 보안 그룹 규칙에 대해 자세히 알아보십시오"].
+link:reference-ports-azure.html["Connector의 보안 그룹 규칙에 대해 자세히 알아보십시오"].
 
 ** 관리 * 에서 * 켜기 * 를 선택하여 커넥터에 대해 * 시스템 할당 관리 ID * 를 활성화합니다.
 +

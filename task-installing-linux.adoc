@@ -61,7 +61,18 @@ Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.
 하이퍼바이저:: CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저https://access.redhat.com/certified-hypervisors["Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?"^]
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
-아웃바운드 인터넷 액세스:: Connector를 설치하고 Connector가 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하려면 아웃바운드 인터넷 액세스가 필요합니다. 끝점 목록은 을 참조하십시오 link:reference-networking-cloud-manager.html["커넥터에 대한 네트워킹 요구 사항"].
+아웃바운드 인터넷 액세스:: Connector의 설치 프로그램은 설치 프로세스 중에 다음 URL에 액세스해야 합니다.
++
+--
+* https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm 으로 문의하십시오
+* https://s3.amazonaws.com/aws-cli/awscli-bundle.zip 으로 문의하십시오
+* https://*.blob.core.windows.net 또는 \https://hub.docker.com 으로 문의하십시오
++
+설치 중에 호스트가 운영 체제 패키지를 업데이트하려고 할 수 있습니다. 호스트는 이러한 OS 패키지의 서로 다른 미러링 사이트에 연결할 수 있습니다.
+
+
+
+--
 
 
 

@@ -1,0 +1,79 @@
+---
+sidebar: sidebar 
+permalink: reference-ports-gcp.html 
+keywords: ports, firewall rules, http, https, inbound, outbound 
+summary: Connector에 대한 Google Cloud 방화벽 규칙에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. 
+---
+= Google Cloud의 방화벽 규칙
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Connector에 대한 Google Cloud 방화벽 규칙에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다.
+
+
+
+== 인바운드 규칙
+
+[cols="10,10,80"]
+|===
+| 프로토콜 | 포트 | 목적 
+
+
+| SSH를 클릭합니다 | 22 | 커넥터 호스트에 대한 SSH 액세스를 제공합니다 
+
+
+| HTTP | 80 | 클라이언트 웹 브라우저에서 로컬 사용자 인터페이스로 HTTP 액세스를 제공합니다 
+
+
+| HTTPS | 443 | 클라이언트 웹 브라우저에서 로컬 사용자 인터페이스로 HTTPS 액세스를 제공합니다 
+
+
+| TCP | 3128 | Cloud Volumes ONTAP에서 인터넷에 액세스하여 AutoSupport 메시지를 NetApp 지원으로 보냅니다. 배포 후에는 이 포트를 수동으로 열어야 합니다.  server for AutoSupport messages,Connector의 프록시 서버에 대해 자세히 알아보십시오. 
+|===
+
+
+== 아웃바운드 규칙
+
+Connector에 대해 미리 정의된 방화벽 규칙은 모든 아웃바운드 트래픽을 엽니다. 허용 가능한 경우 기본 아웃바운드 규칙을 따릅니다. 더 엄격한 규칙이 필요한 경우 고급 아웃바운드 규칙을 사용합니다.
+
+
+
+=== 기본 아웃바운드 규칙
+
+Connector에 대해 미리 정의된 방화벽 규칙에는 다음과 같은 아웃바운드 규칙이 포함됩니다.
+
+[cols="20,20,60"]
+|===
+| 프로토콜 | 포트 | 목적 
+
+
+| 모든 TCP | 모두 | 모든 아웃바운드 트래픽 
+
+
+| 모든 UDP | 모두 | 모든 아웃바운드 트래픽 
+|===
+
+
+=== 고급 아웃바운드 규칙
+
+아웃바운드 트래픽에 대해 엄격한 규칙이 필요한 경우 다음 정보를 사용하여 Connector의 아웃바운드 통신에 필요한 포트만 열 수 있습니다.
+
+
+NOTE: 소스 IP 주소는 커넥터 호스트입니다.
+
+[cols="5*"]
+|===
+| 서비스 | 프로토콜 | 포트 | 목적지 | 목적 
+
+
+| API 호출 및 AutoSupport | HTTPS | 443 | 아웃바운드 인터넷 및 ONTAP 클러스터 관리 LIF | API는 GCP 및 ONTAP, 클라우드 데이터 센스, 랜섬웨어 서비스 요청 및 AutoSupport 메시지를 NetApp에 전송합니다 
+
+
+| DNS | UDP입니다 | 53 | DNS | Cloud Manager에서 DNS Resolve에 사용됩니다 
+|===

@@ -211,7 +211,7 @@ sudo /path/cloud-manager-connector-offline-v3.9.14
 
 .인터넷 액세스가 있는 호스트의 소프트웨어 업그레이드는 어떻습니까?
 ****
-Connector는 소프트웨어가 있는 한 소프트웨어를 최신 버전으로 자동 업데이트합니다 link:reference-networking-cloud-manager.html["아웃바운드 인터넷 액세스"] 를 클릭하여 소프트웨어 업데이트를 얻습니다.
+Connector는 아웃바운드 인터넷 액세스를 통해 소프트웨어 업데이트를 받는 경우 소프트웨어를 최신 버전으로 자동 업데이트합니다.
 
 ****
 

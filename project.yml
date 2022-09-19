@@ -39,8 +39,6 @@ sidebar:
       entries:
       - title: 커넥터에 대해 자세히 알아보십시오
         url: "/concept-connectors.html"
-      - title: 네트워크 설정
-        url: "/reference-networking-cloud-manager.html"
       - title: AWS에서 커넥터를 생성합니다
         url: "/task-creating-connectors-aws.html"
       - title: Azure에서 커넥터를 만듭니다
@@ -113,14 +111,26 @@ sidebar:
       url: "/concept-my-opportunities.html"
   - title: 참조하십시오
     entries:
-    - title: 권한 요약
-      url: "/reference-permissions.html"
-    - title: Connector에 대한 AWS 권한
-      url: "/reference-permissions-aws.html"
-    - title: Connector에 대한 Azure 권한
-      url: "/reference-permissions-azure.html"
-    - title: Connector에 대한 Google Cloud 권한
-      url: "/reference-permissions-gcp.html"
+    - title: 권한
+      entries:
+      - title: 권한 요약
+        url: "/reference-permissions.html"
+      - title: Connector에 대한 AWS 권한
+        url: "/reference-permissions-aws.html"
+      - title: Connector에 대한 Azure 권한
+        url: "/reference-permissions-azure.html"
+      - title: Connector에 대한 Google Cloud 권한
+        url: "/reference-permissions-gcp.html"
+    - title: 포트
+      entries:
+      - title: AWS의 보안 그룹 규칙
+        url: "/reference-ports-aws.html"
+      - title: Azure의 보안 그룹 규칙
+        url: "/reference-ports-azure.html"
+      - title: Google Cloud의 방화벽 규칙
+        url: "/reference-ports-gcp.html"
+      - title: 사내 커넥터용 포트
+        url: "/reference-ports-on-prem.html"
   - title: 지식 및 지원
     entries:
     - title: 지원을 위해 등록하십시오
@@ -141,8 +151,6 @@ homepage:
     links:
     - title: 커넥터에 대해 자세히 알아보십시오
       url: concept-connectors.html
-    - title: 네트워크 설정
-      url: reference-networking-cloud-manager.html
     - title: 커넥터 관리
       url: task-managing-connectors.html
   - title: NetApp 계정
@@ -172,4 +180,4 @@ homepage:
 product-family:
   name: Cloud Manager
   repo: cloud-manager-family
-  sidebar_label: All Cloud Manager documentation
+  sidebar_label: 모든 Cloud Manager 설명서

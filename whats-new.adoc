@@ -18,6 +18,22 @@ Cloud Manager의 관리 기능, 즉 NetApp 계정, 커넥터, 클라우드 공�
 
 
 
+== 2022년 9월 18일
+
+
+
+=== 커넥터 3.9.22
+
+* Connector 설치에 대한 최소 요구 사항(권한, 인증 및 네트워킹)을 충족하는 단계를 제공하는 _제품 내 가이드_를 추가하여 커넥터 배포 마법사를 개선했습니다.
+* 이제 Cloud Manager의 * 지원 대시보드 * 에서 NetApp 지원 케이스를 직접 생성할 수 있습니다.
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#18-september-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+
+
+
+
+
 == 2022년 7월 31일
 
 
@@ -232,7 +248,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors
 
 Connector가 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 엔드포인트 수를 줄였습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#outbound-internet-access["필요한 끝점 목록을 봅니다"].
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["필요한 끝점 목록을 봅니다"]
 
 
 
