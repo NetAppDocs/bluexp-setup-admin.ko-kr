@@ -37,7 +37,7 @@ Connector의 AWS 보안 그룹에는 인바운드 및 아웃바운드 규칙이 
 | TCP | 3128 | Cloud Volumes ONTAP에서 인터넷에 액세스하여 AutoSupport 메시지를 NetApp 지원으로 보냅니다. 배포 후에는 이 포트를 수동으로 열어야 합니다.  server for AutoSupport messages,Connector의 프록시 서버에 대해 자세히 알아보십시오. 
 
 
-| TCP | 9060 | Cloud Data Sense를 활성화하고 사용할 수 있는 기능 제공(GovCloud 구축에만 필요) 
+| TCP | 9060 | 정부 클라우드 구축 환경에서 Cloud Data Sense 및 Cloud Backup을 활성화하고 사용할 수 있는 기능을 제공합니다. Cloud Manager 계정에서 SaaS 인터페이스를 사용하지 않도록 설정하는 경우 Cloud Backup에도 이 포트가 필요합니다. 
 |===
 
 

@@ -1226,7 +1226,6 @@
   <block id="b136ef5f6a01d816991fe3cf7a6ac763" category="cell">TCP</block>
   <block id="dff8e9c2ac33381546d96deea9922999" category="cell">3128</block>
   <block id="cb4b69eb9bd10da82c15dca2f86a1385" category="cell">9060</block>
-  <block id="a88f9f8d3b07dc3b0bfb7e3fd41aaebe" category="cell">Cloud Data Sense를 활성화하고 사용할 수 있는 기능 제공(GovCloud 구축에만 필요)</block>
   <block id="7fcf8a20eb9257fce9235438893a7754" category="section-title">아웃바운드 규칙</block>
   <block id="f27967c4c8769094dfb727988a22cbfa" category="paragraph">Connector에 대해 미리 정의된 보안 그룹은 모든 아웃바운드 트래픽을 엽니다. 허용 가능한 경우 기본 아웃바운드 규칙을 따릅니다. 더 엄격한 규칙이 필요한 경우 고급 아웃바운드 규칙을 사용합니다.</block>
   <block id="d4dc7fa133657e4530cfde55110ec3c1" category="section-title">기본 아웃바운드 규칙</block>
@@ -1824,7 +1823,6 @@
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="0c01b3b7191c43507ad9ca43d6443731" category="cell">클라이언트 웹 브라우저에서 로컬 사용자 인터페이스에 대한 HTTPS 액세스 및 Cloud Data Sense 인스턴스의 연결을 제공합니다</block>
-  <block id="b774573fe7b53358246a054f6d44ca83" category="cell">Cloud Data Sense를 활성화하고 사용할 수 있는 기능 제공(정부 클라우드 구축에만 필요)</block>
   <block id="5c6b09600cdfc594130f9f3c053efecb" category="section-title">커넥터의 IP 주소를 변경합니다</block>
   <block id="a0dc112a414c5a75d4f2454974efc323" category="paragraph">비즈니스에 필요한 경우 클라우드 공급자가 자동으로 할당하는 Connector 인스턴스의 내부 IP 주소와 공용 IP 주소를 변경할 수 있습니다.</block>
   <block id="bfe6d8b96fb30d923a8089019f265d6b" category="list-text">클라우드 공급자의 지침에 따라 Connector 인스턴스의 로컬 IP 주소 또는 공용 IP 주소(또는 둘 다)를 변경합니다.</block>
@@ -2527,4 +2525,5 @@
   <block id="55fc63d7111caa2a4badd753983607c4" category="paragraph"><block ref="45512476d85432fc18c9be020e976fed" category="inline-link-rx"></block>.</block>
   <block id="d14a27b37d19411318313c75f11baf13" category="inline-link-macro">Cloud Manager에 대한 알림</block>
   <block id="300aa46e11928dbde4552827675beb31" category="list-text"><block ref="300aa46e11928dbde4552827675beb31" category="inline-link-macro-rx"></block></block>
+  <block id="84f0978b53ad6dbefb1e08686d6c7c18" category="cell">정부 클라우드 구축 환경에서 Cloud Data Sense 및 Cloud Backup을 활성화하고 사용할 수 있는 기능을 제공합니다. Cloud Manager 계정에서 SaaS 인터페이스를 사용하지 않도록 설정하는 경우 Cloud Backup에도 이 포트가 필요합니다.</block>
 </blocks>
