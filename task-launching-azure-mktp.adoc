@@ -14,7 +14,10 @@ summary: Cloud Manager에서 직접 Connector를 생성하는 것이 가장 좋�
 
 
 [role="lead"]
-Cloud Manager에서 직접 Connector를 생성하는 것이 가장 좋지만 원하는 경우 Azure Marketplace에서 Connector를 실행할 수 있습니다. Connector를 만들고 설정하면 Cloud Manager는 새 작업 환경을 만들 때 이 커넥터를 자동으로 사용합니다.
+Azure 상용 지역의 경우 Cloud Manager에서 직접 Connector를 생성하는 것이 가장 좋지만, 원하는 경우 Azure Marketplace에서 Connector를 실행할 수 있습니다. Azure Government 지역의 경우 Cloud Manager의 SaaS 웹 사이트에서 Connector를 정부 지역에 배포할 수 없으므로, Azure 마켓플레이스에서 이 옵션을 선택하는 것이 좋습니다.
+
+
+TIP: 네트워크 또는 클라우드의 기존 Linux 호스트에 Connector 소프트웨어를 다운로드하여 설치할 수도 있습니다. link:task-installing-linux.html["기존 Linux 호스트에 커넥터를 설치하는 방법에 대해 알아봅니다"].
 
 
 
@@ -72,7 +75,13 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 
 
 
-이제 커넥터가 설치되고 설정되었습니다. Azure에서 Cloud Volumes ONTAP를 배포하기 전에 Azure 사용 권한을 부여해야 합니다.
+이제 Connector가 NetApp 계정으로 설치 및 설정됩니다.
+
+Connector가 Azure 상용 지역에 있는 경우 웹 브라우저를 열고 로 이동합니다 https://cloudmanager.netapp.com[] Connector with Cloud Manager 사용을 시작합니다.
+
+Connector가 Azure Government 지역에 있는 경우 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager를 사용할 수 있습니다. http://_ipaddress_:80[]
+
+Connector는 정부 지역에 배포되었기 때문에 에서 액세스할 수 없습니다 https://cloudmanager.netapp.com[].
 
 
 

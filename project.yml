@@ -45,6 +45,8 @@ sidebar:
         url: "/task-creating-connectors-azure.html"
       - title: Google Cloud에서 Connector를 생성합니다
         url: "/task-creating-connectors-gcp.html"
+      - title: 정부 지역에서 커넥터를 생성합니다
+        url: "/task-create-connectors-gov.html"
     - title: 다음 단계로 넘어갑니다
       url: "/reference-whats-next.html"
   - title: Cloud Manager 관리

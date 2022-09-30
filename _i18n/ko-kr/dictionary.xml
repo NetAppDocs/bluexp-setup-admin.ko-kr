@@ -800,7 +800,6 @@
   <block id="e96bc5b1e40abf07ff070b96c65057db" category="doc">AWS Marketplace에서 Connector를 생성합니다</block>
   <block id="2d7f301de264581382e23e0ee22d9345" category="list-text">Amazon EC2 역할 유형으로 IAM 역할을 생성하고 이전 단계에서 생성한 정책을 역할에 연결합니다.</block>
   <block id="b00b1f51aba44811e0f61d74eec7e04b" category="inline-link">Cloud Manager 페이지로 이동하여 AWS 마켓플레이스를 확인하십시오</block>
-  <block id="d69392574f5dab79aa43319b4e54fd67" category="list-text">이제 로 이동합니다<block ref="46abe95496a5b5a2812b7657abaac71b" category="inline-link-rx"></block> AMI에서 Cloud Manager를 구축합니다.</block>
   <block id="040f37a8d15d49c042b5c21da1018a88" category="paragraph">IAM 사용자는 AWS Marketplace 권한을 가지고 있어야 가입 및 가입 해제할 수 있습니다.</block>
   <block id="b748cb0f2ad325f27d30850a71d55e6d" category="list-text">Marketplace 페이지에서 * Continue to Subscribe * 를 클릭한 다음 * Continue to Configuration * 을 클릭합니다.</block>
   <block id="648fca9db3d7e8e554a59d3519d8b0f6" category="inline-image-macro">AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷</block>
@@ -809,10 +808,8 @@
   <block id="197769c5244e448b93746c973eb17b81" category="list-text">작업 선택 * 에서 * EC2 * 를 통해 시작 * 을 선택한 다음 * 시작 * 을 클릭합니다.</block>
   <block id="b9d63d61319311d69840ec497c3aae41" category="paragraph">다음 단계에서는 콘솔에서 IAM 역할을 Cloud Manager 인스턴스에 연결할 수 있으므로 EC2 콘솔에서 인스턴스를 시작하는 방법을 설명합니다. 웹 사이트에서 시작 * 작업을 사용하면 이 작업을 수행할 수 없습니다.</block>
   <block id="b3472ff32fca13e95a664d2516fabc9d" category="list-text">프롬프트에 따라 인스턴스를 구성하고 배포합니다.</block>
-  <block id="a6828ac7fbbeb95cc7862274b48845dd" category="list-text">* 인스턴스 유형 선택 *: 지역 가용성에 따라 지원되는 인스턴스 유형 중 하나를 선택합니다(T3.xLarge가 권장됨).</block>
   <block id="3346e4a27b0ab9e94d29515e25908ed6" category="inline-link-macro">인스턴스 요구 사항을 검토합니다</block>
   <block id="147baea3682d69bc05c129ad525efc92" category="paragraph"><block ref="febf0a115cd8e255527b99e98806a2dd" category="inline-link-macro-rx"></block>.</block>
-  <block id="05e87e87275d39b74f7a0a5fa72e11f4" category="list-text">* 인스턴스 구성 *: VPC 및 서브넷을 선택하고, 1단계에서 만든 IAM 역할을 선택하고, 종료 보호를 활성화하고(권장), 요구 사항을 충족하는 다른 구성 옵션을 선택합니다.</block>
   <block id="f1e012a5b5a981694252d85992469fd7" category="inline-image-macro">AWS의 인스턴스 구성 페이지에 있는 필드를 보여 주는 스크린샷 1단계에서 만들어야 하는 IAM 역할이 선택됩니다.</block>
   <block id="f9392b26d00f01de79eca77088c996c1" category="paragraph"><block ref="f9392b26d00f01de79eca77088c996c1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="05c4d183e8bff44df2e6ac91133757fd" category="list-text">* 스토리지 추가 *: 기본 스토리지 옵션을 유지합니다.</block>
@@ -1013,7 +1010,6 @@
   <block id="ed949d24ab11f0d2a40c0b8161ab4cf3" category="list-text"><block ref="ed949d24ab11f0d2a40c0b8161ab4cf3" category="inline-link-macro-rx"></block></block>
   <block id="21e74b3c28d006317f38a2bc8eb1da3b" category="inline-link-macro">Azure 마켓플레이스 를 참조하십시오</block>
   <block id="42416828ae8ae7a901a48c71094e7a44" category="list-text"><block ref="42416828ae8ae7a901a48c71094e7a44" category="inline-link-macro-rx"></block></block>
-  <block id="7421da902099eda1935bb2e6574e1747" category="paragraph">작업을 완료하는 데 필요한 경우 Cloud Manager에서 커넥터를 생성하라는 메시지가 표시됩니다.</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">권한</block>
   <block id="176cadcb8516ed122391204572190282" category="paragraph">Connector를 만들려면 특정 권한이 필요하며 Connector 인스턴스 자체에 다른 권한 집합이 필요합니다.</block>
   <block id="dd5605419268a28968870a791ffa5636" category="section-title">Connector를 만들 수 있는 권한</block>
@@ -1049,7 +1045,6 @@
   <block id="8cace447f88df36aff1b15d754f25f8b" category="paragraph"><block ref="34c92eb0b80eb3e0fe9fb66053c42d9e" category="inline-link-macro-rx"></block>.</block>
   <block id="71da84f38b79ce90467a2699cf371e30" category="section-title">로컬 사용자 인터페이스입니다</block>
   <block id="d78e63b2e43a582b35ba2f4c0eac45bd" category="inline-link">SaaS 사용자 인터페이스</block>
-  <block id="fbd47947ca4ebf7d7bec907722dc57c2" category="paragraph">에서 거의 모든 작업을 수행해야 합니다<block ref="8f305b98f88a161e5a1e68aca36c2103" category="inline-link-rx"></block>로컬 사용자 인터페이스는 Connector에서 계속 사용할 수 있습니다. 이 인터페이스는 인터넷에 액세스할 수 없는 환경에 Connector를 설치하고 SaaS 인터페이스 대신 Connector 자체에서 수행해야 하는 몇 가지 작업에 필요합니다.</block>
   <block id="1765f6ca29cc9e21e15e0348d66bfdca" category="inline-link-macro">로컬 UI에 액세스하는 방법을 알아보십시오</block>
   <block id="538fc0c04ce8a0ef5cf78a12dbe8f68a" category="section-title">커넥터 업그레이드</block>
   <block id="d4150be963d8e8a8648985d057b82c98" category="summary">회사 정책에 따라 인터넷에 대한 모든 HTTP 통신에 프록시 서버를 사용해야 하는 경우 해당 HTTP 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
@@ -1543,7 +1538,6 @@
   <block id="f8cccaed0b932ef662605b0a2cef04df" category="list-text">Connector 가상 머신에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.</block>
   <block id="15651752f9388c39de2befbaf44cab09" category="inline-image-macro">NetApp 계정을 선택하고 시스템의 이름을 지정할 수 있는 Cloud Manager 설정 화면을 보여주는 스크린샷</block>
   <block id="36e5523be69425d9ed8506047f0c21c0" category="paragraph"><block ref="36e5523be69425d9ed8506047f0c21c0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="94b1721579eea40ee683582aae52b01e" category="paragraph">이제 커넥터가 설치되고 설정되었습니다. Azure에서 Cloud Volumes ONTAP를 배포하기 전에 Azure 사용 권한을 부여해야 합니다.</block>
   <block id="53093f6c5402328654bf860d6c52db0a" category="section-title">Azure 사용 권한 부여</block>
   <block id="74aac1234eeac8d40c64bd3b59349316" category="paragraph">Azure에서 커넥터를 배포한 경우 을 활성화해야 합니다<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block>. 이제 사용자 지정 역할을 만든 다음 하나 이상의 구독에 대해 Connector 가상 머신에 역할을 할당하여 필요한 Azure 권한을 부여해야 합니다.</block>
   <block id="5baa38c3e3ec02608b08189c2df5b21b" category="paragraph">이제 Connector 가상 머신에 할당할 수 있는 Cloud Manager Operator라는 사용자 지정 역할이 있어야 합니다.</block>
@@ -1786,11 +1780,6 @@
   <block id="1e0ffea311b606e155cd79847cc310dd" category="list-text">IAM 역할 또는 IAM 사용자에 정책을 연결합니다.</block>
   <block id="4522caea722d5e7e4eedf46bebdf92b1" category="list-text">Connector를 생성할 때 Cloud Manager에 IAM 역할의 ARN 또는 IAM 사용자를 위한 AWS 액세스 키 및 비밀 키를 제공합니다.</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">참고 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">계정을 등록하여 지원을 받을 수 있습니다</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">지원 등록은 지원 대시보드의 Cloud Manager에서 가능합니다.</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">Resources * 탭에서 * Register for Support * 를 클릭합니다.</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">등록할 NSS 자격 증명을 선택한 다음 * 등록 * 을 클릭합니다.</block>
   <block id="a6a8d3a613b6b7ece18f688d168e5cda" category="cell">API는 AWS 및 ONTAP, 클라우드 데이터 감지, 랜섬웨어 서비스 요청, AutoSupport 메시지를 NetApp에 전송합니다</block>
   <block id="6dabf2a1195c84bdf3b7bf30e5ddf080" category="cell">API는 GCP 및 ONTAP, 클라우드 데이터 센스, 랜섬웨어 서비스 요청 및 AutoSupport 메시지를 NetApp에 전송합니다</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
@@ -1923,13 +1912,11 @@
   <block id="0ef5e09df96e6b4d97470a69c3a5bb03" category="list-text"><block ref="0ef5e09df96e6b4d97470a69c3a5bb03" category="inline-link-rx"></block></block>
   <block id="c6e51205c48cc37a7cc66b973d442adf" category="inline-link">클라우드 데이터 센스를 사용하여 온프레미스 ONTAP 볼륨 데이터를 스캔합니다</block>
   <block id="a2946220130b0d51ecc66e35f8a65cbe" category="list-text"><block ref="a2946220130b0d51ecc66e35f8a65cbe" category="inline-link-rx"></block></block>
-  <block id="fe287ea744fed512490d3282fcd528aa" category="paragraph">예를 들어, Connector는 Cloud Volumes ONTAP의 상태 및 작동에 있어 핵심 구성 요소입니다. 커넥터 전원이 꺼져 있는 경우 노드 기반 라이센스를 가진 Cloud Volumes ONTAP PAYGO 시스템은 커넥터 통신이 14일 이상 끊긴 후 종료됩니다.</block>
   <block id="f959d763eb10941db3ab7db04cdccc7d" category="paragraph">SaaS 사용자 인터페이스에서 거의 모든 작업을 수행해야 하지만 로컬 사용자 인터페이스는 Connector에서 계속 사용할 수 있습니다. 정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 Cloud Manager에 액세스하는 경우 Connector에서 실행되는 로컬 사용자 인터페이스를 사용해야 합니다.</block>
   <block id="bf16d7909c891a5a760cab0ad77d53bc" category="list-text">로그인하려면 사용자 이름과 암호를 입력하십시오.</block>
   <block id="bb88bf03aaf2d1b8891c8b85df8bd28f" category="paragraph">이러한 지역에서 지원되는 유일한 서비스는 Cloud Volumes ONTAP, 클라우드 백업, 클라우드 데이터 감지 및 복제입니다. 정부 지역에서는 다른 NetApp 서비스가 지원되지 않습니다.</block>
   <block id="4141e80854c65807682dd0ff767b4228" category="inline-link-macro">Connector에서 로컬 UI에 액세스하는 방법에 대해 알아봅니다</block>
   <block id="b5d309d79224e6f55d1d4c6b68090c82" category="paragraph"><block ref="2061c033ff26af000ddf0a91359fc3b2" category="inline-link-macro-rx"></block>.</block>
-  <block id="60eb2845b0a0e58270dc0f4a47eeb2b9" category="paragraph">정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 Cloud Manager에 액세스하는 경우 Connector에서 실행 중인 로컬 사용자 인터페이스에 로그인해야 합니다. <block ref="2061c033ff26af000ddf0a91359fc3b2" category="inline-link-macro-rx"></block>.</block>
   <block id="38ce4e90f119b89b2fdf1f274431e262" category="section-title">2022년 6월 28일</block>
   <block id="47d69a1f17128c359904338c3502fe31" category="section-title">NetApp 자격 증명으로 로그인합니다</block>
   <block id="f646305c890b8deec88379aeecbe56a5" category="paragraph">새로운 사용자가 Cloud Central에 등록하면 이제 NetApp * 옵션을 사용하여 로그인 * 을 선택하여 NetApp Support 사이트 자격 증명으로 로그인할 수 있습니다. 이 방법은 전자 메일 주소와 암호를 입력하는 대신 사용됩니다.</block>
@@ -2387,8 +2374,6 @@
   <block id="9998984c95caccce61e49ca25de1c99f" category="paragraph">등록 양식에는 영어 문자만 사용할 수 있습니다.</block>
   <block id="0948a4e54803455bbc7561374084a508" category="list-text">웹 브라우저를 열고 로 이동합니다<block ref="25c9ce3f64e912d3750c233c5edfffad" category="inline-link-rx"></block></block>
   <block id="92c98a22e55c97d93ef587c4ab17c0c0" category="paragraph">대부분의 경우 Cloud Manager 계정 관리자는 클라우드 또는 온프레미스 네트워크에 _Connector_를 배포해야 합니다. Connector는 Cloud Manager의 일상적인 사용에 있어 중요한 구성요소입니다. Connector를 사용하면 Cloud Manager에서 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다.</block>
-  <block id="6cfc3e268dd85bc996870e9d6e4ee23e" category="paragraph">작업 공간 관리자가 Cloud Volumes ONTAP 작업 환경을 만들고 위에 나열된 다른 서비스를 사용하려면 먼저 Cloud Manager 계정 관리자가 커넥터를 만들어야 합니다. 관리자는 다음과 같은 여러 가지 방법으로 커넥터를 만들 수 있습니다.</block>
-  <block id="7d01d614f55d9a17fd8f5a391015e623" category="list-text">Cloud Manager에 로그인한 후 Cloud Manager 계정 관리자는 클라우드 공급자 또는 사내 네트워크에 _Connector_를 배포해야 합니다. Connector를 사용하면 Cloud Manager에서 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. Azure NetApp Files, Cloud Volumes Service 또는 Cloud Sync에는 커넥터가 필요하지 않지만 Cloud Manager의 다른 모든 서비스와 기능에는 커넥터가 필요합니다. <block ref="fc0525c57d574c03610221b6665bff18" category="inline-link-macro-rx"></block>.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="01f2c0e19d8bbd614814f0651e7feec1" category="section-title">커넥터 3.9.21</block>
   <block id="1beb197487d0f07564b924071751aa36" category="list-text">Cloud Manager에서 아직 관리하지 않는 기존 클라우드 리소스를 검색하는 새로운 방법이 도입되었습니다.</block>
@@ -2526,4 +2511,105 @@
   <block id="d14a27b37d19411318313c75f11baf13" category="inline-link-macro">Cloud Manager에 대한 알림</block>
   <block id="300aa46e11928dbde4552827675beb31" category="list-text"><block ref="300aa46e11928dbde4552827675beb31" category="inline-link-macro-rx"></block></block>
   <block id="84f0978b53ad6dbefb1e08686d6c7c18" category="cell">정부 클라우드 구축 환경에서 Cloud Data Sense 및 Cloud Backup을 활성화하고 사용할 수 있는 기능을 제공합니다. Cloud Manager 계정에서 SaaS 인터페이스를 사용하지 않도록 설정하는 경우 Cloud Backup에도 이 포트가 필요합니다.</block>
+  <block id="dad58696941aaa2124c3e63e968f1ec4" category="paragraph">AWS 상업 지역의 경우 Cloud Manager에서 직접 Connector를 생성하는 것이 가장 좋지만, 원하는 경우 AWS Marketplace에서 Connector를 실행할 수 있습니다. AWS 정부 지역의 경우 Cloud Manager의 SaaS 웹 사이트에서 정부 지역에 Connector를 구축할 수 없으므로 AWS Marketplace에서 다음 번에 선택하는 것이 좋습니다.</block>
+  <block id="0560c44ef22b138c9eed058100e3958f" category="inline-link-macro">기존 Linux 호스트에 커넥터를 설치하는 방법에 대해 알아봅니다</block>
+  <block id="98ff432bce07ea5e0c59f2cf0dadc227" category="admonition">네트워크 또는 클라우드의 기존 Linux 호스트에 Connector 소프트웨어를 다운로드하여 설치할 수도 있습니다. <block ref="4868e0950edab502b69d904c3cd6f0e3" category="inline-link-macro-rx"></block>.</block>
+  <block id="30d512403b06e33cb94352c1729e7d1b" category="section-title">AWS 상업 지역에서 Connector를 생성합니다</block>
+  <block id="8ccda5ecd976ff61f01e8112ac621dbd" category="paragraph">Cloud Manager용 AWS Marketplace 오퍼링을 통해 AWS 상업 지역에서 Connector 인스턴스를 직접 실행할 수 있습니다.</block>
+  <block id="751d9b3a9d8dab30f8b6003eb672ebd0" category="paragraph">Connector를 생성하는 IAM 사용자는 AWS Marketplace 권한을 가지고 있어야 가입 및 가입 해제할 수 있습니다.</block>
+  <block id="b59d97df6f11b73048b61dfe798201ae" category="list-text">로 이동합니다<block ref="46abe95496a5b5a2812b7657abaac71b" category="inline-link-rx"></block> AMI에서 Cloud Manager를 구축하려면 다음을 따르십시오.</block>
+  <block id="d062afbb0dab008c992fc7630e6e5b1d" category="list-text">* 이름 및 태그 *: 인스턴스의 이름과 태그를 입력합니다.</block>
+  <block id="0119f25d0f0675e35d374c56d3828a0b" category="list-text">* 응용 프로그램 및 OS 이미지 *: 이 섹션을 건너뜁니다. Cloud Manager AMI가 이미 선택되었습니다.</block>
+  <block id="2ddbec48a3825e36a3669e60058351a9" category="list-text">* 인스턴스 유형 *: 지역 가용성에 따라 지원되는 인스턴스 유형 중 하나를 선택합니다(T3.xLarge가 권장됨).</block>
+  <block id="a2edeeec0c237aa79e3b1f0eb87b07e4" category="list-text">* 키 쌍(로그인) *: 인스턴스에 안전하게 연결하는 데 사용할 키 쌍을 선택합니다.</block>
+  <block id="db8b616682d262766c36f81013b4f840" category="list-text">* 네트워크 설정 *: 필요에 따라 네트워크 설정을 편집합니다.</block>
+  <block id="c04d267ebc445e8f04c29787ecab6547" category="list-text">원하는 VPC 및 서브넷을 선택합니다.</block>
+  <block id="f851630c999713801d4adbdaeecfc902" category="list-text">인스턴스에 공용 IP 주소가 있어야 하는지 여부를 지정합니다.</block>
+  <block id="d0bf1fb8b3ea2c1aed553c11fcfc2431" category="list-text">Connector 인스턴스에 필요한 연결 방법(SSH, HTTP 및 HTTPS)을 활성화하는 방화벽 설정을 지정합니다.</block>
+  <block id="79b8b9ad9bf89b0b494ac4c62694d70f" category="list-text">* 스토리지 구성 *: 기본 스토리지 옵션을 유지합니다.</block>
+  <block id="ee668a782c901c68308a297c282e1a99" category="list-text">* 고급 세부 정보 *: * IAM intance profile * 에서 1단계에서 만든 IAM 역할을 선택합니다.</block>
+  <block id="00e3e218776ebf2123cac5b55d575b53" category="list-text">* 요약 *: 요약을 검토하고 * 인스턴스 시작 * 을 클릭합니다.</block>
+  <block id="25b2a57ebdd9c77734f7240c452db3ef" category="list-text">웹 브라우저를 열고 로 이동합니다<block ref="ed21e31bd71ab546f26978ff562b5c5d" category="inline-link-rx"></block> Connector with Cloud Manager 사용을 시작합니다.</block>
+  <block id="cb23f220e682583c8219c3f7102e6885" category="section-title">AWS 정부 지역에서 Connector를 생성합니다</block>
+  <block id="ef2f7769ddc9c9f5b8e739ee29b5b594" category="paragraph">AWS 정부 지역에서 Connector를 구축하려면 EC2 서비스로 이동하여 AWS Marketplace에서 Cloud Manager 오퍼링을 선택해야 합니다.</block>
+  <block id="e700080dad34937da55745dc28985788" category="list-text">AWS Marketplace에서 Cloud Manager 제품으로 이동합니다.</block>
+  <block id="614c6375b77e957ec55496649f3b351b" category="list-text">EC2 서비스를 열고 * Launch instance * 를 선택합니다.</block>
+  <block id="1c45874ffe2b0b3918ae446e4018a195" category="list-text">AWS Marketplace * 를 선택합니다.</block>
+  <block id="3858ef45cf9fafde46be5c1089813ca0" category="list-text">Cloud Manager를 검색하고 오퍼링을 선택합니다.</block>
+  <block id="110943a8a4bb96acfaf08f709648cade" category="inline-image-macro">AWS 마켓플레이스에서 검색한 후 Cloud Manager 오퍼링을 보여주는 스크린샷</block>
+  <block id="0c48de0ac9103e1aee875f6ae631d192" category="paragraph"><block ref="0c48de0ac9103e1aee875f6ae631d192" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="26983a904e0717c520032a2178795368" category="list-text">계속 * 을 클릭합니다.</block>
+  <block id="07910e9ec98e7a02ee5b24f85cc660d2" category="list-text">* 인스턴스 유형 선택 *: 지역 가용성에 따라 지원되는 인스턴스 유형 중 하나를 선택합니다(T3.xLarge가 권장됨).</block>
+  <block id="7de969f5ec8b28cd7687e32ca5c245bc" category="list-text">* 인스턴스 세부 정보 구성 *: VPC 및 서브넷을 선택하고, 1단계에서 만든 IAM 역할을 선택하고, 종료 보호(권장)를 활성화하고, 요구 사항을 충족하는 다른 구성 옵션을 선택합니다.</block>
+  <block id="ab055dd2454f72eae9c16179690384d6" category="paragraph">이제 Connector가 NetApp 계정으로 설치 및 설정됩니다.</block>
+  <block id="ffd720233eaf31d1f3e418cbededed22" category="paragraph">Cloud Manager를 사용하려는 경우 언제든지 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다.<block ref="a60ca185b138421b16753fe169ef52b7" category="inline-link-rx"></block></block>
+  <block id="d4d1e4d7a1862b2f824535c50d2aef05" category="paragraph">Connector는 정부 지역에 배포되었기 때문에 에서 액세스할 수 없습니다<block ref="ed21e31bd71ab546f26978ff562b5c5d" category="inline-link-rx"></block>.</block>
+  <block id="028ecb795c7225a3860d19dee3ea530c" category="paragraph">정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 Cloud Manager에 액세스하는 경우 Connector를 생성한 후 로컬 사용자 인터페이스에 로그인해야 합니다. <block ref="2061c033ff26af000ddf0a91359fc3b2" category="inline-link-macro-rx"></block>.</block>
+  <block id="85926b387833c0d2d9c8da74b9b2c8f2" category="paragraph">Azure 상용 지역의 경우 Cloud Manager에서 직접 Connector를 생성하는 것이 가장 좋지만, 원하는 경우 Azure Marketplace에서 Connector를 실행할 수 있습니다. Azure Government 지역의 경우 Cloud Manager의 SaaS 웹 사이트에서 Connector를 정부 지역에 배포할 수 없으므로, Azure 마켓플레이스에서 이 옵션을 선택하는 것이 좋습니다.</block>
+  <block id="5c7c86fa3a72eff2eda7fc5d06d22cc8" category="paragraph">Connector가 Azure 상용 지역에 있는 경우 웹 브라우저를 열고 로 이동합니다<block ref="ed21e31bd71ab546f26978ff562b5c5d" category="inline-link-rx"></block> Connector with Cloud Manager 사용을 시작합니다.</block>
+  <block id="4ff576acdb8dc9245e9af2a935cc45a5" category="paragraph">Connector가 Azure Government 지역에 있는 경우 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager를 사용할 수 있습니다.<block ref="a60ca185b138421b16753fe169ef52b7" category="inline-link-rx"></block></block>
+  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 Cloud Manager에 추가한 다음 지원을 등록해야 합니다.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
+  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">Cloud Manager 계정 ID 지원 구독 등록(Cloud Manager의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
+  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">이 ID는 Cloud Manager 내의 모든 서비스에 대한 단일 지원 구독 ID로 사용됩니다. 각 Cloud Manager 계정 레벨 지원 구독을 등록해야 합니다.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
+  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">이러한 일련 번호를 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 구축 시 Cloud Manager에서 생성됩니다.</block>
+  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">두 유형의 제품 번호를 등록하면 지원 티켓 열기, 자동 케이스 생성 및 Active IQ 등의 기능을 사용할 수 있습니다.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">등록 방법은 신규 고객인지, 기존 고객인지 또는 파트너인지에 따라 다릅니다.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">기존 고객 또는 파트너</block>
+  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">기존 NetApp 고객 또는 파트너는 NSS(NetApp Support 사이트) SSO 계정을 사용하여 위에서 이러한 등록을 수행할 수 있습니다. 지원 대시보드에서 Cloud Manager는 NSS 계정을 추가할 수 있는 * NSS 관리 * 페이지를 제공합니다. NSS 계정을 추가하면 Cloud Manager에서 자동으로 이러한 일련 번호를 등록합니다.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSS 계정을 추가하는 방법에 대해 알아봅니다</block>
+  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp이 처음입니다</block>
+  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">NetApp이 처음인 파트너는 NetApp의 지원 등록 사이트에서 Cloud Manager 계정 ID 일련 번호를 한 번 등록해야 합니다. 이 등록을 완료하고 새 NSS 계정을 만들면 Cloud Manager에서 이 계정을 사용하여 앞으로 자동 등록할 수 있습니다.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">NetApp에 등록하는 방법을 알아보십시오</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">NSS 계정을 Cloud Manager에 추가합니다</block>
+  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">이러한 작업을 통해 Cloud Manager는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다. 이 ID는 이메일에 매핑되는 시스템에서 생성된 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴. 이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">NetApp에 등록</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
+  <block id="d4b6092976537c153c496a428098980c" category="paragraph">NSS 계정을 가진 NetApp 고객은 Cloud Manager를 통해 지원을 위해 등록하기만 하면 됩니다.</block>
+  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">아직 추가하지 않은 경우 NSS 계정을 Cloud Manager에 추가합니다.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Resources * 페이지에서 * Register for Support * 를 클릭합니다.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">계정 일련 번호 및 지원 등록 옵션을 보여 주는 스크린샷</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">기존 사용권 및 제품 번호를 가지고 있지만 _NO_NSS 계정을 가지고 있는 기존 NetApp 고객은 NSS 계정을 만들어야 합니다.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">를 완료하여 NetApp Support 사이트 계정을 생성합니다<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">적절한 사용자 레벨(일반적으로 * NetApp 고객/최종 사용자 *)을 선택해야 합니다.</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">일련 번호 필드에 위에서 사용된 Cloud Manager 계정 일련 번호(960xxxx)를 복사합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp이 처음이었습니다</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp의 새로운 브랜드이고 NSS 계정이 없는 경우 아래의 각 단계를 수행하십시오.</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">지원 등록 페이지에서 Cloud Manager 계정 ID 일련 번호를 찾습니다.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp의 지원 등록 사이트</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">로 이동합니다<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 를 선택하고 * 등록된 NetApp 고객이 아닙니다 * 를 선택합니다.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">필수 필드(빨간색 별표가 있는 필드)를 입력합니다.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[제품 라인] * 필드에서 * Cloud Manager * 를 선택한 다음 해당 청구 공급자를 선택합니다.</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">위의 2단계에서 Cloud Manager 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 보안 트랜잭션을 완료하기 위해 제공된 사서함으로 즉시 이메일이 전송됩니다. 몇 분 내에 확인 이메일이 도착하지 않으면 스팸 폴더를 확인해야 합니다.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
+  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">NetApp Support 사이트 계정이 있으면 Cloud Manager로 이동하여 향후 등록을 위해 이 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="b2066702e3e6316940ded0c6aa30980d" category="list-text">Cloud Manager에 로그인한 후 Cloud Manager 계정 관리자는 클라우드 공급자 또는 사내 네트워크에 _Connector_를 배포해야 합니다. Connector를 사용하면 Cloud Manager에서 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. Connector는 대부분의 경우 필요하지만 Cloud Manager의 모든 서비스와 기능은 필요하지 않습니다. <block ref="fc0525c57d574c03610221b6665bff18" category="inline-link-macro-rx"></block>.</block>
+  <block id="7608a60c77d3b58b2fe8cdc80a69c915" category="admonition">아웃바운드 인터넷 액세스를 사용할 수 없는 환경에서 작업 중인 경우 해당 환경에 Connector 소프트웨어를 설치하고 Connector에서 사용할 수 있는 로컬 사용자 인터페이스에 액세스할 수 있습니다. <block ref="c5bcec7879e3189e4c7a5fdbd8b19a5b" category="inline-link-macro-rx"></block>.</block>
+  <block id="398448ac9e129f38d5f9d9b9e4710793" category="paragraph">예를 들어, Connector는 Cloud Volumes ONTAP의 상태 및 작동에 있어 핵심 구성 요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템은 커넥터와의 통신이 14일 이상 끊긴 후 종료됩니다.</block>
+  <block id="b46003b26b49cd1b627ec1666586013e" category="summary">정부 지역에서 운영하는 경우 클라우드 공급자의 마켓플레이스에서 또는 수동 설치 방법을 사용하여 Connector를 배포해야 합니다. Cloud Manager의 SaaS 웹 사이트에서 정부 지역에 Connector를 구축할 수 없습니다.</block>
+  <block id="e329219d5ceb07040d4a92f76918e18c" category="doc">정부 지역에서 커넥터를 생성합니다</block>
+  <block id="269732fe326fedbab2007fcb7c8f5090" category="paragraph">정부 지역에서 운영 중인 경우 클라우드 공급자의 마켓플레이스에서 Connector를 배포하거나 기존 Linux 호스트에 Connector 소프트웨어를 수동으로 설치해야 합니다. Cloud Manager의 SaaS 웹 사이트에서 정부 지역에 Connector를 구축할 수 없습니다.</block>
+  <block id="e822c1cd07b3639eedf5f1bedb9beaa0" category="list-text"><block ref="e822c1cd07b3639eedf5f1bedb9beaa0" category="inline-link-macro-rx"></block></block>
+  <block id="58e61369cd7221124732850e5e76afa5" category="list-text"><block ref="58e61369cd7221124732850e5e76afa5" category="inline-link-macro-rx"></block></block>
+  <block id="ed735c903ed6cdbd695395bc4d404651" category="inline-link-macro">자체 Linux 호스트에 커넥터를 설치합니다</block>
+  <block id="1dbe2aafec7f9c19eaf4c72558a8bc64" category="list-text"><block ref="1dbe2aafec7f9c19eaf4c72558a8bc64" category="inline-link-macro-rx"></block></block>
+  <block id="32ca71310dadc8fc1c3dc9edd297e66e" category="paragraph">Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager에 액세스할 수 있습니다.<block ref="a60ca185b138421b16753fe169ef52b7" category="inline-link-rx"></block></block>
+  <block id="9878eb7f6fc13faa4a717cc5b1192951" category="paragraph">Cloud Manager 계정 관리자는 다음과 같은 다양한 방법으로 Connector를 생성할 수 있습니다.</block>
+  <block id="08bcb1ae91400f74899c5825a1f7973c" category="paragraph">에서 거의 모든 작업을 수행해야 합니다<block ref="8f305b98f88a161e5a1e68aca36c2103" category="inline-link-rx"></block>로컬 사용자 인터페이스는 Connector에서 계속 사용할 수 있습니다. 이 인터페이스는 인터넷에 액세스할 수 없는 환경(정부 지역 등)에 Connector를 설치하고 SaaS 인터페이스 대신 Connector 자체에서 수행해야 하는 몇 가지 작업에 필요합니다.</block>
 </blocks>

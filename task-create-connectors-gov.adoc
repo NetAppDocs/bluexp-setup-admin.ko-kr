@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task-create-connectors-gov.html 
+keywords: government region, gov, govcloud, connector 
+summary: 정부 지역에서 운영하는 경우 클라우드 공급자의 마켓플레이스에서 또는 수동 설치 방법을 사용하여 Connector를 배포해야 합니다. Cloud Manager의 SaaS 웹 사이트에서 정부 지역에 Connector를 구축할 수 없습니다. 
+---
+= 정부 지역에서 커넥터를 생성합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+정부 지역에서 운영 중인 경우 클라우드 공급자의 마켓플레이스에서 Connector를 배포하거나 기존 Linux 호스트에 Connector 소프트웨어를 수동으로 설치해야 합니다. Cloud Manager의 SaaS 웹 사이트에서 정부 지역에 Connector를 구축할 수 없습니다.
+
+* link:task-launching-aws-mktp.html#create-the-connector-in-an-aws-government-region["AWS Marketplace에서 Connector를 생성합니다"]
+* link:task-launching-azure-mktp.html["Azure Marketplace에서 Connector를 생성합니다"]
+* link:task-installing-linux.html["자체 Linux 호스트에 커넥터를 설치합니다"]
+
+
+Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager에 액세스할 수 있습니다. http://_ipaddress_:80[]
+
+Connector는 정부 지역에 배포되었기 때문에 에서 액세스할 수 없습니다 https://cloudmanager.netapp.com[].
