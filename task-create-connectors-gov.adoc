@@ -19,6 +19,9 @@ summary: 정부 지역에서 운영하는 경우 클라우드 공급자의 마�
 * link:task-launching-aws-mktp.html#create-the-connector-in-an-aws-government-region["AWS Marketplace에서 Connector를 생성합니다"]
 * link:task-launching-azure-mktp.html["Azure Marketplace에서 Connector를 생성합니다"]
 * link:task-installing-linux.html["자체 Linux 호스트에 커넥터를 설치합니다"]
++
+자체 Linux 호스트에 수동으로 설치하려면 "온라인" 설치 프로그램을 사용하여 인터넷에 액세스할 수 있는 호스트에 커넥터를 설치해야 합니다. Cloud Manager에는 별도의 "오프라인" 설치 관리자가 있지만 인터넷에 액세스할 수 없는 사내 사이트에서만 지원됩니다. 정부 지역에서는 지원되지 않습니다.
+
 
 
 Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager에 액세스할 수 있습니다. http://_ipaddress_:80[]

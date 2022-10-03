@@ -67,7 +67,7 @@ Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버�
 +
 [source, cli]
 ----
-sudo sysctl enable docker && sudo sysctl start docker
+sudo systemctl enable docker && sudo systemctl start docker
 ----
 . 에서 Cloud Manager 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^].
 . Linux 호스트에 설치 프로그램을 복사합니다.
