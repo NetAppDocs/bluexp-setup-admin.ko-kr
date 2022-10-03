@@ -2609,11 +2609,10 @@
   <block id="9878eb7f6fc13faa4a717cc5b1192951" category="paragraph">Cloud Manager 계정 관리자는 다음과 같은 다양한 방법으로 Connector를 생성할 수 있습니다.</block>
   <block id="08bcb1ae91400f74899c5825a1f7973c" category="paragraph">에서 거의 모든 작업을 수행해야 합니다<block ref="8f305b98f88a161e5a1e68aca36c2103" category="inline-link-rx"></block>로컬 사용자 인터페이스는 Connector에서 계속 사용할 수 있습니다. 이 인터페이스는 인터넷에 액세스할 수 없는 환경(정부 지역 등)에 Connector를 설치하고 SaaS 인터페이스 대신 Connector 자체에서 수행해야 하는 몇 가지 작업에 필요합니다.</block>
   <block id="08072de6f5a921907c2b45d019f7d63c" category="paragraph">자체 Linux 호스트에 수동으로 설치하려면 "온라인" 설치 프로그램을 사용하여 인터넷에 액세스할 수 있는 호스트에 커넥터를 설치해야 합니다. Cloud Manager에는 별도의 "오프라인" 설치 관리자가 있지만 인터넷에 액세스할 수 없는 사내 사이트에서만 지원됩니다. 정부 지역에서는 지원되지 않습니다.</block>
-  <block id="0d5ee8e9bcc8751b7e244c6060a8ce2e" category="paragraph"><block ref="0d5ee8e9bcc8751b7e244c6060a8ce2e" category="inline-link-rx"></block></block>
-  <block id="1b5c2413dd231baab0a3590fccf0cb20" category="paragraph">Cloud Manager를 사용하려는 경우 언제든지 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다.<block ref="8670a7b523e8c6a97ef9ebe1b38202af" category="inline-link-rx"></block></block>
-  <block id="5e50b798e9d8415fb0ee66559aedf39e" category="paragraph">Connector가 Azure Government 지역에 있는 경우 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager를 사용할 수 있습니다.<block ref="8670a7b523e8c6a97ef9ebe1b38202af" category="inline-link-rx"></block></block>
   <block id="654a986da1d7f49a7d2efc48def362d3" category="paragraph">커넥터 작성에 대한 지침을 보려면 다음 링크 중 하나를 사용하십시오.</block>
   <block id="f6142793a7fc590c102faad49ea20e0e" category="inline-link">AWS C2S 환경에서 커넥터 및 Cloud Volumes ONTAP를 생성합니다</block>
   <block id="c9bea61d35e54e0303121feefa6c6e14" category="list-text"><block ref="c9bea61d35e54e0303121feefa6c6e14" category="inline-link-rx"></block></block>
-  <block id="afba41e19132010c49cd4b192f7f2518" category="paragraph">Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager에 액세스할 수 있습니다.<block ref="8670a7b523e8c6a97ef9ebe1b38202af" category="inline-link-rx"></block></block>
+  <block id="dd67adbc83557c45a033469a2632edbb" category="paragraph">Cloud Manager를 사용하려는 경우 언제든지 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다.<block ref="e3a51e84cbbae6e45a585984f3be3fd0" category="inline-link-rx"></block></block>
+  <block id="4fc63d83f4164273804f76277bc9b0d3" category="paragraph">Connector가 Azure Government 지역에 있는 경우 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager를 사용할 수 있습니다.<block ref="e3a51e84cbbae6e45a585984f3be3fd0" category="inline-link-rx"></block></block>
+  <block id="58048ddb566733365166efeac45f2917" category="paragraph">Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager에 액세스할 수 있습니다.<block ref="e3a51e84cbbae6e45a585984f3be3fd0" category="inline-link-rx"></block></block>
 </blocks>
