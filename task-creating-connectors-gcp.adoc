@@ -501,7 +501,7 @@ kms - 키 경로:: (선택 사항) 커넥터 디스크를 암호화하는 KMS �
 
 . Connector 인스턴스에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
-http://_ipaddress_:80[]
+http://_ipaddress_[]
 
 . 로그인한 후 Connector를 설정합니다.
 +

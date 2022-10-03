@@ -760,7 +760,6 @@
   <block id="3725c308cfc8c643d641a79a6973de6a" category="paragraph">이러한 플래그에 대한 자세한 내용은 를 참조하십시오 <block ref="da0fbb66abe85889cc98553ca2ce188d" category="inline-link-macro-rx"></block>.</block>
   <block id="6e73017040e152e8818eb7f83bc493fc" category="paragraph">명령을 실행하면 NetApp 골드 이미지를 사용하여 Connector가 구축됩니다. Connector 인스턴스 및 소프트웨어는 약 5분 내에 실행되어야 합니다.</block>
   <block id="bd9691461cb90d45ce8386aaf15e21a6" category="list-text">Connector 인스턴스에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.</block>
-  <block id="2dfdf7b0d4a150072509d59652cddbf7" category="paragraph"><block ref="2dfdf7b0d4a150072509d59652cddbf7" category="inline-link-rx"></block></block>
   <block id="a00513d5f518d02aa962d5bbb308cdfb" category="list-text">로그인한 후 Connector를 설정합니다.</block>
   <block id="759ba4e73fa8a63f85961494f316d3ed" category="list-text">Connector와 연결할 NetApp 계정을 지정합니다.</block>
   <block id="531dd1abfed48af076a56cbf57b47ca8" category="inline-link-macro">NetApp 계정 에 대해 알아보십시오</block>
@@ -2542,12 +2541,10 @@
   <block id="07910e9ec98e7a02ee5b24f85cc660d2" category="list-text">* 인스턴스 유형 선택 *: 지역 가용성에 따라 지원되는 인스턴스 유형 중 하나를 선택합니다(T3.xLarge가 권장됨).</block>
   <block id="7de969f5ec8b28cd7687e32ca5c245bc" category="list-text">* 인스턴스 세부 정보 구성 *: VPC 및 서브넷을 선택하고, 1단계에서 만든 IAM 역할을 선택하고, 종료 보호(권장)를 활성화하고, 요구 사항을 충족하는 다른 구성 옵션을 선택합니다.</block>
   <block id="ab055dd2454f72eae9c16179690384d6" category="paragraph">이제 Connector가 NetApp 계정으로 설치 및 설정됩니다.</block>
-  <block id="ffd720233eaf31d1f3e418cbededed22" category="paragraph">Cloud Manager를 사용하려는 경우 언제든지 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다.<block ref="a60ca185b138421b16753fe169ef52b7" category="inline-link-rx"></block></block>
   <block id="d4d1e4d7a1862b2f824535c50d2aef05" category="paragraph">Connector는 정부 지역에 배포되었기 때문에 에서 액세스할 수 없습니다<block ref="ed21e31bd71ab546f26978ff562b5c5d" category="inline-link-rx"></block>.</block>
   <block id="028ecb795c7225a3860d19dee3ea530c" category="paragraph">정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 Cloud Manager에 액세스하는 경우 Connector를 생성한 후 로컬 사용자 인터페이스에 로그인해야 합니다. <block ref="2061c033ff26af000ddf0a91359fc3b2" category="inline-link-macro-rx"></block>.</block>
   <block id="85926b387833c0d2d9c8da74b9b2c8f2" category="paragraph">Azure 상용 지역의 경우 Cloud Manager에서 직접 Connector를 생성하는 것이 가장 좋지만, 원하는 경우 Azure Marketplace에서 Connector를 실행할 수 있습니다. Azure Government 지역의 경우 Cloud Manager의 SaaS 웹 사이트에서 Connector를 정부 지역에 배포할 수 없으므로, Azure 마켓플레이스에서 이 옵션을 선택하는 것이 좋습니다.</block>
   <block id="5c7c86fa3a72eff2eda7fc5d06d22cc8" category="paragraph">Connector가 Azure 상용 지역에 있는 경우 웹 브라우저를 열고 로 이동합니다<block ref="ed21e31bd71ab546f26978ff562b5c5d" category="inline-link-rx"></block> Connector with Cloud Manager 사용을 시작합니다.</block>
-  <block id="4ff576acdb8dc9245e9af2a935cc45a5" category="paragraph">Connector가 Azure Government 지역에 있는 경우 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager를 사용할 수 있습니다.<block ref="a60ca185b138421b16753fe169ef52b7" category="inline-link-rx"></block></block>
   <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 Cloud Manager에 추가한 다음 지원을 등록해야 합니다.</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
@@ -2609,8 +2606,14 @@
   <block id="58e61369cd7221124732850e5e76afa5" category="list-text"><block ref="58e61369cd7221124732850e5e76afa5" category="inline-link-macro-rx"></block></block>
   <block id="ed735c903ed6cdbd695395bc4d404651" category="inline-link-macro">자체 Linux 호스트에 커넥터를 설치합니다</block>
   <block id="1dbe2aafec7f9c19eaf4c72558a8bc64" category="list-text"><block ref="1dbe2aafec7f9c19eaf4c72558a8bc64" category="inline-link-macro-rx"></block></block>
-  <block id="32ca71310dadc8fc1c3dc9edd297e66e" category="paragraph">Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager에 액세스할 수 있습니다.<block ref="a60ca185b138421b16753fe169ef52b7" category="inline-link-rx"></block></block>
   <block id="9878eb7f6fc13faa4a717cc5b1192951" category="paragraph">Cloud Manager 계정 관리자는 다음과 같은 다양한 방법으로 Connector를 생성할 수 있습니다.</block>
   <block id="08bcb1ae91400f74899c5825a1f7973c" category="paragraph">에서 거의 모든 작업을 수행해야 합니다<block ref="8f305b98f88a161e5a1e68aca36c2103" category="inline-link-rx"></block>로컬 사용자 인터페이스는 Connector에서 계속 사용할 수 있습니다. 이 인터페이스는 인터넷에 액세스할 수 없는 환경(정부 지역 등)에 Connector를 설치하고 SaaS 인터페이스 대신 Connector 자체에서 수행해야 하는 몇 가지 작업에 필요합니다.</block>
   <block id="08072de6f5a921907c2b45d019f7d63c" category="paragraph">자체 Linux 호스트에 수동으로 설치하려면 "온라인" 설치 프로그램을 사용하여 인터넷에 액세스할 수 있는 호스트에 커넥터를 설치해야 합니다. Cloud Manager에는 별도의 "오프라인" 설치 관리자가 있지만 인터넷에 액세스할 수 없는 사내 사이트에서만 지원됩니다. 정부 지역에서는 지원되지 않습니다.</block>
+  <block id="0d5ee8e9bcc8751b7e244c6060a8ce2e" category="paragraph"><block ref="0d5ee8e9bcc8751b7e244c6060a8ce2e" category="inline-link-rx"></block></block>
+  <block id="1b5c2413dd231baab0a3590fccf0cb20" category="paragraph">Cloud Manager를 사용하려는 경우 언제든지 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다.<block ref="8670a7b523e8c6a97ef9ebe1b38202af" category="inline-link-rx"></block></block>
+  <block id="5e50b798e9d8415fb0ee66559aedf39e" category="paragraph">Connector가 Azure Government 지역에 있는 경우 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager를 사용할 수 있습니다.<block ref="8670a7b523e8c6a97ef9ebe1b38202af" category="inline-link-rx"></block></block>
+  <block id="654a986da1d7f49a7d2efc48def362d3" category="paragraph">커넥터 작성에 대한 지침을 보려면 다음 링크 중 하나를 사용하십시오.</block>
+  <block id="f6142793a7fc590c102faad49ea20e0e" category="inline-link">AWS C2S 환경에서 커넥터 및 Cloud Volumes ONTAP를 생성합니다</block>
+  <block id="c9bea61d35e54e0303121feefa6c6e14" category="list-text"><block ref="c9bea61d35e54e0303121feefa6c6e14" category="inline-link-rx"></block></block>
+  <block id="afba41e19132010c49cd4b192f7f2518" category="paragraph">Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager에 액세스할 수 있습니다.<block ref="8670a7b523e8c6a97ef9ebe1b38202af" category="inline-link-rx"></block></block>
 </blocks>

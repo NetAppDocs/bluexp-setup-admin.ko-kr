@@ -70,7 +70,7 @@ AWS가 지정된 설정으로 소프트웨어를 시작합니다. Connector 인�
 
 . Connector 인스턴스에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
-http://_ipaddress_:80[]
+http://_ipaddress_[]
 
 . 로그인한 후 Connector를 설정합니다.
 +
@@ -139,7 +139,7 @@ AWS가 지정된 설정으로 소프트웨어를 시작합니다. Connector 인�
 
 . Connector 인스턴스에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
-http://_ipaddress_:80[]
+http://_ipaddress_[]
 
 . 로그인한 후 Connector를 설정합니다.
 +
@@ -157,7 +157,7 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 
 이제 Connector가 NetApp 계정으로 설치 및 설정됩니다.
 
-Cloud Manager를 사용하려는 경우 언제든지 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다. http://_ipaddress_:80[]
+Cloud Manager를 사용하려는 경우 언제든지 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다. http://_ipaddress_[]
 
 Connector는 정부 지역에 배포되었기 때문에 에서 액세스할 수 없습니다 https://cloudmanager.netapp.com[].
 
