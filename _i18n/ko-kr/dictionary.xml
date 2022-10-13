@@ -688,7 +688,6 @@
   <block id="c30c9ad6a6f620b9a2a07c6f14399a1e" category="list-text"><block ref="63a6eacd526447284dd7555861e56994" category="inline-link-rx"></block>.</block>
   <block id="37a4b78df3288cf5c1bd086a6d1d5f9f" category="inline-link">Cloud Manager 역할을 가진 서비스 계정을 해당 프로젝트에 추가하여 액세스 권한을 부여합니다</block>
   <block id="24e3dee161bfcb834ffc481206a123e7" category="list-text">다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우<block ref="7fd81496d9765541412df8e9d20889a5" category="inline-link-rx"></block>. 각 프로젝트에 대해 이 단계를 반복해야 합니다.</block>
-  <block id="436551d909ff1add0114d9105eddf95f" category="section-title">공유 VPC 권한</block>
   <block id="15660d75ef0f69d0acd64487e9544b7a" category="paragraph">공유 VPC를 사용하여 리소스를 서비스 프로젝트에 구축하는 경우 다음과 같은 권한이 필요합니다. 이 표는 참조용이며 IAM 구성이 완료되면 사용 권한 테이블이 환경에 반영되어야 합니다.</block>
   <block id="ef1d00d8a237a1bbe431e1091f5715fb" category="cell">창조자</block>
   <block id="b3b70561d21898703c46811dcb865200" category="cell">에서 호스팅됩니다</block>
@@ -1117,7 +1116,6 @@
   <block id="ffcad347e7fbe5448bc3fabe48be2db8" category="paragraph">Connector는 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하기 위해 다음 엔드포인트에 연결하는 아웃바운드 인터넷 액세스를 필요로 합니다.</block>
   <block id="8963387394e2ee3e2a5a9ba160566a58" category="cell">https://support.netapp.com 으로 문의하십시오</block>
   <block id="db9e137068a05efe5440105c2494b7f1" category="cell">라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다.</block>
-  <block id="9e434ddc2ad4b9de005368b77254223d" category="cell">https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오</block>
   <block id="6021edb3dc94e2b4496476a9e46f9e38" category="cell">Cloud Manager 내에서 SaaS 기능 및 서비스를 제공합니다.</block>
   <block id="554841a7559bd190d883de523464d1d1" category="cell">https://cloudmanagerinfraprod.azurecr.io \https://*.blob.core.windows.net 으로 문의하십시오</block>
   <block id="065880318484084e9bfe33ea9c6a8702" category="cell">Connector 및 해당 Docker 구성 요소를 업그레이드합니다.</block>
@@ -1510,8 +1508,6 @@
   <block id="7941f4ec9829eb5baad10a6f908245f5" category="cell">클라우드 키 관리 서비스(Cloud Volumes ONTAP 포함)에서 고객이 관리하는 암호화 키를 사용하려면</block>
   <block id="47ba3a5c64279fe36c99fd745c770415" category="cell">-compute.instances.setServiceAccount -iam.serviceAccounts.actAs -iam.serviceAccounts.getIamPolicy -iam.serviceAccounts.list -storage.objects.get-storage.objects.list 를 참조하십시오</block>
   <block id="0e6cd912fcc55d354754239bbb3b910e" category="cell">Cloud Volumes ONTAP 인스턴스에서 서비스 계정을 설정하려면 이 서비스 계정은 Google Cloud Storage 버킷에 대한 데이터 계층화 권한을 제공합니다.</block>
-  <block id="d2c6cfd5802914828d96e32d814067c8" category="cell">-compute.addresses.list-compute.backendServices.create-compute.networks.updatePolicy-compute.regionBackendServices.create-compute.regionBackendServices.get-compute.regionBackendServices.list를 참조하십시오</block>
-  <block id="f8f6d7002b5f0b250f8f9b5e203c6988" category="cell">HA 쌍을 구축합니다.</block>
   <block id="7ae509c8f6a49ea947573abf4cb9d134" category="cell">compute.subnetworks.us e-compute.subnetworks.useExternalIp - compute.instances.addAccessConfig 으로 문의하십시오</block>
   <block id="cfce2399f4f36929c6a0ea17350ac8aa" category="cell">클라우드 데이터 센스를 활성화하려면</block>
   <block id="f85c74998244978e7f2016bbc795aea2" category="cell">-container.clusters.get-container.clusters.list 를 참조하십시오</block>
@@ -2272,7 +2268,6 @@
   <block id="a4b90b417735642fce23ce0ce7441ca3" category="paragraph">Connector VM에 대한 서비스 계정이 설정되어 있습니다.</block>
   <block id="aecabcaa0f622aafe82a445d66cf8ca7" category="inline-link-macro">위의 이 섹션에 있는 사용 권한</block>
   <block id="3c011542a6f32f96698424943f4c21db" category="list-text"><block ref="3c011542a6f32f96698424943f4c21db" category="inline-link-macro-rx"></block></block>
-  <block id="e99cec7b008996e3bd5b81e8019e24ba" category="list-text"><block ref="e99cec7b008996e3bd5b81e8019e24ba" category="inline-link-macro-rx"></block></block>
   <block id="f56eaa1aab7c91f2f987469fb824ff7a" category="inline-link-macro">필요한 AWS 권한을 확인합니다</block>
   <block id="c3eae6aa2c5fdc205f8fa520ed336419" category="list-text"><block ref="c3eae6aa2c5fdc205f8fa520ed336419" category="inline-link-macro-rx"></block></block>
   <block id="bcccd030f9d90bb330cfffec45ec9788" category="inline-link-macro">필요한 Azure 권한을 봅니다</block>
@@ -2485,13 +2480,8 @@
   <block id="e22a4abc98b47ca148e0dfda7e259162" category="doc">Google Cloud의 방화벽 규칙</block>
   <block id="05070f603d4009196dfaec7e5ec5e933" category="paragraph">Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아웃바운드 인터넷 연결이 없는 경우 Cloud Manager는 해당 Cloud Volumes ONTAP 시스템이 커넥터에 포함된 프록시 서버를 사용하도록 자동으로 구성합니다. 유일한 요구 사항은 커넥터 보안 그룹이 포트 3128을 통한 인바운드 연결을 허용하는지 확인하는 것입니다. 커넥터를 배포한 후 이 포트를 열어야 합니다.</block>
   <block id="a4359ad4c0ffb5518aa6c64f29f02b5b" category="paragraph">사용자 지정 역할을 만들고 첨부하여 Google Cloud 계정에 올바른 권한이 있는지 확인합니다.</block>
-  <block id="79b5e164502a529d170531ef62df5f6e" category="inline-xref">사용자 지정 역할을 봅니다</block>
-  <block id="41b98c70857fbd877eaa6d5aa2afb38f" category="paragraph"><block ref="56342c0f42ba8cc53bfd82f726307829" category="inline-xref-macro-rx"></block>.</block>
   <block id="f3644ee5935c45fc9eda641aff25c872" category="paragraph">Connector VM을 생성할 때 서비스 계정에 연결해야 합니다. 이 서비스 계정에는 Google Cloud에서 리소스를 관리할 수 있는 권한이 있는 사용자 지정 역할이 있어야 합니다.</block>
-  <block id="10b8e1fabef4ff1cdc6916e0d45fd2d9" category="paragraph"><block ref="43195205bf0c290642c5b60423b88943" category="inline-xref-macro-rx"></block>.</block>
-  <block id="01790991bacd709c167c554d551529eb" category="list-title">span class="image"&gt;&lt;img src=<block ref="687851ea92b6566013c78343fcd6878f" category="inline-link-rx"></block> Alt="4"&gt;&lt;/span&gt; Google Cloud API를 활성화합니다</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="section-title">권한 설정</block>
-  <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">서비스 계정을 설정합니다</block>
   <block id="3824876226172edfe0f17e8022b60fda" category="section-title">Google Cloud API를 활성화합니다</block>
   <block id="abfd76b9567ca082322504a092e076c7" category="list-text">* 세부 정보 *: 가상 머신 인스턴스의 이름을 입력하고, 태그를 지정하고, 프로젝트를 선택한 다음 필요한 권한이 있는 서비스 계정을 선택합니다(자세한 내용은 위의 섹션 참조).</block>
   <block id="0e4b0391e50169d97fc505f0c73a94ba" category="paragraph">커넥터는 해당 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포하거나 에 배포되어야 합니다<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다.</block>
@@ -2615,4 +2605,23 @@
   <block id="dd67adbc83557c45a033469a2632edbb" category="paragraph">Cloud Manager를 사용하려는 경우 언제든지 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다.<block ref="e3a51e84cbbae6e45a585984f3be3fd0" category="inline-link-rx"></block></block>
   <block id="4fc63d83f4164273804f76277bc9b0d3" category="paragraph">Connector가 Azure Government 지역에 있는 경우 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager를 사용할 수 있습니다.<block ref="e3a51e84cbbae6e45a585984f3be3fd0" category="inline-link-rx"></block></block>
   <block id="58048ddb566733365166efeac45f2917" category="paragraph">Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 Cloud Manager에 액세스할 수 있습니다.<block ref="e3a51e84cbbae6e45a585984f3be3fd0" category="inline-link-rx"></block></block>
+  <block id="e57298db10eaab02d032c6ff2a9e6fdd" category="cell">-compute.addresses.list 를 참조하십시오</block>
+  <block id="43e22af3bd90038d6c1a4c68927d2d7e" category="cell">HA 쌍을 구축할 때 영역의 주소를 검색합니다.</block>
+  <block id="f506121b724cd6d8d13fbaddaf1c64d6" category="cell">-compute.backendServices.create-compute.regionBackendServices.create-compute.regionBackendServices.get-compute.regionBackendServices.list를 참조하십시오</block>
+  <block id="ab989208a01fcee6c888dec1f39482d9" category="cell">HA 쌍으로 트래픽을 분산하기 위한 백엔드 서비스를 구성합니다.</block>
+  <block id="739bf63a1a7b0a2e180e692ece9b9b11" category="cell">compute.networks.updatePolicy 으로 문의하십시오</block>
+  <block id="40601d6546f763ec088fee026a0da641" category="cell">HA 쌍에 대한 VPC 및 서브넷에 방화벽 규칙을 적용합니다.</block>
+  <block id="f61e4d929e921b5a3ae0bb6f78fe9b6c" category="cell">https://*.cloudmanager.cloud.netapp.com \https://cloudmanager.cloud.netapp.com 으로 문의하십시오</block>
+  <block id="2e984b55a3264399d03f7fc4df06df78" category="list-title">span class="image"&gt;&lt;img src=<block ref="0c3becc25d95e48b9ca863002a042824" category="inline-link-rx"></block> Alt="One"&gt;&lt;/span&gt;사용 권한 설정</block>
+  <block id="6e1d3688abed116ca1fcde1dce3ec4f4" category="paragraph"><block ref="68a9c9d924aeef1d7ada39f0d3540b49" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d52202757c4d92357913471e220a772a" category="paragraph"><block ref="f796454a6004e39753971668625d9d8d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="39cab3defe876dfaf2b80cf98f49e2c7" category="list-text">공유 VPC를 사용하는 경우 서비스 프로젝트 및 호스트 프로젝트에서 사용 권한을 설정합니다.</block>
+  <block id="324adee08a3c7a87ddad1096556db802" category="paragraph"><block ref="f14d47c142ef6f4bd65c33223ef00cac" category="inline-xref-macro-rx"></block>.</block>
+  <block id="ecd9b46cc61d7175d5da2c42f7b70152" category="list-title">span class="image"&gt;&lt;img src=<block ref="ddd753dc2858fe3a5582f20b300a0541" category="inline-link-rx"></block> Alt="3"&gt;&lt;/span&gt;Google Cloud API 활성화</block>
+  <block id="d84e71566ed38f5bfe97daee41fb601d" category="paragraph">다음과 같은 권한이 필요합니다.</block>
+  <block id="ae741fad6aa93f78e0e5033a1d01d94b" category="list-text">Connector VM을 배포할 사용자입니다</block>
+  <block id="302f26bc0fa67eed7c3feeaa0ab2bcab" category="list-text">배포 중에 Connector VM에 연결해야 하는 서비스 계정입니다</block>
+  <block id="6fe79cfc93a8b51f7a8316a55877bfc4" category="list-text">공유 VPC 사용 권한 - 공유 VPC를 사용하여 리소스를 서비스 프로젝트에 배포하는 경우</block>
+  <block id="893b6747ffabae1d7bbd6d266f24c4ab" category="section-title">공유 VPC 권한 설정</block>
+  <block id="17d9282186c2451db90a83330e5c9d7b" category="list-text"><block ref="17d9282186c2451db90a83330e5c9d7b" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -209,7 +209,13 @@ includedPermissions:
 | -compute.instances.setServiceAccount -iam.serviceAccounts.actAs -iam.serviceAccounts.getIamPolicy -iam.serviceAccounts.list -storage.objects.get-storage.objects.list 를 참조하십시오 | Cloud Volumes ONTAP 인스턴스에서 서비스 계정을 설정하려면 이 서비스 계정은 Google Cloud Storage 버킷에 대한 데이터 계층화 권한을 제공합니다. 
 
 
-| -compute.addresses.list-compute.backendServices.create-compute.networks.updatePolicy-compute.regionBackendServices.create-compute.regionBackendServices.get-compute.regionBackendServices.list를 참조하십시오 | HA 쌍을 구축합니다. 
+| -compute.addresses.list 를 참조하십시오 | HA 쌍을 구축할 때 영역의 주소를 검색합니다. 
+
+
+| -compute.backendServices.create-compute.regionBackendServices.create-compute.regionBackendServices.get-compute.regionBackendServices.list를 참조하십시오 | HA 쌍으로 트래픽을 분산하기 위한 백엔드 서비스를 구성합니다. 
+
+
+| compute.networks.updatePolicy 으로 문의하십시오 | HA 쌍에 대한 VPC 및 서브넷에 방화벽 규칙을 적용합니다. 
 
 
 | compute.subnetworks.us e-compute.subnetworks.useExternalIp - compute.instances.addAccessConfig 으로 문의하십시오 | 클라우드 데이터 센스를 활성화하려면 

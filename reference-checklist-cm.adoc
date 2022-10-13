@@ -91,7 +91,7 @@ Connector는 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 
 | https://support.netapp.com 으로 문의하십시오 | 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다. 
 
 
-| https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오 | Cloud Manager 내에서 SaaS 기능 및 서비스를 제공합니다. 
+| https://*.cloudmanager.cloud.netapp.com \https://cloudmanager.cloud.netapp.com 으로 문의하십시오 | Cloud Manager 내에서 SaaS 기능 및 서비스를 제공합니다. 
 
 
 | https://cloudmanagerinfraprod.azurecr.io \https://*.blob.core.windows.net 으로 문의하십시오 | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 

@@ -29,17 +29,20 @@ TIP: 첫 번째 Cloud Volumes ONTAP 작업 환경을 생성할 때 커넥터가 
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
-[role="quick-margin-para"]
-사용자 지정 역할을 만들고 첨부하여 Google Cloud 계정에 올바른 권한이 있는지 확인합니다.
+.span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png"[] Alt="One"></span>사용 권한 설정
+* 사용자 지정 역할을 만들고 첨부하여 Google Cloud 계정에 올바른 권한이 있는지 확인합니다.
++
+ up permissions to deploy the Connector.
 
-[role="quick-margin-para"]
- up permissions,사용자 지정 역할을 봅니다.
+* Connector VM을 생성할 때 서비스 계정에 연결해야 합니다. 이 서비스 계정에는 Google Cloud에서 리소스를 관리할 수 있는 권한이 있는 사용자 지정 역할이 있어야 합니다.
++
+ up a service account for the Connector.
 
-[role="quick-margin-para"]
-Connector VM을 생성할 때 서비스 계정에 연결해야 합니다. 이 서비스 계정에는 Google Cloud에서 리소스를 관리할 수 있는 권한이 있는 사용자 지정 역할이 있어야 합니다.
+* 공유 VPC를 사용하는 경우 서비스 프로젝트 및 호스트 프로젝트에서 사용 권한을 설정합니다.
++
+ up shared VPC permissions.
 
-[role="quick-margin-para"]
- up a service account,사용자 지정 역할을 봅니다.
+
 
 [role="quick-margin-para"]
 특정 엔드포인트에 대한 아웃바운드 인터넷 액세스를 지원하는 VPC 및 서브넷이 필요합니다. 아웃바운드 인터넷에 HTTP 프록시가 필요한 경우 IP 주소, 자격 증명 및 HTTPS 인증서가 필요합니다.
@@ -47,7 +50,7 @@ Connector VM을 생성할 때 서비스 계정에 연결해야 합니다. 이 �
 [role="quick-margin-para"]
  up networking,네트워킹 요구 사항을 봅니다.
 
-.span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png"[] Alt="4"></span> Google Cloud API를 활성화합니다
+.span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png"[] Alt="3"></span>Google Cloud API 활성화
 * Cloud Deployment Manager V2 API
 * 클라우드 로깅 API
 * Cloud Resource Manager API를 참조하십시오
@@ -64,6 +67,17 @@ Connector VM을 생성할 때 서비스 계정에 연결해야 합니다. 이 �
 
 
 == 권한 설정
+
+다음과 같은 권한이 필요합니다.
+
+* Connector VM을 배포할 사용자입니다
+* 배포 중에 Connector VM에 연결해야 하는 서비스 계정입니다
+* 공유 VPC 사용 권한 - 공유 VPC를 사용하여 리소스를 서비스 프로젝트에 배포하는 경우
+
+
+
+
+=== Connector 배포 권한을 설정합니다
 
 Connector를 배포하기 전에 Google Cloud 계정에 올바른 권한이 있는지 확인해야 합니다.
 
@@ -140,7 +154,7 @@ includedPermissions:
 
 
 
-== 서비스 계정을 설정합니다
+=== Connector에 대한 서비스 계정을 설정합니다
 
 Connector에 Google Cloud의 리소스를 관리하는 데 필요한 권한을 제공하려면 서비스 계정이 필요합니다. 이 서비스 계정을 만들 때 Connector VM에 연결합니다.
 
@@ -256,57 +270,7 @@ Connector VM에 대한 서비스 계정이 설정되어 있습니다.
 
 
 
-== 네트워킹 설정
-
-Connector가 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. Connector용 VPC 및 서브넷을 사용하는 것 외에 다음 요구 사항이 충족되는지 확인해야 합니다.
-
-
-
-=== 대상 네트워크에 연결
-
-Connector를 사용하려면 만들고 있는 작업 환경의 유형과 활성화할 서비스에 대한 네트워크 연결이 필요합니다.
-
-예를 들어 회사 네트워크에 커넥터를 설치하는 경우 Cloud Volumes ONTAP를 실행하는 VPC에 대한 VPN 연결을 설정해야 합니다.
-
-
-
-=== 아웃바운드 인터넷 액세스
-
-Connector를 사용하려면 공용 클라우드 환경 내의 리소스와 프로세스를 관리하기 위한 아웃바운드 인터넷 액세스가 필요합니다.
-
-[cols="2*"]
-|===
-| 엔드포인트 | 목적 
-
-
-| https://support.netapp.com 으로 문의하십시오 | 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다. 
-
-
-| https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오 | Cloud Manager 내에서 SaaS 기능 및 서비스를 제공합니다. 
-
-
-| https://cloudmanagerinfraprod.azurecr.io \https://*.blob.core.windows.net 으로 문의하십시오 | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
-|===
-
-
-=== 프록시 서버
-
-조직에서 모든 나가는 인터넷 트래픽에 대해 HTTP 프록시를 구축해야 하는 경우 HTTP 프록시에 대한 다음 정보를 얻습니다.
-
-* IP 주소입니다
-* 자격 증명
-* HTTPS 인증서
-
-
-
-
-=== 보안 그룹
-
-커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다. HTTP 및 HTTPS는 에 대한 액세스를 제공합니다 link:concept-connectors.html#the-local-user-interface["로컬 UI"]이는 드문 경우지만 사용할 수 있습니다. SSH는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.
-
-
-
-=== 공유 VPC 권한
+=== 공유 VPC 권한 설정
 
 공유 VPC를 사용하여 리소스를 서비스 프로젝트에 구축하는 경우 다음과 같은 권한이 필요합니다. 이 표는 참조용이며 IAM 구성이 완료되면 사용 권한 테이블이 환경에 반영되어야 합니다.
 
@@ -325,7 +289,7 @@ Connector를 사용하려면 공용 클라우드 환경 내의 리소스와 프�
 
 
 | 커넥터 서비스 계정 | 맞춤형 | 서비스 프로젝트  a| 
-* link:task-creating-connectors-gcp.html#set-up-permissions-for-the-connector["위의 이 섹션에 있는 사용 권한"]
+* link:task-creating-connectors-gcp.html#set-up-a-service-account-for-the-connector["위의 이 섹션에 있는 사용 권한"]
 
  a| 
 * compute.networkUser
@@ -364,6 +328,56 @@ Connector를 사용하려면 공용 클라우드 환경 내의 리소스와 프�
 . Firewall.create 및 firewall.delete 은 배포에 방화벽 규칙을 전달하지 않고 Cloud Manager에서 이러한 규칙을 만들도록 선택한 경우에만 필요합니다. 이러한 권한은 Cloud Manager 서비스 계정 .YAML 파일에 있습니다. 공유 VPC를 사용하여 HA 쌍을 구축하는 경우 이러한 사용 권한을 사용하여 VPC1, 2 및 3에 대한 방화벽 규칙을 생성합니다. 다른 모든 배포의 경우 이러한 사용 권한을 사용하여 VPC0에 대한 규칙을 만들 수도 있습니다.
 . 데이터 계층화의 경우 계층화 서비스 계정은 프로젝트 수준뿐만 아니라 서비스 계정에서 serviceAccount.user 역할을 가져야 합니다. 현재 프로젝트 수준에서 serviceAccount.user 를 할당하는 경우 getIAMPolicy를 사용하여 서비스 계정을 쿼리할 때 사용 권한이 표시되지 않습니다.
 
+
+
+
+== 네트워킹 설정
+
+Connector가 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. Connector용 VPC 및 서브넷을 사용하는 것 외에 다음 요구 사항이 충족되는지 확인해야 합니다.
+
+
+
+=== 대상 네트워크에 연결
+
+Connector를 사용하려면 만들고 있는 작업 환경의 유형과 활성화할 서비스에 대한 네트워크 연결이 필요합니다.
+
+예를 들어 회사 네트워크에 커넥터를 설치하는 경우 Cloud Volumes ONTAP를 실행하는 VPC에 대한 VPN 연결을 설정해야 합니다.
+
+
+
+=== 아웃바운드 인터넷 액세스
+
+Connector를 사용하려면 공용 클라우드 환경 내의 리소스와 프로세스를 관리하기 위한 아웃바운드 인터넷 액세스가 필요합니다.
+
+[cols="2*"]
+|===
+| 엔드포인트 | 목적 
+
+
+| https://support.netapp.com 으로 문의하십시오 | 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다. 
+
+
+| https://*.cloudmanager.cloud.netapp.com \https://cloudmanager.cloud.netapp.com 으로 문의하십시오 | Cloud Manager 내에서 SaaS 기능 및 서비스를 제공합니다. 
+
+
+| https://cloudmanagerinfraprod.azurecr.io \https://*.blob.core.windows.net 으로 문의하십시오 | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
+|===
+
+
+=== 프록시 서버
+
+조직에서 모든 나가는 인터넷 트래픽에 대해 HTTP 프록시를 구축해야 하는 경우 HTTP 프록시에 대한 다음 정보를 얻습니다.
+
+* IP 주소입니다
+* 자격 증명
+* HTTPS 인증서
+
+
+
+
+=== 보안 그룹
+
+커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다. HTTP 및 HTTPS는 에 대한 액세스를 제공합니다 link:concept-connectors.html#the-local-user-interface["로컬 UI"]이는 드문 경우지만 사용할 수 있습니다. SSH는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.
 
 
 
