@@ -2149,7 +2149,6 @@
   <block id="1da5b30af8a0c5d1ce771dde6d9be98e" category="paragraph"><block ref="1da5b30af8a0c5d1ce771dde6d9be98e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="991b7c6e5c5e3b71cf64a28ea679cff0" category="paragraph"><block ref="8b6b603d70c42ac6b5c1db56412efc72" category="inline-link-rx"></block>.</block>
   <block id="87d47630996394fbe848adac841d4925" category="paragraph">알림은 Cloud Manager에서 시작한 작업의 진행률을 추적하므로 작업의 성공 여부를 확인할 수 있습니다. 이 뷰를 사용하면 현재 로그인 세션 중에 시작한 많은 Cloud Manager 작업의 상태를 볼 수 있습니다. 현재 모든 서비스에서 알림 센터에 정보를 보고하는 것은 아닙니다.</block>
-  <block id="e8bcd4ad549fa51ff8495440daac2515" category="paragraph">* 참고: * Connector가 인터넷에 연결되지 않은 사이트에 설치된 경우 이메일 알림 전송은 지원되지 않습니다.</block>
   <block id="5d85fadabc5fc8c195c36c4e3f0560e1" category="list-text">Cloud Manager 메뉴 표시줄에서 * 설정 &gt; 타임라인 * 을 클릭합니다.</block>
   <block id="4dc69c94d3a012316bf202425be2931b" category="paragraph">Cloud Manager에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 나열됩니다 <block ref="21b574a2506cebaac25d928c2c71e30c" category="inline-link-macro-rx"></block>.</block>
   <block id="68eee87acea7aba9406b2232110c9ef1" category="paragraph">Cloud Manager에서 Connector를 구축하는 경우 IAM 사용자의 ARN 또는 액세스 키를 제공해야 합니다. 사용하는 인증 방법에는 Connector 인스턴스를 AWS에 구축하는 데 필요한 권한이 있어야 합니다. 필요한 권한이 에 나열됩니다 <block ref="44a7d63a6eb2c2f6422e9cdaac125624" category="inline-link-macro-rx"></block>.</block>
@@ -2620,4 +2619,6 @@
   <block id="6c73104e218372ccda6dc2d58fda524d" category="paragraph">예를 들어, Connector는 Cloud Volumes ONTAP의 상태 및 작동에 있어 핵심 구성 요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.</block>
   <block id="b9c53fca7bb84d0455a2b4768b130e38" category="admonition">Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.</block>
   <block id="2538b2df52d923f09592be3b38238322" category="list-text">14GB</block>
+  <block id="ee684612f76fd9e6afd18a46554f2ede" category="list-text">현재 Cloud Sync만 이메일로 알림을 전송합니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
+  <block id="5fd245f2aeee830efb92d081af6a0e22" category="list-text">Connector가 인터넷에 연결되지 않은 사이트에 설치되어 있으면 이메일 알림 전송이 지원되지 않습니다.</block>
 </blocks>
