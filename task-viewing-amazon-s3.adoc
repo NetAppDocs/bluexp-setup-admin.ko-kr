@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-viewing-amazon-s3.html 
 keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
-summary: AWS에 Connector를 설치한 후 Cloud Manager는 Connector가 설치된 AWS 계정에 상주하는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Amazon S3 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다. 
+summary: AWS에 Connector를 설치한 후 BlueXP는 Connector가 설치된 AWS 계정에 있는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Amazon S3 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다. 
 ---
 = Amazon S3 버킷을 봅니다
 :hardbreaks:
@@ -14,12 +14,13 @@ summary: AWS에 Connector를 설치한 후 Cloud Manager는 Connector가 설치�
 
 
 [role="lead"]
-AWS에 Connector를 설치한 후 Cloud Manager는 Connector가 설치된 AWS 계정에 상주하는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Amazon S3 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.
+AWS에 Connector를 설치한 후 BlueXP는 Connector가 설치된 AWS 계정에 있는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Amazon S3 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.
 
 지역, 액세스 정책, 계정, 총 용량 및 사용된 용량 등을 비롯한 S3 버킷에 대한 세부 정보를 볼 수 있습니다. 이러한 버킷은 Cloud Backup, Cloud Tiering 또는 Cloud Sync 작업의 대상으로 사용할 수 있습니다. 또한, Cloud Data Sense를 사용하여 이러한 버킷을 스캔할 수 있습니다.
 
 .단계
 . link:task-creating-connectors-aws.html["커넥터를 설치합니다"] AWS 계정에서 Amazon S3 버킷을 확인할 수 있습니다.
+. 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 +
 잠시 후 Amazon S3 작업 환경이 자동으로 표시됩니다.
 

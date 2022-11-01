@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-viewing-azure-blob.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment 
-summary: Azure에 Connector를 설치한 후 Cloud Manager는 Connector가 설치된 Azure 구독에 있는 Azure 저장소 계정에 대한 정보를 자동으로 검색할 수 있습니다. Azure Blob 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다. 
+summary: Azure에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Azure 구독에 있는 Azure 저장소 계정에 대한 정보를 자동으로 검색할 수 있습니다. Azure Blob 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다. 
 ---
 = Azure Blob 계정 보기
 :hardbreaks:
@@ -14,12 +14,13 @@ summary: Azure에 Connector를 설치한 후 Cloud Manager는 Connector가 설�
 
 
 [role="lead"]
-Azure에 Connector를 설치한 후 Cloud Manager는 Connector가 설치된 Azure 구독에 있는 Azure 저장소 계정에 대한 정보를 자동으로 검색할 수 있습니다. Azure Blob 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.
+Azure에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Azure 구독에 있는 Azure 저장소 계정에 대한 정보를 자동으로 검색할 수 있습니다. Azure Blob 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.
 
 위치, 리소스 그룹, 총 용량 및 사용된 용량 등 Azure 저장소 계정에 대한 세부 정보를 볼 수 있습니다. 이러한 계정은 Cloud Backup, Cloud Tiering 또는 Cloud Sync 작업의 대상으로 사용할 수 있습니다.
 
 .단계
 . link:task-creating-connectors-azure.html["커넥터를 설치합니다"] Azure 저장소 계정을 보려는 Azure 계정에서
+. 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 +
 Azure Blob 작업 환경이 곧 자동으로 표시됩니다.
 

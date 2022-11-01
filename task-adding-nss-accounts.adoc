@@ -4,7 +4,7 @@ permalink: task-adding-nss-accounts.html
 keywords: adding, creating, netapp support site account, nss, update account, update nss account, update nss credentials, delete nss account, remove nss account, change working environment, working environment nss 
 summary: 'NSS(NetApp Support Site) 계정의 자격 증명을 제공하여 Cloud Volumes ONTAP의 주요 워크플로우를 활성화하고 Active IQ를 통해 예측 분석 및 사전 지원을 활성화합니다.' 
 ---
-= Cloud Manager에서 NetApp Support 사이트 계정을 추가하고 관리합니다
+= BlueXP에서 NetApp Support 사이트 계정을 추가하고 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,38 +14,70 @@ summary: 'NSS(NetApp Support Site) 계정의 자격 증명을 제공하여 Cloud
 
 
 [role="lead"]
-NSS(NetApp Support Site) 계정의 자격 증명을 제공하여 Cloud Volumes ONTAP의 주요 워크플로우를 활성화하고 Active IQ를 통해 예측 분석 및 사전 지원을 활성화합니다.
+NSS(NetApp Support 사이트) 계정에 대한 자격 증명을 제공하여 지원을 등록하고 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다.
 
 
 
 == 개요
 
-다음 작업을 수행하려면 NetApp Support 사이트 계정을 Cloud Manager에 추가해야 합니다.
+다음 작업을 사용하려면 BlueXP에 NetApp Support 사이트 계정을 추가해야 합니다.
 
+* 지원을 등록하려면
 * BYOL(Bring Your Own License) 방식으로 Cloud Volumes ONTAP 구축
 +
-NSS 계정을 제공해야 Cloud Manager가 라이센스 키를 업로드하고 구입한 용어에 대한 구독을 활성화할 수 있습니다. 여기에는 기간 갱신을 위한 자동 업데이트가 포함됩니다.
+BlueXP에서 사용권 키를 업로드하고 구입한 용어에 대한 구독을 활성화하려면 NSS 계정을 제공해야 합니다. 여기에는 기간 갱신을 위한 자동 업데이트가 포함됩니다.
 
 * 선불 종량제 Cloud Volumes ONTAP 시스템을 등록합니다
 +
 NSS 계정을 제공하면 시스템에 대한 지원을 활성화하고 NetApp 기술 지원 리소스에 액세스할 수 있습니다.
 
 * Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드합니다
-* 클라우드 관리자 내에서 Active IQ 디지털 자문업체 사용
 
+
+또한 BlueXP에서 디지털 어드바이저(이전의 Active IQ)를 사용하려면 NSS 자격 증명을 입력해야 합니다. 이러한 자격 증명은 사용자 계정과 직접 연결되며 Digital Advisor에서만 사용할 수 있습니다. 다음 섹션에서 자세한 내용을 검토하십시오.
+
+
+
+== Digital Advisor와 연결된 NSS 계정을 관리합니다
+
+BlueXP의 Digital Advisor에 액세스하면 NSS 자격 증명을 입력하여 Digital Advisor에 로그인하라는 메시지가 표시됩니다. NSS 자격 증명을 입력하면 NSS 관리 페이지 맨 위에 이 NSS 계정이 나열됩니다. 그런 다음 필요에 따라 자격 증명을 관리할 수 있습니다.
+
+이 NSS 계정에 대한 다음 사항을 참고하십시오.
+
+* 계정은 사용자 수준에서 관리되므로 로그인한 다른 사용자가 볼 수 없습니다.
+* 이 계정은 Cloud Volumes ONTAP 생성, 라이센스 등록 또는 지원이 아닌 다른 BlueXP 기능과 함께 사용할 수 없습니다.
+* 사용자당 Digital Advisor와 연결된 NSS 계정은 하나만 있을 수 있습니다.
+
+
+.단계
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-help-support.png["도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다"]
+
+. NSS 관리 * 를 클릭합니다.
+. NSS 자격 증명 * 에서 * 작업 * 을 클릭하고 다음 옵션 중 하나를 선택합니다.
++
+** * NSS 사용자 연결 *: BlueXP의 디지털 어드바이저에 액세스할 수 있도록 NetApp Support 사이트 계정에 대한 자격 증명을 추가합니다.
+** * 기존 자격 증명 업데이트 *: NetApp Support 사이트 계정의 자격 증명을 업데이트합니다.
+** * 삭제 *: 디지털 어드바이저와 연결된 계정을 제거합니다.
+
+
+
+
+BlueXP는 Digital Advisor와 관련된 NSS 계정을 업데이트합니다.
 
 
 
 == NSS 계정을 추가합니다
 
-지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 Cloud Manager와 함께 사용할 수 있습니다.
+지원 대시보드를 통해 NetApp 어카운트 레벨에서 BlueXP에 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.
 
 * 고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.
 * 파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.
 
 
 .단계
-. Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
 +
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-family/main/media/screenshot-help-support.png["도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다"]
 
@@ -56,7 +88,7 @@ NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련�
 
 . 로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.
 +
-이러한 작업을 통해 Cloud Manager는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.
+이러한 작업을 통해 BlueXP는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.
 
 +
 다음 사항에 유의하십시오.
@@ -69,7 +101,7 @@ NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련�
 
 
 
-이제 사용자는 새 Cloud Volumes ONTAP 시스템을 생성할 때, 기존 Cloud Volumes ONTAP 시스템을 등록할 때, 그리고 Active IQ에서 데이터를 볼 때 계정을 선택할 수 있습니다.
+이제 사용자는 새 Cloud Volumes ONTAP 시스템을 생성할 때, 기존 Cloud Volumes ONTAP 시스템을 등록할 때, 그리고 지원을 위해 등록할 때 계정을 선택할 수 있습니다.
 
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS에서 Cloud Volumes ONTAP 실행"^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure에서 Cloud Volumes ONTAP 실행"^]
@@ -81,11 +113,11 @@ NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련�
 
 == NSS 계정을 업데이트하여 새 인증 방법을 확인합니다
 
-2021년 11월부터 NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다. 이 업데이트의 결과로, Cloud Manager에서 이전에 추가한 기존 계정의 자격 증명을 업데이트하라는 메시지를 표시합니다.
+2021년 11월부터 NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다. 이 업데이트의 결과로 BlueXP는 이전에 추가한 기존 계정의 자격 증명을 업데이트하라는 메시지를 표시합니다.
 
 .단계
 . 아직 수행하지 않았다면 https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/FAQs_for_NetApp_adoption_of_MS_Azure_AD_B2C_for_login["현재 NetApp 계정에 연결할 Microsoft Azure Active Directory B2C 계정을 만듭니다"^].
-. Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
 . NSS 관리 * 를 클릭합니다.
 . 업데이트할 NSS 계정의 경우 * 계정 업데이트 * 를 클릭합니다.
 +
@@ -107,10 +139,14 @@ NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련�
 
 == NSS 자격 증명을 업데이트합니다
 
-NSS 계정의 자격 증명을 변경할 때마다 Cloud Manager에서 자격 증명을 업데이트해야 합니다.
+다음 중 하나가 발생할 경우 BlueXP의 NSS 계정에 대한 자격 증명을 업데이트해야 합니다.
+
+* 계정의 자격 증명을 변경합니다
+* 계정에 연결된 새로 고침 토큰이 3개월 후에 만료됩니다
+
 
 .단계
-. Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
 . NSS 관리 * 를 클릭합니다.
 . 업데이트할 NSS 계정의 경우 을 클릭합니다 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"] 그런 다음 * 자격 증명 업데이트 * 를 선택합니다.
 +
@@ -132,7 +168,7 @@ NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련�
 이 기능은 NetApp에서 ID 관리를 위해 채택한 Microsoft Azure AD를 사용하도록 구성된 NSS 계정에서만 지원됩니다. 이 기능을 사용하려면 * NSS 계정 추가 * 또는 * 계정 업데이트 * 를 클릭해야 합니다.
 
 .단계
-. Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
 . NSS 관리 * 를 클릭합니다.
 . NSS 계정을 변경하려면 다음 단계를 수행하십시오.
 +
@@ -151,13 +187,13 @@ image:screenshot-nss-change-account.png["NetApp Support 사이트 계정과 연�
 
 == NSS 계정의 이메일 주소를 표시합니다
 
-이제 NetApp Support 사이트 계정이 인증 서비스에 Microsoft Azure Active Directory를 사용하므로 Cloud Manager에 표시되는 NSS 사용자 이름은 일반적으로 Azure AD에서 생성한 식별자입니다. 따라서 해당 계정과 연결된 전자 메일 주소를 즉시 알지 못할 수 있습니다. Cloud Manager에는 관련 이메일 주소를 표시하는 옵션이 있습니다.
+NetApp Support 사이트 계정이 인증 서비스를 위해 Microsoft Azure Active Directory를 사용하므로 일반적으로 BlueXP에 표시되는 NSS 사용자 이름은 Azure AD에서 생성된 식별자입니다. 따라서 해당 계정과 연결된 전자 메일 주소를 즉시 알지 못할 수 있습니다. 그러나 BlueXP에는 관련 이메일 주소를 표시하는 옵션이 있습니다.
 
 
-TIP: NSS 관리 페이지로 이동하면 Cloud Manager에서 테이블의 각 계정에 대한 토큰을 생성합니다. 이 토큰에는 연결된 이메일 주소에 대한 정보가 포함됩니다. 그런 다음 페이지를 나갈 때 토큰이 제거됩니다. 정보는 캐싱되지 않으며 개인 정보를 보호하는 데 도움이 됩니다.
+TIP: NSS 관리 페이지로 이동하면 BlueXP에서 표의 각 계정에 대한 토큰을 생성합니다. 이 토큰에는 연결된 이메일 주소에 대한 정보가 포함됩니다. 그런 다음 페이지를 나갈 때 토큰이 제거됩니다. 정보는 캐싱되지 않으며 개인 정보를 보호하는 데 도움이 됩니다.
 
 .단계
-. Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
 . NSS 관리 * 를 클릭합니다.
 . 업데이트할 NSS 계정의 경우 을 클릭합니다 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"] 그런 다음 * 이메일 주소 표시 * 를 선택합니다.
 +
@@ -165,18 +201,18 @@ image:screenshot-nss-display-email.png["이메일 주소를 표시할 수 있는
 
 
 
-Cloud Manager에는 NetApp Support 사이트의 사용자 이름과 관련 이메일 주소가 표시됩니다. 복사 버튼을 사용하여 이메일 주소를 복사할 수 있습니다.
+BlueXP는 NetApp Support 사이트 사용자 이름과 관련 이메일 주소를 표시합니다. 복사 버튼을 사용하여 이메일 주소를 복사할 수 있습니다.
 
 
 
 == NSS 계정을 제거합니다
 
-Cloud Manager에서 더 이상 사용하지 않을 NSS 계정을 삭제합니다.
+BlueXP에서 더 이상 사용하지 않을 NSS 계정을 삭제합니다.
 
 현재 Cloud Volumes ONTAP 작업 환경과 연결된 계정은 삭제할 수 없습니다. 먼저 해야 할 일  a working environment to a different NSS account,이러한 작업 환경을 다른 NSS 계정에 연결합니다.
 
 .단계
-. Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.
 . NSS 관리 * 를 클릭합니다.
 . 삭제할 NSS 계정의 경우 을 클릭합니다 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"] 그런 다음 * 삭제 * 를 선택합니다.
 +

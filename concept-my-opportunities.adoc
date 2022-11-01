@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-my-opportunities.html 
 keywords: discover, discovering fsx, discover fsx, discovering, my opportunities, opportunities 
-summary: Canvas에서 My Opportunities 탭은 하이브리드 멀티 클라우드에서 일관된 데이터 서비스 및 운영을 위해 Cloud Manager에 추가할 수 있는 기존 리소스를 검색할 수 있는 중앙 집중식 위치를 제공합니다. 
+summary: 'Canvas에서 My Opportunities(내 기회) 탭은 하이브리드 멀티 클라우드에서 일관된 데이터 서비스 및 운영을 위해 BlueXP에 추가할 수 있는 기존 리소스를 검색할 수 있는 중앙 집중식 위치를 제공합니다.' 
 ---
 = 나의 기회
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Canvas에서 My Opportunities 탭은 하이브리드 멀티 클라우�
 
 
 [role="lead"]
-Canvas에서 * My Opportunities * 탭은 하이브리드 멀티 클라우드에서 일관된 데이터 서비스 및 운영을 위해 Cloud Manager에 추가할 수 있는 기존 리소스를 검색할 수 있는 중앙 집중식 위치를 제공합니다.
+Canvas에서 * My Opportunities * 탭은 하이브리드 멀티 클라우드에서 일관된 데이터 서비스 및 운영을 위해 BlueXP에 추가할 수 있는 기존 리소스를 검색할 수 있는 중앙 집중식 위치를 제공합니다.
 
 현재 My Opportunities를 통해 AWS 계정에서 기존 ONTAP 파일 시스템용 FSx를 검색할 수 있습니다.
 

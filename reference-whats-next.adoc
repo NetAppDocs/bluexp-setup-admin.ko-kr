@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-whats-next.html 
 keywords: get started, create working environments, manage settings 
-summary: 로그인한 후 Cloud Manager를 설정했으므로 사용자는 작업 환경을 생성하고 검색을 시작할 수 있습니다. 
+summary: 이제 BlueXP에 로그인하여 설정했으므로 사용자는 작업 환경을 만들고 검색할 수 있습니다. 
 ---
 = 다음 단계로 넘어갑니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 로그인한 후 Cloud Manager를 설정했으므로 사용자는 작�
 
 
 [role="lead"]
-로그인한 후 Cloud Manager를 설정했으므로 사용자는 작업 환경을 생성하고 검색을 시작할 수 있습니다.
+이제 BlueXP에 로그인하여 설정했으므로 사용자는 작업 환경을 만들고 검색할 수 있습니다.
 
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["Cloud Volumes ONTAP for AWS 시작하기"^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Azure용 Cloud Volumes ONTAP를 시작하십시오"^]

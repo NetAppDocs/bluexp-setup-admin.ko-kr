@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-installing-linux.html 
 keywords: install connector, manually install connector, install connector software, installation, installing, linux, installer, software, on prem, on-prem, silent, configurations, ec2, vm, ports, ram, operating system, os, host, requirement, requirements, hypervisor, disk, space, mysql, centos, rhel, red hat, cpu, disk space 
-summary: Connector를 생성하는 가장 일반적인 방법은 Cloud Manager 또는 클라우드 공급자의 마켓플레이스에서 직접 생성하는 것입니다. 그러나 네트워크 또는 클라우드의 기존 Linux 호스트에 Connector 소프트웨어를 다운로드하여 설치할 수 있습니다. 
+summary: Connector를 생성하는 가장 일반적인 방법은 BlueXP 또는 클라우드 공급업체의 마켓플레이스에서 직접 만드는 것입니다. 그러나 네트워크 또는 클라우드의 기존 Linux 호스트에 Connector 소프트웨어를 다운로드하여 설치할 수 있습니다. 
 ---
 = 인터넷에 액세스할 수 있는 기존 Linux 호스트에 커넥터를 설치합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Connector를 생성하는 가장 일반적인 방법은 Cloud Manager �
 
 
 [role="lead"]
-Connector를 생성하는 가장 일반적인 방법은 Cloud Manager 또는 클라우드 공급자의 마켓플레이스에서 직접 생성하는 것입니다. 그러나 네트워크 또는 클라우드의 기존 Linux 호스트에 Connector 소프트웨어를 다운로드하여 설치할 수 있습니다. 이 단계는 인터넷 액세스가 있는 호스트에만 적용됩니다.
+Connector를 생성하는 가장 일반적인 방법은 BlueXP 또는 클라우드 공급업체의 마켓플레이스에서 직접 만드는 것입니다. 그러나 네트워크 또는 클라우드의 기존 Linux 호스트에 Connector 소프트웨어를 다운로드하여 설치할 수 있습니다. 이 단계는 인터넷 액세스가 있는 호스트에만 적용됩니다.
 
 link:concept-connectors.html["커넥터를 배포하는 다른 방법에 대해 알아봅니다"].
 
@@ -92,7 +92,7 @@ awscli 설치에 실패했다는 메시지가 표시되면 메시지를 무시�
 
 
 .단계
-. 에서 Cloud Manager 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]를 선택한 다음 Linux 호스트에 복사합니다.
+. 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]를 선택한 다음 Linux 호스트에 복사합니다.
 +
 AWS에서 EC2 인스턴스에 파일을 연결하고 복사하는 방법은 를 참조하십시오 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html["AWS 설명서: SSH를 사용하여 Linux 인스턴스에 연결"^].
 
@@ -128,7 +128,7 @@ _proxypwd_는 지정한 사용자 이름의 암호입니다.
 
 . 자동 매개변수를 지정하지 않은 경우 * Y * 를 입력하여 설치를 계속합니다.
 +
-이제 Cloud Manager가 설치되었습니다. 설치가 끝나면 프록시 서버를 지정한 경우 occm(Cloud Manager) 서비스가 두 번 다시 시작됩니다.
+이제 커넥터가 설치되었습니다. 프록시 서버를 지정한 경우 설치가 끝나면 커넥터 서비스(occm)가 두 번 다시 시작됩니다.
 
 . 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
@@ -137,16 +137,16 @@ https://_ipaddress_[]
 +
 _ipaddress_는 호스트 구성에 따라 localhost, 개인 IP 주소 또는 공용 IP 주소일 수 있습니다. 예를 들어, Connector가 공용 IP 주소가 없는 공용 클라우드에 있는 경우 Connector 호스트에 대한 연결이 있는 호스트의 전용 IP 주소를 입력해야 합니다.
 
-. NetApp Cloud Central에 등록 하거나 로그인 하십시오.
-. Google Cloud에 Connector를 설치한 경우 Cloud Manager가 프로젝트에서 Cloud Volumes ONTAP 시스템을 만들고 관리하는 데 필요한 권한이 있는 서비스 계정을 설정합니다.
+. 가입 또는 로그인
+. Google Cloud에 Connector를 설치한 경우 프로젝트에서 BlueXP가 Cloud Volumes ONTAP 시스템을 만들고 관리하는 데 필요한 권한이 있는 서비스 계정을 설정합니다.
 +
 .. https://cloud.google.com/iam/docs/creating-custom-roles#iam-custom-roles-create-gcloud["GCP에서 역할을 생성합니다"^] 여기에는 에 정의된 권한이 포함됩니다 link:reference-permissions-gcp.html["GCP에 대한 커넥터 정책입니다"].
 .. https://cloud.google.com/iam/docs/creating-managing-service-accounts#creating_a_service_account["GCP 서비스 계정을 생성하고 방금 생성한 사용자 지정 역할을 적용합니다"^].
 .. https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#changeserviceaccountandscopes["이 서비스 계정을 Connector VM에 연결합니다"^].
-.. 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우 https://cloud.google.com/iam/docs/granting-changing-revoking-access#granting-console["Cloud Manager 역할을 가진 서비스 계정을 해당 프로젝트에 추가하여 액세스 권한을 부여합니다"^]. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
+.. 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우 https://cloud.google.com/iam/docs/granting-changing-revoking-access#granting-console["해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다"^]. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
 
 
-. 로그인한 후 Cloud Manager를 설정합니다.
+. 로그인한 후 BlueXP를 설정합니다.
 +
 .. Connector와 연결할 NetApp 계정을 지정합니다.
 +
@@ -160,11 +160,11 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 
 
 
-이제 Connector가 NetApp 계정으로 설치 및 설정됩니다. 새로운 작업 환경을 만들 때 Cloud Manager가 이 Connector를 자동으로 사용합니다.
+이제 Connector가 NetApp 계정으로 설치 및 설정됩니다. BlueXP는 새로운 작업 환경을 만들 때 이 커넥터를 자동으로 사용합니다.
 
-Cloud Manager가 퍼블릭 클라우드 환경 내에서 리소스 및 프로세스를 관리할 수 있도록 권한 설정:
+BlueXP에서 공용 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있도록 사용 권한 설정:
 
-* AWS: link:task-adding-aws-accounts.html["AWS 계정을 설정한 다음 Cloud Manager에 추가합니다"]
-* Azure(Azure): link:task-adding-azure-accounts.html["Azure 계정을 설정한 다음 Cloud Manager에 추가합니다"]
+* AWS: link:task-adding-aws-accounts.html["AWS 계정을 설정한 다음 BlueXP에 추가합니다"]
+* Azure(Azure): link:task-adding-azure-accounts.html["Azure 계정을 설정한 다음 BlueXP에 추가합니다"]
 * Google Cloud: 위의 7단계를 참조하십시오
 

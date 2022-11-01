@@ -4,8 +4,10 @@ settings:
   platform: cloud
   internal:
     pdf_enabled: true
+    lipi_enabled: false
   prod:
     pdf_enabled: true
+    lipi_enabled: false
     harmony_enabled: false
   rss_page: whats-new.html
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
@@ -21,13 +23,11 @@ sidebar:
       url: "/reference-limitations.html"
   - title: 시작하십시오
     entries:
-    - title: Cloud Manager에 대해 자세히 알아보십시오
+    - title: BlueXP에 대해 자세히 알아보십시오
       url: "/concept-overview.html"
     - title: 시작 체크리스트
       url: "/reference-checklist-cm.html"
-    - title: Cloud Central에 가입하십시오
-      url: "/task-signing-up.html"
-    - title: Cloud Manager에 로그인합니다
+    - title: BlueXP에 로그인합니다
       url: "/task-logging-in.html"
     - title: NetApp 계정 설정
       entries:
@@ -49,7 +49,7 @@ sidebar:
         url: "/task-create-connectors-gov.html"
     - title: 다음 단계로 넘어갑니다
       url: "/reference-whats-next.html"
-  - title: Cloud Manager 관리
+  - title: BlueXP 관리
     entries:
     - title: NetApp 계정
       entries:
@@ -145,7 +145,7 @@ homepage:
   tiles:
   - title: 시작하십시오
     links:
-    - title: Cloud Manager에 대해 자세히 알아보십시오
+    - title: BlueXP에 대해 자세히 알아보십시오
       url: concept-overview.html
     - title: 시작 체크리스트
       url: reference-checklist-cm.html
@@ -175,11 +175,11 @@ homepage:
     links:
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Cloud Central 블로그
+    - title: BlueXP 블로그
       url: https://cloud.netapp.com/blog/topic/cloud-manager
     - title: 클라우드 웨비나
       url: https://cloud.netapp.com/events
 product-family:
-  name: Cloud Manager
+  name: BlueXP
   repo: cloud-manager-family
-  sidebar_label: 모든 Cloud Manager 설명서
+  sidebar_label: 모든 BlueXP 설명서

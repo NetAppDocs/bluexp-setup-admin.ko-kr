@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-limitations.html 
-keywords: limitations, active directory, ad, iscsi, key managers, ip address, govcloud, cloud manager, Cloud Volumes ONTAP, days, running, Connectors should remain running 
+keywords: limitations, active directory, ad, iscsi, key managers, ip address, govcloud, BlueXP, Cloud Volumes ONTAP, days, running, Connectors should remain running 
 summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오. 
 ---
 = 알려진 제한 사항
@@ -16,7 +16,7 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 [role="lead"]
 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.
 
-이러한 제한은 Cloud Manager 설정 및 관리, 즉 커넥터, SaaS 플랫폼 등에 적용됩니다.
+이러한 제한 사항은 Connector, SaaS 플랫폼 등 BlueXP 설정 및 관리와 관련된 것입니다.
 
 
 
@@ -26,11 +26,11 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 
 === 172 범위의 IP 주소와 충돌할 수 있습니다
 
-Cloud Manager는 172.17.0.0/16 및 172.18.0.0/16 범위의 IP 주소를 가진 두 개의 인터페이스로 커넥터를 배포합니다.
+BlueXP는 172.17.0.0/16 및 172.18.0.0/16 범위의 IP 주소를 가진 두 개의 인터페이스로 커넥터를 배포합니다.
 
-네트워크에 이러한 범위 중 하나로 구성된 서브넷이 있는 경우 Cloud Manager에서 연결 장애가 발생할 수 있습니다. 예를 들어, Cloud Manager에서 온프레미스 ONTAP 클러스터를 검색하지 못할 수 있습니다.
+네트워크에 이러한 범위 중 하나로 구성된 서브넷이 있는 경우 BlueXP에서 연결 오류가 발생할 수 있습니다. 예를 들어, BlueXP에서 온프레미스 ONTAP 클러스터를 검색하지 못할 수 있습니다.
 
-기술 자료 문서를 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Manager/Cloud_Manager_shows_inactive_as_Connector_IP_range_in_172.x.x.x_conflict_with_docker_network["Cloud Manager Connector IP가 기존 네트워크와 충돌합니다"] 커넥터 인터페이스의 IP 주소를 변경하는 방법에 대한 지침은 을 참조하십시오.
+기술 자료 문서를 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services/Cloud_Manager/Cloud_Manager_shows_inactive_as_Connector_IP_range_in_172.x.x.x_conflict_with_docker_network["BlueXP 커넥터 IP가 기존 네트워크와 충돌합니다"] 커넥터 인터페이스의 IP 주소를 변경하는 방법에 대한 지침은 을 참조하십시오.
 
 
 
@@ -38,13 +38,13 @@ Cloud Manager는 172.17.0.0/16 및 172.18.0.0/16 범위의 IP 주소를 가진 �
 
 회사 정책에 따라 인터넷에 대한 모든 HTTP 통신에 프록시 서버를 사용해야 하는 경우 해당 HTTP 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.
 
-Cloud Manager는 Connector에서 HTTPS 프록시 사용을 지원하지 않습니다.
+BlueXP는 커넥터에서 HTTPS 프록시 사용을 지원하지 않습니다.
 
 
 
 === SSL 암호 해독은 지원되지 않습니다
 
-Cloud Manager는 SSL 암호 해독이 활성화된 방화벽 구성을 지원하지 않습니다. SSL 암호 해독이 활성화된 경우 Cloud Manager에 오류 메시지가 나타나고 Connector 인스턴스가 비활성으로 표시됩니다.
+BlueXP는 SSL 암호 해독이 활성화된 방화벽 구성을 지원하지 않습니다. SSL 암호 해독이 활성화된 경우 오류 메시지가 BlueXP에 나타나고 Connector 인스턴스가 비활성으로 표시됩니다.
 
 보안 강화를 위해 을(를) 선택할 수 있습니다 link:task-installing-https-cert.html["CA(인증 기관)에서 서명한 HTTPS 인증서 설치"].
 
@@ -76,9 +76,9 @@ Connector는 다른 애플리케이션과 공유되는 VM에서 지원되지 않
 
 === 정부 지역에서는 SaaS 플랫폼을 사용할 수 없습니다
 
-AWS GovCloud 지역, Azure Gov 지역 또는 Azure DoD 지역에 Connector를 구축하는 경우 Connector의 호스트 IP 주소를 통해서만 Cloud Manager에 액세스할 수 있습니다. 전체 계정에 대해 SaaS 플랫폼에 대한 액세스가 비활성화되었습니다.
+AWS GovCloud 지역, Azure Gov 지역 또는 Azure DoD 지역에 커넥터를 배포하는 경우, 커넥터의 호스트 IP 주소를 통해서만 BlueXP에 액세스할 수 있습니다. 전체 계정에 대해 SaaS 플랫폼에 대한 액세스가 비활성화되었습니다.
 
-즉, 최종 사용자 내부 VPC/VNET에 액세스할 수 있는 권한이 있는 사용자만 Cloud Manager의 UI 또는 API를 사용할 수 있습니다.
+즉, 최종 사용자 내부 VPC/VNET에 액세스할 수 있는 권한이 있는 사용자만 BlueXP의 UI 또는 API를 사용할 수 있습니다.
 
 이러한 지역에서 지원되는 유일한 서비스는 Cloud Volumes ONTAP, 클라우드 백업, 클라우드 데이터 감지 및 복제입니다. 정부 지역에서는 다른 NetApp 서비스가 지원되지 않습니다.
 

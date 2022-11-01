@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concept-overview.html 
-keywords: overview, concepts, features, use case, days, 14 days 
-summary: Cloud Manager를 사용하면 IT 전문가 및 클라우드 설계자가 NetApp의 클라우드 솔루션을 사용하여 하이브리드 멀티 클라우드 인프라를 중앙에서 관리할 수 있습니다. 
+keywords: overview, concepts, features, use case, cloud manager 
+summary: IT 전문가 및 클라우드 설계자는 BlueXP를 통해 NetApp의 클라우드 솔루션을 사용하여 하이브리드 멀티 클라우드 인프라를 중앙에서 관리할 수 있습니다. 
 ---
-= Cloud Manager에 대해 자세히 알아보십시오
+= BlueXP에 대해 자세히 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,13 +13,13 @@ summary: Cloud Manager를 사용하면 IT 전문가 및 클라우드 설계자�
 :imagesdir: ./media/
 
 
-Cloud Manager를 사용하면 IT 전문가 및 클라우드 설계자가 NetApp의 클라우드 솔루션을 사용하여 하이브리드 멀티 클라우드 인프라를 중앙에서 관리할 수 있습니다.
+BlueXP(이전의 Cloud Manager)를 사용하면 IT 전문가와 클라우드 설계자가 NetApp의 클라우드 솔루션을 사용하여 하이브리드 멀티 클라우드 인프라를 중앙에서 관리할 수 있습니다.
 
 
 
 == 피처
 
-Cloud Manager는 엔터프라이즈급 SaaS 기반 관리 플랫폼으로, 데이터의 위치에 상관없이 데이터를 제어할 수 있습니다.
+BlueXP는 엔터프라이즈급 SaaS 기반 관리 플랫폼으로, 데이터가 어디에 있든 데이터를 제어할 수 있습니다.
 
 * 설정 및 사용 https://cloud.netapp.com/ontap-cloud["Cloud Volumes ONTAP"^] 클라우드 전반에서 효율적인 멀티 프로토콜 데이터 관리
 * 파일 스토리지 서비스 설정 및 사용:
@@ -40,56 +40,56 @@ Cloud Manager는 엔터프라이즈급 SaaS 기반 관리 플랫폼으로, 데�
 
 
 
-https://cloud.netapp.com/cloud-manager["Cloud Manager에 대해 자세히 알아보십시오"^].
+https://cloud.netapp.com/cloud-manager["BlueXP에 대해 자세히 알아보십시오"^].
 
 
 
 == 지원되는 오브젝트 스토리지 공급자
 
-Cloud Manager를 사용하면 Amazon Web Services, Microsoft Azure, Google Cloud에서 클라우드 스토리지를 관리하고 클라우드 서비스를 사용할 수 있습니다.
+BlueXP를 사용하면 Amazon Web Services, Microsoft Azure 및 Google Cloud에서 클라우드 스토리지를 관리하고 클라우드 서비스를 사용할 수 있습니다.
 
 
 
 == 비용
 
-Cloud Manager 소프트웨어는 NetApp에서 무료로 제공합니다.
+BlueXP 소프트웨어는 NetApp에서 무료로 제공합니다.
 
-대부분의 작업에서 Cloud Manager는 클라우드 네트워크에 Connector를 배포하라는 메시지를 표시합니다. 그러면 컴퓨팅 인스턴스 및 관련 스토리지에 대한 클라우드 공급자의 요금이 부과됩니다. 구내에서 Connector 소프트웨어를 실행할 수 있는 옵션이 있습니다.
+대부분의 작업에서 BlueXP는 클라우드 네트워크에 Connector를 배포하라는 메시지를 표시합니다. 그러면 컴퓨팅 인스턴스 및 관련 스토리지에 대해 클라우드 공급자로부터 요금이 부과될 수 있습니다. 구내에서 Connector 소프트웨어를 실행할 수 있는 옵션이 있습니다.
 
 link:reference-connector-default-config.html["Connector의 기본 설정에 대해 알아봅니다"].
 
 
 
-== Cloud Manager의 작동 방식
+== BlueXP의 작동 방식
 
-Cloud Manager에는 NetApp Cloud Central과 통합된 SaaS 기반 인터페이스 및 Cloud Volumes ONTAP 및 기타 클라우드 서비스를 관리하는 커넥터가 포함되어 있습니다.
+BlueXP에는 BlueXP 웹 사이트에 통합된 SaaS 기반 인터페이스와 Cloud Volumes ONTAP 및 기타 클라우드 서비스를 관리하는 커넥터가 포함되어 있습니다.
 
 
 
 === 서비스형 소프트웨어
 
-Cloud Manager는 를 통해 액세스할 수 있습니다 https://cloudmanager.netapp.com["SaaS 기반 사용자 인터페이스"^] API를 사용해 보십시오. 이러한 SaaS 환경을 통해 최신 기능에 자동으로 액세스하고 NetApp 계정과 커넥터 간에 쉽게 전환할 수 있습니다.
+BlueXP는 을 통해 액세스할 수 있습니다 https://cloudmanager.netapp.com["SaaS 기반 사용자 인터페이스"^] API를 사용해 보십시오. 이러한 SaaS 환경을 통해 최신 기능에 자동으로 액세스하고 NetApp 계정과 커넥터 간에 쉽게 전환할 수 있습니다.
 
 
 TIP: 아웃바운드 인터넷 액세스를 사용할 수 없는 환경에서 작업 중인 경우 해당 환경에 Connector 소프트웨어를 설치하고 Connector에서 사용할 수 있는 로컬 사용자 인터페이스에 액세스할 수 있습니다. link:concept-connectors.html["커넥터에 대해 자세히 알아보십시오"].
 
 
 
-=== NetApp Cloud Central에서
+=== BlueXP 웹 사이트
 
-https://cloud.netapp.com["NetApp Cloud Central에서"^] 액세스 및 관리를 위한 중앙 집중식 위치를 제공합니다 https://www.netapp.com/us/products/cloud-services/use-cases-for-netapp-cloud-services.aspx["NetApp 클라우드 서비스"^]. 중앙 집중식 사용자 인증을 통해 동일한 자격 증명 세트를 사용하여 Cloud Manager와 Cloud Insights 같은 다른 클라우드 서비스에 액세스할 수 있습니다.
+https://cloud.netapp.com["BlueXP 웹 사이트"^] 액세스 및 관리를 위한 중앙 집중식 위치를 제공합니다 https://www.netapp.com/us/products/cloud-services/use-cases-for-netapp-cloud-services.aspx["NetApp 클라우드 서비스"^]. 중앙 집중식 사용자 인증을 사용하면 동일한 자격 증명을 사용하여 BlueXP 및 Cloud Insights와 같은 기타 클라우드 서비스에 액세스할 수 있습니다.
 
 
 
 === NetApp 계정
 
-Cloud Manager에 처음 로그인하면 _NetApp 계정_을 생성하라는 메시지가 표시됩니다. 이 계정은 다중 테넌시를 제공하며 사용자가 isolated_worksaces_에서 사용자 및 리소스를 구성할 수 있도록 합니다.
+처음 BlueXP에 로그인하면 _NetApp 계정_을 생성하라는 메시지가 표시됩니다. 이 계정은 다중 테넌시를 제공하며 사용자가 isolated_worksaces_에서 사용자 및 리소스를 구성할 수 있도록 합니다.
 
 
 
 === 커넥터
 
-대부분의 경우 Cloud Manager 계정 관리자는 클라우드 또는 온프레미스 네트워크에 _Connector_를 배포해야 합니다. Connector를 사용하면 Cloud Manager에서 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다.
+대부분의 경우 BlueXP 계정 관리자는 클라우드 또는 온프레미스 네트워크에 _Connector_를 배포해야 합니다. BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다.
 
 link:concept-connectors.html["커넥터가 필요한 시기와 작동 방식에 대해 자세히 알아보십시오"].
 
@@ -97,6 +97,6 @@ link:concept-connectors.html["커넥터가 필요한 시기와 작동 방식에 
 
 == SOC 2 Type 2 인증
 
-독립적인 인증 퍼블릭 회계 업체 및 서비스 감사자는 Cloud Manager, Cloud Sync, Cloud Tiering, Cloud Data Sense 및 Cloud Backup(Cloud Manager 플랫폼)을 검토하여 해당 Trust Services 기준을 기반으로 SOC 2 Type 2 보고서를 작성했다고 확인했습니다.
+독립적인 공인 회계사 및 서비스 감사원이 BlueXP, Cloud Sync, Cloud Tiering, Cloud Data Sense 및 Cloud Backup(BlueXP 플랫폼)을 조사하여 해당 신뢰 서비스 기준에 따라 SOC 2 Type 2 보고서를 작성했다는 것을 확인했습니다.
 
 https://www.netapp.com/company/trust-center/compliance/soc-2/["NetApp의 SOC 2 보고서 보기"^]

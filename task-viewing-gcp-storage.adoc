@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-viewing-gcp-storage.html 
 keywords: google cloud storage buckets, google cloud storage, google cloud storage working environment 
-summary: Google Cloud에 Connector를 설치한 후 Cloud Manager는 Connector가 설치된 Google 계정에 있는 Google Cloud 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Google Cloud Storage 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다. 
+summary: Google Cloud에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Google 계정에 있는 Google Cloud 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Google Cloud Storage 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다. 
 ---
 = Google Cloud Storage 버킷 보기
 :hardbreaks:
@@ -14,12 +14,13 @@ summary: Google Cloud에 Connector를 설치한 후 Cloud Manager는 Connector�
 
 
 [role="lead"]
-Google Cloud에 Connector를 설치한 후 Cloud Manager는 Connector가 설치된 Google 계정에 있는 Google Cloud Storage 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Google Cloud Storage 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.
+Google Cloud에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Google 계정에 있는 Google Cloud Storage 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Google Cloud Storage 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.
 
 위치, 액세스 상태, 스토리지 클래스, 총 용량 및 사용된 용량 등 Google Cloud Storage 버킷에 대한 자세한 정보를 볼 수 있습니다. 이러한 버킷은 Cloud Backup, Cloud Tiering 또는 Cloud Sync 작업의 대상으로 사용할 수 있습니다.
 
 .단계
 . link:task-creating-connectors-gcp.html["커넥터를 설치합니다"] Google Cloud Storage 버킷을 보려는 Google 계정입니다.
+. 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 +
 곧 Google Cloud Storage 작업 환경이 자동으로 표시됩니다.
 

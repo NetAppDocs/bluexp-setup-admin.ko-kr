@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-permissions-gcp.html 
 keywords: permissions, gcp, gcp permissions 
-summary: Cloud Manager를 사용하려면 클라우드 공급자에서 작업을 수행할 수 있는 권한이 필요합니다. 이러한 사용 권한은 NetApp에서 제공하는 정책에 포함됩니다. Cloud Manager가 이러한 사용 권한을 통해 수행하는 작업을 이해하기를 원할 수 있습니다. 
+summary: BlueXP는 클라우드 공급자에서 작업을 수행할 수 있는 권한이 필요합니다. 이러한 사용 권한은 NetApp에서 제공하는 정책에 포함됩니다. BlueXP가 이러한 권한을 통해 수행하는 작업을 이해하기를 원할 수 있습니다. 
 ---
 = Connector에 대한 Google Cloud 권한
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager를 사용하려면 클라우드 공급자에서 작업을
 
 
 [role="lead"]
-Cloud Manager를 사용하려면 Google Cloud에서 작업을 수행할 수 있는 권한이 필요합니다. 이러한 사용 권한은 NetApp에서 제공하는 사용자 지정 역할에 포함됩니다. Cloud Manager가 이러한 사용 권한을 통해 수행하는 작업을 이해하기를 원할 수 있습니다.
+BlueXP는 Google Cloud에서 작업을 수행할 수 있는 권한이 필요합니다. 이러한 사용 권한은 NetApp에서 제공하는 사용자 지정 역할에 포함됩니다. BlueXP가 이러한 권한을 통해 수행하는 작업을 이해하기를 원할 수 있습니다.
 
 
 
@@ -28,7 +28,7 @@ Connector VM에 연결되는 서비스 계정에 이 사용자 지정 역할을 
 
 [source, yaml]
 ----
-title: NetApp Cloud Manager
+title: NetApp BlueXP
 description: Permissions for the service account associated with the Connector instance.
 stage: GA
 includedPermissions:

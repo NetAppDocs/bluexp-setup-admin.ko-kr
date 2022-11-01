@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-accounts-gcp.html 
 keywords: cloud provider accounts, gcp, gcp accounts, google cloud platform, google accounts, google cloud platform accounts, permissions, tiering, data tiering, account for data tiering, account for tiering, project, projects, add project, select new project, gcp project, google project, google cloud project 
-summary: 서비스 계정은 Cloud Manager에 Connector와 동일한 프로젝트 또는 다른 프로젝트에 있는 Cloud Volumes ONTAP 시스템을 배포 및 관리할 수 있는 권한을 제공합니다. 
+summary: 서비스 계정은 BlueXP에 Connector와 동일한 프로젝트 또는 다른 프로젝트에 있는 Cloud Volumes ONTAP 시스템을 배포 및 관리할 수 있는 권한을 제공합니다. 
 ---
 = Google Cloud 프로젝트, 권한 및 계정
 :hardbreaks:
@@ -14,18 +14,18 @@ summary: 서비스 계정은 Cloud Manager에 Connector와 동일한 프로젝�
 
 
 [role="lead"]
-서비스 계정은 Cloud Manager에 Connector와 동일한 프로젝트 또는 다른 프로젝트에 있는 Cloud Volumes ONTAP 시스템을 배포 및 관리할 수 있는 권한을 제공합니다.
+서비스 계정은 BlueXP에 Connector와 동일한 프로젝트 또는 다른 프로젝트에 있는 Cloud Volumes ONTAP 시스템을 배포 및 관리할 수 있는 권한을 제공합니다.
 
 
 
-== Cloud Manager에 대한 프로젝트 및 권한
+== BlueXP의 프로젝트 및 권한
 
 Google Cloud에서 Cloud Volumes ONTAP를 배포하려면 먼저 Google Cloud 프로젝트에 Connector를 배포해야 합니다. Connector는 사내 또는 다른 클라우드 공급자에서 실행할 수 없습니다.
 
-Cloud Manager에서 직접 Connector를 구축하기 전에 다음 두 가지 권한 세트가 있어야 합니다.
+BlueXP에서 직접 커넥터를 배포하기 전에 두 가지 권한 세트가 있어야 합니다.
 
-. Cloud Manager에서 Connector VM 인스턴스를 시작할 수 있는 권한이 있는 Google 계정을 사용하여 Connector를 배포해야 합니다.
-. 커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다 https://cloud.google.com/iam/docs/service-accounts["서비스 계정"^] VM 인스턴스의 경우. Cloud Manager는 서비스 계정에서 권한을 받아 사용자를 대신하여 Cloud Volumes ONTAP 시스템을 생성하고 관리합니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.
+. BlueXP에서 Connector VM 인스턴스를 시작할 수 있는 권한이 있는 Google 계정을 사용하여 Connector를 배포해야 합니다.
+. 커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다 https://cloud.google.com/iam/docs/service-accounts["서비스 계정"^] VM 인스턴스의 경우. BlueXP는 서비스 계정에서 권한을 받아 사용자를 대신하여 Cloud Volumes ONTAP 시스템을 생성하고 관리합니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.
 
 
 사용자와 서비스 계정에 필요한 권한이 포함된 YAML 파일을 두 개 설정했습니다. link:task-creating-connectors-gcp.html["YAML 파일을 사용하여 권한을 설정하는 방법을 알아보십시오"].

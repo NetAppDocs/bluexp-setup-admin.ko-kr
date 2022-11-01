@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concept-netapp-accounts.html 
-keywords: accounts, workspaces, Connector, users, cloud central, admin, Account Admin, Workspace Admin, account settings, workspaces, users, members, connector, service connector, user accounts, what are users, what is a workspace, users and workspaces 
-summary: NetApp 계정은 멀티 테넌시를 제공하며 Cloud Manager 내에서 사용자와 리소스를 격리된 작업 공간에 구성할 수 있도록 합니다. 
+keywords: accounts, workspaces, Connector, users, BlueXP website, admin, Account Admin, Workspace Admin, account settings, workspaces, users, members, connector, service connector, user accounts, what are users, what is a workspace, users and workspaces 
+summary: NetApp 계정은 멀티 테넌시를 제공하며 BlueXP 내에서 사용자와 리소스를 격리된 작업 공간에 구성할 수 있도록 합니다. 
 ---
 = NetApp 계정 에 대해 알아보십시오
 :hardbreaks:
@@ -14,15 +14,15 @@ summary: NetApp 계정은 멀티 테넌시를 제공하며 Cloud Manager 내에�
 
 
 [role="lead"]
-a_NetApp account_는 멀티 테넌시를 제공하고 Cloud Manager 내에서 격리된 작업 공간에 사용자와 리소스를 구성할 수 있도록 합니다.
+a_NetApp account_는 멀티 테넌시를 제공하고 BlueXP 내에서 격리된 작업 공간에 사용자와 리소스를 구성할 수 있도록 합니다.
 
 예를 들어, 여러 사용자가 _worksaces_라는 격리된 환경에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다. 이러한 작업 영역은 다른 사용자가 공유하지 않는 한 표시되지 않습니다.
 
-Cloud Manager에 처음 액세스할 때 NetApp 계정을 선택하거나 생성하라는 메시지가 표시됩니다.
+BlueXP에 처음 액세스할 때 NetApp 계정을 선택하거나 생성하라는 메시지가 표시됩니다.
 
-image:screenshot_account_selection.gif["Cloud Manager를 생성하려는 NetApp 계정을 묻는 Cloud Manager 설정 마법사 스크린샷"]
+image:screenshot_account_selection.gif["BlueXP를 생성하려는 NetApp 계정을 묻는 BlueXP 설치 마법사 스크린샷"]
 
-그런 다음 Cloud Manager 계정 관리자는 사용자(구성원), 작업 영역, 커넥터 및 구독을 관리하여 이 계정의 설정을 수정할 수 있습니다.
+그런 다음 BlueXP 계정 관리자는 사용자(구성원), 작업 영역, 커넥터 및 구독을 관리하여 이 계정의 설정을 수정할 수 있습니다.
 
 image:screenshot_account_settings.gif["사용자, 작업 영역 및 커넥터를 관리할 수 있는 계정 관리 위젯을 보여 주는 스크린샷"]
 
@@ -32,23 +32,23 @@ image:screenshot_account_settings.gif["사용자, 작업 영역 및 커넥터를
 
 == 계정 설정
 
-Cloud Manager의 계정 관리 위젯을 사용하면 계정 관리자가 NetApp 계정을 관리할 수 있습니다. 방금 계정을 만든 경우 처음부터 다시 시작할 수 있습니다. 그러나 이미 계정을 설정한 경우에는 계정과 연결된 사용자, 작업 영역, 커넥터 및 구독이 _ALL_으로 표시됩니다.
+BlueXP의 계정 관리 위젯을 통해 계정 관리자가 NetApp 계정을 관리할 수 있습니다. 방금 계정을 만든 경우 처음부터 다시 시작할 수 있습니다. 그러나 이미 계정을 설정한 경우에는 계정과 연결된 사용자, 작업 영역, 커넥터 및 구독이 _ALL_으로 표시됩니다.
 
 
 
 == 개요
 
-개요 페이지에는 계정 이름과 계정 ID가 표시됩니다. 일부 서비스를 등록할 때 계정 ID를 제공해야 할 수 있습니다. 이 페이지에는 몇 가지 Cloud Manager 구성 옵션도 포함되어 있습니다.
+개요 페이지에는 계정 이름과 계정 ID가 표시됩니다. 일부 서비스를 등록할 때 계정 ID를 제공해야 할 수 있습니다. 이 페이지에는 일부 BlueXP 구성 옵션도 포함되어 있습니다.
 
 
 
 == 구성원
 
-회원은 NetApp 계정과 연결된 NetApp Cloud Central 사용자입니다. 사용자를 계정과 연결하고 해당 계정에서 하나 이상의 작업 공간을 만들면 해당 사용자가 Cloud Manager에서 작업 환경을 만들고 관리할 수 있습니다.
+회원은 NetApp 계정과 연결된 BlueXP 사용자입니다. 사용자와 계정 및 해당 계정의 하나 이상의 작업 영역을 연결하면 해당 사용자가 BlueXP에서 작업 환경을 만들고 관리할 수 있습니다.
 
 사용자를 연결할 때 역할을 할당합니다.
 
-* _계정 관리자_: Cloud Manager에서 모든 작업을 수행할 수 있습니다.
+* _계정 관리자_: BlueXP에서 모든 작업을 수행할 수 있습니다.
 * _Workspace 관리자_: 할당된 작업 영역에서 자원을 작성하고 관리할 수 있습니다.
 * _Compliance Viewer_: Cloud Data Sense 준수 정보만 보고 액세스 권한이 있는 시스템에 대한 보고서를 생성할 수 있습니다.
 * _SnapCenter 관리자_: SnapCenter 서비스를 사용하여 애플리케이션 정합성이 보장되는 백업을 생성하고 이러한 백업을 사용하여 데이터를 복구할 수 있습니다. _ 이 서비스는 현재 베타 상태입니다. _
@@ -60,7 +60,7 @@ link:reference-user-roles.html["이러한 역할에 대해 자세히 알아보�
 
 == 작업 공간
 
-Cloud Manager에서 작업 공간은 다른 작업 환경과 _ 작업 환경 _ 의 수를 분리합니다. 계정 관리자가 해당 작업 영역에 관리자를 연결해야만 작업 영역 관리자가 작업 영역의 작업 환경에 액세스할 수 있습니다.
+BlueXP에서 작업 영역은 다른 작업 환경에서 _ 작업 환경 _ 을(를) 격리합니다. 계정 관리자가 해당 작업 영역에 관리자를 연결해야만 작업 영역 관리자가 작업 영역의 작업 환경에 액세스할 수 있습니다.
 
 작업 환경은 스토리지 시스템을 나타냅니다.
 
@@ -75,9 +75,9 @@ link:task-setting-up-netapp-accounts.html["작업 영역을 추가하는 방법�
 
 == 커넥터
 
-Connector를 사용하면 Cloud Manager에서 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. Connector는 클라우드 공급업체에 구축하는 가상 머신 인스턴스 또는 구성한 온프레미스 호스트에서 실행됩니다.
+BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. Connector는 클라우드 공급업체에 구축하는 가상 머신 인스턴스 또는 구성한 온프레미스 호스트에서 실행됩니다.
 
-Connector를 두 개 이상의 NetApp 클라우드 데이터 서비스와 함께 사용할 수 있습니다. 예를 들어, Connector for Cloud Manager가 이미 있는 경우 Cloud Tiering 서비스를 설정할 때 선택할 수 있습니다.
+Connector를 두 개 이상의 NetApp 클라우드 데이터 서비스와 함께 사용할 수 있습니다. 예를 들어, 이미 Connector for BlueXP가 있는 경우 Cloud Tiering 서비스를 설정할 때 선택할 수 있습니다.
 
 link:concept-connectors.html["커넥터에 대해 자세히 알아보십시오"].
 
@@ -87,7 +87,7 @@ link:concept-connectors.html["커넥터에 대해 자세히 알아보십시오"]
 
 선택한 계정과 연결된 NetApp 구독입니다.
 
-클라우드 공급자의 마켓플레이스에서 Cloud Manager를 구독하면 Cloud Central로 리디렉션되어 구독을 저장하고 특정 계정에 연결해야 합니다.
+클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다.
 
 구독한 후에는 계정 관리 위젯에서 각 구독을 사용할 수 있습니다. 현재 보고 있는 계정과 연결된 구독만 표시됩니다.
 
@@ -118,7 +118,7 @@ image:diagram_cloud_central_accounts_one.png["2개의 작업 공간이 포함된
 
 === 예 2
 
-다음 예에서는 두 개의 개별 NetApp 계정을 사용하여 가장 높은 수준의 멀티 테넌시를 보여 줍니다. 예를 들어, 서비스 공급자는 하나의 계정에서 Cloud Manager를 사용하여 고객에게 서비스를 제공하는 동시에 다른 계정을 사용하여 부서 중 하나의 재해 복구를 제공할 수 있습니다.
+다음 예에서는 두 개의 개별 NetApp 계정을 사용하여 가장 높은 수준의 멀티 테넌시를 보여 줍니다. 예를 들어, 서비스 제공업체는 한 계정에서 BlueXP를 사용하여 고객에게 서비스를 제공하는 한편 다른 계정을 사용하여 해당 사업부 중 하나의 재해 복구를 제공할 수 있습니다.
 
 계정 2에는 별도의 커넥터가 2개 포함되어 있습니다. 시스템이 다른 지역이나 별도의 클라우드 공급자에 있는 경우 이러한 문제가 발생할 수 있습니다.
 

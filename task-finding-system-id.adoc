@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-finding-system-id.html 
-keywords: system id, id, cloud manager system id, connector system id 
+keywords: system id, id, BlueXP system id, connector system id 
 summary: 시작하려면 NetApp 담당자가 시스템 ID for Connector를 요청할 수 있습니다. ID는 일반적으로 라이센스 및 문제 해결 목적으로 사용됩니다. 
 ---
 = 커넥터의 시스템 ID 찾기
@@ -17,7 +17,7 @@ summary: 시작하려면 NetApp 담당자가 시스템 ID for Connector를 요�
 시작하려면 NetApp 담당자가 시스템 ID for Connector를 요청할 수 있습니다. ID는 일반적으로 라이센스 및 문제 해결 목적으로 사용됩니다.
 
 .단계
-. Cloud Manager 콘솔 오른쪽 위에서 도움말 아이콘을 클릭합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭합니다.
 . 지원 > 커넥터 * 를 클릭합니다.
 +
 시스템 ID가 맨 위에 나타납니다.
@@ -26,6 +26,6 @@ summary: 시작하려면 NetApp 담당자가 시스템 ID for Connector를 요�
 * 예 *
 
 +
-image:screenshot_system_id.gif["지원 대시보드에 표시되는 Cloud Manager의 시스템 ID를 보여 주는 스크린샷"]
+image:screenshot_system_id.gif["지원 대시보드에 표시되는 BlueXP의 시스템 ID를 보여 주는 스크린샷"]
 
 
