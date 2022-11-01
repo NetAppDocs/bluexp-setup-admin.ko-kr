@@ -343,7 +343,7 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
         "ec2:DescribeRegions",
         "eks:ListClusters",
         "eks:DescribeCluster",
-		    "iam:GetInstanceProfiles"
+        "iam:GetInstanceProfile"
       ],
       "Resource": "*"
     },
