@@ -37,7 +37,6 @@ BlueXP의 많은 기능과 서비스를 사용하려면 커넥터가 필요합�
 * 글로벌 파일 캐시
 * Google Cloud Storage 검색
 * Kubernetes 클러스터
-* 모니터링
 * 온프레미스 ONTAP 클러스터
 * StorageGRID
 
