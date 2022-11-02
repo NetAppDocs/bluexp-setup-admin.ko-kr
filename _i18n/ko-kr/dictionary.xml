@@ -766,7 +766,6 @@
   <block id="dad57e95fc9a5390302ad830888cbdb9" category="list-text">클라우드 백업</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
   <block id="85eb427901278daf26f132cb3e076914" category="list-text">Kubernetes 클러스터</block>
-  <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="list-text">모니터링</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="list-text">온프레미스 ONTAP 클러스터</block>
   <block id="d7c778975033347c9e67ffb83d3e7948" category="paragraph">커넥터는 *_NOT_ * 다음 서비스에 필요합니다.</block>
   <block id="a8435d00af3d55ea03fdb027caa5b23b" category="list-text">ONTAP 작업 환경을 위한 Amazon FSx 커넥터 가 작업 환경을 생성할 필요가 없는 경우, 볼륨 생성 및 관리, 데이터 복제, ONTAP용 FSx 를 데이터 감지 및 Cloud Sync 와 같은 NetApp 클라우드 서비스와 통합해야 합니다.</block>
@@ -2162,7 +2161,6 @@
   <block id="6c73104e218372ccda6dc2d58fda524d" category="paragraph">예를 들어, Connector는 Cloud Volumes ONTAP의 상태 및 작동에 있어 핵심 구성 요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.</block>
   <block id="b9c53fca7bb84d0455a2b4768b130e38" category="admonition">Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.</block>
   <block id="2538b2df52d923f09592be3b38238322" category="list-text">14GB</block>
-  <block id="ee684612f76fd9e6afd18a46554f2ede" category="list-text">현재 Cloud Sync만 이메일로 알림을 전송합니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
   <block id="5fd245f2aeee830efb92d081af6a0e22" category="list-text">Connector가 인터넷에 연결되지 않은 사이트에 설치되어 있으면 이메일 알림 전송이 지원되지 않습니다.</block>
   <block id="288bb352dffecbb16aa463067359ba15" category="summary">기본적으로 BlueXP는 웹 콘솔에 대한 HTTPS 액세스를 위해 자체 서명된 인증서를 사용합니다. CA(인증 기관)에서 서명한 인증서를 설치하면 자체 서명된 인증서보다 보안 보호가 향상됩니다.</block>
   <block id="4a126f1568270f6124f9c053bf5a5b02" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="9cb3f4e3b2f30b874e967976f1105dcc" category="inline-link-macro-rx"></block>.</block>
@@ -2643,4 +2641,5 @@
   <block id="a222de5f9a1db461954d4160797dfa76" category="sidebar">BlueXP 관리</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
+  <block id="0600a5fd997330da4629c9667c77df85" category="list-text">현재 Cloud Sync 및 클라우드 백업만 e-메일로 알림을 보냅니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
 </blocks>
