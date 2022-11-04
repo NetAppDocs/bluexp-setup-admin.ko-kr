@@ -33,119 +33,131 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
 {
     "Name": "BlueXP Operator",
     "Actions": [
-       "Microsoft.Compute/disks/delete",
-                        "Microsoft.Compute/disks/read",
-                        "Microsoft.Compute/disks/write",
-                        "Microsoft.Compute/locations/operations/read",
-                        "Microsoft.Compute/locations/vmSizes/read",
-                        "Microsoft.Resources/subscriptions/locations/read",
-                        "Microsoft.Compute/operations/read",
-                        "Microsoft.Compute/virtualMachines/instanceView/read",
-                        "Microsoft.Compute/virtualMachines/powerOff/action",
-                        "Microsoft.Compute/virtualMachines/read",
-                        "Microsoft.Compute/virtualMachines/restart/action",
-                        "Microsoft.Compute/virtualMachines/deallocate/action",
-                        "Microsoft.Compute/virtualMachines/start/action",
-                        "Microsoft.Compute/virtualMachines/vmSizes/read",
-                        "Microsoft.Compute/virtualMachines/write",
-                        "Microsoft.Compute/images/write",
-                        "Microsoft.Compute/images/read",
-                        "Microsoft.Network/locations/operationResults/read",
-                        "Microsoft.Network/locations/operations/read",
-                        "Microsoft.Network/networkInterfaces/read",
-                        "Microsoft.Network/networkInterfaces/write",
-                        "Microsoft.Network/networkInterfaces/join/action",
-                        "Microsoft.Network/networkSecurityGroups/read",
-                        "Microsoft.Network/networkSecurityGroups/write",
-                        "Microsoft.Network/networkSecurityGroups/join/action",
-                        "Microsoft.Network/virtualNetworks/read",
-                        "Microsoft.Network/virtualNetworks/checkIpAddressAvailability/read",
-                        "Microsoft.Network/virtualNetworks/subnets/read",
-                        "Microsoft.Network/virtualNetworks/subnets/write",
-                        "Microsoft.Network/virtualNetworks/subnets/virtualMachines/read",
-                        "Microsoft.Network/virtualNetworks/virtualMachines/read",
-                        "Microsoft.Network/virtualNetworks/subnets/join/action",
-                        "Microsoft.Resources/deployments/operations/read",
-                        "Microsoft.Resources/deployments/read",
-                        "Microsoft.Resources/deployments/write",
-                        "Microsoft.Resources/resources/read",
-                        "Microsoft.Resources/subscriptions/operationresults/read",
-                        "Microsoft.Resources/subscriptions/resourceGroups/delete",
-                        "Microsoft.Resources/subscriptions/resourceGroups/read",
-                        "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
-                        "Microsoft.Resources/subscriptions/resourceGroups/write",
-                        "Microsoft.Storage/checknameavailability/read",
-                        "Microsoft.Storage/operations/read",
-                        "Microsoft.Storage/storageAccounts/listkeys/action",
-                        "Microsoft.Storage/storageAccounts/read",
-                        "Microsoft.Storage/storageAccounts/delete",
-                        "Microsoft.Storage/storageAccounts/regeneratekey/action",
-                        "Microsoft.Storage/storageAccounts/write",
-                        "Microsoft.Storage/storageAccounts/blobServices/containers/read",
-                        "Microsoft.Storage/usages/read",
-                        "Microsoft.Compute/snapshots/write",
-                        "Microsoft.Compute/snapshots/read",
-                        "Microsoft.Compute/availabilitySets/write",
-                        "Microsoft.Compute/availabilitySets/read",
-                        "Microsoft.Compute/disks/beginGetAccess/action",
-                        "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read",
-                        "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write",
-                        "Microsoft.Network/loadBalancers/read",
-                        "Microsoft.Network/loadBalancers/write",
-                        "Microsoft.Network/loadBalancers/delete",
-                        "Microsoft.Network/loadBalancers/backendAddressPools/read",
-                        "Microsoft.Network/loadBalancers/backendAddressPools/join/action",
-                        "Microsoft.Network/loadBalancers/frontendIPConfigurations/read",
-                        "Microsoft.Network/loadBalancers/loadBalancingRules/read",
-                        "Microsoft.Network/loadBalancers/probes/read",
-                        "Microsoft.Network/loadBalancers/probes/join/action",
-                        "Microsoft.Authorization/locks/*",
-                        "Microsoft.Network/routeTables/join/action",
-                        "Microsoft.NetApp/netAppAccounts/read",
-                        "Microsoft.NetApp/netAppAccounts/capacityPools/read",
-                        "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/write",
-                        "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/read",
-                        "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/delete",
-                        "Microsoft.Network/privateEndpoints/write",
-                        "Microsoft.Storage/storageAccounts/PrivateEndpointConnectionsApproval/action",
-                        "Microsoft.Storage/storageAccounts/privateEndpointConnections/read",
-                        "Microsoft.Storage/storageAccounts/managementPolicies/read",
-                        "Microsoft.Storage/storageAccounts/managementPolicies/write",
-                        "Microsoft.Network/privateEndpoints/read",
-                        "Microsoft.Network/privateDnsZones/write",
-                        "Microsoft.Network/privateDnsZones/virtualNetworkLinks/write",
-                        "Microsoft.Network/virtualNetworks/join/action",
-                        "Microsoft.Network/privateDnsZones/A/write",
-                        "Microsoft.Network/privateDnsZones/read",
-                        "Microsoft.Network/privateDnsZones/virtualNetworkLinks/read",
-                        "Microsoft.Resources/deployments/operationStatuses/read",
-                        "Microsoft.Insights/Metrics/Read",
-                        "Microsoft.Compute/virtualMachines/extensions/write",
-                        "Microsoft.Compute/virtualMachines/extensions/delete",
-                        "Microsoft.Compute/virtualMachines/extensions/read",
-                        "Microsoft.Compute/virtualMachines/delete",
-                        "Microsoft.Network/networkInterfaces/delete",
-                        "Microsoft.Network/networkSecurityGroups/delete",
-                        "Microsoft.Resources/deployments/delete",
-                        "Microsoft.Compute/diskEncryptionSets/read",
-                        "Microsoft.Compute/snapshots/delete",
-                        "Microsoft.Network/privateEndpoints/delete",
-                        "Microsoft.Compute/availabilitySets/delete",
-                        "Microsoft.Network/loadBalancers/delete",
-                        "Microsoft.KeyVault/vaults/read",
-                        "Microsoft.KeyVault/vaults/accessPolicies/write",
-                        "Microsoft.Compute/diskEncryptionSets/write",
-                        "Microsoft.KeyVault/vaults/deploy/action",
-                        "Microsoft.Compute/diskEncryptionSets/delete",
-                        "Microsoft.Resources/tags/read",
-                        "Microsoft.Resources/tags/write",
-                        "Microsoft.Resources/tags/delete",
-                        "Microsoft.Network/applicationSecurityGroups/write",
-                        "Microsoft.Network/applicationSecurityGroups/read",
-                        "Microsoft.Network/applicationSecurityGroups/joinIpConfiguration/action",
-                        "Microsoft.Network/networkSecurityGroups/securityRules/write",
-                        "Microsoft.Network/applicationSecurityGroups/delete",
-                        "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+                   "Microsoft.Compute/disks/delete",
+                    "Microsoft.Compute/disks/read",
+                    "Microsoft.Compute/disks/write",
+                    "Microsoft.Compute/locations/operations/read",
+                    "Microsoft.Compute/locations/vmSizes/read",
+                    "Microsoft.Resources/subscriptions/locations/read",
+                    "Microsoft.Compute/operations/read",
+                    "Microsoft.Compute/virtualMachines/instanceView/read",
+                    "Microsoft.Compute/virtualMachines/powerOff/action",
+                    "Microsoft.Compute/virtualMachines/read",
+                    "Microsoft.Compute/virtualMachines/restart/action",
+                    "Microsoft.Compute/virtualMachines/deallocate/action",
+                    "Microsoft.Compute/virtualMachines/start/action",
+                    "Microsoft.Compute/virtualMachines/vmSizes/read",
+                    "Microsoft.Compute/virtualMachines/write",
+                    "Microsoft.Compute/images/write",
+                    "Microsoft.Compute/images/read",
+                    "Microsoft.Network/locations/operationResults/read",
+                    "Microsoft.Network/locations/operations/read",
+                    "Microsoft.Network/networkInterfaces/read",
+                    "Microsoft.Network/networkInterfaces/write",
+                    "Microsoft.Network/networkInterfaces/join/action",
+                    "Microsoft.Network/networkSecurityGroups/read",
+                    "Microsoft.Network/networkSecurityGroups/write",
+                    "Microsoft.Network/networkSecurityGroups/join/action",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/checkIpAddressAvailability/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/write",
+                    "Microsoft.Network/virtualNetworks/subnets/virtualMachines/read",
+                    "Microsoft.Network/virtualNetworks/virtualMachines/read",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Resources/deployments/operations/read",
+                    "Microsoft.Resources/deployments/read",
+                    "Microsoft.Resources/deployments/write",
+                    "Microsoft.Resources/resources/read",
+                    "Microsoft.Resources/subscriptions/operationresults/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/delete",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/write",
+                    "Microsoft.Storage/checknameavailability/read",
+                    "Microsoft.Storage/operations/read",
+                    "Microsoft.Storage/storageAccounts/listkeys/action",
+                    "Microsoft.Storage/storageAccounts/read",
+                    "Microsoft.Storage/storageAccounts/delete",
+                    "Microsoft.Storage/storageAccounts/regeneratekey/action",
+                    "Microsoft.Storage/storageAccounts/write",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/read",
+                    "Microsoft.Storage/usages/read",
+                    "Microsoft.Compute/snapshots/write",
+                    "Microsoft.Compute/snapshots/read",
+                    "Microsoft.Compute/availabilitySets/write",
+                    "Microsoft.Compute/availabilitySets/read",
+                    "Microsoft.Compute/disks/beginGetAccess/action",
+                    "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/read",
+                    "Microsoft.MarketplaceOrdering/offertypes/publishers/offers/plans/agreements/write",
+                    "Microsoft.Network/loadBalancers/read",
+                    "Microsoft.Network/loadBalancers/write",
+                    "Microsoft.Network/loadBalancers/delete",
+                    "Microsoft.Network/loadBalancers/backendAddressPools/read",
+                    "Microsoft.Network/loadBalancers/backendAddressPools/join/action",
+                    "Microsoft.Network/loadBalancers/frontendIPConfigurations/read",
+                    "Microsoft.Network/loadBalancers/loadBalancingRules/read",
+                    "Microsoft.Network/loadBalancers/probes/read",
+                    "Microsoft.Network/loadBalancers/probes/join/action",
+                    "Microsoft.Authorization/locks/*",
+                    "Microsoft.Network/routeTables/join/action",
+                    "Microsoft.NetApp/netAppAccounts/read",
+                    "Microsoft.NetApp/netAppAccounts/capacityPools/read",
+                    "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/write",
+                    "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/read",
+                    "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/delete",
+                    "Microsoft.Network/privateEndpoints/write",
+                    "Microsoft.Storage/storageAccounts/PrivateEndpointConnectionsApproval/action",
+                    "Microsoft.Storage/storageAccounts/privateEndpointConnections/read",
+                    "Microsoft.Storage/storageAccounts/managementPolicies/read",
+                    "Microsoft.Storage/storageAccounts/managementPolicies/write",
+                    "Microsoft.Network/privateEndpoints/read",
+                    "Microsoft.Network/privateDnsZones/write",
+                    "Microsoft.Network/privateDnsZones/virtualNetworkLinks/write",
+                    "Microsoft.Network/virtualNetworks/join/action",
+                    "Microsoft.Network/privateDnsZones/A/write",
+                    "Microsoft.Network/privateDnsZones/read",
+                    "Microsoft.Network/privateDnsZones/virtualNetworkLinks/read",
+                    "Microsoft.Resources/deployments/operationStatuses/read",
+                    "Microsoft.Insights/Metrics/Read",
+                    "Microsoft.Compute/virtualMachines/extensions/write",
+                    "Microsoft.Compute/virtualMachines/extensions/delete",
+                    "Microsoft.Compute/virtualMachines/extensions/read",
+                    "Microsoft.Compute/virtualMachines/delete",
+                    "Microsoft.Network/networkInterfaces/delete",
+                    "Microsoft.Network/networkSecurityGroups/delete",
+                    "Microsoft.Resources/deployments/delete",
+                    "Microsoft.Compute/diskEncryptionSets/read",
+                    "Microsoft.Compute/snapshots/delete",
+                    "Microsoft.Network/privateEndpoints/delete",
+                    "Microsoft.Compute/availabilitySets/delete",
+                    "Microsoft.Network/loadBalancers/delete",
+                    "Microsoft.KeyVault/vaults/read",
+                    "Microsoft.KeyVault/vaults/accessPolicies/write",
+                    "Microsoft.Compute/diskEncryptionSets/write",
+                    "Microsoft.KeyVault/vaults/deploy/action",
+                    "Microsoft.Compute/diskEncryptionSets/delete",
+                    "Microsoft.Resources/tags/read",
+                    "Microsoft.Resources/tags/write",
+                    "Microsoft.Resources/tags/delete",
+                    "Microsoft.Network/applicationSecurityGroups/write",
+                    "Microsoft.Network/applicationSecurityGroups/read",
+                    "Microsoft.Network/applicationSecurityGroups/joinIpConfiguration/action",
+                    "Microsoft.Network/networkSecurityGroups/securityRules/write",
+                    "Microsoft.Network/applicationSecurityGroups/delete",
+                    "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+                    "Microsoft.ContainerService/managedClusters/listClusterUserCredential/action",
+                    "Microsoft.ContainerService/managedClusters/read",
+                    "Microsoft.Synapse/workspaces/write",
+                    "Microsoft.Synapse/workspaces/read",
+                    "Microsoft.Synapse/workspaces/delete",
+                    "Microsoft.Synapse/register/action",
+                    "Microsoft.Synapse/checkNameAvailability/action",
+                    "Microsoft.Synapse/workspaces/operationStatuses/read",
+                    "Microsoft.Synapse/workspaces/firewallRules/read",
+                    "Microsoft.Synapse/workspaces/replaceAllIpFirewallRules/action",
+                    "Microsoft.Synapse/workspaces/operationResults/read",
+                    "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action"
     ],
     "NotActions": [],
     "AssignableScopes": [],
@@ -157,79 +169,572 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
 
 == Azure 사용 권한 사용 방법
 
-[cols="50,50"]
+다음 섹션에서는 각 NetApp 클라우드 서비스에 대한 사용 권한을 어떻게 사용하는지 설명합니다. 이 정보는 기업 정책에 따라 사용 권한이 필요한 경우에만 제공된다는 내용이 지정되어 있는 경우에 유용합니다.
+
+
+
+=== AppTemplate 태그
+
+Connector는 AppTemplate Tagging 서비스를 사용할 때 Azure 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Resources/resources/read
+* Microsoft.Resources/서브스크립션/운영 결과/읽기
+* Microsoft.Resources/Subscriptions/resourceGroups/read
+* Microsoft.Resources/Subscriptions/resourcegroups/resources/read
+* Microsoft.Resources/tags/read
+* Microsoft.Resources/tags/write(Microsoft.리소스/태그/쓰기
+
+
+
+
+=== Azure NetApp Files
+
+Connector는 Azure NetApp Files 작업 환경 관리를 위해 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.NetApp/netAppAccounts/read
+* Microsoft.NetApp/netAppAccounts/capacityPools/read
+* Microsoft.NetApp/netAppAccounts/capacityPools/volumes/write
+* Microsoft.NetApp/netAppAccounts/capacityPools/volumes/read
+* Microsoft.NetApp/netAppAccounts/capacityPools/volumes/delete
+
+
+
+
+=== 클라우드 백업
+
+Connector는 백업 및 복원 작업에 대해 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Compute/virtualMachines/read
+* Microsoft.Compute/virtualMachines/start/action
+* Microsoft.Compute/virtualMachines/deallocate/action
+* Microsoft.Storage/storageAccounts/listkeys/action
+* Microsoft.Storage/storageAccounts/read를 참조하십시오
+* Microsoft.Storage/storageAccounts/write입니다
+* Microsoft.Storage/storageAccounts/blobServices/containers/read
+* Microsoft.KeyVault/볼트/읽기
+* Microsoft.KeyVault/vaults/accessPolicies/write
+* Microsoft.Network/networkInterfaces/read
+* Microsoft.Resources/서브스크립션/위치/읽기
+* Microsoft.Network/virtualNetworks/read
+* Microsoft.Network/virtualNetworks/subnets/read
+* Microsoft.Resources/Subscriptions/resourceGroups/read
+* Microsoft.Resources/Subscriptions/resourcegroups/resources/read
+* Microsoft.Resources/Subscriptions/resourceGroups/write입니다
+* Microsoft.인증/잠금/ *
+* Microsoft.Network/privateEndpoints/write
+* Microsoft.Network/privateEndpoints/read
+* Microsoft.Network/privateDnsZones/virtualNetworkLinks/write
+* Microsoft.Network/virtualNetworks/join/action
+* Microsoft.Network/privateDnsZones/A/write
+* Microsoft.Network/privateDnsZones/read
+* Microsoft.Network/privateDnsZones/virtualNetworkLinks/read
+* Microsoft.Compute/virtualMachines/extensions/delete
+* Microsoft.Compute/virtualMachines/delete
+* Microsoft.Network/networkInterfaces/delete
+* Microsoft.Network/networkSecurityGroups/delete
+* Microsoft.Resources/Deployments/Delete 를 참조하십시오
+* Microsoft.Network/publicIPAddresses/delete
+* Microsoft.Storage/storageAccounts/blobServices/containers/write
+* Microsoft.ManagedIdentity/userAssignedIdentities/assign/action 을 참조하십시오
+
+
+Connector는 검색 및 복원 기능을 사용할 때 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Synapse/작업 공간/쓰기
+* Microsoft.Synapse/작업 공간/읽기
+* Microsoft.Synapse/작업 공간/삭제
+* Microsoft.Synapse/등록/조치
+* Microsoft.Synapse/checkNameAvailability/action
+* Microsoft.Synapse/작업 공간/작업 상태/읽기
+* Microsoft.Synapse/작업 공간/firewallwules/read
+* Microsoft.Synapse/작업 공간/교체 eAllIpFirewallRules/action
+* Microsoft.Synapse/작업 공간/작업 결과/읽기
+
+
+
+
+=== 클라우드 데이터 감지
+
+Connector는 Cloud Data Sense를 사용할 때 다음과 같은 API 요청을 수행합니다.
+
+[cols="3*"]
 |===
-| 작업 | 목적 
+| 조치 | 설정에 사용됩니까? | 일상적 운영에 사용됩니까? 
 
 
-| "Microsoft.Compute/locations/operations/read", "Microsoft.Compute/locations/vmSizes/read", "Microsoft.Compute/operations/read", "Microsoft.Compute/virtualMachines/instanceView/read","Microsoft.Compute/virtualMachines/powerOff/action", "Microsoft.Compute/virtualMachines/read", "Microsoft.Compute/virtualMachines/restart/action", "Microsoft.Compute/virtualMachines/start/action", "Microsoft.Compute/virtualMachines/deallocate/action","Microsoft.Compute/virtualMachines/vmSizes/read", "Microsoft.Compute/virtualMachines/write", | Cloud Volumes ONTAP를 생성하고 시스템 상태를 중지, 시작, 삭제 및 가져옵니다. 
+| Microsoft.Compute/locations/operations/read | 예 | 예 
 
 
-| "Microsoft.Compute/images/write"," Microsoft.Compute/images/read", | VHD에서 Cloud Volumes ONTAP 배포를 활성화합니다. 
+| Microsoft.Compute/locations/vmSizes/read | 예 | 예 
 
 
-| "Microsoft.Compute/disks/delete", "Microsoft.Compute/disks/read", "Microsoft.Compute/disks/write", "Microsoft.Storage/checkknameAvailability/read", "Microsoft.Storage/operations/read", "Microsoft.Storage/storageAccounts/listkeys/action", "Microsoft.Storage/storageAccounts/read", "Microsoft.Storage/storageAccounts/REV/ACTION", "Microsoft.Storage/storageAccounts/write", "Microsoft.Storage/storageAccounts/delete", "Microsoft.Storage/en사용법/read", | Azure 스토리지 계정 및 디스크를 관리하고 디스크를 Cloud Volumes ONTAP에 연결합니다. 
+| Microsoft.Compute/operations/read | 예 | 예 
 
 
-| "Microsoft.Storage/storageAccounts/blobServices/containers/read", "Microsoft.KeyVault/vaults/read", "Microsoft.KeyVault/vaults/accessPolicies/write" | Azure Blob 저장소에 백업 및 스토리지 계정 암호화를 지원합니다 
+| Microsoft.Compute/virtualMachines/instanceView/read | 예 | 예 
 
 
-| "Microsoft.Network/networkInterfaces/read", "Microsoft.Network/networkInterfaces/write"," Microsoft.Network/networkInterfaces/join/action", | 대상 서브넷에서 Cloud Volumes ONTAP에 대한 네트워크 인터페이스를 생성하고 관리합니다. 
+| Microsoft.Compute/virtualMachines/powerOff/action | 예 | 아니요 
 
 
-| "Microsoft.Network/networkSecurityGroups/read", "Microsoft.Network/networkSecurityGroups/write"," Microsoft.Network/networkSecurityGroups/join/action", | Cloud Volumes ONTAP에 대해 미리 정의된 네트워크 보안 그룹을 생성합니다. 
+| Microsoft.Compute/virtualMachines/read | 예 | 예 
 
 
-| "Microsoft.Resources/Subscriptions/locations/read", "Microsoft.Network/locations/operationResults/read", "Microsoft.Network/locations/operations/read", "Microsoft.Network/virtualNetworks/read"," Microsoft.Network/virtualNetworks/checkIpAddressAvailability/read", "Microsoft.Network/virtualNetworks/subnets/read", "Microsoft.Network/virtualNetworks/subnets/virtualMachines/read", "Microsoft.Network/virtualNetworks/virtualMachines/read","Microsoft.Network/virtualNetworks/subnets/join/action", | 지역, 대상 VNET 및 서브넷에 대한 네트워크 정보를 가져오고 Cloud Volumes ONTAP를 VNets에 추가합니다. 
+| Microsoft.Compute/virtualMachines/restart/action | 예 | 아니요 
 
 
-| "Microsoft.Network/virtualNetworks/subnets/write"," Microsoft.Network/routeTables/join/action", | 데이터 계층화를 위한 VNET 서비스 엔드포인트를 활성화합니다. 
+| Microsoft.Compute/virtualMachines/start/action | 예 | 아니요 
 
 
-| "Microsoft.Resources/Deployments/operations/read", "Microsoft.Resources/Deployments/read", "Microsoft.Resources/Deployments/Write", | 템플릿에서 Cloud Volumes ONTAP를 배포합니다. 
+| Microsoft.Compute/virtualMachines/vmSizes/read | 아니요 | 예 
 
 
-| "Microsoft.Resources/Deployments/operations/read", "Microsoft.Resources/Deployments/read", "Microsoft.Resources/Deployments/write", "Microsoft.Resources/resources/read", "Microsoft.Resources/Subscriptions/operationresults/read", "Microsoft.Resources/Subscriptions/resourceGroups/delete", "Microsoft.Resources/Subscriptions/resourceGroups/read", "Microsoft.Resources/Subscriptions/resourcegroups/resourceGroups/read", "Microsoft.Resources/Subscriptions/resourceGroups/write", | Cloud Volumes ONTAP에 대한 리소스 그룹을 생성하고 관리합니다. 
+| Microsoft.Compute/virtualMachines/write | 예 | 아니요 
 
 
-| "Microsoft.Compute/snapshots/write", "Microsoft.Compute/snapshots/read", "Microsoft.Compute/snapshots/delete","Microsoft.Compute/disks/beginGetAccess/action", | Azure 관리 스냅샷을 생성하고 관리합니다. 
+| Microsoft.Compute/images/read | 예 | 예 
 
 
-| "Microsoft.Compute/availabilitySets/write"," Microsoft.Compute/availabilitySets/read", | Cloud Volumes ONTAP의 가용성 세트를 생성하고 관리합니다. 
+| Microsoft.Compute/disks/delete | 예 | 아니요 
 
 
-| "Microsoft.MarketplaceOrdering/offerstypes/publishers/Offers/Plans/Agreement/read", "Microsoft.MarketplaceOrdering/offerstypes/publisherTypes/publishers/Offers/Plans/Agreement/write", | Azure Marketplace에서 프로그래밍 방식으로 배포할 수 있습니다. 
+| Microsoft.Compute/disks/read | 예 | 예 
 
 
-| "Microsoft.Network/loadBalancers/read", "Microsoft.Network/loadBalancers/write", "Microsoft.Network/loadBalancers/delete", "Microsoft.Network/loadBalancers/backendAddressPools/read","Microsoft.Network/loadBalancers/backendAddressPools/join/action", "Microsoft.Network/loadBalancers/frontendIPConfigurations/read", "Microsoft.Network/loadBalancers/loadBalancingRules/read", "Microsoft.Network/loadBalancers/probes/read","Microsoft.Network/loadBalancers/probes/join/action", | HA 쌍에 대한 Azure 로드 밸런서를 관리합니다. 
+| Microsoft.Compute/disks/write | 예 | 아니요 
 
 
-| "Microsoft.Authorization/lock/ *", | Azure 디스크의 잠금 관리를 활성화합니다. 
+| Microsoft.Storage/CheckknameAvailability/read | 예 | 예 
 
 
-| "Microsoft.Authorization/roleDefinitions/write", "Microsoft.Authorization/roleAssignments/write", "Microsoft.Web/sites/ *" | HA 쌍의 페일오버 관리 
+| Microsoft.스토리지/작업/읽기 | 예 | 예 
 
 
-| "Microsoft.Network/privateEndpoints/write", "Microsoft.Storage/storageAccounts/PrivateEndpointConnectionsApproval/action", "Microsoft.Storage/storageAccounts/privateEndpointConnections/read", "Microsoft.Network/privateEndpoints/read", "Microsoft.Network/privateDnsZones/write", "Microsoft.Network/privateDnsZones/virtualNetworkLinks/write", "Microsoft.Network/virtualNetworks/join/action", "Microsoft.Network/privateDnsZones/A/write", "Microsoft.Network/privateDnsZones/read","Microsoft.Network/privateDnsZones/virtualNetworkLinks/read", | 전용 엔드포인트를 관리할 수 있습니다. 전용 엔드포인트는 서브넷 외부에 접속이 제공되지 않을 때 사용됩니다. BlueXP는 서브넷 내의 내부 연결만을 사용하여 HA에 대한 저장소 계정을 생성합니다. 
+| Microsoft.Storage/storageAccounts/listkeys/action | 예 | 아니요 
 
 
-| "Microsoft.NetApp/netAppAccounts/capacityPools/volumes/delete", | Azure NetApp Files의 볼륨을 삭제할 수 있도록 BlueXP를 활성화합니다. 
+| Microsoft.Storage/storageAccounts/read를 참조하십시오 | 예 | 예 
 
 
-| "Microsoft.Resources/Deployments/operationStates/read" | Azure에서는 일부 가상 시스템 배포에 대해 이 권한이 필요합니다(배포 중에 사용되는 기본 물리적 하드웨어에 따라 다름). 
+| Microsoft.Storage/storageAccounts/write입니다 | 예 | 아니요 
 
 
-| "Microsoft.Resources/Deployments/operationStates/read", "Microsoft.Insights/Metrics/Read", "Microsoft.Compute/virtualMachines/extensions/write", "Microsoft.Compute/virtualMachines/extensions/read"," Microsoft.Compute/virtualMachines/extensions/delete", "Microsoft.Compute/virtualMachines/delete", "Microsoft.Network/networkInterfaces/delete", "Microsoft.Network/networkSecurityGroups/delete", "Microsoft.Resources/Deployments/delete", | 글로벌 파일 캐시를 사용할 수 있습니다. 
+| Microsoft.Storage/storageAccounts/delete | 아니요 | 예 
 
 
-| "Microsoft.Network/privateEndpoints/delete"," Microsoft.Compute/availabilitySets/delete", | 배포 실패 또는 삭제 시 BlueXP에서 Cloud Volumes ONTAP에 속한 리소스 그룹에서 리소스를 제거할 수 있습니다. 
+| Microsoft.Storage/storageAccounts/blobServices/containers/read | 예 | 예 
 
 
-| "Microsoft.Compute/diskEncryptionSets/read"" Microsoft.Compute/diskEncryptionSets/write", "Microsoft.Compute/diskEncryptionSets/delete" "Microsoft.KeyVault/vaults/deploy/action", "Microsoft.KeyVault/vaults/waults/read", "Microsoft.KeyVault/vaults/accessPolicies/write", | Cloud Volumes ONTAP에서 고객이 관리하는 암호화 키를 사용할 수 있습니다. 이 기능은 API를 사용하여 지원됩니다. 
+| Microsoft.Network/networkInterfaces/read | 예 | 예 
 
 
-| "Microsoft.Resources/tags/read", "Microsoft.Resources/tags/write", "Microsoft.Resources/tags/delete" | BlueXP Tagging 서비스를 사용하여 Azure 리소스의 태그를 관리할 수 있습니다. 
+| Microsoft.Network/networkInterfaces/write | 예 | 아니요 
 
 
-| "Microsoft.Network/applicationSecurityGroups/write", "Microsoft.Network/applicationSecurityGroups/read", "Microsoft.Network/applicationSecurityGroups/joinIpConfiguration/action", "Microsoft.Network/networkSecurityGroups/securityRules/write","Microsoft.Network/applicationSecurityGroups/delete", "Microsoft.Network/networkSecurityGroups/securityRules/delete" 참조하십시오 | BlueXP에서 HA 상호 연결과 클러스터 네트워크 NIC를 격리하는 HA 쌍에 대한 애플리케이션 보안 그룹을 구성할 수 있습니다. 
+| Microsoft.Network/networkInterfaces/join/action | 예 | 아니요 
+
+
+| Microsoft.Network/networkSecurityGroups/read | 예 | 예 
+
+
+| Microsoft.Network/networkSecurityGroups/write | 예 | 아니요 
+
+
+| Microsoft.Resources/서브스크립션/위치/읽기 | 예 | 예 
+
+
+| Microsoft.Network/locations/operationResults/read | 예 | 예 
+
+
+| Microsoft.Network/locations/operations/read | 예 | 예 
+
+
+| Microsoft.Network/virtualNetworks/read | 예 | 예 
+
+
+| Microsoft.Network/virtualNetworks/checkIpAddressAvailability/read | 예 | 예 
+
+
+| Microsoft.Network/virtualNetworks/subnets/read | 예 | 예 
+
+
+| Microsoft.Network/virtualNetworks/subnets/virtualMachines/read | 예 | 예 
+
+
+| Microsoft.Network/virtualNetworks/virtualMachines/read | 예 | 예 
+
+
+| Microsoft.Network/virtualNetworks/subnets/join/action | 예 | 아니요 
+
+
+| Microsoft.Network/virtualNetworks/subnets/write | 예 | 아니요 
+
+
+| Microsoft.Network/routeTables/join/action | 예 | 아니요 
+
+
+| Microsoft.Resources/Deployments/Operations/Read 를 참조하십시오 | 예 | 예 
+
+
+| Microsoft.Resources/Deployments/Read 를 참조하십시오 | 예 | 예 
+
+
+| Microsoft.Resources/Deployments/Write 를 참조하십시오 | 예 | 아니요 
+
+
+| Microsoft.Resources/resources/read | 예 | 예 
+
+
+| Microsoft.Resources/서브스크립션/운영 결과/읽기 | 예 | 예 
+
+
+| Microsoft.Resources/Subscriptions/resourceGroups/delete | 예 | 아니요 
+
+
+| Microsoft.Resources/Subscriptions/resourceGroups/read | 예 | 예 
+
+
+| Microsoft.Resources/Subscriptions/resourcegroups/resources/read | 예 | 예 
+
+
+| Microsoft.Resources/Subscriptions/resourceGroups/write입니다 | 예 | 아니요 
 |===
+
+
+=== 클라우드 계층화
+
+Connector는 Cloud Tiering을 설정할 때 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Storage/storageAccounts/listkeys/action
+* Microsoft.Resources/Subscriptions/resourceGroups/read
+* Microsoft.Resources/서브스크립션/위치/읽기
+
+
+Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Storage/storageAccounts/blobServices/containers/read
+* Microsoft.Storage/storageAccounts/blobServices/containers/write
+* Microsoft.Storage/storageAccounts/managementPolicies/read를 참조하십시오
+* Microsoft.Storage/storageAccounts/managementPolicies/write를 참조하십시오
+* Microsoft.Storage/storageAccounts/read를 참조하십시오
+
+
+
+
+=== Cloud Volumes ONTAP
+
+Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다음과 같은 API 요청을 수행합니다.
+
+[cols="5*"]
+|===
+| 목적 | 조치 | 배포에 사용되었습니까? | 일상적 운영에 사용됩니까? | 삭제에 사용되었습니까? 
+
+
+.12+| VM을 생성하고, 시스템 상태를 중지, 시작, 삭제하고, 가져옵니다 | Microsoft.Compute/locations/operations/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/locations/vmSizes/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Resources/서브스크립션/위치/읽기 | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Compute/operations/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/virtualMachines/instanceView/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/virtualMachines/powerOff/action | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/virtualMachines/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/virtualMachines/restart/action | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/virtualMachines/start/action | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/virtualMachines/deallocate/action | 아니요 | 예 | 예 
+
+
+| Microsoft.Compute/virtualMachines/vmSizes/read | 아니요 | 예 | 아니요 
+
+
+| Microsoft.Compute/virtualMachines/write | 예 | 예 | 아니요 
+
+
+| VHD에서 배포를 활성화합니다 | Microsoft.Compute/images/read | 예 | 아니요 | 아니요 
+
+
+.3+| 대상 서브넷에서 네트워크 인터페이스를 생성하고 관리합니다 | Microsoft.Network/networkInterfaces/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/networkInterfaces/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/networkInterfaces/join/action | 예 | 예 | 아니요 
+
+
+.3+| 미리 정의된 네트워크 보안 그룹을 생성합니다 | Microsoft.Network/networkSecurityGroups/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/networkSecurityGroups/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/networkSecurityGroups/join/action | 예 | 아니요 | 아니요 
+
+
+.8+| 지역, 대상 VNET 및 서브넷에 대한 네트워크 정보를 얻고 VM을 VNets에 추가합니다 | Microsoft.Network/locations/operationResults/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/locations/operations/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/virtualNetworks/read | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Network/virtualNetworks/checkIpAddressAvailability/read | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Network/virtualNetworks/subnets/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/virtualNetworks/subnets/virtualMachines/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/virtualNetworks/virtualMachines/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/virtualNetworks/subnets/join/action | 예 | 예 | 아니요 
+
+
+.9+| 자원 그룹을 만들고 관리합니다 | Microsoft.Resources/Deployments/Operations/Read 를 참조하십시오 | 예 | 예 | 아니요 
+
+
+| Microsoft.Resources/Deployments/Read 를 참조하십시오 | 예 | 예 | 아니요 
+
+
+| Microsoft.Resources/Deployments/Write 를 참조하십시오 | 예 | 예 | 아니요 
+
+
+| Microsoft.Resources/resources/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Resources/서브스크립션/운영 결과/읽기 | 예 | 예 | 아니요 
+
+
+| Microsoft.Resources/Subscriptions/resourceGroups/delete | 예 | 예 | 예 
+
+
+| Microsoft.Resources/Subscriptions/resourceGroups/read | 아니요 | 예 | 아니요 
+
+
+| Microsoft.Resources/Subscriptions/resourcegroups/resources/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Resources/Subscriptions/resourceGroups/write입니다 | 예 | 예 | 아니요 
+
+
+.10+| Azure 스토리지 계정 및 디스크를 관리합니다 | Microsoft.Compute/disks/read | 예 | 예 | 예 
+
+
+| Microsoft.Compute/disks/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/disks/delete | 예 | 예 | 예 
+
+
+| Microsoft.Storage/CheckknameAvailability/read | 예 | 예 | 아니요 
+
+
+| Microsoft.스토리지/작업/읽기 | 예 | 예 | 아니요 
+
+
+| Microsoft.Storage/storageAccounts/listkeys/action | 예 | 예 | 아니요 
+
+
+| Microsoft.Storage/storageAccounts/read를 참조하십시오 | 예 | 예 | 아니요 
+
+
+| Microsoft.Storage/storageAccounts/delete | 아니요 | 예 | 예 
+
+
+| Microsoft.Storage/storageAccounts/write입니다 | 예 | 예 | 아니요 
+
+
+| Microsoft.스토리지/용도/읽기 | 아니요 | 예 | 아니요 
+
+
+.3+| Blob 저장소로 백업 및 스토리지 계정 암호화 지원 | Microsoft.Storage/storageAccounts/blobServices/containers/read | 예 | 예 | 아니요 
+
+
+| Microsoft.KeyVault/볼트/읽기 | 예 | 예 | 아니요 
+
+
+| Microsoft.KeyVault/vaults/accessPolicies/write | 예 | 예 | 아니요 
+
+
+.2+| 데이터 계층화를 위해 VNET 서비스 엔드포인트를 활성화합니다 | Microsoft.Network/virtualNetworks/subnets/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/routeTables/join/action | 예 | 예 | 아니요 
+
+
+.4+| Azure 관리 스냅샷을 생성하고 관리합니다 | Microsoft.Compute/snapshots/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/snapshots/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/snapshots/delete | 아니요 | 예 | 예 
+
+
+| Microsoft.Compute/disks/beginGetAccess/action | 아니요 | 예 | 아니요 
+
+
+.2+| 가용성 세트 생성 및 관리 | Microsoft.Compute/availabilitySets/write | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Compute/availabilitySets/read | 예 | 아니요 | 아니요 
+
+
+.2+| 시장에서 프로그래밍 방식으로 배포할 수 있습니다 | Microsoft.MarketplaceOrdering/offerstypes/publishers/Offers/Plans/Agreement/read | 예 | 아니요 | 아니요 
+
+
+| Microsoft.MarketplaceOrdering/offersTypes/publishers/Offers/Plans/Agreement/write | 예 | 예 | 아니요 
+
+
+.7+| HA 쌍에 대한 로드 밸런서를 관리합니다 | Microsoft.Network/loadBalancers/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/loadBalancers/write | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Network/loadBalancers/delete | 아니요 | 예 | 예 
+
+
+| Microsoft.Network/loadBalancers/backendAddressPools/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/loadBalancers/loadBalancingRules/read | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Network/loadBalancers/probes/read | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Network/loadBalancers/probes/join/action | 예 | 아니요 | 아니요 
+
+
+| Azure 디스크에서 잠금 관리를 활성화합니다 | Microsoft.인증/잠금/ * | 예 | 예 | 아니요 
+
+
+.10+| 서브넷 외부에 연결이 없는 경우 HA 쌍에 대한 개인 끝점을 설정합니다 | Microsoft.Network/privateEndpoints/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Storage/storageAccounts/PrivateEndpointConnectionsApproval/action 을 참조하십시오 | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Storage/storageAccounts/privateEndpointConnections/read | 예 | 예 | 예 
+
+
+| Microsoft.Network/privateEndpoints/read | 예 | 예 | 예 
+
+
+| Microsoft.Network/privateDnsZones/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/privateDnsZones/virtualNetworkLinks/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/virtualNetworks/join/action | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/privateDnsZones/A/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/privateDnsZones/read | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/privateDnsZones/virtualNetworkLinks/read | 예 | 예 | 아니요 
+
+
+| 기본 물리적 하드웨어에 따라 일부 VM 구축에서는 Azure에서 필요합니다 | Microsoft.Resources/Deployments/operationStates/read 를 참조하십시오 | 예 | 예 | 아니요 
+
+
+.2+| 배포 실패 또는 삭제 시 리소스 그룹에서 리소스를 제거합니다 | Microsoft.Network/privateEndpoints/delete | 예 | 예 | 아니요 
+
+
+| Microsoft.Compute/availabilitySets/delete | 예 | 예 | 아니요 
+
+
+.4+| API를 사용할 때 고객이 관리하는 암호화 키를 사용할 수 있도록 설정합니다 | Microsoft.Compute/diskEncryptionSets/read | 예 | 예 | 예 
+
+
+| Microsoft.Compute/diskEncryptionSets/write | 예 | 예 | 아니요 
+
+
+| Microsoft.KeyVault/볼트/배포/작업 | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Compute/diskEncryptionSets/delete | 예 | 예 | 예 
+
+
+.6+| HA 인터커넥트 및 클러스터 네트워크 NIC를 격리하도록 HA 쌍에 대한 애플리케이션 보안 그룹을 구성합니다 | Microsoft.Network/applicationSecurityGroups/write | 아니요 | 예 | 아니요 
+
+
+| Microsoft.Network/applicationSecurityGroups/read | 아니요 | 예 | 예 
+
+
+| Microsoft.Network/applicationSecurityGroups/joinIpConfiguration/action | 아니요 | 예 | 아니요 
+
+
+| Microsoft.Network/networkSecurityGroups/securityRules/write | 예 | 예 | 아니요 
+
+
+| Microsoft.Network/applicationSecurityGroups/delete | 아니요 | 예 | 아니요 
+
+
+| Microsoft.Network/networkSecurityGroups/securityRules/delete | 아니요 | 예 | 예 
+
+
+.3+| Cloud Volumes ONTAP 리소스와 연결된 태그를 읽고, 쓰고, 삭제합니다 | Microsoft.Resources/tags/read | 아니요 | 예 | 아니요 
+
+
+| Microsoft.Resources/tags/write(Microsoft.리소스/태그/쓰기 | 예 | 예 | 아니요 
+
+
+| Microsoft.Resources/tags/delete(Microsoft.리소스/태그/삭제 | 예 | 아니요 | 아니요 
+|===
+
+
+=== 글로벌 파일 캐시
+
+Connector는 글로벌 파일 캐시를 사용할 때 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Insights/메트릭/읽기
+* Microsoft.Compute/virtualMachines/extensions/write
+* Microsoft.Compute/virtualMachines/extensions/read
+* Microsoft.Compute/virtualMachines/extensions/delete
+* Microsoft.Compute/virtualMachines/delete
+* Microsoft.Network/networkInterfaces/delete
+* Microsoft.Network/networkSecurityGroups/delete
+* Microsoft.Resources/Deployments/Delete 를 참조하십시오
+
+
+
+
+=== 쿠버네티스
+
+Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 검색하고 관리하기 위해 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Compute/virtualMachines/read
+* Microsoft.Resources/서브스크립션/위치/읽기
+* Microsoft.Resources/서브스크립션/운영 결과/읽기
+* Microsoft.Resources/Subscriptions/resourceGroups/read
+* Microsoft.Resources/Subscriptions/resourcegroups/resources/read
+* Microsoft.ContainerService/managedClusters/read
+* Microsoft.ContainerService/managedClusters/listClusterUserCredential/action입니다
+
