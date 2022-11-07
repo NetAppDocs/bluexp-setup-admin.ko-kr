@@ -2750,4 +2750,36 @@
   <block id="c188f3200de41a855c54a31c5e486db6" category="paragraph">소스 볼륨에 사용 중인 것과 다른 Cloud Volumes ONTAP 백업 계정을 사용하는 경우 Connector에서 다음 API 요청을 수행합니다.</block>
   <block id="4b9c42bf1853fa25d534302dbc43f035" category="list-text">S3: PutBucketPolicy</block>
   <block id="fa4d7248969f7582be82c5aa4b15e08b" category="list-text">S3: PutBucketOwnershipControls</block>
+  <block id="c9c484fe908813be17fe13bbdeabfb1d" category="cell">생성 중에 스토리지 계정을 암호화합니다</block>
+  <block id="4d17b7f0d1f8c0ae69c0ec8d32fea349" category="summary">클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 Digital Wallet에서 각 구독을 관리할 수 있습니다.</block>
+  <block id="b01b1be092b95233172f870dc729234b" category="doc">PAYGO 구독 및 계약 관리</block>
+  <block id="e858f445394700e621aa67dd8e3fe958" category="section-title">구독 정보를 확인하십시오</block>
+  <block id="9c1b3fb5f48f73ce89025933ec931382" category="paragraph">Digital Wallet은 BlueXP 계정 및 Astra(Astra는 BlueXP의 충전 서비스를 사용)와 관련된 각 PAYGO 가입 및 연간 계약에 대한 세부 정보를 제공합니다.</block>
+  <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">BlueXP 탐색 메뉴에서 * Governance &gt; Digital Wallet * 을 선택합니다.</block>
+  <block id="8c3682e85d7f4dbe8a46485082335dec" category="list-text">구독 * 을 선택합니다.</block>
+  <block id="572e470335e0a6d55da05c732a01aed3" category="list-text">구독에 대한 정보를 볼 때 다음과 같이 표의 세부 정보와 상호 작용할 수 있습니다.</block>
+  <block id="6a1de13d318f22872902849cd26467b4" category="list-text">행을 확장하여 자세한 내용을 봅니다.</block>
+  <block id="d61aec883b403c61da2d8d8e19d78473" category="inline-image-macro">Digital Wallet의 Subscriptions(구독) 탭에 있는 스크린샷으로, 행 끝에 있는 화살표를 선택하여 확장할 수 있습니다.</block>
+  <block id="3a9d2caf2b3b63f1b3ab7d00e469b158" category="paragraph"><block ref="3a9d2caf2b3b63f1b3ab7d00e469b158" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="56594b7222b35921f9fe676eadf6bbdf" category="inline-image-macro">표 헤더 끝에 있는 더하기 아이콘입니다</block>
+  <block id="31ede6b5001222203bb2fe87698bcc3a" category="list-text">을 클릭합니다 <block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block> 테이블에 표시할 열을 선택합니다.</block>
+  <block id="c090ce3dc0b8ea780bfa95c666328c67" category="paragraph">용어 및 자동 갱신 열은 기본적으로 표시되지 않습니다. 자동 갱신 열에는 Azure 계약에 대한 갱신 정보만 표시됩니다.</block>
+  <block id="48772efe35cdbabca3c0abdab7360b57" category="paragraph">표에 표시되는 내용에 대해서는 다음을 참고하십시오.</block>
+  <block id="4d34f1097f6c8b9cee28bca8b78bbee9" category="list-text">시작 날짜</block>
+  <block id="d1686d74b72c58f44c6fceaf3011df0b" category="list-text">시작 날짜는 가입이 계정에 성공적으로 연결되고 충전이 시작된 날짜입니다.</block>
+  <block id="716e98867696fbbeed00e3dcd1f76758" category="list-text">테이블에 해당 없음 이 표시되면 현재 클라우드 공급자의 API에서 해당 정보를 사용할 수 없습니다.</block>
+  <block id="cd494d76449d5dfe0c0adfb2f3447761" category="list-text">계약</block>
+  <block id="8090b542b799e2f0268fddd048d44eda" category="list-text">계약에 대한 세부 정보를 확장하면 Digital Wallet에 현재 계획에 사용할 수 있는 계약 옵션 및 단위(용량 또는 노드 수)가 표시됩니다.</block>
+  <block id="7f96d1365390f4c6a7c1befe0b068769" category="list-text">Digital Wallet은 종료 날짜 및 계약이 곧 갱신될지, 곧 종료될지, 이미 종료되었는지 여부를 식별합니다.</block>
+  <block id="d1d7830f95588ae511ee592eab47c2b0" category="list-text">AWS 계약이 있고 시작 날짜 이후에 계약 옵션을 변경한 경우, AWS에서 계약 옵션을 확인해야 합니다.</block>
+  <block id="6942b724002d90bb0f705f478cdd6bf3" category="section-title">구독을 관리합니다</block>
+  <block id="ac3dad7b0d90a8896f44e77f84726619" category="paragraph">구독의 이름을 바꾸고 구독과 연결된 계정을 선택하여 Digital Wallet에서 구독을 관리할 수 있습니다.</block>
+  <block id="23531331db8be0d13d9ce3c0685c0c8e" category="paragraph"><block ref="23531331db8be0d13d9ce3c0685c0c8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="79e4d47d0339f23eefd594d30e729f96" category="list-text">구독의 이름을 바꾸거나 구독과 관련된 NetApp 계정을 관리할 수 있습니다.</block>
+  <block id="5a4346a01828d72104a6540080377b25" category="section-title">2022년 11월 6일</block>
+  <block id="f658ebadeb22d41618c5222998030cb9" category="section-title">커넥터 3.9.23</block>
+  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="list-text">이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.</block>
+  <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
+  <block id="ee0a02cf5f32853f4619caef4f31ab4e" category="paragraph"><block ref="ee0a02cf5f32853f4619caef4f31ab4e" category="inline-link-rx"></block></block>
+  <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
 </blocks>

@@ -707,6 +707,9 @@ Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다
 
 
 | Microsoft.Resources/tags/delete(Microsoft.리소스/태그/삭제 | 예 | 아니요 | 아니요 
+
+
+| 생성 중에 스토리지 계정을 암호화합니다 | Microsoft.ManagedIdentity/userAssignedIdentities/assign/action 을 참조하십시오 | 예 | 예 | 아니요 
 |===
 
 

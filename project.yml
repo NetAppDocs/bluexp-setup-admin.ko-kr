@@ -81,6 +81,8 @@ sidebar:
         url: "/task-configuring-proxy.html"
       - title: 기본 구성
         url: "/reference-connector-default-config.html"
+    - title: 구독
+      url: "/task-manage-subscriptions.html"
     - title: 검색된 클라우드 스토리지
       entries:
       - title: Amazon S3 버킷을 확인합니다
