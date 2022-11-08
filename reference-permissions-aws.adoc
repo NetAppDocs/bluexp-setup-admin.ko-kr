@@ -127,15 +127,15 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
         "cloudformation:DeleteStack",
         "ec2:DescribePlacementGroups",
         "iam:GetRolePolicy",
-		    "s3:ListAllMyBuckets",
+        "s3:ListAllMyBuckets",
         "s3:GetObject",
         "iam:GetRole",
         "s3:DeleteObject",
         "s3:DeleteObjectVersion",
         "s3:PutObject",
-		    "ec2:ModifyVolume",
+        "ec2:ModifyVolume",
         "ec2:DescribeVolumesModifications",
-		    "s3:GetEncryptionConfiguration"
+        "s3:GetEncryptionConfiguration"
       ],
       "Resource": "*"
     },
@@ -145,7 +145,7 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
       "Action": [
         "ec2:StartInstances",
         "ec2:StopInstances",
-		    "ec2:DescribeInstances",
+        "ec2:DescribeInstances",
         "ec2:DescribeInstanceStatus",
         "ec2:RunInstances",
         "ec2:TerminateInstances",
