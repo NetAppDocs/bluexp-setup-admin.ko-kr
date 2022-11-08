@@ -1478,7 +1478,6 @@
   <block id="6b20346212b35fa23c8778f7b40af243" category="list-text">이미지의 운영 체제는 CentOS 7.6입니다.</block>
   <block id="474a089504b47eb34ee00ee62f121108" category="list-text">기본 시스템 디스크는 100GiB 프리미엄 SSD 디스크입니다.</block>
   <block id="f246cf5f23e765f0a7ebed4a6c1d923a" category="section-title">Google Cloud 세부 정보</block>
-  <block id="eac23d653ed188286a19e5301fe3807e" category="list-text">이미지의 운영 체제는 CentOS 7.9입니다.</block>
   <block id="6cb5fb9b61376b8ee3092321445fdea4" category="list-text">기본 시스템 디스크는 100GiB SSD 영구 디스크입니다.</block>
   <block id="bc4aa6323016172de14a6835883b27c7" category="section-title">설치 폴더</block>
   <block id="81fae4ea40cc442afa43dab4cc001004" category="section-title">로그 파일</block>
@@ -2782,4 +2781,5 @@
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
   <block id="ee0a02cf5f32853f4619caef4f31ab4e" category="paragraph"><block ref="ee0a02cf5f32853f4619caef4f31ab4e" category="inline-link-rx"></block></block>
   <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
+  <block id="9683999221dec5e41e35756b2a8aee04" category="list-text">이미지의 운영 체제는 Red Hat Enterprise Linux 8.6입니다.</block>
 </blocks>
