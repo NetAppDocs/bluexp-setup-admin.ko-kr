@@ -26,7 +26,7 @@ NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 Blu
 
 * 이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.
 +
-https://review.docs.netapp.com/us-en/cloud-manager-setup-admin_nov-2022/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
 +
