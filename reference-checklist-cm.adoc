@@ -98,7 +98,6 @@ Connector는 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 
 |===
 * 자체 Linux 호스트에 직접 커넥터를 설치하도록 선택한 경우(BlueXP 인터페이스에서 직접 커넥터 설치 안 함) 설치 과정에서 Connector 설치 프로그램이 다음 끝점에 액세스해야 합니다.
 +
-** https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm 으로 문의하십시오
 ** https://s3.amazonaws.com/aws-cli/awscli-bundle.zip 으로 문의하십시오
 ** https://*.blob.core.windows.net 또는 \https://hub.docker.com 으로 문의하십시오
 +

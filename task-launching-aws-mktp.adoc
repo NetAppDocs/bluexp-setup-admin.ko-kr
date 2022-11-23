@@ -30,7 +30,7 @@ Connector를 생성하는 IAM 사용자는 AWS Marketplace 권한을 가지고 �
 .단계
 . AWS에서 권한 설정:
 +
-.. IAM 콘솔에서 의 내용을 복사하여 붙여넣어 고유한 정책을 만듭니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
+.. IAM 콘솔에서 의 내용을 복사하여 붙여넣어 필요한 정책을 생성합니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
 .. Amazon EC2 역할 유형으로 IAM 역할을 생성하고 이전 단계에서 생성한 정책을 역할에 연결합니다.
 
 

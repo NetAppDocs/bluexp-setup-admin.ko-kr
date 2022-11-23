@@ -64,7 +64,6 @@ Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.
 아웃바운드 인터넷 액세스:: Connector의 설치 프로그램은 설치 프로세스 중에 다음 URL에 액세스해야 합니다.
 +
 --
-* https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm 으로 문의하십시오
 * https://s3.amazonaws.com/aws-cli/awscli-bundle.zip 으로 문의하십시오
 * https://*.blob.core.windows.net 또는 \https://hub.docker.com 으로 문의하십시오
 +
