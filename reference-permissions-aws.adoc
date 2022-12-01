@@ -31,6 +31,7 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
 필요한 정책을 보려면 지역을 선택하십시오.
 
 .표준 영역
+[%collapsible]
 ====
 표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다.
 
@@ -401,6 +402,7 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
 =====
 ====
 .GovCloud(미국) 지역
+[%collapsible]
 ====
 [source, json]
 ----
@@ -562,6 +564,7 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
 ----
 ====
 .C2S 환경
+[%collapsible]
 ====
 [source, json]
 ----

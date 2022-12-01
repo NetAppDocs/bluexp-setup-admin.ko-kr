@@ -38,6 +38,7 @@ RAM:: 14GB
 * Red Hat Enterprise Linux 7.7
 * Red Hat Enterprise Linux 7.8
 * Red Hat Enterprise Linux 7.9
+* Red Hat Enterprise Linux 8.6
 +
 Red Hat Enterprise Linux 시스템은 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 시스템은 Connector 설치 중에 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
 
@@ -51,7 +52,7 @@ Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.
 디스크 유형입니다:: SSD가 필요합니다
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
-Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19 이상이 필요합니다. https://docs.docker.com/engine/install/["설치 지침을 봅니다"^].
+Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19 이상이 필요합니다. https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
 
 
 
@@ -69,19 +70,19 @@ Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버�
 ----
 sudo systemctl enable docker && sudo systemctl start docker
 ----
-. 에서 BlueXP 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^].
+. 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]
 . Linux 호스트에 설치 프로그램을 복사합니다.
 . 스크립트를 실행할 권한을 할당합니다.
 +
 [source, cli]
 ----
-chmod +x /path/cloud-manager-connector-offline-v3.9.19
+chmod +x /path/cloud-manager-connector-offline-v3.9.23
 ----
 . 설치 스크립트를 실행합니다.
 +
 [source, cli]
 ----
-sudo /path/cloud-manager-connector-offline-v3.9.19
+sudo /path/cloud-manager-connector-offline-v3.9.23
 ----
 . 웹 브라우저를 열고 를 입력합니다 https://_ipaddress_[] 여기서 _ipaddress_는 Linux 호스트의 IP 주소입니다.
 +

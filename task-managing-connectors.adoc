@@ -118,9 +118,9 @@ Connector의 운영 체제를 업데이트하여 최신 보안 업데이트로 �
 [source, cli]
 ----
 sudo -s
-service service-manager stop
+service netapp-service-manager stop
 yum -y update –-security
-service service-manager start
+service netapp-service-manager start
 ----
 
 

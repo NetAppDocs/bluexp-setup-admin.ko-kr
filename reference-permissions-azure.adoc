@@ -48,7 +48,6 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
                     "Microsoft.Compute/virtualMachines/start/action",
                     "Microsoft.Compute/virtualMachines/vmSizes/read",
                     "Microsoft.Compute/virtualMachines/write",
-                    "Microsoft.Compute/images/write",
                     "Microsoft.Compute/images/read",
                     "Microsoft.Network/locations/operationResults/read",
                     "Microsoft.Network/locations/operations/read",
@@ -79,9 +78,9 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
                     "Microsoft.Storage/storageAccounts/listkeys/action",
                     "Microsoft.Storage/storageAccounts/read",
                     "Microsoft.Storage/storageAccounts/delete",
-                    "Microsoft.Storage/storageAccounts/regeneratekey/action",
                     "Microsoft.Storage/storageAccounts/write",
                     "Microsoft.Storage/storageAccounts/blobServices/containers/read",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/write",
                     "Microsoft.Storage/usages/read",
                     "Microsoft.Compute/snapshots/write",
                     "Microsoft.Compute/snapshots/read",
@@ -94,8 +93,6 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
                     "Microsoft.Network/loadBalancers/write",
                     "Microsoft.Network/loadBalancers/delete",
                     "Microsoft.Network/loadBalancers/backendAddressPools/read",
-                    "Microsoft.Network/loadBalancers/backendAddressPools/join/action",
-                    "Microsoft.Network/loadBalancers/frontendIPConfigurations/read",
                     "Microsoft.Network/loadBalancers/loadBalancingRules/read",
                     "Microsoft.Network/loadBalancers/probes/read",
                     "Microsoft.Network/loadBalancers/probes/join/action",
@@ -740,4 +737,26 @@ Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 �
 * Microsoft.Resources/Subscriptions/resourcegroups/resources/read
 * Microsoft.ContainerService/managedClusters/read
 * Microsoft.ContainerService/managedClusters/listClusterUserCredential/action입니다
+
+
+
+
+== 변경 로그
+
+권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2022년 12월 1일
+
+JSON 정책에 다음 권한이 추가되었습니다. Cloud Backup and Cloud Tiering에 필요합니다.
+
+Microsoft.Storage/storageAccounts/blobServices/containers/write
+
+JSON 정책에서 다음 권한이 제거되었습니다. 더 이상 필요하지 않습니다.
+
+* Microsoft.Compute/images/write
+* Microsoft.Network/loadBalancers/backendAddressPools/join/action
+* Microsoft.Network/loadBalancers/frontendIPConfigurations/read
+* Microsoft.Storage/storageAccounts/재생성 키/작업
 
