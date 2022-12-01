@@ -2784,8 +2784,6 @@
   <block id="64a39273573e4fc2b712d51106db7a4e" category="section-title">변경 로그</block>
   <block id="3133cc4fd29893a0163684e3e3f59633" category="paragraph">권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.</block>
   <block id="a6123430b152ca358cd64ba937f6f1b9" category="section-title">2022년 12월 1일</block>
-  <block id="2b4c0f2b7b106fa61101f47cad35238a" category="paragraph">JSON 정책에 다음 권한이 추가되었습니다. Cloud Backup and Cloud Tiering에 필요합니다.</block>
-  <block id="a8a929fafb2eb09e993d8c797a52b5ef" category="paragraph">JSON 정책에서 다음 권한이 제거되었습니다. 더 이상 필요하지 않습니다.</block>
   <block id="ac692d638162a1dc479fa6a76fb4e114" category="list-text">Microsoft.Compute/images/write</block>
   <block id="61d40b12dddcd9e571bbe7a89b0fbae8" category="list-text">Microsoft.Network/loadBalancers/backendAddressPools/join/action</block>
   <block id="7c90682779ddf616c80c90bad703eddd" category="list-text">Microsoft.Network/loadBalancers/frontendIPConfigurations/read</block>
@@ -2796,4 +2794,8 @@
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾습니다.</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">위의 2단계에서 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">일련 번호 필드에 위에서 사용된 계정 일련 번호(960xxxx)를 복사해 주십시오. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
+  <block id="0b4c13076b9b5e7ba5fa39333693ef77" category="paragraph">JSON 정책에 다음 권한이 추가되었습니다.</block>
+  <block id="e9c8bdcc91d25115e46e6c43d23fe563" category="paragraph">Cloud Backup and Cloud Tiering에는 이 권한이 필요합니다.</block>
+  <block id="175e0c32b0d1e82352dde70ca6ad31a2" category="paragraph">클라우드 백업에 이 권한이 필요합니다.</block>
+  <block id="1ff61a19534f16f8c2b0aa752b13fb0a" category="paragraph">다음 권한은 더 이상 필요하지 않으므로 JSON 정책에서 제거되었습니다.</block>
 </blocks>

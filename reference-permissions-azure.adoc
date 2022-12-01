@@ -128,7 +128,6 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
                     "Microsoft.Compute/snapshots/delete",
                     "Microsoft.Network/privateEndpoints/delete",
                     "Microsoft.Compute/availabilitySets/delete",
-                    "Microsoft.Network/loadBalancers/delete",
                     "Microsoft.KeyVault/vaults/read",
                     "Microsoft.KeyVault/vaults/accessPolicies/write",
                     "Microsoft.Compute/diskEncryptionSets/write",
@@ -154,6 +153,7 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
                     "Microsoft.Synapse/workspaces/firewallRules/read",
                     "Microsoft.Synapse/workspaces/replaceAllIpFirewallRules/action",
                     "Microsoft.Synapse/workspaces/operationResults/read",
+                    "Microsoft.Network/publicIPAddresses/delete",
                     "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action"
     ],
     "NotActions": [],
@@ -749,11 +749,19 @@ Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 �
 
 === 2022년 12월 1일
 
-JSON 정책에 다음 권한이 추가되었습니다. Cloud Backup and Cloud Tiering에 필요합니다.
+JSON 정책에 다음 권한이 추가되었습니다.
 
-Microsoft.Storage/storageAccounts/blobServices/containers/write
+* Microsoft.Storage/storageAccounts/blobServices/containers/write
++
+Cloud Backup and Cloud Tiering에는 이 권한이 필요합니다.
 
-JSON 정책에서 다음 권한이 제거되었습니다. 더 이상 필요하지 않습니다.
+* Microsoft.Network/publicIPAddresses/delete
++
+클라우드 백업에 이 권한이 필요합니다.
+
+
+
+다음 권한은 더 이상 필요하지 않으므로 JSON 정책에서 제거되었습니다.
 
 * Microsoft.Compute/images/write
 * Microsoft.Network/loadBalancers/backendAddressPools/join/action
