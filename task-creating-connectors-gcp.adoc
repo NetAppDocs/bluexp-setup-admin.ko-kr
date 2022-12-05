@@ -29,28 +29,31 @@ TIP: Cloud Volumes ONTAP 작업 환경을 처음 만들면 아직 커넥터가 �
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
-.span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png"[] Alt="One"></span>사용 권한 설정
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 권한 설정
+[role="quick-margin-list"]
 * 사용자 지정 역할을 만들고 첨부하여 Google Cloud 계정에 올바른 권한이 있는지 확인합니다.
 +
- up permissions to deploy the Connector.
+<<Connector 배포 권한을 설정합니다>>.
 
 * Connector VM을 생성할 때 서비스 계정에 연결해야 합니다. 이 서비스 계정에는 Google Cloud에서 리소스를 관리할 수 있는 권한이 있는 사용자 지정 역할이 있어야 합니다.
 +
- up a service account for the Connector.
+<<Connector에 대한 서비스 계정을 설정합니다>>.
 
 * 공유 VPC를 사용하는 경우 서비스 프로젝트 및 호스트 프로젝트에서 사용 권한을 설정합니다.
 +
- up shared VPC permissions.
+<<공유 VPC 권한 설정>>.
 
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 네트워킹 설정
 [role="quick-margin-para"]
 특정 엔드포인트에 대한 아웃바운드 인터넷 액세스를 지원하는 VPC 및 서브넷이 필요합니다. 아웃바운드 인터넷에 HTTP 프록시가 필요한 경우 IP 주소, 자격 증명 및 HTTPS 인증서가 필요합니다.
 
 [role="quick-margin-para"]
- up networking,네트워킹 요구 사항을 봅니다.
+<<네트워킹 설정,네트워킹 요구 사항을 봅니다>>.
 
-.span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png"[] Alt="3"></span>Google Cloud API 활성화
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] Google Cloud API를 활성화합니다
+[role="quick-margin-list"]
 * Cloud Deployment Manager V2 API
 * 클라우드 로깅 API
 * Cloud Resource Manager API를 참조하십시오
@@ -58,11 +61,12 @@ TIP: Cloud Volumes ONTAP 작업 환경을 처음 만들면 아직 커넥터가 �
 * IAM(Identity and Access Management) API
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 커넥터를 작성합니다
 [role="quick-margin-para"]
 커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.
 
 [role="quick-margin-para"]
- a Connector,단계별 지침을 따릅니다.
+<<커넥터를 작성합니다,단계별 지침을 따릅니다>>.
 
 
 
@@ -150,6 +154,7 @@ includedPermissions:
 . BlueXP에서 커넥터를 배포할 사용자에게 사용자 지정 역할을 연결합니다.
 
 
+.결과
 이제 Google Cloud 사용자에게 Connector를 만드는 데 필요한 권한이 있습니다.
 
 
@@ -266,6 +271,7 @@ includedPermissions:
 . 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우 https://cloud.google.com/iam/docs/granting-changing-revoking-access#granting-console["해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다"^]. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
 
 
+.결과
 Connector VM에 대한 서비스 계정이 설정되어 있습니다.
 
 
@@ -546,6 +552,7 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 
 --
 ====
+.결과
 이제 Connector가 NetApp 계정으로 설치 및 설정됩니다. BlueXP는 새로운 작업 환경을 만들 때 이 커넥터를 자동으로 사용합니다. 그러나 둘 이상의 커넥터가 있는 경우 이 작업을 수행해야 합니다 link:task-managing-connectors.html["둘 사이를 전환합니다"].
 
 Connector를 생성한 동일한 Google Cloud 계정에 Google Cloud Storage 버킷을 사용하는 경우 Google Cloud Storage 작업 환경이 Canvas에 자동으로 표시됩니다. link:task-viewing-gcp-storage.html["이 작업 환경에서 수행할 수 있는 작업에 대해 자세히 알아보십시오"].

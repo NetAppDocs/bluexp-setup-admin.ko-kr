@@ -24,11 +24,11 @@ BlueXP에서 AWS 계정에 클라우드 리소스를 배포하고 관리하는 �
 
 * 기존 커넥터에 AWS 자격 증명을 추가합니다
 +
-기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다.  credentials to a Connector,Connector에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오.
+기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다. <<커넥터에 자격 증명을 추가합니다,Connector에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오>>.
 
 * Connector 생성을 위해 BlueXP에 AWS 자격 증명을 추가합니다
 +
-BlueXP에 새 AWS 자격 증명을 추가하면 BlueXP에서 커넥터를 생성하는 데 필요한 권한을 얻을 수 있습니다.  credentials to BlueXP for creating a Connector,BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오.
+BlueXP에 새 AWS 자격 증명을 추가하면 BlueXP에서 커넥터를 생성하는 데 필요한 권한을 얻을 수 있습니다. <<Connector 생성을 위해 BlueXP에 자격 증명을 추가합니다,BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오>>.
 
 * ONTAP용 FSx용 BlueXP에 AWS 자격 증명을 추가합니다
 +
@@ -63,8 +63,8 @@ NOTE: BlueXP에서 커넥터를 배포한 경우, BlueXP는 Connector를 배포�
 
 * 선택 *
 
-*  permissions by assuming an IAM role in another account
-*  permissions by providing AWS keys
+* <<다른 계정에서 IAM 역할을 가정하여 권한을 부여합니다>>
+* <<AWS 키를 제공하여 권한을 부여합니다>>
 
 
 
@@ -88,7 +88,8 @@ IAM 역할을 사용하여 Connector 인스턴스를 구축한 소스 AWS 계정
 . 나중에 BlueXP에 붙여넣을 수 있도록 IAM 역할의 역할 ARN을 복사합니다.
 
 
-이제 계정에 필요한 권한이 있습니다. ,이제 Connector에 자격 증명을 추가할 수 있습니다.
+.결과
+이제 계정에 필요한 권한이 있습니다. <<add-the-credentials,이제 Connector에 자격 증명을 추가할 수 있습니다>>.
 
 
 
@@ -109,7 +110,8 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html["AW
 
 
 
-이제 계정에 필요한 권한이 있습니다. ,이제 Connector에 자격 증명을 추가할 수 있습니다.
+.결과
+이제 계정에 필요한 권한이 있습니다. <<add-the-credentials,이제 Connector에 자격 증명을 추가할 수 있습니다>>.
 
 
 
@@ -117,6 +119,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html["AW
 
 필요한 권한이 있는 AWS 계정을 제공한 후 해당 계정의 자격 증명을 기존 Connector에 추가할 수 있습니다. 이렇게 하면 동일한 커넥터를 사용하여 해당 계정에서 Cloud Volumes ONTAP 시스템을 시작할 수 있습니다.
 
+.시작하기 전에
 클라우드 공급자에서 이러한 자격 증명을 만든 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.
 
 .단계
@@ -138,6 +141,7 @@ PAYGO(시간당 급여) 또는 연간 계약으로 Cloud Volumes ONTAP를 지불
 
 
 
+.결과
 이제 새 작업 환경을 만들 때 세부 정보 및 자격 증명 페이지에서 다른 자격 증명 세트로 전환할 수 있습니다.
 
 image:screenshot_accounts_switch_aws.png["세부 정보 및 amp;Credentials 페이지에서 계정 전환 을 클릭한 후 클라우드 공급자 계정 간 선택을 보여 주는 스크린샷"]
@@ -174,7 +178,8 @@ BlueXP SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.
 . 다음 단계에서 BlueXP에 붙여넣을 수 있도록 IAM 역할의 역할 ARN을 복사합니다.
 
 
-이제 IAM 역할에 필요한 권한이 있습니다. ,이제 BlueXP에 추가할 수 있습니다.
+.결과
+이제 IAM 역할에 필요한 권한이 있습니다. <<add-the-credentials-2,이제 BlueXP에 추가할 수 있습니다>>.
 
 
 
@@ -182,6 +187,7 @@ BlueXP SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.
 
 필요한 권한을 IAM 역할에 제공한 후 ARN 역할을 BlueXP에 추가합니다.
 
+.시작하기 전에
 방금 IAM 역할을 생성한 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.
 
 .단계
@@ -198,6 +204,7 @@ image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아
 
 
 
+.결과
 이제 새 커넥터를 만들 때 자격 증명을 사용할 수 있습니다.
 
 
@@ -212,6 +219,7 @@ BlueXP에 자격 증명을 추가한 후 AWS Marketplace 구독을 연결할 수
 * 기존 AWS Marketplace 구독을 새 구독으로 교체하려고 합니다.
 
 
+.필요한 것
 BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. link:concept-connectors.html#how-to-create-a-connector["커넥터를 만드는 방법에 대해 알아봅니다"].
 
 .단계

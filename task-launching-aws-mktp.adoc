@@ -25,6 +25,7 @@ TIP: 네트워크 또는 클라우드의 기존 Linux 호스트에 Connector 소
 
 BlueXP용 AWS Marketplace 오퍼링에서 직접 AWS 상업 지역에서 Connector 인스턴스를 시작할 수 있습니다.
 
+.시작하기 전에
 Connector를 생성하는 IAM 사용자는 AWS Marketplace 권한을 가지고 있어야 가입 및 가입 해제할 수 있습니다.
 
 .단계
@@ -87,6 +88,7 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 . 웹 브라우저를 열고 로 이동합니다 https://console.bluexp.netapp.com[] 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.
 
 
+.결과
 이제 Connector가 NetApp 계정으로 설치 및 설정됩니다. BlueXP는 새로운 작업 환경을 만들 때 이 커넥터를 자동으로 사용합니다. 그러나 둘 이상의 커넥터가 있는 경우 이 작업을 수행해야 합니다 link:task-managing-connectors.html["둘 사이를 전환합니다"].
 
 Connector를 생성한 동일한 AWS 계정에 Amazon S3 버킷이 있는 경우 Amazon S3 작업 환경이 Canvas에 자동으로 표시됩니다. link:task-viewing-amazon-s3.html["이 작업 환경에서 수행할 수 있는 작업에 대해 자세히 알아보십시오"].
@@ -155,6 +157,7 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 
 
 
+.결과
 이제 Connector가 NetApp 계정으로 설치 및 설정됩니다.
 
 BlueXP를 사용할 때마다 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다. https://_ipaddress_[]

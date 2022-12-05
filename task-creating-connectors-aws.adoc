@@ -26,23 +26,26 @@ BlueXP 계정 관리자는 대부분의 BlueXP 기능을 사용하기 전에 _Co
 
 다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 인증을 설정합니다
 [role="quick-margin-para"]
 AWS에서 Connector를 실행하려면 IAM 역할을 가정하거나 AWS 액세스 키를 사용하여 AWS를 인증해야 합니다. 두 옵션 중 하나를 사용할 경우 IAM 정책이 필요합니다.
 
 [role="quick-margin-para"]
- an IAM policy,IAM 역할을 확인합니다 또는  up AWS authentication,단계별 지침을 따릅니다.
+<<IAM 정책을 생성합니다,IAM 역할을 확인합니다>> 또는 <<AWS 인증 설정,단계별 지침을 따릅니다>>.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 네트워킹 설정
 [role="quick-margin-para"]
 특정 엔드포인트에 대한 아웃바운드 인터넷 액세스를 지원하는 VPC 및 서브넷이 필요합니다. 아웃바운드 인터넷에 HTTP 프록시가 필요한 경우 IP 주소, 자격 증명 및 HTTPS 인증서가 필요합니다.
 
 [role="quick-margin-para"]
- up networking,네트워킹 요구 사항을 봅니다.
+<<네트워킹 설정,네트워킹 요구 사항을 봅니다>>.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 커넥터를 작성합니다
 [role="quick-margin-para"]
 커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.
 
 [role="quick-margin-para"]
- a Connector,단계별 지침을 따릅니다.
+<<커넥터를 작성합니다,단계별 지침을 따릅니다>>.
 
 
 
@@ -145,6 +148,7 @@ BlueXP에서 Connector를 만들면 Connector가 공용 클라우드 환경의 �
 . Create policy * 를 클릭합니다.
 
 
+.다음 단계
 BlueXP가 가정하거나 IAM 사용자에게 제공할 수 있는 IAM 역할에 정책을 첨부합니다.
 
 
@@ -168,6 +172,7 @@ BlueXP에서 Connector를 AWS에 구축하기 위해 사용할 수 있는 IAM �
 . 역할을 만든 후 역할 ARN을 복사하여 Connector를 만들 때 BlueXP에 붙여 넣을 수 있습니다.
 
 
+.결과
 이제 IAM 역할에 필요한 권한이 있습니다.
 
 
@@ -184,6 +189,7 @@ Connector를 생성할 때 Connector 인스턴스를 배포하는 데 필요한 
 . IAM 사용자의 액세스 키 및 비밀 키에 액세스할 수 있는지 확인합니다.
 
 
+.결과
 이제 AWS 사용자는 BlueXP에서 커넥터를 생성하는 데 필요한 권한을 갖게 됩니다. BlueXP에서 메시지가 나타나면 이 사용자에 대한 AWS 액세스 키를 지정해야 합니다.
 
 
@@ -303,6 +309,7 @@ TIP: 역할 * 가정 을 선택한 경우 커넥터 배포 마법사에서 첫 �
 
 
 
+.작업을 마친 후
 Connector를 생성한 동일한 AWS 계정에 Amazon S3 버킷이 있는 경우 Amazon S3 작업 환경이 Canvas에 자동으로 표시됩니다. link:task-viewing-amazon-s3.html["이 작업 환경에서 수행할 수 있는 작업에 대해 자세히 알아보십시오"].
 
 

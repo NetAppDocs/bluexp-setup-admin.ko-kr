@@ -82,6 +82,7 @@ Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버�
 
 지원되는 Linux 호스트가 있는지 확인한 후 Connector 소프트웨어를 받은 다음 설치할 수 있습니다.
 
+.필요한 권한
 커넥터를 설치하려면 루트 권한이 필요합니다.
 
 .이 작업에 대해
@@ -151,8 +152,10 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 
 
 
+.결과
 이제 Connector가 NetApp 계정으로 설치 및 설정됩니다. BlueXP는 새로운 작업 환경을 만들 때 이 커넥터를 자동으로 사용합니다.
 
+.작업을 마친 후
 BlueXP에서 공용 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있도록 사용 권한 설정:
 
 * AWS: link:task-adding-aws-accounts.html["AWS 계정을 설정한 다음 BlueXP에 추가합니다"]

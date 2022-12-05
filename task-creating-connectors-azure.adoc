@@ -30,11 +30,11 @@ Connector를 배포하려면 Azure에서 Connector VM을 생성하는 데 필요
 
 . 메시지가 나타나면 Microsoft 계정으로 로그인합니다. 이 계정에는 특정 Azure 권한이 있어야 합니다. 이 옵션이 기본 옵션입니다.
 +
- a Connector using your Azure account,시작하려면 아래 단계를 따르십시오.
+<<Azure 계정을 사용하여 커넥터를 만듭니다,시작하려면 아래 단계를 따르십시오>>.
 
 . Azure AD 서비스 보안 주체에 대한 세부 정보를 제공합니다. 이 서비스 보안 주체는 특정 권한도 필요합니다.
 +
- a Connector using a service principal,시작하려면 아래 단계를 따르십시오.
+<<서비스 보안 주체를 사용하여 커넥터를 만듭니다,시작하려면 아래 단계를 따르십시오>>.
 
 
 
@@ -256,6 +256,7 @@ NOTE: Azure SetupAsService는 Azure의 커넥터 배포 정책에 제공된 기�
 
 
 
+.결과
 이제 Azure 사용자는 BlueXP에서 커넥터를 배포하는 데 필요한 권한을 갖게 됩니다.
 
 
@@ -264,7 +265,7 @@ NOTE: Azure SetupAsService는 Azure의 커넥터 배포 정책에 제공된 기�
 
 BlueXP를 사용하면 사용자 인터페이스에서 직접 Azure에 Connector를 생성할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * Azure 구독.
 * 선택한 Azure 지역에서 VNET 및 서브넷입니다.
 * BlueXP에서 Connector에 대한 Azure 역할을 자동으로 생성하지 않으려면 고유한 역할을 만들어야 합니다 link:reference-permissions-azure.html["이 페이지의 정책 사용"].
@@ -311,6 +312,7 @@ TIP: 이미 Azure 계정에 로그인한 경우 BlueXP에서 해당 계정을 �
 
 
 
+.작업을 마친 후
 작업 영역 관리자가 이러한 커넥터를 사용하여 Cloud Volumes ONTAP 시스템을 만들 수 있도록 작업 영역과 커넥터를 연결해야 합니다. Account Admins만 있는 경우에는 Connector를 작업 영역과 연결할 필요가 없습니다. 계정 관리자는 기본적으로 BlueXP의 모든 작업 영역에 액세스할 수 있습니다. link:task-setting-up-netapp-accounts.html#associating-connectors-with-workspaces["자세한 정보"].
 
 Connector를 만든 Azure 계정에 Azure Blob 저장소가 있는 경우 Canvas에 Azure Blob 작업 환경이 자동으로 표시됩니다. link:task-viewing-azure-blob.html["이 작업 환경에서 수행할 수 있는 작업에 대해 자세히 알아보십시오"].
@@ -328,11 +330,11 @@ Azure 계정으로 로그인하는 대신 필요한 권한이 있는 Azure 서�
 Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 Azure에 Connector를 배포하는 데 필요한 권한을 부여합니다.
 
 .단계
-.  an Azure Active Directory application.
-.  the application to a role.
-.  Windows Azure Service Management API permissions.
-.  the application ID and directory ID.
-.  a client secret.
+. <<Azure Active Directory 응용 프로그램을 만듭니다>>.
+. <<애플리케이션에 역할을 할당합니다>>.
+. <<Windows Azure 서비스 관리 API 권한을 추가합니다>>.
+. <<애플리케이션 ID 및 디렉토리 ID를 가져옵니다>>.
+. <<클라이언트 암호를 생성합니다>>.
 
 
 
@@ -341,6 +343,7 @@ Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하�
 
 BlueXP에서 Connector를 배포하는 데 사용할 수 있는 Azure AD(Active Directory) 응용 프로그램 및 서비스 보안 주체를 만듭니다.
 
+.시작하기 전에
 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당하려면 Azure에 적절한 권한이 있어야 합니다. 자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^].
 
 .단계
@@ -360,6 +363,7 @@ image:screenshot_azure_ad.gif["에는 Microsoft Azure의 Active Directory 서비
 . Register * 를 클릭합니다.
 
 
+.결과
 AD 응용 프로그램 및 서비스 보안 주체를 만들었습니다.
 
 
@@ -558,6 +562,7 @@ image:screenshot_azure_client_secret.gif["Azure AD 서비스 보안 주체에 �
 
 
 
+.결과
 이제 서비스 보안 주체가 설정되었으므로 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사해야 합니다. 커넥터를 생성할 때 BlueXP에 이 정보를 입력해야 합니다.
 
 
@@ -566,7 +571,7 @@ image:screenshot_azure_client_secret.gif["Azure AD 서비스 보안 주체에 �
 
 BlueXP를 사용하면 사용자 인터페이스에서 직접 Azure에 Connector를 생성할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * Azure 구독.
 * 선택한 Azure 지역에서 VNET 및 서브넷입니다.
 * 조직에서 모든 발신 인터넷 트래픽에 대한 프록시를 필요로 하는 경우 HTTP 프록시에 대한 세부 정보:
@@ -592,9 +597,9 @@ image:screenshot_connector_add.gif["머리글의 연결선 아이콘 및 연결�
 +
 .. 인증 * 에서 * Active Directory 서비스 보안 주체 * 를 클릭하고 필요한 권한을 부여하는 Azure Active Directory 서비스 보안 주체에 대한 정보를 입력합니다.
 +
-*** 응용 프로그램(클라이언트) ID: 을 참조하십시오  the application ID and directory ID.
-*** 디렉토리(테넌트) ID: 을 참조하십시오  the application ID and directory ID.
-*** 클라이언트 암호: 을 참조하십시오  a client secret.
+*** 응용 프로그램(클라이언트) ID: 을 참조하십시오 <<애플리케이션 ID 및 디렉토리 ID를 가져옵니다>>.
+*** 디렉토리(테넌트) ID: 을 참조하십시오 <<애플리케이션 ID 및 디렉토리 ID를 가져옵니다>>.
+*** 클라이언트 암호: 을 참조하십시오 <<클라이언트 암호를 생성합니다>>.
 
 
 .. 로그인 * 을 클릭합니다.
@@ -624,6 +629,7 @@ image:screenshot_connector_add.gif["머리글의 연결선 아이콘 및 연결�
 
 
 
+.작업을 마친 후
 작업 영역 관리자가 이러한 커넥터를 사용하여 Cloud Volumes ONTAP 시스템을 만들 수 있도록 작업 영역과 커넥터를 연결해야 합니다. Account Admins만 있는 경우에는 Connector를 작업 영역과 연결할 필요가 없습니다. 계정 관리자는 기본적으로 BlueXP의 모든 작업 영역에 액세스할 수 있습니다. link:task-setting-up-netapp-accounts.html#associating-connectors-with-workspaces["자세한 정보"].
 
 Connector를 만든 Azure 계정에 Azure Blob 저장소가 있는 경우 Canvas에 Azure Blob 작업 환경이 자동으로 표시됩니다. link:task-viewing-azure-blob.html["이 작업 환경에서 수행할 수 있는 작업에 대해 자세히 알아보십시오"].

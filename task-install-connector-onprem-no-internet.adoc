@@ -61,6 +61,7 @@ Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버�
 
 지원되는 Linux 호스트가 있는지 확인한 후 Connector 소프트웨어를 받은 다음 설치할 수 있습니다.
 
+.필요한 권한
 커넥터를 설치하려면 루트 권한이 필요합니다.
 
 .단계
@@ -107,9 +108,10 @@ image:screenshot-onprem-darksite-details.png["시스템 세부 정보 페이지�
 . 방금 생성한 admin 사용자를 사용하여 BlueXP에 로그인합니다.
 
 
+.결과
 이제 커넥터가 설치되었으므로 어두운 사이트 배포에서 사용할 수 있는 BlueXP 기능을 사용할 수 있습니다.
 
-.다음 단계 &#8217;s
+.다음 단계
 * https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터에 대해 알아보십시오"^]
 * https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["온프레미스 ONTAP 클러스터 간에 데이터를 복제합니다"^]
 * https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html["클라우드 백업을 사용하여 사내 ONTAP 볼륨 데이터를 StorageGRID에 백업합니다"^]

@@ -55,7 +55,6 @@
   <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">다음 * 을 클릭합니다.</block>
   <block id="e3bbb08034982e47da96f9df0529c14b" category="list-text">검토 + 할당 * 을 클릭합니다.</block>
   <block id="d1935eb90cca6ebd3015d6f8e86defe1" category="section-title">Azure 계정으로 로그인하여 Connector를 생성합니다</block>
-  <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">무엇을 &amp;#8217;필요로 할거야</block>
   <block id="cec61994be2c9633fc4acb202e4b9c41" category="list-text">Azure 구독.</block>
   <block id="3c8e2502b00949bb2ead22830ddfa05d" category="list-text">선택한 Azure 지역에서 VNET 및 서브넷입니다.</block>
   <block id="bb0af45d6e9045bc2046c5f245006f7c" category="paragraph">이러한 권한은 Connector 인스턴스 자체에 대한 것입니다. 이전 설정과는 다른 사용 권한 집합으로 Connector를 배포하기만 하면 됩니다.</block>
@@ -220,7 +219,6 @@
   <block id="357ea3bd3c0ef6c545391cef7aa07936" category="paragraph"><block ref="357ea3bd3c0ef6c545391cef7aa07936" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6bd6a4807d0f305654a405a52bb8f189" category="list-text">사용자 연결 해제 * 를 클릭하고 * 연결 해제 * 를 클릭하여 확인합니다.</block>
   <block id="7892544a93f2a4d39f1ef832ba4d1eff" category="paragraph">사용자는 더 이상 이 NetApp 계정의 리소스에 액세스할 수 없습니다.</block>
-  <block id="c467a2567dd5be7e777708d1616b892d" category="section-title">작업 영역 관리자의 작업 영역 관리</block>
   <block id="8ecff25aa4ee2497099b60f83bd4dde7" category="paragraph">언제든지 Workspace Admins를 작업 영역과 연결 및 연결 해제할 수 있습니다. 사용자를 연결하면 해당 작업 영역에서 작업 환경을 만들고 볼 수 있습니다.</block>
   <block id="20c165118f7907a441e0a3fe5213b892" category="list-text">작업 영역 관리 * 를 클릭합니다.</block>
   <block id="9c3fb861370470582b50839e482bd5f9" category="list-text">사용자와 연결할 작업 영역을 선택하고 * 적용 * 을 클릭합니다.</block>
@@ -257,7 +255,6 @@
   <block id="e6b782b96ee9fd72a275037e1f900b6f" category="list-text">새 작업 영역을 만들려면 * 새 작업 영역 추가 * 를 클릭합니다.</block>
   <block id="9606b9dd050f482ce022efaf9f3754c9" category="list-text">작업 영역의 이름을 바꾸려면 * Rename * (이름 바꾸기 *)을 클릭합니다.</block>
   <block id="ca4a2e09f147267af54ea5fd1d962c6a" category="list-text">작업 공간을 삭제하려면 * 삭제 * 를 클릭합니다.</block>
-  <block id="3bf33688db3de262b29d7aef6461deb2" category="section-title">Connector의 작업 영역 관리</block>
   <block id="b7f7a48c60012c23b8adb659da31b71a" category="inline-link-macro">사용자, 작업 영역 및 커넥터에 대해 자세히 알아보십시오</block>
   <block id="7d033896524ebe16495f74d9f7202783" category="paragraph"><block ref="cf2050a2914e59a752ab48465ba00e16" category="inline-link-macro-rx"></block>.</block>
   <block id="9e704e76a760053c0baca32c96d9c6a3" category="list-text">커넥터 * 를 클릭합니다.</block>
@@ -634,7 +631,6 @@
   <block id="7c6de4e6a71e2b217261299a5641fe12" category="section-title">작업 영역에 커넥터를 연결합니다</block>
   <block id="fdbdd6715cf2177c49f2aa51748944ad" category="paragraph">작업 영역 관리자가 이러한 커넥터를 사용하여 Cloud Volumes ONTAP 시스템을 만들 수 있도록 작업 영역과 커넥터를 연결해야 합니다.</block>
   <block id="211c1a963db0ec4433679bba9d1a1973" category="paragraph">이제 Workspace 관리자가 이러한 커넥터를 사용하여 Cloud Volumes ONTAP 시스템을 생성할 수 있습니다.</block>
-  <block id="3f297ef15cde0668e93b35f2752fd4fd" category="section-title">다음 단계</block>
   <block id="a85cd5dda897ee694c0a8a7ebe893293" category="inline-link-macro">계정을 관리하는 방법에 대해 알아보십시오</block>
   <block id="e93366502d593964f54fa78a54256cef" category="paragraph">이제 계정을 설정했으므로 사용자 제거, 작업 영역, 커넥터 및 구독을 관리하여 언제든지 계정을 관리할 수 있습니다. <block ref="4b4f4de61b1c0103e06c096d3b330838" category="inline-link-macro-rx"></block>.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
@@ -697,7 +693,6 @@
   <block id="fce63be6a5df1b8f029ff105a6d48616" category="paragraph">Connector의 운영 체제를 업데이트하여 최신 보안 업데이트로 패치되었는지 확인합니다.</block>
   <block id="1208149fe3ebe603e8d12495099b22e4" category="list-text">커넥터 호스트에서 CLI 셸에 액세스합니다.</block>
   <block id="065ff36e9f63c035ca95dbe0bff46bfe" category="list-text">상승된 권한으로 다음 명령을 실행합니다.</block>
-  <block id="0e4dffadcdac4ac871fee08c9b43fc4e" category="section-title">Connector의 URI를 편집합니다</block>
   <block id="e2729464f9bccb35f8d10ba5019f3955" category="paragraph">Connector에 대한 URI를 추가하고 제거합니다.</block>
   <block id="5e6a0548d1a9b870a897fd2b63da39c6" category="list-text">커넥터 관리 * 를 클릭합니다.</block>
   <block id="184412530c50886985d099a0d5cedd16" category="list-text">Connector에 대한 작업 메뉴를 클릭하고 * URI 편집 * 을 클릭합니다.</block>
@@ -1078,7 +1073,6 @@
   <block id="baae31039a43d31e57f9e5c0c7262afc" category="paragraph"><block ref="baae31039a43d31e57f9e5c0c7262afc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="43601154a054554dd57207148a15b7b1" category="list-text">* 관리자 사용자 생성 *: 시스템에 대한 관리자 사용자를 생성합니다.</block>
   <block id="b530111cab51b765877bc100b0a43e1f" category="list-text">* 검토 *: 세부 정보를 검토하고 사용권 계약에 동의한 다음 * 설정 * 을 클릭합니다.</block>
-  <block id="7c3983f18df54b898b386f7cf4a7d05c" category="list-title">다음 단계 &amp;#8217;s</block>
   <block id="cc9787ce69467700348def59db8ff725" category="inline-link">온프레미스 ONTAP 클러스터에 대해 알아보십시오</block>
   <block id="533c556705825be9a1a97d191373f80f" category="list-text"><block ref="533c556705825be9a1a97d191373f80f" category="inline-link-rx"></block></block>
   <block id="8160a46a5d4541efd7702f3fa8a2ecad" category="inline-link">온프레미스 ONTAP 클러스터 간에 데이터를 복제합니다</block>
@@ -1088,7 +1082,6 @@
   <block id="482723983a4f2af954e36ff41e567451" category="doc">알려진 제한 사항</block>
   <block id="83e566847d42782b3343e108150d7f57" category="section-title">커넥터 제한</block>
   <block id="82538689c7a66297973814120306d42f" category="section-title">HTTP 프록시 서버만 지원됩니다</block>
-  <block id="e65172f12d5a004e18b6be974b9871c6" category="section-title">SSL 암호 해독은 지원되지 않습니다</block>
   <block id="7bd92bd111bfbf23b12f73672eb0dd1c" category="inline-link-macro">CA(인증 기관)에서 서명한 HTTPS 인증서 설치</block>
   <block id="c3ce271d53cbf6a7afd137a37f4ee8d6" category="paragraph">보안 강화를 위해 을(를) 선택할 수 있습니다 <block ref="11df3d19916b70ba1d82d33e876689bc" category="inline-link-macro-rx"></block>.</block>
   <block id="e949623e23f093c132f86ba2771e8a2e" category="section-title">로컬 UI를 로드할 때 빈 페이지입니다</block>
@@ -2072,12 +2065,10 @@
   <block id="ab989208a01fcee6c888dec1f39482d9" category="cell">HA 쌍으로 트래픽을 분산하기 위한 백엔드 서비스를 구성합니다.</block>
   <block id="739bf63a1a7b0a2e180e692ece9b9b11" category="cell">compute.networks.updatePolicy 으로 문의하십시오</block>
   <block id="40601d6546f763ec088fee026a0da641" category="cell">HA 쌍에 대한 VPC 및 서브넷에 방화벽 규칙을 적용합니다.</block>
-  <block id="2e984b55a3264399d03f7fc4df06df78" category="list-title">span class="image"&gt;&lt;img src=<block ref="0c3becc25d95e48b9ca863002a042824" category="inline-link-rx"></block> Alt="One"&gt;&lt;/span&gt;사용 권한 설정</block>
   <block id="6e1d3688abed116ca1fcde1dce3ec4f4" category="paragraph"><block ref="68a9c9d924aeef1d7ada39f0d3540b49" category="inline-xref-macro-rx"></block>.</block>
   <block id="d52202757c4d92357913471e220a772a" category="paragraph"><block ref="f796454a6004e39753971668625d9d8d" category="inline-xref-macro-rx"></block>.</block>
   <block id="39cab3defe876dfaf2b80cf98f49e2c7" category="list-text">공유 VPC를 사용하는 경우 서비스 프로젝트 및 호스트 프로젝트에서 사용 권한을 설정합니다.</block>
   <block id="324adee08a3c7a87ddad1096556db802" category="paragraph"><block ref="f14d47c142ef6f4bd65c33223ef00cac" category="inline-xref-macro-rx"></block>.</block>
-  <block id="ecd9b46cc61d7175d5da2c42f7b70152" category="list-title">span class="image"&gt;&lt;img src=<block ref="ddd753dc2858fe3a5582f20b300a0541" category="inline-link-rx"></block> Alt="3"&gt;&lt;/span&gt;Google Cloud API 활성화</block>
   <block id="d84e71566ed38f5bfe97daee41fb601d" category="paragraph">다음과 같은 권한이 필요합니다.</block>
   <block id="ae741fad6aa93f78e0e5033a1d01d94b" category="list-text">Connector VM을 배포할 사용자입니다</block>
   <block id="302f26bc0fa67eed7c3feeaa0ab2bcab" category="list-text">배포 중에 Connector VM에 연결해야 하는 서비스 계정입니다</block>
@@ -2807,4 +2798,25 @@
   <block id="115781a0043a85f8707c5c99fd02dc75" category="paragraph">https://cloudmanager.cloud.netapp.com 으로 문의하십시오</block>
   <block id="23486ca53d499245ebae5460cf6d10ad" category="paragraph">BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.</block>
   <block id="7eea1027ea51763c57b7b5965f1ba900" category="admonition">커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있지만 곧 출시될 릴리스에서 "api.bluexp.netapp.com" 에 연락하기 시작합니다.</block>
+  <block id="ffe7522d9ea3d134eb0a945275d454d7" category="paragraph-title">필요한 권한</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">필요한 것</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
+  <block id="1bc21092e961975ea4123f4414693f69" category="section-title">SSL 암호 해독은 지원되지 않습니다</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
+  <block id="38850c0d5ada5706d4546808821a96d1" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 인증을 설정합니다</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
+  <block id="0acd6f364c67bcef47587e5727525116" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 네트워킹 설정</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
+  <block id="aea46324800b152c6a50caff1d14e2fc" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 커넥터를 작성합니다</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
+  <block id="eb9bb09a006b6e7bcc7d0b9525344bcf" category="section-title">Connector의 URI를 편집합니다</block>
+  <block id="62804365dc8c62cf4546f894ddfc5e1c" category="list-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 권한 설정</block>
+  <block id="b74f07963110d8742672d27a25bb3383" category="list-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> Google Cloud API를 활성화합니다</block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
+  <block id="3b9dafc67ff049020d09b9ebd18aaa5d" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 커넥터를 작성합니다</block>
+  <block id="5ccc745272c52ce1868d5bcf2b07705a" category="section-title">작업 영역 관리자의 작업 영역 관리</block>
+  <block id="1cf32fb78afaf111cd4c8421dc8592a6" category="section-title">Connector의 작업 영역 관리</block>
+  <block id="c558073ec27a1686dce5ebbe5da43092" category="paragraph-title">로그인 옵션</block>
 </blocks>
