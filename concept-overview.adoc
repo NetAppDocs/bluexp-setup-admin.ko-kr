@@ -69,7 +69,7 @@ BlueXP에는 BlueXP 웹 사이트에 통합된 SaaS 기반 인터페이스와 Cl
 
 === 서비스형 소프트웨어
 
-BlueXP는 을 통해 액세스할 수 있습니다 https://cloudmanager.netapp.com["SaaS 기반 사용자 인터페이스"^] API를 사용해 보십시오. 이러한 SaaS 환경을 통해 최신 기능에 자동으로 액세스하고 NetApp 계정과 커넥터 간에 쉽게 전환할 수 있습니다.
+BlueXP는 을 통해 액세스할 수 있습니다 https://console.bluexp.netapp.com["SaaS 기반 사용자 인터페이스"^] API를 사용해 보십시오. 이러한 SaaS 환경을 통해 최신 기능에 자동으로 액세스하고 NetApp 계정과 커넥터 간에 쉽게 전환할 수 있습니다.
 
 
 TIP: 아웃바운드 인터넷 액세스를 사용할 수 없는 환경에서 작업 중인 경우 해당 환경에 Connector 소프트웨어를 설치하고 Connector에서 사용할 수 있는 로컬 사용자 인터페이스에 액세스할 수 있습니다. link:concept-connectors.html["커넥터에 대해 자세히 알아보십시오"].

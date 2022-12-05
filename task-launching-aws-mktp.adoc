@@ -84,7 +84,7 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 
 
 
-. 웹 브라우저를 열고 로 이동합니다 https://cloudmanager.netapp.com[] 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.
+. 웹 브라우저를 열고 로 이동합니다 https://console.bluexp.netapp.com[] 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.
 
 
 이제 Connector가 NetApp 계정으로 설치 및 설정됩니다. BlueXP는 새로운 작업 환경을 만들 때 이 커넥터를 자동으로 사용합니다. 그러나 둘 이상의 커넥터가 있는 경우 이 작업을 수행해야 합니다 link:task-managing-connectors.html["둘 사이를 전환합니다"].
@@ -159,7 +159,7 @@ image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스�
 
 BlueXP를 사용할 때마다 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결합니다. https://_ipaddress_[]
 
-Connector는 정부 지역에 배포되었기 때문에 에서 액세스할 수 없습니다 https://cloudmanager.netapp.com[].
+Connector는 정부 지역에 배포되었기 때문에 에서 액세스할 수 없습니다 https://console.bluexp.netapp.com[].
 
 
 
