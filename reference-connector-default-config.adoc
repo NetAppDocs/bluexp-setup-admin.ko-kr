@@ -79,9 +79,10 @@ Connector 설치 폴더는 다음 위치에 있습니다.
 
 로그 파일은 다음 폴더에 들어 있습니다.
 
-* /opt/application/netapp/cloudmanager/log입니다
+* /opt/application/netapp/cloudmanager/log 또는
+* /opt/application/netapp/service-manager-2/로그(새로운 3.9.23 설치부터 시작)
 +
-이 폴더의 로그에는 Connector 및 Docker 이미지에 대한 세부 정보가 나와 있습니다.
+이러한 폴더의 로그에는 Connector 및 Docker 이미지에 대한 세부 정보가 나와 있습니다.
 
 * /opt/application/netapp/cloudmanager/docker/데이터/로그
 +
@@ -102,32 +103,12 @@ MySQL 서비스가 다운되면 occm 서비스도 다운됩니다.
 
 
 
-=== 패키지
-
-BlueXP는 다음 패키지를 아직 설치하지 않은 경우 Linux 호스트에 설치합니다.
-
-* 7zip
-* AWSCLI
-* 자바
-* 쿠베틀입니다
-* MySQL
-* 트리엔ctl
-* 잡아당깁니다
-* 윙입니다
-
-
-
-
 === 포트
 
 커넥터는 Linux 호스트에서 다음 포트를 사용합니다.
 
 * HTTP 액세스용 80
 * HTTPS 액세스용 443
-* BlueXP 데이터베이스용 3306
-* BlueXP API 프록시의 경우 8080
-* 서비스 관리자 API용 8666
-* 8777)을 참조하십시오
 
 
 

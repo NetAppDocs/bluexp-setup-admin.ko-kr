@@ -38,7 +38,7 @@ Connector를 생성하는 IAM 사용자는 AWS Marketplace 권한을 가지고 �
 . 로 이동합니다 https://aws.amazon.com/marketplace/pp/B018REK8QG["AWS 마켓플레이스의 BlueXP 페이지"^] AMI에서 커넥터를 배포하려면:
 . Marketplace 페이지에서 * Continue to Subscribe * 를 클릭한 다음 * Continue to Configuration * 을 클릭합니다.
 +
-image:screenshot_subscribe_cm.gif["AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷"]
+image:screenshot-subscribe-aws.png["AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷"]
 
 . 기본 옵션을 변경하고 * 계속 시작 * 을 클릭합니다.
 . 작업 선택 * 에서 * EC2 * 를 통해 시작 * 을 선택한 다음 * 시작 * 을 클릭합니다.
@@ -80,9 +80,6 @@ https://_ipaddress_[]
 link:concept-netapp-accounts.html["NetApp 계정 에 대해 알아보십시오"].
 
 .. 시스템의 이름을 입력합니다.
-+
-image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스템의 이름을 지정할 수 있는 Connector 설정 화면을 보여주는 스크린샷"]
-
 
 
 . 웹 브라우저를 열고 로 이동합니다 https://console.bluexp.netapp.com[] 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.
@@ -150,9 +147,6 @@ https://_ipaddress_[]
 link:concept-netapp-accounts.html["NetApp 계정 에 대해 알아보십시오"].
 
 .. 시스템의 이름을 입력합니다.
-+
-image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스템의 이름을 지정할 수 있는 Connector 설정 화면을 보여주는 스크린샷"]
-
 
 
 

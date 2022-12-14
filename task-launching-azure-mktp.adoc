@@ -68,9 +68,6 @@ https://_ipaddress_[]
 link:concept-netapp-accounts.html["NetApp 계정 에 대해 알아보십시오"].
 
 .. 시스템의 이름을 입력합니다.
-+
-image:screenshot_set_up_cloud_manager.gif["NetApp 계정을 선택하고 시스템의 이름을 지정할 수 있는 BlueXP 설정 화면을 보여주는 스크린샷"]
-
 
 
 
