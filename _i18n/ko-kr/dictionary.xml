@@ -919,20 +919,7 @@
   <block id="ede70ed6f915794fb0cf32f488c14c20" category="list-text"><block ref="ede70ed6f915794fb0cf32f488c14c20" category="inline-link-rx"></block></block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
   <block id="c70759e14c99d146c9a06c0aa179fd97" category="list-text">설정 및 사용<block ref="b41a5c30c6d9d82a8289eb263626d622" category="inline-link-rx"></block> 클라우드 전반에서 효율적인 멀티 프로토콜 데이터 관리</block>
-  <block id="442da2ce6c62de650f0093c5c3936f8b" category="list-text">파일 스토리지 서비스 설정 및 사용:</block>
-  <block id="fe47a7bae21deac481466753a76b1e01" category="list-text"><block ref="fe47a7bae21deac481466753a76b1e01" category="inline-link-rx"></block></block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link">ONTAP용 Amazon FSx</block>
-  <block id="2ccead5fa1ba8e96f9ff96a6730df792" category="list-text"><block ref="2ccead5fa1ba8e96f9ff96a6730df792" category="inline-link-rx"></block></block>
-  <block id="06021ba1ee96f1a3a57b50001fc7244c" category="inline-link">AWS 환경을 위한 Cloud Volumes Service</block>
-  <block id="510fe8614c3929cdfae8c51f9ef579a0" category="list-text"><block ref="510fe8614c3929cdfae8c51f9ef579a0" category="inline-link-rx"></block></block>
-  <block id="31e7239cc507a58a4794b36df4448093" category="list-text"><block ref="31e7239cc507a58a4794b36df4448093" category="inline-link-rx"></block></block>
-  <block id="8ccee3c04142be04af106dd59a32d53b" category="list-text">볼륨 생성, 클라우드에 백업, 하이브리드 클라우드 간 데이터 복제, 콜드 데이터를 클라우드로 계층화하여 온프레미스 ONTAP 클러스터를 검색하고 관리할 수 있습니다.</block>
-  <block id="60b339721b3af17b74fa26ee748c0c4a" category="list-text">다음과 같은 통합 클라우드 서비스 지원:</block>
-  <block id="eded69f9cac39a42b807d8fe9673cbf0" category="list-text"><block ref="eded69f9cac39a42b807d8fe9673cbf0" category="inline-link-rx"></block></block>
-  <block id="b4f83b03956523a39e8bbbd0895f0f29" category="inline-link">Cloud Insights</block>
-  <block id="79014bb685e82b5d8e08031244ab76c6" category="list-text"><block ref="79014bb685e82b5d8e08031244ab76c6" category="inline-link-rx"></block></block>
-  <block id="f80499b11aeb75282e4dca4568323011" category="list-text"><block ref="f80499b11aeb75282e4dca4568323011" category="inline-link-rx"></block></block>
-  <block id="002fca37a5e7d8eb724e874566419716" category="section-title">지원되는 오브젝트 스토리지 공급자</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="11cf550820ecd5e75ae1a9046f7f7f05" category="section-title">서비스형 소프트웨어</block>
   <block id="249e471f7f9907a3aa62024b7aafe261" category="inline-link">SaaS 기반 사용자 인터페이스</block>
@@ -944,7 +931,6 @@
   <block id="958c315a8c40765f65895091ecc83488" category="paragraph"><block ref="958c315a8c40765f65895091ecc83488" category="inline-link-rx"></block></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="be541d1f37f2cc0c7ba1cfd7fcfbb4db" category="section-title">대상 네트워크에 연결</block>
-  <block id="19dfd3f6e4e8058b5d5537232d50ca9b" category="paragraph">Connector를 사용하려면 만들고 있는 작업 환경의 유형과 활성화할 서비스에 대한 네트워크 연결이 필요합니다.</block>
   <block id="911d15b7ac55478d2b567e8488658687" category="section-title">172 범위의 IP 주소와 충돌할 수 있습니다</block>
   <block id="c8f224037ea295aeec347c94779d9932" category="section-title">아웃바운드 인터넷 액세스</block>
   <block id="c0dfa216f26874dae52a89e0090a3358" category="paragraph">Connector를 사용하려면 공용 클라우드 환경 내의 리소스와 프로세스를 관리하기 위한 아웃바운드 인터넷 액세스가 필요합니다.</block>
@@ -1076,7 +1062,6 @@
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">알려진 제한 사항</block>
   <block id="83e566847d42782b3343e108150d7f57" category="section-title">커넥터 제한</block>
-  <block id="82538689c7a66297973814120306d42f" category="section-title">HTTP 프록시 서버만 지원됩니다</block>
   <block id="7bd92bd111bfbf23b12f73672eb0dd1c" category="inline-link-macro">CA(인증 기관)에서 서명한 HTTPS 인증서 설치</block>
   <block id="c3ce271d53cbf6a7afd137a37f4ee8d6" category="paragraph">보안 강화를 위해 을(를) 선택할 수 있습니다 <block ref="11df3d19916b70ba1d82d33e876689bc" category="inline-link-macro-rx"></block>.</block>
   <block id="e949623e23f093c132f86ba2771e8a2e" category="section-title">로컬 UI를 로드할 때 빈 페이지입니다</block>
@@ -1084,10 +1069,6 @@
   <block id="1f8685c3e9591b0ac770ad3c60e0ea9b" category="paragraph">이 문제는 캐싱 문제와 관련이 있습니다. 해결 방법은 익명 또는 개인 웹 브라우저 세션을 사용하는 것입니다.</block>
   <block id="f1bbf021df1d9b288af2cafebc1736b8" category="section-title">SaaS 제한 사항</block>
   <block id="3197827325be6e413fb43c8aa3862608" category="section-title">정부 지역에서는 SaaS 플랫폼을 사용할 수 없습니다</block>
-  <block id="4c8bad6756ca0d84a9a56e8303428c9c" category="section-title">시장 제한</block>
-  <block id="09b41782e7d4a148f9a7da9ba9dd8aab" category="section-title">Azure 및 Google Cloud 파트너는 사용한 만큼만 지불하는 방식을 사용할 수 없습니다</block>
-  <block id="3bb34cc4b91242a4a34cd43a6fe0fd46" category="paragraph">Microsoft 클라우드 솔루션 공급자(CSP) 파트너이거나 Google Cloud 파트너인 경우 NetApp의 용량제 구독을 사용할 수 없습니다. BYOL 라이센스를 통해 NetApp 클라우드 솔루션을 구축하고 라이센스를 구입해야 함</block>
-  <block id="33a2b7ff6dc79a8e4cc0b966b36b485d" category="paragraph">다음 NetApp 클라우드 서비스에서는 용량제 구독을 사용할 수 없습니다.</block>
   <block id="1ab5193f89cf79df51fd4138318923ac" category="doc">Azure 자격 증명 및 권한</block>
   <block id="08a6159f6d9d986210470d2ab6dff166" category="section-title">초기 Azure 자격 증명</block>
   <block id="1985b326c07cdcb2a260ae0c0c6fde8d" category="inline-link">시스템에서 할당한 관리 ID입니다</block>
@@ -1104,20 +1085,6 @@
   <block id="65f0e30e3c24202dbbc18402c495e104" category="paragraph">Marketplace를 사용하는 경우 사용 권한이 동일한 방식으로 제공됩니다. Connector에 대해 관리되는 ID를 수동으로 만들고 설정한 다음 추가 계정에 대한 사용 권한을 제공하면 됩니다.</block>
   <block id="67ae2bc9115f67bfaadac4861db76177" category="paragraph">온-프레미스 배포의 경우 Connector에 대해 관리되는 ID를 설정할 수 없지만 서비스 보안 주체를 사용하여 추가 계정에 대해 원하는 권한을 제공할 수 있습니다.</block>
   <block id="3163b3d4dc92f42d04ad4c79906dcdc3" category="doc">다음 단계로 넘어갑니다</block>
-  <block id="7225cbd09f10418bea11f9f5a7bb8239" category="inline-link">Cloud Volumes ONTAP for AWS 시작하기</block>
-  <block id="1ab38ec994b2b571e5a64425b17adfd0" category="list-text"><block ref="1ab38ec994b2b571e5a64425b17adfd0" category="inline-link-rx"></block></block>
-  <block id="c9872f24ec1c862fec9a6daae0322223" category="inline-link">Azure용 Cloud Volumes ONTAP를 시작하십시오</block>
-  <block id="c842a3b183e53a5bf6629088c63c3cfe" category="list-text"><block ref="c842a3b183e53a5bf6629088c63c3cfe" category="inline-link-rx"></block></block>
-  <block id="f4488428860ec63a8b5d5b49e6e05044" category="inline-link">Cloud Volumes ONTAP for Google Cloud를 시작해 보십시오</block>
-  <block id="f16a9ac5c661e28643e0bd9a18254d16" category="list-text"><block ref="f16a9ac5c661e28643e0bd9a18254d16" category="inline-link-rx"></block></block>
-  <block id="1a13f57b619b2ef0b47e851b04e48aec" category="inline-link">Azure NetApp Files를 설정합니다</block>
-  <block id="64e7cbd14ba57000ea8cdd5fa33d079f" category="inline-link">ONTAP용 Amazon FSx를 설정합니다</block>
-  <block id="ee1b3fc0e1771ee3c8d6a1474ba7b403" category="inline-link">Cloud Volumes Service for AWS 설정</block>
-  <block id="3707f9686304d02d294cdb98fb9cbf36" category="list-text"><block ref="3707f9686304d02d294cdb98fb9cbf36" category="inline-link-rx"></block></block>
-  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link">사내 ONTAP 클러스터를 검색합니다</block>
-  <block id="b28e9c0d24784ac4474fb496f6e3ce23" category="list-text"><block ref="b28e9c0d24784ac4474fb496f6e3ce23" category="inline-link-rx"></block></block>
-  <block id="a3e15006a0362130cf46b948ce3a5626" category="inline-link-macro">Amazon S3 버킷을 검색합니다</block>
-  <block id="3f48c5e9be05508878e1ceb77d8423a7" category="list-text"><block ref="3f48c5e9be05508878e1ceb77d8423a7" category="inline-link-macro-rx"></block></block>
   <block id="ca82fdd9a480fcc34a6b470f5ec8e908" category="inline-link-macro">프록시 설정을 구성합니다</block>
   <block id="8224e3db072d582bb34ae19441c597fe" category="cell">-compute.disks.create-compute.disks.createSnapshot-compute.disks.delete -compute.disks.get-compute.disks.list -compute.disks.setLabels -compute.disks.us e</block>
   <block id="f66d598893a55fa43b7676b10c66160f" category="cell">Cloud Volumes ONTAP용 디스크를 생성하고 관리합니다.</block>
@@ -1348,8 +1315,6 @@
   <block id="0992dccda336100add15ce23fc9702f3" category="list-text"><block ref="0992dccda336100add15ce23fc9702f3" category="inline-link-rx"></block></block>
   <block id="3439d2a50956809b2cccde2f89685ce6" category="list-text"><block ref="3439d2a50956809b2cccde2f89685ce6" category="inline-link-rx"></block></block>
   <block id="fad43b5fbcb08d889da84d61cf2ea0e8" category="list-text"><block ref="fad43b5fbcb08d889da84d61cf2ea0e8" category="inline-link-rx"></block></block>
-  <block id="d1640a3b53ec580119ad1efa519fa5a4" category="list-text"><block ref="d1640a3b53ec580119ad1efa519fa5a4" category="inline-link-rx"></block></block>
-  <block id="571331341f9a044145a7015b8d5b9b03" category="list-text"><block ref="571331341f9a044145a7015b8d5b9b03" category="inline-link-rx"></block></block>
   <block id="a37da40b1cf1ce86308b603dbc497d9d" category="paragraph"><block ref="443587ef67dfdb72c89535a3fb85e4c4" category="inline-link-macro-rx"></block>.</block>
   <block id="de60a486c1b92dffa7eb55af0b1c8bb0" category="paragraph">AWS 자격 증명을 추가하는 방법에는 두 가지가 있습니다.</block>
   <block id="1e0ffea311b606e155cd79847cc310dd" category="list-text">IAM 역할 또는 IAM 사용자에 정책을 연결합니다.</block>
@@ -1423,8 +1388,6 @@
   <block id="0c5f74a83e5cbc5c6c230dd0caf096f7" category="inline-link">상용 지역에 대한 Azure Marketplace 페이지</block>
   <block id="5fb9ace1b2fee444b848b1ad1c5d886c" category="list-text"><block ref="5fb9ace1b2fee444b848b1ad1c5d886c" category="inline-link-rx"></block></block>
   <block id="8ac340f924d72696326df51a32dbdee5" category="inline-link">Azure Government 지역의 Azure Marketplace 페이지</block>
-  <block id="da14ee4a8100ac08980150bcda1e397d" category="inline-link-macro">Connector의 기본 설정에 대해 알아봅니다</block>
-  <block id="84fc34721c0c912a148a70d22ac7cd5a" category="paragraph"><block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
   <block id="2fc22405cb36e8596d9bdb7b52cbf10c" category="paragraph">Connector를 배포하기 전에 또는 문제를 해결해야 하는 경우에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="5eeca886fa07462826a9ea747483f528" category="section-title">AWS 세부 정보</block>
   <block id="6b3a1b41a32e70a38db42e8ec15a6fba" category="list-text">EC2 인스턴스 유형은 T3.xLarge입니다.</block>
@@ -1849,7 +1812,6 @@
   <block id="489db3f339b691ea4dea5f4572483024" category="paragraph">Cloud Volumes ONTAP의 기본 보안 그룹을 사용하는 경우 보안 그룹을 변경할 필요가 없습니다. 그러나 Cloud Volumes ONTAP에 대해 엄격한 아웃바운드 규칙을 정의할 계획이라면 Cloud Volumes ONTAP 보안 그룹이 포트 3128을 통한 _outbound_connection을 허용하는지 확인해야 합니다.</block>
   <block id="117e86e552d0c131628c9b59f4f27b24" category="paragraph">회사 정책에 따라 인터넷에 대한 모든 HTTP 통신에 프록시 서버를 사용해야 하는 경우 HTTP 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
   <block id="cd5948a5853fc000f635c34407e9be0e" category="paragraph">HTTP 프록시 서버를 사용하도록 Connector를 구성하면 공용 IP 주소 또는 NAT 게이트웨이를 사용할 수 없는 경우 아웃바운드 인터넷 액세스를 제공합니다. 이 프록시 서버는 아웃바운드 연결이 있는 커넥터만 제공합니다. Cloud Volumes ONTAP 시스템에 대한 연결은 제공하지 않습니다.</block>
-  <block id="2724db8eb831856d2bcad22cc1470034" category="paragraph">커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다. HTTP 및 HTTPS는 에 대한 액세스를 제공합니다 <block ref="a4d556f51af89bcef8612c38a831609f" category="inline-link-macro-rx"></block>이는 드문 경우지만 사용할 수 있습니다. SSH는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
   <block id="6d222908a201e6b65bf048113504f4c1" category="inline-xref">Connector의 프록시 서버에 대해 자세히 알아보십시오</block>
   <block id="379c1280ecc325be9f0d74d095f55ae9" category="cell">Cloud Volumes ONTAP에서 인터넷에 액세스하여 AutoSupport 메시지를 NetApp 지원으로 보냅니다. 배포 후에는 이 포트를 수동으로 열어야 합니다. <block ref="9a4dd6e745bb9c3853507bba2251a2cd" category="inline-xref-macro-rx"></block>.</block>
   <block id="9998984c95caccce61e49ca25de1c99f" category="paragraph">등록 양식에는 영어 문자만 사용할 수 있습니다.</block>
@@ -1910,8 +1872,6 @@
   <block id="cd444a79f98ccbe383b146279f3bb526" category="inline-xref">단계별 지침을 따릅니다</block>
   <block id="442342eacc7f01318bc860131355649e" category="paragraph"><block ref="ca365c48bf30193bd65b99125fcf8cd5" category="inline-xref-macro-rx"></block>.</block>
   <block id="ab316a3ccbad97726269c9705958262a" category="section-title">네트워킹 설정</block>
-  <block id="7213720ac295b1a74851802d3a5a56b8" category="paragraph">Connector가 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. Connector용 VPC 및 서브넷을 사용하는 것 외에 다음 요구 사항이 충족되는지 확인해야 합니다.</block>
-  <block id="1b3deabe2c9e1e4a0b1167212bbfaef2" category="paragraph">예를 들어 회사 네트워크에 커넥터를 설치하는 경우 Cloud Volumes ONTAP를 실행하는 VPC에 대한 VPN 연결을 설정해야 합니다.</block>
   <block id="824f455afa0ae197e5e7156988b6dc50" category="section-title">프록시 서버</block>
   <block id="3ae1b8362f96338c0c28c7652251bc8b" category="paragraph">조직에서 모든 나가는 인터넷 트래픽에 대해 HTTP 프록시를 구축해야 하는 경우 HTTP 프록시에 대한 다음 정보를 얻습니다.</block>
   <block id="75ba8d70e3692ba200f0e0df37b4d2ae" category="list-text">IP 주소입니다</block>
@@ -1920,7 +1880,6 @@
   <block id="338578acf7e0dc54ebcd8c3592f0b022" category="section-title">보안 그룹</block>
   <block id="d72a801b2f49d6a4ed170ebdf3cf0efc" category="section-title">IP 주소 제한</block>
   <block id="65d425afa00c3ead65e6a786e55b60bc" category="inline-link-macro">이 제한 사항에 대해 자세히 알아보십시오</block>
-  <block id="2ef89d258d7b7a558315c92ffe06a70a" category="paragraph">172 범위의 IP 주소와 충돌할 수 있습니다. <block ref="9903a97952b05fb45b71a9f44012cd1c" category="inline-link-macro-rx"></block>.</block>
   <block id="1fbc47392baedd9a8a771f5372aa43d4" category="list-text">커넥터 배포 * 페이지에서 필요한 사항에 대한 세부 정보를 검토합니다. 두 가지 옵션이 있습니다.</block>
   <block id="639c5d452ac23b93fb028a8d3101d2c2" category="list-text">제품 내 가이드를 사용하여 배포를 준비하려면 * 계속 * 을 클릭합니다. 제품 내 가이드의 각 단계에는 이 문서 페이지에 포함된 정보가 포함되어 있습니다.</block>
   <block id="ce670b5c6b0b9f0203bdb18071265645" category="list-text">이 페이지의 단계를 따라 이미 준비되었으면 * 배포로 건너뛰기 * 를 클릭합니다.</block>
@@ -1962,8 +1921,6 @@
   <block id="abfd76b9567ca082322504a092e076c7" category="list-text">* 세부 정보 *: 가상 머신 인스턴스의 이름을 입력하고, 태그를 지정하고, 프로젝트를 선택한 다음 필요한 권한이 있는 서비스 계정을 선택합니다(자세한 내용은 위의 섹션 참조).</block>
   <block id="0e4b0391e50169d97fc505f0c73a94ba" category="paragraph">커넥터는 해당 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포하거나 에 배포되어야 합니다<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다.</block>
   <block id="07a7f9f6c28c927482b86d1b2710f6a3" category="paragraph"><block ref="07a7f9f6c28c927482b86d1b2710f6a3" category="inline-link-rx"></block></block>
-  <block id="85b230e60d81c13f5dc04f2f6348b69b" category="paragraph">Connector가 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. Connector에 VNET 및 서브넷을 사용하는 것 외에, 다음 요구 사항이 충족되는지 확인해야 합니다.</block>
-  <block id="7f98194e906061755ef77e3cbe8a33a9" category="paragraph">예를 들어 회사 네트워크에 커넥터를 설치하는 경우 Cloud Volumes ONTAP를 시작하는 VNET에 대한 VPN 연결을 설정해야 합니다.</block>
   <block id="a3f904af5bc42ef6ae44062da5d02b45" category="list-text">제품 내 가이드를 사용하여 배포를 준비하려면 * 계속 * 을 클릭합니다. 각 단계에는 설명서의 이 페이지에 포함된 정보가 포함되어 있습니다.</block>
   <block id="7b3422536b44078a6701640706be10a0" category="list-text">조직에서 모든 발신 인터넷 트래픽에 대한 프록시를 필요로 하는 경우 HTTP 프록시에 대한 세부 정보:</block>
   <block id="1086659fbba9a8aed49e109adc659d56" category="list-text">커넥터 배포 * 페이지에서 다음을 수행합니다.</block>
@@ -2368,10 +2325,7 @@
   <block id="9dc9eda989fecd8cfbde78f1ddcc23fb" category="paragraph">BlueXP(이전의 Cloud Manager)를 사용하면 IT 전문가와 클라우드 설계자가 NetApp의 클라우드 솔루션을 사용하여 하이브리드 멀티 클라우드 인프라를 중앙에서 관리할 수 있습니다.</block>
   <block id="58d76b9868fa792339621fbdd30421f7" category="paragraph">BlueXP는 엔터프라이즈급 SaaS 기반 관리 플랫폼으로, 데이터가 어디에 있든 데이터를 제어할 수 있습니다.</block>
   <block id="78d1c9f9c86eecd86f5f568cfe0c0721" category="inline-link">BlueXP에 대해 자세히 알아보십시오</block>
-  <block id="3f0f4690f27de5e62f84c1a350e6e4b1" category="paragraph"><block ref="3e6500f6feea5ba5821d69bacae3c610" category="inline-link-rx"></block>.</block>
   <block id="0cf89ba9f6178dc91d18ec5c2aec1c61" category="paragraph">BlueXP를 사용하면 Amazon Web Services, Microsoft Azure 및 Google Cloud에서 클라우드 스토리지를 관리하고 클라우드 서비스를 사용할 수 있습니다.</block>
-  <block id="14c4e84af1098b2006f2fddadf5e62fd" category="paragraph">BlueXP 소프트웨어는 NetApp에서 무료로 제공합니다.</block>
-  <block id="231aa5fbc2bffd88a9700bb68c45554e" category="paragraph">대부분의 작업에서 BlueXP는 클라우드 네트워크에 Connector를 배포하라는 메시지를 표시합니다. 그러면 컴퓨팅 인스턴스 및 관련 스토리지에 대해 클라우드 공급자로부터 요금이 부과될 수 있습니다. 구내에서 Connector 소프트웨어를 실행할 수 있는 옵션이 있습니다.</block>
   <block id="a2513e72ab3ae9830fac174977d58572" category="section-title">BlueXP의 작동 방식</block>
   <block id="1d30e47d408ebb4c330e626c7ae44937" category="paragraph">BlueXP에는 BlueXP 웹 사이트에 통합된 SaaS 기반 인터페이스와 Cloud Volumes ONTAP 및 기타 클라우드 서비스를 관리하는 커넥터가 포함되어 있습니다.</block>
   <block id="8ff6e794637981d1636a228e2fd99e19" category="section-title">BlueXP 웹 사이트</block>
@@ -2822,4 +2776,44 @@
   <block id="ff6e28c8eaa73c74f132f30b8a504071" category="list-text">/opt/application/netapp/cloudmanager/log 또는</block>
   <block id="f41aa0898b72dcd91cd63bd3d33d4258" category="list-text">/opt/application/netapp/service-manager-2/로그(새로운 3.9.23 설치부터 시작)</block>
   <block id="ca20316f548fc97a4d2a061c877b1956" category="paragraph">이러한 폴더의 로그에는 Connector 및 Docker 이미지에 대한 세부 정보가 나와 있습니다.</block>
+  <block id="df290139b26527b2473b1e82a36386d4" category="paragraph">Connector가 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. Connector에 대한 가상 네트워크 및 서브넷을 사용하는 것 외에 다음 요구 사항이 충족되는지 확인해야 합니다.</block>
+  <block id="2f03f8dd45cb031f8f3cce95fd4acefc" category="paragraph">Connector를 사용하려면 만들고 있는 작업 환경 유형과 활성화할 서비스에 대한 네트워크 연결이 필요합니다.</block>
+  <block id="3f92e0c134aea90b900c9d9fb8728adc" category="paragraph">예를 들어 회사 네트워크에 커넥터를 설치하는 경우 Cloud Volumes ONTAP를 실행하는 가상 네트워크에 대한 VPN 연결을 설정해야 합니다.</block>
+  <block id="4f85ea1fc2337ca87ea3957b6ed0f523" category="paragraph">커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다. HTTP 및 HTTPS는 에 대한 액세스를 제공합니다<block ref="b66a5441ef03e9f48be36352f5f78769" category="inline-link-rx"></block>이는 드문 경우지만 사용할 수 있습니다. SSH는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
+  <block id="9b1f033bcac0595326d8acd1ef89e52c" category="paragraph">172 범위의 IP 주소와 충돌할 수 있습니다.<block ref="120cc620882c590412757bc531a4f583" category="inline-link-rx"></block>.</block>
+  <block id="17a28f89a71d8bcba39452a2fd7343db" category="list-text">클라우드 파일 스토리지 서비스 설정 및 사용:</block>
+  <block id="d03fba385c4e1320cb0846a9690ea3db" category="list-text"><block ref="d03fba385c4e1320cb0846a9690ea3db" category="inline-link-rx"></block></block>
+  <block id="a24bba36cb4a314e2d49f3de7731e9af" category="list-text"><block ref="a24bba36cb4a314e2d49f3de7731e9af" category="inline-link-rx"></block></block>
+  <block id="bb5abe8201599db6217db0b48efaaf5c" category="list-text"><block ref="bb5abe8201599db6217db0b48efaaf5c" category="inline-link-rx"></block></block>
+  <block id="f06223f9afc23bac523c7b9854772040" category="inline-link">높지 않습니다</block>
+  <block id="50568fb1f1ec4912ba1fc41a6e7d9b52" category="list-text">검색 및 관리<block ref="3908ac962ccecd5304bef31bbe1227cb" category="inline-link-rx"></block></block>
+  <block id="3404cce75db90acf6a9d52860721a139" category="list-text">ONTAP 클러스터</block>
+  <block id="7fcb7f97cbc710b693fef37b5e86770f" category="list-text">StorageGRID 시스템</block>
+  <block id="ab3e169cccbf28cfe5a645631e4c3ee9" category="list-text">데이터 이동성, 데이터 보호, 데이터 분석 및 제어를 위해 BlueXP의 서비스를 사용합니다.</block>
+  <block id="0edddc509df3db4e8717d189e32db020" category="list-text"><block ref="0edddc509df3db4e8717d189e32db020" category="inline-link-rx"></block></block>
+  <block id="19e49e48b1b7dfb345807d478924695e" category="list-text"><block ref="19e49e48b1b7dfb345807d478924695e" category="inline-link-rx"></block></block>
+  <block id="c0daf6fd97668893647e484d22abfa87" category="list-text"><block ref="c0daf6fd97668893647e484d22abfa87" category="inline-link-rx"></block></block>
+  <block id="b53201308fec60a975760c1edb55b773" category="list-text"><block ref="b53201308fec60a975760c1edb55b773" category="inline-link-rx"></block></block>
+  <block id="b2b0ea38d4048b69c988dce66f1d0b1d" category="list-text"><block ref="b2b0ea38d4048b69c988dce66f1d0b1d" category="inline-link-rx"></block></block>
+  <block id="8a7565a3d3fd48c7fc9f1e196dfdca92" category="list-text"><block ref="8a7565a3d3fd48c7fc9f1e196dfdca92" category="inline-link-rx"></block></block>
+  <block id="fcb8e4813d92a80a1bbc9b8070ca196b" category="list-text"><block ref="fcb8e4813d92a80a1bbc9b8070ca196b" category="inline-link-rx"></block></block>
+  <block id="950604af87c30e09716e6d097eb491db" category="inline-link">랜섬웨어 보호</block>
+  <block id="a2caf1b1186133b845d3659ba1a714e8" category="list-text"><block ref="a2caf1b1186133b845d3659ba1a714e8" category="inline-link-rx"></block></block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="inline-link">복제</block>
+  <block id="e5335d776982e29d68ce5591f7857b38" category="list-text"><block ref="e5335d776982e29d68ce5591f7857b38" category="inline-link-rx"></block></block>
+  <block id="3e6500f6feea5ba5821d69bacae3c610" category="paragraph"><block ref="3e6500f6feea5ba5821d69bacae3c610" category="inline-link-rx"></block></block>
+  <block id="902e65d33784bd8924eb05e622aa2dda" category="section-title">지원되는 클라우드 공급자</block>
+  <block id="586136b5d097497746a02a0ee9fbf106" category="inline-link">BlueXP 가격에 대해 알아보십시오</block>
+  <block id="fdef4b7b833e98f74a43e15f9596aba2" category="paragraph">BlueXP의 가격은 사용할 서비스에 따라 다릅니다.<block ref="75160bc8e8d9a72990607b919e54f0eb" category="inline-link-rx"></block>.</block>
+  <block id="1dbcc3dbf7eca2d457ef75c308b633a7" category="list-text"><block ref="1dbcc3dbf7eca2d457ef75c308b633a7" category="inline-link-rx"></block></block>
+  <block id="04ffe0a147dbb13700889c1e70e9882e" category="list-text"><block ref="04ffe0a147dbb13700889c1e70e9882e" category="inline-link-rx"></block></block>
+  <block id="87364e5ba30db1c43d48c2f9fb268599" category="list-text"><block ref="87364e5ba30db1c43d48c2f9fb268599" category="inline-link-rx"></block></block>
+  <block id="2cd4c52a2c24d00b0728a00fb7fdfa14" category="list-text"><block ref="2cd4c52a2c24d00b0728a00fb7fdfa14" category="inline-link-rx"></block></block>
+  <block id="f540a08b090d18fa948ca4ade8ceb7ff" category="inline-link">Google Cloud용 Cloud Volumes ONTAP</block>
+  <block id="18be24d5615a34e11f88d365c94d770c" category="list-text"><block ref="18be24d5615a34e11f88d365c94d770c" category="inline-link-rx"></block></block>
+  <block id="8ddf9ef59a261682f484b2030ac2104d" category="list-text"><block ref="8ddf9ef59a261682f484b2030ac2104d" category="inline-link-rx"></block></block>
+  <block id="10a0b60b9648ccc503b486ec26950667" category="list-text"><block ref="10a0b60b9648ccc503b486ec26950667" category="inline-link-rx"></block></block>
+  <block id="92f468efd354e3cfaab0772943ec7f1d" category="list-text"><block ref="92f468efd354e3cfaab0772943ec7f1d" category="inline-link-rx"></block></block>
+  <block id="412b379b83628f21da708ff096d131e5" category="list-text"><block ref="412b379b83628f21da708ff096d131e5" category="inline-link-rx"></block></block>
+  <block id="a565303474e8a5c2bfe13bce52714f80" category="list-text"><block ref="a565303474e8a5c2bfe13bce52714f80" category="inline-link-rx"></block></block>
 </blocks>

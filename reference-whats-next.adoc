@@ -16,12 +16,14 @@ summary: 이제 BlueXP에 로그인하여 설정했으므로 사용자는 작업
 [role="lead"]
 이제 BlueXP에 로그인하여 설정했으므로 사용자는 작업 환경을 만들고 검색할 수 있습니다.
 
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["Cloud Volumes ONTAP for AWS 시작하기"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Azure용 Cloud Volumes ONTAP를 시작하십시오"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP for Google Cloud를 시작해 보십시오"^]
-* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["Azure NetApp Files를 설정합니다"^]
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["ONTAP용 Amazon FSx를 설정합니다"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-aws/task-manage-cvs-aws.html["Cloud Volumes Service for AWS 설정"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["사내 ONTAP 클러스터를 검색합니다"^]
-* link:task-viewing-amazon-s3.html["Amazon S3 버킷을 검색합니다"]
+* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["ONTAP용 Amazon FSx"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["AWS 환경을 위한 Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Azure용 Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Google Cloud용 Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/task-set-up-google-cloud.html["Google Cloud용 Cloud Volumes Service"^]
+* https://docs.netapp.com/us-en/cloud-manager-e-series/task-discover-e-series.html["E-Series 시스템"^]
+* https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-quick-start.html["Kubernetes 클러스터"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터"^]
+* https://docs.netapp.com/us-en/cloud-manager-storagegrid/task-discover-storagegrid.html["StorageGRID 시스템"^]
 

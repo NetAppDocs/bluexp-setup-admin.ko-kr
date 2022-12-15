@@ -339,15 +339,15 @@ Connector VM에 대한 서비스 계정이 설정되어 있습니다.
 
 == 네트워킹 설정
 
-Connector가 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. Connector용 VPC 및 서브넷을 사용하는 것 외에 다음 요구 사항이 충족되는지 확인해야 합니다.
+Connector가 공용 클라우드 환경 내에서 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. Connector에 대한 가상 네트워크 및 서브넷을 사용하는 것 외에 다음 요구 사항이 충족되는지 확인해야 합니다.
 
 
 
 === 대상 네트워크에 연결
 
-Connector를 사용하려면 만들고 있는 작업 환경의 유형과 활성화할 서비스에 대한 네트워크 연결이 필요합니다.
+Connector를 사용하려면 만들고 있는 작업 환경 유형과 활성화할 서비스에 대한 네트워크 연결이 필요합니다.
 
-예를 들어 회사 네트워크에 커넥터를 설치하는 경우 Cloud Volumes ONTAP를 실행하는 VPC에 대한 VPN 연결을 설정해야 합니다.
+예를 들어 회사 네트워크에 커넥터를 설치하는 경우 Cloud Volumes ONTAP를 실행하는 가상 네트워크에 대한 VPN 연결을 설정해야 합니다.
 
 
 
@@ -396,13 +396,13 @@ NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있�
 
 === 보안 그룹
 
-커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다. HTTP 및 HTTPS는 에 대한 액세스를 제공합니다 link:concept-connectors.html#the-local-user-interface["로컬 UI"]이는 드문 경우지만 사용할 수 있습니다. SSH는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.
+커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다. HTTP 및 HTTPS는 에 대한 액세스를 제공합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#the-local-user-interface["로컬 UI"]이는 드문 경우지만 사용할 수 있습니다. SSH는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.
 
 
 
 === IP 주소 제한
 
-172 범위의 IP 주소와 충돌할 수 있습니다. link:reference-limitations.html["이 제한 사항에 대해 자세히 알아보십시오"].
+172 범위의 IP 주소와 충돌할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-limitations.html["이 제한 사항에 대해 자세히 알아보십시오"].
 
 
 

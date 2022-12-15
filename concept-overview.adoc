@@ -23,29 +23,40 @@ BlueXP(이전의 Cloud Manager)를 사용하면 IT 전문가와 클라우드 설
 BlueXP는 엔터프라이즈급 SaaS 기반 관리 플랫폼으로, 데이터가 어디에 있든 데이터를 제어할 수 있습니다.
 
 * 설정 및 사용 https://cloud.netapp.com/ontap-cloud["Cloud Volumes ONTAP"^] 클라우드 전반에서 효율적인 멀티 프로토콜 데이터 관리
-* 파일 스토리지 서비스 설정 및 사용:
+* 클라우드 파일 스토리지 서비스 설정 및 사용:
 +
-** https://cloud.netapp.com/azure-netapp-files["Azure NetApp Files"^]
-** https://cloud.netapp.com/fsx-for-ontap["ONTAP용 Amazon FSx"^]
-** https://cloud.netapp.com/cloud-volumes-service-for-aws["AWS 환경을 위한 Cloud Volumes Service"^]
-** https://cloud.netapp.com/cloud-volumes-service-for-gcp["Google Cloud용 Cloud Volumes Service"^]
+** https://bluexp.netapp.com/azure-netapp-files["Azure NetApp Files"^]
+** https://bluexp.netapp.com/fsx-for-ontap["ONTAP용 Amazon FSx"^]
+** https://bluexp.netapp.com/cloud-volumes-service-for-gcp["Google Cloud용 Cloud Volumes Service"^]
 
 
-* 볼륨 생성, 클라우드에 백업, 하이브리드 클라우드 간 데이터 복제, 콜드 데이터를 클라우드로 계층화하여 온프레미스 ONTAP 클러스터를 검색하고 관리할 수 있습니다.
-* 다음과 같은 통합 클라우드 서비스 지원:
+* 검색 및 관리 https://bluexp.netapp.com/netapp-on-premises["높지 않습니다"^]
 +
-** https://cloud.netapp.com/cloud-compliance["클라우드 데이터 감지"^]
-** https://cloud.netapp.com/cloud-insights["Cloud Insights"^]
-** https://cloud.netapp.com/cloud-backup-service["클라우드 백업"^]
+** E-Series 시스템
+** ONTAP 클러스터
+** StorageGRID 시스템
+
+
+* 데이터 이동성, 데이터 보호, 데이터 분석 및 제어를 위해 BlueXP의 서비스를 사용합니다.
++
+** https://bluexp.netapp.com/cloud-backup["클라우드 백업"^]
+** https://bluexp.netapp.com/netapp-cloud-data-sense["클라우드 데이터 감지"^]
+** https://bluexp.netapp.com/cloud-sync-service["Cloud Sync"^]
+** https://bluexp.netapp.com/cloud-tiering["클라우드 계층화"^]
+** https://bluexp.netapp.com/digital-advisor["디지털 자문업체"^]
+** https://bluexp.netapp.com/global-file-cache["글로벌 파일 캐시"^]
+** https://bluexp.netapp.com/k8s["쿠버네티스"^]
+** https://bluexp.netapp.com/ransomware-protection["랜섬웨어 보호"^]
+** https://bluexp.netapp.com/replication["복제"^]
 
 
 
 
-https://cloud.netapp.com/cloud-manager["BlueXP에 대해 자세히 알아보십시오"^].
+https://cloud.netapp.com/cloud-manager["BlueXP에 대해 자세히 알아보십시오"^]
 
 
 
-== 지원되는 오브젝트 스토리지 공급자
+== 지원되는 클라우드 공급자
 
 BlueXP를 사용하면 Amazon Web Services, Microsoft Azure 및 Google Cloud에서 클라우드 스토리지를 관리하고 클라우드 서비스를 사용할 수 있습니다.
 
@@ -53,11 +64,7 @@ BlueXP를 사용하면 Amazon Web Services, Microsoft Azure 및 Google Cloud에�
 
 == 비용
 
-BlueXP 소프트웨어는 NetApp에서 무료로 제공합니다.
-
-대부분의 작업에서 BlueXP는 클라우드 네트워크에 Connector를 배포하라는 메시지를 표시합니다. 그러면 컴퓨팅 인스턴스 및 관련 스토리지에 대해 클라우드 공급자로부터 요금이 부과될 수 있습니다. 구내에서 Connector 소프트웨어를 실행할 수 있는 옵션이 있습니다.
-
-link:reference-connector-default-config.html["Connector의 기본 설정에 대해 알아봅니다"].
+BlueXP의 가격은 사용할 서비스에 따라 다릅니다. https://bluexp.netapp.com/pricing["BlueXP 가격에 대해 알아보십시오"^].
 
 
 
