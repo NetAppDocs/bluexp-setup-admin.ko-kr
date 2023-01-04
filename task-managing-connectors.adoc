@@ -254,7 +254,7 @@ BlueXP는 커넥터에서 커넥터를 제거합니다.
 .단계
 . Linux 호스트에서 제거 스크립트를 실행합니다.
 +
-* /opt/application/netapp/cloudmanager/bin/uninstall.sh [silent] *
+* /opt/application/netapp/service-manager-2/uninstall.sh [silent] *
 
 +
 _silent_는 확인 메시지를 표시하지 않고 스크립트를 실행합니다.

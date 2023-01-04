@@ -18,6 +18,18 @@ NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 Blu
 
 
 
+== 2023년 1월 1일
+
+
+
+=== 커넥터 3.9.25
+
+이 커넥터 릴리스에는 Cloud Volumes ONTAP 개선 사항 및 버그 수정 사항이 포함되어 있습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1-january-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+
+
+
 == 2022년 12월 4일
 
 
