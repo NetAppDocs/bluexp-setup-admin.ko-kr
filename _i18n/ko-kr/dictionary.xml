@@ -2678,7 +2678,6 @@
   <block id="4e7880d4f8d9cf685f649e74e34a3de7" category="list-text">커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19 이상이 필요합니다.<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block></block>
   <block id="64a39273573e4fc2b712d51106db7a4e" category="section-title">변경 로그</block>
   <block id="3133cc4fd29893a0163684e3e3f59633" category="paragraph">권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.</block>
-  <block id="a6123430b152ca358cd64ba937f6f1b9" category="section-title">2022년 12월 1일</block>
   <block id="ac692d638162a1dc479fa6a76fb4e114" category="list-text">Microsoft.Compute/images/write</block>
   <block id="61d40b12dddcd9e571bbe7a89b0fbae8" category="list-text">Microsoft.Network/loadBalancers/backendAddressPools/join/action</block>
   <block id="7c90682779ddf616c80c90bad703eddd" category="list-text">Microsoft.Network/loadBalancers/frontendIPConfigurations/read</block>
@@ -2820,4 +2819,10 @@
   <block id="1c3a99b9cab6b55c9a46ccd58a1283c8" category="paragraph">대부분의 경우 SaaS UI에서 BlueXP를 사용해야 하지만 <block ref="9a2b10ef390e45d8a69a5a0f7a3a563a" category="inline-link-macro-rx"></block>그런 다음 웹 브라우저에서 호스트의 IP 주소를 입력해야 합니다.</block>
   <block id="c24732648af9b734203cc5a8a19f2537" category="paragraph">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다. SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다. 한편, 아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다.</block>
   <block id="31cd3194dbc40a48cdae969161abd4a5" category="list-text">설치가 완료되면 BlueXP에서 제공하는 서비스를 사용할 수 있습니다. 각 서비스에는 고유한 네트워킹 요구 사항이 있습니다. 자세한 내용은 다음 페이지를 참조하십시오.</block>
+  <block id="9efb399c3a128a79f4671ff959339e79" category="list-text">Microsoft.Storage/storageAccounts/listAccountSas/action</block>
+  <block id="a5b807c71b066c1d33685818cfa2806e" category="list-text">Microsoft.Synapse/작업 공간/privateEndpointConnectionsApproval/action</block>
+  <block id="176944a9db0702558233e827d21e2f80" category="section-title">2023년 1월 5일</block>
+  <block id="267cfa5c9c91dc1d99dc797e89903dfa" category="paragraph">Cloud Backup에는 이러한 권한이 필요합니다.</block>
+  <block id="b73f51f05a3d7aca4e9b86bf6b66c214" category="paragraph">이 권한은 Cloud Volumes ONTAP 배포에 필요합니다.</block>
+  <block id="1d37387582eb7a955869d3991c1dab28" category="section-title">2022년 12월 1일</block>
 </blocks>
