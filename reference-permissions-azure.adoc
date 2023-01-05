@@ -33,7 +33,7 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
 {
     "Name": "BlueXP Operator",
     "Actions": [
-                   "Microsoft.Compute/disks/delete",
+                    "Microsoft.Compute/disks/delete",
                     "Microsoft.Compute/disks/read",
                     "Microsoft.Compute/disks/write",
                     "Microsoft.Compute/locations/operations/read",
@@ -609,7 +609,7 @@ Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다
 | Microsoft.MarketplaceOrdering/offersTypes/publishers/Offers/Plans/Agreement/write | 예 | 예 | 아니요 
 
 
-.7+| HA 쌍에 대한 로드 밸런서를 관리합니다 | Microsoft.Network/loadBalancers/read | 예 | 예 | 아니요 
+.8+| HA 쌍에 대한 로드 밸런서를 관리합니다 | Microsoft.Network/loadBalancers/read | 예 | 예 | 아니요 
 
 
 | Microsoft.Network/loadBalancers/write | 예 | 아니요 | 아니요 
@@ -630,13 +630,13 @@ Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다
 | Microsoft.Network/loadBalancers/probes/read | 예 | 아니요 | 아니요 
 
 
-| Microsoft.Network/loadBalancers/probes/join/action | 예 | 아니요 | 아니요 | Azure 디스크에서 잠금 관리를 활성화합니다 
+| Microsoft.Network/loadBalancers/probes/join/action | 예 | 아니요 | 아니요 
 
 
-| Microsoft.인증/잠금/ * | 예 | 예 | 아니요 .10+| 서브넷 외부에 연결이 없는 경우 HA 쌍에 대한 개인 끝점을 설정합니다 
+| Azure 디스크에서 잠금 관리를 활성화합니다 | Microsoft.인증/잠금/ * | 예 | 예 | 아니요 
 
 
-| Microsoft.Network/privateEndpoints/write | 예 | 예 | 아니요 
+.10+| 서브넷 외부에 연결이 없는 경우 HA 쌍에 대한 개인 끝점을 설정합니다 | Microsoft.Network/privateEndpoints/write | 예 | 예 | 아니요 
 
 
 | Microsoft.Storage/storageAccounts/PrivateEndpointConnectionsApproval/action 을 참조하십시오 | 예 | 아니요 | 아니요 
@@ -663,19 +663,19 @@ Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다
 | Microsoft.Network/privateDnsZones/read | 예 | 예 | 아니요 
 
 
-| Microsoft.Network/privateDnsZones/virtualNetworkLinks/read | 예 | 예 | 아니요 | 기본 물리적 하드웨어에 따라 일부 VM 구축에서는 Azure에서 필요합니다 
+| Microsoft.Network/privateDnsZones/virtualNetworkLinks/read | 예 | 예 | 아니요 
 
 
-| Microsoft.Resources/Deployments/operationStates/read 를 참조하십시오 | 예 | 예 | 아니요 .2+| 배포 실패 또는 삭제 시 리소스 그룹에서 리소스를 제거합니다 
+| 기본 물리적 하드웨어에 따라 일부 VM 구축에서는 Azure에서 필요합니다 | Microsoft.Resources/Deployments/operationStates/read 를 참조하십시오 | 예 | 예 | 아니요 
 
 
-| Microsoft.Network/privateEndpoints/delete | 예 | 예 | 아니요 
+.2+| 배포 실패 또는 삭제 시 리소스 그룹에서 리소스를 제거합니다 | Microsoft.Network/privateEndpoints/delete | 예 | 예 | 아니요 
 
 
-| Microsoft.Compute/availabilitySets/delete | 예 | 예 | 아니요 .4+| API를 사용할 때 고객이 관리하는 암호화 키를 사용할 수 있도록 설정합니다 
+| Microsoft.Compute/availabilitySets/delete | 예 | 예 | 아니요 
 
 
-| Microsoft.Compute/diskEncryptionSets/read | 예 | 예 | 예 
+.4+| API를 사용할 때 고객이 관리하는 암호화 키를 사용할 수 있도록 설정합니다 | Microsoft.Compute/diskEncryptionSets/read | 예 | 예 | 예 
 
 
 | Microsoft.Compute/diskEncryptionSets/write | 예 | 예 | 아니요 
@@ -684,10 +684,10 @@ Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다
 | Microsoft.KeyVault/볼트/배포/작업 | 예 | 아니요 | 아니요 
 
 
-| Microsoft.Compute/diskEncryptionSets/delete | 예 | 예 | 예 .6+| HA 인터커넥트 및 클러스터 네트워크 NIC를 격리하도록 HA 쌍에 대한 애플리케이션 보안 그룹을 구성합니다 
+| Microsoft.Compute/diskEncryptionSets/delete | 예 | 예 | 예 
 
 
-| Microsoft.Network/applicationSecurityGroups/write | 아니요 | 예 | 아니요 
+.6+| HA 인터커넥트 및 클러스터 네트워크 NIC를 격리하도록 HA 쌍에 대한 애플리케이션 보안 그룹을 구성합니다 | Microsoft.Network/applicationSecurityGroups/write | 아니요 | 예 | 아니요 
 
 
 | Microsoft.Network/applicationSecurityGroups/read | 아니요 | 예 | 예 
@@ -702,16 +702,19 @@ Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다
 | Microsoft.Network/applicationSecurityGroups/delete | 아니요 | 예 | 아니요 
 
 
-| Microsoft.Network/networkSecurityGroups/securityRules/delete | 아니요 | 예 | 예 .3+| Cloud Volumes ONTAP 리소스와 연결된 태그를 읽고, 쓰고, 삭제합니다 
+| Microsoft.Network/networkSecurityGroups/securityRules/delete | 아니요 | 예 | 예 
 
 
-| Microsoft.Resources/tags/read | 아니요 | 예 | 아니요 
+.3+| Cloud Volumes ONTAP 리소스와 연결된 태그를 읽고, 쓰고, 삭제합니다 | Microsoft.Resources/tags/read | 아니요 | 예 | 아니요 
 
 
 | Microsoft.Resources/tags/write(Microsoft.리소스/태그/쓰기 | 예 | 예 | 아니요 
 
 
-| Microsoft.Resources/tags/delete(Microsoft.리소스/태그/삭제 | 예 | 아니요 | 아니요 | 생성 중에 스토리지 계정을 암호화합니다 
+| Microsoft.Resources/tags/delete(Microsoft.리소스/태그/삭제 | 예 | 아니요 | 아니요 
+
+
+| 생성 중에 스토리지 계정을 암호화합니다 | Microsoft.ManagedIdentity/userAssignedIdentities/assign/action 을 참조하십시오 | 예 | 예 | 아니요 
 |===
 
 
