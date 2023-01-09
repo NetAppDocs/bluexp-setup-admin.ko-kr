@@ -20,11 +20,7 @@ summary: 대부분의 경우 클라우드나 온프레미스 네트워크에 커
 
 == 커넥터가 필요한 경우
 
-BlueXP의 많은 기능과 서비스를 사용하려면 커넥터가 필요합니다.
-
-
-
-=== 서비스
+BlueXP의 다음 기능 및 서비스에 커넥터가 필요합니다.
 
 * ONTAP용 Amazon FSx 관리 기능
 * Amazon S3 검색
@@ -37,29 +33,37 @@ BlueXP의 많은 기능과 서비스를 사용하려면 커넥터가 필요합�
 * 글로벌 파일 캐시
 * Google Cloud Storage 검색
 * Kubernetes 클러스터
-* 온프레미스 ONTAP 클러스터
+* BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합
 * StorageGRID
 
 
 커넥터는 *_NOT_ * 다음 서비스에 필요합니다.
 
 * 디지털 자문업체
-* ONTAP 작업 환경을 위한 Amazon FSx 커넥터 가 작업 환경을 생성할 필요가 없는 경우, 볼륨 생성 및 관리, 데이터 복제, ONTAP용 FSx 를 데이터 감지 및 Cloud Sync 와 같은 NetApp 클라우드 서비스와 통합해야 합니다.
++
+거의 모든 경우에 Connector 없이 디지털 지갑에 라이센스를 추가할 수 있습니다.
+
++
+디지털 지갑에 라이센스를 추가하는 데 커넥터가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. 이 경우 Cloud Volumes ONTAP 시스템에 설치된 라이센스에서 데이터를 가져왔기 때문에 커넥터가 필요합니다.
+
+* ONTAP 작업 환경 생성을 위한 Amazon FSx
++
+Connector는 작업 환경을 생성하는 데 필요하지 않지만, 볼륨을 생성 및 관리하고 데이터를 복제하며 ONTAP용 FSx를 데이터 센스 및 Cloud Sync와 같은 NetApp 클라우드 서비스와 통합해야 합니다.
+
 * Azure NetApp Files
 +
 Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 않지만 클라우드 데이터 센스를 사용하여 Azure NetApp Files 데이터를 스캔하려면 커넥터가 필요합니다.
 
 * Google Cloud용 Cloud Volumes Service
 * Cloud Sync
+* 사내 ONTAP 클러스터를 직접 검색
++
+사내 ONTAP 클러스터를 직접 검색하는 데는 커넥터가 필요하지 않지만 추가 BlueXP 기능을 사용하려면 커넥터가 필요합니다.
+
++
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터를 위한 검색 및 관리 옵션에 대해 자세히 알아보십시오"^]
 
 
-
-
-=== 디지털 지갑
-
-거의 모든 경우에 Connector 없이 디지털 지갑에 라이센스를 추가할 수 있습니다.
-
-디지털 지갑에 라이센스를 추가하는 데 커넥터가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. 이 경우 Cloud Volumes ONTAP 시스템에 설치된 라이센스에서 데이터를 가져왔기 때문에 커넥터가 필요합니다.
 
 
 

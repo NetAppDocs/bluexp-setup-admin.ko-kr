@@ -153,11 +153,11 @@ AD 응용 프로그램 및 서비스 보안 주체를 만들었습니다.
 +
 image:screenshot_azure_shell_upload.png["파일을 업로드하는 옵션을 선택할 수 있는 Azure Cloud Shell의 스크린 샷"]
 
-*** 다음 Azure CLI 명령을 입력합니다.
+*** Azure CLI를 사용하여 사용자 지정 역할을 생성합니다.
 +
 [source, azurecli]
 ----
-az role definition create --role-definition Policy_for_Setup_As_Service_Azure.json
+az role definition create --role-definition Connector_Policy.json
 ----
 +
 이제 Connector 가상 머신에 할당할 수 있는 BlueXP Operator라는 사용자 지정 역할이 있어야 합니다.
