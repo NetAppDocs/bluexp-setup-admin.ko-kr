@@ -2455,7 +2455,6 @@
   <block id="a222de5f9a1db461954d4160797dfa76" category="sidebar">BlueXP 관리</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
-  <block id="0600a5fd997330da4629c9667c77df85" category="list-text">현재 Cloud Sync 및 클라우드 백업만 e-메일로 알림을 보냅니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
   <block id="36403db09ed916406c9f181948f4d246" category="paragraph">Connector는 AppTemplate Tagging 서비스를 사용할 때 Azure 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="e53322337eb6e5958408340612abf40d" category="list-text">Microsoft.Resources/resources/read</block>
   <block id="5d5a38f96b2eb95a1bae225c6959a21b" category="list-text">Microsoft.Resources/서브스크립션/운영 결과/읽기</block>
@@ -2830,4 +2829,5 @@
   <block id="ef67c5eab6f3bfee1596c3f8734a88c7" category="paragraph">사내 ONTAP 클러스터를 직접 검색하는 데는 커넥터가 필요하지 않지만 추가 BlueXP 기능을 사용하려면 커넥터가 필요합니다.</block>
   <block id="eec3baeb5aa60415324495790bc2f136" category="inline-link">온프레미스 ONTAP 클러스터를 위한 검색 및 관리 옵션에 대해 자세히 알아보십시오</block>
   <block id="7a5dd38f95e02bff17a0b6c794d9ce2b" category="paragraph"><block ref="7a5dd38f95e02bff17a0b6c794d9ce2b" category="inline-link-rx"></block></block>
+  <block id="82e02d499effaa5b28aba8ede321e414" category="list-text">현재 Cloud Sync, 클라우드 백업 및 랜섬웨어 보호만 이메일로 알림을 전송합니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
 </blocks>
