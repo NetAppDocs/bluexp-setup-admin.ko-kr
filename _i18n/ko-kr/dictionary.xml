@@ -189,10 +189,8 @@
   <block id="16c6fa81afb88d058842087a5734f874" category="list-text">자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 자격 증명 삭제 * 를 선택합니다.</block>
   <block id="e66ca765497b1a570afc1443e2e6de1b" category="list-text">확인하려면 * 삭제 * 를 클릭합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
-  <block id="55a16520d9c426fd88ba06b9313cc1a0" category="summary">초기 설정을 수행한 후 나중에 사용자, 서비스 계정, 작업 영역, 커넥터 및 구독을 관리하여 계정 설정을 관리할 수 있습니다.</block>
   <block id="e97f2d246afe934ce73e145389529b37" category="doc">NetApp 계정 관리</block>
   <block id="d4b56cbbe5ee118eb18ad55bfaaef1f5" category="inline-link-macro">초기 설정을 수행한 후</block>
-  <block id="5ca55a4446a62df5192547357ad6fb04" category="paragraph"><block ref="a7a3c89d37624da5130984f9aaffd146" category="inline-link-macro-rx"></block>, 나중에 사용자, 서비스 계정, 작업 영역, 커넥터 및 구독을 관리하여 계정 설정을 관리할 수 있습니다.</block>
   <block id="e3ba9a6d6bd7803ef5c067df61b7b06d" category="inline-link-macro">NetApp 계정의 작동 방식에 대해 자세히 알아보십시오</block>
   <block id="8ce9af11424a2d44b99a247ddc735a73" category="paragraph"><block ref="47a0acf8f17a3fbb1dd16df7e2126917" category="inline-link-macro-rx"></block>.</block>
   <block id="1b18a6ba342c7916f9ed427680d9d69c" category="section-title">Tenancy API로 계정 관리</block>
@@ -260,16 +258,10 @@
   <block id="9e704e76a760053c0baca32c96d9c6a3" category="list-text">커넥터 * 를 클릭합니다.</block>
   <block id="33e248648a845f8d6e538dfb02e4620f" category="list-text">연결하려는 Connector의 * 작업 영역 관리 * 를 클릭합니다.</block>
   <block id="cda68882da0fbacdfcd7b3b52e15c47f" category="list-text">커넥터와 연결할 작업 영역을 선택하고 * 적용 * 을 클릭합니다.</block>
-  <block id="95a0841b9a7d083d0e92b10bbb2d9538" category="section-title">구독 관리</block>
-  <block id="0dd6409072fddd7ebe4fbc13bf55f62e" category="paragraph">클라우드 공급자의 마켓플레이스에서 구독하면 계정 설정 위젯에서 각 구독을 사용할 수 있습니다. 구독의 이름을 바꾸고 하나 이상의 계정에서 구독을 연결 해제할 수 있습니다.</block>
   <block id="eb6dd0692058cd4edb3fb82f48db1f57" category="paragraph">예를 들어, 두 개의 계정이 있고 각각 별도의 구독을 통해 비용이 청구된다고 가정해 보겠습니다. Cloud Volume ONTAP 작업 환경을 생성할 때 해당 계정의 사용자가 실수로 잘못된 구독을 선택하지 않도록 계정 중 하나에서 구독을 연결 해제할 수 있습니다.</block>
-  <block id="4e33b7dde110d702aea770ac0e58ff70" category="inline-link-macro">구독에 대해 자세히 알아보십시오</block>
-  <block id="e60fd65ca245c4c248984b9d4277352e" category="list-text">구독 * 을 클릭합니다.</block>
   <block id="1422eb9c77ef6c74d6abe35beedc5d64" category="paragraph">현재 보고 있는 계정과 연결된 구독만 표시됩니다.</block>
   <block id="73da254ba1aec222348424b9442c52df" category="list-text">관리할 구독에 해당하는 행의 작업 메뉴를 클릭합니다.</block>
   <block id="1dea06c0cd8c3b77e4597670a860c155" category="inline-image-macro">구독에 대한 작업 메뉴 스크린샷</block>
-  <block id="c34b4a942868a996723a5a6be924703b" category="paragraph"><block ref="c34b4a942868a996723a5a6be924703b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="acc46a11f0719b1f8e8b77ecf282a60b" category="list-text">구독의 이름을 바꾸거나 구독과 연결된 계정을 관리하도록 선택합니다.</block>
   <block id="d99140e9dbce5900e2fc973e36296b03" category="section-title">계정 이름을 변경하는 중입니다</block>
   <block id="189ceeb6f6551a85e755c8abaeac5372" category="paragraph">언제든지 계정 이름을 변경하여 의미 있는 내용으로 바꿀 수 있습니다.</block>
   <block id="92301771e4680316275db3e93ac9036c" category="list-text">개요 * 탭에서 계정 이름 옆에 있는 편집 아이콘을 클릭합니다.</block>
@@ -974,7 +966,6 @@
   <block id="b5c1dbf300be5c998c2da388a4bae39b" category="paragraph">Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 다음과 같은 _inbound_ports를 사용합니다.</block>
   <block id="9fd4da59ae98e0088d69c210beb651b2" category="paragraph">이러한 인바운드 규칙은 인터넷 액세스 또는 인터넷 액세스 없이 설치된 온프레미스 커넥터의 두 배포 모델에 모두 적용됩니다.</block>
   <block id="329d19fc5afbf1e6e6b899cb6324212a" category="summary">Connector VM 인스턴스와 연결된 자격 증명을 관리할 수 있습니다.</block>
-  <block id="0b6a93a12e94b586f0634222ff996760" category="section-title">Marketplace 구독을 GCP 자격 증명과 연결합니다</block>
   <block id="fd5876417edb63f12f7c19c175309431" category="paragraph">언제든지 이러한 자격 증명과 연결된 마켓플레이스 구독을 변경할 수 있습니다. 구독을 통해 선불 종량제 Cloud Volumes ONTAP 시스템을 생성하고 다른 NetApp 클라우드 서비스를 사용할 수 있습니다.</block>
   <block id="ea765af20d763fe16d94ba9ef03fd31b" category="paragraph"><block ref="ea765af20d763fe16d94ba9ef03fd31b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3607221d62467c2e5249f8716b69616f" category="list-text">드롭다운 목록에서 Google Cloud 프로젝트 및 구독을 선택합니다.</block>
@@ -993,7 +984,6 @@
   <block id="ca4f48bdc60c2a16dd59109486af30ee" category="paragraph">이 단계에서는 전송 요청을 NetApp에 전송합니다.</block>
   <block id="e3d03a33db92a9024d72af3cae4684fd" category="inline-image-macro">등록 팝업 스크린샷.</block>
   <block id="6373a7d66fb33193565645f81635ec0c" category="paragraph"><block ref="6373a7d66fb33193565645f81635ec0c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1a6175a8e3e5614e22cf07d1d33b6ac8" category="paragraph">GCP 구독은 사용자 로그인과 연결된 모든 NetApp 계정에 연결됩니다.</block>
   <block id="f4c056c11ef2563cc898db48d406c84e" category="inline-image-macro">GCP 구독을 NetApp 계정에 매핑하는 스크린샷</block>
   <block id="2a085e42ac25547701a033cd0ebb75be" category="paragraph"><block ref="2a085e42ac25547701a033cd0ebb75be" category="inline-image-macro-rx" type="image"></block></block>
   <block id="467e5d6bbcd0ea531c8f7285b69e29ee" category="inline-image-macro">구독 할당 페이지의 스크린샷.</block>
@@ -1302,7 +1292,6 @@
   <block id="6dc6b060b761d145366b9ed041137917" category="sidebar">AWS 자격 증명 관리</block>
   <block id="c135c603177e58023474a65f829c0fd3" category="sidebar">Azure 자격 증명을 관리합니다</block>
   <block id="15f599d5c4282f662b38657a0b5c5739" category="sidebar">Google Cloud 자격 증명을 관리합니다</block>
-  <block id="09c202bf0add37d2a76b765c2e456516" category="paragraph"><block ref="461fdc6a79888d7d572f0fc87e6f595a" category="inline-link-macro-rx"></block>.</block>
   <block id="736683b36559de9a86788ab6e33c00d8" category="paragraph">SaaS 플랫폼을 사용하지 않도록 설정하는 경우 에서 모든 작업을 수행해야 합니다 <block ref="d248ae1d8e530aaf57663e2d920abe18" category="inline-link-macro-rx"></block>.</block>
   <block id="42719a12f66c2c272af903550dd96abe" category="paragraph"><block ref="3d5e26c44503b9c3759d0014c33a4b1a" category="inline-link-macro-rx"></block>.</block>
   <block id="cf1d9ac600892a9c03d7ebca3ca130cb" category="paragraph"><block ref="1a1e214f52d56e3240a2456ee3e051fc" category="inline-link-macro-rx"></block>.</block>
@@ -2329,12 +2318,10 @@
   <block id="7e1224e2fd0f204a7cd31b8672f1b63d" category="list-text">BlueXP에서 Connector VM 인스턴스를 시작할 수 있는 권한이 있는 Google 계정을 사용하여 Connector를 배포해야 합니다.</block>
   <block id="a7cc308b583002579bbc229d6f63001c" category="list-text">커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다<block ref="98f22f2dda0728ebb39af9a8fe826c8e" category="inline-link-rx"></block> VM 인스턴스의 경우. BlueXP는 서비스 계정에서 권한을 받아 사용자를 대신하여 Cloud Volumes ONTAP 시스템을 생성하고 관리합니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.</block>
   <block id="16f38628224f0a131edc6e33cc001598" category="doc">BlueXP용 Google Cloud 자격 증명 및 구독 관리</block>
-  <block id="b0fb7f98471ec678dbb2ee495f025477" category="paragraph">GCP에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. BlueXP에서 Cloud Volumes ONTAP를 배포하는 데 사용하는 자격 증명입니다.</block>
   <block id="7a0df3203d8f6522d2b39b5f4c38db03" category="admonition">다음 단계를 완료하기 전에 Google Cloud 계정과 BlueXP 로그인에 Billing Admin 권한이 모두 있는지 확인하십시오.</block>
   <block id="cdcf076c3fd3e62a3c7e3691d02894db" category="inline-link">Google Cloud 마켓플레이스의 NetApp BlueXP 페이지</block>
   <block id="b7e7a20500f8489bfa6b8a559c74a1d4" category="list-text">로 리디렉션된 후<block ref="d9d3d72c24d9b3446210d5b539c6bbf5" category="inline-link-rx"></block>상단 탐색 메뉴에서 올바른 프로젝트가 선택되어 있는지 확인합니다.</block>
   <block id="10e61096cba50402ef6cb31c1b17e8ae" category="list-text">팝업 대화 상자에서 * NetApp, Inc. * 등록 을 클릭하여 NetApp BlueXP 웹 사이트로 리디렉션합니다.</block>
-  <block id="d702a454ff12f6e62c26b9cc376bfe70" category="admonition">GCP 구독을 NetApp 계정에 연결하려면 이 단계를 완료해야 합니다. 이 페이지에서 리디렉션된 다음 BlueXP에 로그인할 때까지 가입 연결 프로세스가 완료되지 않습니다.</block>
   <block id="3654f8874077bf13f59590812bd85494" category="list-text">BlueXP로 리디렉션되면 로그인하거나 로그인한 다음 * 완료 * 를 클릭하여 계속 진행합니다.</block>
   <block id="4314e9e91f1c1e76df01e49490b3367e" category="inline-link">BlueXP 웹 사이트의 Cloud Volumes ONTAP 페이지</block>
   <block id="289bd5956a254b6fa364eac8856b1768" category="admonition">조직의 누군가가 청구 계정에서 NetApp BlueXP 구독을 이미 구독한 경우 으로 리디렉션됩니다<block ref="03328ba9e09d435ba77b020263fc11e5" category="inline-link-rx"></block> 대신 예기치 않은 상황인 경우 NetApp 세일즈 팀에 문의하십시오. Google은 Google 청구 계정당 하나의 가입만 활성화합니다.</block>
@@ -2842,4 +2829,10 @@
   <block id="8f3118254324aa503647a0f0a4cd34cc" category="list-text">Connector의 사용자 정의 역할을 선택합니다.</block>
   <block id="b0cd7667098b2a3439c52ba1f9334faa" category="inline-link">Google Cloud 설명서</block>
   <block id="ece59c09a5f78f29903e8e1daac67577" category="paragraph">자세한 내용은 을 참조하십시오<block ref="eb023f41fbcdd6f661c855770356f2dc" category="inline-link-rx"></block></block>
+  <block id="12106b63996e2c061ca66d31f3a9c50f" category="summary">초기 설정을 수행한 후 나중에 사용자, 서비스 계정, 작업 영역 및 커넥터를 관리하여 계정 설정을 관리할 수 있습니다.</block>
+  <block id="f8c69c794c16f5aeea65ba6150c5c239" category="paragraph"><block ref="a7a3c89d37624da5130984f9aaffd146" category="inline-link-macro-rx"></block>나중에 사용자, 서비스 계정, 작업 영역 및 커넥터를 관리하여 계정 설정을 관리할 수 있습니다.</block>
+  <block id="2dbb2a35f48f58340e040cb41a1d70b1" category="section-title">Google Cloud 자격 증명과 마켓플레이스 가입 연결</block>
+  <block id="72a31d53edf5989e236535eb541ee755" category="paragraph">Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. BlueXP에서 Cloud Volumes ONTAP를 배포하는 데 사용하는 자격 증명입니다.</block>
+  <block id="80d154feb16cf91b0edec06497c1ceaa" category="admonition">Google Cloud 구독을 NetApp 계정에 연결하려면 이 단계를 완료해야 합니다. 이 페이지에서 리디렉션된 다음 BlueXP에 로그인할 때까지 가입 연결 프로세스가 완료되지 않습니다.</block>
+  <block id="3ef651256a22c79667581299224bf5b3" category="paragraph">Google Cloud 구독은 사용자 로그인과 연결된 모든 NetApp 계정에 연결됩니다. 새 구독에 대한 액세스를 제한해야 하는 경우 Digital Wallet의 구독과 연결된 NetApp 계정을 관리할 수 있습니다. <block ref="b8248518be94d54d622f572d1d196b86" category="inline-link-macro-rx"></block>.</block>
 </blocks>

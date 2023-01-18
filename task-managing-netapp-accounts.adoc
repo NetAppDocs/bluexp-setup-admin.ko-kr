@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-managing-netapp-accounts.html 
 keywords: account settings, workspaces, Connector, account admin, workspace admin, users, associate, disassociate, add user, add users, user management, administer, user, management, member, remove user, remove users, remove, delete, account, user account, user accounts, add workspace, setup workspace, workspace, Connector, manage Connector, manage workspace, associate Connector, service account 
-summary: 초기 설정을 수행한 후 나중에 사용자, 서비스 계정, 작업 영역, 커넥터 및 구독을 관리하여 계정 설정을 관리할 수 있습니다. 
+summary: 초기 설정을 수행한 후 나중에 사용자, 서비스 계정, 작업 영역 및 커넥터를 관리하여 계정 설정을 관리할 수 있습니다. 
 ---
 = NetApp 계정 관리
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 초기 설정을 수행한 후 나중에 사용자, 서비스 계정, �
 
 
 [role="lead"]
-link:task-setting-up-netapp-accounts.html["초기 설정을 수행한 후"], 나중에 사용자, 서비스 계정, 작업 영역, 커넥터 및 구독을 관리하여 계정 설정을 관리할 수 있습니다.
+link:task-setting-up-netapp-accounts.html["초기 설정을 수행한 후"]나중에 사용자, 서비스 계정, 작업 영역 및 커넥터를 관리하여 계정 설정을 관리할 수 있습니다.
 
 link:concept-netapp-accounts.html["NetApp 계정의 작동 방식에 대해 자세히 알아보십시오"].
 
@@ -236,29 +236,6 @@ link:concept-netapp-accounts.html#users-workspaces-and-service-connectors["사�
 . 커넥터 * 를 클릭합니다.
 . 연결하려는 Connector의 * 작업 영역 관리 * 를 클릭합니다.
 . 커넥터와 연결할 작업 영역을 선택하고 * 적용 * 을 클릭합니다.
-
-
-
-
-== 구독 관리
-
-클라우드 공급자의 마켓플레이스에서 구독하면 계정 설정 위젯에서 각 구독을 사용할 수 있습니다. 구독의 이름을 바꾸고 하나 이상의 계정에서 구독을 연결 해제할 수 있습니다.
-
-예를 들어, 두 개의 계정이 있고 각각 별도의 구독을 통해 비용이 청구된다고 가정해 보겠습니다. Cloud Volume ONTAP 작업 환경을 생성할 때 해당 계정의 사용자가 실수로 잘못된 구독을 선택하지 않도록 계정 중 하나에서 구독을 연결 해제할 수 있습니다.
-
-link:concept-netapp-accounts.html#subscriptions["구독에 대해 자세히 알아보십시오"].
-
-.단계
-. BlueXP 상단에서 * 계정 * 드롭다운을 클릭하고 * 계정 관리 * 를 클릭합니다.
-. 구독 * 을 클릭합니다.
-+
-현재 보고 있는 계정과 연결된 구독만 표시됩니다.
-
-. 관리할 구독에 해당하는 행의 작업 메뉴를 클릭합니다.
-+
-image:screenshot_subscription_menu.gif["구독에 대한 작업 메뉴 스크린샷"]
-
-. 구독의 이름을 바꾸거나 구독과 연결된 계정을 관리하도록 선택합니다.
 
 
 
