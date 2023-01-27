@@ -43,6 +43,24 @@ NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있�
 
 
 | https://cloudmanagerinfraprod.azurecr.io \https://*.blob.core.windows.net 으로 문의하십시오 | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
+
+
+| https://<region> .amazonaws.com | 를 사용하여 AWS에서 리소스를 관리합니다. 
+
+
+| https://management.azure.com \https://login.microsoftonline.com 으로 문의하십시오 | Azure 공공 지역의 리소스를 관리합니다. 
+
+
+| https://management.usgovcloudapi.net \https://login.microsoftonline.us 으로 문의하십시오 | Azure Government 지역의 리소스를 관리합니다. 
+
+
+| /shtps://management.Azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud | Azure IL6 영역의 리소스를 관리합니다. 
+
+
+| https://management.chinacloudapi.cn \https://login.chinacloudapi.cn 으로 문의하십시오 | Azure 중국 지역의 리소스를 관리합니다. 
+
+
+| https://www.googleapis.com/compute/v1/\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects | Google Cloud에서 리소스를 관리합니다. 
 |===
 
 

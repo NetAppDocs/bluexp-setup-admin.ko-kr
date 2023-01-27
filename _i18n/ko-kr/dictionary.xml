@@ -859,11 +859,6 @@
   <block id="b809225d6fab27e3db8c3ac3e0a640c5" category="cell">https://netapp-cloud-account.auth0.com \https://cdn.auth0.com \https://services.cloud.netapp.com 를 참조하십시오</block>
   <block id="abc66ca669cfbd9be590874c67e8d7ef" category="cell">https://widget.intercom.io 으로 문의하십시오</block>
   <block id="30fe214f0e8ecaf9b895a0137cad8ce9" category="cell">제품 내에서 NetApp 클라우드 전문가와 상담할 수 있는 채팅을 제공합니다.</block>
-  <block id="0b83c97017787b7fdc5aaf31aaf0da59" category="inline-link-macro">로컬 UI를 사용하는 경우</block>
-  <block id="4c2345ba2614b91eb52d47835c18de63" category="paragraph">클라우드 공급자에 대한 연결에 따라 호스트에 할당된 프라이빗 IP 또는 공용 IP를 사용합니다.</block>
-  <block id="a106b753f18f3561086de4e9f0a06365" category="list-text">개인 IP는 VPN이 있고 가상 네트워크에 직접 액세스할 수 있는 경우에 작동합니다</block>
-  <block id="460ad81025c5e747a488e7ca0874eca7" category="list-text">공용 IP는 모든 네트워킹 시나리오에서 작동합니다</block>
-  <block id="bdaeab98be7ea04f74f8e3ab24e46ace" category="paragraph">두 경우 모두 보안 그룹 규칙이 승인된 IP 또는 서브넷에서만 액세스를 허용하여 네트워크 액세스를 보호합니다.</block>
   <block id="69ff128f810d7736dba17f0dc54a437f" category="list-text">커넥터의 아웃바운드 네트워킹</block>
   <block id="aad0acfa5f3eeed54fc96b5bafd12ca7" category="inline-link-macro">커넥터 및 커넥터 작동 방식에 대해 자세히 알아보십시오</block>
   <block id="9827c1dc4f901b9ac9340f0034c5a996" category="list-text">커넥터를 배포하는 네트워크 위치에 아웃바운드 인터넷 연결이 있어야 합니다.</block>
@@ -2796,8 +2791,6 @@
   <block id="e139aa454163ce195b3669d769c3f1c8" category="section-title">커넥터 3.9.25</block>
   <block id="ab010f0ae1d3cb2043f9513a1f81beea" category="paragraph">이 커넥터 릴리스에는 Cloud Volumes ONTAP 개선 사항 및 버그 수정 사항이 포함되어 있습니다.</block>
   <block id="826d1d89ec2a521e40a7a91c2ee8f024" category="paragraph"><block ref="826d1d89ec2a521e40a7a91c2ee8f024" category="inline-link-rx"></block></block>
-  <block id="c07581a9e3714e573075f510c11a8b05" category="cell">커넥터의 IP 주소입니다</block>
-  <block id="1c3a99b9cab6b55c9a46ccd58a1283c8" category="paragraph">대부분의 경우 SaaS UI에서 BlueXP를 사용해야 하지만 <block ref="9a2b10ef390e45d8a69a5a0f7a3a563a" category="inline-link-macro-rx"></block>그런 다음 웹 브라우저에서 호스트의 IP 주소를 입력해야 합니다.</block>
   <block id="c24732648af9b734203cc5a8a19f2537" category="paragraph">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다. SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다. 한편, 아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다.</block>
   <block id="31cd3194dbc40a48cdae969161abd4a5" category="list-text">설치가 완료되면 BlueXP에서 제공하는 서비스를 사용할 수 있습니다. 각 서비스에는 고유한 네트워킹 요구 사항이 있습니다. 자세한 내용은 다음 페이지를 참조하십시오.</block>
   <block id="9efb399c3a128a79f4671ff959339e79" category="list-text">Microsoft.Storage/storageAccounts/listAccountSas/action</block>
@@ -2835,4 +2828,31 @@
   <block id="72a31d53edf5989e236535eb541ee755" category="paragraph">Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. BlueXP에서 Cloud Volumes ONTAP를 배포하는 데 사용하는 자격 증명입니다.</block>
   <block id="80d154feb16cf91b0edec06497c1ceaa" category="admonition">Google Cloud 구독을 NetApp 계정에 연결하려면 이 단계를 완료해야 합니다. 이 페이지에서 리디렉션된 다음 BlueXP에 로그인할 때까지 가입 연결 프로세스가 완료되지 않습니다.</block>
   <block id="3ef651256a22c79667581299224bf5b3" category="paragraph">Google Cloud 구독은 사용자 로그인과 연결된 모든 NetApp 계정에 연결됩니다. 새 구독에 대한 액세스를 제한해야 하는 경우 Digital Wallet의 구독과 연결된 NetApp 계정을 관리할 수 있습니다. <block ref="b8248518be94d54d622f572d1d196b86" category="inline-link-macro-rx"></block>.</block>
+  <block id="cc328ccddf672987f092ca6f44c9f9cf" category="cell">https://management.azure.com \https://login.microsoftonline.com 으로 문의하십시오</block>
+  <block id="068395f3cd26ca40ad905de3790c9435" category="cell">Azure 공공 지역의 리소스를 관리합니다.</block>
+  <block id="6696e65cc873b2af9823ebafd2e332a8" category="cell">https://management.usgovcloudapi.net \https://login.microsoftonline.us 으로 문의하십시오</block>
+  <block id="61b99e46ccbb3b872a32fbf2f064b87b" category="cell">Azure Government 지역의 리소스를 관리합니다.</block>
+  <block id="2ef9710cab4f48c3bcc58dac5ab20752" category="cell">https://management.azure.microsoft.scloud \https://login.microsoftonline.microsoft.scloud 으로 문의하십시오</block>
+  <block id="8ec83edee8d0c8a3dd001c3d7e558479" category="cell">Azure IL6 영역의 리소스를 관리합니다.</block>
+  <block id="c9499afcd46d4343e88fb1acd8c931d8" category="cell">https://management.chinacloudapi.cn \https://login.chinacloudapi.cn 으로 문의하십시오</block>
+  <block id="232055d452a21264f8d549e50d695b18" category="cell">Azure 중국 지역의 리소스를 관리합니다.</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">클라우드 공급자 솔루션 지원</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXP에 통합한 다음 클라우드 제공업체 솔루션에 대한 기술 지원은 해당 제품에 대한 BlueXP 설명서의 "도움말 얻기"를 참조하십시오.</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="701741ae6d160ecd5058c2eefa334a6c" category="cell">https://&lt;region&gt; .amazonaws.com</block>
+  <block id="2452d1aef80214dacfb33f192b762434" category="cell">를 사용하여 AWS에서 리소스를 관리합니다.</block>
+  <block id="3933fdb8f34cb01278a72748377338a5" category="cell">https://www.googleapis.com/compute/v1/\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects</block>
+  <block id="d377a02fb22cec7bf850087d3c9a31fa" category="cell">Google Cloud에서 리소스를 관리합니다.</block>
+  <block id="4ce604ab4b6f3184f26713f30bde1bbe" category="cell">-cloudkms.cryptoKeys.get-cloudkms.cryptoKeys.getIamPolicy-cloudkms.cryptoKeys.list-cloudkms.cryptoKeys.setIamPolicy -cloudkms.keyRings.get-cloudkms.keyRings.getIamPolicy-cloudkms.keyRings.list-cloudkms.keyRings.setIamPolicy</block>
+  <block id="9e4edb2eed22d4c91a667b29567ee08d" category="cell">Google에서 관리하는 기본 암호화 키를 사용하는 대신 클라우드 백업 활성화 마법사에서 고객이 관리하는 키를 직접 선택할 수 있습니다.</block>
+  <block id="8988a38ba3aaf6cb48e549dc3babd50e" category="section-title">2023년 1월 27일</block>
+  <block id="6f3dd3aa6f04d6f98a881afe84a14828" category="paragraph">다음 권한이 정책에 추가되었습니다.</block>
+  <block id="d5b52c55f0ffe2752d39b0d85f9ad0ef" category="list-text">cloudkms.cryptoKeys.getIamPolicy를 참조하십시오</block>
+  <block id="631730c9e44e80f5f69e36901808bf98" category="list-text">cloudkms.cryptoKeys.setIamPolicy</block>
+  <block id="7d5beaedd0c93a11314ff6699a51454e" category="list-text">클라우드킬로미터.키링.GET</block>
+  <block id="9df83ab1f3ab5fb0d62768dd3ff406e6" category="list-text">cloudkms.keyRings.getIamPolicy를 참조하십시오</block>
+  <block id="e7456e97941e04b31434ba6dcce10d88" category="list-text">cloudkms.keyRings.setIamPolicy</block>
+  <block id="3705a469472bf9882aff3f58dc3f4c5b" category="cell">/shtps://management.Azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud</block>
 </blocks>
