@@ -622,7 +622,6 @@
   <block id="fdbdd6715cf2177c49f2aa51748944ad" category="paragraph">작업 영역 관리자가 이러한 커넥터를 사용하여 Cloud Volumes ONTAP 시스템을 만들 수 있도록 작업 영역과 커넥터를 연결해야 합니다.</block>
   <block id="211c1a963db0ec4433679bba9d1a1973" category="paragraph">이제 Workspace 관리자가 이러한 커넥터를 사용하여 Cloud Volumes ONTAP 시스템을 생성할 수 있습니다.</block>
   <block id="a85cd5dda897ee694c0a8a7ebe893293" category="inline-link-macro">계정을 관리하는 방법에 대해 알아보십시오</block>
-  <block id="e93366502d593964f54fa78a54256cef" category="paragraph">이제 계정을 설정했으므로 사용자 제거, 작업 영역, 커넥터 및 구독을 관리하여 언제든지 계정을 관리할 수 있습니다. <block ref="4b4f4de61b1c0103e06c096d3b330838" category="inline-link-macro-rx"></block>.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="e96bc5b1e40abf07ff070b96c65057db" category="doc">AWS Marketplace에서 Connector를 생성합니다</block>
   <block id="2d7f301de264581382e23e0ee22d9345" category="list-text">Amazon EC2 역할 유형으로 IAM 역할을 생성하고 이전 단계에서 생성한 정책을 역할에 연결합니다.</block>
@@ -816,8 +815,6 @@
   <block id="d78e63b2e43a582b35ba2f4c0eac45bd" category="inline-link">SaaS 사용자 인터페이스</block>
   <block id="1765f6ca29cc9e21e15e0348d66bfdca" category="inline-link-macro">로컬 UI에 액세스하는 방법을 알아보십시오</block>
   <block id="538fc0c04ce8a0ef5cf78a12dbe8f68a" category="section-title">커넥터 업그레이드</block>
-  <block id="d4150be963d8e8a8648985d057b82c98" category="summary">회사 정책에 따라 인터넷에 대한 모든 HTTP 통신에 프록시 서버를 사용해야 하는 경우 해당 HTTP 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
-  <block id="bfe172c64db091b2b40778626fd53667" category="doc">HTTP 프록시 서버를 사용하도록 Connector 구성</block>
   <block id="58dcadbd8de2066b4071d6ed4e0b4baf" category="section-title">Connector에서 프록시를 활성화합니다</block>
   <block id="a211e8f0d908dfd70d36364b3fbd91b0" category="paragraph">커넥터가 관리하는 프록시 서버(HA 중개자 포함)와 Cloud Volumes ONTAP 시스템을 사용하도록 커넥터를 구성하는 경우 모두 프록시 서버를 사용합니다.</block>
   <block id="3b7b9877611524faf200a074a681f3fc" category="paragraph">이 작업은 Connector를 다시 시작합니다. 계속하기 전에 커넥터가 어떠한 작업도 수행하지 않는지 확인하십시오.</block>
@@ -1146,7 +1143,6 @@
   <block id="14a3ec4432f577b0adffd0ed91b508cd" category="list-text">추가 구독에서 Cloud Volumes ONTAP를 배포하려면 해당 구독으로 전환한 다음 이 단계를 반복합니다.</block>
   <block id="8853b96c8dcf3d773756121a97f3874f" category="paragraph">예를 들어, 여러 사용자가 _worksaces_라는 격리된 환경에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다. 이러한 작업 영역은 다른 사용자가 공유하지 않는 한 표시되지 않습니다.</block>
   <block id="b2eef7b6d059839882bf88ec94098a7c" category="inline-image-macro">사용자, 작업 영역 및 커넥터를 관리할 수 있는 계정 관리 위젯을 보여 주는 스크린샷</block>
-  <block id="7fe2b3cad6e0fd3e01f58b23a9a48525" category="paragraph"><block ref="7fe2b3cad6e0fd3e01f58b23a9a48525" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3fc84828d29031ccb044fc851a791dd5" category="inline-link-macro">NetApp 계정 설정</block>
   <block id="72c3eeaa29779a60f2efe95a1c173302" category="paragraph">단계별 지침은 을 참조하십시오 <block ref="2e63be6a139b9c6424fb3c44b74add23" category="inline-link-macro-rx"></block>.</block>
   <block id="ff73074ccafb0bcfc1c49a09ceb6532f" category="section-title">계정 설정</block>
@@ -1158,19 +1154,11 @@
   <block id="e9b0a93b5b5cd95f3a2c544875c51ae3" category="inline-link-macro">이러한 역할에 대해 자세히 알아보십시오</block>
   <block id="7895b348f81fb8e1118370d6314dfb51" category="paragraph"><block ref="a7cac0974b1a57b009ba128474746390" category="inline-link-macro-rx"></block>.</block>
   <block id="d5e92609cf510f5f97ac326e907a0540" category="section-title">작업 공간</block>
-  <block id="60d3dd11504adc56b8a14c980bdd5d7e" category="paragraph">작업 환경은 스토리지 시스템을 나타냅니다.</block>
-  <block id="6d62e44bd211e57c0032e46d82290592" category="list-text">단일 노드 Cloud Volumes ONTAP 시스템 또는 HA 쌍</block>
-  <block id="77a4ac7460b467c67ece8cfb55ed209d" category="list-text">네트워크의 온-프레미스 ONTAP 클러스터</block>
-  <block id="5e916b8b38543efb8ef5bc8e670d1215" category="list-text">NetApp 프라이빗 스토리지 구성의 ONTAP 클러스터</block>
   <block id="db0bbabf83c6d4f2a7e710c9d223191c" category="inline-link-macro">작업 영역을 추가하는 방법에 대해 알아봅니다</block>
   <block id="ced2d945d98014d4467b685b8314caa1" category="paragraph"><block ref="5fada74255cc5bbf99ee00eda10403ac" category="inline-link-macro-rx"></block>.</block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link-macro">커넥터에 대해 자세히 알아보십시오</block>
   <block id="75599088791b92751fdc2c9cee3a481e" category="paragraph"><block ref="c5bcec7879e3189e4c7a5fdbd8b19a5b" category="inline-link-macro-rx"></block>.</block>
   <block id="4ca2c509994c2776d0880357b4e8e5be" category="section-title">구독</block>
-  <block id="eb7609cbad4b54a1269927272d7ddf53" category="paragraph">선택한 계정과 연결된 NetApp 구독입니다.</block>
-  <block id="93568a1c17a387012558e910c14e7060" category="paragraph">구독한 후에는 계정 관리 위젯에서 각 구독을 사용할 수 있습니다. 현재 보고 있는 계정과 연결된 구독만 표시됩니다.</block>
-  <block id="bda4907cd89656b2bda837a282994221" category="paragraph">구독의 이름을 바꾸고 하나 이상의 계정에서 구독을 연결 해제할 수 있습니다.</block>
-  <block id="3bdc84428bee979e77f1781f40304f42" category="inline-link-macro">서브스크립션 관리 방법에 대해 알아보십시오</block>
   <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">예</block>
   <block id="6643fe16b29885768bd30191d9673e3e" category="paragraph">다음 예에서는 계정을 설정하는 방법을 보여 줍니다.</block>
   <block id="5035e448f1f49334cb738cddfa38f051" category="admonition">이어지는 두 예제 이미지 모두에서 Connector와 Cloud Volumes ONTAP 시스템은 실제로 클라우드 공급자에서 실행 중인 _ in _ 에 상주하지 않습니다. 각 구성 요소 간의 관계를 개념적으로 나타낸 것입니다.</block>
@@ -1293,7 +1281,6 @@
   <block id="0992dccda336100add15ce23fc9702f3" category="list-text"><block ref="0992dccda336100add15ce23fc9702f3" category="inline-link-rx"></block></block>
   <block id="3439d2a50956809b2cccde2f89685ce6" category="list-text"><block ref="3439d2a50956809b2cccde2f89685ce6" category="inline-link-rx"></block></block>
   <block id="fad43b5fbcb08d889da84d61cf2ea0e8" category="list-text"><block ref="fad43b5fbcb08d889da84d61cf2ea0e8" category="inline-link-rx"></block></block>
-  <block id="a37da40b1cf1ce86308b603dbc497d9d" category="paragraph"><block ref="443587ef67dfdb72c89535a3fb85e4c4" category="inline-link-macro-rx"></block>.</block>
   <block id="de60a486c1b92dffa7eb55af0b1c8bb0" category="paragraph">AWS 자격 증명을 추가하는 방법에는 두 가지가 있습니다.</block>
   <block id="1e0ffea311b606e155cd79847cc310dd" category="list-text">IAM 역할 또는 IAM 사용자에 정책을 연결합니다.</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -1788,7 +1775,6 @@
   <block id="5f174caa182ccf4eda7018d2ae4ed7a0" category="section-title">AutoSupport 메시지의 포트 3128을 엽니다</block>
   <block id="5fc25795a93f92bfee952eef3220d9e5" category="paragraph">유일한 요구 사항은 커넥터의 보안 그룹이 포트 3128을 통한 _IN인바운드_연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.</block>
   <block id="489db3f339b691ea4dea5f4572483024" category="paragraph">Cloud Volumes ONTAP의 기본 보안 그룹을 사용하는 경우 보안 그룹을 변경할 필요가 없습니다. 그러나 Cloud Volumes ONTAP에 대해 엄격한 아웃바운드 규칙을 정의할 계획이라면 Cloud Volumes ONTAP 보안 그룹이 포트 3128을 통한 _outbound_connection을 허용하는지 확인해야 합니다.</block>
-  <block id="117e86e552d0c131628c9b59f4f27b24" category="paragraph">회사 정책에 따라 인터넷에 대한 모든 HTTP 통신에 프록시 서버를 사용해야 하는 경우 HTTP 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
   <block id="cd5948a5853fc000f635c34407e9be0e" category="paragraph">HTTP 프록시 서버를 사용하도록 Connector를 구성하면 공용 IP 주소 또는 NAT 게이트웨이를 사용할 수 없는 경우 아웃바운드 인터넷 액세스를 제공합니다. 이 프록시 서버는 아웃바운드 연결이 있는 커넥터만 제공합니다. Cloud Volumes ONTAP 시스템에 대한 연결은 제공하지 않습니다.</block>
   <block id="6d222908a201e6b65bf048113504f4c1" category="inline-xref">Connector의 프록시 서버에 대해 자세히 알아보십시오</block>
   <block id="379c1280ecc325be9f0d74d095f55ae9" category="cell">Cloud Volumes ONTAP에서 인터넷에 액세스하여 AutoSupport 메시지를 NetApp 지원으로 보냅니다. 배포 후에는 이 포트를 수동으로 열어야 합니다. <block ref="9a4dd6e745bb9c3853507bba2251a2cd" category="inline-xref-macro-rx"></block>.</block>
@@ -2024,16 +2010,11 @@
   <block id="5c003b7f397067f0fc40909f87cde11b" category="paragraph">a_NetApp account_는 멀티 테넌시를 제공하고 BlueXP 내에서 격리된 작업 공간에 사용자와 리소스를 구성할 수 있도록 합니다.</block>
   <block id="c08e0acfb414367415c038345e4c0ad8" category="paragraph">BlueXP에 처음 액세스할 때 NetApp 계정을 선택하거나 생성하라는 메시지가 표시됩니다.</block>
   <block id="ca3dd06e715b50b0d24512292f803669" category="inline-image-macro">BlueXP를 생성하려는 NetApp 계정을 묻는 BlueXP 설치 마법사 스크린샷</block>
-  <block id="5b0ceafe4cf4db53492676845d2b61bb" category="paragraph"><block ref="5b0ceafe4cf4db53492676845d2b61bb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4fdee13cfdebdc3f01deb5ca5f67934f" category="paragraph">그런 다음 BlueXP 계정 관리자는 사용자(구성원), 작업 영역, 커넥터 및 구독을 관리하여 이 계정의 설정을 수정할 수 있습니다.</block>
-  <block id="477ca1b4f458cf89a95d6b523a6cd807" category="paragraph">BlueXP의 계정 관리 위젯을 통해 계정 관리자가 NetApp 계정을 관리할 수 있습니다. 방금 계정을 만든 경우 처음부터 다시 시작할 수 있습니다. 그러나 이미 계정을 설정한 경우에는 계정과 연결된 사용자, 작업 영역, 커넥터 및 구독이 _ALL_으로 표시됩니다.</block>
   <block id="017ed1bc01073c81677d981001613c16" category="paragraph">개요 페이지에는 계정 이름과 계정 ID가 표시됩니다. 일부 서비스를 등록할 때 계정 ID를 제공해야 할 수 있습니다. 이 페이지에는 일부 BlueXP 구성 옵션도 포함되어 있습니다.</block>
   <block id="099685cfc1eb5331aeaaf96dd8dcc45c" category="paragraph">회원은 NetApp 계정과 연결된 BlueXP 사용자입니다. 사용자와 계정 및 해당 계정의 하나 이상의 작업 영역을 연결하면 해당 사용자가 BlueXP에서 작업 환경을 만들고 관리할 수 있습니다.</block>
   <block id="d8b443dec47ef3fe29b32e2c5b56a6ec" category="list-text">_계정 관리자_: BlueXP에서 모든 작업을 수행할 수 있습니다.</block>
   <block id="8322c371977d0ed96075b5448c122826" category="paragraph">BlueXP에서 작업 영역은 다른 작업 환경에서 _ 작업 환경 _ 을(를) 격리합니다. 계정 관리자가 해당 작업 영역에 관리자를 연결해야만 작업 영역 관리자가 작업 영역의 작업 환경에 액세스할 수 있습니다.</block>
   <block id="dfb1d6b546a58e94444916141dd6a141" category="paragraph">BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. Connector는 클라우드 공급업체에 구축하는 가상 머신 인스턴스 또는 구성한 온프레미스 호스트에서 실행됩니다.</block>
-  <block id="f2e48283adc0e8071ea35676528cd30b" category="paragraph">Connector를 두 개 이상의 NetApp 클라우드 데이터 서비스와 함께 사용할 수 있습니다. 예를 들어, 이미 Connector for BlueXP가 있는 경우 Cloud Tiering 서비스를 설정할 때 선택할 수 있습니다.</block>
-  <block id="56d806d8894cb6f15ba1fb66e66b3cf3" category="paragraph">클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다.</block>
   <block id="1dfe6f08cb8e712d8c99300a0890f211" category="paragraph">다음 예에서는 두 개의 개별 NetApp 계정을 사용하여 가장 높은 수준의 멀티 테넌시를 보여 줍니다. 예를 들어, 서비스 제공업체는 한 계정에서 BlueXP를 사용하여 고객에게 서비스를 제공하는 한편 다른 계정을 사용하여 해당 사업부 중 하나의 재해 복구를 제공할 수 있습니다.</block>
   <block id="55553d1b65f45713caedcf9f0b1a6042" category="doc">BlueXP에 로그인합니다</block>
   <block id="7f7cb82a5dd812c3a52b46966d21ac40" category="paragraph">BlueXP는 SaaS 기반 사용자 인터페이스를 통해 웹 브라우저에서 액세스할 수 있습니다.</block>
@@ -2084,7 +2065,6 @@
   <block id="5646658d58bb92ba775a6c2cd024ef17" category="paragraph">네트워크에 이러한 범위 중 하나로 구성된 서브넷이 있는 경우 BlueXP에서 연결 오류가 발생할 수 있습니다. 예를 들어, BlueXP에서 온프레미스 ONTAP 클러스터를 검색하지 못할 수 있습니다.</block>
   <block id="4195cd5f5be4f9f1f03edcb9e48c9b07" category="inline-link-macro">BlueXP 커넥터 IP가 기존 네트워크와 충돌합니다</block>
   <block id="290b978e42f71f7d091ff656795a223e" category="paragraph">기술 자료 문서를 참조하십시오 <block ref="ec3dc3610ab92c8939c1af12267841a7" category="inline-link-macro-rx"></block> 커넥터 인터페이스의 IP 주소를 변경하는 방법에 대한 지침은 을 참조하십시오.</block>
-  <block id="2b82837bf5cef64e65d0df717eafd918" category="paragraph">BlueXP는 커넥터에서 HTTPS 프록시 사용을 지원하지 않습니다.</block>
   <block id="5f06d23f83d6190c4d06ff980526b619" category="paragraph">BlueXP는 SSL 암호 해독이 활성화된 방화벽 구성을 지원하지 않습니다. SSL 암호 해독이 활성화된 경우 오류 메시지가 BlueXP에 나타나고 Connector 인스턴스가 비활성으로 표시됩니다.</block>
   <block id="ad031591b605d8cc8b0bf802ff591d40" category="paragraph">AWS GovCloud 지역, Azure Gov 지역 또는 Azure DoD 지역에 커넥터를 배포하는 경우, 커넥터의 호스트 IP 주소를 통해서만 BlueXP에 액세스할 수 있습니다. 전체 계정에 대해 SaaS 플랫폼에 대한 액세스가 비활성화되었습니다.</block>
   <block id="0eecc61a1a6e481db1e7242f1c8c6009" category="paragraph">즉, 최종 사용자 내부 VPC/VNET에 액세스할 수 있는 권한이 있는 사용자만 BlueXP의 UI 또는 API를 사용할 수 있습니다.</block>
@@ -2855,4 +2835,17 @@
   <block id="9df83ab1f3ab5fb0d62768dd3ff406e6" category="list-text">cloudkms.keyRings.getIamPolicy를 참조하십시오</block>
   <block id="e7456e97941e04b31434ba6dcce10d88" category="list-text">cloudkms.keyRings.setIamPolicy</block>
   <block id="3705a469472bf9882aff3f58dc3f4c5b" category="cell">/shtps://management.Azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud</block>
+  <block id="0a72a5335f5b852604ea0ad0c2fe10e1" category="paragraph">이제 계정을 설정했으므로 사용자 제거, 작업 영역 관리 및 커넥터 관리를 통해 언제든지 계정을 관리할 수 있습니다. <block ref="4b4f4de61b1c0103e06c096d3b330838" category="inline-link-macro-rx"></block>.</block>
+  <block id="86159ef2c579fd643503396dca6f3885" category="paragraph"><block ref="86159ef2c579fd643503396dca6f3885" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1403ef0f8512715bcf44602da2445c6a" category="paragraph">그런 다음 BlueXP 계정 관리자는 사용자(구성원), 작업 영역 및 커넥터를 관리하여 이 계정의 설정을 수정할 수 있습니다.</block>
+  <block id="8cdce640828eda5cb8aadf745fb4ab7b" category="paragraph"><block ref="8cdce640828eda5cb8aadf745fb4ab7b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10ae1ddc891d1002b557009f269a5987" category="paragraph">BlueXP의 계정 관리 위젯을 통해 계정 관리자가 NetApp 계정을 관리할 수 있습니다. 방금 계정을 만든 경우 처음부터 다시 시작할 수 있습니다. 그러나 이미 계정을 설정한 경우에는 계정과 연결된 사용자, 작업 영역 및 커넥터가 _ALL_으로 표시됩니다.</block>
+  <block id="dcc399fb58d401bf940e5d9de0f0387a" category="paragraph">작업 환경은 스토리지 시스템을 나타냅니다. 예를 들면 다음과 같습니다.</block>
+  <block id="a340186ec1e6c164285cf5a71abe8c4c" category="list-text">Cloud Volumes ONTAP 시스템</block>
+  <block id="e64a5009263178a9824652eb7624d300" category="list-text">사내 ONTAP 클러스터</block>
+  <block id="46f3c2b17cd41da44d4022428c48ec74" category="list-text">Kubernetes 클러스터</block>
+  <block id="aa2a9593bd535a1923acb9053fd7788b" category="paragraph">Connector를 두 개 이상의 NetApp 클라우드 데이터 서비스와 함께 사용할 수 있습니다. 예를 들어, Connector를 사용하여 Cloud Volumes ONTAP를 관리하는 경우 Cloud Tiering과 같은 다른 서비스와 동일한 Connector를 사용할 수 있습니다.</block>
+  <block id="a046fbde0a8e04968445555624e37a69" category="summary">회사 정책에 따라 인터넷에 대한 모든 통신에 프록시 서버를 사용해야 하는 경우 해당 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 설치하는 동안 프록시 서버를 사용하도록 Connector를 구성하지 않은 경우 언제든지 해당 프록시 서버를 사용하도록 Connector를 구성할 수 있습니다.</block>
+  <block id="07fe9439c5f6159dd126f0b5ad5b0282" category="doc">HTTP 프록시 서버를 사용하도록 Connector를 구성합니다</block>
+  <block id="231f168c8922afc18c96c3ab2866fb77" category="paragraph">BlueXP는 사용자 인터페이스에서 HTTP 프록시 서버 구성을 지원합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
 </blocks>

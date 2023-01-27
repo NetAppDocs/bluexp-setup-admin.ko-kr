@@ -20,11 +20,11 @@ a_NetApp account_는 멀티 테넌시를 제공하고 BlueXP 내에서 격리된
 
 BlueXP에 처음 액세스할 때 NetApp 계정을 선택하거나 생성하라는 메시지가 표시됩니다.
 
-image:screenshot_account_selection.gif["BlueXP를 생성하려는 NetApp 계정을 묻는 BlueXP 설치 마법사 스크린샷"]
+image:screenshot-account-selection.png["BlueXP를 생성하려는 NetApp 계정을 묻는 BlueXP 설치 마법사 스크린샷"]
 
-그런 다음 BlueXP 계정 관리자는 사용자(구성원), 작업 영역, 커넥터 및 구독을 관리하여 이 계정의 설정을 수정할 수 있습니다.
+그런 다음 BlueXP 계정 관리자는 사용자(구성원), 작업 영역 및 커넥터를 관리하여 이 계정의 설정을 수정할 수 있습니다.
 
-image:screenshot_account_settings.gif["사용자, 작업 영역 및 커넥터를 관리할 수 있는 계정 관리 위젯을 보여 주는 스크린샷"]
+image:screenshot-account-settings.png["사용자, 작업 영역 및 커넥터를 관리할 수 있는 계정 관리 위젯을 보여 주는 스크린샷"]
 
 단계별 지침은 을 참조하십시오 link:task-setting-up-netapp-accounts.html["NetApp 계정 설정"].
 
@@ -32,7 +32,7 @@ image:screenshot_account_settings.gif["사용자, 작업 영역 및 커넥터를
 
 == 계정 설정
 
-BlueXP의 계정 관리 위젯을 통해 계정 관리자가 NetApp 계정을 관리할 수 있습니다. 방금 계정을 만든 경우 처음부터 다시 시작할 수 있습니다. 그러나 이미 계정을 설정한 경우에는 계정과 연결된 사용자, 작업 영역, 커넥터 및 구독이 _ALL_으로 표시됩니다.
+BlueXP의 계정 관리 위젯을 통해 계정 관리자가 NetApp 계정을 관리할 수 있습니다. 방금 계정을 만든 경우 처음부터 다시 시작할 수 있습니다. 그러나 이미 계정을 설정한 경우에는 계정과 연결된 사용자, 작업 영역 및 커넥터가 _ALL_으로 표시됩니다.
 
 
 
@@ -62,11 +62,11 @@ link:reference-user-roles.html["이러한 역할에 대해 자세히 알아보�
 
 BlueXP에서 작업 영역은 다른 작업 환경에서 _ 작업 환경 _ 을(를) 격리합니다. 계정 관리자가 해당 작업 영역에 관리자를 연결해야만 작업 영역 관리자가 작업 영역의 작업 환경에 액세스할 수 있습니다.
 
-작업 환경은 스토리지 시스템을 나타냅니다.
+작업 환경은 스토리지 시스템을 나타냅니다. 예를 들면 다음과 같습니다.
 
-* 단일 노드 Cloud Volumes ONTAP 시스템 또는 HA 쌍
-* 네트워크의 온-프레미스 ONTAP 클러스터
-* NetApp 프라이빗 스토리지 구성의 ONTAP 클러스터
+* Cloud Volumes ONTAP 시스템
+* 사내 ONTAP 클러스터
+* Kubernetes 클러스터
 
 
 link:task-setting-up-netapp-accounts.html["작업 영역을 추가하는 방법에 대해 알아봅니다"].
@@ -77,25 +77,9 @@ link:task-setting-up-netapp-accounts.html["작업 영역을 추가하는 방법�
 
 BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. Connector는 클라우드 공급업체에 구축하는 가상 머신 인스턴스 또는 구성한 온프레미스 호스트에서 실행됩니다.
 
-Connector를 두 개 이상의 NetApp 클라우드 데이터 서비스와 함께 사용할 수 있습니다. 예를 들어, 이미 Connector for BlueXP가 있는 경우 Cloud Tiering 서비스를 설정할 때 선택할 수 있습니다.
+Connector를 두 개 이상의 NetApp 클라우드 데이터 서비스와 함께 사용할 수 있습니다. 예를 들어, Connector를 사용하여 Cloud Volumes ONTAP를 관리하는 경우 Cloud Tiering과 같은 다른 서비스와 동일한 Connector를 사용할 수 있습니다.
 
 link:concept-connectors.html["커넥터에 대해 자세히 알아보십시오"].
-
-
-
-== 구독
-
-선택한 계정과 연결된 NetApp 구독입니다.
-
-클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다.
-
-구독한 후에는 계정 관리 위젯에서 각 구독을 사용할 수 있습니다. 현재 보고 있는 계정과 연결된 구독만 표시됩니다.
-
-구독의 이름을 바꾸고 하나 이상의 계정에서 구독을 연결 해제할 수 있습니다.
-
-예를 들어, 두 개의 계정이 있고 각각 별도의 구독을 통해 비용이 청구된다고 가정해 보겠습니다. Cloud Volume ONTAP 작업 환경을 생성할 때 해당 계정의 사용자가 실수로 잘못된 구독을 선택하지 않도록 계정 중 하나에서 구독을 연결 해제할 수 있습니다.
-
-link:task-managing-netapp-accounts.html#managing-subscriptions["서브스크립션 관리 방법에 대해 알아보십시오"].
 
 
 
