@@ -2848,4 +2848,5 @@
   <block id="a046fbde0a8e04968445555624e37a69" category="summary">회사 정책에 따라 인터넷에 대한 모든 통신에 프록시 서버를 사용해야 하는 경우 해당 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 설치하는 동안 프록시 서버를 사용하도록 Connector를 구성하지 않은 경우 언제든지 해당 프록시 서버를 사용하도록 Connector를 구성할 수 있습니다.</block>
   <block id="07fe9439c5f6159dd126f0b5ad5b0282" category="doc">HTTP 프록시 서버를 사용하도록 Connector를 구성합니다</block>
   <block id="231f168c8922afc18c96c3ab2866fb77" category="paragraph">BlueXP는 사용자 인터페이스에서 HTTP 프록시 서버 구성을 지원합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
+  <block id="adff0cc7ebdc35c0671c2e9adb29cd98" category="paragraph">SaaS 플랫폼이 비활성화된 경우 정부 지역에서는 Cloud Backup이 지원되지만, SaaS 플랫폼이 비활성화된 경우에는 상업 지역에서는 지원되지 않습니다</block>
 </blocks>
