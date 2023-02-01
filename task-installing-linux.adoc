@@ -88,7 +88,7 @@ Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버�
 
 .필요한 것
 * 커넥터를 설치할 수 있는 루트 권한
-* Connector의 인터넷 액세스에 프록시가 필요한 경우 프록시 서버에 대한 세부 정보입니다.
+* Connector의 인터넷 액세스에 프록시가 필요한 경우 프록시 서버에 대한 세부 정보입니다. HTTP 및 HTTPS가 지원됩니다.
 +
 설치 후 프록시 서버를 구성할 수 있지만 이렇게 하려면 커넥터를 다시 시작해야 합니다.
 
@@ -110,6 +110,16 @@ awscli 설치에 실패했다는 메시지가 표시되면 메시지를 무시�
 ----
 sudo systemctl enable docker && sudo systemctl start docker
 ----
+. _http_proxy_or_https_proxy_system 변수가 호스트에 설정되어 있으면 이를 제거합니다.
++
+[source, cli]
+----
+unset http_proxy
+unset https_proxy
+----
++
+이러한 시스템 변수를 제거하지 않으면 설치가 실패합니다.
+
 . 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]를 선택한 다음 Linux 호스트에 복사합니다.
 +
 네트워크 또는 클라우드에서 사용할 커넥터 설치 프로그램을 다운로드해야 합니다.
