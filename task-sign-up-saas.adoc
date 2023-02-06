@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: task-sign-up-saas.html 
+keywords: sign up, signing up, sign in, signing in, login with netapp, log in with netapp, create account, account 
+summary: BlueXP를 시작할 때 첫 번째 단계는 등록하는 것입니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다. 
+---
+= BlueXP에 등록하십시오
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP를 시작할 때 첫 번째 단계는 등록하는 것입니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다.
+
+.정부 지역에 대한 참고 사항
+정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 BlueXP에 액세스해야 하는 경우 커넥터를 생성하고 Connector에서 로컬로 실행되는 BlueXP 사용자 인터페이스에 로그인해야 합니다. link:task-managing-connectors.html#access-the-local-ui["Connector에서 로컬 UI에 액세스하는 방법에 대해 알아봅니다"].
+
+.등록 옵션
+BlueXP는 SaaS 기반 사용자 인터페이스를 통해 웹 브라우저에서 액세스할 수 있습니다.
+
+다음 옵션 중 하나를 사용하여 BlueXP에 등록할 수 있습니다.
+
+* 기존 NetApp Support 사이트(NSS) 자격 증명
+* 이메일 주소와 암호를 지정하여 NetApp 클라우드 로그인입니다
+
+
+두 옵션 모두 통합 연결을 지원하므로 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 단일 사인온이 가능합니다. 등록 후 에서 통합 연결을 설정할 수 있습니다 https://cloud.netapp.com/help-center["BlueXP 도움말 센터"^] Cloud Central 로그인 옵션 * 을 선택합니다.
+
+.단계
+. 웹 브라우저를 열고 로 이동합니다 https://console.bluexp.netapp.com["BlueXP 콘솔"^]
+. 로그인 * 페이지에서 * 가입 * 을 선택합니다.
++
+
+TIP: 기존 NSS 자격 증명을 사용하려는 경우 등록 페이지를 건너뛰고 로그인 페이지에 직접 이메일 주소를 입력할 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.
+
+. 등록 * 페이지에서 로그인 옵션 중 하나를 선택합니다.
++
+** 기존 NetApp Support 사이트(NSS) 계정이 있는 경우 * NetApp Support 사이트 자격 증명으로 등록 * 을 선택합니다.
++
+이 옵션을 사용하면 NetApp Support 사이트(NSS) 자격 증명이 지원 대시보드의 BlueXP에 추가되지 않습니다. link:task-adding-nss-accounts.html["NSS 자격 증명을 지원 대시보드에 추가하여 주요 워크플로를 활성화하는 방법에 대해 알아봅니다"].
+
+** NSS 계정이 없고 NetApp 클라우드 자격 증명을 생성하지 않은 경우 NetApp 클라우드 로그인을 생성하는 데 필요한 정보를 입력하십시오.
++
+등록 양식에는 영어 문자만 사용할 수 있습니다.
+
+
+
+. 메시지가 표시되면 최종 사용자 사용권 계약을 검토하고 약관에 동의합니다.
+. 시작 * 페이지에서 계정 이름을 입력합니다.
++
+회사에 이미 계정이 있는 경우 이 단계를 건너뛰고 소유자에게 계정을 연계하도록 요청해야 합니다. 소유자가 사용자를 추가한 후 로그인하면 해당 계정에 액세스할 수 있습니다. link:task-managing-netapp-accounts.html#adding-users["기존 계정에 구성원을 추가하는 방법에 대해 알아봅니다"].
+
++
+계정은 NetApp의 ID 플랫폼에서 최상위 요소입니다. 사용자, 역할, 사용 권한 및 작업 환경을 추가하고 관리할 수 있습니다.
+
++
+image:screenshot-account-selection.png["계정에 속하지 않는 새 계정으로 로그인할 때 나타나는 시작 페이지의 스크린 샷"]
+
+. 계정 만들기 * 를 선택합니다.
+
+
+.결과
+이제 BlueXP 로그인 및 계정이 있습니다. 대부분의 경우 다음 단계는 BlueXP의 서비스를 하이브리드 클라우드 환경에 연결하는 Connector를 만드는 것입니다.

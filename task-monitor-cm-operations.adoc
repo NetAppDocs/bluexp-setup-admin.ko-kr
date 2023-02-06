@@ -98,7 +98,7 @@ image:screenshot_notification_filters.png["알림 센터에서 사용할 수 있
 
 [NOTE]
 ====
-* 현재 Cloud Sync, 클라우드 백업 및 랜섬웨어 보호만 이메일로 알림을 전송합니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.
+* 현재, Connectors, Cloud Sync, 클라우드 백업 및 랜섬웨어 차단 과 같은 BlueXP 기능 및 서비스에 대한 알림은 이메일로 전송됩니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.
 * Connector가 인터넷에 연결되지 않은 사이트에 설치되어 있으면 이메일 알림 전송이 지원되지 않습니다.
 
 
@@ -143,7 +143,7 @@ image:screenshot-add-email-recipient.png["경고와 알림에 대한 새 전자 
 
 더 이상 알림을 볼 필요가 없는 경우 페이지에서 알림을 제거할 수 있습니다. 모든 알림을 한 번에 해제하거나 개별 알림을 해제할 수 있습니다.
 
-모든 알림을 해제하려면 알림 센터에서 을 클릭합니다 image:button_3_vert_dots.png[""] 를 선택하고 * 모두 해제 * 를 선택합니다.image:screenshot_notification_menu.png["설정을 선택하고 모든 옵션을 해제할 수 있는 알림 메뉴가 표시된 스크린샷"]
+모든 알림을 해제하려면 알림 센터에서 을 클릭합니다 image:button_3_vert_dots.png["세 개의 세로 점이 있는 아이콘"] 를 선택하고 * 모두 해제 * 를 선택합니다.image:screenshot_notification_menu.png["설정을 선택하고 모든 옵션을 해제할 수 있는 알림 메뉴가 표시된 스크린샷"]
 
 개별 알림을 해제하려면 알림 위에 커서를 놓고 * Dismiss * 를 클릭합니다.image:screenshot_notification_dismiss1.png["단일 알림을 닫는 방법을 보여 주는 스크린샷"]
 

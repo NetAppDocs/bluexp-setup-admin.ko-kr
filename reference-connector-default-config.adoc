@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-connector-default-config.html 
 keywords: linux, user name, operating system, installation files, installation folder, folder, log, logs, service, mysql, packages, linux 
-summary: 커넥터 문제를 해결해야 하는 경우 커넥터 구성 방법을 이해하는 데 도움이 될 수 있습니다. 
+summary: Connector를 배포하기 전에 또는 문제를 해결해야 하는 경우에 대해 자세히 알아볼 수 있습니다. 
 ---
 = Connector의 기본 설정
 :hardbreaks:

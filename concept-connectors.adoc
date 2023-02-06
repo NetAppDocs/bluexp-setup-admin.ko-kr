@@ -101,6 +101,8 @@ Google Cloud에서 Cloud Volumes ONTAP 시스템을 만들려면 Google Cloud에
 
 NOTE: Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.
 
+BlueXP는 커넥터 전원이 14일 이상 꺼졌으면 사용자에게 알립니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["BlueXP 알림에 대해 알아보십시오"].
+
 
 
 == 커넥터 작성 방법

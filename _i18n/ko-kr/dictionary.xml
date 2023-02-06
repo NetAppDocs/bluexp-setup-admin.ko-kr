@@ -179,7 +179,6 @@
   <block id="fe001b474268cb9300af19ba4c12edd8" category="list-text">자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.</block>
   <block id="0d28acbceed906f52a206d0f3fb0add2" category="inline-image-macro">기존 자격 증명 집합에 대한 작업 메뉴 스크린샷</block>
   <block id="583059f51a0b347f747db9f8d2421392" category="paragraph"><block ref="583059f51a0b347f747db9f8d2421392" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a47f53881d8adf66979b7824c6871988" category="list-text">드롭다운 목록에서 기존 구독을 선택하거나 * 구독 추가 * 를 클릭하고 단계에 따라 새 구독을 만듭니다.</block>
   <block id="c98f8dfd7e317cb87d057d9e065d71d4" category="section-title">자격 증명을 편집합니다</block>
   <block id="608e5d2c6ae29eafd4acefb54d76730a" category="admonition">Connector 인스턴스와 연결된 인스턴스 프로파일의 자격 증명은 편집할 수 없습니다.</block>
   <block id="be92f90840924f8fb669257f558527d1" category="list-text">자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 자격 증명 편집 * 을 선택합니다.</block>
@@ -313,7 +312,6 @@
   <block id="5026faf22ad07ea6356957ba78cd71f2" category="section-title">알림을 해제합니다</block>
   <block id="e438ae665566728a83af19e41ac9ac6d" category="paragraph">더 이상 알림을 볼 필요가 없는 경우 페이지에서 알림을 제거할 수 있습니다. 모든 알림을 한 번에 해제하거나 개별 알림을 해제할 수 있습니다.</block>
   <block id="ca1c9774b98be72a0f55d88b3579e19c" category="inline-image-macro">설정을 선택하고 모든 옵션을 해제할 수 있는 알림 메뉴가 표시된 스크린샷</block>
-  <block id="169974c04efd5d0f65ab0cf4fc3a8939" category="paragraph">모든 알림을 해제하려면 알림 센터에서 을 클릭합니다 <block ref="7fad804aeb2163ef7cf5d7bac2acba8b" category="inline-image-macro-rx" type="image"></block> 를 선택하고 * 모두 해제 * 를 선택합니다.<block ref="e49bd0cb9810a0678258a0ab07786c5e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8e94ce578d759d7ee56ab163db1168d4" category="inline-image-macro">단일 알림을 닫는 방법을 보여 주는 스크린샷</block>
   <block id="15993a193bb692f21f638b2b59581171" category="paragraph">개별 알림을 해제하려면 알림 위에 커서를 놓고 * Dismiss * 를 클릭합니다.<block ref="1932261efa358e221b5ec460a7384dc2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="32d01e2ee6eb96c809aad8205457b728" category="section-title">사용자 계정의 사용자 활동 감사</block>
@@ -528,8 +526,6 @@
   <block id="cc3442ccd0009ca72e8dcc3cf6077229" category="section-title">Azure Marketplace 구독을 자격 증명에 연결</block>
   <block id="086754afbe30b09d7f6a643dd6e05800" category="list-text">기존 Azure Marketplace 구독을 새 구독으로 바꾸려는 경우</block>
   <block id="20a8a479e52579cf8f1fe773676218bc" category="paragraph"><block ref="20a8a479e52579cf8f1fe773676218bc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b86938912fe1dfce153836270d6c53ea" category="list-text">드롭다운 목록에서 구독을 선택하거나 * 구독 추가 * 를 클릭하고 단계에 따라 새 구독을 만듭니다.</block>
-  <block id="5f5e29b0ef69aac086f8623314c61c8b" category="paragraph">다음 비디오는 작업 환경 마법사의 컨텍스트에서 시작되지만 * 구독 추가 * 를 클릭한 후 동일한 워크플로를 보여 줍니다.</block>
   <block id="f237b70f3f3799f90d3acf9d0c78e108" category="section-title">자격 증명 편집</block>
   <block id="65a39e4477ac1c2ee4e6f7ab03f80f8b" category="inline-link">GCP에서 역할을 생성합니다</block>
   <block id="270b7569730a90507cf88195b5a8a7ee" category="inline-link">GCP 서비스 계정을 생성하고 방금 생성한 사용자 지정 역할을 적용합니다</block>
@@ -962,7 +958,6 @@
   <block id="fff6f5125be05a94543d2e88dbd30b27" category="inline-image-macro">Google Cloud 자격 증명을 위해 선택한 Google Cloud 프로젝트 및 가입 스크린샷</block>
   <block id="cab980518d03aa36afc924b709828a6e" category="paragraph"><block ref="cab980518d03aa36afc924b709828a6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c3692898f95f79b425ac8b50f45bb06" category="list-text">아직 구독이 없는 경우 * 구독 추가 * 를 클릭하고 아래 단계에 따라 새 구독을 만듭니다.</block>
-  <block id="49c43770df63f7099c5f01292d0e24e2" category="list-text">구독 단계를 보고 * 계속 * 을 클릭합니다.</block>
   <block id="e34e3eb07d03eff321019c85029cb441" category="inline-image-macro">구독 팝업의 스크린샷.</block>
   <block id="1c258a9e8501efe4f4ce95f3fd83a245" category="paragraph"><block ref="1c258a9e8501efe4f4ce95f3fd83a245" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8b5c3e503fd0da73cc8d1592a1ccbb6e" category="inline-image-macro">GCP CVO 마켓플레이스 페이지의 스크린샷</block>
@@ -974,8 +969,6 @@
   <block id="ca4f48bdc60c2a16dd59109486af30ee" category="paragraph">이 단계에서는 전송 요청을 NetApp에 전송합니다.</block>
   <block id="e3d03a33db92a9024d72af3cae4684fd" category="inline-image-macro">등록 팝업 스크린샷.</block>
   <block id="6373a7d66fb33193565645f81635ec0c" category="paragraph"><block ref="6373a7d66fb33193565645f81635ec0c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f4c056c11ef2563cc898db48d406c84e" category="inline-image-macro">GCP 구독을 NetApp 계정에 매핑하는 스크린샷</block>
-  <block id="2a085e42ac25547701a033cd0ebb75be" category="paragraph"><block ref="2a085e42ac25547701a033cd0ebb75be" category="inline-image-macro-rx" type="image"></block></block>
   <block id="467e5d6bbcd0ea531c8f7285b69e29ee" category="inline-image-macro">구독 할당 페이지의 스크린샷.</block>
   <block id="60d2ed6f6e1774535b6e69274800381d" category="paragraph"><block ref="60d2ed6f6e1774535b6e69274800381d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6ba5648366edaa0f05013bb6010f477e" category="section-title">마켓플레이스 가입 프로세스 문제 해결</block>
@@ -1188,7 +1181,6 @@
   <block id="bb535485e7b97661af60ecc59e655498" category="list-text">인스턴스의 이름을 입력합니다.</block>
   <block id="edda80be79ac3f7cac925a65c6a3e5b5" category="list-text">인스턴스에 사용자 지정 태그(메타데이터)를 추가합니다.</block>
   <block id="bc08dffbc581e8fd57ce1bac9b369e13" category="list-text">Connector의 EBS 디스크를 암호화할지 여부를 선택합니다. 기본 암호화 키를 사용하거나 사용자 지정 키를 사용할 수 있습니다.</block>
-  <block id="d091f5f5ef56e437171dce81de151778" category="summary">커넥터 문제를 해결해야 하는 경우 커넥터 구성 방법을 이해하는 데 도움이 될 수 있습니다.</block>
   <block id="6e8114a6676a5923599d8d78479d23d8" category="doc">Connector의 기본 설정</block>
   <block id="87047facc49847cec237f6d055d56b31" category="section-title">인터넷 액세스가 가능한 기본 구성</block>
   <block id="953e61420be6157aa122dfd3475d4070" category="paragraph">운영 체제에는 GUI가 포함되어 있지 않습니다. 시스템에 액세스하려면 터미널을 사용해야 합니다.</block>
@@ -1385,8 +1377,6 @@
   <block id="2027473f3ca71543274163d3bb9dd8e1" category="list-text"><block ref="2027473f3ca71543274163d3bb9dd8e1" category="inline-link-rx"></block></block>
   <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오</block>
   <block id="f0aff813a70ef2591adfbb6a1a06b553" category="list-text"><block ref="f0aff813a70ef2591adfbb6a1a06b553" category="inline-link-rx"></block></block>
-  <block id="d91c9747b757db55982f71a386bfd0d6" category="cell">-compute.instanceGroups.get -compute.addresses.get</block>
-  <block id="e6896223c5f9bd9bbdd1b0c9eac6686f" category="cell">를 사용하여 HA 쌍에서 스토리지 VM을 생성하고 관리합니다.</block>
   <block id="bea9d9e1b3f9260b5dafbfee794aead7" category="summary">인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 설치할 수 있습니다. 그런 다음, 온프레미스 ONTAP 클러스터를 검색하고, 클러스터 간에 데이터를 복제하고, 클라우드 백업을 사용하여 볼륨을 백업하고, 클라우드 데이터 센스로 검색할 수 있습니다.</block>
   <block id="89b945901df4999cfbb07b91df7f3e83" category="inline-link">클라우드 백업을 사용하여 사내 ONTAP 볼륨 데이터를 StorageGRID에 백업합니다</block>
   <block id="0ef5e09df96e6b4d97470a69c3a5bb03" category="list-text"><block ref="0ef5e09df96e6b4d97470a69c3a5bb03" category="inline-link-rx"></block></block>
@@ -1400,8 +1390,6 @@
   <block id="47d69a1f17128c359904338c3502fe31" category="section-title">NetApp 자격 증명으로 로그인합니다</block>
   <block id="f646305c890b8deec88379aeecbe56a5" category="paragraph">새로운 사용자가 Cloud Central에 등록하면 이제 NetApp * 옵션을 사용하여 로그인 * 을 선택하여 NetApp Support 사이트 자격 증명으로 로그인할 수 있습니다. 이 방법은 전자 메일 주소와 암호를 입력하는 대신 사용됩니다.</block>
   <block id="f27b2370dfece83354cbb560bf251abc" category="admonition">전자 메일 주소와 암호를 사용하는 기존 로그인은 해당 로그인 방법을 계속 사용해야 합니다. NetApp으로 로그인 옵션은 등록하는 새 사용자를 위해 사용할 수 있습니다.</block>
-  <block id="decc333898509c715afbf4242e91a6fc" category="list-text">전자 메일 및 암호를 입력하여 등록한 경우 로그인할 때마다 해당 자격 증명을 입력해야 합니다.</block>
-  <block id="13a0adeb2b159ac19c415adb2a302ac7" category="list-text">NetApp Support 사이트 자격 증명으로 로그인하여 등록한 경우 매번 해당 로그인 옵션을 사용해야 합니다.</block>
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022년 7월 3일</block>
   <block id="dbb3531fc9f461de7f3beb2624712465" category="section-title">커넥터 3.9.20</block>
   <block id="d62eba143e9a6b4f6e0d6902d78ea096" category="list-text">Cloud Manager 인터페이스에 추가된 새로운 기능을 탐색하는 방법이 도입되었습니다. 이제 왼쪽 패널 위로 마우스를 이동하면 익숙한 Cloud Manager 기능을 모두 쉽게 찾을 수 있습니다.</block>
@@ -2014,21 +2002,9 @@
   <block id="8fa7e084836ae35d976f6f572a47e804" category="paragraph">정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 BlueXP에 액세스하는 경우 Connector에서 로컬로 실행되는 BlueXP 사용자 인터페이스에 로그인해야 합니다. <block ref="2061c033ff26af000ddf0a91359fc3b2" category="inline-link-macro-rx"></block>.</block>
   <block id="d168984ba5f06fd829697588a7bfa38c" category="paragraph">다음 옵션 중 하나를 사용하여 BlueXP에 로그인할 수 있습니다.</block>
   <block id="19df8bb4b5a805b23aeac731605bdf21" category="list-text">기존 NetApp Support 사이트(NSS) 자격 증명</block>
-  <block id="d4a9f9b97db61be5fe92f3ac1eb2b99f" category="inline-link-macro">NSS 자격 증명을 BlueXP에 추가하는 방법에 대해 알아봅니다</block>
-  <block id="c84b60bfaa10c18f34667a07c9422a47" category="paragraph">이 옵션을 사용하면 NetApp Support 사이트(NSS) 자격 증명이 지원 대시보드의 BlueXP에 추가되지 않습니다. Cloud Volumes ONTAP의 주요 워크플로를 사용하려면 BlueXP에 NSS 자격 증명을 추가해야 합니다. <block ref="d3c005e09d65fc19351c4de2d73c488b" category="inline-link-macro-rx"></block>.</block>
   <block id="691be8e1993c2535e4afe5834afe3b01" category="list-text">이메일 주소 및 암호를 사용하여 NetApp 클라우드 로그인</block>
   <block id="36c40fc323b30ac7c63a4ad0ca63d488" category="inline-link">BlueXP 도움말 센터</block>
-  <block id="2611f7eb65cf3359137dafdfb95483ae" category="paragraph">이 옵션은 통합 연결을 지원합니다. Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 로그인할 수 있습니다. 자세한 내용은 로 이동하십시오<block ref="4281905c7145d3afc1e5083b48ba043f" category="inline-link-rx"></block> 그런 다음 * 로그인 옵션 * 을 클릭합니다.</block>
-  <block id="dcc1672f59b5dd25758f8f44fe7f04cd" category="paragraph">로그인할 때마다 처음 로그인할 때 선택한 것과 동일한 옵션을 사용해야 합니다.</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link">BlueXP 콘솔</block>
-  <block id="b6f593055aa7e0982c84cef15bca2d4a" category="paragraph">NetApp BlueXP 로그인 페이지가 표시됩니다.</block>
-  <block id="2d9d1cf392d46cf284c202c45ca6710f" category="inline-image-macro">BlueXP의 로그인 페이지</block>
-  <block id="d1458c5f683deb76200e00ee241652dd" category="paragraph"><block ref="d1458c5f683deb76200e00ee241652dd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9adc5d79168a4f6fe5dd0fcf70c16475" category="list-text">다음 로그인 옵션 중 하나를 선택합니다.</block>
-  <block id="4505e1a9383d05ecfa12dbc235eb5329" category="list-text">이전에 NetApp 클라우드 자격 증명을 생성한 경우 이메일 및 암호를 사용하여 로그인합니다.</block>
-  <block id="141fe8ab65ca39501902b608f4303617" category="list-text">클라우드 자격 증명이 없지만 기존 NetApp Support 사이트(NSS) 계정이 있는 경우 * NetApp Support 사이트 자격 증명으로 로그인 * 을 선택합니다.</block>
-  <block id="bb501d2843c655901a71a82a7ee49692" category="list-text">NSS 계정이 없고 NetApp 클라우드 자격 증명을 생성하지 않은 경우 * 등록 * 을 클릭하여 NetApp 클라우드 로그인을 생성합니다.</block>
-  <block id="e35134037761a63173898591344fceff" category="paragraph">등록하면 NetApp에서 이메일을 받게 됩니다. 이메일의 링크를 클릭하여 이메일 주소를 확인한 다음 로그인합니다.</block>
   <block id="0cdc0aaedcc5278681de9de08217447f" category="paragraph">이제 로그인하고 BlueXP를 사용하여 하이브리드 멀티 클라우드 인프라를 관리할 수 있습니다.</block>
   <block id="1cc2f617f426fbf9060a71767fca6e4d" category="summary">BlueXP(이전의 Cloud Manager)부터 시작하여 NetApp 클라우드 서비스를 이용하여 하이브리드 멀티 클라우드 전체의 데이터를 관리할 수 있습니다. 설정이 완료되면 NetApp 계정, 커넥터, 클라우드 공급자 계정 등을 관리할 수 있습니다.</block>
   <block id="f12aeeed0f164c86af69a57fddb01689" category="doc">BlueXP 설정 및 관리</block>
@@ -2288,9 +2264,7 @@
   <block id="cdcf076c3fd3e62a3c7e3691d02894db" category="inline-link">Google Cloud 마켓플레이스의 NetApp BlueXP 페이지</block>
   <block id="b7e7a20500f8489bfa6b8a559c74a1d4" category="list-text">로 리디렉션된 후<block ref="d9d3d72c24d9b3446210d5b539c6bbf5" category="inline-link-rx"></block>상단 탐색 메뉴에서 올바른 프로젝트가 선택되어 있는지 확인합니다.</block>
   <block id="10e61096cba50402ef6cb31c1b17e8ae" category="list-text">팝업 대화 상자에서 * NetApp, Inc. * 등록 을 클릭하여 NetApp BlueXP 웹 사이트로 리디렉션합니다.</block>
-  <block id="3654f8874077bf13f59590812bd85494" category="list-text">BlueXP로 리디렉션되면 로그인하거나 로그인한 다음 * 완료 * 를 클릭하여 계속 진행합니다.</block>
   <block id="4314e9e91f1c1e76df01e49490b3367e" category="inline-link">BlueXP 웹 사이트의 Cloud Volumes ONTAP 페이지</block>
-  <block id="289bd5956a254b6fa364eac8856b1768" category="admonition">조직의 누군가가 청구 계정에서 NetApp BlueXP 구독을 이미 구독한 경우 으로 리디렉션됩니다<block ref="03328ba9e09d435ba77b020263fc11e5" category="inline-link-rx"></block> 대신 예기치 않은 상황인 경우 NetApp 세일즈 팀에 문의하십시오. Google은 Google 청구 계정당 하나의 가입만 활성화합니다.</block>
   <block id="5894b1931d65e9796cc25db1bb6fd566" category="list-text">이 프로세스가 완료되면 BlueXP의 자격 증명 페이지로 돌아가서 이 새 구독을 선택합니다.</block>
   <block id="9da5b2b6ec24e29a79e40e816340c98d" category="paragraph">Google 클라우드 마켓플레이스를 통해 Cloud Volumes ONTAP를 구독하는 경우 권한이 잘못되거나 BlueXP 웹 사이트로 리디렉션되는 것을 실수로 수행하지 않아 조각화될 수 있습니다. 이 경우 다음 단계를 사용하여 구독 프로세스를 완료합니다.</block>
   <block id="152bc1c9eb7bc2fdb6af0ef5eaec4cd3" category="list-text">로 이동합니다<block ref="d9d3d72c24d9b3446210d5b539c6bbf5" category="inline-link-rx"></block> 주문 상태를 확인합니다. 페이지에 * 공급자 * 에서 관리 * 가 표시되면 아래로 스크롤하여 * 주문 관리 * 를 클릭합니다.</block>
@@ -2680,7 +2654,6 @@
   <block id="3b9dafc67ff049020d09b9ebd18aaa5d" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 커넥터를 작성합니다</block>
   <block id="5ccc745272c52ce1868d5bcf2b07705a" category="section-title">작업 영역 관리자의 작업 영역 관리</block>
   <block id="1cf32fb78afaf111cd4c8421dc8592a6" category="section-title">Connector의 작업 영역 관리</block>
-  <block id="c558073ec27a1686dce5ebbe5da43092" category="paragraph-title">로그인 옵션</block>
   <block id="25fd4db5a75c387fe3fd85258810fcad" category="list-text">자체 Linux 호스트(BlueXP 인터페이스에서 직접 커넥터 설치 안 함)에 커넥터를 수동으로 설치할 경우 설치 프로세스 중에 Connector 설치 프로그램이 여러 끝점에 액세스해야 합니다.</block>
   <block id="d225210f36f5d8518fad068e89f2d1c3" category="inline-link-macro">끝점 목록을 검토합니다</block>
   <block id="c0355dfc890e268b51bb88722cb448a9" category="paragraph"><block ref="12b2338905766fe009fef0e6c52eb82d" category="inline-link-macro-rx"></block>.</block>
@@ -2778,7 +2751,6 @@
   <block id="ef67c5eab6f3bfee1596c3f8734a88c7" category="paragraph">사내 ONTAP 클러스터를 직접 검색하는 데는 커넥터가 필요하지 않지만 추가 BlueXP 기능을 사용하려면 커넥터가 필요합니다.</block>
   <block id="eec3baeb5aa60415324495790bc2f136" category="inline-link">온프레미스 ONTAP 클러스터를 위한 검색 및 관리 옵션에 대해 자세히 알아보십시오</block>
   <block id="7a5dd38f95e02bff17a0b6c794d9ce2b" category="paragraph"><block ref="7a5dd38f95e02bff17a0b6c794d9ce2b" category="inline-link-rx"></block></block>
-  <block id="82e02d499effaa5b28aba8ede321e414" category="list-text">현재 Cloud Sync, 클라우드 백업 및 랜섬웨어 보호만 이메일로 알림을 전송합니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
   <block id="8fb23cdc1bc8f3ca6d2863041a4364b5" category="list-text">여러 프로젝트에 Cloud Volumes ONTAP를 배포하는 경우 해당 프로젝트에 대한 액세스 권한이 있는지 확인합니다.</block>
   <block id="c17e95cb1967072e9156ac6ad6f7c033" category="paragraph"><block ref="02f20f4e9af364f73c72b808dd1224d3" category="inline-xref-macro-rx"></block>.</block>
   <block id="8e791012319a6cc33e02b9f65f0eb71d" category="paragraph">구성에 따라 다음 단계를 완료해야 할 수도 있습니다.</block>
@@ -2797,7 +2769,6 @@
   <block id="2dbb2a35f48f58340e040cb41a1d70b1" category="section-title">Google Cloud 자격 증명과 마켓플레이스 가입 연결</block>
   <block id="72a31d53edf5989e236535eb541ee755" category="paragraph">Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. BlueXP에서 Cloud Volumes ONTAP를 배포하는 데 사용하는 자격 증명입니다.</block>
   <block id="80d154feb16cf91b0edec06497c1ceaa" category="admonition">Google Cloud 구독을 NetApp 계정에 연결하려면 이 단계를 완료해야 합니다. 이 페이지에서 리디렉션된 다음 BlueXP에 로그인할 때까지 가입 연결 프로세스가 완료되지 않습니다.</block>
-  <block id="3ef651256a22c79667581299224bf5b3" category="paragraph">Google Cloud 구독은 사용자 로그인과 연결된 모든 NetApp 계정에 연결됩니다. 새 구독에 대한 액세스를 제한해야 하는 경우 Digital Wallet의 구독과 연결된 NetApp 계정을 관리할 수 있습니다. <block ref="b8248518be94d54d622f572d1d196b86" category="inline-link-macro-rx"></block>.</block>
   <block id="cc328ccddf672987f092ca6f44c9f9cf" category="cell">https://management.azure.com \https://login.microsoftonline.com 으로 문의하십시오</block>
   <block id="068395f3cd26ca40ad905de3790c9435" category="cell">Azure 공공 지역의 리소스를 관리합니다.</block>
   <block id="6696e65cc873b2af9823ebafd2e332a8" category="cell">https://management.usgovcloudapi.net \https://login.microsoftonline.us 으로 문의하십시오</block>
@@ -2852,4 +2823,98 @@
   <block id="5b2b679cfd4361d102ffc80defe9709e" category="list-text">* 네트워크 *: 인스턴스에 대한 VPC, 서브넷 및 키 쌍을 지정하고, 공용 IP 주소를 사용할지 여부를 선택하고, 선택적으로 프록시 구성을 지정합니다(HTTP 및 HTTPS 지원).</block>
   <block id="6bd6b829c865d2a64a85e79355655e12" category="cell">9060, 9061</block>
   <block id="971da77efd7f98f0cb0eeb45103b5b77" category="cell">정부 클라우드 구축 환경에서 Cloud Data Sense 및 Cloud Backup을 활성화하고 사용할 수 있는 기능을 제공합니다. BlueXP 계정에서 SaaS 인터페이스를 사용하지 않도록 설정하는 경우 클라우드 백업에도 이러한 포트가 필요합니다.</block>
+  <block id="35189ab5714b42941b6c22320f395243" category="list-text">자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 구독을 선택하고 * Associate * 를 클릭합니다.</block>
+  <block id="7f024bcfe9b965209454c94e48004d5d" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 클릭하고 Azure 마켓플레이스의 단계를 따릅니다.</block>
+  <block id="7dffa6296286b12f66d638f53340316c" category="list-text">메시지가 표시되면 Azure 계정에 로그인합니다.</block>
+  <block id="229d7258c60456f36a718cd138813888" category="list-text">양식을 작성하고 * Subscribe * 를 클릭합니다.</block>
+  <block id="a6f968ccb979a102bb5ce0538b9f2456" category="list-text">알림 * 을 클릭하고 알림의 링크를 클릭하여 계정을 구성합니다.</block>
+  <block id="daa4df96e26fea6c1270d01a4426eab1" category="list-text">계정 구성 * 을 클릭합니다.</block>
+  <block id="344ece1ef43a9e3bbb281e15f3df6442" category="paragraph">BlueXP 웹 사이트로 이동합니다.</block>
+  <block id="cb735ebf950ed5c7902b507f70582bd3" category="list-text">[구독 할당 *] 페이지에서:</block>
+  <block id="761b37459e9daab0f25c3e9b5edfd370" category="list-text">이 구독을 연결할 NetApp 계정을 선택합니다.</block>
+  <block id="e0c62276bada3b5536cceb070664c871" category="list-text">기존 구독 바꾸기 * 필드에서 하나의 계정에 대한 기존 구독을 이 새 구독으로 자동 대체할지 여부를 선택합니다.</block>
+  <block id="23d838dbd51becc56367e6d9358b446e" category="paragraph">BlueXP는 계정의 모든 자격 증명에 대한 기존 구독을 이 새 구독으로 대체합니다. 자격 증명 집합이 구독과 연결되지 않은 경우 이 새 구독은 해당 자격 증명과 연결되지 않습니다.</block>
+  <block id="b4676b03cb1388f474b207b449af0dc2" category="paragraph">다른 모든 계정의 경우 이 단계를 반복하여 구독을 수동으로 연결해야 합니다.</block>
+  <block id="ef545e4a852035275622b3ad9df636de" category="inline-image-macro">이 구독을 하나 이상의 계정에 연결하고 해당 계정 중 하나의 기존 구독을 대체하도록 선택할 수 있는 구독 할당 페이지의 스크린샷.</block>
+  <block id="56884c9225391e21aea7cf42dd6f7bd5" category="paragraph"><block ref="56884c9225391e21aea7cf42dd6f7bd5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a4cfdd3c4b047c552e6626beca055d3" category="summary">BlueXP를 시작할 때 첫 번째 단계는 등록하는 것입니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다.</block>
+  <block id="156c302d186fc36d9d944c5d74b971af" category="doc">BlueXP에 등록하십시오</block>
+  <block id="a6da179f46168e9455ae7e15202c1a47" category="paragraph-title">정부 지역에 대한 참고 사항</block>
+  <block id="c26e6228331f8b9fa1978950800424ee" category="paragraph">정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 BlueXP에 액세스해야 하는 경우 커넥터를 생성하고 Connector에서 로컬로 실행되는 BlueXP 사용자 인터페이스에 로그인해야 합니다. <block ref="2061c033ff26af000ddf0a91359fc3b2" category="inline-link-macro-rx"></block>.</block>
+  <block id="213954d7bdaa5b2d9eab4ee897a935d3" category="paragraph-title">등록 옵션</block>
+  <block id="4c6d74757138aa41d2d5f2b14bb05ad1" category="paragraph">다음 옵션 중 하나를 사용하여 BlueXP에 등록할 수 있습니다.</block>
+  <block id="d7330e52ac45b9d5a769aa9a5c244319" category="list-text">이메일 주소와 암호를 지정하여 NetApp 클라우드 로그인입니다</block>
+  <block id="521c7a764fe6fa451475e20f1742173e" category="paragraph">두 옵션 모두 통합 연결을 지원하므로 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 단일 사인온이 가능합니다. 등록 후 에서 통합 연결을 설정할 수 있습니다<block ref="4281905c7145d3afc1e5083b48ba043f" category="inline-link-rx"></block> Cloud Central 로그인 옵션 * 을 선택합니다.</block>
+  <block id="9f1b84fa92d950a165d75ff20ea339ef" category="list-text">로그인 * 페이지에서 * 가입 * 을 선택합니다.</block>
+  <block id="c838c41871c4f726a74cecb65930bcdd" category="admonition">기존 NSS 자격 증명을 사용하려는 경우 등록 페이지를 건너뛰고 로그인 페이지에 직접 이메일 주소를 입력할 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.</block>
+  <block id="9a076f8e1167c7f54e717f3312d9be22" category="list-text">등록 * 페이지에서 로그인 옵션 중 하나를 선택합니다.</block>
+  <block id="eb7dc3949c534285123f407b97df88ce" category="list-text">기존 NetApp Support 사이트(NSS) 계정이 있는 경우 * NetApp Support 사이트 자격 증명으로 등록 * 을 선택합니다.</block>
+  <block id="a67ec4292dbbae18fa7d903a5925529f" category="inline-link-macro">NSS 자격 증명을 지원 대시보드에 추가하여 주요 워크플로를 활성화하는 방법에 대해 알아봅니다</block>
+  <block id="f36fff08cce9f284672696a03c3af986" category="paragraph">이 옵션을 사용하면 NetApp Support 사이트(NSS) 자격 증명이 지원 대시보드의 BlueXP에 추가되지 않습니다. <block ref="6dd91a7e65a4b86508888798b6f600ec" category="inline-link-macro-rx"></block>.</block>
+  <block id="5185f2e203db6dcf60732c4adcccbd15" category="list-text">NSS 계정이 없고 NetApp 클라우드 자격 증명을 생성하지 않은 경우 NetApp 클라우드 로그인을 생성하는 데 필요한 정보를 입력하십시오.</block>
+  <block id="b0844d01c75bb6b60219ee536f20aa15" category="list-text">메시지가 표시되면 최종 사용자 사용권 계약을 검토하고 약관에 동의합니다.</block>
+  <block id="a2d1bd30e95a89c4ecb9d6a39da84e3a" category="list-text">시작 * 페이지에서 계정 이름을 입력합니다.</block>
+  <block id="efb45899558a953ff7d6578e89aa2c1c" category="inline-link-macro">기존 계정에 구성원을 추가하는 방법에 대해 알아봅니다</block>
+  <block id="f0416cc7adfb705444d5a66527cb9ce5" category="paragraph">회사에 이미 계정이 있는 경우 이 단계를 건너뛰고 소유자에게 계정을 연계하도록 요청해야 합니다. 소유자가 사용자를 추가한 후 로그인하면 해당 계정에 액세스할 수 있습니다. <block ref="3b04849a18b87204738aa991e5f8575e" category="inline-link-macro-rx"></block>.</block>
+  <block id="ecbca8245155432067c380b55b5146bb" category="paragraph">계정은 NetApp의 ID 플랫폼에서 최상위 요소입니다. 사용자, 역할, 사용 권한 및 작업 환경을 추가하고 관리할 수 있습니다.</block>
+  <block id="a860f226d10bcd54ab238e5189d94747" category="inline-image-macro">계정에 속하지 않는 새 계정으로 로그인할 때 나타나는 시작 페이지의 스크린 샷</block>
+  <block id="e079acaa326ddf3b1cb6ee167cce08f4" category="paragraph"><block ref="e079acaa326ddf3b1cb6ee167cce08f4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="20653d224bca9fb40181f3916e4f643d" category="list-text">계정 만들기 * 를 선택합니다.</block>
+  <block id="2f0488f8a3ca91699637c323ed3b7ae7" category="paragraph">이제 BlueXP 로그인 및 계정이 있습니다. 대부분의 경우 다음 단계는 BlueXP의 서비스를 하이브리드 클라우드 환경에 연결하는 Connector를 만드는 것입니다.</block>
+  <block id="c12be2d5c6d53ffeba2b81d18475c007" category="list-text">구독 단계를 검토하고 * 계속 * 을 클릭합니다.</block>
+  <block id="5f6337397041d9f655e961c010a87fdc" category="paragraph"><block ref="5f6337397041d9f655e961c010a87fdc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e5d34a7be7e3c957d955b41f31cc1b6b" category="admonition">조직의 누군가가 청구 계정에서 NetApp BlueXP 구독을 이미 구독한 경우 으로 리디렉션됩니다<block ref="35e104e3e4686d9ee172091b57b45bc0" category="inline-link-rx"></block> 대신 예기치 않은 상황인 경우 NetApp 세일즈 팀에 문의하십시오. Google은 Google 청구 계정당 하나의 가입만 활성화합니다.</block>
+  <block id="18ed152ca3e6d97795e3c62f29f14fa3" category="inline-link">BlueXP 알림에 대해 알아보십시오</block>
+  <block id="aea5351abe13a2ef43df184a5caed50e" category="paragraph">BlueXP는 커넥터 전원이 14일 이상 꺼졌으면 사용자에게 알립니다.<block ref="e16712c557ed9121be1392c11d3884a1" category="inline-link-rx"></block>.</block>
+  <block id="4bfec65bcbc9665c362f6c53301324c5" category="cell">-compute.instanceGroups.get -compute.addresses.get-compute.instances.updateNetworkInterface 를 참조하십시오</block>
+  <block id="c5338aa09d091a71f3080053c9a0edc0" category="cell">Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리합니다.</block>
+  <block id="00e6f4ddf63e81c5de84a3913163d11d" category="section-title">2023년 2월 6일</block>
+  <block id="26e9753e85fc2c13a9569cd1345a5b06" category="paragraph">이 정책에 다음 권한이 추가되었습니다.</block>
+  <block id="3503950ea6a1ba87d4be44e07b1a16c8" category="list-text">compute.instances.updateNetworkInterface</block>
+  <block id="0f30e2d10fca6f69c5f7a23bb2b30b1b" category="paragraph">이 권한은 Cloud Volumes ONTAP에 필요합니다.</block>
+  <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">2023년 2월 5일</block>
+  <block id="d2ab99e3c8406089dca863337debb121" category="section-title">커넥터 3.9.26</block>
+  <block id="330ddcd0a3779c8729cfb2c56aeb33f5" category="list-text">로그인 * 페이지에서 로그인과 관련된 이메일 주소를 입력하라는 메시지가 표시됩니다. 다음 * 을 클릭하면 BlueXP가 로그인과 관련된 인증 방법을 사용하여 인증하라는 메시지를 표시합니다.</block>
+  <block id="1baec3621cd37cfb63c78d95c414ca61" category="list-text">NetApp 클라우드 자격 증명의 암호입니다</block>
+  <block id="1dca7678a1041ed05b6071c24454dfde" category="list-text">통합 ID 자격 증명</block>
+  <block id="9ec04e5ecf7230969f472cb3ba28f9d5" category="list-text">NetApp Support 사이트 자격 증명</block>
+  <block id="95161959ea62121420b9e6e6553c5afa" category="inline-image-macro">전자 메일 주소를 입력하라는 메시지가 표시되는 BlueXP 로그인 페이지의 스크린 샷</block>
+  <block id="7fef862357cf2face17cb8062b1f051f" category="paragraph"><block ref="7fef862357cf2face17cb8062b1f051f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9cb7486a7e7f24abb51cfcc8bb6085db" category="list-text">BlueXP를 처음 사용하는 경우 기존 NetApp Support 사이트(NSS) 자격 증명이 있는 경우 등록 페이지를 건너뛰고 로그인 페이지에 직접 이메일 주소를 입력할 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.</block>
+  <block id="845c6364e1c82b67190dc691538533e1" category="list-text">클라우드 공급자의 마켓플레이스에서 BlueXP를 구독하면 이제 하나의 계정에 대한 기존 구독을 새 구독으로 대체할 수 있습니다.</block>
+  <block id="79ee9d46f0018b3cb493ecfda60ffa4b" category="inline-image-macro">BlueXP 계정의 구독 할당을 보여 주는 스크린샷.</block>
+  <block id="cd56a207e786d73d9abfd43dd2202acd" category="paragraph"><block ref="cd56a207e786d73d9abfd43dd2202acd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f1b38e057f0b3e3f883f386f412fd0a9" category="inline-link">AWS 구독을 연결하는 방법을 알아보십시오</block>
+  <block id="73f01c2e56cdb9b30f4fe33ce5bbdc20" category="list-text"><block ref="73f01c2e56cdb9b30f4fe33ce5bbdc20" category="inline-link-rx"></block></block>
+  <block id="72bfd3f607087d94f12332f83b700ab8" category="inline-link">Azure 구독을 연결하는 방법에 대해 알아봅니다</block>
+  <block id="58b7b647775bc09b6b8a9f45df71775b" category="list-text"><block ref="58b7b647775bc09b6b8a9f45df71775b" category="inline-link-rx"></block></block>
+  <block id="1c74f0a5753f74c783e970c346408b4a" category="inline-link">Google Cloud 구독을 연결하는 방법을 알아보십시오</block>
+  <block id="896471f03a9a1e209bebabb5923d2b3e" category="list-text"><block ref="896471f03a9a1e209bebabb5923d2b3e" category="inline-link-rx"></block></block>
+  <block id="f906d086ca70101dd1f218ea0786aee8" category="list-text">이제 BlueXP에서 커넥터 전원이 14일 이상 꺼졌으면 알려 줍니다.</block>
+  <block id="68f34edaf3c796f179fbe80b3df89f0c" category="list-text"><block ref="68f34edaf3c796f179fbe80b3df89f0c" category="inline-link-rx"></block></block>
+  <block id="752697882fd7ee73f8d5f60a6f8c02f5" category="inline-link">커넥터가 계속 작동하는 이유에 대해 알아보십시오</block>
+  <block id="23f4e22cbf061f84ba77fd79e423d90f" category="list-text"><block ref="23f4e22cbf061f84ba77fd79e423d90f" category="inline-link-rx"></block></block>
+  <block id="1c8a63199471322e5b0fe67deb835f4b" category="list-text">Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리하는 데 필요한 권한을 포함하도록 Google Cloud용 커넥터 정책을 업데이트했습니다.</block>
+  <block id="67d29883f03468dc44eefc494f37473e" category="inline-link">Connector에 대한 Google Cloud 권한을 봅니다</block>
+  <block id="cad0970fb2c4e3d28b046315bb4b7f02" category="paragraph"><block ref="ac22e421263f6f828d096313fa20e6a8" category="inline-link-rx"></block>.</block>
+  <block id="fdfef50a14b07533a8bab908a66de10c" category="list-text">이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.</block>
+  <block id="e5fa209a01e6f968295b098866e0fcf5" category="paragraph"><block ref="e5fa209a01e6f968295b098866e0fcf5" category="inline-link-rx"></block></block>
+  <block id="2328f91c347cdd3538e6eec847331d2d" category="list-text">현재, Connectors, Cloud Sync, 클라우드 백업 및 랜섬웨어 차단 과 같은 BlueXP 기능 및 서비스에 대한 알림은 이메일로 전송됩니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
+  <block id="61130fb01406e968937613de0add552f" category="inline-image-macro">세 개의 세로 점이 있는 아이콘</block>
+  <block id="86687429f8938a809fc671fe296b1bcc" category="paragraph">모든 알림을 해제하려면 알림 센터에서 을 클릭합니다 <block ref="bfe50e4fac5e58634c6fb748dce94758" category="inline-image-macro-rx" type="image"></block> 를 선택하고 * 모두 해제 * 를 선택합니다.<block ref="e49bd0cb9810a0678258a0ab07786c5e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0da34741c0fedd26eb889170d87be2c7" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 클릭하고 AWS 마켓플레이스의 단계를 따릅니다.</block>
+  <block id="6ce481dcdc8134b6b4c81db0911f0267" category="list-text">구독 * 으로 계속 * 을 클릭합니다.</block>
+  <block id="c75b8cac68776a239e8da30928fbc723" category="list-text">계정 설정 * 을 클릭합니다.</block>
+  <block id="1b71aaa72599faca0c9974618a3c749d" category="paragraph"><block ref="1b71aaa72599faca0c9974618a3c749d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2d362fb636ab4e2644720f00f02ddbfb" category="summary">BlueXP에 등록하면 SaaS 기반 사용자 인터페이스를 통해 웹 브라우저에서 로그인할 수 있습니다.</block>
+  <block id="f2209a6bc960d5dd3350ca4b5b662c18" category="inline-link-macro">BlueXP에 등록하고 조직을 만드는 방법에 대해 알아보십시오</block>
+  <block id="2a319fe0bd9ba8ece64b79d59a233b15" category="paragraph"><block ref="8c767825ada5127971c09f228e56d843" category="inline-link-macro-rx"></block>.</block>
+  <block id="0994880ff67f7251649b7fab82f0a166" category="paragraph-title">로그인 옵션</block>
+  <block id="029351726760b5e014b1e49ec512b591" category="list-text">통합 연결</block>
+  <block id="6c7ff2f2cb289c51829dcc82a760506b" category="paragraph">Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 로그인할 수 있습니다. 자세한 내용은 로 이동하십시오<block ref="4281905c7145d3afc1e5083b48ba043f" category="inline-link-rx"></block> 그런 다음 * 로그인 옵션 * 을 클릭합니다.</block>
+  <block id="03eb7e8aedd1ad900f6996ff1a9cf8dd" category="list-text">로그인 * 페이지에서 로그인과 관련된 이메일 주소를 입력합니다.</block>
+  <block id="784d4eeca11deaf4ee3f37735e4d0334" category="list-text">로그인과 관련된 인증 방법에 따라 자격 증명을 입력하라는 메시지가 표시됩니다.</block>
+  <block id="8a7c8d2028930eaef2c3f44925994051" category="list-text">NetApp 클라우드 자격 증명: 암호를 입력합니다</block>
+  <block id="a02705346febd77df5680fe2f12343a9" category="list-text">통합 사용자: 통합 ID 자격 증명을 입력합니다</block>
+  <block id="24bdc2b22d38abff9ff97a9c5b5e7966" category="list-text">NetApp Support 사이트 계정: NetApp Support 사이트 자격 증명을 입력합니다</block>
 </blocks>

@@ -71,6 +71,9 @@ includedPermissions:
 - compute.instances.start
 - compute.instances.stop
 - compute.instances.updateDisplayDevice
+- compute.instanceGroups.get
+- compute.addresses.get
+- compute.instances.updateNetworkInterface
 - compute.machineTypes.get
 - compute.networks.get
 - compute.networks.list
@@ -229,7 +232,7 @@ includedPermissions:
 | -container.clusters.get-container.clusters.list 를 참조하십시오 | Google Kubernetes Engine에서 실행 중인 Kubernetes 클러스터를 검색할 수 있습니다. 
 
 
-| -compute.instanceGroups.get -compute.addresses.get | 를 사용하여 HA 쌍에서 스토리지 VM을 생성하고 관리합니다. 
+| -compute.instanceGroups.get -compute.addresses.get-compute.instances.updateNetworkInterface 를 참조하십시오 | Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리합니다. 
 
 
 | -monitoring.timeseries.list-storage.버킷.getIamPolicy | Google Cloud Storage 버킷에 대한 정보를 검색할 수 있습니다. 
@@ -242,6 +245,17 @@ includedPermissions:
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2023년 2월 6일
+
+이 정책에 다음 권한이 추가되었습니다.
+
+* compute.instances.updateNetworkInterface
+
+
+이 권한은 Cloud Volumes ONTAP에 필요합니다.
 
 
 
