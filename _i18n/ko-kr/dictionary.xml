@@ -954,18 +954,12 @@
   <block id="329d19fc5afbf1e6e6b899cb6324212a" category="summary">Connector VM 인스턴스와 연결된 자격 증명을 관리할 수 있습니다.</block>
   <block id="fd5876417edb63f12f7c19c175309431" category="paragraph">언제든지 이러한 자격 증명과 연결된 마켓플레이스 구독을 변경할 수 있습니다. 구독을 통해 선불 종량제 Cloud Volumes ONTAP 시스템을 생성하고 다른 NetApp 클라우드 서비스를 사용할 수 있습니다.</block>
   <block id="ea765af20d763fe16d94ba9ef03fd31b" category="paragraph"><block ref="ea765af20d763fe16d94ba9ef03fd31b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3607221d62467c2e5249f8716b69616f" category="list-text">드롭다운 목록에서 Google Cloud 프로젝트 및 구독을 선택합니다.</block>
   <block id="fff6f5125be05a94543d2e88dbd30b27" category="inline-image-macro">Google Cloud 자격 증명을 위해 선택한 Google Cloud 프로젝트 및 가입 스크린샷</block>
   <block id="cab980518d03aa36afc924b709828a6e" category="paragraph"><block ref="cab980518d03aa36afc924b709828a6e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1c3692898f95f79b425ac8b50f45bb06" category="list-text">아직 구독이 없는 경우 * 구독 추가 * 를 클릭하고 아래 단계에 따라 새 구독을 만듭니다.</block>
-  <block id="e34e3eb07d03eff321019c85029cb441" category="inline-image-macro">구독 팝업의 스크린샷.</block>
-  <block id="1c258a9e8501efe4f4ce95f3fd83a245" category="paragraph"><block ref="1c258a9e8501efe4f4ce95f3fd83a245" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8b5c3e503fd0da73cc8d1592a1ccbb6e" category="inline-image-macro">GCP CVO 마켓플레이스 페이지의 스크린샷</block>
   <block id="ea161d25d0a04de5fa898ead6a9bccaa" category="paragraph"><block ref="ea161d25d0a04de5fa898ead6a9bccaa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="85bb97cf1fc6a37ea1a5e97e0e2e1a8b" category="list-text">구독 * 을 클릭합니다.</block>
   <block id="861c99531853674511342d75aef34187" category="list-text">적절한 청구 계정을 선택하고 이용 약관에 동의합니다.</block>
-  <block id="49dc469db7329172e0cd98944810877d" category="inline-image-macro">GCP 약관 스크린샷</block>
-  <block id="293c9c122116ad2c263a6ddbe4831cb0" category="paragraph"><block ref="293c9c122116ad2c263a6ddbe4831cb0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ca4f48bdc60c2a16dd59109486af30ee" category="paragraph">이 단계에서는 전송 요청을 NetApp에 전송합니다.</block>
   <block id="e3d03a33db92a9024d72af3cae4684fd" category="inline-image-macro">등록 팝업 스크린샷.</block>
   <block id="6373a7d66fb33193565645f81635ec0c" category="paragraph"><block ref="6373a7d66fb33193565645f81635ec0c" category="inline-image-macro-rx" type="image"></block></block>
@@ -2263,7 +2257,6 @@
   <block id="7a0df3203d8f6522d2b39b5f4c38db03" category="admonition">다음 단계를 완료하기 전에 Google Cloud 계정과 BlueXP 로그인에 Billing Admin 권한이 모두 있는지 확인하십시오.</block>
   <block id="cdcf076c3fd3e62a3c7e3691d02894db" category="inline-link">Google Cloud 마켓플레이스의 NetApp BlueXP 페이지</block>
   <block id="b7e7a20500f8489bfa6b8a559c74a1d4" category="list-text">로 리디렉션된 후<block ref="d9d3d72c24d9b3446210d5b539c6bbf5" category="inline-link-rx"></block>상단 탐색 메뉴에서 올바른 프로젝트가 선택되어 있는지 확인합니다.</block>
-  <block id="10e61096cba50402ef6cb31c1b17e8ae" category="list-text">팝업 대화 상자에서 * NetApp, Inc. * 등록 을 클릭하여 NetApp BlueXP 웹 사이트로 리디렉션합니다.</block>
   <block id="4314e9e91f1c1e76df01e49490b3367e" category="inline-link">BlueXP 웹 사이트의 Cloud Volumes ONTAP 페이지</block>
   <block id="5894b1931d65e9796cc25db1bb6fd566" category="list-text">이 프로세스가 완료되면 BlueXP의 자격 증명 페이지로 돌아가서 이 새 구독을 선택합니다.</block>
   <block id="9da5b2b6ec24e29a79e40e816340c98d" category="paragraph">Google 클라우드 마켓플레이스를 통해 Cloud Volumes ONTAP를 구독하는 경우 권한이 잘못되거나 BlueXP 웹 사이트로 리디렉션되는 것을 실수로 수행하지 않아 조각화될 수 있습니다. 이 경우 다음 단계를 사용하여 구독 프로세스를 완료합니다.</block>
@@ -2826,17 +2819,12 @@
   <block id="35189ab5714b42941b6c22320f395243" category="list-text">자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 구독을 선택하고 * Associate * 를 클릭합니다.</block>
   <block id="7f024bcfe9b965209454c94e48004d5d" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 클릭하고 Azure 마켓플레이스의 단계를 따릅니다.</block>
   <block id="7dffa6296286b12f66d638f53340316c" category="list-text">메시지가 표시되면 Azure 계정에 로그인합니다.</block>
-  <block id="229d7258c60456f36a718cd138813888" category="list-text">양식을 작성하고 * Subscribe * 를 클릭합니다.</block>
-  <block id="a6f968ccb979a102bb5ce0538b9f2456" category="list-text">알림 * 을 클릭하고 알림의 링크를 클릭하여 계정을 구성합니다.</block>
-  <block id="daa4df96e26fea6c1270d01a4426eab1" category="list-text">계정 구성 * 을 클릭합니다.</block>
   <block id="344ece1ef43a9e3bbb281e15f3df6442" category="paragraph">BlueXP 웹 사이트로 이동합니다.</block>
   <block id="cb735ebf950ed5c7902b507f70582bd3" category="list-text">[구독 할당 *] 페이지에서:</block>
   <block id="761b37459e9daab0f25c3e9b5edfd370" category="list-text">이 구독을 연결할 NetApp 계정을 선택합니다.</block>
   <block id="e0c62276bada3b5536cceb070664c871" category="list-text">기존 구독 바꾸기 * 필드에서 하나의 계정에 대한 기존 구독을 이 새 구독으로 자동 대체할지 여부를 선택합니다.</block>
   <block id="23d838dbd51becc56367e6d9358b446e" category="paragraph">BlueXP는 계정의 모든 자격 증명에 대한 기존 구독을 이 새 구독으로 대체합니다. 자격 증명 집합이 구독과 연결되지 않은 경우 이 새 구독은 해당 자격 증명과 연결되지 않습니다.</block>
   <block id="b4676b03cb1388f474b207b449af0dc2" category="paragraph">다른 모든 계정의 경우 이 단계를 반복하여 구독을 수동으로 연결해야 합니다.</block>
-  <block id="ef545e4a852035275622b3ad9df636de" category="inline-image-macro">이 구독을 하나 이상의 계정에 연결하고 해당 계정 중 하나의 기존 구독을 대체하도록 선택할 수 있는 구독 할당 페이지의 스크린샷.</block>
-  <block id="56884c9225391e21aea7cf42dd6f7bd5" category="paragraph"><block ref="56884c9225391e21aea7cf42dd6f7bd5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4a4cfdd3c4b047c552e6626beca055d3" category="summary">BlueXP를 시작할 때 첫 번째 단계는 등록하는 것입니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다.</block>
   <block id="156c302d186fc36d9d944c5d74b971af" category="doc">BlueXP에 등록하십시오</block>
   <block id="a6da179f46168e9455ae7e15202c1a47" category="paragraph-title">정부 지역에 대한 참고 사항</block>
@@ -2861,8 +2849,6 @@
   <block id="e079acaa326ddf3b1cb6ee167cce08f4" category="paragraph"><block ref="e079acaa326ddf3b1cb6ee167cce08f4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20653d224bca9fb40181f3916e4f643d" category="list-text">계정 만들기 * 를 선택합니다.</block>
   <block id="2f0488f8a3ca91699637c323ed3b7ae7" category="paragraph">이제 BlueXP 로그인 및 계정이 있습니다. 대부분의 경우 다음 단계는 BlueXP의 서비스를 하이브리드 클라우드 환경에 연결하는 Connector를 만드는 것입니다.</block>
-  <block id="c12be2d5c6d53ffeba2b81d18475c007" category="list-text">구독 단계를 검토하고 * 계속 * 을 클릭합니다.</block>
-  <block id="5f6337397041d9f655e961c010a87fdc" category="paragraph"><block ref="5f6337397041d9f655e961c010a87fdc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e5d34a7be7e3c957d955b41f31cc1b6b" category="admonition">조직의 누군가가 청구 계정에서 NetApp BlueXP 구독을 이미 구독한 경우 으로 리디렉션됩니다<block ref="35e104e3e4686d9ee172091b57b45bc0" category="inline-link-rx"></block> 대신 예기치 않은 상황인 경우 NetApp 세일즈 팀에 문의하십시오. Google은 Google 청구 계정당 하나의 가입만 활성화합니다.</block>
   <block id="18ed152ca3e6d97795e3c62f29f14fa3" category="inline-link">BlueXP 알림에 대해 알아보십시오</block>
   <block id="aea5351abe13a2ef43df184a5caed50e" category="paragraph">BlueXP는 커넥터 전원이 14일 이상 꺼졌으면 사용자에게 알립니다.<block ref="e16712c557ed9121be1392c11d3884a1" category="inline-link-rx"></block>.</block>
@@ -2903,9 +2889,7 @@
   <block id="61130fb01406e968937613de0add552f" category="inline-image-macro">세 개의 세로 점이 있는 아이콘</block>
   <block id="86687429f8938a809fc671fe296b1bcc" category="paragraph">모든 알림을 해제하려면 알림 센터에서 을 클릭합니다 <block ref="bfe50e4fac5e58634c6fb748dce94758" category="inline-image-macro-rx" type="image"></block> 를 선택하고 * 모두 해제 * 를 선택합니다.<block ref="e49bd0cb9810a0678258a0ab07786c5e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0da34741c0fedd26eb889170d87be2c7" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 클릭하고 AWS 마켓플레이스의 단계를 따릅니다.</block>
-  <block id="6ce481dcdc8134b6b4c81db0911f0267" category="list-text">구독 * 으로 계속 * 을 클릭합니다.</block>
   <block id="c75b8cac68776a239e8da30928fbc723" category="list-text">계정 설정 * 을 클릭합니다.</block>
-  <block id="1b71aaa72599faca0c9974618a3c749d" category="paragraph"><block ref="1b71aaa72599faca0c9974618a3c749d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2d362fb636ab4e2644720f00f02ddbfb" category="summary">BlueXP에 등록하면 SaaS 기반 사용자 인터페이스를 통해 웹 브라우저에서 로그인할 수 있습니다.</block>
   <block id="f2209a6bc960d5dd3350ca4b5b662c18" category="inline-link-macro">BlueXP에 등록하고 조직을 만드는 방법에 대해 알아보십시오</block>
   <block id="2a319fe0bd9ba8ece64b79d59a233b15" category="paragraph"><block ref="8c767825ada5127971c09f228e56d843" category="inline-link-macro-rx"></block>.</block>
@@ -2917,4 +2901,13 @@
   <block id="8a7c8d2028930eaef2c3f44925994051" category="list-text">NetApp 클라우드 자격 증명: 암호를 입력합니다</block>
   <block id="a02705346febd77df5680fe2f12343a9" category="list-text">통합 사용자: 통합 ID 자격 증명을 입력합니다</block>
   <block id="24bdc2b22d38abff9ff97a9c5b5e7966" category="list-text">NetApp Support 사이트 계정: NetApp Support 사이트 자격 증명을 입력합니다</block>
+  <block id="078d62005d56b885b14c45dcfcd16082" category="list-text">양식을 작성하고 * Subscribe * 를 클릭합니다.</block>
+  <block id="ac66d82c89aefbe9c31ed8fe6308233a" category="list-text">가입 프로세스가 완료되면 * 지금 계정 구성 * 을 클릭합니다.</block>
+  <block id="89d8b3b4c08395fc5dbef0d35cb50529" category="paragraph">다음 비디오에서는 Azure 마켓플레이스에서 구독하는 단계를 보여 줍니다.</block>
+  <block id="978deed4db0f89cc0f25e6998d8c5ede" category="list-text">자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 Google Cloud 프로젝트 및 구독을 선택한 다음 * Associate * 를 클릭합니다.</block>
+  <block id="b46cc5bd37bd52a5b31b40b8ff054c3d" category="list-text">아직 구독이 없는 경우 * 구독 추가 &gt; 계속 * 을 클릭하고 Google Cloud Marketplace의 단계를 따릅니다.</block>
+  <block id="8e43471beda7327a078697a498a253ca" category="list-text">팝업 대화 상자에서 * Register with NetApp, Inc. * 를 클릭합니다</block>
+  <block id="825c72d4114a9a71a355213f6b79c642" category="list-text">구독 할당 * 페이지의 단계를 완료합니다.</block>
+  <block id="a6b7d96f53186edb463f8f8611f97cd9" category="paragraph">다음 비디오에서는 Google Cloud Marketplace를 구독하는 단계를 보여줍니다.</block>
+  <block id="1c1c040e218e35ae634138db5c2055f4" category="list-text">구매 옵션 보기 * 를 클릭합니다.</block>
 </blocks>
