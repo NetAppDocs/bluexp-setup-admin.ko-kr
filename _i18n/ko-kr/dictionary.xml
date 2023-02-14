@@ -1485,7 +1485,6 @@
   <block id="b18a2220ba0da795c31cbb6cd990fd49" category="list-text">KMS: 목록 *</block>
   <block id="2101c43af42db107614da3d2faadb4dc" category="list-text">KMS: 설명 *</block>
   <block id="53cfd5032381d05f65cbc6d64e0004f5" category="list-text">S3:GetObject</block>
-  <block id="9072562ed0b0a146d2eee12aaa27baf4" category="list-text">EC2: desceverVpcEndpoints입니다</block>
   <block id="276e466538acff21910df6227231c79f" category="list-text">KMS: ListAliases</block>
   <block id="599a8ceed768fab9cc6e39dff7c9f215" category="list-text">S3:PutEncryptionConfiguration</block>
   <block id="21eddde0f415ffe52f38d432d14088c9" category="paragraph">Connector는 검색 및 복원 방법을 사용하여 볼륨 및 파일을 복원할 때 다음과 같은 API 요청을 수행합니다.</block>
@@ -2910,4 +2909,9 @@
   <block id="825c72d4114a9a71a355213f6b79c642" category="list-text">구독 할당 * 페이지의 단계를 완료합니다.</block>
   <block id="a6b7d96f53186edb463f8f8611f97cd9" category="paragraph">다음 비디오에서는 Google Cloud Marketplace를 구독하는 단계를 보여줍니다.</block>
   <block id="1c1c040e218e35ae634138db5c2055f4" category="list-text">구매 옵션 보기 * 를 클릭합니다.</block>
+  <block id="8258ac0fb8b015087851de720e92f796" category="list-text">EC2: DescribeVpcEndpoints</block>
+  <block id="1be1ae3d277ebf372ecefda4d444dbbb" category="section-title">2023년 2월 14일</block>
+  <block id="fae746653dec0583228106493b15ac1a" category="paragraph">이제 Cloud Tiering에 다음 권한이 필요합니다.</block>
+  <block id="296337985ff5f0cc398e02f1aff0b176" category="paragraph">Connector가 구내에 설치되어 있으면 이 인증 방법을 사용할 수 없습니다. AWS 키를 사용해야 합니다.</block>
+  <block id="a4a42c8639c0aa2e10cb3a3eaaae664b" category="paragraph">Connector가 구내에 설치된 경우 이 인증 방법을 사용해야 합니다. IAM 역할을 사용할 수 없습니다.</block>
 </blocks>

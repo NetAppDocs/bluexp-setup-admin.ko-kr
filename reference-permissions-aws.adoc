@@ -183,7 +183,7 @@ AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector�
                 "cloudformation:DescribeStacks",
                 "kms:List*",
                 "kms:Describe*",
-                "ec2:describeVpcEndpoints",
+                "ec2:DescribeVpcEndpoints",
                 "kms:ListAliases",
                 "athena:StartQueryExecution",
                 "athena:GetQueryResults",
@@ -745,7 +745,7 @@ Connector는 Amazon S3에서 백업을 관리하기 위해 다음과 같은 API 
 * KMS: 목록 *
 * KMS: 설명 *
 * S3:GetObject
-* EC2: desceverVpcEndpoints입니다
+* EC2: DescribeVpcEndpoints
 * KMS: ListAliases
 * S3:PutEncryptionConfiguration
 
@@ -883,7 +883,10 @@ Connector는 Cloud Tiering을 사용할 때 Amazon S3에 데이터를 계층화�
 | S3:GetLifecycleConfiguration | 예 | 예 
 
 
-| EC2: 설명 | 예 | 예 
+| EC2: 설명 | 예 | 아니요 
+
+
+| EC2: DescribeVpcEndpoints | 예 | 아니요 
 |===
 
 
@@ -1191,7 +1194,7 @@ Connector는 ONTAP용 FSx를 관리하기 위해 다음과 같은 API 요청을 
 * EC2: DescribeTags(설명 태그)
 * EC2: DescribeIamInstanceProfileAssociations
 * EC2: DescribeReservedInstancesOffbised
-* EC2: desceverVpcEndpoints입니다
+* EC2: DescribeVpcEndpoints
 * EC2: 설명
 * EC2: 볼륨 수정 설명
 * EC2: DescribePlacementGroups
@@ -1222,3 +1225,17 @@ Connector는 다음과 같은 API 요청을 수행하여 Amazon EKS 클러스터
 Connector는 Amazon S3 버킷을 검색하기 위해 다음과 같은 API 요청을 수행합니다.
 
 S3:GetEncryptionConfiguration
+
+
+
+== 변경 로그
+
+권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2023년 2월 14일
+
+이제 Cloud Tiering에 다음 권한이 필요합니다.
+
+EC2: DescribeVpcEndpoints

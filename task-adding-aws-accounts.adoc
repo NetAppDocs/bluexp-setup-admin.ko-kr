@@ -73,6 +73,8 @@ NOTE: BlueXP에서 커넥터를 배포한 경우, BlueXP는 Connector를 배포�
 
 IAM 역할을 사용하여 Connector 인스턴스를 구축한 소스 AWS 계정과 다른 AWS 계정 간에 신뢰 관계를 설정할 수 있습니다. 그런 다음 신뢰할 수 있는 계정의 IAM 역할 ARN을 BlueXP에 제공합니다.
 
+Connector가 구내에 설치되어 있으면 이 인증 방법을 사용할 수 없습니다. AWS 키를 사용해야 합니다.
+
 .단계
 . Connector에 권한을 제공하려는 대상 계정의 IAM 콘솔로 이동합니다.
 . 액세스 관리에서 * 역할 > 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.
@@ -96,6 +98,8 @@ IAM 역할을 사용하여 Connector 인스턴스를 구축한 소스 AWS 계정
 ==== AWS 키를 제공하여 권한을 부여합니다
 
 BlueXP에 IAM 사용자를 위한 AWS 키를 제공하려면 해당 사용자에게 필요한 권한을 부여해야 합니다. BlueXP IAM 정책은 BlueXP에서 사용할 수 있는 AWS 작업 및 리소스를 정의합니다.
+
+Connector가 구내에 설치된 경우 이 인증 방법을 사용해야 합니다. IAM 역할을 사용할 수 없습니다.
 
 .단계
 . IAM 콘솔에서 의 내용을 복사하여 붙여 넣어 정책을 생성합니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
