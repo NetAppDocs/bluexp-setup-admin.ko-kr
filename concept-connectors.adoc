@@ -119,7 +119,7 @@ BlueXP 계정 관리자는 다음과 같은 다양한 방법으로 커넥터를 
 * 자체 Linux 호스트에 소프트웨어를 수동으로 설치합니다
 +
 ** link:task-installing-linux.html["인터넷에 액세스할 수 있는 호스트"]
-** link:task-install-connector-onprem-no-internet.html["인터넷에 액세스할 수 없는 온프레미스 호스트입니다"]
+** link:task-install-connector-onprem-no-internet.html["인터넷에 액세스할 수 없는 위치에 있는 호스트"]
 
 
 * 더 높은 경쟁력을 강화할 수 있습니다

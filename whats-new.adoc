@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
-summary: 'NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP(이전의 Cloud Manager) 관리 기능의 새로운 기능에 대해 알아보십시오.' 
+summary: NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능의 새로운 기능에 대해 알아보십시오. 
 ---
 = 새로운 기능
 :hardbreaks:
@@ -14,7 +14,47 @@ summary: 'NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 
 
 
 [role="lead"]
-NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP(이전의 Cloud Manager) 관리 기능의 새로운 기능에 대해 알아보십시오.
+NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2023년 3월 5일
+
+
+
+=== 커넥터 3.9.27
+
+* 이제 BlueXP 콘솔에서 검색을 사용할 수 있습니다. 현재 검색을 사용하여 BlueXP 서비스 및 기능을 찾을 수 있습니다.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-search.png["콘솔 상단에 있는 BlueXP 검색 스크린샷."]
+
+* BlueXP에서 직접 활성 및 해결된 지원 사례를 보고 관리할 수 있습니다. NSS 계정 및 회사와 관련된 케이스를 관리할 수 있습니다.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manage-your-support-cases["지원 사례를 관리하는 방법에 대해 알아보십시오"].
+
+* Connector는 현재 Red Hat Enterprise Linux 8.7을 실행하는 호스트에서 지원됩니다.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["커넥터에 대한 시스템 요구 사항을 봅니다"].
+
+* Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.
++
+클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.
+
++
+시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.
+
++
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["인터넷에 연결되지 않은 위치에 커넥터를 설치합니다"^]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#access-the-local-ui["커넥터의 BlueXP 콘솔에 액세스합니다"^]
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html#manage-byol-licenses["할당되지 않은 라이센스를 추가합니다"^]
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP를 시작하십시오"^]
+
+
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-march-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+
+
 
 
 

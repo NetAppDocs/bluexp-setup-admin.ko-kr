@@ -318,11 +318,7 @@
   <block id="322812be635bbd80fb94dbae450a00b4" category="paragraph">특정 작업을 수행한 사람을 확인해야 하거나 작업의 상태를 확인해야 하는 경우 시간 표시 막대를 확인하는 것이 도움이 됩니다.</block>
   <block id="b505fc306e045c1511c6f1d37531ee7f" category="list-text">필터 아래에서 * 서비스 * 를 클릭하고 * 임차 * 를 활성화한 다음 * 적용 * 을 클릭합니다.</block>
   <block id="7aa6a4ffdbdc6eccd7f131257c7de6a8" category="paragraph">계정 관리 작업이 표시되도록 타임라인이 업데이트됩니다.</block>
-  <block id="5cc47ef6d684116dbea75fa5016faf05" category="summary">NSS(NetApp Support Site) 계정의 자격 증명을 제공하여 Cloud Volumes ONTAP의 주요 워크플로우를 활성화하고 Active IQ를 통해 예측 분석 및 사전 지원을 활성화합니다.</block>
-  <block id="3cd40b4bad86322191adf034be9f7873" category="list-text">BYOL(Bring Your Own License) 방식으로 Cloud Volumes ONTAP 구축</block>
-  <block id="641d05ccafb217ba1d71672a604e42a8" category="list-text">선불 종량제 Cloud Volumes ONTAP 시스템을 등록합니다</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">NSS 계정을 제공하면 시스템에 대한 지원을 활성화하고 NetApp 기술 지원 리소스에 액세스할 수 있습니다.</block>
-  <block id="1d82e88d22e4fb3ffa42a186537412b7" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드합니다</block>
   <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS 계정을 추가합니다</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
   <block id="357be4e47fe6e7132dca092006062510" category="paragraph"><block ref="357be4e47fe6e7132dca092006062510" category="inline-image-macro-rx" type="image"></block></block>
@@ -330,7 +326,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
   <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">AWS에서 Cloud Volumes ONTAP 실행</block>
   <block id="3e33b81f05bb640dee79c5aa4e351c91" category="list-text"><block ref="3e33b81f05bb640dee79c5aa4e351c91" category="inline-link-rx"></block></block>
   <block id="7ca1af679f0ba86814f2ad58a578cb7c" category="inline-link">Azure에서 Cloud Volumes ONTAP 실행</block>
@@ -687,9 +682,6 @@
   <block id="876f62e75a1f45f9bc7d03ac9a0db173" category="paragraph">32는 예제 값입니다. 사용할 값은 NAT 구성과 동시에 사용할 수 있는 세션 수에 따라 다릅니다.</block>
   <block id="4ae719205766e20198cc595136cbf10c" category="inline-link">/occm/config API 호출에 대해 자세히 알아보십시오</block>
   <block id="a1e38cfa12dff31d370faa5e9e31c16d" category="paragraph"><block ref="4c1ec6626d4216a927415f20603af4bb" category="inline-link-rx"></block>.</block>
-  <block id="2772d58af2fcb3e8fca3edab506433e9" category="section-title">인터넷에 접속하지 않고 Connector를 사내에서 업그레이드합니다</block>
-  <block id="76c2612a71749b97c90759d496bc4eba" category="inline-link-macro">인터넷에 액세스할 수 없는 온프레미스 호스트에 커넥터를 설치했습니다</block>
-  <block id="a0a7d617caaec7a4009bf929e1c9de72" category="paragraph">있다면 <block ref="3724bc4909d5db79bc2030cfc2db7249" category="inline-link-macro-rx"></block>, 최신 버전이 NetApp Support 사이트에서 제공되는 경우 Connector를 업그레이드할 수 있습니다.</block>
   <block id="7dad5aa897582994eeb9cb487acf31ea" category="paragraph">업그레이드 프로세스 중에 커넥터를 다시 시작해야 업그레이드 중에 사용자 인터페이스를 사용할 수 있습니다.</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support 사이트</block>
   <block id="0d5d3e78379f182967772aab096aa6ac" category="list-text">Linux 호스트에 설치 프로그램을 복사합니다.</block>
@@ -774,8 +766,6 @@
   <block id="5e004583c62c40cba943716ab5c82a0d" category="list-text">자체 Linux 호스트에 소프트웨어를 수동으로 설치합니다</block>
   <block id="eb2793ba4e7b262ec587a9f189d21e72" category="inline-link-macro">인터넷에 액세스할 수 있는 호스트</block>
   <block id="756d0d2041b19ecadfb8aad8627bf747" category="list-text"><block ref="756d0d2041b19ecadfb8aad8627bf747" category="inline-link-macro-rx"></block></block>
-  <block id="cbbe966aefd5924ef451af7da66257ee" category="inline-link-macro">인터넷에 액세스할 수 없는 온프레미스 호스트입니다</block>
-  <block id="e3cbbeded92eab3ebcd3efafd65ce209" category="list-text"><block ref="e3cbbeded92eab3ebcd3efafd65ce209" category="inline-link-macro-rx"></block></block>
   <block id="91ec75afa8db310b2f8dd16755657857" category="list-text">더 높은 경쟁력을 강화할 수 있습니다</block>
   <block id="ed949d24ab11f0d2a40c0b8161ab4cf3" category="list-text"><block ref="ed949d24ab11f0d2a40c0b8161ab4cf3" category="inline-link-macro-rx"></block></block>
   <block id="21e74b3c28d006317f38a2bc8eb1da3b" category="inline-link-macro">Azure 마켓플레이스 를 참조하십시오</block>
@@ -974,7 +964,6 @@
   <block id="342df35452bbec008148c714d47038f6" category="list-text">주문에 시계 및 * 보류 * 상태가 표시되면 마켓플레이스 페이지로 돌아가서 * 공급자 관리 * 를 선택하여 위에 설명된 프로세스를 완료합니다.</block>
   <block id="9547217bb6aa822040056cba67310321" category="inline-image-macro">보류 중인 마켓플레이스 소유 권한의 스크린샷.</block>
   <block id="e6ec8d6dff39d45a9056311495699cef" category="paragraph"><block ref="e6ec8d6dff39d45a9056311495699cef" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="424a4bbc5d90882baf6dfd31a70caf62" category="doc">인터넷에 접속하지 않고 커넥터를 내부에 설치합니다</block>
   <block id="92241232df0720bddf843b8b16c8be1a" category="paragraph">이러한 설치 지침은 위에서 설명한 사용 사례를 위한 것입니다. <block ref="f56df5f8b4fd558a7482d6115403eadd" category="inline-link-macro-rx"></block>.</block>
   <block id="93144470251168b3e5488b736447f48f" category="section-title">호스트 요구 사항을 확인합니다</block>
   <block id="f6c634614114f28ad6651cf4345c81a6" category="paragraph">Connector 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 포트 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다.</block>
@@ -984,14 +973,6 @@
   <block id="379f39ccee41ac65b6cdfb0734a7098c" category="list-text">코어 4개 또는 vCPU 4개</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="list-text">RAM</block>
   <block id="bbf3330385f894cd7bd34b34e4c36d6c" category="list-text">지원되는 운영 체제</block>
-  <block id="17095cfe60ed8524003ea5bde611c4ea" category="list-text">CentOS 7.6</block>
-  <block id="b0a4a3d9e04daf57d04de7ad03004279" category="list-text">CentOS 7.7</block>
-  <block id="1f880a0709e66557fee307fd4eccd811" category="list-text">CentOS 7.8</block>
-  <block id="2d4e0d903d85884dcb41f49d855fce57" category="list-text">CentOS 7.9</block>
-  <block id="bc2d60e50368b206380016cb6576edda" category="list-text">Red Hat Enterprise Linux 7.6</block>
-  <block id="935b9daeec310c8e2291d043d3e14f44" category="list-text">Red Hat Enterprise Linux 7.7</block>
-  <block id="359770104fc0e772f479949c0511abfa" category="list-text">Red Hat Enterprise Linux 7.8</block>
-  <block id="efdefb5589146725b584d2c0c715c9b3" category="list-text">Red Hat Enterprise Linux 7.9</block>
   <block id="db0e685f184a31c6a4657a29d4d74973" category="paragraph">Red Hat Enterprise Linux 시스템은 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 시스템은 Connector 설치 중에 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.</block>
   <block id="1aa77ca522dde8d598ae9c2372a7494b" category="paragraph">Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.</block>
   <block id="1b21b0d71706897b69f108572c444d40" category="list-text">하이퍼바이저</block>
@@ -1212,7 +1193,6 @@
   <block id="59a9ba18ee55c4e977e8be81c488ec04" category="sidebar">AWS Marketplace에서 생성</block>
   <block id="b6ffdcd8501e6eb2e45e1715d00da4f5" category="sidebar">Azure Marketplace에서 생성</block>
   <block id="e48c1f5d2aaae000a24e0a16d0a46a0f" category="sidebar">인터넷을 사용하여 자신의 호스트에 설치합니다</block>
-  <block id="eee9d9f3c554fc2dd0a524cf80ec3396" category="sidebar">인터넷 없이 온-프레미스에 설치합니다</block>
   <block id="4d23d12ce4b0de2019310ec73c45d09b" category="sidebar">커넥터의 시스템 ID를 찾습니다</block>
   <block id="dd6f576fe34949ea5c3d4b196b2c626d" category="sidebar">기존 커넥터 관리</block>
   <block id="7c584a16cbf4210dc0a344179e274e09" category="sidebar">기본 구성</block>
@@ -1368,7 +1348,6 @@
   <block id="2027473f3ca71543274163d3bb9dd8e1" category="list-text"><block ref="2027473f3ca71543274163d3bb9dd8e1" category="inline-link-rx"></block></block>
   <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오</block>
   <block id="f0aff813a70ef2591adfbb6a1a06b553" category="list-text"><block ref="f0aff813a70ef2591adfbb6a1a06b553" category="inline-link-rx"></block></block>
-  <block id="bea9d9e1b3f9260b5dafbfee794aead7" category="summary">인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 설치할 수 있습니다. 그런 다음, 온프레미스 ONTAP 클러스터를 검색하고, 클러스터 간에 데이터를 복제하고, 클라우드 백업을 사용하여 볼륨을 백업하고, 클라우드 데이터 센스로 검색할 수 있습니다.</block>
   <block id="89b945901df4999cfbb07b91df7f3e83" category="inline-link">클라우드 백업을 사용하여 사내 ONTAP 볼륨 데이터를 StorageGRID에 백업합니다</block>
   <block id="0ef5e09df96e6b4d97470a69c3a5bb03" category="list-text"><block ref="0ef5e09df96e6b4d97470a69c3a5bb03" category="inline-link-rx"></block></block>
   <block id="c6e51205c48cc37a7cc66b973d442adf" category="inline-link">클라우드 데이터 센스를 사용하여 온프레미스 ONTAP 볼륨 데이터를 스캔합니다</block>
@@ -1894,8 +1873,6 @@
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
-  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다. 이 ID는 이메일에 매핑되는 시스템에서 생성된 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
-  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴. 이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다.</block>
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">NetApp에 등록</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
@@ -1943,7 +1920,6 @@
   <block id="893b6747ffabae1d7bbd6d266f24c4ab" category="section-title">공유 VPC 권한 설정</block>
   <block id="17d9282186c2451db90a83330e5c9d7b" category="list-text"><block ref="17d9282186c2451db90a83330e5c9d7b" category="inline-link-macro-rx"></block></block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
-  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="6c73104e218372ccda6dc2d58fda524d" category="paragraph">예를 들어, Connector는 Cloud Volumes ONTAP의 상태 및 작동에 있어 핵심 구성 요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.</block>
   <block id="b9c53fca7bb84d0455a2b4768b130e38" category="admonition">Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.</block>
   <block id="2538b2df52d923f09592be3b38238322" category="list-text">14GB</block>
@@ -2297,24 +2273,13 @@
   <block id="4b8d6d1554d22a2bda6470094c227037" category="paragraph">BlueXP는 Cloud Volumes ONTAP의 새 작업 환경을 만들 때 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.</block>
   <block id="79f0e2a1f0b9a07786aae7969fdf941c" category="paragraph">그러면 됩니다 <block ref="fdb068e0f25207f010bf6b52e6d7dd53" category="inline-link-macro-rx"></block> AD 서비스 보안 주체에 대한 세부 정보를 제공합니다.</block>
   <block id="4ac30ed8a8abb75a74c2afca163c3250" category="paragraph">위 섹션에서는 BlueXP의 커넥터에 권장되는 배포 방법에 대해 설명합니다. 에서 Azure에 Connector를 배포할 수도 있습니다 <block ref="42416828ae8ae7a901a48c71094e7a44" category="inline-link-macro-rx"></block>, 그리고 당신은 할 수 있다 <block ref="562eb722c78878c7a1bcbac21fbdef4a" category="inline-link-macro-rx"></block>.</block>
-  <block id="3b2c928529c58de342d4ce57a573030b" category="doc">BlueXP에서 NetApp Support 사이트 계정을 추가하고 관리합니다</block>
   <block id="333c244077c4c3df40d39cbb97f94995" category="paragraph">NSS(NetApp Support 사이트) 계정에 대한 자격 증명을 제공하여 지원을 등록하고 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다.</block>
-  <block id="60ca5d243604b7893152fa6c4e082601" category="paragraph">다음 작업을 사용하려면 BlueXP에 NetApp Support 사이트 계정을 추가해야 합니다.</block>
-  <block id="b1be5f2baf7b68dcca8fa31518602a38" category="list-text">지원을 등록하려면</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">BlueXP에서 사용권 키를 업로드하고 구입한 용어에 대한 구독을 활성화하려면 NSS 계정을 제공해야 합니다. 여기에는 기간 갱신을 위한 자동 업데이트가 포함됩니다.</block>
-  <block id="8b45fdd7e598db2464922c534af8581b" category="paragraph">또한 BlueXP에서 디지털 어드바이저(이전의 Active IQ)를 사용하려면 NSS 자격 증명을 입력해야 합니다. 이러한 자격 증명은 사용자 계정과 직접 연결되며 Digital Advisor에서만 사용할 수 있습니다. 다음 섹션에서 자세한 내용을 검토하십시오.</block>
-  <block id="e45884eb97ffee5d4246b789a0b594f3" category="section-title">Digital Advisor와 연결된 NSS 계정을 관리합니다</block>
   <block id="b34d01d56d89281c69c44eaef7460a79" category="paragraph">BlueXP의 Digital Advisor에 액세스하면 NSS 자격 증명을 입력하여 Digital Advisor에 로그인하라는 메시지가 표시됩니다. NSS 자격 증명을 입력하면 NSS 관리 페이지 맨 위에 이 NSS 계정이 나열됩니다. 그런 다음 필요에 따라 자격 증명을 관리할 수 있습니다.</block>
   <block id="60f184ee8b252ec5284ca4bfc102c193" category="paragraph">이 NSS 계정에 대한 다음 사항을 참고하십시오.</block>
   <block id="37cb0cdf24a1597d838bc5f1699b9e5a" category="list-text">계정은 사용자 수준에서 관리되므로 로그인한 다른 사용자가 볼 수 없습니다.</block>
-  <block id="e2a854ed97334bfe190a5004c6992a10" category="list-text">이 계정은 Cloud Volumes ONTAP 생성, 라이센스 등록 또는 지원이 아닌 다른 BlueXP 기능과 함께 사용할 수 없습니다.</block>
-  <block id="7cdc37cd26e80c9dee2fb7d28a83f9ee" category="list-text">사용자당 Digital Advisor와 연결된 NSS 계정은 하나만 있을 수 있습니다.</block>
   <block id="3793cae33028a6b75ab0ca8130ca6a9d" category="list-text">NSS 자격 증명 * 에서 * 작업 * 을 클릭하고 다음 옵션 중 하나를 선택합니다.</block>
-  <block id="1f7880842a7d0a07086c42d41eae4faa" category="list-text">* NSS 사용자 연결 *: BlueXP의 디지털 어드바이저에 액세스할 수 있도록 NetApp Support 사이트 계정에 대한 자격 증명을 추가합니다.</block>
   <block id="fe11914cdc8e174bef64d941a9b88b00" category="list-text">* 기존 자격 증명 업데이트 *: NetApp Support 사이트 계정의 자격 증명을 업데이트합니다.</block>
-  <block id="633c5baa1b3f4fa5a0ca89d3296fc26d" category="list-text">* 삭제 *: 디지털 어드바이저와 연결된 계정을 제거합니다.</block>
-  <block id="3f54153a94aa4008ec37f11d357a708b" category="paragraph">BlueXP는 Digital Advisor와 관련된 NSS 계정을 업데이트합니다.</block>
-  <block id="7a68553535df91a6e97b134352b077bf" category="paragraph">지원 대시보드를 통해 NetApp 어카운트 레벨에서 BlueXP에 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.</block>
   <block id="5d7e9ca2f0be827f29d91dca2f767f7f" category="paragraph">이제 사용자는 새 Cloud Volumes ONTAP 시스템을 생성할 때, 기존 Cloud Volumes ONTAP 시스템을 등록할 때, 그리고 지원을 위해 등록할 때 계정을 선택할 수 있습니다.</block>
   <block id="759f5e4f5dca6e6753e9254efed21ea1" category="paragraph">2021년 11월부터 NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다. 이 업데이트의 결과로 BlueXP는 이전에 추가한 기존 계정의 자격 증명을 업데이트하라는 메시지를 표시합니다.</block>
   <block id="90488de845793cd541dd12866e86b44a" category="paragraph">다음 중 하나가 발생할 경우 BlueXP의 NSS 계정에 대한 자격 증명을 업데이트해야 합니다.</block>
@@ -2353,7 +2318,6 @@
   <block id="7c9eb12f4e4956c9ae85861da03d5799" category="summary">정부 지역에서 운영하는 경우 클라우드 공급자의 마켓플레이스에서 또는 수동 설치 방법을 사용하여 Connector를 배포해야 합니다. BlueXP의 SaaS 웹 사이트에서 정부 지역에 Connector를 배포할 수 없습니다.</block>
   <block id="696e2f2c399b40c0fb12aafa86f0ccbc" category="paragraph">자체 Linux 호스트에 수동으로 설치하려면 "온라인" 설치 프로그램을 사용하여 인터넷에 액세스할 수 있는 호스트에 커넥터를 설치해야 합니다. Connector에 대해 별도의 "오프라인" 설치 프로그램을 사용할 수 있지만 인터넷에 액세스할 수 없는 사내 사이트에서만 지원됩니다. 정부 지역에서는 지원되지 않습니다.</block>
   <block id="7a0d13f990c1c9af75d6fae4c9ff04ff" category="paragraph">Connector를 배포한 후 웹 브라우저를 열고 Connector 인스턴스의 IP 주소에 연결하여 BlueXP에 액세스할 수 있습니다.<block ref="e3a51e84cbbae6e45a585984f3be3fd0" category="inline-link-rx"></block></block>
-  <block id="d89c4f7e7a6faeeab29240ba995258b3" category="summary">NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP(이전의 Cloud Manager) 관리 기능의 새로운 기능에 대해 알아보십시오.</block>
   <block id="c642de9f40ee79267e2e62e3ebed032e" category="section-title">2022년 11월 1일</block>
   <block id="929fa09ef9d24654b353f312638ca6e6" category="paragraph">계정에 연결된 새로 고침 토큰이 3개월 후에 만료될 때 NetApp Support 사이트 계정과 연결된 자격 증명을 업데이트하라는 메시지가 Cloud Manager에 표시됩니다.<block ref="abba285888ca54da9f89054b7e57f270" category="inline-link-rx"></block></block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link-macro">BlueXP에 대한 고지 사항</block>
@@ -2582,7 +2546,6 @@
   <block id="897099bfef7e48dc4adcaa1be92bf1a8" category="open-title">정책 #2</block>
   <block id="d094d5c78e8dbf27acd1a70c29b4b863" category="list-text">IAM 콘솔에서 의 내용을 복사하여 붙여넣어 필요한 정책을 생성합니다 <block ref="ee2fdef0fe1bd713e3c2d2a78c0fdb68" category="inline-link-macro-rx"></block>.</block>
   <block id="a6a23d0964b870781db3c2557ec3583c" category="list-text">Amazon EC2 역할 유형으로 IAM 역할을 생성하고 이전 단계에서 생성한 정책을 역할에 연결합니다.</block>
-  <block id="80829c0bc33e1821173e296173ba0a8d" category="list-text">Red Hat Enterprise Linux 8.6</block>
   <block id="4e7880d4f8d9cf685f649e74e34a3de7" category="list-text">커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19 이상이 필요합니다.<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block></block>
   <block id="64a39273573e4fc2b712d51106db7a4e" category="section-title">변경 로그</block>
   <block id="3133cc4fd29893a0163684e3e3f59633" category="paragraph">권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.</block>
@@ -2590,7 +2553,6 @@
   <block id="61d40b12dddcd9e571bbe7a89b0fbae8" category="list-text">Microsoft.Network/loadBalancers/backendAddressPools/join/action</block>
   <block id="7c90682779ddf616c80c90bad703eddd" category="list-text">Microsoft.Network/loadBalancers/frontendIPConfigurations/read</block>
   <block id="3af64a9cb34f4b06a9e496f1f6a05879" category="list-text">Microsoft.Storage/storageAccounts/재생성 키/작업</block>
-  <block id="2ba7eb945a77498b8342e4be53a3761e" category="list-text">에서 Connector 소프트웨어를 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block></block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 BlueXP에서 사용할 수 있습니다.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾습니다.</block>
@@ -2917,4 +2879,112 @@
   <block id="0773be92494e9aa5f52a2d6834a7c90f" category="cell">데이터 감지</block>
   <block id="f1ec925a41746bf6e895d454b6a6eddb" category="cell">배포 중에 데이터 감지 인스턴스에 프로브</block>
   <block id="3cae1bb62504fde722824fee95046472" category="doc">BlueXP용 Azure 자격 증명 및 구독을 관리합니다</block>
+  <block id="ee7f5aec4e9ac5fecb93d224c17fcd43" category="list-text">CentOS 7.6, 7.7, 7.8 및 7.9</block>
+  <block id="fe342f4d7fb16d9eddf02f4c613dfb19" category="list-text">Red Hat Enterprise Linux 7.6, 7.7, 7.8, 7.9, 8.6, 8.7로 표시됩니다</block>
+  <block id="3e2babff5cfde6df6f00667d0ab74b31" category="section-title">인터넷에 연결되지 않은 위치에서 커넥터를 업그레이드합니다</block>
+  <block id="0046538fde0515ac69a012bb8ac238c9" category="inline-link-macro">인터넷에 액세스할 수 없는 위치에 커넥터를 설치했습니다</block>
+  <block id="80511fe8771333d5c71a1f6f33b080fe" category="paragraph">있다면 <block ref="149181f7ecd7c61bf65dc751cb02e94c" category="inline-link-macro-rx"></block>, 최신 버전이 NetApp Support 사이트에서 제공되는 경우 Connector를 업그레이드할 수 있습니다.</block>
+  <block id="643a877b7c306b1bcece42c8f03bebfb" category="paragraph">여기서 &lt;version&gt;는 다운로드한 커넥터 버전입니다.</block>
+  <block id="b66b5e3c69923d75bab00ad211ae0876" category="summary">Connector는 온프레미스 또는 클라우드 영역에서 인터넷으로부터 완전히 분리된 위치에 설치할 수 있습니다. 그런 다음 해당 환경에서 지원되는 BlueXP 서비스를 사용할 수 있습니다.</block>
+  <block id="538df6b7aa2304c978bd22cbc188715d" category="doc">인터넷에 액세스할 수 없는 위치에 커넥터를 설치합니다</block>
+  <block id="2140919b7a4acf643c668582587a3fc3" category="paragraph">Connector는 온프레미스 또는 클라우드 영역에서 인터넷으로부터 완전히 분리된 위치에 설치할 수 있습니다. 그런 다음 해당 환경에서 지원되는 BlueXP 서비스를 사용할 수 있습니다.</block>
+  <block id="dd8d2e5dd396a762bed92b10f72f5d67" category="section-title">사내 개요</block>
+  <block id="4b85a689d4bf46a14216c1f7043d61d9" category="paragraph">인터넷이 연결되지 않은 온프레미스 환경에서는 BlueXP를 사용하여 온프레미스 ONTAP 클러스터를 검색하고, 클러스터 간에 데이터를 복제하고, 클라우드 백업을 사용하여 볼륨을 백업하고, 클라우드 데이터 센스로 검색할 수 있습니다. 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
+  <block id="817fffd09424883c473079707bd42227" category="section-title">클라우드 개요</block>
+  <block id="6a2d5b4c5ec168a0a42fd35e394d5e59" category="paragraph">인터넷이 연결되지 않은 클라우드 지역에서는 BlueXP를 사용하여 Cloud Volumes ONTAP 시스템을 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 사내 환경으로 연결하는 경우). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
+  <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.</block>
+  <block id="42e8616c7f9505f6747fcbb59c7b5a93" category="list-text">에서 인터넷에 액세스하지 않고 제한된 네트워크용 커넥터 설치 프로그램을 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block></block>
+  <block id="559e00158f66ad338da1ff42475d15d4" category="paragraph">온프레미스 환경:</block>
+  <block id="ddc27aae141cdde9ebf1781f29405e62" category="inline-link">Cloud Volumes ONTAP 구축</block>
+  <block id="d4e942d34e603f30d4aa65123ee69ac5" category="paragraph">클라우드 환경에서는 가능합니다<block ref="00153078c5cb58fb46fb6b9817a49af6" category="inline-link-rx"></block></block>
+  <block id="3c64f2e1d3b86927fc25494420d8e69e" category="doc">BlueXP에서 NetApp Support 사이트 계정을 관리합니다</block>
+  <block id="8b12e6f38f8b47f363480ac1d3b8327f" category="paragraph">BlueXP에서는 하나의 NSS 계정을 각 BlueXP 사용자와 연결하고 하나 이상의 NSS 계정을 BlueXP 계정과 연결할 수 있습니다.</block>
+  <block id="e6cee5a5293cdefddf2eea3f6f8e63a0" category="section-title">BlueXP 사용자당 NSS 자격 증명</block>
+  <block id="9f16a5e3343035191419f8ff9c2e5969" category="paragraph">Digital Advisor 계정에 액세스하고 BlueXP를 통해 지원 사례를 관리하려면 개별 NSS 자격 증명이 필요합니다. 이러한 자격 증명은 BlueXP에 로그인한 사용자에게만 표시됩니다. 자격 증명은 필요에 따라 제거 및 업데이트할 수 있습니다.</block>
+  <block id="d0c8c4e397d970dc8543d75be500735a" category="inline-xref">BlueXP 사용자별로 NSS 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
+  <block id="67d6e3f20ef7fa11673f57da719e30a4" category="paragraph"><block ref="7ba791bb5a4402182b386f894b67a43b" category="inline-xref-macro-rx"></block>.</block>
+  <block id="86b693fcb28e522569eb6bcbe22e1048" category="section-title">BlueXP 계정의 NSS 자격 증명</block>
+  <block id="4a2f661974665defd7d188133a1ab48b" category="paragraph">BlueXP에서 다음 작업을 사용하려면 특정 BlueXP 계정 ID와 NetApp Support 사이트 자격 증명을 연결해야 합니다.</block>
+  <block id="15c2fed71e5ff16c335e2d40bc485e1e" category="list-text">지원을 받기 위해 등록하는 중입니다</block>
+  <block id="1ca6b2b8383e207951356457a77708e7" category="list-text">지원 케이스 생성</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL(Bring Your Own License) 방식으로 Cloud Volumes ONTAP 구축</block>
+  <block id="a3b3ed2f72536d95b268a4a67722c55d" category="list-text">선불 종량제 Cloud Volumes ONTAP 시스템을 등록합니다</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드하는 중입니다</block>
+  <block id="a86ad85ddb4228477c624e47ab659180" category="paragraph">이러한 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="0080504e9313f9b154660cf9d3a82d90" category="inline-xref">BlueXP 계정의 NSS 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
+  <block id="c8ab27a714bbad7b5a28e63b8123aae5" category="paragraph"><block ref="04ed260555c7204bedee595d1a22139b" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d9307c659c4370870dcc89d984d908e2" category="section-title">BlueXP 로그인에 대한 NSS 자격 증명을 관리합니다</block>
+  <block id="5a201f4198ac7b46778a727f32bd6203" category="paragraph">BlueXP 로그인과 연결된 NSS 자격 증명을 통해 Digital Advisor 및 케이스 관리 기능에 액세스할 수 있습니다.</block>
+  <block id="79dce1fafa49d0b2bbe06423f13f9d58" category="list-text">지원 &gt; 케이스 관리 * 에 액세스하면 NSS 자격 증명을 입력하라는 메시지가 표시됩니다(아직 입력하지 않은 경우). 이 페이지에는 NSS 계정 및 회사와 관련된 지원 사례가 나와 있습니다.</block>
+  <block id="d4b8ea0f438d980b900fa0c72d88710f" category="list-text">계정은 Cloud Volumes ONTAP 생성, 라이센스 등록 또는 지원 케이스 생성이 아닌 다른 BlueXP 기능과 함께 사용할 수 없습니다.</block>
+  <block id="37ab7585b9575599c51022bd3b09813a" category="list-text">사용자당 Digital Advisor 및 케이스 관리와 연결된 NSS 계정은 하나만 있을 수 있습니다.</block>
+  <block id="78eefce62993605d332b1408d42256d7" category="list-text">* NSS 사용자 연결 *: NetApp Support 사이트 계정에 대한 자격 증명을 추가합니다.</block>
+  <block id="bb003c773133044d9d8666f477a36cfe" category="list-text">* 삭제 *: BlueXP 사용자 계정과 연결된 계정을 제거합니다.</block>
+  <block id="65fb057ff5fa0f79f9e974fbbf20b1b4" category="paragraph">BlueXP는 NSS 자격 증명을 업데이트합니다. 변경 사항은 Digital Advisor 또는 Case Management 페이지에 액세스할 때 반영됩니다.</block>
+  <block id="ce3a367043c4a6897ab7ccbfa40ad329" category="section-title">BlueXP 계정의 NSS 자격 증명을 관리합니다</block>
+  <block id="2a99a7f02260cc6c2b4aa3815cee53ec" category="paragraph">BlueXP 계정과 연결된 NSS 자격 증명을 관리하여 지원을 등록하고 지원 케이스를 생성하며 Cloud Volumes ONTAP의 주요 워크플로를 활성화할 수 있습니다.</block>
+  <block id="9a030ad8abbc9b1e402feade38bdec50" category="paragraph">지원 대시보드를 사용하면 BlueXP 계정 수준에서 BlueXP에 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님). 여러 개의 고객 수준 NSS 계정을 가질 수 있습니다.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">NSS 계정은 파트너 수준 계정인 경우 하나만 있을 수 있습니다. 고객 수준 NSS 계정을 추가하려고 하면 파트너 수준 계정이 있으면 다음 오류 메시지가 나타납니다.</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"NSS 고객 유형은 이미 다른 유형의 NSS 사용자가 있으므로 이 계정에 허용되지 않습니다."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">기존 고객 수준 NSS 계정이 있는 경우에도 마찬가지이며 파트너 수준 계정을 추가하려고 합니다.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다.</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">이 ID는 이메일에 매핑되는 시스템 생성 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이러한 계정의 토큰은 90일 후에 만료됩니다. 이를 알리는 알림이 게시됩니다.</block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">지원 사례 관리(Preview)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">BlueXP에서 직접 활성 및 해결된 지원 사례를 보고 관리할 수 있습니다. NSS 계정 및 회사와 관련된 케이스를 관리할 수 있습니다.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">케이스 관리를 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">페이지 상단의 케이스 관리 대시보드에서는 두 가지 보기를 제공합니다.</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">왼쪽 보기에는 사용자가 제공한 NSS 계정으로 지난 3개월 동안 개설된 총 케이스가 표시됩니다.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">오른쪽 보기에는 사용자 NSS 계정을 기준으로 회사 수준에서 지난 3개월 동안 개설된 총 사례가 표시됩니다.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">테이블의 결과에는 선택한 보기와 관련된 사례가 반영됩니다.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">관심 있는 열을 추가 또는 제거할 수 있으며 우선 순위 및 상태 등의 열 내용을 필터링할 수 있습니다. 다른 열은 정렬 기능만 제공합니다.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">자세한 내용은 아래 단계를 참조하십시오.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">케이스 수준별로 케이스 메모를 업데이트하거나 아직 종결 또는 미결 종결 상태가 아닌 케이스를 종결할 수 있습니다.</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Case Management * 를 클릭하고 메시지가 표시되면 NSS 계정을 BlueXP에 추가합니다.</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">케이스 관리 * 페이지에는 BlueXP 사용자 계정과 연결된 NSS 계정과 관련된 미해결 케이스가 표시됩니다. NSS 관리 * 페이지 상단에 나타나는 것과 동일한 NSS 계정입니다.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">필요한 경우 테이블에 표시되는 정보를 수정합니다.</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">조직의 케이스 * 에서 * 보기 * 를 클릭하여 회사와 관련된 모든 케이스를 봅니다.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">정확한 날짜 범위를 선택하거나 다른 기간을 선택하여 날짜 범위를 수정합니다.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">케이스 관리 페이지의 표 위에 있는 옵션 스크린샷으로 정확한 날짜 범위 또는 최근 7일, 30일 또는 3개월을 선택할 수 있습니다.</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">열의 내용을 필터링합니다.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">활성 또는 종료와 같은 특정 상태와 일치하는 케이스를 필터링할 수 있는 상태 열의 필터 옵션 스크린샷</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">테이블에 나타나는 더하기 아이콘입니다</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">을 클릭하여 테이블에 표시되는 열을 변경합니다 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">표에 표시할 수 있는 열을 보여 주는 스크린샷</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">표의 마지막 열에 세 개의 점이 있는 아이콘</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">를 클릭하여 기존 케이스를 관리합니다 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">* 사례 보기 *: 특정 케이스에 대한 전체 세부 정보를 봅니다.</block>
+  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">* 사례 노트 업데이트 *: 문제에 대한 추가 세부 정보를 제공합니다.</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">* 케이스 종료 *: 케이스를 닫는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 클릭합니다.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">표의 마지막 열에서 메뉴를 선택한 후 수행할 수 있는 작업을 보여 주는 스크린샷</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1da23045b320eae048772af1011d22a1" category="summary">NetApp 계정, 커넥터, 클라우드 공급자 자격 증명 등과 같은 BlueXP 관리 기능의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023년 3월 5일</block>
+  <block id="ba5bb99eb6a04798c8ccd3f156db75a5" category="section-title">커넥터 3.9.27</block>
+  <block id="ce47c670900f3fe8347a2fc95ff710d8" category="list-text">이제 BlueXP 콘솔에서 검색을 사용할 수 있습니다. 현재 검색을 사용하여 BlueXP 서비스 및 기능을 찾을 수 있습니다.</block>
+  <block id="73984711a5ba4c8d6f613d3ef2426680" category="inline-image-macro">콘솔 상단에 있는 BlueXP 검색 스크린샷.</block>
+  <block id="4be68bdee3a27bc0218c6188d192fc95" category="paragraph"><block ref="4be68bdee3a27bc0218c6188d192fc95" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a48a6aaa99b4cf4a4e641c293de897fa" category="inline-link">지원 사례를 관리하는 방법에 대해 알아보십시오</block>
+  <block id="796ced97a72330e5ce3c0935b7b09f45" category="paragraph"><block ref="622b6e7f4143df2aca06b538ee1d864e" category="inline-link-rx"></block>.</block>
+  <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">Connector는 현재 Red Hat Enterprise Linux 8.7을 실행하는 호스트에서 지원됩니다.</block>
+  <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>.</block>
+  <block id="9597dfcf8249ec8766cfb35fd11357f3" category="list-text">Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
+  <block id="33b6f29ed1acfc0fbed883a6e1f44ef2" category="paragraph">시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.</block>
+  <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">인터넷에 연결되지 않은 위치에 커넥터를 설치합니다</block>
+  <block id="6bfdfb1d6b845d41edac4f1eb0065216" category="list-text"><block ref="6bfdfb1d6b845d41edac4f1eb0065216" category="inline-link-rx"></block></block>
+  <block id="cbea6f8d2cd687c094438e0a7a38fedf" category="inline-link">커넥터의 BlueXP 콘솔에 액세스합니다</block>
+  <block id="b620510a7b9198825896459898b7bc08" category="list-text"><block ref="b620510a7b9198825896459898b7bc08" category="inline-link-rx"></block></block>
+  <block id="c09d91817b6017a3572898b867b22e36" category="inline-link">할당되지 않은 라이센스를 추가합니다</block>
+  <block id="587a8286d2e3b61d9f250d807b34983c" category="list-text"><block ref="587a8286d2e3b61d9f250d807b34983c" category="inline-link-rx"></block></block>
+  <block id="a8ed015209d62d3ffd9042f8a01b9725" category="inline-link">Cloud Volumes ONTAP를 시작하십시오</block>
+  <block id="d66686137674e9cdef6070dbe4ce01c6" category="list-text"><block ref="d66686137674e9cdef6070dbe4ce01c6" category="inline-link-rx"></block></block>
+  <block id="37e16775c1bede9551f227ccaca87974" category="paragraph"><block ref="37e16775c1bede9551f227ccaca87974" category="inline-link-rx"></block></block>
+  <block id="16ad465f333a3d9520fe4f57691eb5be" category="inline-link-macro">인터넷에 액세스할 수 없는 위치에 있는 호스트</block>
+  <block id="273c438fb142c078d2637f09a68a894b" category="list-text"><block ref="273c438fb142c078d2637f09a68a894b" category="inline-link-macro-rx"></block></block>
+  <block id="6b8dbc1426241e742cda28e32722d238" category="sidebar">인터넷 없이 자신의 호스트에 설치합니다</block>
 </blocks>

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-install-connector-onprem-no-internet.html 
 keywords: connector, dark site, install dark site, install connector no internet, install connector on prem 
-summary: 인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 설치할 수 있습니다. 그런 다음, 온프레미스 ONTAP 클러스터를 검색하고, 클러스터 간에 데이터를 복제하고, 클라우드 백업을 사용하여 볼륨을 백업하고, 클라우드 데이터 센스로 검색할 수 있습니다. 
+summary: Connector는 온프레미스 또는 클라우드 영역에서 인터넷으로부터 완전히 분리된 위치에 설치할 수 있습니다. 그런 다음 해당 환경에서 지원되는 BlueXP 서비스를 사용할 수 있습니다. 
 ---
-= 인터넷에 접속하지 않고 커넥터를 내부에 설치합니다
+= 인터넷에 액세스할 수 없는 위치에 커넥터를 설치합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,21 @@ summary: 인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에
 
 
 [role="lead"]
-인터넷에 액세스할 수 없는 온프레미스 Linux 호스트에 커넥터를 설치할 수 있습니다. 그런 다음, 온프레미스 ONTAP 클러스터를 검색하고, 클러스터 간에 데이터를 복제하고, 클라우드 백업을 사용하여 볼륨을 백업하고, 클라우드 데이터 센스로 검색할 수 있습니다.
+Connector는 온프레미스 또는 클라우드 영역에서 인터넷으로부터 완전히 분리된 위치에 설치할 수 있습니다. 그런 다음 해당 환경에서 지원되는 BlueXP 서비스를 사용할 수 있습니다.
+
+
+
+== 사내 개요
+
+인터넷이 연결되지 않은 온프레미스 환경에서는 BlueXP를 사용하여 온프레미스 ONTAP 클러스터를 검색하고, 클러스터 간에 데이터를 복제하고, 클라우드 백업을 사용하여 볼륨을 백업하고, 클라우드 데이터 센스로 검색할 수 있습니다. 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.
+
+
+
+== 클라우드 개요
+
+인터넷이 연결되지 않은 클라우드 지역에서는 BlueXP를 사용하여 Cloud Volumes ONTAP 시스템을 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 사내 환경으로 연결하는 경우). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.
+
+클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.
 
 이러한 설치 지침은 위에서 설명한 사용 사례를 위한 것입니다. link:concept-connectors.html#how-to-create-a-connector["커넥터를 배포하는 다른 방법에 대해 알아봅니다"].
 
@@ -30,15 +44,8 @@ RAM:: 14GB
 지원되는 운영 체제::
 +
 --
-* CentOS 7.6
-* CentOS 7.7
-* CentOS 7.8
-* CentOS 7.9
-* Red Hat Enterprise Linux 7.6
-* Red Hat Enterprise Linux 7.7
-* Red Hat Enterprise Linux 7.8
-* Red Hat Enterprise Linux 7.9
-* Red Hat Enterprise Linux 8.6
+* CentOS 7.6, 7.7, 7.8 및 7.9
+* Red Hat Enterprise Linux 7.6, 7.7, 7.8, 7.9, 8.6, 8.7로 표시됩니다
 +
 Red Hat Enterprise Linux 시스템은 Red Hat 서브스크립션 관리 에 등록되어 있어야 합니다. 등록되지 않은 경우 시스템은 Connector 설치 중에 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.
 
@@ -71,20 +78,26 @@ Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버�
 ----
 sudo systemctl enable docker && sudo systemctl start docker
 ----
-. 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]
+. 에서 인터넷에 액세스하지 않고 제한된 네트워크용 커넥터 설치 프로그램을 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]
 . Linux 호스트에 설치 프로그램을 복사합니다.
 . 스크립트를 실행할 권한을 할당합니다.
 +
 [source, cli]
 ----
-chmod +x /path/cloud-manager-connector-offline-v3.9.23
+chmod +x /path/Cloud-Manager-Connector-offline-<version>
 ----
++
+여기서 <version>는 다운로드한 커넥터 버전입니다.
+
 . 설치 스크립트를 실행합니다.
 +
 [source, cli]
 ----
-sudo /path/cloud-manager-connector-offline-v3.9.23
+sudo /path/Cloud-Manager-Connector-offline-<version>
 ----
++
+여기서 <version>는 다운로드한 커넥터 버전입니다.
+
 . 웹 브라우저를 열고 를 입력합니다 https://_ipaddress_[] 여기서 _ipaddress_는 Linux 호스트의 IP 주소입니다.
 +
 다음 화면이 나타납니다.
@@ -112,10 +125,14 @@ image:screenshot-onprem-darksite-details.png["시스템 세부 정보 페이지�
 이제 커넥터가 설치되었으므로 어두운 사이트 배포에서 사용할 수 있는 BlueXP 기능을 사용할 수 있습니다.
 
 .다음 단계
+온프레미스 환경:
+
 * https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터에 대해 알아보십시오"^]
 * https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["온프레미스 ONTAP 클러스터 간에 데이터를 복제합니다"^]
 * https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html["클라우드 백업을 사용하여 사내 ONTAP 볼륨 데이터를 StorageGRID에 백업합니다"^]
 * https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-dark-site.html["클라우드 데이터 센스를 사용하여 온프레미스 ONTAP 볼륨 데이터를 스캔합니다"^]
 
+
+클라우드 환경에서는 가능합니다 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP 구축"^]
 
 Connector 소프트웨어의 새 버전을 사용할 수 있으면 NetApp Support 사이트에 게시됩니다. link:task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["Connector를 업그레이드하는 방법에 대해 알아보십시오"].
