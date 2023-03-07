@@ -827,7 +827,6 @@
   <block id="0538fa74f685054f07476ce4440d3ce4" category="cell">SaaS UI를 사용할 때 웹 브라우저가 이 URL에 연락합니다.</block>
   <block id="b3f4a5004c2a10094d2af8bd28589cbf" category="paragraph">AWS 서비스(amazonaws.com):</block>
   <block id="58e3bfbabf904de43a6a22aca509b0d8" category="list-text">CloudFormation 을 참조하십시오</block>
-  <block id="df8a1f2103a58209a3008c02a93162b5" category="list-text">코니토</block>
   <block id="9d4942b614d2d8583bdf09c75ba94f3d" category="list-text">EC2(탄력적인 컴퓨팅 클라우드)</block>
   <block id="b7f432287355914a89f542bcac4bbdb0" category="list-text">키 관리 서비스(KMS)</block>
   <block id="5ea79461f4d299dc0735dc824ffeb854" category="list-text">보안 토큰 서비스(STS)</block>
@@ -2422,10 +2421,8 @@
   <block id="f786a140deb938ac21ab095b7c402176" category="paragraph">Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="47ddffc293a6a5748897c2f965fa7212" category="list-text">Microsoft.Storage/storageAccounts/managementPolicies/read를 참조하십시오</block>
   <block id="a2fd314f394dbb1eeb56c09e3cd9770f" category="list-text">Microsoft.Storage/storageAccounts/managementPolicies/write를 참조하십시오</block>
-  <block id="3842dbaca77b11d0e50ab804ff806c4d" category="cell">VM을 생성하고, 시스템 상태를 중지, 시작, 삭제하고, 가져옵니다</block>
   <block id="4d6646e62e7704a2019810651f83d886" category="cell">VHD에서 배포를 활성화합니다</block>
   <block id="e8257e96577d74304108aac52739f494" category="cell">대상 서브넷에서 네트워크 인터페이스를 생성하고 관리합니다</block>
-  <block id="69e92fda2ae4363c883f5d9f62c3ee56" category="cell">미리 정의된 네트워크 보안 그룹을 생성합니다</block>
   <block id="7a29e42d7b44e6dd5272e36cbcf9490f" category="cell">Microsoft.Network/networkSecurityGroups/join/action</block>
   <block id="89974c87cccaf6e615e089269c5cafd3" category="cell">지역, 대상 VNET 및 서브넷에 대한 네트워크 정보를 얻고 VM을 VNets에 추가합니다</block>
   <block id="0bfcdd1da192a52455067c787c3beb96" category="cell">자원 그룹을 만들고 관리합니다</block>
@@ -2457,7 +2454,6 @@
   <block id="cc7e29f147aa045ddf8822304dc0e1f4" category="cell">Microsoft.Storage/storageAccounts/PrivateEndpointConnectionsApproval/action 을 참조하십시오</block>
   <block id="6ea85effe392556eeffa2a55685797ca" category="cell">Microsoft.Storage/storageAccounts/privateEndpointConnections/read</block>
   <block id="78c2f93b5769de1a564bb26013df62b4" category="cell">Microsoft.Network/privateDnsZones/write</block>
-  <block id="a4e92c2c648e0e630287027027ef39c8" category="cell">기본 물리적 하드웨어에 따라 일부 VM 구축에서는 Azure에서 필요합니다</block>
   <block id="d2708b4bfe876dff0475a9deac154f4d" category="cell">Microsoft.Resources/Deployments/operationStates/read 를 참조하십시오</block>
   <block id="0842d212d91b90d567d1e486c5416e29" category="cell">배포 실패 또는 삭제 시 리소스 그룹에서 리소스를 제거합니다</block>
   <block id="dbd22581be4b124883e09a2e00810e57" category="cell">Microsoft.Network/privateEndpoints/delete</block>
@@ -2718,21 +2714,15 @@
   <block id="2dbb2a35f48f58340e040cb41a1d70b1" category="section-title">Google Cloud 자격 증명과 마켓플레이스 가입 연결</block>
   <block id="72a31d53edf5989e236535eb541ee755" category="paragraph">Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. BlueXP에서 Cloud Volumes ONTAP를 배포하는 데 사용하는 자격 증명입니다.</block>
   <block id="80d154feb16cf91b0edec06497c1ceaa" category="admonition">Google Cloud 구독을 NetApp 계정에 연결하려면 이 단계를 완료해야 합니다. 이 페이지에서 리디렉션된 다음 BlueXP에 로그인할 때까지 가입 연결 프로세스가 완료되지 않습니다.</block>
-  <block id="cc328ccddf672987f092ca6f44c9f9cf" category="cell">https://management.azure.com \https://login.microsoftonline.com 으로 문의하십시오</block>
   <block id="068395f3cd26ca40ad905de3790c9435" category="cell">Azure 공공 지역의 리소스를 관리합니다.</block>
-  <block id="6696e65cc873b2af9823ebafd2e332a8" category="cell">https://management.usgovcloudapi.net \https://login.microsoftonline.us 으로 문의하십시오</block>
   <block id="61b99e46ccbb3b872a32fbf2f064b87b" category="cell">Azure Government 지역의 리소스를 관리합니다.</block>
-  <block id="2ef9710cab4f48c3bcc58dac5ab20752" category="cell">https://management.azure.microsoft.scloud \https://login.microsoftonline.microsoft.scloud 으로 문의하십시오</block>
   <block id="8ec83edee8d0c8a3dd001c3d7e558479" category="cell">Azure IL6 영역의 리소스를 관리합니다.</block>
-  <block id="c9499afcd46d4343e88fb1acd8c931d8" category="cell">https://management.chinacloudapi.cn \https://login.chinacloudapi.cn 으로 문의하십시오</block>
   <block id="232055d452a21264f8d549e50d695b18" category="cell">Azure 중국 지역의 리소스를 관리합니다.</block>
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">클라우드 공급자 솔루션 지원</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXP에 통합한 다음 클라우드 제공업체 솔루션에 대한 기술 지원은 해당 제품에 대한 BlueXP 설명서의 "도움말 얻기"를 참조하십시오.</block>
   <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
-  <block id="701741ae6d160ecd5058c2eefa334a6c" category="cell">https://&lt;region&gt; .amazonaws.com</block>
-  <block id="2452d1aef80214dacfb33f192b762434" category="cell">를 사용하여 AWS에서 리소스를 관리합니다.</block>
   <block id="3933fdb8f34cb01278a72748377338a5" category="cell">https://www.googleapis.com/compute/v1/\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects</block>
   <block id="d377a02fb22cec7bf850087d3c9a31fa" category="cell">Google Cloud에서 리소스를 관리합니다.</block>
   <block id="4ce604ab4b6f3184f26713f30bde1bbe" category="cell">-cloudkms.cryptoKeys.get-cloudkms.cryptoKeys.getIamPolicy-cloudkms.cryptoKeys.list-cloudkms.cryptoKeys.setIamPolicy -cloudkms.keyRings.get-cloudkms.keyRings.getIamPolicy-cloudkms.keyRings.list-cloudkms.keyRings.setIamPolicy</block>
@@ -2744,7 +2734,6 @@
   <block id="7d5beaedd0c93a11314ff6699a51454e" category="list-text">클라우드킬로미터.키링.GET</block>
   <block id="9df83ab1f3ab5fb0d62768dd3ff406e6" category="list-text">cloudkms.keyRings.getIamPolicy를 참조하십시오</block>
   <block id="e7456e97941e04b31434ba6dcce10d88" category="list-text">cloudkms.keyRings.setIamPolicy</block>
-  <block id="3705a469472bf9882aff3f58dc3f4c5b" category="cell">/shtps://management.Azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud</block>
   <block id="0a72a5335f5b852604ea0ad0c2fe10e1" category="paragraph">이제 계정을 설정했으므로 사용자 제거, 작업 영역 관리 및 커넥터 관리를 통해 언제든지 계정을 관리할 수 있습니다. <block ref="4b4f4de61b1c0103e06c096d3b330838" category="inline-link-macro-rx"></block>.</block>
   <block id="86159ef2c579fd643503396dca6f3885" category="paragraph"><block ref="86159ef2c579fd643503396dca6f3885" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1403ef0f8512715bcf44602da2445c6a" category="paragraph">그런 다음 BlueXP 계정 관리자는 사용자(구성원), 작업 영역 및 커넥터를 관리하여 이 계정의 설정을 수정할 수 있습니다.</block>
@@ -2987,4 +2976,14 @@
   <block id="16ad465f333a3d9520fe4f57691eb5be" category="inline-link-macro">인터넷에 액세스할 수 없는 위치에 있는 호스트</block>
   <block id="273c438fb142c078d2637f09a68a894b" category="list-text"><block ref="273c438fb142c078d2637f09a68a894b" category="inline-link-macro-rx"></block></block>
   <block id="6b8dbc1426241e742cda28e32722d238" category="sidebar">인터넷 없이 자신의 호스트에 설치합니다</block>
+  <block id="aec651d37f6f533a4066a1ac8774d6b0" category="inline-link">자세한 내용은 AWS 설명서를 참조하십시오</block>
+  <block id="c908f2a3ba166fdf32de7eba53bd7156" category="cell">를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다.<block ref="04572646466baf6f86d09965eb5c3c86" category="inline-link-rx"></block></block>
+  <block id="7dfb843f052469a3cc66d13554feb0f4" category="cell">https://management.azure.com\https://login.microsoftonline.com\https://blob.core.windows.net\https://core.windows.net</block>
+  <block id="6e3cecb8c14fa9293d2b497e9f907cbd" category="cell">https://management.usgovcloudapi.net\https://login.microsoftonline.us\https://blob.core.usgovcloudapi.net\https://core.usgovcloudapi.net</block>
+  <block id="b2723147717f1c60a42e0b1cbdb0ad6c" category="cell">https://management.azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud\https://blob.core.microsoft.scloud\https://core.microsoft.scloud</block>
+  <block id="6d03c18e4e6ecfac89f686c621314d96" category="cell">https://management.chinacloudapi.cn\https://login.chinacloudapi.cn\https://blob.core.chinacloudapi.cn\https://core.chinacloudapi.cn</block>
+  <block id="bfeeb7b05d1d40308b6f007fd5acc191" category="cell">/shtps://management.Azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud\https://blob.core.microsoft.scloud\https://core.microsoft.scloud</block>
+  <block id="864338d2d7dc3c2738f45a0a8851b0cf" category="cell">VM을 생성하고 관리합니다</block>
+  <block id="fe4ddc4ad605bbd0c66fc946f65fb17c" category="cell">네트워크 보안 그룹을 만들고 관리합니다</block>
+  <block id="7b82c8bb5f712b74fd5cab9947ae81fb" category="cell">기본 물리적 하드웨어에 따라 일부 VM 배포에 필요합니다</block>
 </blocks>

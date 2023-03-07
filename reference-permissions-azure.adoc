@@ -432,7 +432,7 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 | 목적 | 조치 | 배포에 사용되었습니까? | 일상적 운영에 사용됩니까? | 삭제에 사용되었습니까? 
 
 
-.12+| VM을 생성하고, 시스템 상태를 중지, 시작, 삭제하고, 가져옵니다 | Microsoft.Compute/locations/operations/read | 예 | 예 | 아니요 
+.14+| VM을 생성하고 관리합니다 | Microsoft.Compute/locations/operations/read | 예 | 예 | 아니요 
 
 
 | Microsoft.Compute/locations/vmSizes/read | 예 | 예 | 아니요 
@@ -468,10 +468,16 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 | Microsoft.Compute/virtualMachines/write | 예 | 예 | 아니요 
 
 
+| Microsoft.Compute/virtualMachines/delete | 예 | 예 | 예 
+
+
+| Microsoft.Resources/Deployments/Delete 를 참조하십시오 | 예 | 아니요 | 아니요 
+
+
 | VHD에서 배포를 활성화합니다 | Microsoft.Compute/images/read | 예 | 아니요 | 아니요 
 
 
-.3+| 대상 서브넷에서 네트워크 인터페이스를 생성하고 관리합니다 | Microsoft.Network/networkInterfaces/read | 예 | 예 | 아니요 
+.4+| 대상 서브넷에서 네트워크 인터페이스를 생성하고 관리합니다 | Microsoft.Network/networkInterfaces/read | 예 | 예 | 아니요 
 
 
 | Microsoft.Network/networkInterfaces/write | 예 | 예 | 아니요 
@@ -480,13 +486,19 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 | Microsoft.Network/networkInterfaces/join/action | 예 | 예 | 아니요 
 
 
-.3+| 미리 정의된 네트워크 보안 그룹을 생성합니다 | Microsoft.Network/networkSecurityGroups/read | 예 | 예 | 아니요 
+| Microsoft.Network/networkInterfaces/delete | 예 | 예 | 아니요 
+
+
+.4+| 네트워크 보안 그룹을 만들고 관리합니다 | Microsoft.Network/networkSecurityGroups/read | 예 | 예 | 아니요 
 
 
 | Microsoft.Network/networkSecurityGroups/write | 예 | 예 | 아니요 
 
 
 | Microsoft.Network/networkSecurityGroups/join/action | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Network/networkSecurityGroups/delete | 아니요 | 예 | 예 
 
 
 .8+| 지역, 대상 VNET 및 서브넷에 대한 네트워크 정보를 얻고 VM을 VNets에 추가합니다 | Microsoft.Network/locations/operationResults/read | 예 | 예 | 아니요 
@@ -618,7 +630,7 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 | Microsoft.Network/loadBalancers/delete | 아니요 | 예 | 예 
 
 
-| Microsoft.Network/loadBalancers/backendAddressPools/read | 예 | 예 | 아니요 
+| Microsoft.Network/loadBalancers/backendAddressPools/read | 예 | 아니요 | 아니요 
 
 
 | Microsoft.Network/loadBalancers/backendAddressPools/join/action | 예 | 아니요 | 아니요 
@@ -666,7 +678,7 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 | Microsoft.Network/privateDnsZones/virtualNetworkLinks/read | 예 | 예 | 아니요 
 
 
-| 기본 물리적 하드웨어에 따라 일부 VM 구축에서는 Azure에서 필요합니다 | Microsoft.Resources/Deployments/operationStates/read 를 참조하십시오 | 예 | 예 | 아니요 
+| 기본 물리적 하드웨어에 따라 일부 VM 배포에 필요합니다 | Microsoft.Resources/Deployments/operationStates/read 를 참조하십시오 | 예 | 예 | 아니요 
 
 
 .2+| 배포 실패 또는 삭제 시 리소스 그룹에서 리소스를 제거합니다 | Microsoft.Network/privateEndpoints/delete | 예 | 예 | 아니요 
@@ -690,7 +702,7 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 .6+| HA 인터커넥트 및 클러스터 네트워크 NIC를 격리하도록 HA 쌍에 대한 애플리케이션 보안 그룹을 구성합니다 | Microsoft.Network/applicationSecurityGroups/write | 아니요 | 예 | 아니요 
 
 
-| Microsoft.Network/applicationSecurityGroups/read | 아니요 | 예 | 예 
+| Microsoft.Network/applicationSecurityGroups/read | 아니요 | 예 | 아니요 
 
 
 | Microsoft.Network/applicationSecurityGroups/joinIpConfiguration/action | 아니요 | 예 | 아니요 
@@ -699,7 +711,7 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 | Microsoft.Network/networkSecurityGroups/securityRules/write | 예 | 예 | 아니요 
 
 
-| Microsoft.Network/applicationSecurityGroups/delete | 아니요 | 예 | 아니요 
+| Microsoft.Network/applicationSecurityGroups/delete | 아니요 | 예 | 예 
 
 
 | Microsoft.Network/networkSecurityGroups/securityRules/delete | 아니요 | 예 | 예 

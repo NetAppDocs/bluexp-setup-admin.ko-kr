@@ -45,19 +45,28 @@ NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있�
 | https://cloudmanagerinfraprod.azurecr.io \https://*.blob.core.windows.net 으로 문의하십시오 | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
 
 
-| https://<region> .amazonaws.com | 를 사용하여 AWS에서 리소스를 관리합니다. 
+ a| 
+AWS 서비스(amazonaws.com):
+
+* CloudFormation 을 참조하십시오
+* EC2(탄력적인 컴퓨팅 클라우드)
+* 키 관리 서비스(KMS)
+* 보안 토큰 서비스(STS)
+* S3(Simple Storage Service)
+
+| 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^] 
 
 
-| https://management.azure.com \https://login.microsoftonline.com 으로 문의하십시오 | Azure 공공 지역의 리소스를 관리합니다. 
+| https://management.azure.com\https://login.microsoftonline.com\https://blob.core.windows.net\https://core.windows.net | Azure 공공 지역의 리소스를 관리합니다. 
 
 
-| https://management.usgovcloudapi.net \https://login.microsoftonline.us 으로 문의하십시오 | Azure Government 지역의 리소스를 관리합니다. 
+| https://management.usgovcloudapi.net\https://login.microsoftonline.us\https://blob.core.usgovcloudapi.net\https://core.usgovcloudapi.net | Azure Government 지역의 리소스를 관리합니다. 
 
 
-| /shtps://management.Azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud | Azure IL6 영역의 리소스를 관리합니다. 
+| /shtps://management.Azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud\https://blob.core.microsoft.scloud\https://core.microsoft.scloud | Azure IL6 영역의 리소스를 관리합니다. 
 
 
-| https://management.chinacloudapi.cn \https://login.chinacloudapi.cn 으로 문의하십시오 | Azure 중국 지역의 리소스를 관리합니다. 
+| https://management.chinacloudapi.cn\https://login.chinacloudapi.cn\https://blob.core.chinacloudapi.cn\https://core.chinacloudapi.cn | Azure 중국 지역의 리소스를 관리합니다. 
 
 
 | https://www.googleapis.com/compute/v1/\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects | Google Cloud에서 리소스를 관리합니다. 
