@@ -270,14 +270,10 @@
   <block id="b48299c449bac839819763792d4aff22" category="list-text">개요 * 탭에서 * 개인 미리 보기 허용 * 설정을 활성화합니다.</block>
   <block id="e288a6b2e6cc2fbb00bd407bda387c90" category="section-title">타사 서비스 허용</block>
   <block id="90837faa596ab1d28c90a381b6997722" category="list-text">개요 * 탭에서 * 타사 서비스 허용 * 설정을 활성화합니다.</block>
-  <block id="4b52ca01dd550f3fab5c378895fbfd60" category="section-title">SaaS 플랫폼 비활성화</block>
-  <block id="fa7043a1853c2b6854490998db361dca" category="paragraph">회사의 보안 정책을 준수할 필요가 없는 한 SaaS 플랫폼을 사용하지 않는 것이 좋습니다. SaaS 플랫폼을 사용하지 않도록 설정하면 NetApp의 통합 클라우드 서비스를 사용할 수 없게 됩니다.</block>
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="list-text">클라우드 데이터 감지</block>
   <block id="30136395f01879792198317c11831ea4" category="list-text">쿠버네티스</block>
   <block id="92d2b6aba6afa3f690540cf3dba9b633" category="list-text">클라우드 계층화</block>
   <block id="24e6e2f6171b43a847fe194a9a9b5cd0" category="list-text">글로벌 파일 캐시</block>
-  <block id="8ea5339a59d1a6a15d2ad2629fa9dd33" category="inline-link-macro">Connector에서 사용할 수 있는 로컬 사용자 인터페이스입니다</block>
-  <block id="bd24a7e9d8368897df823b65a8960e61" category="list-text">개요 탭에서 옵션을 전환하여 SaaS 플랫폼 사용을 비활성화합니다.</block>
   <block id="0384f4ba39f6a15ffd9b42bfb03b8d83" category="doc">Google Cloud 프로젝트, 권한 및 계정</block>
   <block id="3fb6500db5f2cccec7627a9cb9fbd38d" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP를 배포하려면 먼저 Google Cloud 프로젝트에 Connector를 배포해야 합니다. Connector는 사내 또는 다른 클라우드 공급자에서 실행할 수 없습니다.</block>
   <block id="1c3efa7cf0b87cbb078fe955b2c587a5" category="inline-link">서비스 계정</block>
@@ -1231,7 +1227,6 @@
   <block id="6dc6b060b761d145366b9ed041137917" category="sidebar">AWS 자격 증명 관리</block>
   <block id="c135c603177e58023474a65f829c0fd3" category="sidebar">Azure 자격 증명을 관리합니다</block>
   <block id="15f599d5c4282f662b38657a0b5c5739" category="sidebar">Google Cloud 자격 증명을 관리합니다</block>
-  <block id="736683b36559de9a86788ab6e33c00d8" category="paragraph">SaaS 플랫폼을 사용하지 않도록 설정하는 경우 에서 모든 작업을 수행해야 합니다 <block ref="d248ae1d8e530aaf57663e2d920abe18" category="inline-link-macro-rx"></block>.</block>
   <block id="42719a12f66c2c272af903550dd96abe" category="paragraph"><block ref="3d5e26c44503b9c3759d0014c33a4b1a" category="inline-link-macro-rx"></block>.</block>
   <block id="cf1d9ac600892a9c03d7ebca3ca130cb" category="paragraph"><block ref="1a1e214f52d56e3240a2456ee3e051fc" category="inline-link-macro-rx"></block>.</block>
   <block id="0992dccda336100add15ce23fc9702f3" category="list-text"><block ref="0992dccda336100add15ce23fc9702f3" category="inline-link-rx"></block></block>
@@ -2126,14 +2121,11 @@
   <block id="e98ed4965158505163fc6b7ffa9ba9b0" category="paragraph">Workspace 관리자가 BlueXP에서 이러한 작업 영역에 액세스할 수 있도록 Connector를 작업 영역에 연결해야 합니다.</block>
   <block id="735a598daa91e3f877c73aa4e5e72dca" category="paragraph">BlueXP에서 미리 보기로 제공되는 새로운 NetApp 클라우드 서비스에 액세스하려면 계정의 개인 미리 보기를 허용하십시오.</block>
   <block id="0d36dab0ce71c33a40b8ea4c8c773291" category="paragraph">사용자 계정의 타사 서비스가 BlueXP에서 사용 가능한 타사 서비스에 액세스할 수 있도록 허용합니다. 타사 서비스는 NetApp에서 제공하는 서비스와 유사한 클라우드 서비스이지만 타사의 관리 및 지원을 받습니다.</block>
-  <block id="41f2e26a5f1f980cf07709ccd461458a" category="paragraph">SaaS 플랫폼을 사용하지 않도록 설정한 경우 BlueXP에서 다음 서비스를 사용할 수 없습니다.</block>
-  <block id="1ce82671debd0854eab737731870ba89" category="admonition">이는 BlueXP SaaS 플랫폼을 사용하지 못하도록 방지하는 비가역적인 조치입니다. 로컬 커넥터에서 작업을 수행해야 합니다. NetApp의 다양한 통합 클라우드 서비스를 사용할 수 없으며 SaaS 플랫폼을 재활용하려면 NetApp의 지원이 필요합니다.</block>
   <block id="47e1359a022ca3afaefd4c4135f630ab" category="inline-link-macro">BlueXP SaaS 인터페이스에 로그인합니다</block>
   <block id="53cd2d53a0bbb4596900dbf8dc2f1193" category="list-text"><block ref="5cdb1ce54f5091c2b2ed720c94b4f10e" category="inline-link-macro-rx"></block> Connector 인스턴스에 대한 네트워크 연결이 있는 컴퓨터에서</block>
   <block id="b50274362874150065bf00a8be70b751" category="paragraph">Connector에서 실행되는 BlueXP 인터페이스는 새 브라우저 탭에 로드됩니다.</block>
   <block id="190d3f654701a58653384f20c47c8ecf" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 커넥터 설정 * 을 선택합니다.</block>
   <block id="099fd4b1efe59a1ac46efb50c44be6fd" category="admonition">BlueXP는 @ 문자를 포함하는 암호를 지원하지 않습니다.</block>
-  <block id="0e2ec8861e0eca9eed397572feaa87da" category="paragraph">프록시 서버를 구성한 경우 프록시를 통하지 않고 API 호출을 BlueXP로 직접 전송할 수 있습니다. 이 옵션은 AWS, Azure 또는 Google Cloud에서 실행되는 커넥터에서 지원됩니다.</block>
   <block id="67cbb61f9d12c71b3b67153567963530" category="paragraph">BlueXP에서 Azure 구독 및 자격 증명을 추가하는 방법에는 두 가지가 있습니다.</block>
   <block id="d6e059f3de26b29b7be6b2949eae8f3d" category="list-text">다른 Azure 자격 증명을 사용하여 Cloud Volumes ONTAP를 배포하려는 경우 서비스 보안 주체를 사용하여 Azure 권한을 부여하고 해당 자격 증명을 BlueXP에 추가합니다.</block>
   <block id="44b7efa00ab8e5ca07e5783fe3175bb3" category="paragraph">BlueXP를 사용하면 Cloud Volumes ONTAP를 배포할 Azure 자격 증명 및 Azure 구독을 선택할 수 있습니다. 를 연결하지 않으면 관리 ID 프로필에 대해 다른 Azure 구독을 선택할 수 없습니다<block ref="683de527faad104d75b2c83aceba6f01" category="inline-link-rx"></block> 있습니다.</block>
@@ -2730,7 +2722,6 @@
   <block id="46f3c2b17cd41da44d4022428c48ec74" category="list-text">Kubernetes 클러스터</block>
   <block id="aa2a9593bd535a1923acb9053fd7788b" category="paragraph">Connector를 두 개 이상의 NetApp 클라우드 데이터 서비스와 함께 사용할 수 있습니다. 예를 들어, Connector를 사용하여 Cloud Volumes ONTAP를 관리하는 경우 Cloud Tiering과 같은 다른 서비스와 동일한 Connector를 사용할 수 있습니다.</block>
   <block id="a046fbde0a8e04968445555624e37a69" category="summary">회사 정책에 따라 인터넷에 대한 모든 통신에 프록시 서버를 사용해야 하는 경우 해당 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 설치하는 동안 프록시 서버를 사용하도록 Connector를 구성하지 않은 경우 언제든지 해당 프록시 서버를 사용하도록 Connector를 구성할 수 있습니다.</block>
-  <block id="adff0cc7ebdc35c0671c2e9adb29cd98" category="paragraph">SaaS 플랫폼이 비활성화된 경우 정부 지역에서는 Cloud Backup이 지원되지만, SaaS 플랫폼이 비활성화된 경우에는 상업 지역에서는 지원되지 않습니다</block>
   <block id="a8c35528b3f05016e72e71694bb679ee" category="list-text">Connector의 인터넷 액세스에 프록시가 필요한 경우 프록시 서버에 대한 세부 정보입니다. HTTP 및 HTTPS가 지원됩니다.</block>
   <block id="16c184ab0a5376cef0ecef7f0da93ac2" category="list-text">_http_proxy_or_https_proxy_system 변수가 호스트에 설정되어 있으면 이를 제거합니다.</block>
   <block id="15c8f910fc596ecb4a8b91027b56de66" category="paragraph">이러한 시스템 변수를 제거하지 않으면 설치가 실패합니다.</block>
@@ -2981,4 +2972,8 @@
   <block id="f19dd7eba16fe45d9a801001a9371842" category="inline-link">BlueXP에서 AWS 계정에 새 Amazon S3 버킷을 추가하는 방법을 알아보십시오</block>
   <block id="3fdb23ee61e644ed849519b472ba51ae" category="paragraph"><block ref="35aa20e861d3bf81209592fa160bd4e4" category="inline-link-rx"></block>.</block>
   <block id="a4f513306c1a0ead14679ffb7c282460" category="sidebar">Amazon S3 버킷을 관리합니다</block>
+  <block id="6282017b43dee5b3762b81c0124c425c" category="paragraph">Connector가 프록시 서버를 사용하도록 구성한 경우 프록시를 거치지 않고 API 호출을 클라우드 공급자 서비스로 직접 전송하기 위해 Connector에서 직접 API 트래픽을 활성화할 수 있습니다. 이 옵션은 AWS, Azure 또는 Google Cloud에서 실행되는 커넥터에서 지원됩니다.</block>
+  <block id="37bccc08c3c6cebbbf500cfe54775991" category="paragraph">Cloud Volumes ONTAP에서 Azure 개인 링크 사용을 비활성화했으며 서비스 끝점을 대신 사용하는 경우 직접 API 트래픽을 활성화해야 합니다. 그렇지 않으면 트래픽이 제대로 라우팅되지 않습니다.</block>
+  <block id="ac10c9401f16ed5ff0a029bce2712adc" category="inline-link">Cloud Volumes ONTAP에서 Azure 전용 링크 또는 서비스 끝점을 사용하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="bfa340d153d70df3ad6af8db39b45e8e" category="paragraph"><block ref="bfa340d153d70df3ad6af8db39b45e8e" category="inline-link-rx"></block></block>
 </blocks>
