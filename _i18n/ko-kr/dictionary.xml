@@ -750,8 +750,6 @@
   <block id="d3889a6ed22a99a11226c6b554539fa1" category="paragraph">Connector는 다른 애플리케이션과 공유되는 VM에서 지원되지 않습니다. VM은 Connector 소프트웨어 전용이어야 합니다.</block>
   <block id="39c131bd8f90ef7749228972a6486162" category="section-title">타사 에이전트 및 내선 번호</block>
   <block id="c305e694f602a4913fd20d15e3508fcc" category="paragraph">타사 에이전트 또는 VM 확장은 커넥터 VM에서 지원되지 않습니다.</block>
-  <block id="9b2658aca840a5bb63ea0f460945616d" category="section-title">커넥터는 계속 작동 중이어야 합니다</block>
-  <block id="e3b183b81588a53a9977e2f408f637ca" category="paragraph">커넥터는 항상 작동 상태를 유지해야 합니다. 이는 여러분이 제공하는 서비스의 지속적인 상태 및 운영에 중요합니다.</block>
   <block id="fa1f9e92f4f0aa51cba859b2dbc37a02" category="section-title">커넥터 작성 방법</block>
   <block id="2a6d41af9b09f97725c64e2705d629b2" category="inline-link-macro">AWS에서 생성</block>
   <block id="f6a61a9eb8031d1e8178ffee4fa56624" category="list-text"><block ref="f6a61a9eb8031d1e8178ffee4fa56624" category="inline-link-macro-rx"></block></block>
@@ -879,7 +877,6 @@
   <block id="ac252743de820aac9183d9f76d4bed67" category="section-title">NetApp 계정</block>
   <block id="fe4a785cf549e843e958f443c4baf0fe" category="section-title">커넥터</block>
   <block id="249345af661bafcf4f8bd3a0b9d6e949" category="inline-link-macro">커넥터가 필요한 시기와 작동 방식에 대해 자세히 알아보십시오</block>
-  <block id="5becfd4bbec3e5daaed9dbc85669ff84" category="paragraph"><block ref="850c1601f372329538aba5fe3f86430c" category="inline-link-macro-rx"></block>.</block>
   <block id="958c315a8c40765f65895091ecc83488" category="paragraph"><block ref="958c315a8c40765f65895091ecc83488" category="inline-link-rx"></block></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="be541d1f37f2cc0c7ba1cfd7fcfbb4db" category="section-title">대상 네트워크에 연결</block>
@@ -1899,7 +1896,6 @@
   <block id="893b6747ffabae1d7bbd6d266f24c4ab" category="section-title">공유 VPC 권한 설정</block>
   <block id="17d9282186c2451db90a83330e5c9d7b" category="list-text"><block ref="17d9282186c2451db90a83330e5c9d7b" category="inline-link-macro-rx"></block></block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
-  <block id="6c73104e218372ccda6dc2d58fda524d" category="paragraph">예를 들어, Connector는 Cloud Volumes ONTAP의 상태 및 작동에 있어 핵심 구성 요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.</block>
   <block id="b9c53fca7bb84d0455a2b4768b130e38" category="admonition">Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.</block>
   <block id="2538b2df52d923f09592be3b38238322" category="list-text">14GB</block>
   <block id="5fd245f2aeee830efb92d081af6a0e22" category="list-text">Connector가 인터넷에 연결되지 않은 사이트에 설치되어 있으면 이메일 알림 전송이 지원되지 않습니다.</block>
@@ -2192,7 +2188,6 @@
   <block id="8ff6e794637981d1636a228e2fd99e19" category="section-title">BlueXP 웹 사이트</block>
   <block id="ccf2bc5e97e215334aa616cd5aae2339" category="inline-link">BlueXP 웹 사이트</block>
   <block id="4e05b56c4de538910ffb2fd4803fc8fe" category="paragraph"><block ref="1d556453952dc634fd34acc203a3b356" category="inline-link-rx"></block> 액세스 및 관리를 위한 중앙 집중식 위치를 제공합니다<block ref="f8857ad38375ecb04836e382f93d702b" category="inline-link-rx"></block>. 중앙 집중식 사용자 인증을 사용하면 동일한 자격 증명을 사용하여 BlueXP 및 Cloud Insights와 같은 기타 클라우드 서비스에 액세스할 수 있습니다.</block>
-  <block id="3f724f244896d73f5824434d26fb0c62" category="paragraph">대부분의 경우 BlueXP 계정 관리자는 클라우드 또는 온프레미스 네트워크에 _Connector_를 배포해야 합니다. BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다.</block>
   <block id="def802d2deb64de5ee040ba416bab8f8" category="paragraph">독립적인 공인 회계사 및 서비스 감사원이 BlueXP, Cloud Sync, Cloud Tiering, Cloud Data Sense 및 Cloud Backup(BlueXP 플랫폼)을 조사하여 해당 신뢰 서비스 기준에 따라 SOC 2 Type 2 보고서를 작성했다는 것을 확인했습니다.</block>
   <block id="51562116f8d941fa36a92a4d3133b0ff" category="summary">서비스 계정은 BlueXP에 Connector와 동일한 프로젝트 또는 다른 프로젝트에 있는 Cloud Volumes ONTAP 시스템을 배포 및 관리할 수 있는 권한을 제공합니다.</block>
   <block id="a8f8f08c9d91eeaecc31377113ddd27b" category="section-title">BlueXP의 프로젝트 및 권한</block>
@@ -2772,7 +2767,6 @@
   <block id="2f0488f8a3ca91699637c323ed3b7ae7" category="paragraph">이제 BlueXP 로그인 및 계정이 있습니다. 대부분의 경우 다음 단계는 BlueXP의 서비스를 하이브리드 클라우드 환경에 연결하는 Connector를 만드는 것입니다.</block>
   <block id="e5d34a7be7e3c957d955b41f31cc1b6b" category="admonition">조직의 누군가가 청구 계정에서 NetApp BlueXP 구독을 이미 구독한 경우 으로 리디렉션됩니다<block ref="35e104e3e4686d9ee172091b57b45bc0" category="inline-link-rx"></block> 대신 예기치 않은 상황인 경우 NetApp 세일즈 팀에 문의하십시오. Google은 Google 청구 계정당 하나의 가입만 활성화합니다.</block>
   <block id="18ed152ca3e6d97795e3c62f29f14fa3" category="inline-link">BlueXP 알림에 대해 알아보십시오</block>
-  <block id="aea5351abe13a2ef43df184a5caed50e" category="paragraph">BlueXP는 커넥터 전원이 14일 이상 꺼졌으면 사용자에게 알립니다.<block ref="e16712c557ed9121be1392c11d3884a1" category="inline-link-rx"></block>.</block>
   <block id="4bfec65bcbc9665c362f6c53301324c5" category="cell">-compute.instanceGroups.get -compute.addresses.get-compute.instances.updateNetworkInterface 를 참조하십시오</block>
   <block id="c5338aa09d091a71f3080053c9a0edc0" category="cell">Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리합니다.</block>
   <block id="00e6f4ddf63e81c5de84a3913163d11d" category="section-title">2023년 2월 6일</block>
@@ -2976,4 +2970,10 @@
   <block id="bfa340d153d70df3ad6af8db39b45e8e" category="paragraph"><block ref="bfa340d153d70df3ad6af8db39b45e8e" category="inline-link-rx"></block></block>
   <block id="ecbd3aa946706d4530b409255ef3a87e" category="paragraph">인터넷이 연결되지 않은 클라우드 지역에서는 BlueXP를 사용하여 Cloud Volumes ONTAP 시스템을 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 사내 환경으로 연결하는 경우). Cloud Backup을 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수도 있습니다(현재 AWS 및 Azure 암호 지역에서는 백업이 지원되지 않음). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
   <block id="a8709880418b83b1477f57ddb74c84e3" category="list-text">Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). Cloud Backup을 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수도 있습니다. 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
+  <block id="5bf7ac4937c946ab4eedfb091ffa67ab" category="section-title">커넥터는 항상 작동해야 합니다</block>
+  <block id="1673272503e134b89e873151de0225a4" category="paragraph">커넥터는 NetApp BlueXP 서비스 아키텍처의 기본 부분입니다. 관련 커넥터가 항상 가동, 작동 및 액세스 가능한지 확인하는 것은 귀하의 책임입니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.</block>
+  <block id="5e546ca24430fc2b79e0e409176438c9" category="paragraph">이 문서는 EULA의 적용을 받습니다. 문서에 따라 제품을 작동하지 않는 경우 제품의 기능 및 작동, EULA에 따른 사용자의 권리에 부정적인 영향을 미칠 수 있습니다.</block>
+  <block id="8dffc8a152aadc1b397171c4248bd97b" category="section-title">커넥터 가용성이 Cloud Volumes ONTAP에 미치는 영향</block>
+  <block id="65f052fa67c6645d7ad3edc14e47de13" category="paragraph">커넥터는 Cloud Volumes ONTAP의 상태 및 작동에 있어 중요한 구성요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.</block>
+  <block id="e7da4bd68a22b069bcff5c88157199b4" category="paragraph">대부분의 경우 BlueXP 계정 관리자는 클라우드 또는 온프레미스 네트워크에 _Connector_를 배포해야 합니다. BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. <block ref="850c1601f372329538aba5fe3f86430c" category="inline-link-macro-rx"></block>.</block>
 </blocks>

@@ -67,6 +67,23 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 
 
+== 커넥터는 항상 작동해야 합니다
+
+커넥터는 NetApp BlueXP 서비스 아키텍처의 기본 부분입니다. 관련 커넥터가 항상 가동, 작동 및 액세스 가능한지 확인하는 것은 귀하의 책임입니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.
+
+이 문서는 EULA의 적용을 받습니다. 문서에 따라 제품을 작동하지 않는 경우 제품의 기능 및 작동, EULA에 따른 사용자의 권리에 부정적인 영향을 미칠 수 있습니다.
+
+
+
+=== 커넥터 가용성이 Cloud Volumes ONTAP에 미치는 영향
+
+커넥터는 Cloud Volumes ONTAP의 상태 및 작동에 있어 중요한 구성요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.
+
+
+NOTE: Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.
+
+
+
 == 지원되는 위치
 
 커넥터는 다음 위치에서 지원됩니다.
@@ -89,19 +106,6 @@ Azure에 커넥터를 배포하는 경우, 커넥터가 관리하는 Cloud Volum
 === Google Cloud 배포에 대한 참고 사항
 
 Google Cloud에서 Cloud Volumes ONTAP 시스템을 만들려면 Google Cloud에서도 실행되는 커넥터가 있어야 합니다. AWS, Azure 또는 온프레미스에서 실행되는 Connector를 사용할 수 없습니다.
-
-
-
-== 커넥터는 계속 작동 중이어야 합니다
-
-커넥터는 항상 작동 상태를 유지해야 합니다. 이는 여러분이 제공하는 서비스의 지속적인 상태 및 운영에 중요합니다.
-
-예를 들어, Connector는 Cloud Volumes ONTAP의 상태 및 작동에 있어 핵심 구성 요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.
-
-
-NOTE: Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.
-
-BlueXP는 커넥터 전원이 14일 이상 꺼졌으면 사용자에게 알립니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["BlueXP 알림에 대해 알아보십시오"].
 
 
 
