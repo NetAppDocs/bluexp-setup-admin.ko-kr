@@ -2856,7 +2856,6 @@
   <block id="dd8d2e5dd396a762bed92b10f72f5d67" category="section-title">사내 개요</block>
   <block id="4b85a689d4bf46a14216c1f7043d61d9" category="paragraph">인터넷이 연결되지 않은 온프레미스 환경에서는 BlueXP를 사용하여 온프레미스 ONTAP 클러스터를 검색하고, 클러스터 간에 데이터를 복제하고, 클라우드 백업을 사용하여 볼륨을 백업하고, 클라우드 데이터 센스로 검색할 수 있습니다. 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
   <block id="817fffd09424883c473079707bd42227" category="section-title">클라우드 개요</block>
-  <block id="6a2d5b4c5ec168a0a42fd35e394d5e59" category="paragraph">인터넷이 연결되지 않은 클라우드 지역에서는 BlueXP를 사용하여 Cloud Volumes ONTAP 시스템을 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 사내 환경으로 연결하는 경우). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
   <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.</block>
   <block id="42e8616c7f9505f6747fcbb59c7b5a93" category="list-text">에서 인터넷에 액세스하지 않고 제한된 네트워크용 커넥터 설치 프로그램을 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block></block>
   <block id="559e00158f66ad338da1ff42475d15d4" category="paragraph">온프레미스 환경:</block>
@@ -2938,7 +2937,6 @@
   <block id="796ced97a72330e5ce3c0935b7b09f45" category="paragraph"><block ref="622b6e7f4143df2aca06b538ee1d864e" category="inline-link-rx"></block>.</block>
   <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">Connector는 현재 Red Hat Enterprise Linux 8.7을 실행하는 호스트에서 지원됩니다.</block>
   <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>.</block>
-  <block id="9597dfcf8249ec8766cfb35fd11357f3" category="list-text">Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
   <block id="33b6f29ed1acfc0fbed883a6e1f44ef2" category="paragraph">시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.</block>
   <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">인터넷에 연결되지 않은 위치에 커넥터를 설치합니다</block>
   <block id="6bfdfb1d6b845d41edac4f1eb0065216" category="list-text"><block ref="6bfdfb1d6b845d41edac4f1eb0065216" category="inline-link-rx"></block></block>
@@ -2976,4 +2974,6 @@
   <block id="37bccc08c3c6cebbbf500cfe54775991" category="paragraph">Cloud Volumes ONTAP에서 Azure 개인 링크 사용을 비활성화했으며 서비스 끝점을 대신 사용하는 경우 직접 API 트래픽을 활성화해야 합니다. 그렇지 않으면 트래픽이 제대로 라우팅되지 않습니다.</block>
   <block id="ac10c9401f16ed5ff0a029bce2712adc" category="inline-link">Cloud Volumes ONTAP에서 Azure 전용 링크 또는 서비스 끝점을 사용하는 방법에 대해 자세히 알아보십시오</block>
   <block id="bfa340d153d70df3ad6af8db39b45e8e" category="paragraph"><block ref="bfa340d153d70df3ad6af8db39b45e8e" category="inline-link-rx"></block></block>
+  <block id="ecbd3aa946706d4530b409255ef3a87e" category="paragraph">인터넷이 연결되지 않은 클라우드 지역에서는 BlueXP를 사용하여 Cloud Volumes ONTAP 시스템을 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 사내 환경으로 연결하는 경우). Cloud Backup을 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수도 있습니다(현재 AWS 및 Azure 암호 지역에서는 백업이 지원되지 않음). 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
+  <block id="a8709880418b83b1477f57ddb74c84e3" category="list-text">Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). Cloud Backup을 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수도 있습니다. 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.</block>
 </blocks>
