@@ -667,7 +667,6 @@
   <block id="bb036d72177ab633d83cf7c11f211546" category="section-title">보안 업데이트를 적용합니다</block>
   <block id="fce63be6a5df1b8f029ff105a6d48616" category="paragraph">Connector의 운영 체제를 업데이트하여 최신 보안 업데이트로 패치되었는지 확인합니다.</block>
   <block id="1208149fe3ebe603e8d12495099b22e4" category="list-text">커넥터 호스트에서 CLI 셸에 액세스합니다.</block>
-  <block id="065ff36e9f63c035ca95dbe0bff46bfe" category="list-text">상승된 권한으로 다음 명령을 실행합니다.</block>
   <block id="e2729464f9bccb35f8d10ba5019f3955" category="paragraph">Connector에 대한 URI를 추가하고 제거합니다.</block>
   <block id="5e6a0548d1a9b870a897fd2b63da39c6" category="list-text">커넥터 관리 * 를 클릭합니다.</block>
   <block id="184412530c50886985d099a0d5cedd16" category="list-text">Connector에 대한 작업 메뉴를 클릭하고 * URI 편집 * 을 클릭합니다.</block>
@@ -2976,4 +2975,10 @@
   <block id="8dffc8a152aadc1b397171c4248bd97b" category="section-title">커넥터 가용성이 Cloud Volumes ONTAP에 미치는 영향</block>
   <block id="65f052fa67c6645d7ad3edc14e47de13" category="paragraph">커넥터는 Cloud Volumes ONTAP의 상태 및 작동에 있어 중요한 구성요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.</block>
   <block id="e7da4bd68a22b069bcff5c88157199b4" category="paragraph">대부분의 경우 BlueXP 계정 관리자는 클라우드 또는 온프레미스 네트워크에 _Connector_를 배포해야 합니다. BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. <block ref="850c1601f372329538aba5fe3f86430c" category="inline-link-macro-rx"></block>.</block>
+  <block id="7889e734551361eda836c7c7bb098d0f" category="list-text">호스트에 다음 디렉토리가 있는지 확인합니다.</block>
+  <block id="8a5f2dc93753049d63d32fca4e868454" category="paragraph">/opt/application/netapp/service-manager-2</block>
+  <block id="1d356cb442bdf9a28522842dc7a5fc3f" category="paragraph">2022년 말 이후에 생성된 커넥터에는 이 디렉토리가 포함되어야 합니다.</block>
+  <block id="aa3abd83021c837147cb63a5da490cfc" category="list-text">해당 디렉토리의 존재 여부에 따라 명령을 실행하여 OS를 업데이트합니다.</block>
+  <block id="d18a6912830b95dcae293a053dd50838" category="list-text">디렉토리가 있는 경우 상승된 권한으로 다음 명령을 실행합니다.</block>
+  <block id="7239793e251456f2e73133f34ccc957d" category="list-text">directory_does not_exist인 경우 상승된 권한으로 다음 명령을 실행합니다.</block>
 </blocks>

@@ -113,15 +113,35 @@ Connector의 운영 체제를 업데이트하여 최신 보안 업데이트로 �
 
 .단계
 . 커넥터 호스트에서 CLI 셸에 액세스합니다.
-. 상승된 권한으로 다음 명령을 실행합니다.
+. 호스트에 다음 디렉토리가 있는지 확인합니다.
++
+/opt/application/netapp/service-manager-2
+
++
+2022년 말 이후에 생성된 커넥터에는 이 디렉토리가 포함되어야 합니다.
+
+. 해당 디렉토리의 존재 여부에 따라 명령을 실행하여 OS를 업데이트합니다.
++
+** 디렉토리가 있는 경우 상승된 권한으로 다음 명령을 실행합니다.
 +
 [source, cli]
 ----
 sudo -s
 service netapp-service-manager stop
-yum -y update –-security
+yum -y update --security
 service netapp-service-manager start
 ----
+** directory_does not_exist인 경우 상승된 권한으로 다음 명령을 실행합니다.
++
+[source, cli]
+----
+sudo -s
+service service-manager stop
+yum -y update --security
+service service-manager start
+----
+
+
 
 
 
