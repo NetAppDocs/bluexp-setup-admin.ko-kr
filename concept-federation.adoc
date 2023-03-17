@@ -1,0 +1,230 @@
+---
+sidebar: sidebar 
+permalink: concept-federation.html 
+keywords: identity federation, federation, federated identity, set up identity federation, set up federated connection, federated connection 
+summary: ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. ID 공급자와의 연결을 설정하기 전에 BlueXP에서 ID 페더레이션을 지원하는 방법을 이해해야 합니다. 
+---
+= BlueXP에서 ID 페더레이션 사용
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. ID 공급자와의 연결을 설정하기 전에 BlueXP에서 ID 페더레이션을 지원하는 방법을 이해해야 합니다.
+
+
+
+== ID 페더레이션의 작동 방식
+
+ID 페더레이션을 설정하면 BlueXP의 인증 서비스 공급자(auth0)와 사용자 고유의 ID 관리 공급자 간에 트러스트 연결이 만들어집니다.
+
+다음 이미지는 BlueXP에서 ID 페더레이션이 작동하는 방식을 보여 줍니다.
+
+image:diagram-identity-federation.png["BlueXP를 사용하여 인증하는 사용자와 BlueXP와 사용자를 인증하는 ID 공급자 간의 연결을 보여 주는 다이어그램입니다."]
+
+. 사용자가 BlueXP 로그인 페이지에 이메일 주소를 입력합니다.
+. BlueXP는 전자 메일 도메인이 통합 연결의 일부임을 확인하고 신뢰할 수 있는 연결을 사용하여 인증 요청을 ID 공급자에게 보냅니다.
++
+통합 연결을 설정할 때 BlueXP는 항상 해당 통합 연결을 인증에 사용합니다.
+
+. 사용자는 회사 디렉터리의 자격 증명을 사용하여 인증합니다.
+. ID 공급자가 사용자의 ID를 인증하고 사용자가 BlueXP에 로그인되어 있습니다.
+
+
+ID 페더레이션은 SAML(Security Assertion Markup Language 2.0) 및 OIDC(OpenID Connect)와 같은 공개 표준을 사용합니다.
+
+
+
+== 지원되는 ID 공급자
+
+BlueXP는 다음과 같은 ID 공급자를 지원합니다.
+
+* SAML(Security Assertion Markup Language) ID 공급자
+* Microsoft Azure AD(Active Directory)
+* ADFS(Active Directory Federation Services)
+* PingFederate(PingFederate)
+
+
+BlueXP는 서비스 공급업체에서 시작한(SP 시작) SSO만 지원합니다. ID 공급자 시작(IDP 시작) SSO는 지원되지 않습니다.
+
+
+
+== 설치 프로세스 개요
+
+BlueXP와 ID 관리 공급자 간의 연결을 설정하기 전에 그에 따라 준비할 수 있도록 해야 할 단계를 이해해야 합니다.
+
+
+
+=== SAML ID 공급자
+
+BlueXP와 SAML ID 공급자 간의 페더레이션 연결을 설정하는 단계는 다음과 같습니다.
+
+[cols="10,15,75"]
+|===
+| 단계 | 완료자 | 설명 
+
+
+| 1 | AD 관리자  a| 
+auth0 설명서의 지침에 따라 SAML ID 공급자를 구성합니다.
+
+SAML ID 공급자에 대한 지침 보기:
+
+* https://auth0.com/docs/authenticate/protocols/saml/saml-sso-integrations/configure-auth0-saml-service-provider/configure-adfs-saml-connections["고급"^]
+* https://auth0.com/docs/authenticate/protocols/saml/saml-sso-integrations/configure-auth0-saml-service-provider/configure-okta-as-saml-identity-provider["오타"^]
+* https://auth0.com/docs/authenticate/protocols/saml/saml-sso-integrations/configure-auth0-saml-service-provider/configure-onelogin-as-saml-identity-provider["OneLogin"^]
+* https://auth0.com/docs/authenticate/protocols/saml/saml-sso-integrations/configure-auth0-saml-service-provider/configure-pingfederate-as-saml-identity-provider["PingFederate(PingFederate)"^]
+* https://auth0.com/docs/authenticate/protocols/saml/saml-sso-integrations/configure-auth0-saml-service-provider/configure-salesforce-as-saml-identity-provider["Salesforce를 참조하십시오"^]
+* https://auth0.com/docs/authenticate/protocols/saml/saml-sso-integrations/configure-auth0-saml-service-provider/configure-siteminder-as-saml-identity-provider["사이트 마인더"^]
+* https://auth0.com/docs/authenticate/protocols/saml/saml-sso-integrations/configure-auth0-saml-service-provider/configure-ssocircle-as-saml-identity-provider["SSOCircle"^]
+
+
+ID 공급자가 위의 목록에 나타나지 않으면 https://auth0.com/docs/authenticate/protocols/saml/saml-sso-integrations/configure-auth0-saml-service-provider["다음 일반 지침을 따르십시오"^]
+
+
+TIP: auth0과의 연결을 만드는 방법을 설명하는 단계를 _NOT_완료하십시오. 다음 단계에서 해당 연결을 만듭니다.
+
+
+
+| 2 | BlueXP 관리자  a| 
+로 이동합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^] 그리고 BlueXP와의 연결을 생성합니다.
+
+이 단계를 완료하려면 AD 관리자로부터 ID 공급자에 대한 다음 정보를 얻어야 합니다.
+
+* 로그인 URL
+* X509 서명 인증서(PEM 또는 CER 형식)
+* 로그아웃 URL(선택 사항)
+
+
+이 정보를 사용하여 연결을 만든 후 페더레이션 설정 페이지에는 다음 단계에서 구성을 완료하기 위해 AD 관리자에게 보낼 수 있는 매개 변수가 나열됩니다.
+
+
+
+| 3 | AD 관리자 | 2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 ID 공급자에 대한 구성을 완료합니다. 
+
+
+| 4 | BlueXP 관리자 | 에서 연결을 테스트하고 활성화합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^]연결 테스트와 연결 설정 간에 페이지가 새로 고쳐집니다. 
+|===
+
+
+=== Microsoft Azure AD를 참조하십시오
+
+BlueXP와 Azure AD 간의 페더레이션 연결을 설정하는 단계는 다음과 같습니다.
+
+[cols="10,15,75"]
+|===
+| 단계 | 완료자 | 설명 
+
+
+| 1 | AD 관리자  a| 
+클라이언트 암호와 함께 Azure Active Directory에 새 응용 프로그램을 만듭니다.
+
+https://auth0.com/docs/authenticate/identity-providers/enterprise-identity-providers/azure-active-directory/v2["Azure AD에 응용 프로그램을 등록하는 방법에 대한 지침을 봅니다"^]
+
+
+TIP: auth0과의 연결을 만드는 방법을 설명하는 단계를 _NOT_완료하십시오. 다음 단계에서 해당 연결을 만듭니다.
+
+
+
+| 2 | BlueXP 관리자  a| 
+로 이동합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^] 그리고 BlueXP와의 연결을 생성합니다.
+
+이 단계를 완료하려면 AD 관리자로부터 다음 정보를 얻어야 합니다.
+
+* 클라이언트 ID입니다
+* 클라이언트 암호 값입니다
+* Microsoft Azure AD 도메인입니다
+
+
+이 정보를 사용하여 연결을 만든 후 페더레이션 설정 페이지에는 다음 단계에서 구성을 완료하기 위해 AD 관리자에게 보낼 수 있는 매개 변수가 나열됩니다.
+
+
+
+| 3 | AD 관리자 | 2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 Azure AD의 구성을 완료합니다. 
+
+
+| 4 | BlueXP 관리자 | 에서 연결을 테스트하고 활성화합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^]연결 테스트와 연결 설정 간에 페이지가 새로 고쳐집니다. 
+|===
+
+
+=== 고급
+
+BlueXP와 ADFS 간의 통합 연결을 설정하는 단계는 다음과 같습니다.
+
+[cols="10,15,75"]
+|===
+| 단계 | 완료자 | 설명 
+
+
+| 1 | AD 관리자  a| 
+BlueXP에서 ID 페더레이션을 사용하도록 ADFS 서버를 구성합니다.
+
+https://auth0.com/docs/authenticate/identity-providers/enterprise-identity-providers/adfs["auth0으로 ADFS 서버를 구성하기 위한 지침을 봅니다"^]
+
+
+
+| 2 | BlueXP 관리자  a| 
+로 이동합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^] 그리고 BlueXP와의 연결을 생성합니다.
+
+이 단계를 완료하려면 AD 관리자로부터 ADFS 서버의 URL 또는 페더레이션 메타데이터 파일을 얻어야 합니다.
+
+이 정보를 사용하여 연결을 만든 후 페더레이션 설정 페이지에는 다음 단계에서 구성을 완료하기 위해 AD 관리자에게 보낼 수 있는 매개 변수가 나열됩니다.
+
+
+
+| 3 | AD 관리자 | 2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 ADFS 서버의 구성을 완료합니다. 
+
+
+| 4 | BlueXP 관리자 | 에서 연결을 테스트하고 활성화합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^]연결 테스트와 연결 설정 간에 페이지가 새로 고쳐집니다. 
+|===
+
+
+=== PingFederate(PingFederate)
+
+BlueXP와 PingFederate 서버 간의 통합 연결을 설정하는 단계는 다음과 같습니다.
+
+[cols="10,15,75"]
+|===
+| 단계 | 완료자 | 설명 
+
+
+| 1 | AD 관리자  a| 
+auth0 설명서의 지침에 따라 PingFederate 서버를 구성합니다.
+
+https://auth0.com/docs/authenticate/identity-providers/enterprise-identity-providers/ping-federate["연결 생성에 대한 지침을 봅니다"^]
+
+
+TIP: auth0과의 연결을 만드는 방법을 설명하는 단계를 _NOT_완료하십시오. 다음 단계에서 해당 연결을 만듭니다.
+
+
+
+| 2 | BlueXP 관리자  a| 
+로 이동합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^] 그리고 BlueXP와의 연결을 생성합니다.
+
+이 단계를 완료하려면 AD 관리자로부터 다음 정보를 얻어야 합니다.
+
+* PingFederate 서버의 URL입니다
+* X509 서명 인증서(PEM 또는 CER 형식)
+
+
+이 정보를 사용하여 연결을 만든 후 페더레이션 설정 페이지에는 다음 단계에서 구성을 완료하기 위해 AD 관리자에게 보낼 수 있는 매개 변수가 나열됩니다.
+
+
+
+| 3 | AD 관리자 | 2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 PingFederate 서버의 구성을 완료합니다. 
+
+
+| 4 | BlueXP 관리자 | 에서 연결을 테스트하고 활성화합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^]연결 테스트와 연결 설정 간에 페이지가 새로 고쳐집니다. 
+|===
+
+
+== 통합 연결을 업데이트합니다
+
+BlueXP 관리자가 연결을 설정한 후 관리자는 에서 언제든지 연결을 업데이트할 수 있습니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^]
+
+예를 들어 새 인증서를 업로드하여 연결을 업데이트해야 할 수 있습니다.
+
+연결을 만든 BlueXP 관리자는 연결을 업데이트할 수 있는 권한이 있는 유일한 사용자입니다. 추가 관리자를 추가하려면 제품 내 채팅을 통해 당사에 문의할 수 있습니다.

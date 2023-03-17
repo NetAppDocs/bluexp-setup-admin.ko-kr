@@ -51,6 +51,8 @@ sidebar:
       url: "/reference-whats-next.html"
   - title: BlueXP 관리
     entries:
+    - title: ID 제휴
+      url: "/concept-federation.html"
     - title: NetApp 계정
       entries:
       - title: 계정을 관리합니다
