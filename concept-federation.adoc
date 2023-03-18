@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-federation.html 
 keywords: identity federation, federation, federated identity, set up identity federation, set up federated connection, federated connection 
-summary: ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. ID 공급자와의 연결을 설정하기 전에 BlueXP에서 ID 페더레이션을 지원하는 방법을 이해해야 합니다. 
+summary: ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. 시작하려면 ID 페더레이션이 BlueXP와 작동하는 방식에 대해 알아보고 설치 프로세스의 개요를 검토하십시오. 
 ---
 = BlueXP에서 ID 페더레이션 사용
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 �
 
 
 [role="lead"]
-ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. ID 공급자와의 연결을 설정하기 전에 BlueXP에서 ID 페더레이션을 지원하는 방법을 이해해야 합니다.
+_ID 페더레이션_ 사용자가 회사 ID의 자격 증명을 사용하여 로그인할 수 있도록 BlueXP에서 단일 로그온을 활성화합니다. 시작하려면 ID 페더레이션이 BlueXP와 작동하는 방식에 대해 알아보고 설치 프로세스의 개요를 검토하십시오.
 
 
 
@@ -68,7 +68,7 @@ BlueXP와 SAML ID 공급자 간의 페더레이션 연결을 설정하는 단계
 | 단계 | 완료자 | 설명 
 
 
-| 1 | AD 관리자  a| 
+| 1 | AD(Active Directory) 관리자  a| 
 auth0 설명서의 지침에 따라 SAML ID 공급자를 구성합니다.
 
 SAML ID 공급자에 대한 지침 보기:
@@ -221,7 +221,7 @@ TIP: auth0과의 연결을 만드는 방법을 설명하는 단계를 _NOT_완�
 |===
 
 
-== 통합 연결을 업데이트합니다
+== 통합 연결을 업데이트하는 중입니다
 
 BlueXP 관리자가 연결을 설정한 후 관리자는 에서 언제든지 연결을 업데이트할 수 있습니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^]
 

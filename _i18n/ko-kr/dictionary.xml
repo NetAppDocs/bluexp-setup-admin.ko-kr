@@ -2978,7 +2978,6 @@
   <block id="aa3abd83021c837147cb63a5da490cfc" category="list-text">해당 디렉토리의 존재 여부에 따라 명령을 실행하여 OS를 업데이트합니다.</block>
   <block id="d18a6912830b95dcae293a053dd50838" category="list-text">디렉토리가 있는 경우 상승된 권한으로 다음 명령을 실행합니다.</block>
   <block id="7239793e251456f2e73133f34ccc957d" category="list-text">directory_does not_exist인 경우 상승된 권한으로 다음 명령을 실행합니다.</block>
-  <block id="91d6fce5ad295f4c49b5ab17ad293e4c" category="summary">ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. ID 공급자와의 연결을 설정하기 전에 BlueXP에서 ID 페더레이션을 지원하는 방법을 이해해야 합니다.</block>
   <block id="5a94ee93b1a4f42d5f889b53b576b4f0" category="doc">BlueXP에서 ID 페더레이션 사용</block>
   <block id="694b3afac14ef0d070817c7ae79c1199" category="section-title">ID 페더레이션의 작동 방식</block>
   <block id="e4f3bdd29d08f22be201dfa18bf12273" category="paragraph">ID 페더레이션을 설정하면 BlueXP의 인증 서비스 공급자(auth0)와 사용자 고유의 ID 관리 공급자 간에 트러스트 연결이 만들어집니다.</block>
@@ -3058,7 +3057,6 @@
   <block id="9534006ccd3ea731e0e001938e3f012a" category="paragraph"><block ref="9534006ccd3ea731e0e001938e3f012a" category="inline-link-rx"></block></block>
   <block id="b9960b8035bc6ae148d9d0aeae7c957b" category="list-text">PingFederate 서버의 URL입니다</block>
   <block id="512527e34bba36a42c42f1febf1b5404" category="cell">2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 PingFederate 서버의 구성을 완료합니다.</block>
-  <block id="5b8ff6609e9eeeaa9e1acfdab0eabf9f" category="section-title">통합 연결을 업데이트합니다</block>
   <block id="6dc0ad0e9c9267dc0e4fb63076e0635a" category="paragraph">BlueXP 관리자가 연결을 설정한 후 관리자는 에서 언제든지 연결을 업데이트할 수 있습니다<block ref="635463d6f42fa56c4a5df120d7d58405" category="inline-link-rx"></block></block>
   <block id="b7d9630742e0cc263c04a1065ee99c04" category="paragraph">예를 들어 새 인증서를 업로드하여 연결을 업데이트해야 할 수 있습니다.</block>
   <block id="dbc6f5b69f3e88c308c302b2a186606c" category="paragraph">연결을 만든 BlueXP 관리자는 연결을 업데이트할 수 있는 권한이 있는 유일한 사용자입니다. 추가 관리자를 추가하려면 제품 내 채팅을 통해 당사에 문의할 수 있습니다.</block>
@@ -3066,4 +3064,8 @@
   <block id="22978e6bb3ddae7f86434764bd5d9415" category="paragraph">Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 로그인할 수 있습니다. <block ref="428e058a0b96c0f6b163e3a51b92bb16" category="inline-link-macro-rx"></block>.</block>
   <block id="66721b55faa00316d484082879eed67d" category="paragraph">두 옵션 모두 통합 연결을 지원하므로 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 단일 사인온이 가능합니다. 가입 후 페더레이션 연결을 설정할 수 있습니다. <block ref="428e058a0b96c0f6b163e3a51b92bb16" category="inline-link-macro-rx"></block>.</block>
   <block id="eed7d7eea79968152bcb0157d198eeea" category="sidebar">ID 제휴</block>
+  <block id="a187fbf78abfcf26b0ccf604029629e6" category="summary">ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. 시작하려면 ID 페더레이션이 BlueXP와 작동하는 방식에 대해 알아보고 설치 프로세스의 개요를 검토하십시오.</block>
+  <block id="dca3cd1676cfe384fbb50f39c2e26eb4" category="paragraph">_ID 페더레이션_ 사용자가 회사 ID의 자격 증명을 사용하여 로그인할 수 있도록 BlueXP에서 단일 로그온을 활성화합니다. 시작하려면 ID 페더레이션이 BlueXP와 작동하는 방식에 대해 알아보고 설치 프로세스의 개요를 검토하십시오.</block>
+  <block id="6c3d838359f74f39c9ee994a4c202763" category="cell">AD(Active Directory) 관리자</block>
+  <block id="38354362734b03037ea9de3dd0ec048c" category="section-title">통합 연결을 업데이트하는 중입니다</block>
 </blocks>
