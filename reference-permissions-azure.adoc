@@ -321,9 +321,6 @@ Connector는 Cloud Data Sense를 사용할 때 다음과 같은 API 요청을 �
 | Microsoft.Storage/storageAccounts/write입니다 | 예 | 아니요 
 
 
-| Microsoft.Storage/storageAccounts/delete | 아니요 | 예 
-
-
 | Microsoft.Storage/storageAccounts/blobServices/containers/read | 예 | 예 
 
 
@@ -764,6 +761,14 @@ Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 �
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2023년 3월 23일
+
+클라우드 데이터 센스에 "Microsoft.Storage/storageAccounts/delete" 권한이 더 이상 필요하지 않습니다.
+
+이 권한은 Cloud Volumes ONTAP에 여전히 필요합니다.
 
 
 

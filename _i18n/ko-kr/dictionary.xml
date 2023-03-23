@@ -2501,7 +2501,6 @@
   <block id="c1141a37b962270fc1e8960233830c99" category="section-title">IAM 정책</block>
   <block id="d169cac20ae3e0b6b9cec32d273de5f2" category="paragraph">아래에서 사용할 수 있는 IAM 정책은 Connector가 AWS 지역에 따라 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한을 제공합니다.</block>
   <block id="74b6a526e505305f967084e06fa6aaf3" category="paragraph">BlueXP에서 직접 표준 AWS 영역에 커넥터를 생성하는 경우 BlueXP는 자동으로 Connector에 정책을 적용합니다. 이 경우에는 아무 작업도 수행할 필요가 없습니다.</block>
-  <block id="fb86f9a9f53ddf38f2b2297b0200b8a3" category="paragraph">AWS Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector를 수동으로 설치하는 경우 정책을 직접 설정해야 합니다.</block>
   <block id="b8502b99c36d378968d3d20a7561e523" category="paragraph">또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다.</block>
   <block id="de16d176ab7c6c01a7ce45f2e7213194" category="paragraph">필요한 정책을 보려면 지역을 선택하십시오.</block>
   <block id="481dd59686d42d2d6a74eae1a1d763ad" category="paragraph">표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다.</block>
@@ -3068,4 +3067,11 @@
   <block id="dbd1aae17ba4f4ca876aea9deb478855" category="inline-link-macro">BlueXP에 등록하고 계정을 만드는 방법에 대해 알아봅니다</block>
   <block id="f4d0e4f5ec6f078434dc63eacdebe638" category="paragraph"><block ref="94d2906599f74921f2fab3568b028f51" category="inline-link-macro-rx"></block>.</block>
   <block id="816dc8c932a8afbdb9361ede8774b3d0" category="paragraph">회사에 이미 계정이 있는 경우 가입하려면 BlueXP를 종료하고 소유자에게 계정을 연계하도록 요청해야 합니다. 소유자가 사용자를 추가한 후 로그인하면 해당 계정에 액세스할 수 있습니다. <block ref="3b04849a18b87204738aa991e5f8575e" category="inline-link-macro-rx"></block>.</block>
+  <block id="5409221a62615b6b2cf0061a5376c983" category="inline-link">AWS 설명서:조건 요소</block>
+  <block id="4c3260e1174dd82ea2e496ac6f39fc4a" category="paragraph">필요한 경우 IAM을 사용하여 IAM 정책을 제한할 수 있습니다<block ref="9e2941b3c81256fac10392aaca4ccfde" prefix=" " category="inline-code"></block> 요소.<block ref="19ffef022087e160f1e54b9948795943" category="inline-link-rx"></block></block>
+  <block id="7d6d11737dd3bca1243f4e22e7aeaec1" category="list-text">AWS Marketplace에서 Connector를 배포하거나, Linux 호스트에 Connector를 수동으로 설치하거나, BlueXP에 추가 AWS 자격 증명을 추가하려는 경우 직접 정책을 설정해야 합니다.</block>
+  <block id="0c511f4078f33be6ce46a7b4c4d64f3e" category="section-title">2023년 3월 23일</block>
+  <block id="43908e244f944d05ab87a4987453f7bc" category="paragraph">클라우드 데이터 센스에 "Microsoft.Storage/storageAccounts/delete" 권한이 더 이상 필요하지 않습니다.</block>
+  <block id="47e8280c2cd82cf2f49537bfd5661b15" category="paragraph">이 권한은 Cloud Volumes ONTAP에 여전히 필요합니다.</block>
+  <block id="15f7c3376619ce497205d543fd1d7767" category="paragraph">필요한 경우 IAM을 사용하여 IAM 정책을 제한할 수 있습니다<block ref="9e2941b3c81256fac10392aaca4ccfde" prefix=" " category="inline-code"></block> 요소.<block ref="19ffef022087e160f1e54b9948795943" category="inline-link-rx"></block></block>
 </blocks>
