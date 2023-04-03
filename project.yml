@@ -83,6 +83,30 @@ sidebar:
         url: "/task-configuring-proxy.html"
       - title: 기본 구성
         url: "/reference-connector-default-config.html"
+    - title: 자격 증명
+      entries:
+      - title: AWS 자격 증명 관리
+        entries:
+        - title: 개요
+          url: "/concept-accounts-aws.html"
+        - title: 자격 증명 및 구독을 관리합니다
+          url: "/task-adding-aws-accounts.html"
+      - title: Azure 자격 증명을 관리합니다
+        entries:
+        - title: 개요
+          url: "/concept-accounts-azure.html"
+        - title: 자격 증명 및 구독을 관리합니다
+          url: "/task-adding-azure-accounts.html"
+      - title: Google Cloud 자격 증명을 관리합니다
+        entries:
+        - title: 개요
+          url: "/concept-accounts-gcp.html"
+        - title: 자격 증명 및 구독을 관리합니다
+          url: "/task-adding-gcp-accounts.html"
+      - title: BlueXP 계정과 연결된 NSS 자격 증명을 관리합니다
+        url: "/task-adding-nss-accounts.html"
+      - title: BlueXP 로그인과 관련된 자격 증명을 관리합니다
+        url: "/task-manage-user-credentials.html"
     - title: 구독
       url: "/task-manage-subscriptions.html"
     - title: 검색된 클라우드 스토리지
@@ -93,26 +117,6 @@ sidebar:
         url: "/task-viewing-azure-blob.html"
       - title: Google Cloud Storage 버킷을 확인하십시오
         url: "/task-viewing-gcp-storage.html"
-    - title: AWS 자격 증명
-      entries:
-      - title: 개요
-        url: "/concept-accounts-aws.html"
-      - title: 자격 증명 및 구독을 관리합니다
-        url: "/task-adding-aws-accounts.html"
-    - title: Azure 자격 증명
-      entries:
-      - title: 개요
-        url: "/concept-accounts-azure.html"
-      - title: 자격 증명 및 구독을 관리합니다
-        url: "/task-adding-azure-accounts.html"
-    - title: Google Cloud 자격 증명
-      entries:
-      - title: 개요
-        url: "/concept-accounts-gcp.html"
-      - title: 자격 증명 및 구독을 관리합니다
-        url: "/task-adding-gcp-accounts.html"
-    - title: NetApp Support 사이트 계정
-      url: "/task-adding-nss-accounts.html"
     - title: My Opportunities를 사용하여 검색
       url: "/concept-my-opportunities.html"
   - title: 참조하십시오

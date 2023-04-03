@@ -26,7 +26,7 @@ Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스
 
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
-. 자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.
+. 계정 자격 증명 * 페이지에서 자격 증명 세트에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.
 +
 image:screenshot_gcp_add_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
