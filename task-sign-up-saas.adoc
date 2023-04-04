@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-sign-up-saas.html 
-keywords: sign up, signing up, sign in, signing in, login with netapp, log in with netapp, create account, account 
-summary: BlueXP를 시작할 때 첫 번째 단계는 등록하는 것입니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다. 
+keywords: sign up, signing up, sign in, signing in, login with netapp, log in with netapp, create account, account, log in with nss, nss, nss login 
+summary: BlueXP를 시작할 때 첫 번째 단계는 기존 NetApp Support 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 생성하여 등록하는 것입니다. 
 ---
 = BlueXP에 등록하십시오
 :hardbreaks:
@@ -14,14 +14,9 @@ summary: BlueXP를 시작할 때 첫 번째 단계는 등록하는 것입니다.
 
 
 [role="lead"]
-BlueXP를 시작할 때 첫 번째 단계는 등록하는 것입니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다.
-
-.정부 지역에 대한 참고 사항
-정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 BlueXP에 액세스해야 하는 경우 커넥터를 생성하고 Connector에서 로컬로 실행되는 BlueXP 사용자 인터페이스에 로그인해야 합니다. link:task-managing-connectors.html#access-the-local-ui["Connector에서 로컬 UI에 액세스하는 방법에 대해 알아봅니다"].
+BlueXP는 웹 기반 콘솔에서 액세스할 수 있습니다. BlueXP를 시작할 때 첫 번째 단계는 기존 NetApp Support 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 생성하여 등록하는 것입니다.
 
 .등록 옵션
-BlueXP는 SaaS 기반 사용자 인터페이스를 통해 웹 브라우저에서 액세스할 수 있습니다.
-
 다음 옵션 중 하나를 사용하여 BlueXP에 등록할 수 있습니다.
 
 * 기존 NetApp Support 사이트(NSS) 자격 증명

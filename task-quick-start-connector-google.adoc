@@ -1,0 +1,99 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start-connector-google.html 
+keywords: quick start, connector quick start, google cloud quick start, gcp quick start 
+summary: 설치 옵션, 네트워킹 설정, 사용 권한 준비 등을 선택하여 Google Cloud에서 Connector를 만듭니다. 
+---
+= Google Cloud에서 커넥터를 빠르게 생성할 수 있습니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+설치 옵션, 네트워킹 설정, 사용 권한 준비 등을 선택하여 Google Cloud에서 Connector를 만듭니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 설치 옵션 이해
+[role="quick-margin-para"]
+Google Cloud에서 커넥터를 생성하는 표준 방법은 BlueXP에서 직접 만들 수 있지만, gcloud를 사용하거나 기존 Linux 호스트에 소프트웨어를 수동으로 설치할 수도 있습니다.
+
+[role="quick-margin-para"]
+link:concept-install-options-google.html["설치 옵션에 대해 자세히 알아보십시오"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 네트워킹 설정
+[role="quick-margin-para"]
+커넥터에 대해 다음을 준비합니다.
+
+[role="quick-margin-list"]
+* VPC 및 서브넷
+* 작업 환경을 만들고 관리할 계획인 네트워크에 대한 네트워크 연결
+* 일상적인 작업을 위해 특정 엔드포인트에 대한 아웃바운드 인터넷 액세스
+* 프록시 서버가 아웃바운드 인터넷에 필요한 경우 프록시 서버의 IP 주소, 자격 증명 및 HTTPS 인증서입니다
+
+
+[role="quick-margin-para"]
+link:task-set-up-networking-google.html["네트워킹 요구 사항에 대해 자세히 알아보십시오"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 호스트 요구 사항을 검토합니다
+[role="quick-margin-para"]
+Connector 소프트웨어는 특정 요구 사항을 충족하는 호스트에서 실행해야 합니다. 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. BlueXP에서 또는 gcloud를 사용하여 Connector를 만드는 경우 소프트웨어가 이미지에서 배포되기 때문에 이러한 요구 사항이 적용됩니다.
+
+[role="quick-margin-para"]
+주요 요구사항은 다음과 같습니다.
+
+[role="quick-margin-list"]
+* CentOS 또는 Red Hat Enterprise Linux를 실행하는 전용 호스트입니다
+* CPU 4개
+* 14GB의 RAM
+* Docker 엔진
+
+
+[role="quick-margin-para"]
+link:reference-host-requirements-google.html["이러한 호스트 요구 사항에 대해 자세히 알아보십시오"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] Google Cloud 권한을 설정합니다
+[role="quick-margin-para"]
+사용하려는 설치 옵션에 대한 Google Cloud 사용 권한 설정:
+
+[role="quick-margin-list"]
+* * BlueXP 또는 gcloud * 에서 설치: 사용자 지정 역할을 만들어 Connector를 배포할 사용자에게 연결합니다. 다른 사용자 지정 역할을 만들어 Connector VM 인스턴스의 서비스 계정에 할당합니다.
+* * 수동 설치 *: 사용자 지정 역할을 만들어 Connector VM 인스턴스의 서비스 계정에 할당합니다.
+
+
+[role="quick-margin-para"]
+link:task-set-up-permissions-google.html["이러한 각 옵션에 대한 단계별 지침을 따릅니다"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"] Google Cloud API를 활성화합니다
+[role="quick-margin-para"]
+Google Cloud에 Connector 및 Cloud Volumes ONTAP를 구축하려면 여러 API가 필요합니다.
+
+[role="quick-margin-list"]
+* Cloud Deployment Manager V2 API
+* 클라우드 로깅 API
+* Cloud Resource Manager API를 참조하십시오
+* 컴퓨팅 엔진 API
+* IAM(Identity and Access Management) API
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] 커넥터를 작성합니다
+[role="quick-margin-para"]
+사용 가능한 설치 옵션 중 하나를 사용하여 커넥터를 만듭니다.
+
+[role="quick-margin-list"]
+* * BlueXP *: 커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.
+* * 사용방법 *: 을 사용합니다 `gcloud compute instances create` 명령.
+* * 수동 설치 *: 에서 커넥터 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"] 설치 스크립트를 실행합니다.
+
+
+[role="quick-margin-para"]
+link:task-install-connector-google.html["이러한 각 옵션에 대한 단계별 지침을 따릅니다"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-7.png["7번"] 권한을 BlueXP에 제공합니다
+[role="quick-margin-para"]
+자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치한 경우 이전에 설정한 권한을 BlueXP에 제공해야 합니다.
+
+[role="quick-margin-para"]
+link:task-provide-permissions-google.html["단계별 지침을 따릅니다"].

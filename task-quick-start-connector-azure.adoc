@@ -1,0 +1,88 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start-connector-azure.html 
+keywords: quick start, connector quick start, azure quick start 
+summary: 설치 옵션, 네트워킹 설정, 사용 권한 준비 등을 선택하여 Azure에서 Connector를 만듭니다. 
+---
+= Azure에서 커넥터를 생성하기 위한 빠른 시작
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+설치 옵션, 네트워킹 설정, 사용 권한 준비 등을 선택하여 Azure에서 Connector를 만듭니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 설치 옵션 이해
+[role="quick-margin-para"]
+Azure에서 커넥터를 생성하는 표준 방법은 BlueXP에서 직접 만들 수 있지만, Azure Marketplace에서 커넥터를 만들거나 기존 Linux 호스트에 소프트웨어를 수동으로 설치할 수도 있습니다.
+
+[role="quick-margin-para"]
+link:concept-install-options-azure.html["설치 옵션에 대해 자세히 알아보십시오"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 네트워킹 설정
+[role="quick-margin-para"]
+커넥터에 대해 다음을 준비합니다.
+
+[role="quick-margin-list"]
+* VNET 및 서브넷
+* 작업 환경을 만들고 관리할 계획인 네트워크에 대한 네트워크 연결
+* 일상적인 작업을 위해 특정 엔드포인트에 대한 아웃바운드 인터넷 액세스
+* 프록시 서버가 아웃바운드 인터넷에 필요한 경우 프록시 서버의 IP 주소, 자격 증명 및 HTTPS 인증서입니다
+
+
+[role="quick-margin-para"]
+link:task-set-up-networking-azure.html["네트워킹 요구 사항에 대해 자세히 알아보십시오"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 호스트 요구 사항을 검토합니다
+[role="quick-margin-para"]
+Connector 소프트웨어는 특정 요구 사항을 충족하는 호스트에서 실행해야 합니다. 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. BlueXP 또는 Azure Marketplace에서 Connector를 만드는 경우 소프트웨어에서 이미지를 배포하기 때문에 이러한 요구 사항이 적용됩니다.
+
+[role="quick-margin-para"]
+주요 요구사항은 다음과 같습니다.
+
+[role="quick-margin-list"]
+* CentOS 또는 Red Hat Enterprise Linux를 실행하는 전용 호스트입니다
+* CPU 4개
+* 14GB의 RAM
+* Docker 엔진
+
+
+[role="quick-margin-para"]
+link:reference-host-requirements-azure.html["이러한 호스트 요구 사항에 대해 자세히 알아보십시오"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] Azure 권한을 설정합니다
+[role="quick-margin-para"]
+사용하려는 설치 옵션에 대해 Azure 사용 권한 설정:
+
+[role="quick-margin-list"]
+* * BlueXP * 에서 설치: 사용자 지정 역할을 만든 다음 Azure 계정 또는 Azure AD 서비스 보안 담당자에게 적용합니다. BlueXP는 Azure를 사용하여 인증을 수행하고 이러한 권한을 사용하여 사용자를 대신하여 Connector 인스턴스를 만듭니다.
+* * Azure Marketplace * 에서 설치: Connector VM 인스턴스 또는 Azure AD 서비스 보안 주체와 연결할 수 있는 사용자 지정 역할을 생성합니다.
+* * 수동 설치 *: Connector VM 인스턴스 또는 Azure AD 서비스 보안 주체와 연결할 수 있는 사용자 지정 역할을 생성합니다.
+
+
+[role="quick-margin-para"]
+link:task-set-up-permissions-azure.html["이러한 각 옵션에 대한 단계별 지침을 따릅니다"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["다섯"] 커넥터를 작성합니다
+[role="quick-margin-para"]
+사용 가능한 설치 옵션 중 하나를 사용하여 커넥터를 만듭니다.
+
+[role="quick-margin-list"]
+* * BlueXP *: 커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.
+* * Azure Marketplace * 에서 로 이동합니다 https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.netapp-oncommand-cloud-manager["Azure 마켓플레이스의 NetApp Connector VM 페이지"^] 메시지에 따라 Connector VM을 생성합니다.
+* * 수동 설치 *: 에서 커넥터 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"] 설치 스크립트를 실행합니다.
+
+
+[role="quick-margin-para"]
+link:task-install-connector-azure.html["이러한 각 옵션에 대한 단계별 지침을 따릅니다"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] 권한을 BlueXP에 제공합니다
+[role="quick-margin-para"]
+Azure Marketplace에서 Connector를 생성하거나 소프트웨어를 수동으로 설치한 경우 이전에 설정한 권한을 BlueXP에 제공해야 합니다.
+
+[role="quick-margin-para"]
+link:task-provide-permissions-azure.html["단계별 지침을 따릅니다"].

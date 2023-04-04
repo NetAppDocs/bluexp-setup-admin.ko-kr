@@ -4,7 +4,7 @@ permalink: task-installing-https-cert.html
 keywords: https certificate, certificate, adding, installing, ca, certificate authority, format, encoding, renewing 
 summary: '기본적으로 BlueXP는 웹 콘솔에 대한 HTTPS 액세스를 위해 자체 서명된 인증서를 사용합니다. CA(인증 기관)에서 서명한 인증서를 설치하면 자체 서명된 인증서보다 보안 보호가 향상됩니다.' 
 ---
-= 보안 액세스를 위한 HTTPS 인증서 관리
+= 보안 액세스를 위해 HTTPS 인증서를 설치합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -24,12 +24,12 @@ BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. lin
 
 
 
-== HTTPS 인증서 설치
+== HTTPS 인증서를 설치합니다
 
 보안 액세스를 위해 CA에서 서명한 인증서를 설치합니다.
 
 .단계
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * HTTPS 설정 * 을 선택합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * HTTPS 설정 * 을 선택합니다.
 +
 image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
 
@@ -41,7 +41,7 @@ image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아
 
 
 | CSR을 생성합니다  a| 
-.. 커넥터 호스트의 호스트 이름 또는 DNS(일반 이름)를 입력한 다음 * CSR 생성 * 을 클릭합니다.
+.. 커넥터 호스트의 호스트 이름 또는 DNS(공통 이름)를 입력한 다음 * CSR 생성 * 을 선택합니다.
 +
 BlueXP는 인증서 서명 요청을 표시합니다.
 
@@ -49,14 +49,14 @@ BlueXP는 인증서 서명 요청을 표시합니다.
 +
 인증서는 PEM(Privacy Enhanced Mail) Base-64로 인코딩된 X.509 형식을 사용해야 합니다.
 
-.. 인증서 파일을 업로드한 다음 * 설치 * 를 클릭합니다.
+.. 인증서 파일을 업로드한 다음 * 설치 * 를 선택합니다.
 
 
 
 
 | 고유한 CA 서명 인증서를 설치합니다  a| 
 .. CA 서명 인증서 설치 * 를 선택합니다.
-.. 인증서 파일과 개인 키를 모두 로드한 다음 * 설치 * 를 클릭합니다.
+.. 인증서 파일과 개인 키를 모두 로드한 다음 * 설치 * 를 선택합니다.
 +
 인증서는 PEM(Privacy Enhanced Mail) Base-64로 인코딩된 X.509 형식을 사용해야 합니다.
 
@@ -72,16 +72,16 @@ image:screenshot_https_cert.gif["스크린샷: 서명된 인증서를 설치한 
 
 
 
-== BlueXP HTTPS 인증서 갱신
+== BlueXP HTTPS 인증서를 갱신합니다
 
 BlueXP 콘솔에 안전하게 액세스하려면 만료되기 전에 BlueXP HTTPS 인증서를 갱신해야 합니다. 인증서가 만료되기 전에 갱신하지 않으면 사용자가 HTTPS를 사용하여 웹 콘솔에 액세스할 때 경고가 나타납니다.
 
 .단계
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * HTTPS 설정 * 을 선택합니다.
+. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * HTTPS 설정 * 을 선택합니다.
 +
 만료 날짜를 포함하여 BlueXP 인증서에 대한 세부 정보가 표시됩니다.
 
-. 인증서 변경 * 을 클릭하고 단계에 따라 CSR을 생성하거나 고유한 CA 서명 인증서를 설치합니다.
+. 인증서 변경 * 을 선택하고 단계에 따라 CSR을 생성하거나 고유한 CA 서명 인증서를 설치합니다.
 
 
 .결과

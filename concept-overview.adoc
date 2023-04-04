@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concept-overview.html 
-keywords: overview, concepts, features, use case, cloud manager 
-summary: IT 전문가 및 클라우드 설계자는 BlueXP를 통해 NetApp의 클라우드 솔루션을 사용하여 하이브리드 멀티 클라우드 인프라를 중앙에서 관리할 수 있습니다. 
+keywords: overview, concepts, features, use case, cloud manager, bluexp, how bluexp works, supported cloud providers, cloud providers, hyperscalers 
+summary: NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터를 구축, 보호, 관리할 수 있는 단일 제어 계층을 제공합니다. BlueXP SaaS 플랫폼에는 스토리지 관리, 데이터 이동성, 데이터 보호, 데이터 분석 및 제어 기능을 제공하는 스토리지 및 데이터 서비스가 포함되어 있습니다. 관리 기능은 웹 기반 콘솔 및 API를 통해 제공됩니다. 
 ---
 = BlueXP에 대해 자세히 알아보십시오
 :hardbreaks:
@@ -14,15 +14,18 @@ summary: IT 전문가 및 클라우드 설계자는 BlueXP를 통해 NetApp의 �
 
 
 [role="lead"]
-BlueXP(이전의 Cloud Manager)를 사용하면 IT 전문가와 클라우드 설계자가 NetApp의 클라우드 솔루션을 사용하여 하이브리드 멀티 클라우드 인프라를 중앙에서 관리할 수 있습니다.
+NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터를 구축, 보호, 관리할 수 있는 단일 제어 계층을 제공합니다. BlueXP SaaS 플랫폼에는 스토리지 관리, 데이터 이동성, 데이터 보호, 데이터 분석 및 제어 기능을 제공하는 스토리지 및 데이터 서비스가 포함되어 있습니다. 관리 기능은 웹 기반 콘솔 및 API를 통해 제공됩니다.
 
 
 
 == 피처
 
-BlueXP는 엔터프라이즈급 SaaS 기반 관리 플랫폼으로, 데이터가 어디에 있든 데이터를 제어할 수 있습니다.
+BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네 가지 주요 데이터 관리 기능을 제공합니다.
 
-* 설정 및 사용 https://cloud.netapp.com/ontap-cloud["Cloud Volumes ONTAP"^] 클라우드 전반에서 효율적인 멀티 프로토콜 데이터 관리
+스토리지:: AWS, Azure, Google Cloud 또는 온프레미스에 상관없이 스토리지를 검색, 구축, 관리할 수 있습니다.
++
+--
+* 설정 및 사용 https://bluexp.netapp.com/ontap-cloud["Cloud Volumes ONTAP"^] 클라우드 전반에서 효율적인 멀티 프로토콜 데이터 관리
 * 클라우드 파일 스토리지 서비스 설정 및 사용:
 +
 ** https://bluexp.netapp.com/azure-netapp-files["Azure NetApp Files"^]
@@ -30,29 +33,46 @@ BlueXP는 엔터프라이즈급 SaaS 기반 관리 플랫폼으로, 데이터가
 ** https://bluexp.netapp.com/cloud-volumes-service-for-gcp["Google Cloud용 Cloud Volumes Service"^]
 
 
-* 검색 및 관리 https://bluexp.netapp.com/netapp-on-premises["높지 않습니다"^]
+* 검색 및 관리 https://bluexp.netapp.com/netapp-on-premises["높지 않습니다"^]:
 +
 ** E-Series 시스템
 ** ONTAP 클러스터
 ** StorageGRID 시스템
 
 
-* 데이터 이동성, 데이터 보호, 데이터 분석 및 제어를 위해 BlueXP의 서비스를 사용합니다.
+
+
+--
+이동성:: 데이터를 동기화, 복사, 계층화 및 캐싱하여 필요한 위치로 데이터를 이동합니다.
 +
-** https://bluexp.netapp.com/cloud-backup["클라우드 백업"^]
-** https://bluexp.netapp.com/netapp-cloud-data-sense["클라우드 데이터 감지"^]
-** https://bluexp.netapp.com/cloud-sync-service["Cloud Sync"^]
-** https://bluexp.netapp.com/cloud-tiering["클라우드 계층화"^]
-** https://bluexp.netapp.com/digital-advisor["디지털 자문업체"^]
-** https://bluexp.netapp.com/global-file-cache["글로벌 파일 캐시"^]
-** https://bluexp.netapp.com/k8s["쿠버네티스"^]
-** https://bluexp.netapp.com/ransomware-protection["랜섬웨어 보호"^]
-** https://bluexp.netapp.com/replication["복제"^]
+--
+* https://bluexp.netapp.com/cloud-sync-service["Cloud Sync"^]
+* https://bluexp.netapp.com/cloud-tiering["클라우드 계층화"^]
+* https://bluexp.netapp.com/global-file-cache["글로벌 파일 캐시"^]
 
 
+--
+보호:: 자동화된 보호 메커니즘을 사용하여 데이터 손실, 계획되지 않은 운영 중단, 랜섬웨어 및 기타 사이버 위협으로부터 데이터를 보호합니다.
++
+--
+* https://bluexp.netapp.com/cloud-backup["클라우드 백업"^]
+* https://bluexp.netapp.com/replication["복제"^]
+* https://bluexp.netapp.com/ransomware-protection["랜섬웨어 보호"^]
+* https://bluexp.netapp.com/k8s["쿠버네티스"^]
 
 
-https://cloud.netapp.com/cloud-manager["BlueXP에 대해 자세히 알아보십시오"^]
+--
+분석 및 제어:: 툴을 사용하여 데이터 스토리지 및 인프라를 모니터링, 매핑 및 최적화할 수 있습니다.
++
+--
+* https://bluexp.netapp.com/netapp-cloud-data-sense["클라우드 데이터 감지"^]
+* https://bluexp.netapp.com/digital-advisor["디지털 자문업체"^]
+
+
+--
+
+
+https://bluexp.netapp.com/["BlueXP를 사용하여 조직에 도움을 주는 방법에 대해 자세히 알아보십시오"^]
 
 
 
@@ -64,57 +84,43 @@ BlueXP를 사용하면 Amazon Web Services, Microsoft Azure 및 Google Cloud에�
 
 == 비용
 
-BlueXP의 가격은 사용할 서비스에 따라 다릅니다. https://bluexp.netapp.com/pricing["BlueXP 가격에 대해 알아보십시오"^].
+BlueXP의 가격은 사용할 서비스에 따라 다릅니다. https://bluexp.netapp.com/pricing["BlueXP 가격에 대해 알아보십시오"^]
 
 
 
 == BlueXP의 작동 방식
 
-BlueXP에는 BlueXP 웹 사이트에 통합된 SaaS 기반 인터페이스와 Cloud Volumes ONTAP 및 기타 클라우드 서비스를 관리하는 커넥터가 포함되어 있습니다.
+BlueXP에는 SaaS 계층을 통해 제공되는 웹 기반 콘솔, 멀티 테넌시를 제공하는 계정, Cloud Volumes ONTAP 및 기타 클라우드 서비스를 관리하는 커넥터가 포함되어 있습니다.
 
 
 
 === 서비스형 소프트웨어
 
-BlueXP는 을 통해 액세스할 수 있습니다 https://console.bluexp.netapp.com["SaaS 기반 사용자 인터페이스"^] API를 사용해 보십시오. 이러한 SaaS 환경을 통해 최신 기능에 자동으로 액세스하고 NetApp 계정과 커넥터 간에 쉽게 전환할 수 있습니다.
-
-
-TIP: 아웃바운드 인터넷 액세스를 사용할 수 없는 환경에서 작업 중인 경우 해당 환경에 Connector 소프트웨어를 설치하고 Connector에서 사용할 수 있는 로컬 사용자 인터페이스에 액세스할 수 있습니다. link:concept-connectors.html["커넥터에 대해 자세히 알아보십시오"].
+BlueXP는 을 통해 액세스할 수 있습니다 https://console.bluexp.netapp.com["웹 기반 콘솔"^] API를 사용해 보십시오. 이 SaaS 환경을 통해 최신 기능이 릴리스될 때 자동으로 액세스할 수 있으며 BlueXP 계정과 커넥터 간에 쉽게 전환할 수 있습니다.
 
 
 
-=== BlueXP 웹 사이트
+=== BlueXP 계정
 
-https://cloud.netapp.com["BlueXP 웹 사이트"^] 액세스 및 관리를 위한 중앙 집중식 위치를 제공합니다 https://www.netapp.com/us/products/cloud-services/use-cases-for-netapp-cloud-services.aspx["NetApp 클라우드 서비스"^]. 중앙 집중식 사용자 인증을 사용하면 동일한 자격 증명을 사용하여 BlueXP 및 Cloud Insights와 같은 기타 클라우드 서비스에 액세스할 수 있습니다.
+BlueXP에 처음 로그인하면 _BlueXP 계정 _ 을(를) 생성하라는 메시지가 나타납니다. 이 계정은 다중 테넌시를 제공하며 사용자가 isolated_worksaces_에서 사용자 및 리소스를 구성할 수 있도록 합니다.
 
-
-
-=== NetApp 계정
-
-처음 BlueXP에 로그인하면 _NetApp 계정_을 생성하라는 메시지가 표시됩니다. 이 계정은 다중 테넌시를 제공하며 사용자가 isolated_worksaces_에서 사용자 및 리소스를 구성할 수 있도록 합니다.
+link:concept-netapp-accounts.html["어카운트에 대해 자세히 알아보십시오"].
 
 
 
 === 커넥터
 
-대부분의 경우 BlueXP 계정 관리자는 클라우드 또는 온프레미스 네트워크에 _Connector_를 배포해야 합니다. BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다. link:concept-connectors.html["커넥터가 필요한 시기와 작동 방식에 대해 자세히 알아보십시오"].
+BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다. Connector를 사용하면 사내 환경과 클라우드 환경 전반에서 리소스와 프로세스를 관리할 수 있습니다. Cloud Volumes ONTAP 및 기타 데이터 서비스를 사용해야 합니다.
+
+link:concept-connectors.html["커넥터에 대해 자세히 알아보십시오"].
 
 
 
-==== 커넥터는 항상 작동해야 합니다
+=== 제한된 모드 및 비공개 모드
 
-커넥터는 NetApp BlueXP 서비스 아키텍처의 기본 부분입니다. 관련 커넥터가 항상 가동, 작동 및 액세스 가능한지 확인하는 것은 귀하의 책임입니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.
+BlueXP는 보안 및 연결 제한이 있는 환경에서도 지원됩니다. _restricted mode_or_private mode_를 사용하여 BlueXP SaaS 계층에 대한 아웃바운드 연결을 제한할 수 있습니다.
 
-이 문서는 EULA의 적용을 받습니다. 문서에 따라 제품을 작동하지 않는 경우 제품의 기능 및 작동, EULA에 따른 사용자의 권리에 부정적인 영향을 미칠 수 있습니다.
-
-
-
-==== 커넥터 가용성이 Cloud Volumes ONTAP에 미치는 영향
-
-커넥터는 Cloud Volumes ONTAP의 상태 및 작동에 있어 중요한 구성요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.
-
-
-NOTE: Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.
+link:concept-modes.html["BlueXP 배포 모드에 대해 자세히 알아보십시오"].
 
 
 

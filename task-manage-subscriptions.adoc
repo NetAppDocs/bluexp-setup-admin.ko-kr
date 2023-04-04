@@ -34,7 +34,7 @@ Digital Wallet은 BlueXP 계정 및 Astra(Astra는 BlueXP의 충전 서비스를
 +
 image:screenshot-subscriptions-expand.png["Digital Wallet의 Subscriptions(구독) 탭에 있는 스크린샷으로, 행 끝에 있는 화살표를 선택하여 확장할 수 있습니다."]
 
-** 을 클릭합니다 image:icon-column-selector.png["표 헤더 끝에 있는 더하기 아이콘입니다"] 테이블에 표시할 열을 선택합니다.
+** 를 선택합니다 image:icon-column-selector.png["표 헤더 끝에 있는 더하기 아이콘입니다"] 테이블에 표시할 열을 선택합니다.
 +
 용어 및 자동 갱신 열은 기본적으로 표시되지 않습니다. 자동 갱신 열에는 Azure 계약에 대한 갱신 정보만 표시됩니다.
 
@@ -70,9 +70,9 @@ image:screenshot-subscriptions-expand.png["Digital Wallet의 Subscriptions(구�
 .단계
 . BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
 . 구독 * 을 선택합니다.
-. 관리할 구독에 해당하는 행의 작업 메뉴를 클릭합니다.
+. 관리할 구독에 해당하는 행에서 작업 메뉴를 선택합니다.
 +
 image:screenshot-subscription-menu.png["구독에 대한 작업 메뉴 스크린샷"]
 
-. 구독의 이름을 바꾸거나 구독과 관련된 NetApp 계정을 관리할 수 있습니다.
+. 가입 이름을 바꾸거나 가입과 연결된 BlueXP 계정을 관리하도록 선택합니다.
 

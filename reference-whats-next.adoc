@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: reference-whats-next.html 
-keywords: get started, create working environments, manage settings 
-summary: 이제 BlueXP에 로그인하여 설정했으므로 사용자는 작업 환경을 만들고 검색할 수 있습니다. 
+keywords: standard mode, what you can do 
+summary: 이제 표준 모드에서 BlueXP에 로그인하여 설정했으므로 사용자는 작업 환경을 생성 및 검색하고 BlueXP 서비스를 사용할 수 있습니다. 
 ---
-= 다음 단계로 넘어갑니다
+= 다음에 할 수 있는 일(표준 모드)
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,16 +14,6 @@ summary: 이제 BlueXP에 로그인하여 설정했으므로 사용자는 작업
 
 
 [role="lead"]
-이제 BlueXP에 로그인하여 설정했으므로 사용자는 작업 환경을 만들고 검색할 수 있습니다.
+이제 표준 모드에서 BlueXP에 로그인하고 설정했으므로 사용자는 작업 환경을 생성 및 검색하고 BlueXP 데이터 서비스를 사용할 수 있습니다.
 
-* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["Azure NetApp Files"^]
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["ONTAP용 Amazon FSx"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["AWS 환경을 위한 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Azure용 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Google Cloud용 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/task-set-up-google-cloud.html["Google Cloud용 Cloud Volumes Service"^]
-* https://docs.netapp.com/us-en/cloud-manager-e-series/task-discover-e-series.html["E-Series 시스템"^]
-* https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-quick-start.html["Kubernetes 클러스터"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터"^]
-* https://docs.netapp.com/us-en/cloud-manager-storagegrid/task-discover-storagegrid.html["StorageGRID 시스템"^]
-
+도움말을 보려면 로 이동합니다 https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP 설명서 홈 페이지"^] 모든 BlueXP 서비스에 대한 문서를 봅니다.

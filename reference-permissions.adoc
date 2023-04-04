@@ -25,10 +25,10 @@ BlueXP의 기능과 서비스를 사용하려면 BlueXP가 클라우드 환경�
 | 목적 | 설명 | 링크 
 
 
-| 커넥터 전개 | BlueXP에서 Connector를 생성하는 사용자는 AWS에 인스턴스를 배포하기 위한 특정 권한이 필요합니다. | link:task-creating-connectors-aws.html["BlueXP에서 AWS에 커넥터를 생성합니다"] 
+| BlueXP에서 커넥터 배치 | BlueXP에서 Connector를 생성하는 사용자는 AWS에 인스턴스를 배포하기 위한 특정 권한이 필요합니다. | link:task-set-up-permissions-aws.html["AWS 권한을 설정합니다"] 
 
 
-| 커넥터 작동 | BlueXP에서 Connector를 시작하면 해당 인스턴스에 정책을 연결하여 AWS 계정의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다. 정책을 직접 설정해야 합니다 link:task-launching-aws-mktp.html["마켓플레이스에서 Connector를 실행합니다"] 아니면 link:task-adding-aws-accounts.html#add-credentials-to-a-connector["Connector에 AWS 자격 증명을 더 추가합니다"]. 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:reference-permissions-aws.html["Connector에 대한 AWS 권한"] 
+| 커넥터 작동 | BlueXP에서 Connector를 시작하면 해당 인스턴스에 정책을 연결하여 AWS 계정의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다. 마켓플레이스에서 Connector를 시작하는 경우 또는 수동으로 Connector를 설치하거나 정책을 직접 설정해야 합니다 link:task-adding-aws-accounts.html#add-credentials-to-a-connector["Connector에 AWS 자격 증명을 더 추가합니다"]. 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:reference-permissions-aws.html["Connector에 대한 AWS 권한"] 
 
 
 | Cloud Volumes ONTAP 작동 | IAM 역할은 AWS의 각 Cloud Volumes ONTAP 노드에 연결되어야 합니다. HA 중재자의 경우도 마찬가지입니다. 기본 옵션은 BlueXP에서 IAM 역할을 생성할 수 있도록 하는 것이지만 직접 사용할 수 있습니다. | https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-set-up-iam-roles.html["IAM 역할을 직접 설정하는 방법에 대해 알아봅니다"^] 
@@ -42,13 +42,13 @@ BlueXP의 기능과 서비스를 사용하려면 BlueXP가 클라우드 환경�
 | 목적 | 설명 | 링크 
 
 
-| 커넥터 전개 | BlueXP에서 Connector를 배포하는 경우 Azure에 Connector VM을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. | link:task-creating-connectors-azure.html["BlueXP에서 Azure에 커넥터를 만듭니다"] 
+| BlueXP에서 커넥터 배치 | BlueXP에서 Connector를 배포하는 경우 Azure에 Connector VM을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. | link:task-set-up-permissions-azure.html["Azure 권한을 설정합니다"] 
 
 
 | 커넥터 작동  a| 
 BlueXP는 Azure에 Connector VM을 배포할 때 Azure 구독 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공하는 사용자 지정 역할을 생성합니다.
 
-사용자 지정 역할을 직접 설정해야 합니다 link:task-launching-azure-mktp.html["마켓플레이스에서 Connector를 실행합니다"] 아니면 link:task-adding-azure-accounts.html#adding-additional-azure-credentials-to-cloud-manager["Connector에 Azure 자격 증명을 더 추가합니다"].
+마켓플레이스에서 Connector를 시작하는 경우 또는 수동으로 Connector를 설치하거나 사용자 정의 역할을 직접 설정해야 합니다 link:task-adding-azure-accounts.html#adding-additional-azure-credentials-to-cloud-manager["Connector에 Azure 자격 증명을 더 추가합니다"].
 
 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다.
  a| 
@@ -64,8 +64,8 @@ link:reference-permissions-azure.html["Connector에 대한 Azure 권한"]
 | 목적 | 설명 | 링크 
 
 
-| 커넥터 전개 | BlueXP의 Connector를 배포하는 Google Cloud 사용자는 Google Cloud에 Connector를 배포하기 위한 특정 권한이 필요합니다. | link:task-creating-connectors-gcp.html#set-up-permissions-to-deploy-the-connector["Connector 배포 권한을 설정합니다"] 
+| 커넥터 전개 | BlueXP의 Connector를 배포하는 Google Cloud 사용자는 Google Cloud에 Connector를 배포하기 위한 특정 권한이 필요합니다. | link:task-set-up-permissions-google.html#set-up-permissions-to-create-the-connector-from-bluexp-or-gcloud["Connector 배포 권한을 설정합니다"] 
 
 
-| 커넥터 작동 | Connector VM 인스턴스의 서비스 계정에는 일상적인 작업에 대한 특정 권한이 있어야 합니다. BlueXP에서 서비스 계정을 배포할 때 서비스 계정을 커넥터에 연결해야 합니다. 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:task-creating-connectors-gcp.html#set-up-a-service-account-for-the-connector["Connector에 대한 서비스 계정을 설정합니다"] 
+| 커넥터 작동 | Connector VM 인스턴스의 서비스 계정에는 일상적인 작업에 대한 특정 권한이 있어야 합니다. BlueXP에서 서비스 계정을 배포할 때 서비스 계정을 커넥터에 연결해야 합니다. 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:reference-permissions-gcp.html["Connector에 대한 Google Cloud 권한"] 
 |===

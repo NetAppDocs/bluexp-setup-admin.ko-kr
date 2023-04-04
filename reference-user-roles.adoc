@@ -53,7 +53,7 @@ Compliance Viewer 역할은 읽기 전용 클라우드 데이터 감지 액세�
 | 커넥터 작성 | 예 | 아니요 | 아니요 | 아니요 
 
 
-| NetApp 계정 관리 | 예 | 아니요 | 아니요 | 아니요 
+| BlueXP 계정을 관리합니다 | 예 | 아니요 | 아니요 | 아니요 
 
 
 | 자격 증명 관리 | 예 | 아니요 | 아니요 | 아니요 
@@ -69,11 +69,8 @@ Compliance Viewer 역할은 읽기 전용 클라우드 데이터 감지 액세�
 
 
 | HTTPS 인증서를 설치합니다 | 예 | 아니요 | 아니요 | 아니요 
-
-
-| SnapCenter 서비스를 사용합니다 | 예 | 예 | 아니요 | 예 
 |===
 .관련 링크
-* link:task-setting-up-netapp-accounts.html["NetApp 계정의 작업 공간 및 사용자 설정"]
-* link:task-managing-netapp-accounts.html["NetApp 계정의 작업 공간 및 사용자 관리"]
+* link:task-setting-up-netapp-accounts.html["BlueXP 계정에서 작업 영역 및 사용자를 설정합니다"]
+* link:task-managing-netapp-accounts.html["BlueXP 계정에서 작업 영역 및 사용자 관리"]
 

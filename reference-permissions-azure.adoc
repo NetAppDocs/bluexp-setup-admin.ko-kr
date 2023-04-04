@@ -26,6 +26,12 @@ BlueXP에서 직접 커넥터를 만들면 BlueXP에서 자동으로 이 사용�
 
 Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector를 수동으로 설치하는 경우 사용자 지정 역할을 직접 설정해야 합니다.
 
+* link:task-set-up-permissions-azure.html["Azure에서 Connector 설치 권한 설정(표준 모드)"]
+* link:task-set-up-permissions-on-prem.html["온-프레미스 Connector 설치에 대한 권한 설정(표준 모드)"]
+* link:task-prepare-restricted-mode.html#prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* https://review.docs.netapp.com/us-en/cloud-manager-setup-admin_feb-2022-modes/task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
+
+
 또한 후속 릴리스에 새 권한이 추가되므로 역할이 최신 상태인지 확인해야 합니다.
 
 [source, json]
@@ -169,7 +175,7 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
 
 == Azure 사용 권한 사용 방법
 
-다음 섹션에서는 각 NetApp 클라우드 서비스에 대한 사용 권한을 어떻게 사용하는지 설명합니다. 이 정보는 기업 정책에 따라 사용 권한이 필요한 경우에만 제공된다는 내용이 지정되어 있는 경우에 유용합니다.
+다음 섹션에서는 각 BlueXP 서비스에 대한 사용 권한이 어떻게 사용되는지 설명합니다. 이 정보는 기업 정책에 따라 사용 권한이 필요한 경우에만 제공된다는 내용이 지정되어 있는 경우에 유용합니다.
 
 
 

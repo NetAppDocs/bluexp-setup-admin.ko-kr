@@ -226,6 +226,7 @@ AWS 서비스(amazonaws.com):
 
 * CloudFormation 을 참조하십시오
 * EC2(탄력적인 컴퓨팅 클라우드)
+* IAM(Identity and Access Management)
 * 키 관리 서비스(KMS)
 * 보안 토큰 서비스(STS)
 * S3(Simple Storage Service)

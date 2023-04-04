@@ -1,0 +1,225 @@
+---
+sidebar: sidebar 
+permalink: task-install-private-mode.html 
+keywords: install dark site, deploy dark site, install private mode, deploy private mode, install connector dark site, connector dark site, dark site, private mode, no internet 
+summary: 비공개 모드에서 BlueXP를 설정하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 클라우드 권한을 제공해야 합니다. 
+---
+= 커넥터를 비공개 모드로 배포합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+비공개 모드에서 BlueXP를 설정하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 클라우드 권한을 제공해야 합니다.
+
+
+
+== 커넥터를 설치합니다
+
+NetApp Support 사이트에서 제품 설치 프로그램을 다운로드한 다음 자체 Linux 호스트에 커넥터를 수동으로 설치합니다.
+
+에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/us-intelligence-community/["AWS C2S(Commercial Cloud Services) 환경"^] 그런 다음 별도의 지침에 따라 해당 환경에서 시작해야 합니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws-c2s.html["AWS C2S 환경에서 Cloud Volumes ONTAP를 시작하는 방법에 대해 알아보십시오"^]
+
+.필요한 권한
+커넥터를 설치하려면 루트 권한이 필요합니다.
+
+.단계
+. Docker가 설정 및 실행 중인지 확인합니다.
++
+[source, cli]
+----
+sudo systemctl enable docker && sudo systemctl start docker
+----
+. 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]
++
+인터넷 액세스 없이 제한된 네트워크에 대한 설치 프로그램을 다운로드해야 합니다.
+
+. Linux 호스트에 설치 프로그램을 복사합니다.
+. 스크립트를 실행할 권한을 할당합니다.
++
+[source, cli]
+----
+chmod +x /path/cloud-manager-connector-offline-<version>
+----
++
+여기서 <version>는 다운로드한 커넥터 버전입니다.
+
+. 설치 스크립트를 실행합니다.
++
+[source, cli]
+----
+sudo /path/cloud-manager-connector-offline-<version>
+----
++
+여기서 <version>는 다운로드한 커넥터 버전입니다.
+
+
+
+.결과
+커넥터 소프트웨어가 설치됩니다. 이제 BlueXP를 설정할 수 있습니다.
+
+
+
+== BlueXP를 설정합니다
+
+BlueXP 콘솔에 처음 액세스하면 BlueXP를 설치하라는 메시지가 표시됩니다.
+
+.단계
+. 웹 브라우저를 열고 를 입력합니다 https://_ipaddress_[] 여기서 _ipaddress_는 Connector를 설치한 Linux 호스트의 IP 주소입니다.
++
+다음 화면이 나타납니다.
+
++
+image:screenshot-onprem-darksite-welcome.png["웹 브라우저에 Connector의 IP 주소를 입력한 후 나타나는 시작 페이지의 스크린 샷"]
+
+. Set Up New BlueXP * 를 클릭하고 화면의 지시에 따라 시스템을 설정합니다.
++
+** * 시스템 세부 정보 *: 커넥터 이름과 회사 이름을 입력합니다.
++
+image:screenshot-onprem-darksite-details.png["시스템 세부 정보 페이지의 스크린샷으로 BlueXP 이름과 회사 이름을 입력하라는 메시지가 표시됩니다."]
+
+** * 관리자 사용자 생성 *: 시스템에 대한 관리자 사용자를 생성합니다.
++
+이 사용자 계정은 시스템에서 로컬로 실행됩니다. BlueXP를 통해 사용할 수 있는 auth0 서비스에 연결할 수 없습니다.
+
+** * 검토 *: 세부 정보를 검토하고 사용권 계약에 동의한 다음 * 설정 * 을 클릭합니다.
+
+
+. 방금 생성한 admin 사용자를 사용하여 BlueXP에 로그인합니다.
+
+
+.결과
+이제 커넥터가 설치되고 설정되었습니다.
+
+Connector 소프트웨어의 새 버전을 사용할 수 있으면 NetApp Support 사이트에 게시됩니다. link:task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["Connector를 업그레이드하는 방법에 대해 알아보십시오"].
+
+.다음 단계
+이전에 설정한 권한을 BlueXP에 제공합니다.
+
+
+
+== BlueXP에 대한 권한을 제공합니다
+
+Cloud Volumes ONTAP 작업 환경을 만들려면 이전에 설정한 클라우드 권한을 BlueXP에 제공해야 합니다.
+
+link:task-prepare-private-mode.html#prepare-cloud-permissions["클라우드 사용 권한을 준비하는 방법에 대해 알아봅니다"].
+
+[role="tabbed-block"]
+====
+.AWS IAM 역할
+--
+이전에 만든 IAM 역할을 Connector EC2 인스턴스에 연결합니다.
+
+.단계
+. Amazon EC2 콘솔로 이동합니다.
+. 인스턴스 * 를 선택합니다.
+. 커넥터 인스턴스를 선택합니다.
+. Actions > Security > Modify IAM role * 을 선택합니다.
+. IAM 역할을 선택하고 * Update IAM role * 을 클릭합니다.
+
+
+.결과
+BlueXP는 이제 AWS에서 사용자 대신 작업을 수행하는 데 필요한 권한을 가집니다.
+
+--
+.AWS 액세스 키입니다
+--
+필요한 권한이 있는 IAM 사용자를 위해 BlueXP에 AWS 액세스 키를 제공합니다.
+
+.단계
+. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
++
+image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
+
+. 자격 증명 추가 * 를 클릭하고 마법사의 단계를 따릅니다.
++
+.. * 자격 증명 위치 *: * Amazon Web Services > Connector * 를 선택합니다.
+.. * 자격 증명 정의 *: AWS 액세스 키와 비밀 키를 입력합니다.
+.. * Marketplace 구독 *: 지금 가입하거나 기존 구독을 선택하여 마켓플레이스 구독을 이러한 자격 증명과 연결합니다.
+.. * 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 클릭합니다.
+
+
+
+
+.결과
+BlueXP는 이제 AWS에서 사용자 대신 작업을 수행하는 데 필요한 권한을 가집니다.
+
+--
+.Azure 역할
+--
+Azure 포털로 이동하여 하나 이상의 구독에 대해 Connector 가상 머신에 Azure 사용자 지정 역할을 할당합니다.
+
+.단계
+. Azure Portal에서 * Subscriptions * 서비스를 열고 구독을 선택합니다.
+. IAM(Access Control) * > * 추가 * > * 역할 할당 추가 * 를 클릭합니다.
+. Role * 탭에서 * BlueXP Operator * 역할을 선택하고 * Next * 를 클릭합니다.
++
+
+NOTE: BlueXP 오퍼레이터는 BlueXP 정책에 제공된 기본 이름입니다. 역할에 다른 이름을 선택한 경우 대신 해당 이름을 선택합니다.
+
+. Members* 탭에서 다음 단계를 완료합니다.
++
+.. 관리되는 ID*에 대한 액세스를 할당합니다.
+.. 구성원 선택 * 을 클릭하고 Connector 가상 머신이 생성된 구독을 선택한 다음 * 가상 머신 * 을 선택하고 Connector 가상 머신을 선택합니다.
+.. 선택 * 을 클릭합니다.
+.. 다음 * 을 클릭합니다.
+.. 검토 + 할당 * 을 클릭합니다.
+.. 추가 구독에서 Cloud Volumes ONTAP를 배포하려면 해당 구독으로 전환한 다음 이 단계를 반복합니다.
+
+
+
+
+.결과
+이제 BlueXP는 Azure에서 사용자를 대신하여 작업을 수행하는 데 필요한 권한을 가지고 있습니다.
+
+--
+.Azure 서비스 보안 주체
+--
+이전에 설정한 Azure 서비스 보안 주체에 대한 자격 증명을 BlueXP에 제공합니다.
+
+.단계
+. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
++
+image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
+
+. 자격 증명 추가 * 를 클릭하고 마법사의 단계를 따릅니다.
++
+.. * 자격 증명 위치 *: * Microsoft Azure > 커넥터 * 를 선택합니다.
+.. * 자격 증명 정의 *: 필요한 권한을 부여하는 Azure Active Directory 서비스 보안 주체에 대한 정보를 입력합니다.
++
+*** 애플리케이션(클라이언트) ID입니다
+*** 디렉토리(테넌트) ID입니다
+*** 클라이언트 암호
+
+
+.. * Marketplace 구독 *: 지금 가입하거나 기존 구독을 선택하여 마켓플레이스 구독을 이러한 자격 증명과 연결합니다.
+.. * 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 클릭합니다.
+
+
+
+
+.결과
+이제 BlueXP는 Azure에서 사용자를 대신하여 작업을 수행하는 데 필요한 권한을 가지고 있습니다.
+
+--
+.Google Cloud 서비스 계정
+--
+서비스 계정을 Connector VM에 연결합니다.
+
+.단계
+. Google Cloud 포털로 이동하여 Connector VM 인스턴스에 서비스 계정을 할당합니다.
++
+https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#changeserviceaccountandscopes["Google Cloud 설명서: 인스턴스에 대한 서비스 계정 및 액세스 범위 변경"^]
+
+. 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
+
+
+.결과
+BlueXP는 이제 Google Cloud에서 대신 작업을 수행하는 데 필요한 권한을 가지고 있습니다.
+
+--
+====

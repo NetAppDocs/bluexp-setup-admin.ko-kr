@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-log-in-restricted-mode.html 
+keywords: logging in, log in, sign in, signing in, restricted mode, restricted mode log in, local log in, connector log in, log in connector 
+summary: 제한된 모드에서 BlueXP를 사용하는 경우 Connector에서 로컬로 실행되는 사용자 인터페이스에서 BlueXP 콘솔에 로그인해야 합니다. 
+---
+= BlueXP에 로그인(제한 모드)
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+제한된 모드에서 BlueXP를 사용하는 경우 Connector에서 로컬로 실행되는 사용자 인터페이스에서 BlueXP 콘솔에 로그인해야 합니다.
+
+.로그인 옵션
+BlueXP에서는 계정이 제한된 모드로 설정된 경우 다음 옵션 중 하나로 로그인할 수 있습니다.
+
+* 이메일 주소 및 암호를 사용하여 NetApp 클라우드 로그인
+* 통합 연결
++
+Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 로그인할 수 있습니다. link:concept-federation.html["BlueXP에서 ID 페더레이션을 사용하는 방법에 대해 알아봅니다"].
+
+
+
+.단계
+. 웹 브라우저를 열고 다음 URL을 입력합니다.
++
+https://_ipaddress_[]
+
++
+_ipaddress_는 Connector를 설치한 호스트의 구성에 따라 localhost, 개인 IP 주소 또는 공용 IP 주소일 수 있습니다. 예를 들어, Connector 호스트에 접속되어 있는 호스트의 전용 IP 주소를 입력해야 할 수 있습니다.
+
+. 로그인하려면 사용자 이름과 암호를 입력하십시오.
+
+
+.결과
+이제 로그인하고 BlueXP를 사용하여 하이브리드 멀티 클라우드 인프라를 관리할 수 있습니다.

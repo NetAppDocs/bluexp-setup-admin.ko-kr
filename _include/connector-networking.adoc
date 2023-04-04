@@ -63,7 +63,7 @@ AWS 서비스(amazonaws.com):
 | https://management.usgovcloudapi.net\https://login.microsoftonline.us\https://blob.core.usgovcloudapi.net\https://core.usgovcloudapi.net | Azure Government 지역의 리소스를 관리합니다. 
 
 
-| /shtps://management.Azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud\https://blob.core.microsoft.scloud\https://core.microsoft.scloud | Azure IL6 영역의 리소스를 관리합니다. 
+| https://management.azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud\https://blob.core.microsoft.scloud\https://core.microsoft.scloud | Azure IL6 영역의 리소스를 관리합니다. 
 
 
 | https://management.chinacloudapi.cn\https://login.chinacloudapi.cn\https://blob.core.chinacloudapi.cn\https://core.chinacloudapi.cn | Azure 중국 지역의 리소스를 관리합니다. 

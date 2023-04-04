@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start-private-mode.html 
+keywords: private mode quick start, quick start 
+summary: 몇 단계만으로 BlueXP를 시작할 수 있습니다. 
+---
+= 비공개 모드에서 BlueXP를 빠르게 시작합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+몇 단계만으로 BlueXP를 시작할 수 있습니다.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 배포를 준비합니다
+[role="quick-margin-list"]
+. CPU, RAM, 디스크 공간, Docker Engine 등에 대한 요구사항을 충족하는 전용 Linux 호스트를 준비합니다.
+. 대상 네트워크에 대한 액세스를 제공하는 네트워킹을 설정합니다.
+. 클라우드 배포의 경우 소프트웨어를 설치한 후 해당 권한을 Connector에 연결할 수 있도록 클라우드 공급자에 권한을 설정합니다.
+
+
+[role="quick-margin-para"]
+link:task-prepare-private-mode.html["배포 준비 방법에 대해 알아보십시오"].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 커넥터를 배포합니다
+[role="quick-margin-list"]
+. 자신의 Linux 호스트에 Connector 소프트웨어를 설치합니다.
+. 웹 브라우저를 열고 Linux 호스트의 IP 주소를 입력하여 BlueXP를 설정합니다.
+. 클라우드 배포의 경우 이전에 설정한 권한을 BlueXP에 제공합니다.
+
+
+[role="quick-margin-para"]
+link:task-install-private-mode.html["Connector를 배포하는 방법에 대해 알아봅니다"].

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-logging-in.html 
 keywords: logging in, log in, sign in, signing in, cloud central, netapp cloud central, user account, federated, federation, federated login, federation login, login with netapp, log in with netapp, sign up, create account 
-summary: BlueXP에 등록하면 SaaS 기반 사용자 인터페이스를 통해 웹 브라우저에서 로그인할 수 있습니다. 
+summary: BlueXP에 등록하면 웹 기반 콘솔을 통해 웹 브라우저에서 로그인할 수 있습니다. 
 ---
-= BlueXP에 로그인합니다
+= BlueXP에 로그인(표준 모드)
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,14 +14,10 @@ summary: BlueXP에 등록하면 SaaS 기반 사용자 인터페이스를 통해 
 
 
 [role="lead"]
-BlueXP에 등록하면 SaaS 기반 사용자 인터페이스를 통해 웹 브라우저에서 로그인할 수 있습니다.
-
-link:task-sign-up-saas.html["BlueXP에 등록하고 계정을 만드는 방법에 대해 알아봅니다"].
-
-정부 지역 또는 아웃바운드 인터넷 액세스가 없는 사이트에서 BlueXP에 액세스하는 경우 Connector에서 로컬로 실행되는 BlueXP 사용자 인터페이스에 로그인해야 합니다. link:task-managing-connectors.html#access-the-local-ui["Connector에서 로컬 UI에 액세스하는 방법에 대해 알아봅니다"].
+BlueXP에 등록하면 웹 기반 콘솔에서 로그인할 수 있습니다.
 
 .로그인 옵션
-다음 옵션 중 하나를 사용하여 BlueXP에 로그인할 수 있습니다.
+다음 옵션 중 하나를 사용하여 BlueXP 웹 기반 콘솔에 로그인할 수 있습니다.
 
 * 기존 NetApp Support 사이트(NSS) 자격 증명
 * 이메일 주소 및 암호를 사용하여 NetApp 클라우드 로그인

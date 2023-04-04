@@ -1,0 +1,118 @@
+---
+sidebar: sidebar 
+permalink: task-set-up-networking-google.html 
+keywords: networking, on prem networking, endpoints, urls, ports, ip address, proxy, proxy server, connections 
+summary: Connector가 하이브리드 클라우드 환경 내의 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. 
+---
+= Google Cloud 네트워킹을 설정합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Connector가 하이브리드 클라우드 환경 내의 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다.
+
+
+
+== VPC 및 서브넷
+
+Connector를 생성할 때 Connector가 상주할 VPC와 서브넷을 지정해야 합니다.
+
+
+
+== 대상 네트워크에 대한 연결
+
+Connector를 사용하려면 작업 환경을 만들고 관리할 위치에 대한 네트워크 연결이 필요합니다.
+
+
+
+== 아웃바운드 인터넷 액세스
+
+커넥터를 배포하는 네트워크 위치에 아웃바운드 인터넷 연결이 있어야 합니다.
+
+
+
+=== 수동 설치 중에 연결된 끝점입니다
+
+자체 Linux 호스트에 커넥터를 수동으로 설치하려는 경우 Connector 설치 과정에서 다음 URL에 액세스해야 합니다.
+
+* https://support.netapp.com 으로 문의하십시오
+* https://mysupport.netapp.com 으로 문의하십시오
+* https://cloudmanager.cloud.netapp.com/tenancy 으로 문의하십시오
+* https://stream.cloudmanager.cloud.netapp.com 으로 문의하십시오
+* https://cloudmanagerinfraprod.azurecr.io 으로 문의하십시오
+* https://production-artifacts.cloudmanager.cloud.netapp.com 으로 문의하십시오
+* https://*.blob.core.windows.net 으로 문의하십시오
+
+
+설치 중에 호스트가 운영 체제 패키지를 업데이트하려고 할 수 있습니다. 호스트는 이러한 OS 패키지의 서로 다른 미러링 사이트에 연결할 수 있습니다.
+
+
+
+=== 일상적인 작업을 위해 연결된 엔드포인트에는
+
+Connector는 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하기 위해 다음 엔드포인트에 연결하는 아웃바운드 인터넷 액세스를 필요로 합니다.
+
+[cols="2*"]
+|===
+| 엔드포인트 | 목적 
+
+
+| https://www.googleapis.com/compute/v1/\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects | Google Cloud에서 리소스를 관리합니다. 
+
+
+| https://support.netapp.com 으로 문의하십시오 | 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다. 
+
+
+ a| 
+https://*.api.bluexp.netapp.com 으로 문의하십시오
+
+https://api.bluexp.netapp.com 으로 문의하십시오
+
+https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오
+
+https://cloudmanager.cloud.netapp.com 으로 문의하십시오
+ a| 
+BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.
+
+
+NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있지만 곧 출시될 릴리스에서 "api.bluexp.netapp.com" 에 연락하기 시작합니다.
+
+
+
+| https://cloudmanagerinfraprod.azurecr.io \https://*.blob.core.windows.net 으로 문의하십시오 | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
+|===
+.관련 링크
+link:reference-networking-saas-console.html["BlueXP 콘솔에 대한 사용자 액세스를 위한 네트워킹을 준비합니다"]
+
+
+
+== 프록시 서버
+
+조직에서 나가는 모든 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다.
+
+* IP 주소입니다
+* 자격 증명
+* HTTPS 인증서
+
+
+
+
+== 포트
+
+커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다.
+
+* HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.
+* SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.
+* 아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다.
+
+
+
+
+== IP 주소 제한
+
+172 범위의 IP 주소와 충돌할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-limitations.html["이 제한 사항에 대해 자세히 알아보십시오"].
