@@ -70,7 +70,7 @@ AWS 또는 사내에서 실행 중인 VMware vCenter Server를 발견한 후 작
 설정 > 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.
 
 +
-link:task-manage-user-credentials.html["사용자 자격 증명을 관리하는 방법에 대해 알아봅니다"].
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-user-credentials.html["사용자 자격 증명을 관리하는 방법에 대해 알아봅니다"].
 
 * 이제 지원 케이스를 생성하거나 기존 지원 사례에 대한 케이스 메모를 업데이트할 때 첨부 파일을 업로드할 수 있습니다.
 +

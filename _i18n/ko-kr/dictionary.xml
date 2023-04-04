@@ -15,7 +15,6 @@
   <block id="cab27dc53edb571cac663ce2e16450dc" category="inline-link-macro">AWS 마켓플레이스 를 참조하십시오</block>
   <block id="a4542ce435b67066671321f478dce8cc" category="paragraph">Marketplace를 사용하는 경우 사용 권한이 동일한 방식으로 제공됩니다. IAM 역할을 수동으로 생성 및 설정한 다음 추가 계정에 대한 권한을 제공하면 됩니다.</block>
   <block id="70bfaa19a89e29bf0fc2b34b8f3150ba" category="section-title">AWS 자격 증명을 안전하게 회전하려면 어떻게 해야 합니까?</block>
-  <block id="8c9f2181d82b2f6caedb70061e845851" category="inline-link-macro">커넥터를 배포하는 다른 방법에 대해 알아봅니다</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">개요</block>
   <block id="6b45a3b66e73e4f30a6e6c4974d404b4" category="list-text">메시지가 나타나면 Microsoft 계정으로 로그인합니다. 이 계정에는 특정 Azure 권한이 있어야 합니다. 이 옵션이 기본 옵션입니다.</block>
   <block id="e3e02b70df514c22082124328763d018" category="list-text">Azure AD 서비스 보안 주체에 대한 세부 정보를 제공합니다. 이 서비스 보안 주체는 특정 권한도 필요합니다.</block>
@@ -871,13 +870,7 @@
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021년 8월 1일</block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021년 4월 11일</block>
   <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021년 2월 9일</block>
-  <block id="56871f8b2603f3216127f57d5542b3ae" category="section-title">AWS 인증 설정</block>
-  <block id="30db7b9fd99be0ab8460cabb34938d21" category="section-title">IAM 역할을 설정합니다</block>
   <block id="0e78dc7220ea8b6abafe6ef7aaad9998" category="list-text">대상 계정에서 AWS IAM 콘솔로 이동합니다.</block>
-  <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">이제 IAM 역할에 필요한 권한이 있습니다.</block>
-  <block id="c3f217f9a4bf83b62b55576a453f4e95" category="section-title">IAM 사용자에 대한 권한을 설정합니다</block>
-  <block id="90f42b795a98a48d78b53e8d6d353987" category="paragraph">Connector를 생성할 때 Connector 인스턴스를 배포하는 데 필요한 권한이 있는 IAM 사용자에게 AWS 액세스 키와 비밀 키를 제공할 수 있습니다.</block>
-  <block id="2148f456d9af28f7a3c6836b09b86d79" category="list-text">IAM 사용자의 액세스 키 및 비밀 키에 액세스할 수 있는지 확인합니다.</block>
   <block id="94ee7072c2750da1997438a715efb7d4" category="section-title">커넥터를 작성합니다</block>
   <block id="8b8f36850755c4ac43a0df238add8748" category="inline-link-macro">자격 증명을 추가하는 방법에 대해 알아봅니다</block>
   <block id="c1174544170df213c211f69888f8d5fd" category="admonition">역할 * 가정 을 선택한 경우 커넥터 배포 마법사에서 첫 번째 자격 증명 집합을 만들 수 있습니다. 자격 증명 페이지에서 추가 자격 증명 세트를 생성해야 합니다. 그런 다음 드롭다운 목록의 마법사에서 사용할 수 있습니다. <block ref="21eba73392ef6be6fd6da758f5bd2e93" category="inline-link-macro-rx"></block>.</block>
@@ -1239,8 +1232,6 @@
   <block id="df00618b6e4c6f7fcb9a7fbb4c65b54e" category="list-text"><block ref="df00618b6e4c6f7fcb9a7fbb4c65b54e" category="inline-link-rx"></block></block>
   <block id="d2ec6bce44b6da11cd78a79db47dd385" category="inline-link-macro">Connector 배포 정책을 봅니다</block>
   <block id="4964e9eef6df2fe316a2618afd8cd963" category="list-text">필요한 권한이 있는 IAM 사용자를 위해 AWS 액세스 키 및 비밀 키를 제공합니다</block>
-  <block id="176c8e3e6fabfa396e8a23e04654324a" category="paragraph">두 옵션 중 하나를 사용할 경우 먼저 필요한 권한이 포함된 IAM 정책을 생성하여 시작해야 합니다.</block>
-  <block id="0fdc81bb400ca1e69ba8ff758bfa0311" category="section-title">IAM 정책을 생성합니다</block>
   <block id="1e71ce7defc90d8f5a2c46c08ba968df" category="list-text">AWS IAM 콘솔로 이동합니다.</block>
   <block id="cda6184a38ec01634b0cabf02341cb56" category="list-text">정책 &gt; 정책 생성 * 을 클릭합니다.</block>
   <block id="b52a6ab6cdcb340c9e1189b56821ffd8" category="list-text">JSON * 을 클릭합니다.</block>
@@ -1269,7 +1260,6 @@
   <block id="a4f605cd0aab29ee5fb50f28627cef5d" category="sidebar">권한 요약</block>
   <block id="abc9b009fdeb5b04ca7bcd60cdae2434" category="section-title">AWS 사용 권한</block>
   <block id="c6705240238244043d7e0d39f6ce1db1" category="section-title">AppTemplate 태그</block>
-  <block id="8d0d51d4047979af669daac866df81ec" category="inline-link-macro">이 작업 환경에서 수행할 수 있는 작업에 대해 자세히 알아보십시오</block>
   <block id="8038b7f4543340933f0702ca9be2c9c5" category="paragraph">위치, 리소스 그룹, 총 용량 및 사용된 용량 등 Azure 저장소 계정에 대한 세부 정보를 볼 수 있습니다. 이러한 계정은 Cloud Backup, Cloud Tiering 또는 Cloud Sync 작업의 대상으로 사용할 수 있습니다.</block>
   <block id="4fa9fc9591ffa247eeef55070b3327a0" category="paragraph">Azure Blob 작업 환경이 곧 자동으로 표시됩니다.</block>
   <block id="2ed919302195764ff313fc8d75b59525" category="inline-image-macro">Azure Blob 작업 환경의 스크린샷</block>
@@ -1303,9 +1293,6 @@
   <block id="155ccfd3578c4b827fbaaa1208c5c86a" category="paragraph">Canvas에서 * My Opportunities * 탭은 하이브리드 멀티 클라우드에서 일관된 데이터 서비스 및 운영을 위해 Cloud Manager에 추가할 수 있는 기존 리소스를 검색할 수 있는 중앙 집중식 위치를 제공합니다.</block>
   <block id="0023c752677bd572df55463d76cf9b90" category="inline-link">내 기회를 사용하여 ONTAP용 FSx를 찾는 방법에 대해 알아보십시오</block>
   <block id="b8aac0d7b730cae52d7fa6174da69a85" category="paragraph"><block ref="b8aac0d7b730cae52d7fa6174da69a85" category="inline-link-rx"></block></block>
-  <block id="5f174caa182ccf4eda7018d2ae4ed7a0" category="section-title">AutoSupport 메시지의 포트 3128을 엽니다</block>
-  <block id="5fc25795a93f92bfee952eef3220d9e5" category="paragraph">유일한 요구 사항은 커넥터의 보안 그룹이 포트 3128을 통한 _IN인바운드_연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.</block>
-  <block id="489db3f339b691ea4dea5f4572483024" category="paragraph">Cloud Volumes ONTAP의 기본 보안 그룹을 사용하는 경우 보안 그룹을 변경할 필요가 없습니다. 그러나 Cloud Volumes ONTAP에 대해 엄격한 아웃바운드 규칙을 정의할 계획이라면 Cloud Volumes ONTAP 보안 그룹이 포트 3128을 통한 _outbound_connection을 허용하는지 확인해야 합니다.</block>
   <block id="9998984c95caccce61e49ca25de1c99f" category="paragraph">등록 양식에는 영어 문자만 사용할 수 있습니다.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="01f2c0e19d8bbd614814f0651e7feec1" category="section-title">커넥터 3.9.21</block>
@@ -1347,15 +1334,7 @@
   <block id="6b068f0a943d421535c7d8d412ee3522" category="list-text">E-Series 시스템</block>
   <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">빠른 시작</block>
-  <block id="91e06e9a9ef97681b798e2e5e007ba97" category="paragraph">다음 단계를 따라 빠르게 시작하거나 나머지 섹션을 아래로 스크롤하여 자세한 내용을 확인하십시오.</block>
-  <block id="d2b8d6f0cd04659de9813fba0b765319" category="inline-xref">IAM 역할을 확인합니다</block>
-  <block id="5695f1494bf1a23e4dfb636b83f9663c" category="inline-xref">단계별 지침을 따릅니다</block>
-  <block id="e55593614a7f3a45e77ff97daf29fa18" category="paragraph"><block ref="bd1177e3d8f8248f18d9f01f00d6aa84" category="inline-xref-macro-rx"></block> 또는 <block ref="f998d9b8f7fa449c8986f949582854eb" category="inline-xref-macro-rx"></block>.</block>
-  <block id="0adaf59e592ea102330ecf66723d01c0" category="inline-xref">네트워킹 요구 사항을 봅니다</block>
-  <block id="e18d3aaf46d9323ec3d44fd9d3878734" category="paragraph"><block ref="77e8c70950b7db505fe53c4bcd55f41a" category="inline-xref-macro-rx"></block>.</block>
-  <block id="e988340d1dfb68e041da5e7a65701097" category="paragraph">커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.</block>
   <block id="cd444a79f98ccbe383b146279f3bb526" category="inline-xref">단계별 지침을 따릅니다</block>
-  <block id="442342eacc7f01318bc860131355649e" category="paragraph"><block ref="ca365c48bf30193bd65b99125fcf8cd5" category="inline-xref-macro-rx"></block>.</block>
   <block id="ab316a3ccbad97726269c9705958262a" category="section-title">네트워킹 설정</block>
   <block id="824f455afa0ae197e5e7156988b6dc50" category="section-title">프록시 서버</block>
   <block id="75ba8d70e3692ba200f0e0df37b4d2ae" category="list-text">IP 주소입니다</block>
@@ -1477,7 +1456,6 @@
   <block id="f664478fbdfbd15104b014e41c35e88c" category="doc">BlueXP에 대한 권한 요약</block>
   <block id="b26840ebf08ae862c7d257c1229a3091" category="paragraph">BlueXP의 기능과 서비스를 사용하려면 BlueXP가 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다. 이 페이지의 링크를 사용하여 목표에 따라 필요한 사용 권한에 빠르게 액세스할 수 있습니다.</block>
   <block id="1570052dc3548215211726a63fbaaf7a" category="cell">BlueXP에서 Connector를 생성하는 사용자는 AWS에 인스턴스를 배포하기 위한 특정 권한이 필요합니다.</block>
-  <block id="a9b34414733cf4871ed4d1f23b7438dd" category="inline-link-macro">BlueXP에서 AWS에 커넥터를 생성합니다</block>
   <block id="ed36c10a45b6f1c2c5b5a23a54e905dd" category="cell">IAM 역할은 AWS의 각 Cloud Volumes ONTAP 노드에 연결되어야 합니다. HA 중재자의 경우도 마찬가지입니다. 기본 옵션은 BlueXP에서 IAM 역할을 생성할 수 있도록 하는 것이지만 직접 사용할 수 있습니다.</block>
   <block id="bd39c8654fa47d44bbd01a5d81c6197e" category="cell">BlueXP에서 Connector를 배포하는 경우 Azure에 Connector VM을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다.</block>
   <block id="80487192abab0ee504d52b82c771727f" category="paragraph">BlueXP는 Azure에 Connector VM을 배포할 때 Azure 구독 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 제공하는 사용자 지정 역할을 생성합니다.</block>
@@ -1580,13 +1558,11 @@
   <block id="efd9710de9c698fbbeb7b7b11597f70b" category="summary">AWS에 Connector를 설치한 후 BlueXP는 Connector가 설치된 AWS 계정에 있는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Amazon S3 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">탐색 메뉴에서 * Storage &gt; Canvas * 를 선택합니다.</block>
   <block id="3747d8dfb456f8cefbe5ea8eed8a4289" category="summary">Azure에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Azure 구독에 있는 Azure 저장소 계정에 대한 정보를 자동으로 검색할 수 있습니다. Azure Blob 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.</block>
-  <block id="df8594159163be47b249c18ed219b911" category="summary">BlueXP 계정 관리자는 대부분의 BlueXP 기능을 사용하기 전에 커넥터를 배포해야 합니다. BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다.</block>
   <block id="6596ec425be852d6a717fb02e701c2b2" category="list-text">회원: BlueXP 서비스 계정(serviceAccount.user)</block>
   <block id="ae01528f579ff3037811a74d75459f03" category="cell">배포를 대신하여 Google Cloud API와 상호 작용합니다. BlueXP에서 공유 네트워크를 사용할 수 있습니다.</block>
   <block id="eb989e3bf7181ed67c5a8beeb875559d" category="cell">배포를 대신하여 Google Cloud 인스턴스 및 컴퓨팅 인프라를 배포합니다. BlueXP에서 공유 네트워크를 사용할 수 있습니다.</block>
   <block id="b9097aaa33eb5691bfd95d679a856942" category="list-text">배포관리자 .editor는 배포에 방화벽 규칙을 전달하지 않고 BlueXP에서 사용자를 위해 방화벽 규칙을 만들도록 선택한 경우에만 호스트 프로젝트에 필요합니다. BlueXP는 호스트 프로젝트에 VPC0 방화벽 규칙이 지정되지 않은 경우 이를 포함하는 배포를 생성합니다.</block>
   <block id="4b32545acb84a8a99e56ccc813199881" category="list-text">Firewall.create 및 firewall.delete 은 배포에 방화벽 규칙을 전달하지 않고 BlueXP에서 사용자를 위해 방화벽 규칙을 만들도록 선택한 경우에만 필요합니다. 이러한 권한은 BlueXP 계정 .YAML 파일에 있습니다. 공유 VPC를 사용하여 HA 쌍을 구축하는 경우 이러한 사용 권한을 사용하여 VPC1, 2 및 3에 대한 방화벽 규칙을 생성합니다. 다른 모든 배포의 경우 이러한 사용 권한을 사용하여 VPC0에 대한 규칙을 만들 수도 있습니다.</block>
-  <block id="9103937d6e94a5d3e88276d85254bdff" category="paragraph">아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하려는 경우 BlueXP는 자동으로 커넥터를 프록시 서버로 사용하도록 Cloud Volumes ONTAP를 구성합니다.</block>
   <block id="0e4e5198cc4ce7f534d554683573c921" category="summary">BlueXP가 AWS에서 Connector 인스턴스를 시작하면 Connector에 해당 AWS 계정 내의 리소스와 프로세스를 관리할 수 있는 권한을 제공하는 인스턴스에 정책을 연결합니다. Connector는 권한을 사용하여 EC2, S3, CloudFormation, IAM, 키 관리 서비스 등</block>
   <block id="30782d3f448f611988824827b71e6b96" category="paragraph">BlueXP가 AWS에서 Connector 인스턴스를 시작하면 Connector에 해당 AWS 계정 내의 리소스와 프로세스를 관리할 수 있는 권한을 제공하는 인스턴스에 정책을 연결합니다. Connector는 권한을 사용하여 EC2, S3, CloudFormation, IAM, KMS(키 관리 서비스) 등</block>
   <block id="fa63e1e893cffd937dfc1bfa0546daf3" category="summary">BlueXP가 수행하는 작업의 상태를 모니터링하여 해결해야 할 문제가 있는지 확인할 수 있습니다. 알림 센터, 시각표에서 상태를 보거나 이메일로 알림을 보낼 수 있습니다.</block>
@@ -1699,17 +1675,10 @@
   <block id="a74d4f6da1f4962caa974b5e68852f05" category="admonition">NSS 관리 페이지로 이동하면 BlueXP에서 표의 각 계정에 대한 토큰을 생성합니다. 이 토큰에는 연결된 이메일 주소에 대한 정보가 포함됩니다. 그런 다음 페이지를 나갈 때 토큰이 제거됩니다. 정보는 캐싱되지 않으며 개인 정보를 보호하는 데 도움이 됩니다.</block>
   <block id="c7a6c5419388c54dd17826c0c6b4dc85" category="paragraph">BlueXP는 NetApp Support 사이트 사용자 이름과 관련 이메일 주소를 표시합니다. 복사 버튼을 사용하여 이메일 주소를 복사할 수 있습니다.</block>
   <block id="09e40761f22ee02fc6f59d79db4d6f93" category="paragraph">BlueXP에서 더 이상 사용하지 않을 NSS 계정을 삭제합니다.</block>
-  <block id="2ff3310af3f7a8c23232832947eccc41" category="paragraph">AWS에서 Connector를 실행하려면 IAM 역할을 가정하거나 AWS 액세스 키를 사용하여 AWS를 인증해야 합니다. 두 옵션 중 하나를 사용할 경우 IAM 정책이 필요합니다.</block>
   <block id="92c5959c8282fd63c3afcbd1c9b13f51" category="paragraph">BlueXP는 VPC에 Connector 인스턴스를 구축하기 전에 AWS를 인증해야 합니다. 다음 인증 방법 중 하나를 선택할 수 있습니다.</block>
   <block id="61f21c125c1220d8643bea1729345e36" category="list-text">BlueXP에서 필요한 권한이 있는 IAM 역할을 가정하도록 합니다</block>
-  <block id="782bf08b977691510ad6220ddda7dc2d" category="paragraph">이 정책에는 BlueXP에서 AWS에서 Connector 인스턴스를 시작하는 데 필요한 권한만 포함되어 있습니다. 다른 상황에서는 이 정책을 사용하지 마십시오.</block>
-  <block id="b8cae782ec5760ca071bf60dc8b10fc8" category="paragraph">BlueXP에서 Connector를 만들면 Connector가 공용 클라우드 환경의 리소스를 관리할 수 있도록 Connector 인스턴스에 새로운 권한 집합이 적용됩니다.</block>
-  <block id="88028c3bf97d66cf5d9fa29f350501ef" category="paragraph">BlueXP가 가정하거나 IAM 사용자에게 제공할 수 있는 IAM 역할에 정책을 첨부합니다.</block>
-  <block id="4abc539bef0053499f9b90f474acb246" category="paragraph">BlueXP에서 Connector를 AWS에 구축하기 위해 사용할 수 있는 IAM 역할을 설정합니다.</block>
   <block id="b3c7a22f0973e84651078c58ec8c36f6" category="list-text">다른 AWS 계정 * 을 선택하고 BlueXP SaaS 계정의 ID를 입력합니다. 952013314444</block>
   <block id="b132a51c84b6101c058abbb40225f87d" category="list-text">역할을 만든 후 역할 ARN을 복사하여 Connector를 만들 때 BlueXP에 붙여 넣을 수 있습니다.</block>
-  <block id="1d997a8ae52644df9be2a609b1d4cd43" category="paragraph">이제 AWS 사용자는 BlueXP에서 커넥터를 생성하는 데 필요한 권한을 갖게 됩니다. BlueXP에서 메시지가 나타나면 이 사용자에 대한 AWS 액세스 키를 지정해야 합니다.</block>
-  <block id="6704f089a6ca354d1ae9f58d8df2ab41" category="paragraph">BlueXP에서는 사용자 인터페이스에서 직접 AWS에 커넥터를 생성할 수 있습니다.</block>
   <block id="694fc44336d7d79e22d661cd3051861e" category="list-text">* AWS 자격 증명 *: AWS 지역을 지정한 다음 BlueXP가 사용할 수 있는 IAM 역할 또는 AWS 액세스 키와 비밀 키를 선택하는 인증 방법을 선택합니다.</block>
   <block id="a91e6553337808a75b0f62d2990d028b" category="list-text">필요한 권한이 있는 새 역할을 BlueXP에서 생성할지 또는 로 설정한 기존 역할을 선택할지 여부를 선택합니다 <block ref="8b098a06817becf62c06297dd76999b5" category="inline-link-macro-rx"></block>.</block>
   <block id="7c9b14f6116e140202c359bff8bc86c2" category="inline-link">AWS 마켓플레이스의 BlueXP 페이지</block>
@@ -1972,11 +1941,9 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
   <block id="1bc21092e961975ea4123f4414693f69" category="section-title">SSL 암호 해독은 지원되지 않습니다</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
-  <block id="38850c0d5ada5706d4546808821a96d1" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 인증을 설정합니다</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
   <block id="0acd6f364c67bcef47587e5727525116" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 네트워킹 설정</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
-  <block id="aea46324800b152c6a50caff1d14e2fc" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 커넥터를 작성합니다</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
   <block id="eb9bb09a006b6e7bcc7d0b9525344bcf" category="section-title">Connector의 URI를 편집합니다</block>
   <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
@@ -1998,11 +1965,6 @@
   <block id="0e304d528ea3fafc4ceebb3dd322c283" category="list-text">https://username:password@address:port 으로 문의하십시오</block>
   <block id="32a79a3da73e9b7dab502ea9e60bf1a5" category="section-title">커넥터를 설정합니다</block>
   <block id="9679c37d1ece85e4705ecd886aca356e" category="paragraph">가입하거나 로그인한 다음 Connector를 설정하여 계정을 사용할 수 있습니다.</block>
-  <block id="bdf21bb8cfe7ab9d40f2a425c4b3b3d2" category="paragraph">BlueXP 계정 관리자는 대부분의 BlueXP 기능을 사용하기 전에 _Connector_를 배포해야 합니다. BlueXP는 Connector를 사용하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있습니다.</block>
-  <block id="2e8e562450aa2519f49cd0db32ef65de" category="inline-link-macro">정부 지역에 Connector를 구축하는 방법을 알아보십시오</block>
-  <block id="7f86b05bc7243efe06f8812a8de60993" category="list-text"><block ref="7f86b05bc7243efe06f8812a8de60993" category="inline-link-macro-rx"></block></block>
-  <block id="f56df5f8b4fd558a7482d6115403eadd" category="list-text"><block ref="f56df5f8b4fd558a7482d6115403eadd" category="inline-link-macro-rx"></block></block>
-  <block id="4c8996b4b6a0d48752377c7e6f5e0168" category="paragraph">다음 단계에서는 BlueXP SaaS 웹 사이트에서 직접 AWS 상업 지역에 Connector를 생성하는 방법을 설명합니다.</block>
   <block id="973e3a2a390bb57ce9d9e16ac0145023" category="paragraph"><block ref="973e3a2a390bb57ce9d9e16ac0145023" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ff6e28c8eaa73c74f132f30b8a504071" category="list-text">/opt/application/netapp/cloudmanager/log 또는</block>
   <block id="f41aa0898b72dcd91cd63bd3d33d4258" category="list-text">/opt/application/netapp/service-manager-2/로그(새로운 3.9.23 설치부터 시작)</block>
@@ -2092,13 +2054,11 @@
   <block id="dae5521ccadea1321150f5f74aad0a58" category="paragraph">조직에서 나가는 모든 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다.</block>
   <block id="eea7ea20469c0fce0042b06e0bb1327a" category="list-text">프록시 서버에 대한 세부 정보(조직에서 모든 발신 인터넷 트래픽에 대한 프록시를 필요로 하는 경우):</block>
   <block id="5ecf1d4c60139fd535d59e1ca3b91b76" category="paragraph">Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 다음과 같은 API 요청을 수행합니다.</block>
-  <block id="7e3934b4ea56939b597edfcf84aa4803" category="paragraph">특정 엔드포인트에 대한 아웃바운드 인터넷 액세스를 지원하는 VPC 및 서브넷이 필요합니다. 아웃바운드 인터넷에 프록시 서버가 필요한 경우 IP 주소, 자격 증명 및 HTTPS 인증서가 필요합니다.</block>
   <block id="146adb7944757e88795676b780c31811" category="doc">프록시 서버를 사용하도록 Connector를 구성합니다</block>
   <block id="9d8704731bd068bd3be5ad98b7941cba" category="paragraph">BlueXP는 HTTP 및 HTTPS를 지원합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
   <block id="30d7902c191c571f1aa091af3df65f3d" category="paragraph">프록시 서버를 사용하도록 Connector를 구성하면 공용 IP 주소 또는 NAT 게이트웨이를 사용할 수 없는 경우 아웃바운드 인터넷 액세스를 제공합니다. 이 프록시 서버는 아웃바운드 연결이 있는 커넥터만 제공합니다. Cloud Volumes ONTAP 시스템에 대한 연결은 제공하지 않습니다.</block>
   <block id="66dcf6df2e799ff19e8fe5b0ed10a143" category="paragraph">Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아웃바운드 인터넷 연결이 없는 경우 BlueXP는 자동으로 해당 Cloud Volumes ONTAP 시스템이 커넥터에 포함된 프록시 서버를 사용하도록 구성합니다. 유일한 요구 사항은 커넥터 보안 그룹이 포트 3128을 통한 인바운드 연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.</block>
   <block id="25e8eb6a683e97e04e337e061a18205c" category="list-text">구문을 사용하여 서버를 지정합니다<block ref="f8f3e404ad5e32f60f55bb48e6395ae6" category="inline-link-rx"></block> 또는<block ref="9ab29a9097f3907435367cc314192885" category="inline-link-rx"></block></block>
-  <block id="5b2b679cfd4361d102ffc80defe9709e" category="list-text">* 네트워크 *: 인스턴스에 대한 VPC, 서브넷 및 키 쌍을 지정하고, 공용 IP 주소를 사용할지 여부를 선택하고, 선택적으로 프록시 구성을 지정합니다(HTTP 및 HTTPS 지원).</block>
   <block id="6bd6b829c865d2a64a85e79355655e12" category="cell">9060, 9061</block>
   <block id="35189ab5714b42941b6c22320f395243" category="list-text">자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 구독을 선택하고 * Associate * 를 클릭합니다.</block>
   <block id="7f024bcfe9b965209454c94e48004d5d" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 클릭하고 Azure 마켓플레이스의 단계를 따릅니다.</block>
@@ -2277,7 +2237,6 @@
   <block id="7b82c8bb5f712b74fd5cab9947ae81fb" category="cell">기본 물리적 하드웨어에 따라 일부 VM 배포에 필요합니다</block>
   <block id="93850b8e1d97181700833dcae4c7e219" category="paragraph"><block ref="93850b8e1d97181700833dcae4c7e219" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea59f5a18533f0723be7342656f4c831" category="paragraph">지역, 액세스 정책, 계정, 총 용량 및 사용된 용량 등을 비롯한 S3 버킷에 대한 세부 정보를 볼 수 있습니다. 이러한 버킷은 Cloud Backup, Cloud Tiering 또는 Cloud Sync 작업의 대상으로 사용할 수 있습니다. 또한, Cloud Data Sense를 사용하여 이러한 버킷을 스캔할 수 있습니다.</block>
-  <block id="10a7432528d1253e1f27cd183ae759a7" category="paragraph">Connector를 생성한 동일한 AWS 계정에 Amazon S3 버킷이 있는 경우 Amazon S3 작업 환경이 Canvas에 자동으로 표시됩니다.<block ref="eb59da80ee57b828e1255dafd1c2c796" category="inline-link-rx"></block>.</block>
   <block id="d564f41f7e0ffa3f9e8bc7a809230f94" category="list-text">이제 Connector를 사용하여 BlueXP에서 Amazon S3 버킷을 추가하고 관리할 수 있습니다.</block>
   <block id="f19dd7eba16fe45d9a801001a9371842" category="inline-link">BlueXP에서 AWS 계정에 새 Amazon S3 버킷을 추가하는 방법을 알아보십시오</block>
   <block id="3fdb23ee61e644ed849519b472ba51ae" category="paragraph"><block ref="35aa20e861d3bf81209592fa160bd4e4" category="inline-link-rx"></block>.</block>
@@ -2435,7 +2394,6 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">첨부 파일은 파일당 25MB로 제한됩니다. txt, log, pdf, jpg/jpeg, rtf, DOC/docx, xls/xlsx 및 CSV.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 케이스 메모 업데이트 *: 문제에 대한 추가 세부 정보를 제공하거나 * 파일 업로드 * 를 선택하여 최대 5개의 파일을 첨부할 수 있습니다.</block>
   <block id="6f6e8b4bb29cff7fb5a94ccadb883777" category="inline-link-macro">사용자 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
-  <block id="551a80734187b23f5368b6a5609f3de3" category="paragraph"><block ref="cf16e3f2aabf285f3de8d29b23130725" category="inline-link-macro-rx"></block>.</block>
   <block id="c0793e2f8a33e26d78982b3c320984fe" category="summary">Connector가 하이브리드 클라우드 환경 내의 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다.</block>
   <block id="08533087d95fb07c92ed0773080a65d4" category="doc">Azure 네트워킹을 설정합니다</block>
   <block id="1387f52f9e1a700036780a5bf567fab3" category="section-title">VNET 및 서브넷</block>
@@ -2452,7 +2410,6 @@
   <block id="998d660873d63ba9e547f1686fd6383b" category="paragraph">커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다.</block>
   <block id="b68600c18c6dd9598d4518bc4a3f2c90" category="list-text">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.</block>
   <block id="a72a43431413f493c5087ab72327a680" category="list-text">SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
-  <block id="46b7ac383833d40797a3c63596b781a1" category="list-text">아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다.</block>
   <block id="99e63f85b1b402024ea4e31c235b8fa7" category="summary">하나 이상의 Azure 구독에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 Azure 자격 증명과 사용 권한을 사용하는 방법을 이해해야 합니다.</block>
   <block id="3944b94e332ebaaeeb1f75ea267f7687" category="paragraph">BlueXP에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 나열됩니다 <block ref="215c62f8f7b8f0001687c60d93a1178c" category="inline-link-macro-rx"></block>.</block>
   <block id="61d31e18d80b565c39bc938c02808e6f" category="paragraph">초기 Azure 자격 증명을 사용하여 모든 Cloud Volumes ONTAP 시스템을 배포하거나 추가 자격 증명을 추가할 수 있습니다.</block>
@@ -2975,7 +2932,6 @@
   <block id="dc98fc3d843c5bcb9c0137740506501a" category="paragraph">대신 표준 SKU IP 주소를 사용하는 경우 BlueXP는 공용 IP 대신 Connector의 _private_ip 주소를 사용합니다. BlueXP 콘솔에 액세스하는 데 사용하는 시스템에서 해당 개인 IP 주소에 액세스할 수 없는 경우 BlueXP 콘솔의 작업이 실패합니다.</block>
   <block id="674c2428f094434925fc151f4d9a0556" category="inline-link">Azure 설명서: 공용 IP SKU</block>
   <block id="dd911b1740a43ff59aad324bd3d90ae3" category="paragraph"><block ref="dd911b1740a43ff59aad324bd3d90ae3" category="inline-link-rx"></block></block>
-  <block id="4cf4de9c40c52fee2df23db446975570" category="paragraph">HTTP(80) 및 HTTPS(443)는 BlueXP 콘솔에 대한 액세스를 제공합니다. SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다. 한편, 아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다.</block>
   <block id="65c06ded772ceb4963d08fe97b164419" category="section-title">BlueXP 콘솔에 대한 사용자 액세스를 위한 네트워킹을 준비합니다</block>
   <block id="201391f03ceb3ff56054b6793246b8fe" category="paragraph">제한된 모드에서는 커넥터에서 BlueXP 사용자 인터페이스에 액세스할 수 있습니다. BlueXP 사용자 인터페이스를 사용할 때 데이터 관리 작업을 완료하기 위해 몇 개의 엔드포인트에 연결합니다. 웹 브라우저를 실행하는 컴퓨터는 다음 끝점에 연결되어 있어야 합니다.</block>
   <block id="9d05d3f0e6b6c76ecd11e19cde8e2714" category="section-title">클라우드 사용 권한을 준비합니다</block>
@@ -3333,7 +3289,6 @@
   <block id="c8b77e7a211a8e1bbb884962a105fc2f" category="paragraph"><block ref="c8b77e7a211a8e1bbb884962a105fc2f" category="inline-link-rx"></block></block>
   <block id="d2b9555443522ab868fc3d3de8b07657" category="list-text">다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.</block>
   <block id="a6e38b80693d553a1debbba70e8974ef" category="paragraph">BlueXP는 이제 Google Cloud에서 대신 작업을 수행하는 데 필요한 권한을 가지고 있습니다.</block>
-  <block id="58109ce72bbdb2b46d159167f65565f4" category="cell">Cloud Volumes ONTAP에서 인터넷에 액세스하여 AutoSupport 메시지를 NetApp 지원으로 보냅니다. 배포 후에는 이 포트를 수동으로 열어야 합니다.</block>
   <block id="1a97d500b0ebbf49d9d9119231576127" category="cell">API는 Google Cloud 및 ONTAP, 클라우드 데이터 감지, 랜섬웨어 서비스 요청 및 NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
   <block id="f12979c6a7d6a702d0a439cabd9892b6" category="summary">BlueXP 웹 기반 콘솔, Azure Marketplace 또는 자체 Linux 호스트에 소프트웨어를 설치하여 커넥터를 직접 만듭니다.</block>
   <block id="e8755c6030ac3295c23080fbf9591aa4" category="doc">Azure에서 커넥터를 만듭니다</block>
@@ -3644,4 +3599,9 @@
   <block id="b02d6a4d5c11f6d94cd3e2e249d6dec1" category="sidebar">BlueXP 계정</block>
   <block id="cb7db6069dfbe23b6c36beb350a5ceaa" category="sidebar">다른 계정을 만듭니다</block>
   <block id="bd684dd31e369444b29047e57d56ff19" category="sidebar">배포 모드에 대해 알아봅니다</block>
+  <block id="84b297044f3a3c5d5e62a0dca0957998" category="list-text">아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다. Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아웃바운드 인터넷 연결이 없는 경우 BlueXP는 자동으로 해당 Cloud Volumes ONTAP 시스템이 커넥터에 포함된 프록시 서버를 사용하도록 구성합니다. 유일한 요구 사항은 커넥터 보안 그룹이 포트 3128을 통한 인바운드 연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.</block>
+  <block id="4fd45d0ebe27698075cfa2d13f41913e" category="paragraph">HTTP(80) 및 HTTPS(443)는 BlueXP 콘솔에 대한 액세스를 제공합니다. SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
+  <block id="830d9c74b9a0266753efa0c38f11ba15" category="paragraph"><block ref="b3303746b1f0c3c97f0d5584351ddef9" category="inline-link-rx"></block>.</block>
+  <block id="b26ec0454a2259b015367bd3e232bd73" category="inline-link">커넥터가 AutoSupport 메시지의 프록시로 사용되는 방법에 대해 알아봅니다</block>
+  <block id="452bb1fa479e1a4722dca450d1ca1c28" category="cell">Cloud Volumes ONTAP에서 인터넷에 액세스하여 AutoSupport 메시지를 NetApp 지원으로 보냅니다. 배포 후에는 이 포트를 수동으로 열어야 합니다.<block ref="529b3c8e9eb588f2d0ba5bb7d504d0b0" category="inline-link-rx"></block></block>
 </blocks>
