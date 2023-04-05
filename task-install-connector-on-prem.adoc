@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-install-connector-on-prem.html 
 keywords: install connector, on prem connector installation, on prem connector, install connector on prem, manual install 
-summary: Connector를 구내 설치 후 로그인하여 BlueXP 계정과 작동하도록 설정합니다. 
+summary: 구내 커넥터를 설치한 다음 로그인하여 BlueXP 계정과 작동하도록 설정합니다. 
 ---
-= 구내 커넥터를 설치하고 설정합니다
+= 온-프레미스에 커넥터를 설치하고 설정합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Connector를 구내 설치 후 로그인하여 BlueXP 계정과 작동�
 
 
 [role="lead"]
-Connector를 구내 설치 후 로그인하여 BlueXP 계정과 작동하도록 설정합니다.
+구내 커넥터를 설치한 다음 로그인하여 BlueXP 계정과 작동하도록 설정합니다.
 
 
 

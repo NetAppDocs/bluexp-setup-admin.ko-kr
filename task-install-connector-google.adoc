@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-install-connector-google.html 
 keywords: install connector, google cloud connector installation, google cloud connector, install connector in google cloud, bluexp, gcloud, manual install, create connector, gcp installation, gcp connector 
-summary: BlueXP 웹 기반 콘솔에서 또는 gcloud를 사용하거나 자체 Linux 호스트에 소프트웨어를 설치하여 커넥터를 직접 만듭니다. 
+summary: BlueXP 웹 기반 콘솔에서 또는 gcloud를 사용하거나 Linux 호스트에 소프트웨어를 설치하여 커넥터를 직접 만듭니다. 
 ---
 = Google Cloud에서 Connector를 생성합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP 웹 기반 콘솔에서 또는 gcloud를 사용하거나 자체 
 
 
 [role="lead"]
-BlueXP 웹 기반 콘솔에서 또는 gcloud를 사용하거나 자체 Linux 호스트에 소프트웨어를 설치하여 커넥터를 직접 만듭니다.
+BlueXP 웹 기반 콘솔에서 또는 gcloud를 사용하거나 Linux 호스트에 소프트웨어를 설치하여 커넥터를 직접 만듭니다.
 
 [role="tabbed-block"]
 ====
