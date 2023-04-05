@@ -31,7 +31,7 @@ BlueXP_deployment mode_를 사용하면 비즈니스 및 보안 요구 사항을
 * 비공개 모드
 
 
-link:concept-modes.html["이러한 배포 모드에 대해 자세히 알아보십시오"].
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["이러한 배포 모드에 대해 자세히 알아보십시오"].
 
 
 NOTE: 제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성화하는 옵션을 대체합니다. 계정 생성 시 제한 모드를 활성화할 수 있습니다. 나중에 활성화하거나 비활성화할 수 없습니다.
