@@ -158,7 +158,7 @@ system configuration backup settings modify -destination ""
 
 == Connector의 URI를 편집합니다
 
-Connector에 대한 URI를 추가하고 제거합니다.
+Connector 의 URI(Uniform Resource Identifier)를 추가하고 제거합니다.
 
 .단계
 . BlueXP 헤더에서 * 커넥터 * 드롭다운을 선택합니다.

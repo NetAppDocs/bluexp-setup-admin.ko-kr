@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Set up and administration
+  name: Setup and administration
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,7 +11,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: 설정 및 관리 문서
+  - title: 설치 및 관리 문서
     url: "/index.html"
   - title: 릴리스 정보
     entries:
