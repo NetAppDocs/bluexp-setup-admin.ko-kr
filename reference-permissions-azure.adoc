@@ -29,7 +29,7 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
 * link:task-set-up-permissions-azure.html["Azure에서 Connector 설치 권한 설정(표준 모드)"]
 * link:task-set-up-permissions-on-prem.html["온-프레미스 Connector 설치에 대한 권한 설정(표준 모드)"]
 * link:task-prepare-restricted-mode.html#prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
-* https://review.docs.netapp.com/us-en/cloud-manager-setup-admin_feb-2022-modes/task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
 또한 후속 릴리스에 새 권한이 추가되므로 역할이 최신 상태인지 확인해야 합니다.

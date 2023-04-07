@@ -2702,7 +2702,6 @@
   <block id="a6856ad65a90d33bc83bd78362d9bfce" category="inline-link-macro">기존 커넥터에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오.</block>
   <block id="51c8ce8bb23533cdcf692a4e99f34896" category="paragraph"><block ref="51c8ce8bb23533cdcf692a4e99f34896" category="inline-link-macro-rx"></block></block>
   <block id="a3d00aa90b48860260586c7be1bec2e8" category="inline-link-macro">ONTAP용 Amazon FSx용 BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오</block>
-  <block id="ffd3bdebca0018358cdaaa5dc117c198" category="list-text"><block ref="ffd3bdebca0018358cdaaa5dc117c198" category="inline-link-macro-rx"></block></block>
   <block id="3e9d4cd6e63ede4decfd24e1cd55b4f5" category="inline-link-macro">Connector를 생성하기 위해 BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오</block>
   <block id="d53482083698aad0c56365a4b9848a94" category="list-text"><block ref="d53482083698aad0c56365a4b9848a94" category="inline-link-macro-rx"></block></block>
   <block id="3551bffff472d33de9e274227109232f" category="paragraph">위 섹션에서는 BlueXP의 커넥터에 권장되는 배포 방법에 대해 설명합니다. AWS Marketplace에서 Connector를 AWS에 구축할 수도 있고, 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치할 수도 있습니다.</block>
@@ -3063,7 +3062,6 @@
   <block id="cb3ffce0d4b8f43b3d9f183b558cca41" category="inline-link-macro">제한된 모드에 대한 권한을 설정합니다</block>
   <block id="df4564942ae0e0bd6f202d613e944ba1" category="list-text"><block ref="df4564942ae0e0bd6f202d613e944ba1" category="inline-link-macro-rx"></block></block>
   <block id="fad45f664f0478b74c9485a0b1f6d781" category="inline-link">비공개 모드에 대한 권한을 설정합니다</block>
-  <block id="d73ec6441206aebb4242a98961271e64" category="list-text"><block ref="d73ec6441206aebb4242a98961271e64" category="inline-link-rx"></block></block>
   <block id="815957003313e5f9581718376c2c472f" category="paragraph">다음 섹션에서는 각 BlueXP 서비스에 대한 사용 권한이 어떻게 사용되는지 설명합니다. 이 정보는 기업 정책에 따라 사용 권한이 필요한 경우에만 제공된다는 내용이 지정되어 있는 경우에 유용합니다.</block>
   <block id="b3a595111956cd206b5fcd5e77bee895" category="summary">BlueXP에 등록하면 조직의 계정을 만들라는 메시지가 표시됩니다. 이 계정만 필요한 경우 여러 계정이 필요한 경우에는 Tenancy API를 사용하여 추가 계정을 만들어야 합니다.</block>
   <block id="6c45b1e5876b4865e0208a9ade3da041" category="doc">다른 BlueXP 계정을 만듭니다</block>
@@ -3602,4 +3600,6 @@
   <block id="c6793bcdb1eae6a26c6e9cb42e6b2f31" category="paragraph"><block ref="079398d71b1e343d69f7a6ed5f005eb2" category="inline-link-macro-rx"></block>.</block>
   <block id="c160cffd96a1bb98161a7add244e274f" category="paragraph">Connector 의 URI(Uniform Resource Identifier)를 추가하고 제거합니다.</block>
   <block id="f53835e0f369158c476f99fda577e700" category="sidebar">설치 및 관리 문서</block>
+  <block id="22e332a6ecd5f345a3f720b11f7cf805" category="list-text"><block ref="22e332a6ecd5f345a3f720b11f7cf805" category="inline-link-macro-rx"></block></block>
+  <block id="d56f297cb566b98a6b65a6dea3038531" category="list-text"><block ref="d56f297cb566b98a6b65a6dea3038531" category="inline-link-macro-rx"></block></block>
 </blocks>
