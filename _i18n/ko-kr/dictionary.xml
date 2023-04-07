@@ -3602,4 +3602,7 @@
   <block id="f53835e0f369158c476f99fda577e700" category="sidebar">설치 및 관리 문서</block>
   <block id="22e332a6ecd5f345a3f720b11f7cf805" category="list-text"><block ref="22e332a6ecd5f345a3f720b11f7cf805" category="inline-link-macro-rx"></block></block>
   <block id="d56f297cb566b98a6b65a6dea3038531" category="list-text"><block ref="d56f297cb566b98a6b65a6dea3038531" category="inline-link-macro-rx"></block></block>
+  <block id="c7a576f5db262c0475afa4a53822979e" category="list-text">경제 효율성 ^1^</block>
+  <block id="7713949d8f17ff00f9cdb21469da8a35" category="list-text">작업 복구 ^1^</block>
+  <block id="6d95cfc501ca88bca8a0045681608071" category="paragraph">^1^ 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.</block>
 </blocks>

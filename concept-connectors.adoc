@@ -65,12 +65,16 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 * 클라우드 계층화
 * Cloud Volumes ONTAP
 * E-Series 시스템
+* 경제 효율성 ^1^
 * 글로벌 파일 캐시
 * Google Cloud Storage 검색
 * Kubernetes 클러스터
 * BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합
+* 작업 복구 ^1^
 * StorageGRID
 
+
+^1^ 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.
 
 
 
