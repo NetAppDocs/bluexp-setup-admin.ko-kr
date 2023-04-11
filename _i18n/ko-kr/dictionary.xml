@@ -3605,4 +3605,12 @@
   <block id="c7a576f5db262c0475afa4a53822979e" category="list-text">경제 효율성 ^1^</block>
   <block id="7713949d8f17ff00f9cdb21469da8a35" category="list-text">작업 복구 ^1^</block>
   <block id="6d95cfc501ca88bca8a0045681608071" category="paragraph">^1^ 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.</block>
+  <block id="f570b8386694ba0d5563a8784f3135e5" category="section-title">NSS 자격 증명을 사용한 ID 페더레이션</block>
+  <block id="e906028a6376600a0f505777b7c3af9f" category="paragraph">NetApp Support 사이트(NSS) 자격 증명을 사용하여 BlueXP에 로그인하는 경우 이 페이지의 지침에 따라 ID 페더레이션을 설정해서는 안 됩니다. 대신 다음을 수행해야 합니다.</block>
+  <block id="0a3bde973847d35b12a69e1debea9ca9" category="inline-link">NetApp 통합 요청 양식</block>
+  <block id="8c992ea897689b69e58371da6a8ae5e6" category="list-text">를 다운로드하고 완료합니다<block ref="82f36446881e14fa28b945cd41d2b383" category="inline-link-rx"></block></block>
+  <block id="78080f8885ea72672a94d1643801d9cb" category="list-text">양식에 지정된 이메일 주소로 양식을 제출합니다</block>
+  <block id="2ffd4295ac6fb250f496a1c2b7840422" category="paragraph">NetApp ID 및 액세스 관리 팀에서 요청을 검토합니다.</block>
+  <block id="40ad51959fd74fabd0db9de7c8f3dfe5" category="inline-xref">NSS 자격 증명으로 ID 페더레이션을 설정하는 방법에 대해 알아봅니다</block>
+  <block id="ab4a64ac474b344fc1e5bf29106eab3b" category="paragraph">다음 단계는 NetApp 클라우드 로그인을 사용하여 BlueXP에 로그인하는 사용자를 위한 것입니다. NSS 자격 증명을 사용하여 BlueXP에 로그인하는 경우 <block ref="8f31bfd2719da60e22fa205d55b4f4b7" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
