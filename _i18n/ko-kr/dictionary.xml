@@ -3583,4 +3583,9 @@
   <block id="40ad51959fd74fabd0db9de7c8f3dfe5" category="inline-xref">NSS 자격 증명으로 ID 페더레이션을 설정하는 방법에 대해 알아봅니다</block>
   <block id="ab4a64ac474b344fc1e5bf29106eab3b" category="paragraph">다음 단계는 NetApp 클라우드 로그인을 사용하여 BlueXP에 로그인하는 사용자를 위한 것입니다. NSS 자격 증명을 사용하여 BlueXP에 로그인하는 경우 <block ref="8f31bfd2719da60e22fa205d55b4f4b7" category="inline-xref-macro-rx"></block>.</block>
   <block id="47bf230a49ecee72c3b36a37f9758812" category="cell">https://www.googleapis.com/compute/v1/\https://compute.googleapis.com/compute/v1\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects</block>
+  <block id="cf4525e15b866700f10e91573643ba54" category="section-title">기본 EC2 인스턴스 설정은 변경할 수 없습니다</block>
+  <block id="505d2a7358228b26711e097c3ca6dc24" category="paragraph">AWS에 Connector를 구축하면 다음과 같은 EC2 인스턴스 설정이 기본적으로 구성됩니다.</block>
+  <block id="b6c588d5cb8cbc221e66a15877aed30a" category="list-text">IMDSv2는 선택 사항으로 설정되어 있습니다</block>
+  <block id="b29d18da75a3c01939275500a8fc2e70" category="list-text">HttpTokens 는 선택 사항으로 설정되어 있습니다</block>
+  <block id="a91c1c121088ffbd72985e0bf2459f87" category="paragraph">이러한 설정은 필수 설정으로 변경해서는 안 됩니다. 이러한 설정을 필수로 변경하면 커넥터 및 Cloud Volumes ONTAP 가용성에 영향을 줍니다.</block>
 </blocks>

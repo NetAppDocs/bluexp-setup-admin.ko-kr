@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-limitations.html 
-keywords: limitations, active directory, ad, iscsi, key managers, ip address, govcloud, BlueXP, Cloud Volumes ONTAP, days, running, Connectors should remain running 
+keywords: limitations, active directory, ad, iscsi, key managers, ip address, govcloud, BlueXP, Cloud Volumes ONTAP, days, running, Connectors should remain running, imdsv2, httpstokens 
 summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오. 
 ---
 = 알려진 제한 사항
@@ -21,6 +21,18 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 
 
 == 커넥터 제한
+
+
+
+=== 기본 EC2 인스턴스 설정은 변경할 수 없습니다
+
+AWS에 Connector를 구축하면 다음과 같은 EC2 인스턴스 설정이 기본적으로 구성됩니다.
+
+* IMDSv2는 선택 사항으로 설정되어 있습니다
+* HttpTokens 는 선택 사항으로 설정되어 있습니다
+
+
+이러한 설정은 필수 설정으로 변경해서는 안 됩니다. 이러한 설정을 필수로 변경하면 커넥터 및 Cloud Volumes ONTAP 가용성에 영향을 줍니다.
 
 
 
