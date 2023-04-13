@@ -185,9 +185,6 @@
   <block id="43623b24ff4be4e0e0174dccd5d4446a" category="list-text">다음 옵션 중 하나를 선택합니다.</block>
   <block id="b7f7a48c60012c23b8adb659da31b71a" category="inline-link-macro">사용자, 작업 영역 및 커넥터에 대해 자세히 알아보십시오</block>
   <block id="7d033896524ebe16495f74d9f7202783" category="paragraph"><block ref="cf2050a2914e59a752ab48465ba00e16" category="inline-link-macro-rx"></block>.</block>
-  <block id="eb6dd0692058cd4edb3fb82f48db1f57" category="paragraph">예를 들어, 두 개의 계정이 있고 각각 별도의 구독을 통해 비용이 청구된다고 가정해 보겠습니다. Cloud Volume ONTAP 작업 환경을 생성할 때 해당 계정의 사용자가 실수로 잘못된 구독을 선택하지 않도록 계정 중 하나에서 구독을 연결 해제할 수 있습니다.</block>
-  <block id="1422eb9c77ef6c74d6abe35beedc5d64" category="paragraph">현재 보고 있는 계정과 연결된 구독만 표시됩니다.</block>
-  <block id="1dea06c0cd8c3b77e4597670a860c155" category="inline-image-macro">구독에 대한 작업 메뉴 스크린샷</block>
   <block id="0a1328e44a818b47ecf6db707c8721d7" category="paragraph">개인 미리 보기의 서비스는 예상대로 작동하지 않을 뿐만 아니라 중단 및 기능 누락이 발생할 수 있습니다.</block>
   <block id="b48299c449bac839819763792d4aff22" category="list-text">개요 * 탭에서 * 개인 미리 보기 허용 * 설정을 활성화합니다.</block>
   <block id="90837faa596ab1d28c90a381b6997722" category="list-text">개요 * 탭에서 * 타사 서비스 허용 * 설정을 활성화합니다.</block>
@@ -795,7 +792,6 @@
   <block id="ced2d945d98014d4467b685b8314caa1" category="paragraph"><block ref="5fada74255cc5bbf99ee00eda10403ac" category="inline-link-macro-rx"></block>.</block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link-macro">커넥터에 대해 자세히 알아보십시오</block>
   <block id="75599088791b92751fdc2c9cee3a481e" category="paragraph"><block ref="c5bcec7879e3189e4c7a5fdbd8b19a5b" category="inline-link-macro-rx"></block>.</block>
-  <block id="4ca2c509994c2776d0880357b4e8e5be" category="section-title">구독</block>
   <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">예</block>
   <block id="6643fe16b29885768bd30191d9673e3e" category="paragraph">다음 예에서는 계정을 설정하는 방법을 보여 줍니다.</block>
   <block id="ddc6e5885facb249d958d56dc9bb1acc" category="paragraph">다음 예제에서는 두 개의 작업 영역을 사용하여 격리된 환경을 만드는 계정을 보여 줍니다. 첫 번째 작업 공간은 운영 환경이고 두 번째는 개발 환경입니다.</block>
@@ -1849,29 +1845,6 @@
   <block id="4b9c42bf1853fa25d534302dbc43f035" category="list-text">S3: PutBucketPolicy</block>
   <block id="fa4d7248969f7582be82c5aa4b15e08b" category="list-text">S3: PutBucketOwnershipControls</block>
   <block id="c9c484fe908813be17fe13bbdeabfb1d" category="cell">생성 중에 스토리지 계정을 암호화합니다</block>
-  <block id="4d17b7f0d1f8c0ae69c0ec8d32fea349" category="summary">클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 Digital Wallet에서 각 구독을 관리할 수 있습니다.</block>
-  <block id="b01b1be092b95233172f870dc729234b" category="doc">PAYGO 구독 및 계약 관리</block>
-  <block id="e858f445394700e621aa67dd8e3fe958" category="section-title">구독 정보를 확인하십시오</block>
-  <block id="9c1b3fb5f48f73ce89025933ec931382" category="paragraph">Digital Wallet은 BlueXP 계정 및 Astra(Astra는 BlueXP의 충전 서비스를 사용)와 관련된 각 PAYGO 가입 및 연간 계약에 대한 세부 정보를 제공합니다.</block>
-  <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">BlueXP 탐색 메뉴에서 * Governance &gt; Digital Wallet * 을 선택합니다.</block>
-  <block id="8c3682e85d7f4dbe8a46485082335dec" category="list-text">구독 * 을 선택합니다.</block>
-  <block id="572e470335e0a6d55da05c732a01aed3" category="list-text">구독에 대한 정보를 볼 때 다음과 같이 표의 세부 정보와 상호 작용할 수 있습니다.</block>
-  <block id="6a1de13d318f22872902849cd26467b4" category="list-text">행을 확장하여 자세한 내용을 봅니다.</block>
-  <block id="d61aec883b403c61da2d8d8e19d78473" category="inline-image-macro">Digital Wallet의 Subscriptions(구독) 탭에 있는 스크린샷으로, 행 끝에 있는 화살표를 선택하여 확장할 수 있습니다.</block>
-  <block id="3a9d2caf2b3b63f1b3ab7d00e469b158" category="paragraph"><block ref="3a9d2caf2b3b63f1b3ab7d00e469b158" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="56594b7222b35921f9fe676eadf6bbdf" category="inline-image-macro">표 헤더 끝에 있는 더하기 아이콘입니다</block>
-  <block id="c090ce3dc0b8ea780bfa95c666328c67" category="paragraph">용어 및 자동 갱신 열은 기본적으로 표시되지 않습니다. 자동 갱신 열에는 Azure 계약에 대한 갱신 정보만 표시됩니다.</block>
-  <block id="48772efe35cdbabca3c0abdab7360b57" category="paragraph">표에 표시되는 내용에 대해서는 다음을 참고하십시오.</block>
-  <block id="4d34f1097f6c8b9cee28bca8b78bbee9" category="list-text">시작 날짜</block>
-  <block id="d1686d74b72c58f44c6fceaf3011df0b" category="list-text">시작 날짜는 가입이 계정에 성공적으로 연결되고 충전이 시작된 날짜입니다.</block>
-  <block id="716e98867696fbbeed00e3dcd1f76758" category="list-text">테이블에 해당 없음 이 표시되면 현재 클라우드 공급자의 API에서 해당 정보를 사용할 수 없습니다.</block>
-  <block id="cd494d76449d5dfe0c0adfb2f3447761" category="list-text">계약</block>
-  <block id="8090b542b799e2f0268fddd048d44eda" category="list-text">계약에 대한 세부 정보를 확장하면 Digital Wallet에 현재 계획에 사용할 수 있는 계약 옵션 및 단위(용량 또는 노드 수)가 표시됩니다.</block>
-  <block id="7f96d1365390f4c6a7c1befe0b068769" category="list-text">Digital Wallet은 종료 날짜 및 계약이 곧 갱신될지, 곧 종료될지, 이미 종료되었는지 여부를 식별합니다.</block>
-  <block id="d1d7830f95588ae511ee592eab47c2b0" category="list-text">AWS 계약이 있고 시작 날짜 이후에 계약 옵션을 변경한 경우, AWS에서 계약 옵션을 확인해야 합니다.</block>
-  <block id="6942b724002d90bb0f705f478cdd6bf3" category="section-title">구독을 관리합니다</block>
-  <block id="ac3dad7b0d90a8896f44e77f84726619" category="paragraph">구독의 이름을 바꾸고 구독과 연결된 계정을 선택하여 Digital Wallet에서 구독을 관리할 수 있습니다.</block>
-  <block id="23531331db8be0d13d9ce3c0685c0c8e" category="paragraph"><block ref="23531331db8be0d13d9ce3c0685c0c8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a4346a01828d72104a6540080377b25" category="section-title">2022년 11월 6일</block>
   <block id="f658ebadeb22d41618c5222998030cb9" category="section-title">커넥터 3.9.23</block>
   <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="list-text">이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.</block>
@@ -2025,7 +1998,6 @@
   <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
-  <block id="3933fdb8f34cb01278a72748377338a5" category="cell">https://www.googleapis.com/compute/v1/\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects</block>
   <block id="d377a02fb22cec7bf850087d3c9a31fa" category="cell">Google Cloud에서 리소스를 관리합니다.</block>
   <block id="4ce604ab4b6f3184f26713f30bde1bbe" category="cell">-cloudkms.cryptoKeys.get-cloudkms.cryptoKeys.getIamPolicy-cloudkms.cryptoKeys.list-cloudkms.cryptoKeys.setIamPolicy -cloudkms.keyRings.get-cloudkms.keyRings.getIamPolicy-cloudkms.keyRings.list-cloudkms.keyRings.setIamPolicy</block>
   <block id="9e4edb2eed22d4c91a667b29567ee08d" category="cell">Google에서 관리하는 기본 암호화 키를 사용하는 대신 클라우드 백업 활성화 마법사에서 고객이 관리하는 키를 직접 선택할 수 있습니다.</block>
@@ -3372,9 +3344,6 @@
   <block id="b7afeec70319496f1e3eb3a317ae30c3" category="doc">Google Cloud 네트워킹을 설정합니다</block>
   <block id="acb3a31b8e79039416f86dfe140a002a" category="section-title">VPC 및 서브넷</block>
   <block id="2ece2735ee78ce884898c747bead2708" category="paragraph">Connector를 생성할 때 Connector가 상주할 VPC와 서브넷을 지정해야 합니다.</block>
-  <block id="33d90cc16eaedf37738a3faf06f00f36" category="list-text">를 선택합니다 <block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block> 테이블에 표시할 열을 선택합니다.</block>
-  <block id="e97d1d1134e32a84fb4d6d796e3e56a9" category="list-text">관리할 구독에 해당하는 행에서 작업 메뉴를 선택합니다.</block>
-  <block id="1201c1bd99e40a424aee33ac62838b92" category="list-text">가입 이름을 바꾸거나 가입과 연결된 BlueXP 계정을 관리하도록 선택합니다.</block>
   <block id="7badfd12f4665ef65fdb218a565f47d6" category="summary">환경을 준비할 수 있도록 BlueXP를 개인 모드에서 시작하고 실행하는 데 필요한 사항을 이해해야 합니다.</block>
   <block id="5f1067df496bfafd5eb793369b955e41" category="doc">프라이빗 모드로 구축을 준비합니다</block>
   <block id="c597b49a830c4a4ce2fd66c374de3113" category="paragraph">환경을 준비할 수 있도록 BlueXP를 개인 모드로 시작하는 데 필요한 사항을 이해해야 합니다.</block>
@@ -3613,4 +3582,5 @@
   <block id="2ffd4295ac6fb250f496a1c2b7840422" category="paragraph">NetApp ID 및 액세스 관리 팀에서 요청을 검토합니다.</block>
   <block id="40ad51959fd74fabd0db9de7c8f3dfe5" category="inline-xref">NSS 자격 증명으로 ID 페더레이션을 설정하는 방법에 대해 알아봅니다</block>
   <block id="ab4a64ac474b344fc1e5bf29106eab3b" category="paragraph">다음 단계는 NetApp 클라우드 로그인을 사용하여 BlueXP에 로그인하는 사용자를 위한 것입니다. NSS 자격 증명을 사용하여 BlueXP에 로그인하는 경우 <block ref="8f31bfd2719da60e22fa205d55b4f4b7" category="inline-xref-macro-rx"></block>.</block>
+  <block id="47bf230a49ecee72c3b36a37f9758812" category="cell">https://www.googleapis.com/compute/v1/\https://compute.googleapis.com/compute/v1\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects</block>
 </blocks>

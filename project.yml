@@ -187,8 +187,6 @@ sidebar:
         url: "/task-adding-nss-accounts.html"
       - title: BlueXP 로그인과 관련된 자격 증명을 관리합니다
         url: "/task-manage-user-credentials.html"
-    - title: 구독
-      url: "/task-manage-subscriptions.html"
     - title: 검색된 클라우드 스토리지
       entries:
       - title: Amazon S3 버킷을 관리합니다
