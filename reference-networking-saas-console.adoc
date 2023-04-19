@@ -21,7 +21,7 @@ SaaS 계층을 통해 제공되는 BlueXP 웹 기반 콘솔을 사용하면 여�
 | 엔드포인트 | 목적 
 
 
-| https://console.bluexp.netapp.com 으로 문의하십시오 | 웹 기반 콘솔을 사용할 때 웹 브라우저가 이 URL에 연락합니다. 
+| https://console.bluexp.netapp.com \https://*.console.bluexp.netapp.com 으로 문의하십시오 | 웹 브라우저는 BlueXP 웹 기반 콘솔을 사용할 때 이러한 URL에 연락합니다. 
 
 
  a| 
@@ -57,8 +57,9 @@ AWS 서비스(amazonaws.com):
 | https://widget.intercom.io 으로 문의하십시오 | 제품 내에서 NetApp 클라우드 전문가와 상담할 수 있는 채팅을 제공합니다. 
 |===
 .관련 링크
-* link:task-set-up-networking-aws.html#endpoints-contacted-for-day-to-day-operations["Connector가 AWS에 연결하는 엔드포인트에는"]
-* link:task-set-up-networking-azure.html#endpoints-contacted-for-day-to-day-operations["Connector가 Azure에서 접촉하는 끝점"]
-* link:task-set-up-networking-google.html#endpoints-contacted-for-day-to-day-operations["Connector가 Google Cloud에 연결하는 엔드포인트에는"]
-* link:task-set-up-networking-on-prem.html#endpoints-contacted-during-manual-installation["커넥터 수동 설치 중에 접촉된 끝점입니다"]
+* link:task-prepare-restricted-mode.html#prepare-networking-for-user-access-to-bluexp-console["BlueXP 콘솔에 대한 사용자 액세스를 위한 네트워킹 준비(제한된 모드)"]
+* link:task-set-up-networking-aws.html#endpoints-contacted-for-day-to-day-operations["커넥터가 AWS에 접촉하는 끝점(표준 모드)"]
+* link:task-set-up-networking-azure.html#endpoints-contacted-for-day-to-day-operations["커넥터가 Azure에서 접촉하는 끝점(표준 모드)"]
+* link:task-set-up-networking-google.html#endpoints-contacted-for-day-to-day-operations["Connector가 Google Cloud에서 접촉하는 엔드포인트(표준 모드)"]
+* link:task-set-up-networking-on-prem.html#endpoints-contacted-during-manual-installation["커넥터 수동 설치 중에 연결된 엔드포인트(표준 모드)"]
 
