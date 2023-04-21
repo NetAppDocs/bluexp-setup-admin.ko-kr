@@ -179,20 +179,6 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
 
 
 
-=== AppTemplate 태그
-
-Connector는 AppTemplate Tagging 서비스를 사용할 때 Azure 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.
-
-* Microsoft.Resources/resources/read
-* Microsoft.Resources/서브스크립션/운영 결과/읽기
-* Microsoft.Resources/Subscriptions/resourceGroups/read
-* Microsoft.Resources/Subscriptions/resourcegroups/resources/read
-* Microsoft.Resources/tags/read
-* Microsoft.Resources/tags/write(Microsoft.리소스/태그/쓰기
-
-
-
-
 === Azure NetApp Files
 
 Connector는 Azure NetApp Files 작업 환경 관리를 위해 다음과 같은 API 요청을 수행합니다.
@@ -206,9 +192,9 @@ Connector는 Azure NetApp Files 작업 환경 관리를 위해 다음과 같은 
 
 
 
-=== 클라우드 백업
+=== 백업 및 복구
 
-Connector는 백업 및 복원 작업에 대해 다음과 같은 API 요청을 수행합니다.
+Connector는 BlueXP 백업 및 복구를 위해 다음과 같은 API 요청을 수행합니다.
 
 * Microsoft.Compute/virtualMachines/read
 * Microsoft.Compute/virtualMachines/start/action
@@ -261,9 +247,9 @@ Connector는 검색 및 복원 기능을 사용할 때 다음과 같은 API 요�
 
 
 
-=== 클라우드 데이터 감지
+=== 분류
 
-Connector는 Cloud Data Sense를 사용할 때 다음과 같은 API 요청을 수행합니다.
+Connector는 BlueXP 분류를 사용할 때 다음과 같은 API 요청을 수행합니다.
 
 [cols="3*"]
 |===
@@ -404,26 +390,6 @@ Connector는 Cloud Data Sense를 사용할 때 다음과 같은 API 요청을 �
 
 | Microsoft.Resources/Subscriptions/resourceGroups/write입니다 | 예 | 아니요 
 |===
-
-
-=== 클라우드 계층화
-
-Connector는 Cloud Tiering을 설정할 때 다음과 같은 API 요청을 수행합니다.
-
-* Microsoft.Storage/storageAccounts/listkeys/action
-* Microsoft.Resources/Subscriptions/resourceGroups/read
-* Microsoft.Resources/서브스크립션/위치/읽기
-
-
-Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행합니다.
-
-* Microsoft.Storage/storageAccounts/blobServices/containers/read
-* Microsoft.Storage/storageAccounts/blobServices/containers/write
-* Microsoft.Storage/storageAccounts/managementPolicies/read를 참조하십시오
-* Microsoft.Storage/storageAccounts/managementPolicies/write를 참조하십시오
-* Microsoft.Storage/storageAccounts/read를 참조하십시오
-
-
 
 
 === Cloud Volumes ONTAP
@@ -733,9 +699,9 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 |===
 
 
-=== 글로벌 파일 캐시
+=== 에지 캐싱
 
-Connector는 글로벌 파일 캐시를 사용할 때 다음과 같은 API 요청을 수행합니다.
+Connector는 BlueXP 에지 캐싱을 사용할 때 다음과 같은 API 요청을 수행합니다.
 
 * Microsoft.Insights/메트릭/읽기
 * Microsoft.Compute/virtualMachines/extensions/write
@@ -764,6 +730,40 @@ Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 �
 
 
 
+=== 해결
+
+Connector는 BlueXP 개선 기능을 사용할 때 Azure 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Resources/resources/read
+* Microsoft.Resources/서브스크립션/운영 결과/읽기
+* Microsoft.Resources/Subscriptions/resourceGroups/read
+* Microsoft.Resources/Subscriptions/resourcegroups/resources/read
+* Microsoft.Resources/tags/read
+* Microsoft.Resources/tags/write(Microsoft.리소스/태그/쓰기
+
+
+
+
+=== 계층화
+
+Connector는 BlueXP 계층화를 설정할 때 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Storage/storageAccounts/listkeys/action
+* Microsoft.Resources/Subscriptions/resourceGroups/read
+* Microsoft.Resources/서브스크립션/위치/읽기
+
+
+Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행합니다.
+
+* Microsoft.Storage/storageAccounts/blobServices/containers/read
+* Microsoft.Storage/storageAccounts/blobServices/containers/write
+* Microsoft.Storage/storageAccounts/managementPolicies/read를 참조하십시오
+* Microsoft.Storage/storageAccounts/managementPolicies/write를 참조하십시오
+* Microsoft.Storage/storageAccounts/read를 참조하십시오
+
+
+
+
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
@@ -772,7 +772,7 @@ Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 �
 
 === 2023년 3월 23일
 
-클라우드 데이터 센스에 "Microsoft.Storage/storageAccounts/delete" 권한이 더 이상 필요하지 않습니다.
+BlueXP 분류에는 "Microsoft.Storage/storageAccounts/delete" 권한이 더 이상 필요하지 않습니다.
 
 이 권한은 Cloud Volumes ONTAP에 여전히 필요합니다.
 
@@ -785,7 +785,7 @@ JSON 정책에 다음 권한이 추가되었습니다.
 * Microsoft.Storage/storageAccounts/listAccountSas/action
 * Microsoft.Synapse/작업 공간/privateEndpointConnectionsApproval/action
 +
-Cloud Backup에는 이러한 권한이 필요합니다.
+이러한 권한은 BlueXP 백업 및 복구에 필요합니다.
 
 * Microsoft.Network/loadBalancers/backendAddressPools/join/action
 +
@@ -801,11 +801,11 @@ JSON 정책에 다음 권한이 추가되었습니다.
 
 * Microsoft.Storage/storageAccounts/blobServices/containers/write
 +
-Cloud Backup and Cloud Tiering에는 이 권한이 필요합니다.
+이 권한은 BlueXP 백업 및 복구 및 BlueXP 계층화에 필요합니다.
 
 * Microsoft.Network/publicIPAddresses/delete
 +
-클라우드 백업에 이 권한이 필요합니다.
+이 권한은 BlueXP 백업 및 복구에 필요합니다.
 
 
 

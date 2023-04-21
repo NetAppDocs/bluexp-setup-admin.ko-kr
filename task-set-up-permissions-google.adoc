@@ -222,7 +222,7 @@ link:reference-permissions-gcp.html["커넥터 서비스 계정 정책"]
 * storage.admin을 선택합니다
 * 회원: BlueXP 서비스 계정(serviceAccount.user)
 
-| 해당 없음 | (선택 사항) 데이터 계층화 및 Cloud Backup을 위한 솔루션 
+| 해당 없음 | (선택 사항) 데이터 계층화 및 BlueXP 백업 및 복구 
 
 
 | Google API 서비스 에이전트입니다 | Google 클라우드 | 서비스 프로젝트  a| 

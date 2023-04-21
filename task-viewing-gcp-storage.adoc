@@ -16,7 +16,7 @@ summary: Google Cloud에 Connector를 설치한 후 BlueXP는 Connector가 설�
 [role="lead"]
 Google Cloud에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Google 계정에 있는 Google Cloud Storage 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Google Cloud Storage 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.
 
-위치, 액세스 상태, 스토리지 클래스, 총 용량 및 사용된 용량 등 Google Cloud Storage 버킷에 대한 자세한 정보를 볼 수 있습니다. 이러한 버킷은 Cloud Backup, Cloud Tiering 또는 Cloud Sync 작업의 대상으로 사용할 수 있습니다.
+위치, 액세스 상태, 스토리지 클래스, 총 용량 및 사용된 용량 등 Google Cloud Storage 버킷에 대한 자세한 정보를 볼 수 있습니다. 이러한 버킷은 BlueXP 백업 및 복구, BlueXP 계층화 또는 BlueXP 복사 및 동기화 작업의 대상으로 사용할 수 있습니다.
 
 .단계
 . Google Cloud Storage 버킷을 보려는 Google 계정에 Connector를 설치합니다.
@@ -33,7 +33,7 @@ image:screenshot-gcp-cloud-storage-actions.png["Google Cloud Storage 작업 환�
 
 . Google Cloud Storage 버킷과 데이터를 동기화하려면 * 데이터 동기화 * 를 선택하십시오.
 +
-자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["Cloud Sync 서비스에 대한 개요입니다"^]
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["BlueXP 복사 및 동기화에 대한 개요입니다"^]
 
 . Google 계정의 버킷에 대한 세부 정보를 보려면 * 작업 환경 입력 * 을 선택하십시오.
 +

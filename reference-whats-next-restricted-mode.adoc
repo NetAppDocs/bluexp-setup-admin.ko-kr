@@ -20,8 +20,8 @@ summary: 제한된 모드에서 BlueXP를 시작하고 실행한 후 제한된 �
 
 * https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/index.html["ONTAP용 Amazon FSx 문서"^]
 * https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/index.html["Azure NetApp Files 문서"^]
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/index.html["Cloud Backup 문서"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/index.html["Cloud Data Sense 문서"^]
+* https://docs.netapp.com/us-en/cloud-manager-backup-restore/index.html["백업 및 복구 문서"^]
+* https://docs.netapp.com/us-en/cloud-manager-data-sense/index.html["분류 문서"^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP 문서"^]
 * https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/index.html["사내 ONTAP 클러스터 문서"^]
 * https://docs.netapp.com/us-en/cloud-manager-replication/index.html["복제 문서"^]

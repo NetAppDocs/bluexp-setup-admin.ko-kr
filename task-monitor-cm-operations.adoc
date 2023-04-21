@@ -98,7 +98,7 @@ image:screenshot_notification_filters.png["알림 센터에서 사용할 수 있
 
 [NOTE]
 ====
-* 현재, Connectors, Cloud Sync, Cloud Backup, Digital Wallet, 랜섬웨어 Protection과 같은 BlueXP 기능 및 서비스에 대한 알림은 이메일로 전송됩니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.
+* 현재, 전자 메일을 통해 커넥터, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 디지털 지갑 및 BlueXP 랜섬웨어 보호 등의 BlueXP 기능 및 서비스에 대한 알림을 보냅니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.
 * Connector가 인터넷에 연결되지 않은 사이트에 설치되어 있으면 이메일 알림 전송이 지원되지 않습니다.
 
 

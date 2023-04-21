@@ -44,7 +44,7 @@ NOTE: 제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성
 
 === 커넥터 3.9.28
 
-* 이제 디지털 지갑에서 이메일 알림이 지원됩니다.
+* 이제 이메일 알림이 BlueXP 디지털 지갑에서 지원됩니다.
 +
 알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.
 
@@ -104,12 +104,12 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manag
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["커넥터에 대한 시스템 요구 사항을 봅니다"].
 
-* Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). Cloud Backup을 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수도 있습니다. 디지털 지갑을 제외한 이러한 유형의 배포에서는 다른 BlueXP 서비스가 지원되지 않습니다.
+* Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 또한 BlueXP 백업 및 복구를 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수 있습니다. BlueXP 디지털 지갑을 제외하고 이러한 유형의 배포에는 다른 BlueXP 서비스가 지원되지 않습니다.
 +
 클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.
 
 +
-시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.
+시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, BlueXP 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.
 
 +
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["인터넷에 연결되지 않은 위치에 커넥터를 설치합니다"^]
@@ -214,7 +214,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1
 
 === 커넥터 3.9.23
 
-* 이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.
+* 이제 BlueXP용 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
 

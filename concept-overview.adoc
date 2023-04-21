@@ -40,33 +40,33 @@ BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네
 ** StorageGRID 시스템
 
 
+* 데이터 오케스트레이션 및 보호 https://bluexp.netapp.com/solutions/kubernetes["Kubernetes 영구 데이터"^]
 
 
 --
 이동성:: 데이터를 동기화, 복사, 계층화 및 캐싱하여 필요한 위치로 데이터를 이동합니다.
 +
 --
-* https://bluexp.netapp.com/cloud-sync-service["Cloud Sync"^]
-* https://bluexp.netapp.com/cloud-tiering["클라우드 계층화"^]
-* https://bluexp.netapp.com/global-file-cache["글로벌 파일 캐시"^]
+* https://bluexp.netapp.com/cloud-sync-service["복사 및 동기화"^]
+* https://bluexp.netapp.com/global-file-cache["에지 캐싱"^]
+* https://bluexp.netapp.com/cloud-tiering["계층화"^]
 
 
 --
 보호:: 자동화된 보호 메커니즘을 사용하여 데이터 손실, 계획되지 않은 운영 중단, 랜섬웨어 및 기타 사이버 위협으로부터 데이터를 보호합니다.
 +
 --
-* https://bluexp.netapp.com/cloud-backup["클라우드 백업"^]
+* https://bluexp.netapp.com/cloud-backup["백업 및 복구"^]
 * https://bluexp.netapp.com/replication["복제"^]
-* https://bluexp.netapp.com/ransomware-protection["랜섬웨어 보호"^]
-* https://bluexp.netapp.com/k8s["쿠버네티스"^]
 
 
 --
 분석 및 제어:: 툴을 사용하여 데이터 스토리지 및 인프라를 모니터링, 매핑 및 최적화할 수 있습니다.
 +
 --
-* https://bluexp.netapp.com/netapp-cloud-data-sense["클라우드 데이터 감지"^]
+* https://bluexp.netapp.com/netapp-cloud-data-sense["분류"^]
 * https://bluexp.netapp.com/digital-advisor["디지털 자문업체"^]
+* https://bluexp.netapp.com/ransomware-protection["랜섬웨어 보호"^]
 
 
 --
@@ -126,6 +126,6 @@ link:concept-modes.html["BlueXP 배포 모드에 대해 자세히 알아보십�
 
 == SOC 2 Type 2 인증
 
-독립적인 공인 회계사 및 서비스 감사원이 BlueXP, Cloud Sync, Cloud Tiering, Cloud Data Sense 및 Cloud Backup(BlueXP 플랫폼)을 조사하여 해당 신뢰 서비스 기준에 따라 SOC 2 Type 2 보고서를 작성했다는 것을 확인했습니다.
+독립적인 공인회계사 및 서비스 감사원이 BlueXP를 조사하여 해당 신뢰 서비스 기준에 따라 SOC 2 Type 2 보고서를 획득하였다는 것을 확인했습니다.
 
 https://www.netapp.com/company/trust-center/compliance/soc-2/["NetApp의 SOC 2 보고서 보기"^]
