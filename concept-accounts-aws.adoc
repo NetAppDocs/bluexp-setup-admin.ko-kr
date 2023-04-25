@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-accounts-aws.html 
 keywords: cloud provider accounts, aws, aws accounts, keys, multiple accounts, permissions, aws permissions, policy, policies, credentials 
-summary: BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 수 있도록 AWS 자격 증명과 사용 권한을 사용하는 방법에 대해 알아보십시오. 예를 들어, BlueXP에 AWS 자격 증명을 추가하는 방법을 배울 수 있습니다. 
+summary: BlueXP에서 AWS 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법을 알아보십시오. BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 때 이러한 세부 정보를 이해하는 것이 도움이 될 수 있습니다. 예를 들어, BlueXP에 AWS 자격 증명을 추가해야 하는 시기를 알 수 있습니다. 
 ---
 = AWS 자격 증명 및 권한
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관
 
 
 [role="lead"]
-BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 수 있도록 AWS 자격 증명과 사용 권한을 사용하는 방법에 대해 알아보십시오. 예를 들어, BlueXP에 AWS 자격 증명을 추가하는 방법을 배울 수 있습니다.
+BlueXP에서 AWS 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법을 알아보십시오. BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 때 이러한 세부 정보를 이해하는 것이 도움이 될 수 있습니다. 예를 들어, BlueXP에 AWS 자격 증명을 추가해야 하는 시기를 알 수 있습니다.
 
 
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-accounts-gcp.html 
 keywords: cloud provider accounts, gcp, gcp accounts, google cloud platform, google accounts, google cloud platform accounts, permissions, project, google cloud project 
-summary: BlueXP에서 Google Cloud 프로젝트의 자격 증명을 관리할 수 있도록 Google Cloud 자격 증명과 사용 권한을 사용하는 방법에 대해 알아보십시오. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다. 
+summary: BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다. 
 ---
 = Google Cloud 프로젝트, 권한 및 계정
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP에서 Google Cloud 프로젝트의 자격 증명을 관리할 �
 
 
 [role="lead"]
-BlueXP에서 Google Cloud 프로젝트의 자격 증명을 관리할 수 있도록 Google Cloud 자격 증명과 사용 권한을 사용하는 방법에 대해 알아보십시오. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.
+BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.
 
 
 
