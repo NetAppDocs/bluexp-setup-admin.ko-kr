@@ -3554,7 +3554,6 @@
   <block id="c8a11657cad4105099bd9eb0d4bdbaec" category="paragraph">Connector는 BlueXP 치료 시 AWS 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="bf9c7c9727a11f040da47cdd589f7ea6" category="paragraph">이제 BlueXP 계층화에 대해 다음 권한이 필요합니다.</block>
   <block id="54301079e01fc865e928c6fe22deeeef" category="paragraph">지역, 액세스 정책, 계정, 총 용량 및 사용된 용량 등을 비롯한 S3 버킷에 대한 세부 정보를 볼 수 있습니다. 이러한 버킷은 BlueXP 백업 및 복구, BlueXP 계층화 또는 BlueXP 복사 및 동기화 작업의 대상으로 사용할 수 있습니다. 또한 BlueXP 분류를 사용하여 이러한 버킷을 스캔할 수 있습니다.</block>
-  <block id="e97440eb1bbaa6bbe8778090ce381499" category="summary">하나 이상의 Azure 구독에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 Azure 자격 증명과 사용 권한을 사용하는 방법을 이해해야 합니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가하는 방법을 배울 수 있습니다.</block>
   <block id="672184337bf12286628179253519271e" category="paragraph"><block ref="672184337bf12286628179253519271e" category="inline-link-macro-rx"></block></block>
   <block id="01da112af45ab74fbf33e58033fbd785" category="summary">마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다.</block>
   <block id="285c4c5f9756d9707fc1afed457a8b43" category="summary">Connector의 Azure 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다.</block>
@@ -3595,7 +3594,6 @@
   <block id="d82a01de8fc043d47b50211e2437d663" category="paragraph">사용자 환경을 준비하고 커넥터를 배포하고 BlueXP에 가입하여 제한된 모드에서 BlueXP를 시작하십시오.</block>
   <block id="ebed13b527202f35f3ec91ab58b5a4c2" category="paragraph">커넥터 구성을 배포하기 전에 또는 문제를 해결해야 하는 경우에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="c68ce7f660a6741b838bea908ac88f81" category="summary">Google Cloud에서 Connector 및 Cloud Volumes ONTAP를 배포하기 전에 여러 Google Cloud API를 활성화해야 합니다.</block>
-  <block id="7e9f2a9703b554788d8d241081d992e9" category="summary">하나 이상의 AWS 계정에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 AWS 자격 증명과 사용 권한을 사용하는 방법을 이해해야 합니다. 예를 들어, BlueXP에 AWS 자격 증명을 추가하는 방법을 배울 수 있습니다.</block>
   <block id="b1bf8e5320cdd219124de4b848049533" category="summary">자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치한 경우 이전에 설정한 권한을 BlueXP에 제공해야 합니다. 권한을 제공하면 BlueXP가 Google Cloud에서 데이터 및 스토리지 인프라를 관리할 수 있습니다.</block>
   <block id="9816c573c33f4a6c99fc578d678ba65a" category="summary">Connector에 대한 Google Cloud 방화벽 규칙에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다.</block>
   <block id="9a4eb6738f043a9d449205f3ee2089f1" category="summary">자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치한 경우 이전에 설정한 권한을 BlueXP에 제공해야 합니다. 권한을 제공하면 BlueXP에서 AWS의 데이터 및 스토리지 인프라를 관리할 수 있습니다.</block>
@@ -3611,7 +3609,9 @@
   <block id="9370643895ad52c4da3ddf50c1e24a82" category="summary">계정 관리자, 작업 영역 관리자, 규정 준수 뷰어 및 SnapCenter 관리자 역할은 사용자에게 특정 권한을 제공합니다. 새 사용자를 BlueXP 계정에 연결할 때 이러한 역할 중 하나를 할당할 수 있습니다.</block>
   <block id="2ba2174aabffe3eb7a1b296e02063736" category="summary">제한된 모드에서 BlueXP를 사용하는 경우 Connector에서 로컬로 실행되는 사용자 인터페이스에서 BlueXP 콘솔에 로그인해야 합니다.</block>
   <block id="4453e7502515d4db1f3a4a1c28c48f13" category="summary">Connector 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 포트 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 커넥터를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. 커넥터를 설치하기 전에 호스트가 이러한 요구 사항을 충족하는지 확인하십시오.</block>
-  <block id="43dd9ffda6ee5eff1f85b5f003c898b3" category="summary">BlueXP에서 Google Cloud 프로젝트의 자격 증명을 관리할 수 있도록 Google Cloud 자격 증명과 사용 권한을 사용하는 방법에 대해 알아보십시오. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="47ca16329494467c539bde558f0ae632" category="list-text">커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다<block ref="98f22f2dda0728ebb39af9a8fe826c8e" category="inline-link-rx"></block> VM 인스턴스의 경우. BlueXP는 서비스 계정에서 권한을 받아 사용자를 대신하여 Cloud Volumes ONTAP 시스템을 생성 및 관리하는 등의 작업을 수행합니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.</block>
   <block id="52be9a779a7de2bea0867d1d993e7f07" category="summary">Connector 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 포트 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 커넥터를 설치하기 전에 호스트가 이러한 요구 사항을 충족하는지 확인하십시오.</block>
+  <block id="467ab02e35d0adba413e3be72e9c49a8" category="summary">하나 이상의 Azure 구독에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 Azure 자격 증명과 사용 권한을 사용하는 방법에 대해 알아봅니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가하는 방법을 배울 수 있습니다.</block>
+  <block id="3c0eb878d2cb71d8ced9c8198a3d9f1d" category="summary">BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 수 있도록 AWS 자격 증명과 사용 권한을 사용하는 방법에 대해 알아보십시오. 예를 들어, BlueXP에 AWS 자격 증명을 추가하는 방법을 배울 수 있습니다.</block>
+  <block id="8054ab9ced76d417f5267da91e77acb2" category="summary">BlueXP에서 Google Cloud 프로젝트의 자격 증명을 관리할 수 있도록 Google Cloud 자격 증명과 사용 권한을 사용하는 방법에 대해 알아보십시오. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.</block>
 </blocks>

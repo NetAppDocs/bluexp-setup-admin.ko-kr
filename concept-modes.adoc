@@ -4,7 +4,7 @@ permalink: concept-modes.html
 keywords: dark site, internet, on prem, no internet, supported deployments, govcloud, government access, environments, supported environments, deployment modes, modes, private mode, restricted mode, il6, sc2s, c2s, dark site, sovereign region, saas, government region 
 summary: BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있는 다양한 배포 모드를 제공합니다. 표준 모드는 BlueXP SaaS 계층을 활용하여 모든 기능을 제공하는 반면, 제한된 모드 및 비공개 모드는 연결 제한이 있는 조직에서 사용할 수 있습니다. 
 ---
-= BlueXP 배포 모드
+= BlueXP 배포 모드에 대해 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
