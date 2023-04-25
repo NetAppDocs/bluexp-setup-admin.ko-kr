@@ -51,7 +51,6 @@
   <block id="a6100ac4fa5cb7bbb1c49e95165b96b2" category="inline-link">필요한 권한</block>
   <block id="e1ca9b0274808b9c445718fa4b9a5d26" category="paragraph">이 역할과 연결된 구독을 선택할 수 있습니다. 선택한 각 구독은 해당 구독에 Cloud Volumes ONTAP를 배포할 수 있는 권한을 커넥터에 제공합니다.</block>
   <block id="316cce18546001b2f1149ed17a4d3900" category="list-text">* 네트워크 *: VNET 및 서브넷을 선택하고, 공용 IP 주소를 활성화할지 여부를 선택한 다음 선택적으로 프록시 구성을 지정합니다.</block>
-  <block id="39c1f44dc3cf3d61f829ba697b33eaac" category="list-text">* 보안 그룹 *: 새 보안 그룹을 생성할지 또는 인바운드 HTTP, HTTPS 및 SSH 액세스를 허용하는 기존 보안 그룹을 선택할지 여부를 선택합니다.</block>
   <block id="ae6252cb830dbd695650f78870fe4309" category="inline-link-macro">로컬 UI</block>
   <block id="77c0c575c550fbbb80de7e5c1eda4fbc" category="list-text">* 검토 *: 선택 사항을 검토하여 설정이 올바른지 확인합니다.</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
@@ -252,7 +251,6 @@
   <block id="269f277ce2140226081fe499a22595d6" category="section-title">NSS 계정을 제거합니다</block>
   <block id="76734448143dd55adf6431fa26af46e4" category="paragraph">현재 Cloud Volumes ONTAP 작업 환경과 연결된 계정은 삭제할 수 없습니다. 먼저 해야 할 일 <block ref="ac2d4b7aa5ce32d2814e2f5e96d09326" category="inline-xref-macro-rx"></block>.</block>
   <block id="007f1e2d3f01b80a8179746ea45b3c41" category="paragraph"><block ref="007f1e2d3f01b80a8179746ea45b3c41" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb11319a6aac10698937e0bc23986201" category="summary">계정 관리자, 작업 영역 관리자, 규정 준수 뷰어 및 SnapCenter 관리자 역할은 사용자에게 특정 권한을 제공합니다.</block>
   <block id="a5cd3ed116608dac017f14c046ea56bf" category="doc">역할</block>
   <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">작업</block>
   <block id="023bddc1580239bc605771883a09c8ff" category="cell">계정 관리자</block>
@@ -407,7 +405,6 @@
   <block id="29b28ad1793cec26548948fbe79ebfd5" category="paragraph">이 양식은 Google에서 소유하고 호스팅됩니다. 자격 증명이 NetApp에 제공되지 않습니다.</block>
   <block id="221cebedac65af2855cc9b0f21c55587" category="list-text">* 위치 *: 인스턴스의 영역, 영역, VPC 및 서브넷을 지정합니다.</block>
   <block id="39ca94376c3d56de257bd39a110e0c3b" category="list-text">* 네트워크*: 공용 IP 주소를 사용할지 여부를 선택하고 선택적으로 프록시 구성을 지정합니다.</block>
-  <block id="86f1b50eaa6c71046b42471aa31a534e" category="list-text">* 방화벽 정책 *: 새 방화벽 정책을 생성할지 또는 인바운드 HTTP, HTTPS 및 SSH 액세스를 허용하는 기존 방화벽 정책을 선택할지 여부를 선택합니다.</block>
   <block id="43da6e9199aecb615e775a9a6d77b458" category="paragraph">인스턴스는 약 7분 내에 준비되어야 합니다. 프로세스가 완료될 때까지 페이지를 유지해야 합니다.</block>
   <block id="7f22bf39aaf5ce5980111c3587bef5b5" category="open-title">gcloud를 선택합니다</block>
   <block id="7e5741f3894a13d9d98fbc97bbd73942" category="list-text">원하는 방법을 사용하여 gcloud SDK에 로그인합니다.</block>
@@ -457,7 +454,6 @@
   <block id="3dcd3a438eecbdd8bc716a93dbc7adf7" category="list-text">* 검토 *: 선택 사항을 검토하고 * 시작 * 을 클릭합니다.</block>
   <block id="10a3df02c55e733eca6fef076545645a" category="paragraph">AWS가 지정된 설정으로 소프트웨어를 시작합니다. Connector 인스턴스 및 소프트웨어는 약 5분 내에 실행되어야 합니다.</block>
   <block id="06df33001c1d7187fdd81ea1f5b277aa" category="cell">작업</block>
-  <block id="660bef525617f48933744ba42660cbd7" category="summary">하나 이상의 커넥터를 만든 후에는 커넥터 간 전환, 커넥터에서 실행되는 로컬 사용자 인터페이스에 연결 등을 통해 커넥터를 관리할 수 있습니다.</block>
   <block id="f86faf1862caeed3f6dccfce3a669edf" category="section-title">커넥터 사이를 전환합니다</block>
   <block id="64a6a5dbc1a2fdd0a838d6f38acd9d81" category="paragraph">커넥터가 여러 개 있는 경우 커넥터 사이를 전환하여 특정 커넥터와 연결된 작업 환경을 볼 수 있습니다.</block>
   <block id="e6e914a08e5df82283d333cae53c631e" category="paragraph">예를 들어, 멀티클라우드 환경에서 일하고 있다고 가정해 보겠습니다. AWS에 Connector가 있고 Google Cloud에 Connector가 있을 수 있습니다. 이러한 클라우드에서 실행되는 Cloud Volumes ONTAP 시스템을 관리하려면 이러한 커넥터 사이를 전환해야 합니다.</block>
@@ -516,7 +512,6 @@
   <block id="7ed9585d1e9f5512ccb2cfc8bd359ad0" category="list-text">CA 서명 인증서 설치 * 를 선택합니다.</block>
   <block id="1f2fc480562990aa572340adbb999816" category="inline-image-macro">스크린샷: 서명된 인증서를 설치한 후 HTTPS 설정 페이지를 표시합니다. 이 페이지에는 인증서 속성과 인증서를 갱신할 수 있는 옵션이 표시됩니다.</block>
   <block id="ef9bdb2657b8a54fd5e6d5f9b03516c0" category="paragraph"><block ref="ef9bdb2657b8a54fd5e6d5f9b03516c0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8c9a93bc06e9dc5b98908a0afff5fbf2" category="summary">시작하려면 NetApp 담당자가 시스템 ID for Connector를 요청할 수 있습니다. ID는 일반적으로 라이센스 및 문제 해결 목적으로 사용됩니다.</block>
   <block id="cd9ffc2440addbacdf692ee7105ad41f" category="paragraph">시스템 ID가 맨 위에 나타납니다.</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="doc">커넥터에 대해 자세히 알아보십시오</block>
   <block id="098ba24e143dd197f509e41083f0103e" category="section-title">커넥터가 필요한 경우</block>
@@ -635,7 +630,6 @@
   <block id="aa414a57d6f1347fc5212beb06655a8e" category="paragraph">Connector에 대해 미리 정의된 방화벽 규칙은 모든 아웃바운드 트래픽을 엽니다. 허용 가능한 경우 기본 아웃바운드 규칙을 따릅니다. 더 엄격한 규칙이 필요한 경우 고급 아웃바운드 규칙을 사용합니다.</block>
   <block id="bd83f7d2350eb6b777b2622dfd275ab6" category="paragraph">Connector에 대해 미리 정의된 방화벽 규칙에는 다음과 같은 아웃바운드 규칙이 포함됩니다.</block>
   <block id="e3d41d6e94475edc27ad068b42448e0e" category="section-title">사내 커넥터용 포트</block>
-  <block id="b5c1dbf300be5c998c2da388a4bae39b" category="paragraph">Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 다음과 같은 _inbound_ports를 사용합니다.</block>
   <block id="ea765af20d763fe16d94ba9ef03fd31b" category="paragraph"><block ref="ea765af20d763fe16d94ba9ef03fd31b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fff6f5125be05a94543d2e88dbd30b27" category="inline-image-macro">Google Cloud 자격 증명을 위해 선택한 Google Cloud 프로젝트 및 가입 스크린샷</block>
   <block id="cab980518d03aa36afc924b709828a6e" category="paragraph"><block ref="cab980518d03aa36afc924b709828a6e" category="inline-image-macro-rx" type="image"></block></block>
@@ -755,8 +749,6 @@
   <block id="d110361593d3c3b635cec5b83db5e311" category="paragraph">VM을 구성할 때 다음 사항에 유의하십시오.</block>
   <block id="e0a5a00fea28c51159fd804f7ff48797" category="list-text">CPU 및 RAM 요구 사항에 맞는 VM 크기를 선택합니다. DS3 v2를 권장합니다.</block>
   <block id="b88f3d4f001239da017477be9254c32d" category="inline-link-macro">VM 요구 사항을 검토합니다</block>
-  <block id="7d081ddd1a763e64370bc13c27e3eaa1" category="list-text">네트워크 보안 그룹의 경우 Connector는 SSH, HTTP 및 HTTPS를 사용하는 인바운드 연결을 필요로 합니다.</block>
-  <block id="e12ee8fc49a830a2c114fcbb887441c1" category="inline-link-macro">Connector의 보안 그룹 규칙에 대해 자세히 알아보십시오</block>
   <block id="089f373f5f48b55cde8c8de1db96243c" category="inline-link">Azure 리소스의 관리 ID에 대해 자세히 알아보십시오</block>
   <block id="76f2625388817626b5d20572023827a8" category="paragraph">이 설정은 커넥터 가상 시스템이 자격 증명을 제공하지 않고 Azure Active Directory에 자신을 식별할 수 있도록 관리되는 ID를 허용하므로 중요합니다.<block ref="f91ce7faef49711445322691b4d6ac64" category="inline-link-rx"></block>.</block>
   <block id="cf4a06fce4c7b1055a372af2e026d54e" category="list-text">Review + create * 페이지에서 선택 사항을 검토하고 * Create * 를 클릭하여 배포를 시작합니다.</block>
@@ -1287,7 +1279,6 @@
   <block id="080045bf6ab788297df2820c007203af" category="paragraph">S3:GetEncryptionConfiguration</block>
   <block id="1b33affeaa41a09a9f3a99d38d14376f" category="inline-image-macro">Cloud Volumes ONTAP를 배포하기 위한 Google 및 서비스 계정에 대한 권한 요구 사항을 나타내는 개념적 이미지입니다.</block>
   <block id="61ed3f7479580c6ad0ce86e9e6f3dd8d" category="paragraph"><block ref="61ed3f7479580c6ad0ce86e9e6f3dd8d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c0c1fbd3a68059273f48a44be8f588e1" category="summary">Connector의 Azure 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다.</block>
   <block id="569fe31933e5918613ae1efa70e82d16" category="doc">Azure의 보안 그룹 규칙</block>
   <block id="6b068f0a943d421535c7d8d412ee3522" category="list-text">E-Series 시스템</block>
   <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
@@ -1311,9 +1302,6 @@
   <block id="871cd14deee4188642f0f5e041d9e0bd" category="list-text">이제 Cloud Manager의 * 지원 대시보드 * 에서 NetApp 지원 케이스를 직접 생성할 수 있습니다.</block>
   <block id="b657064056ea8bf270b50939fb0c9bfe" category="paragraph"><block ref="b657064056ea8bf270b50939fb0c9bfe" category="inline-link-rx"></block></block>
   <block id="9329698e280db3b309a02e9cb9e73a75" category="paragraph"><block ref="9329698e280db3b309a02e9cb9e73a75" category="inline-link-rx"></block></block>
-  <block id="4691b4c7ea6b67a757c3d7c68596a75b" category="summary">Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 다음과 같은 인바운드 포트를 사용합니다.</block>
-  <block id="a3a26be97d56db88b1db47012a0942e5" category="paragraph"><block ref="7ce76aff95b05035629c9343687faa19" category="inline-link-macro-rx"></block>.</block>
-  <block id="6d7e2c1c0f4420a7bd5fd9b30ef6949e" category="summary">Connector의 AWS 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다.</block>
   <block id="60f0453bf0393ab630be6aa37dc20180" category="doc">AWS의 보안 그룹 규칙</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
@@ -1332,7 +1320,6 @@
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">에서 비기술 케이스를 제출하십시오<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="7628d27e67d0fc21276a5e1d4d9776e4" category="summary">Connector에 대한 Google Cloud 방화벽 규칙에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다.</block>
   <block id="e22a4abc98b47ca148e0dfda7e259162" category="doc">Google Cloud의 방화벽 규칙</block>
   <block id="3824876226172edfe0f17e8022b60fda" category="section-title">Google Cloud API를 활성화합니다</block>
   <block id="abfd76b9567ca082322504a092e076c7" category="list-text">* 세부 정보 *: 가상 머신 인스턴스의 이름을 입력하고, 태그를 지정하고, 프로젝트를 선택한 다음 필요한 권한이 있는 서비스 계정을 선택합니다(자세한 내용은 위의 섹션 참조).</block>
@@ -1585,7 +1572,6 @@
   <block id="a8f8f08c9d91eeaecc31377113ddd27b" category="section-title">BlueXP의 프로젝트 및 권한</block>
   <block id="356334a26d74c400a5e0a69f237ba73e" category="paragraph">BlueXP에서 직접 커넥터를 배포하기 전에 두 가지 권한 세트가 있어야 합니다.</block>
   <block id="7e1224e2fd0f204a7cd31b8672f1b63d" category="list-text">BlueXP에서 Connector VM 인스턴스를 시작할 수 있는 권한이 있는 Google 계정을 사용하여 Connector를 배포해야 합니다.</block>
-  <block id="a7cc308b583002579bbc229d6f63001c" category="list-text">커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다<block ref="98f22f2dda0728ebb39af9a8fe826c8e" category="inline-link-rx"></block> VM 인스턴스의 경우. BlueXP는 서비스 계정에서 권한을 받아 사용자를 대신하여 Cloud Volumes ONTAP 시스템을 생성하고 관리합니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.</block>
   <block id="7a0df3203d8f6522d2b39b5f4c38db03" category="admonition">다음 단계를 완료하기 전에 Google Cloud 계정과 BlueXP 로그인에 Billing Admin 권한이 모두 있는지 확인하십시오.</block>
   <block id="cdcf076c3fd3e62a3c7e3691d02894db" category="inline-link">Google Cloud 마켓플레이스의 NetApp BlueXP 페이지</block>
   <block id="b7e7a20500f8489bfa6b8a559c74a1d4" category="list-text">로 리디렉션된 후<block ref="d9d3d72c24d9b3446210d5b539c6bbf5" category="inline-link-rx"></block>상단 탐색 메뉴에서 올바른 프로젝트가 선택되어 있는지 확인합니다.</block>
@@ -1933,7 +1919,6 @@
   <block id="8f3118254324aa503647a0f0a4cd34cc" category="list-text">Connector의 사용자 정의 역할을 선택합니다.</block>
   <block id="b0cd7667098b2a3439c52ba1f9334faa" category="inline-link">Google Cloud 설명서</block>
   <block id="ece59c09a5f78f29903e8e1daac67577" category="paragraph">자세한 내용은 을 참조하십시오<block ref="eb023f41fbcdd6f661c855770356f2dc" category="inline-link-rx"></block></block>
-  <block id="12106b63996e2c061ca66d31f3a9c50f" category="summary">초기 설정을 수행한 후 나중에 사용자, 서비스 계정, 작업 영역 및 커넥터를 관리하여 계정 설정을 관리할 수 있습니다.</block>
   <block id="068395f3cd26ca40ad905de3790c9435" category="cell">Azure 공공 지역의 리소스를 관리합니다.</block>
   <block id="61b99e46ccbb3b872a32fbf2f064b87b" category="cell">Azure Government 지역의 리소스를 관리합니다.</block>
   <block id="8ec83edee8d0c8a3dd001c3d7e558479" category="cell">Azure IL6 영역의 리소스를 관리합니다.</block>
@@ -2295,7 +2280,6 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">첨부 파일은 파일당 25MB로 제한됩니다. txt, log, pdf, jpg/jpeg, rtf, DOC/docx, xls/xlsx 및 CSV.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 케이스 메모 업데이트 *: 문제에 대한 추가 세부 정보를 제공하거나 * 파일 업로드 * 를 선택하여 최대 5개의 파일을 첨부할 수 있습니다.</block>
   <block id="6f6e8b4bb29cff7fb5a94ccadb883777" category="inline-link-macro">사용자 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
-  <block id="c0793e2f8a33e26d78982b3c320984fe" category="summary">Connector가 하이브리드 클라우드 환경 내의 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다.</block>
   <block id="08533087d95fb07c92ed0773080a65d4" category="doc">Azure 네트워킹을 설정합니다</block>
   <block id="1387f52f9e1a700036780a5bf567fab3" category="section-title">VNET 및 서브넷</block>
   <block id="b26bf0de9fb68038a5f4e2e2a13c5811" category="paragraph">Connector를 생성할 때 Connector가 상주할 VNET와 서브넷을 지정해야 합니다.</block>
@@ -2311,7 +2295,6 @@
   <block id="998d660873d63ba9e547f1686fd6383b" category="paragraph">커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다.</block>
   <block id="b68600c18c6dd9598d4518bc4a3f2c90" category="list-text">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.</block>
   <block id="a72a43431413f493c5087ab72327a680" category="list-text">SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
-  <block id="99e63f85b1b402024ea4e31c235b8fa7" category="summary">하나 이상의 Azure 구독에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 Azure 자격 증명과 사용 권한을 사용하는 방법을 이해해야 합니다.</block>
   <block id="3944b94e332ebaaeeb1f75ea267f7687" category="paragraph">BlueXP에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 나열됩니다 <block ref="215c62f8f7b8f0001687c60d93a1178c" category="inline-link-macro-rx"></block>.</block>
   <block id="61d31e18d80b565c39bc938c02808e6f" category="paragraph">초기 Azure 자격 증명을 사용하여 모든 Cloud Volumes ONTAP 시스템을 배포하거나 추가 자격 증명을 추가할 수 있습니다.</block>
   <block id="75904d63b29699480eda8c85929c78ee" category="paragraph">Connector VM에 할당된 시스템 할당 관리 ID는 Connector를 시작한 구독과 연결됩니다. 다른 Azure 구독을 선택하려면 를 수행해야 합니다 <block ref="fde23217a3c87d38cc57946a4ba7d7b4" category="inline-link-macro-rx"></block>.</block>
@@ -2412,11 +2395,8 @@
   <block id="fb62719b7db2f72c6247845a1f5cbcb1" category="list-text">업데이트할 NSS 계정의 경우 를 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 이메일 주소 표시 * 를 선택합니다.</block>
   <block id="e5db2949e66eb1e7684dd81e4145d6e3" category="list-text">삭제할 NSS 계정의 경우 을 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 삭제 * 를 선택합니다.</block>
   <block id="93ab98e83f767e271a56c06a99e0061f" category="list-text">삭제하려면 * 삭제 * 를 선택합니다.</block>
-  <block id="b4c97cdf9d0da79b362a72ba4db97e6c" category="summary">BlueXP에 등록하면 웹 기반 콘솔을 통해 웹 브라우저에서 로그인할 수 있습니다.</block>
   <block id="8ccd00d958a4b1c81d6eb1a97c4cc8b6" category="doc">BlueXP에 로그인(표준 모드)</block>
-  <block id="aceae712e016f56214992e8807e3c3f9" category="paragraph">BlueXP에 등록하면 웹 기반 콘솔에서 로그인할 수 있습니다.</block>
   <block id="ba4b1c8da80214fd24d3e708e6d5a43e" category="paragraph">다음 옵션 중 하나를 사용하여 BlueXP 웹 기반 콘솔에 로그인할 수 있습니다.</block>
-  <block id="d33385b3989ad7c0d0d5068246d54b96" category="summary">Google Cloud에서 Connector를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다.</block>
   <block id="f9a2f8eef1df12108fd0c6b9b6b7fe6a" category="doc">Google Cloud의 커넥터 설치 옵션</block>
   <block id="b5afc81c4f24b143224e304b939a3f6c" category="paragraph">다음 설치 옵션을 사용할 수 있습니다.</block>
   <block id="2be5713550453beeb95920945caf9edb" category="list-text">BlueXP에서 직접 커넥터 생성(표준 옵션)</block>
@@ -2427,7 +2407,6 @@
   <block id="aad2c066ffe748669f0919517c62b920" category="paragraph">선택하는 설치 옵션은 설치 준비 방법에 영향을 줍니다. 여기에는 Google Cloud에서 리소스를 인증하고 관리하는 데 필요한 권한을 BlueXP에 제공하는 방법이 포함됩니다.</block>
   <block id="0e729c7047b6724051cd3075125ee033" category="inline-link-macro">Google Cloud에서 Connector를 설치하는 방법에 대해 알아보십시오</block>
   <block id="e125fc89afb4e1df4139d1d590ddb886" category="paragraph"><block ref="f10aea6a309f24e3b383a3596f8a82db" category="inline-link-macro-rx"></block>.</block>
-  <block id="9c61bc3bc1f7ff40d9a2b3ebc5996702" category="paragraph">하나 이상의 커넥터를 만든 후 커넥터 간 전환, 소프트웨어 업그레이드 등을 통해 커넥터를 관리할 수 있습니다.</block>
   <block id="28d40d49edc5d8557dfa8624f4921f55" category="section-title">운영 체제 및 VM 유지 보수</block>
   <block id="19584c42f9ee050980069e98aba18776" category="paragraph">커넥터 호스트에서 운영 체제를 유지 관리하는 것은 사용자의 책임입니다. 예를 들어, 회사의 운영 체제 배포 표준 절차에 따라 Connector 호스트의 운영 체제에 보안 업데이트를 적용해야 합니다.</block>
   <block id="f54ceb27aeb3593e19341732f24d3f61" category="paragraph">OS 업데이트를 실행할 때 커넥터 호스트에서 서비스를 중지할 필요가 없습니다.</block>
@@ -2588,11 +2567,9 @@
   <block id="dee4b7ff8cb24e70b467d45ba4ac55c6" category="paragraph"><block ref="dee4b7ff8cb24e70b467d45ba4ac55c6" category="inline-link-rx"></block></block>
   <block id="c0675f0ac53a37bf3be2b775afed6c26" category="inline-link-macro">이러한 권한을 BlueXP에 제공하는 방법을 알아보십시오</block>
   <block id="3dbb225ba0c1c164a61cefbc1cdb0d06" category="paragraph"><block ref="8e4894668aa66afea4219822edca2e80" category="inline-link-macro-rx"></block>.</block>
-  <block id="f57396729b6c8f76a3c795b375af51c8" category="summary">비공개 모드에서 BlueXP를 사용하는 경우 Connector에서 로컬로 실행되는 사용자 인터페이스에서 BlueXP 콘솔에 로그인해야 합니다.</block>
   <block id="1c42e5a3e07db1a9b4f218a40f5f6019" category="doc">BlueXP에 로그인(개인 모드)</block>
   <block id="516e43b3e75e3babe4495cf821a204d3" category="paragraph">비공개 모드는 로컬 사용자 관리 및 액세스를 지원합니다. BlueXP의 클라우드 서비스를 통해 인증이 제공되지 않습니다.</block>
   <block id="7771e98a4d3c7e9baf33b576bbae8a46" category="paragraph">_ipaddress_는 Connector를 설치한 호스트의 구성에 따라 localhost, 개인 IP 주소 또는 공용 IP 주소일 수 있습니다. 예를 들어, Connector 호스트에 접속되어 있는 호스트의 전용 IP 주소를 입력해야 할 수 있습니다.</block>
-  <block id="b1c8ca02beb66818992d95cda1a594d6" category="summary">하나 이상의 AWS 계정에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 AWS 자격 증명과 사용 권한을 사용하는 방법을 이해해야 합니다.</block>
   <block id="a581b6951e2b88c90d61a623574f78a4" category="paragraph">BlueXP에서 커넥터를 배포할 때는 IAM 사용자의 ARN 또는 액세스 키를 제공해야 합니다. 사용하는 인증 방법에는 Connector 인스턴스를 AWS에 구축하는 데 필요한 권한이 있어야 합니다. 필요한 권한이 에 나열됩니다 <block ref="bf48510c601c5b66c7e07c07a7613cba" category="inline-link-macro-rx"></block>.</block>
   <block id="109a76aa4a30822be3d0a4a6162bbc73" category="paragraph">초기 AWS 자격 증명을 사용하여 모든 Cloud Volumes ONTAP 시스템을 구축하거나 추가 자격 증명을 추가할 수 있습니다.</block>
   <block id="23492b7b8082a813c471e464e7c94c5f" category="paragraph">다음 두 가지 방법으로 AWS 자격 증명을 추가할 수 있습니다.</block>
@@ -2788,7 +2765,6 @@
   <block id="66aac1d75aef36714a42ae94b3624998" category="cell">NSS 계정</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="cell">알림</block>
   <block id="4a91ba4367bf09e0b6f596c4aec9f392" category="paragraph">Connector에서 실행 중인 웹 기반 콘솔을 로드하는 경우 인터페이스가 표시되지 않을 수 있으며 빈 페이지가 표시될 수도 있습니다.</block>
-  <block id="44f51e85499473da855fe459346032cb" category="summary">BlueXP를 제한된 모드로 시작하는 데 필요한 사항을 파악하여 환경을 준비해야 합니다.</block>
   <block id="6df5369b59a40f64ce1869a0d4d405ea" category="doc">제한된 모드에서 배포를 준비합니다</block>
   <block id="bc27549db271a31b155a1f54549518c7" category="section-title">제한 모드의 작동 방식을 이해합니다</block>
   <block id="1b59f23b137c9cc38862c3922293bb00" category="paragraph">시작하기 전에 제한된 모드에서 BlueXP의 작동 방식을 이해해야 합니다.</block>
@@ -2872,9 +2848,7 @@
   <block id="dc5737502524148f78bf03ba18318700" category="list-text"><block ref="dc5737502524148f78bf03ba18318700" category="inline-link-rx"></block></block>
   <block id="1f96aa045f6500e7c58cc5f50ea21ffd" category="inline-link">여기에서 BlueXP를 사용하여 S3 버킷을 확인, 생성 및 관리하는 방법을 확인하십시오</block>
   <block id="8ca79a150bd523c9a9a82fb5420fee36" category="paragraph">이제 새로 추가된 기능을 사용하여 S3 버킷을 생성하고 편집할 수 있습니다.<block ref="c4481f66e0558788424eb34d61e736ff" category="inline-link-rx"></block></block>
-  <block id="f7f6980b836efa510e1625bbe64cd958" category="summary">BlueXP 계정은 멀티 테넌시를 제공하고 BlueXP 내에서 격리된 작업 영역에 사용자와 리소스를 구성할 수 있습니다.</block>
   <block id="389368f5d98ef09e3dca047f7f72f270" category="doc">BlueXP 계정에 대해 알아보십시오</block>
-  <block id="d14f5d38dce010d3205d385994b1db7d" category="paragraph">a_BlueXP account_는 멀티 테넌시를 제공하고 BlueXP 내에서 격리된 작업 영역에서 사용자와 리소스를 구성할 수 있도록 합니다. 예를 들어, 여러 사용자가 _worksaces_라는 격리된 환경에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다. 이러한 작업 영역은 다른 사용자가 공유하지 않는 한 표시되지 않습니다.</block>
   <block id="684ef065a6596c929baa4364adca2e52" category="paragraph">BlueXP에 처음 액세스하면 계정을 선택하거나 생성하라는 메시지가 표시됩니다. 예를 들어 아직 계정이 없는 경우 다음 화면이 표시됩니다.</block>
   <block id="21ad8a394fd878b4f709af241e04c2fc" category="inline-image-macro">BlueXP를 만들 BlueXP 계정을 묻는 BlueXP 설치 마법사의 스크린샷.</block>
   <block id="f735901c47be672686b9be997d3bf0d7" category="paragraph"><block ref="f735901c47be672686b9be997d3bf0d7" category="inline-image-macro-rx" type="image"></block></block>
@@ -3072,7 +3046,6 @@
   <block id="c0112364e46bcec7ed4460a6be7ead53" category="paragraph">이 단계에서는 표준 모드에서 BlueXP를 사용하는 방법을 설명하므로 제한된 모드를 사용하지 않도록 설정해야 합니다. (또한 Connector가 구내에 설치된 경우에는 제한된 모드가 지원되지 않습니다.)</block>
   <block id="dcdd03125bee39fb6c8e9aa5e0bfcc7f" category="paragraph">BlueXP는 이제 방금 설치한 커넥터를 사용하여 설정됩니다.</block>
   <block id="a2d7243b3053c6c5842cf1d530d3a09f" category="paragraph"><block ref="fbbff0e39cb3f5e5617a1207bee6d992" category="inline-link-macro-rx"></block>.</block>
-  <block id="7e6a3f67bb3d6bb73e78239ce833ea6a" category="summary">몇 단계만으로 표준 모드에서 BlueXP를 시작할 수 있습니다.</block>
   <block id="0876e0a47d86eee44886009e6fdae6e5" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 등록하고 계정을 만듭니다</block>
   <block id="d592a53baa7083e5ab7b0bc72eee19ef" category="paragraph">로 이동합니다<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block> 을 클릭합니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다.</block>
   <block id="885c0a0c266c904878925a2adb8ad8e3" category="inline-link-macro">커넥터 없이 수행할 수 있는 작업을 알아보십시오</block>
@@ -3095,9 +3068,6 @@
   <block id="f2a22a629f9bad85f41243962f9380fb" category="paragraph"><block ref="8e1057d16cd60d5c0c31b6f13c293038" category="inline-link-macro-rx"></block>.</block>
   <block id="12d823193ac650eb174ac6e076ca93b8" category="paragraph">이러한 인바운드 규칙은 모든 BlueXP 배포 모델에 적용됩니다.</block>
   <block id="f2b686d839a94b2d7f1e0a55d1c7c302" category="doc">BlueXP 계정을 관리합니다</block>
-  <block id="dafc1959f2b28949596957ef384a7dc4" category="paragraph">사용자, 서비스 계정, 작업 영역 및 커넥터를 관리하여 계정을 관리할 수 있습니다.</block>
-  <block id="0d4221bdf7b5778750de3cf019dbc5e8" category="inline-link-macro">BlueXP 계정의 작동 방식에 대해 자세히 알아보십시오</block>
-  <block id="ebfb9925e99d372597ffd4b242bcf7f9" category="paragraph"><block ref="c390dec9844ef5d8e0401009dc2eeab3" category="inline-link-macro-rx"></block>.</block>
   <block id="315b1bcfec7b067d1365b30389121dcb" category="section-title">Tenancy API로 계정을 관리합니다</block>
   <block id="35c0393b7b6f22ece5c742b2eaf8c91f" category="section-title">사용자 생성 및 관리</block>
   <block id="9e4e26e36e8844fa4042a9c996fe1d79" category="paragraph">계정의 사용자는 특정 작업 영역의 리소스에 액세스하고 관리할 수 있습니다.</block>
@@ -3184,7 +3154,6 @@
   <block id="cc6a83ff79652e7af2e1e46f74ee1d83" category="list-text">* AWS Marketplace * 에서 로 이동합니다<block ref="aa1bf3a3349706e28315b07c47668a91" category="inline-link-rx"></block> 표시되는 메시지에 따라 EC2를 실행하여 IAM 역할을 연결할 수 있습니다.</block>
   <block id="6b4846918ec5562f3ce11157869d4957" category="paragraph"><block ref="91b0e29fcfb2a92bef28fd818c1df87d" category="inline-link-macro-rx"></block>.</block>
   <block id="eda37b84b461f4ae9020cc011c2ab682" category="paragraph"><block ref="a9d55e0cad45616cf17e8568ca899ca4" category="inline-link-macro-rx"></block>.</block>
-  <block id="c121381dfee8c4adbd097f5195fa047c" category="summary">AWS에서 커넥터를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다.</block>
   <block id="eca3237a9ea860ef946ba4cdd489bc59" category="doc">AWS의 커넥터 설치 옵션</block>
   <block id="9f2d2da10225389a78d31f33f8d7c7be" category="paragraph">이렇게 하면 선택한 VPC에서 Linux를 실행하는 EC2 인스턴스와 Connector 소프트웨어가 실행됩니다.</block>
   <block id="75568875dcefc1b684ae42256d7e4964" category="paragraph">이 작업을 수행하면 Linux 및 Connector 소프트웨어를 실행하는 EC2 인스턴스도 실행됩니다.</block>
@@ -3192,7 +3161,6 @@
   <block id="62deb419f07c89883fdbfaad105678b2" category="inline-link-macro">AWS에서 Connector를 설치하는 방법에 대해 알아보십시오</block>
   <block id="e9dcfa14808514bcb8e00b78ce2233e6" category="paragraph"><block ref="475058c00c821d06aaaa09a93292b192" category="inline-link-macro-rx"></block>.</block>
   <block id="b630649167e22ae03b6b2263ca0a2200" category="summary">온프레미스 및 클라우드 환경 전반에서 데이터를 구축, 보호, 규제할 수 있도록 NetApp BlueXP를 시작하십시오. 설치가 완료되면 BlueXP 계정, 커넥터, 클라우드 공급자 계정 등을 관리할 수 있습니다.</block>
-  <block id="2980aa1c828ad787339ac8d6d47b2702" category="summary">비공개 모드에서 BlueXP를 설정하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 클라우드 권한을 제공해야 합니다.</block>
   <block id="2f549fb867eb9c0be636782d32264aa6" category="doc">커넥터를 비공개 모드로 배포합니다</block>
   <block id="377655366b79df746cc3d0c01596ba86" category="paragraph">NetApp Support 사이트에서 제품 설치 프로그램을 다운로드한 다음 자체 Linux 호스트에 커넥터를 수동으로 설치합니다.</block>
   <block id="c9ce61bb8ba26b9e777140e6bd34ee95" category="inline-link">AWS C2S(Commercial Cloud Services) 환경</block>
@@ -3252,15 +3220,12 @@
   <block id="12e67aac3e7f9227cc35f8f047d7dc74" category="inline-image-macro">7번</block>
   <block id="19c8e8f30ab12df07d230374892d7826" category="paragraph-title"><block ref="36915574c413876eaa75cbd48f69fd00" category="inline-image-macro-rx" type="image"></block> 권한을 BlueXP에 제공합니다</block>
   <block id="1a4c1164aacaef15956ea55374b8630f" category="paragraph"><block ref="c60cae4b61906dc194e18ec5beb2b243" category="inline-link-macro-rx"></block>.</block>
-  <block id="ce3c23bf16ad2d68243165fc3bc29669" category="summary">제한된 모드에서 BlueXP를 사용하는 경우 Connector에서 로컬로 실행되는 사용자 인터페이스에서 BlueXP 콘솔에 로그인해야 합니다.</block>
   <block id="31225c8edfd852af80a6a97e73367de2" category="doc">BlueXP에 로그인(제한 모드)</block>
   <block id="2f9c17fd9cee8c55ea6b3cf6e0358440" category="paragraph">BlueXP에서는 계정이 제한된 모드로 설정된 경우 다음 옵션 중 하나로 로그인할 수 있습니다.</block>
   <block id="b7afeec70319496f1e3eb3a317ae30c3" category="doc">Google Cloud 네트워킹을 설정합니다</block>
   <block id="acb3a31b8e79039416f86dfe140a002a" category="section-title">VPC 및 서브넷</block>
   <block id="2ece2735ee78ce884898c747bead2708" category="paragraph">Connector를 생성할 때 Connector가 상주할 VPC와 서브넷을 지정해야 합니다.</block>
-  <block id="7badfd12f4665ef65fdb218a565f47d6" category="summary">환경을 준비할 수 있도록 BlueXP를 개인 모드에서 시작하고 실행하는 데 필요한 사항을 이해해야 합니다.</block>
   <block id="5f1067df496bfafd5eb793369b955e41" category="doc">프라이빗 모드로 구축을 준비합니다</block>
-  <block id="c597b49a830c4a4ce2fd66c374de3113" category="paragraph">환경을 준비할 수 있도록 BlueXP를 개인 모드로 시작하는 데 필요한 사항을 이해해야 합니다.</block>
   <block id="5bfade695c6f66f22429ab3f7864435b" category="admonition">에서 BlueXP를 사용하려는 경우<block ref="1b4ed82e65ec10a29151660f200db39a" category="inline-link-rx"></block> 그런 다음 커넥터를 준비하고 설치한 다음 Cloud Volumes ONTAP를 시작하는 방법을 설명하는 별도의 지침을 따라야 합니다.<block ref="af3c6d88775c5985ef75fe2df9d7afab" category="inline-link-rx"></block></block>
   <block id="3008fdb762c351e807eb6f1a46786992" category="section-title">비공개 모드의 작동 방식을 이해합니다</block>
   <block id="cd9866f3dfe1445bb49e9984aef06565" category="paragraph">시작하기 전에 BlueXP가 개인 모드에서 작동하는 방식을 이해해야 합니다.</block>
@@ -3277,18 +3242,15 @@
   <block id="68f824a5014b20fc98aea0beb5945581" category="paragraph">IAM 역할을 사용하여 Connector에 권한을 제공합니다. Connector의 EC2 인스턴스에 역할을 수동으로 연결해야 합니다.</block>
   <block id="862b0c0ff0da2b02588d845f4c6d6d34" category="list-text">Connector를 설치할 VM에서 시스템 할당 관리 ID를 활성화하여 사용자 지정 역할을 통해 필요한 Azure 권한을 제공할 수 있습니다.</block>
   <block id="eccf4730c0054498e1b7d5cab926e79f" category="doc">AWS 네트워킹 설정</block>
-  <block id="525aa952285c3798b8b5049319c47c5e" category="summary">BlueXP가 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있도록 AWS에 Connector를 구축합니다.</block>
   <block id="e6db33ee282f55f359f9274b3cb1f285" category="list-text">프로젝트에서 다음 Google Cloud API를 활성화합니다.</block>
   <block id="8626ee05ff51b6a467bb5d1ee81047b8" category="inline-link">Google Cloud 설명서: API 활성화</block>
   <block id="738140038c4506b7e29508b58d682758" category="paragraph"><block ref="738140038c4506b7e29508b58d682758" category="inline-link-rx"></block></block>
-  <block id="8d5615c483825c909674f4b9367c5d87" category="summary">클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다.</block>
   <block id="7280e590fc25414ce879506ed16e2a62" category="doc">BlueXP 구독(표준 모드)</block>
   <block id="fe001b474268cb9300af19ba4c12edd8" category="list-text">자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.</block>
   <block id="20dc3df4cdf91b4bd876009a415c2cec" category="paragraph">다음 비디오에서는 AWS 마켓플레이스를 구독하는 단계를 보여줍니다.</block>
   <block id="40f2e5d436dc35fac268a0971862a68e" category="inline-image-macro">Google Cloud의 Cloud Volumes ONTAP 마켓플레이스 페이지 스크린샷</block>
   <block id="f59e6f594c03905c8d1965c57967806e" category="paragraph"><block ref="f59e6f594c03905c8d1965c57967806e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b3006787e316852bcbc8a44b5e05f58" category="paragraph">Google Cloud 구독을 BlueXP 계정에 연결하려면 이 단계를 완료해야 합니다. 이 페이지에서 리디렉션된 다음 BlueXP에 로그인할 때까지 가입 연결 프로세스가 완료되지 않습니다.</block>
-  <block id="1699183f935164218dcece46a55b6dd2" category="summary">BlueXP를 사용하여 AWS의 데이터 및 스토리지 인프라를 관리할 수 있도록 AWS 권한을 설정합니다. 사용 권한을 설정하는 방법은 사용하려는 설치 옵션에 따라 다릅니다.</block>
   <block id="c937fc05f2955ef401888c1c0bf5bd2d" category="list-text">* BlueXP * 에서 설치 *: BlueXP에서 AWS를 인증하고 인스턴스를 배포할 수 있도록 권한을 설정합니다. BlueXP는 배포 중에 Connector 인스턴스에 대한 권한을 자동으로 설정합니다.</block>
   <block id="cf640a92a906bcdb78162c5786b4d3de" category="list-text">* AWS Marketplace에서 설치 *: Connector 인스턴스와 연결할 수 있는 IAM 역할을 설정합니다.</block>
   <block id="56571bd386deaec7f43f209bd0df0766" category="paragraph"><block ref="cc26fd4b83c69a3c3917b2a2a6c3f380" category="inline-xref-macro-rx"></block>.</block>
@@ -3315,7 +3277,6 @@
   <block id="85a77afe8b3078d236de8d253372d1c2" category="paragraph">이제 Connector를 설치한 후 EC2 인스턴스와 연결할 수 있는 IAM 역할이 있습니다. <block ref="8a294bb0a6b1478a82e1cbe37e4b7e40" category="inline-link-macro-rx"></block>.</block>
   <block id="59c8a7b2e005ee251a6301c0ca1f23b3" category="list-text">커넥터를 설치한 후 BlueXP에 추가할 수 있는 액세스 키가 사용자에게 있는지 확인합니다.</block>
   <block id="b320bf58ccfe757487e62843428e1bc2" category="paragraph">이제 필요한 권한이 있는 IAM 사용자와 BlueXP에 제공할 수 있는 액세스 키가 있습니다. <block ref="8a294bb0a6b1478a82e1cbe37e4b7e40" category="inline-link-macro-rx"></block>.</block>
-  <block id="cc44239dc0f7fc57bb837a384ee940a6" category="summary">Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다.</block>
   <block id="f691281f53b81c9f5d73a97dc7c334fd" category="doc">BlueXP용 Google Cloud 자격 증명 및 구독을 관리합니다</block>
   <block id="209e33f8aa50ade8c82e5bc82a8c023d" category="section-title">마켓플레이스 구독을 Google Cloud 자격 증명과 연결합니다</block>
   <block id="e6bd6cdf191b4526ecbd9326bd7b5c24" category="paragraph">Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. 언제든지 이러한 자격 증명과 연결된 마켓플레이스 구독을 변경할 수 있습니다. 이 구독을 통해 선불 종량제 Cloud Volumes ONTAP 시스템을 생성하고 다른 BlueXP 서비스를 사용할 수 있습니다.</block>
@@ -3352,9 +3313,7 @@
   <block id="0b2713c18a328b85808183d496d2d28c" category="paragraph">BlueXP는 보안 및 연결 제한이 있는 환경에서도 지원됩니다. _restricted mode_or_private mode_를 사용하여 BlueXP SaaS 계층에 대한 아웃바운드 연결을 제한할 수 있습니다.</block>
   <block id="ba2f0b6169ae38b10d24f0818c4c9d17" category="summary">BlueXP를 시작할 때 첫 번째 단계는 기존 NetApp Support 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 생성하여 등록하는 것입니다.</block>
   <block id="ae140c7a1104ac99f1a01b18e5dc3ed8" category="paragraph">BlueXP는 웹 기반 콘솔에서 액세스할 수 있습니다. BlueXP를 시작할 때 첫 번째 단계는 기존 NetApp Support 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 생성하여 등록하는 것입니다.</block>
-  <block id="ac5ab0cf1c05493a757b9018fbd77fef" category="summary">제한된 모드에서 BlueXP를 사용하려면 Connector를 배포한 다음 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정해야 합니다.</block>
   <block id="b829f1a930ae603edd16b249b070f4c9" category="doc">커넥터를 제한 모드로 전개합니다</block>
-  <block id="7b46fc5d16260bc0a23aba470b1084d5" category="paragraph">제한된 모드에서 BlueXP를 사용하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 클라우드 권한을 제공해야 합니다.</block>
   <block id="5cadd29a69b0be5bc8b482cfc2e89adb" category="open-title">AWS 상용 마켓플레이스</block>
   <block id="278a1d20d474323c7730eb5c88c86df3" category="paragraph"><block ref="278a1d20d474323c7730eb5c88c86df3" category="inline-link-macro-rx"></block></block>
   <block id="438ce182950c9739961cbff47dcf19b1" category="paragraph"><block ref="438ce182950c9739961cbff47dcf19b1" category="inline-link-macro-rx"></block></block>
@@ -3397,7 +3356,6 @@
   <block id="1a2a90dcdbeaa1a29ed61b2e814f7fc6" category="list-text">Google 계정의 버킷에 대한 세부 정보를 보려면 * 작업 환경 입력 * 을 선택하십시오.</block>
   <block id="3830e9d547eafbb28fff654404e029b8" category="doc">Azure 설치에 대한 커넥터 호스트 요구 사항을 검토합니다</block>
   <block id="d76ad2e59fd7508a5cd6b41d8471a6a5" category="paragraph">BlueXP 또는 Azure Marketplace에서 커넥터를 배포하는 경우 이미지에 필요한 OS 및 소프트웨어 구성 요소가 포함됩니다.</block>
-  <block id="6d90521544b1833e005b1cca8d047c8b" category="summary">하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하는 방법을 이해해야 합니다.</block>
   <block id="627c5def4348066ddd5e7a1664e1079b" category="paragraph">BlueXP를 사용하여 Google Cloud 프로젝트의 리소스를 관리하려면 먼저 Connector를 배포해야 합니다. Connector는 사내 또는 다른 클라우드 공급자에서 실행할 수 없습니다.</block>
   <block id="392cce9be5aaba5ccc4ab6924ab91b7b" category="inline-link-macro">표준 모드에 대한 Google Cloud 권한을 설정합니다</block>
   <block id="33ff027b08c4a47957d518ff558c2a6a" category="list-text"><block ref="33ff027b08c4a47957d518ff558c2a6a" category="inline-link-macro-rx"></block></block>
@@ -3596,4 +3554,64 @@
   <block id="c8a11657cad4105099bd9eb0d4bdbaec" category="paragraph">Connector는 BlueXP 치료 시 AWS 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="bf9c7c9727a11f040da47cdd589f7ea6" category="paragraph">이제 BlueXP 계층화에 대해 다음 권한이 필요합니다.</block>
   <block id="54301079e01fc865e928c6fe22deeeef" category="paragraph">지역, 액세스 정책, 계정, 총 용량 및 사용된 용량 등을 비롯한 S3 버킷에 대한 세부 정보를 볼 수 있습니다. 이러한 버킷은 BlueXP 백업 및 복구, BlueXP 계층화 또는 BlueXP 복사 및 동기화 작업의 대상으로 사용할 수 있습니다. 또한 BlueXP 분류를 사용하여 이러한 버킷을 스캔할 수 있습니다.</block>
+  <block id="e97440eb1bbaa6bbe8778090ce381499" category="summary">하나 이상의 Azure 구독에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 Azure 자격 증명과 사용 권한을 사용하는 방법을 이해해야 합니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가하는 방법을 배울 수 있습니다.</block>
+  <block id="672184337bf12286628179253519271e" category="paragraph"><block ref="672184337bf12286628179253519271e" category="inline-link-macro-rx"></block></block>
+  <block id="01da112af45ab74fbf33e58033fbd785" category="summary">마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다.</block>
+  <block id="285c4c5f9756d9707fc1afed457a8b43" category="summary">Connector의 Azure 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다.</block>
+  <block id="8b0d5260f5fba5a6140e3eef4180dfb7" category="summary">Google Cloud에서 Connector를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 선택한 설치 옵션에 따라 배포 준비 방법이 결정됩니다.</block>
+  <block id="6c669918d3fd007e30860acf8f0b3634" category="summary">제한된 모드로 BlueXP를 배포하기 전에 환경을 준비합니다. 예를 들어 호스트 요구 사항을 검토하고, 네트워킹을 준비하고, 사용 권한을 설정하는 등의 작업을 수행해야 합니다.</block>
+  <block id="90eac3cf24d6ad4fdd59cac1fb153a63" category="list-text">* 보안 그룹 *: 새 보안 그룹을 생성할지 또는 필요한 인바운드 및 아웃바운드 규칙을 허용하는 기존 보안 그룹을 선택할지 여부를 선택합니다.</block>
+  <block id="461008ea76e4abfc7758a2885f6cdf98" category="inline-link-macro">AWS의 보안 그룹 규칙을 봅니다</block>
+  <block id="801fb8cfbc6e3ffd99fcb50ae87133bd" category="paragraph"><block ref="cd13f88aaa57bb10606ac0df26b2eb23" category="inline-link-macro-rx"></block>.</block>
+  <block id="31d6851e8b182fb375e0edc42727cd0c" category="paragraph"><block ref="a2678c8f1e6c4ef6102f9e3e10a87ecc" category="inline-link-macro-rx"></block>.</block>
+  <block id="2cff93ab04445d2412fc49f1670cf749" category="paragraph">특정 구성에는 몇 가지 규칙이 더 필요합니다.</block>
+  <block id="9ba678561b5c8922fc9983fcb89e1752" category="summary">BlueXP를 개인 모드로 배포하기 전에 환경을 준비합니다. 예를 들어 호스트 요구 사항을 검토하고, 네트워킹을 준비하고, 사용 권한을 설정하는 등의 작업을 수행해야 합니다.</block>
+  <block id="ffcf64d34f1dcc41900c7060705863c1" category="inline-link-macro">Azure의 보안 그룹 규칙을 봅니다</block>
+  <block id="27d00e27487104fffbc6a7d63cbf6baf" category="paragraph"><block ref="bfc1f993753d234d09b3194b930d1b96" category="inline-link-macro-rx"></block>.</block>
+  <block id="11a18f62e791e7273c427425165765aa" category="list-text">네트워크 보안 그룹의 경우 Connector는 SSH, HTTP 및 HTTPS를 사용하는 인바운드 연결을 필요로 합니다. 특정 구성에는 몇 가지 규칙이 더 필요합니다.</block>
+  <block id="0065d8b9887fdaed0fbcaa888218a2ef" category="summary">표준 모드에서 BlueXP를 시작하고, 커넥터를 선택적으로 생성하고, BlueXP에 가입하여 BlueXP를 시작합니다.</block>
+  <block id="094e745d52cd94c819bfa88386ee94b4" category="paragraph">기본적으로 BlueXP는 웹 콘솔에 대한 HTTPS 액세스를 위해 자체 서명된 인증서를 사용합니다. 회사에서 요구하는 경우 CA(인증 기관)에서 서명한 인증서를 설치할 수 있으므로 자체 서명된 인증서보다 보안 보호가 향상됩니다.</block>
+  <block id="9345f603d48306b04203c8a77bc1ec43" category="summary">BlueXP 계정을 만들면 단일 관리자 사용자와 작업 영역만 포함됩니다. 사용자를 추가하고, 자동화를 위해 서비스 계정을 만들고, 작업 영역을 추가하는 등의 방법으로 조직의 요구에 맞게 계정을 관리할 수 있습니다.</block>
+  <block id="c695b69dfd48e2e642e9cf48a8d3e483" category="inline-link-macro">BlueXP 계정의 작동 방식에 대해 알아보십시오</block>
+  <block id="401598fa995f1173bd8b6d805a3761d0" category="paragraph"><block ref="5fbf8d815c8a85b58ff259c4d5123e15" category="inline-link-macro-rx"></block>.</block>
+  <block id="30f0924c2b9792580922ba2bb932268a" category="summary">클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구입한 경우 PAYGO 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
+  <block id="28737e110ddfecf7a0ee4cf74dc11735" category="paragraph">클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우 PAYGO 오퍼링을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
+  <block id="771e18f961335c5b2ae045b3fefc3e80" category="summary">Connector의 AWS 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다.</block>
+  <block id="5dba83ec70c57d2bf0180e542772a92f" category="summary">BlueXP에 등록하면 웹 기반 콘솔에서 로그인하여 데이터 및 스토리지 인프라 관리를 시작할 수 있습니다.</block>
+  <block id="ee88a6eb4f7c0c45ebac21244e471cac" category="summary">Connector가 하이브리드 클라우드 환경 내의 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. 예를 들어 대상 네트워크에 대한 연결을 사용할 수 있고 아웃바운드 인터넷 액세스를 사용할 수 있는지 확인해야 합니다.</block>
+  <block id="200d2ff9fb65f8d3999759fe6bc5a21b" category="paragraph">BlueXP에 NetApp Support 사이트(NSS) 계정의 자격 증명을 제공하여 지원을 등록하고 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다. 이러한 NSS 자격 증명은 전체 BlueXP 계정과 연결되어 있습니다.</block>
+  <block id="834c88c0bca4a9bc1dfadd5390b4c388" category="summary">시작하려면 NetApp 담당자가 Connector의 시스템 ID를 물어 볼 수 있습니다. ID는 일반적으로 라이센스 및 문제 해결 목적으로 사용됩니다.</block>
+  <block id="56e1e624f64034081fc607cc1b1f8f79" category="summary">Azure Marketplace에서 Connector를 생성하거나 소프트웨어를 수동으로 설치한 경우 이전에 설정한 권한을 BlueXP에 제공해야 합니다. 권한을 제공하면 BlueXP가 Azure에서 데이터 및 스토리지 인프라를 관리할 수 있습니다.</block>
+  <block id="0e73a4809ffc38dd69c7199f7f3b9bf2" category="summary">비공개 모드에서 BlueXP를 사용하는 경우 Connector에서 로컬로 실행되는 사용자 인터페이스에서 BlueXP 콘솔에 로그인해야 합니다.</block>
+  <block id="f00f3911e8c8254ce1ec4c23f1062879" category="paragraph">데이터 및 스토리지 인프라를 관리하는 데 필요한 권한으로 Connector를 배포할 수 있도록 Google Cloud에서 사용 권한을 설정합니다.</block>
+  <block id="077d70acc6fcd0e9c32a626a8ef8e416" category="paragraph">환경을 준비하고 Connector를 배포하여 BlueXP를 개인 모드로 시작하십시오.</block>
+  <block id="a8c09a74cb45bd11998b4a98f8f88973" category="summary">AWS에서 사용 권한을 설정하여 Connector를 데이터 및 스토리지 인프라 관리에 필요한 권한으로 구축할 수 있습니다. 사용 권한을 설정하고 제공하는 방법은 사용하려는 설치 옵션에 따라 다릅니다.</block>
+  <block id="ccd2fd61b259ee660f0c8a22d4d70882" category="summary">Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 인바운드 포트를 사용합니다. 이러한 포트는 계획 목적으로 참조해야 할 수 있습니다.</block>
+  <block id="5f8de67c0199ff42bf6b781ec98f1ce8" category="paragraph">Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 _ inbound_ports를 사용합니다. 이러한 포트는 계획 목적으로 참조해야 할 수 있습니다.</block>
+  <block id="b986898f3a07eb4cea995cd0e9b6547b" category="paragraph">데이터 및 스토리지 인프라를 관리하는 데 필요한 권한으로 Connector를 배포할 수 있도록 Azure에서 사용 권한을 설정합니다. 사용 권한을 설정하는 방법은 사용하려는 설치 옵션에 따라 다릅니다.</block>
+  <block id="d8948bb022f3ece9625b861d1822f759" category="list-text">* 방화벽 정책 *: 새 방화벽 정책을 생성할지 또는 필요한 인바운드 및 아웃바운드 규칙을 허용하는 기존 방화벽 정책을 선택할지 여부를 선택합니다.</block>
+  <block id="4693bfc9044ed3552c37524411e90819" category="paragraph"><block ref="4693bfc9044ed3552c37524411e90819" category="inline-link-macro-rx"></block></block>
+  <block id="2001c0016712a9564e9b186bd9242a59" category="summary">AWS에서 커넥터를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 선택한 설치 옵션에 따라 배포 준비 방법이 결정됩니다.</block>
+  <block id="d82a01de8fc043d47b50211e2437d663" category="paragraph">사용자 환경을 준비하고 커넥터를 배포하고 BlueXP에 가입하여 제한된 모드에서 BlueXP를 시작하십시오.</block>
+  <block id="ebed13b527202f35f3ec91ab58b5a4c2" category="paragraph">커넥터 구성을 배포하기 전에 또는 문제를 해결해야 하는 경우에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="c68ce7f660a6741b838bea908ac88f81" category="summary">Google Cloud에서 Connector 및 Cloud Volumes ONTAP를 배포하기 전에 여러 Google Cloud API를 활성화해야 합니다.</block>
+  <block id="7e9f2a9703b554788d8d241081d992e9" category="summary">하나 이상의 AWS 계정에 대한 자격 증명을 관리할 수 있도록 BlueXP에서 AWS 자격 증명과 사용 권한을 사용하는 방법을 이해해야 합니다. 예를 들어, BlueXP에 AWS 자격 증명을 추가하는 방법을 배울 수 있습니다.</block>
+  <block id="b1bf8e5320cdd219124de4b848049533" category="summary">자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치한 경우 이전에 설정한 권한을 BlueXP에 제공해야 합니다. 권한을 제공하면 BlueXP가 Google Cloud에서 데이터 및 스토리지 인프라를 관리할 수 있습니다.</block>
+  <block id="9816c573c33f4a6c99fc578d678ba65a" category="summary">Connector에 대한 Google Cloud 방화벽 규칙에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다.</block>
+  <block id="9a4eb6738f043a9d449205f3ee2089f1" category="summary">자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치한 경우 이전에 설정한 권한을 BlueXP에 제공해야 합니다. 권한을 제공하면 BlueXP에서 AWS의 데이터 및 스토리지 인프라를 관리할 수 있습니다.</block>
+  <block id="b2cc56e18c7250863c6c74a223137e16" category="summary">BlueXP SaaS 계층에 대한 아웃바운드 연결 없이 BlueXP를 사용할 수 있도록 커넥터를 비공개 모드로 배포합니다. 시작하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 이전에 설정한 클라우드 권한을 제공합니다.</block>
+  <block id="88b0d99fc50504eb1e90039166a7405e" category="paragraph">Azure에서 Connector를 만드는 몇 가지 방법이 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 선택한 설치 옵션에 따라 배포 준비 방법이 결정됩니다.</block>
+  <block id="45f5c7b6248438f849cf619c647c63e4" category="paragraph">온-프레미스 커넥터가 있는 AWS 또는 Azure에서 BlueXP 서비스를 사용하려면 클라우드 공급자에 권한을 설정해야 자격 증명을 설치한 후 Connector에 추가할 수 있습니다.</block>
+  <block id="d0d67dd335747b3a00234d869cd08267" category="summary">BlueXP SaaS 계층에 대한 아웃바운드 연결이 제한된 BlueXP를 사용할 수 있도록 제한된 모드로 커넥터를 배포합니다. 시작하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 이전에 설정한 클라우드 권한을 제공합니다.</block>
+  <block id="894183ce1a3e115b89d0e6b0726cfff2" category="summary">BlueXP 계정은 조직에 멀티 테넌시를 제공하므로 사용자와 리소스를 격리된 작업 영역에서 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다.</block>
+  <block id="b9a1d81f39a3e0be85108ee4eee92e56" category="paragraph">BlueXP 계정 _ 은(는) 조직에 멀티 테넌시를 제공하므로 사용자는 이를 통해 격리된_작업 공간 _ 에서 사용자와 리소스를 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다.</block>
+  <block id="7e9844445f6b28199c6de55c6014f78c" category="summary">Connector를 만든 후에는 항상 관리해야 할 수 있습니다. 예를 들어, 둘 이상의 커넥터가 있는 경우 커넥터 사이를 전환할 수 있습니다. 또는 비공개 모드에서 BlueXP를 사용할 때 커넥터를 수동으로 업그레이드해야 할 수도 있습니다.</block>
+  <block id="7367c923fb2d3c31abc663e6f8c00fbb" category="inline-link-macro">커넥터 작동 방식에 대해 알아보십시오</block>
+  <block id="691fd1f586b51358d2cf39056265bf93" category="paragraph"><block ref="c6cd765e97b37938d467fcf7100fd8e8" category="inline-link-macro-rx"></block>.</block>
+  <block id="9370643895ad52c4da3ddf50c1e24a82" category="summary">계정 관리자, 작업 영역 관리자, 규정 준수 뷰어 및 SnapCenter 관리자 역할은 사용자에게 특정 권한을 제공합니다. 새 사용자를 BlueXP 계정에 연결할 때 이러한 역할 중 하나를 할당할 수 있습니다.</block>
+  <block id="2ba2174aabffe3eb7a1b296e02063736" category="summary">제한된 모드에서 BlueXP를 사용하는 경우 Connector에서 로컬로 실행되는 사용자 인터페이스에서 BlueXP 콘솔에 로그인해야 합니다.</block>
+  <block id="4453e7502515d4db1f3a4a1c28c48f13" category="summary">Connector 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 포트 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 커넥터를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. 커넥터를 설치하기 전에 호스트가 이러한 요구 사항을 충족하는지 확인하십시오.</block>
+  <block id="43dd9ffda6ee5eff1f85b5f003c898b3" category="summary">BlueXP에서 Google Cloud 프로젝트의 자격 증명을 관리할 수 있도록 Google Cloud 자격 증명과 사용 권한을 사용하는 방법에 대해 알아보십시오. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="47ca16329494467c539bde558f0ae632" category="list-text">커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다<block ref="98f22f2dda0728ebb39af9a8fe826c8e" category="inline-link-rx"></block> VM 인스턴스의 경우. BlueXP는 서비스 계정에서 권한을 받아 사용자를 대신하여 Cloud Volumes ONTAP 시스템을 생성 및 관리하는 등의 작업을 수행합니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.</block>
+  <block id="52be9a779a7de2bea0867d1d993e7f07" category="summary">Connector 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 포트 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 커넥터를 설치하기 전에 호스트가 이러한 요구 사항을 충족하는지 확인하십시오.</block>
 </blocks>

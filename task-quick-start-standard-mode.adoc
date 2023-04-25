@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-quick-start-standard-mode.html 
 keywords: quick start, standard mode quick start 
-summary: 몇 단계만으로 표준 모드에서 BlueXP를 시작할 수 있습니다. 
+summary: 표준 모드에서 BlueXP를 시작하고, 커넥터를 선택적으로 생성하고, BlueXP에 가입하여 BlueXP를 시작합니다. 
 ---
 = 표준 모드에서 BlueXP를 빠르게 시작합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 몇 단계만으로 표준 모드에서 BlueXP를 시작할 수 있습�
 
 
 [role="lead"]
-몇 단계만으로 표준 모드에서 BlueXP를 시작할 수 있습니다.
+표준 모드에서 BlueXP를 시작하고, 커넥터를 선택적으로 생성하고, BlueXP에 가입하여 BlueXP를 시작합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 등록하고 계정을 만듭니다
 [role="quick-margin-para"]

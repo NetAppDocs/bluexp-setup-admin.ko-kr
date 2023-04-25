@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-install-options-google.html 
 keywords: install connector google cloud, google cloud install connector, connector google cloud, google cloud connector, install connector gcp, gcp install connector, connector gcp, gcp connector, installation options, manual install 
-summary: Google Cloud에서 Connector를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 
+summary: Google Cloud에서 Connector를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 선택한 설치 옵션에 따라 배포 준비 방법이 결정됩니다. 
 ---
 = Google Cloud의 커넥터 설치 옵션
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Google Cloud에서 Connector를 생성하는 방법은 몇 가지가 �
 
 
 [role="lead"]
-Google Cloud에서 Connector를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다.
+Google Cloud에서 Connector를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 선택한 설치 옵션에 따라 배포 준비 방법이 결정됩니다.
 
 다음 설치 옵션을 사용할 수 있습니다.
 

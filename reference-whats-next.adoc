@@ -17,3 +17,6 @@ summary: 이제 표준 모드에서 BlueXP에 로그인하여 설정했으므로
 이제 표준 모드에서 BlueXP에 로그인하고 설정했으므로 사용자는 작업 환경을 생성 및 검색하고 BlueXP 데이터 서비스를 사용할 수 있습니다.
 
 도움말을 보려면 로 이동합니다 https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP 설명서 홈 페이지"^] 모든 BlueXP 서비스에 대한 문서를 봅니다.
+
+.관련 링크
+link:concept-modes.html["BlueXP 배포 모드"]

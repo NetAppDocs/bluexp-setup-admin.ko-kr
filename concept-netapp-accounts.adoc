@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-netapp-accounts.html 
 keywords: accounts, workspaces, Connector, users, BlueXP website, admin, Account Admin, Workspace Admin, account settings, workspaces, users, members, connector, service connector, user accounts, what are users, what is a workspace, users and workspaces, bluexp account, netapp account 
-summary: BlueXP 계정은 멀티 테넌시를 제공하고 BlueXP 내에서 격리된 작업 영역에 사용자와 리소스를 구성할 수 있습니다. 
+summary: BlueXP 계정은 조직에 멀티 테넌시를 제공하므로 사용자와 리소스를 격리된 작업 영역에서 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다. 
 ---
 = BlueXP 계정에 대해 알아보십시오
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP 계정은 멀티 테넌시를 제공하고 BlueXP 내에서 격�
 
 
 [role="lead"]
-a_BlueXP account_는 멀티 테넌시를 제공하고 BlueXP 내에서 격리된 작업 영역에서 사용자와 리소스를 구성할 수 있도록 합니다. 예를 들어, 여러 사용자가 _worksaces_라는 격리된 환경에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다. 이러한 작업 영역은 다른 사용자가 공유하지 않는 한 표시되지 않습니다.
+BlueXP 계정 _ 은(는) 조직에 멀티 테넌시를 제공하므로 사용자는 이를 통해 격리된_작업 공간 _ 에서 사용자와 리소스를 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다.
 
 BlueXP에 처음 액세스하면 계정을 선택하거나 생성하라는 메시지가 표시됩니다. 예를 들어 아직 계정이 없는 경우 다음 화면이 표시됩니다.
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-logging-in.html 
 keywords: logging in, log in, sign in, signing in, cloud central, netapp cloud central, user account, federated, federation, federated login, federation login, login with netapp, log in with netapp, sign up, create account 
-summary: BlueXP에 등록하면 웹 기반 콘솔을 통해 웹 브라우저에서 로그인할 수 있습니다. 
+summary: BlueXP에 등록하면 웹 기반 콘솔에서 로그인하여 데이터 및 스토리지 인프라 관리를 시작할 수 있습니다. 
 ---
 = BlueXP에 로그인(표준 모드)
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP에 등록하면 웹 기반 콘솔을 통해 웹 브라우저에�
 
 
 [role="lead"]
-BlueXP에 등록하면 웹 기반 콘솔에서 로그인할 수 있습니다.
+BlueXP에 등록하면 웹 기반 콘솔에서 로그인하여 데이터 및 스토리지 인프라 관리를 시작할 수 있습니다.
 
 .로그인 옵션
 다음 옵션 중 하나를 사용하여 BlueXP 웹 기반 콘솔에 로그인할 수 있습니다.

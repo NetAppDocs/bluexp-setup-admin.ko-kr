@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-adding-gcp-accounts.html 
 keywords: permissions, gcp, marketplace, gcp subscription, subscription, gcp marketplace, subscribe, data tiering, tiering, setup, requirements, account for data tiering, account for tiering, interoperable, interoperability, interoperable storage access keys, access keys 
-summary: Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 
+summary: 마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. 
 ---
 = BlueXP용 Google Cloud 자격 증명 및 구독을 관리합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 �
 
 
 [role="lead"]
-Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다.
+마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다.
 
 
 

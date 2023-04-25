@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-enable-apis-google.html 
 keywords: aws networking, networking, connector networking, ports, proxy server, outbound internet, endpoints, urls, permissions, cloud permission, aws permissions, iam role, keys, aws keys, aws marketplace, marketplace install, manuall install, connector installer 
-summary: BlueXP가 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리할 수 있도록 AWS에 Connector를 구축합니다. 
+summary: Google Cloud에서 Connector 및 Cloud Volumes ONTAP를 배포하기 전에 여러 Google Cloud API를 활성화해야 합니다. 
 ---
 = Google Cloud API를 활성화합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP가 퍼블릭 클라우드 환경 내의 리소스와 프로세�
 
 
 [role="lead"]
-Google Cloud에 Connector 및 Cloud Volumes ONTAP를 구축하려면 여러 API가 필요합니다.
+Google Cloud에서 Connector 및 Cloud Volumes ONTAP를 배포하기 전에 여러 Google Cloud API를 활성화해야 합니다.
 
 .단계
 . 프로젝트에서 다음 Google Cloud API를 활성화합니다.

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-ports-on-prem.html 
 keywords: networking, network, requirements, ports, on-prem, linux, http, https 
-summary: Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 다음과 같은 인바운드 포트를 사용합니다. 
+summary: Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 인바운드 포트를 사용합니다. 이러한 포트는 계획 목적으로 참조해야 할 수 있습니다. 
 ---
 = 사내 커넥터용 포트
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Connector는 온-프레미스 Linux 호스트에 수동으로 설치할
 
 
 [role="lead"]
-Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 다음과 같은 _inbound_ports를 사용합니다.
+Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 _ inbound_ports를 사용합니다. 이러한 포트는 계획 목적으로 참조해야 할 수 있습니다.
 
 이러한 인바운드 규칙은 모든 BlueXP 배포 모델에 적용됩니다.
 

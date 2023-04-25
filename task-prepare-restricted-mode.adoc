@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-prepare-restricted-mode.html 
 keywords: restricted mode requirements, requirements, install options, restricted mode networking, dark site, restricted mode permissions, permissions for restricted mode, networking for restricted mode 
-summary: BlueXP를 제한된 모드로 시작하는 데 필요한 사항을 파악하여 환경을 준비해야 합니다. 
+summary: 제한된 모드로 BlueXP를 배포하기 전에 환경을 준비합니다. 예를 들어 호스트 요구 사항을 검토하고, 네트워킹을 준비하고, 사용 권한을 설정하는 등의 작업을 수행해야 합니다. 
 ---
 = 제한된 모드에서 배포를 준비합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP를 제한된 모드로 시작하는 데 필요한 사항을 파�
 
 
 [role="lead"]
-BlueXP를 제한된 모드로 시작하는 데 필요한 사항을 파악하여 환경을 준비해야 합니다.
+제한된 모드로 BlueXP를 배포하기 전에 환경을 준비합니다. 예를 들어 호스트 요구 사항을 검토하고, 네트워킹을 준비하고, 사용 권한을 설정하는 등의 작업을 수행해야 합니다.
 
 
 

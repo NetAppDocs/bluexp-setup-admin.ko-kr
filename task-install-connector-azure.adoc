@@ -76,7 +76,10 @@ link:task-set-up-permissions-azure.html["서비스 보안 주체에 대해 이�
 이 역할과 연결된 구독을 선택할 수 있습니다. 선택한 각 구독은 해당 구독에 Cloud Volumes ONTAP를 배포할 수 있는 권한을 커넥터에 제공합니다.
 
 ** * 네트워크 *: VNET 및 서브넷을 선택하고, 공용 IP 주소를 활성화할지 여부를 선택한 다음 선택적으로 프록시 구성을 지정합니다.
-** * 보안 그룹 *: 새 보안 그룹을 생성할지 또는 인바운드 HTTP, HTTPS 및 SSH 액세스를 허용하는 기존 보안 그룹을 선택할지 여부를 선택합니다.
+** * 보안 그룹 *: 새 보안 그룹을 생성할지 또는 필요한 인바운드 및 아웃바운드 규칙을 허용하는 기존 보안 그룹을 선택할지 여부를 선택합니다.
++
+link:reference-ports-azure.html["Azure의 보안 그룹 규칙을 봅니다"].
+
 ** * 검토 *: 선택 사항을 검토하여 설정이 올바른지 확인합니다.
 
 
@@ -108,9 +111,9 @@ VM을 구성할 때 다음 사항에 유의하십시오.
 +
 link:reference-host-requirements-azure["VM 요구 사항을 검토합니다"].
 
-** 네트워크 보안 그룹의 경우 Connector는 SSH, HTTP 및 HTTPS를 사용하는 인바운드 연결을 필요로 합니다.
+** 네트워크 보안 그룹의 경우 Connector는 SSH, HTTP 및 HTTPS를 사용하는 인바운드 연결을 필요로 합니다. 특정 구성에는 몇 가지 규칙이 더 필요합니다.
 +
-link:reference-ports-azure.html["Connector의 보안 그룹 규칙에 대해 자세히 알아보십시오"].
+link:reference-ports-azure.html["Azure의 보안 그룹 규칙을 봅니다"].
 
 ** 관리 * 에서 * 켜기 * 를 선택하여 커넥터 VM에 대해 * 시스템 할당 관리 ID * 를 활성화합니다.
 +

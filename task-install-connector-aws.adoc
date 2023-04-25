@@ -65,7 +65,10 @@ TIP: 역할 * 가정 을 선택한 경우 커넥터 배포 마법사에서 첫 �
 +
 커넥터와 함께 사용할 키 쌍이 올바른지 확인합니다. 키 쌍이 없으면 Connector 가상 머신에 액세스할 수 없습니다.
 
-** * 보안 그룹 *: 새 보안 그룹을 생성할지 또는 인바운드 HTTP, HTTPS 및 SSH 액세스를 허용하는 기존 보안 그룹을 선택할지 여부를 선택합니다.
+** * 보안 그룹 *: 새 보안 그룹을 생성할지 또는 필요한 인바운드 및 아웃바운드 규칙을 허용하는 기존 보안 그룹을 선택할지 여부를 선택합니다.
++
+link:reference-ports-aws.html["AWS의 보안 그룹 규칙을 봅니다"].
+
 ** * 검토 *: 선택 사항을 검토하여 설정이 올바른지 확인합니다.
 
 
@@ -84,11 +87,11 @@ TIP: 역할 * 가정 을 선택한 경우 커넥터 배포 마법사에서 첫 �
 .필요한 것
 * 네트워킹 요구사항을 충족하는 VPC 및 서브넷
 +
-link:task-set-up-networking-aws.html["네트워킹 요구 사항에 대해 알아보십시오"]
+link:task-set-up-networking-aws.html["네트워킹 요구 사항에 대해 알아보십시오"].
 
 * Connector에 필요한 권한을 포함하는 정책이 첨부된 IAM 역할
 +
-link:task-set-up-permissions-aws.html["AWS 권한을 설정하는 방법에 대해 알아보십시오"]
+link:task-set-up-permissions-aws.html["AWS 권한을 설정하는 방법에 대해 알아보십시오"].
 
 * IAM 사용자에 대한 AWS 마켓플레이스의 구독 및 구독 취소 권한
 * EC2 인스턴스의 키 쌍입니다.
@@ -119,6 +122,12 @@ link:reference-host-requirements-aws.html["인스턴스 요구 사항을 검토�
 *** 원하는 VPC 및 서브넷을 선택합니다.
 *** 인스턴스에 공용 IP 주소가 있어야 하는지 여부를 지정합니다.
 *** Connector 인스턴스에 필요한 연결 방법(SSH, HTTP 및 HTTPS)을 활성화하는 방화벽 설정을 지정합니다.
++
+특정 구성에는 몇 가지 규칙이 더 필요합니다.
+
++
+link:reference-ports-aws.html["AWS의 보안 그룹 규칙을 봅니다"].
+
 
 
 ** * 스토리지 구성 *: 기본 스토리지 옵션을 유지합니다.

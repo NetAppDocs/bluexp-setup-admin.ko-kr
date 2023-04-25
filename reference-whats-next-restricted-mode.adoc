@@ -26,3 +26,6 @@ summary: 제한된 모드에서 BlueXP를 시작하고 실행한 후 제한된 �
 * https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/index.html["사내 ONTAP 클러스터 문서"^]
 * https://docs.netapp.com/us-en/cloud-manager-replication/index.html["복제 문서"^]
 
+
+.관련 링크
+link:concept-modes.html["BlueXP 배포 모드"]

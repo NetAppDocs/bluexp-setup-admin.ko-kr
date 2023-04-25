@@ -14,7 +14,7 @@ summary: 'NSS(NetApp Support 사이트) 계정에 대한 자격 증명을 제공
 
 
 [role="lead"]
-NSS(NetApp Support 사이트) 계정에 대한 자격 증명을 제공하여 지원을 등록하고 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다. 이러한 NSS 자격 증명은 전체 BlueXP 계정과 연결되어 있습니다.
+BlueXP에 NetApp Support 사이트(NSS) 계정의 자격 증명을 제공하여 지원을 등록하고 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다. 이러한 NSS 자격 증명은 전체 BlueXP 계정과 연결되어 있습니다.
 
 
 NOTE: 또한 BlueXP에서는 BlueXP 사용자당 하나의 NSS 계정을 연결할 수 있습니다. link:task-manage-user-credentials.html["사용자 수준 자격 증명을 관리하는 방법에 대해 알아봅니다"].
