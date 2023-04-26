@@ -47,7 +47,6 @@
   <block id="02a8c4a4e553694e2236fd17bb20b197" category="list-text">클라우드 공급자로 * Microsoft Azure * 를 선택합니다.</block>
   <block id="b0e1a0461b32155d621f46d8d6f39569" category="list-text">마법사의 단계에 따라 커넥터를 작성합니다.</block>
   <block id="e0f74d06e87b3ad6fc9f3b3cfc573c38" category="paragraph">이 양식은 Microsoft에서 소유하고 호스팅됩니다. 자격 증명이 NetApp에 제공되지 않습니다.</block>
-  <block id="ec444652764a4ae69cee1fdb97fdab30" category="list-text">* VM 인증 *: Azure 구독, 위치, 새 리소스 그룹 또는 기존 리소스 그룹을 선택한 다음 인증 방법을 선택합니다.</block>
   <block id="a6100ac4fa5cb7bbb1c49e95165b96b2" category="inline-link">필요한 권한</block>
   <block id="e1ca9b0274808b9c445718fa4b9a5d26" category="paragraph">이 역할과 연결된 구독을 선택할 수 있습니다. 선택한 각 구독은 해당 구독에 Cloud Volumes ONTAP를 배포할 수 있는 권한을 커넥터에 제공합니다.</block>
   <block id="316cce18546001b2f1149ed17a4d3900" category="list-text">* 네트워크 *: VNET 및 서브넷을 선택하고, 공용 IP 주소를 활성화할지 여부를 선택한 다음 선택적으로 프록시 구성을 지정합니다.</block>
@@ -1967,13 +1966,6 @@
   <block id="213954d7bdaa5b2d9eab4ee897a935d3" category="paragraph-title">등록 옵션</block>
   <block id="4c6d74757138aa41d2d5f2b14bb05ad1" category="paragraph">다음 옵션 중 하나를 사용하여 BlueXP에 등록할 수 있습니다.</block>
   <block id="d7330e52ac45b9d5a769aa9a5c244319" category="list-text">이메일 주소와 암호를 지정하여 NetApp 클라우드 로그인입니다</block>
-  <block id="9f1b84fa92d950a165d75ff20ea339ef" category="list-text">로그인 * 페이지에서 * 가입 * 을 선택합니다.</block>
-  <block id="c838c41871c4f726a74cecb65930bcdd" category="admonition">기존 NSS 자격 증명을 사용하려는 경우 등록 페이지를 건너뛰고 로그인 페이지에 직접 이메일 주소를 입력할 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.</block>
-  <block id="9a076f8e1167c7f54e717f3312d9be22" category="list-text">등록 * 페이지에서 로그인 옵션 중 하나를 선택합니다.</block>
-  <block id="eb7dc3949c534285123f407b97df88ce" category="list-text">기존 NetApp Support 사이트(NSS) 계정이 있는 경우 * NetApp Support 사이트 자격 증명으로 등록 * 을 선택합니다.</block>
-  <block id="a67ec4292dbbae18fa7d903a5925529f" category="inline-link-macro">NSS 자격 증명을 지원 대시보드에 추가하여 주요 워크플로를 활성화하는 방법에 대해 알아봅니다</block>
-  <block id="f36fff08cce9f284672696a03c3af986" category="paragraph">이 옵션을 사용하면 NetApp Support 사이트(NSS) 자격 증명이 지원 대시보드의 BlueXP에 추가되지 않습니다. <block ref="6dd91a7e65a4b86508888798b6f600ec" category="inline-link-macro-rx"></block>.</block>
-  <block id="5185f2e203db6dcf60732c4adcccbd15" category="list-text">NSS 계정이 없고 NetApp 클라우드 자격 증명을 생성하지 않은 경우 NetApp 클라우드 로그인을 생성하는 데 필요한 정보를 입력하십시오.</block>
   <block id="b0844d01c75bb6b60219ee536f20aa15" category="list-text">메시지가 표시되면 최종 사용자 사용권 계약을 검토하고 약관에 동의합니다.</block>
   <block id="a2d1bd30e95a89c4ecb9d6a39da84e3a" category="list-text">시작 * 페이지에서 계정 이름을 입력합니다.</block>
   <block id="efb45899558a953ff7d6578e89aa2c1c" category="inline-link-macro">기존 계정에 구성원을 추가하는 방법에 대해 알아봅니다</block>
@@ -3311,7 +3303,6 @@
   <block id="74a4ede1451c1e5d5746c24e1fc77924" category="paragraph"><block ref="7a5209a3744a7cace63a040ed3f3ce07" category="inline-link-macro-rx"></block>.</block>
   <block id="b7ffaf906b575603b3ec9613a0b6ea30" category="paragraph">BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다. Connector를 사용하면 사내 환경과 클라우드 환경 전반에서 리소스와 프로세스를 관리할 수 있습니다. Cloud Volumes ONTAP 및 기타 데이터 서비스를 사용해야 합니다.</block>
   <block id="0b2713c18a328b85808183d496d2d28c" category="paragraph">BlueXP는 보안 및 연결 제한이 있는 환경에서도 지원됩니다. _restricted mode_or_private mode_를 사용하여 BlueXP SaaS 계층에 대한 아웃바운드 연결을 제한할 수 있습니다.</block>
-  <block id="ba2f0b6169ae38b10d24f0818c4c9d17" category="summary">BlueXP를 시작할 때 첫 번째 단계는 기존 NetApp Support 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 생성하여 등록하는 것입니다.</block>
   <block id="ae140c7a1104ac99f1a01b18e5dc3ed8" category="paragraph">BlueXP는 웹 기반 콘솔에서 액세스할 수 있습니다. BlueXP를 시작할 때 첫 번째 단계는 기존 NetApp Support 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 생성하여 등록하는 것입니다.</block>
   <block id="b829f1a930ae603edd16b249b070f4c9" category="doc">커넥터를 제한 모드로 전개합니다</block>
   <block id="5cadd29a69b0be5bc8b482cfc2e89adb" category="open-title">AWS 상용 마켓플레이스</block>
@@ -3614,4 +3605,13 @@
   <block id="c01f728e9ef3359c6e9b452f47a9ca09" category="summary">BlueXP에서 Azure 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아봅니다. 이러한 세부 정보를 이해하면 하나 이상의 Azure 구독에 대한 자격 증명을 관리하는 데 도움이 됩니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
   <block id="ea5bc95c9558a374461d71a1d2f029ca" category="summary">BlueXP에서 AWS 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법을 알아보십시오. BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 때 이러한 세부 정보를 이해하는 것이 도움이 될 수 있습니다. 예를 들어, BlueXP에 AWS 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
   <block id="1c498f9a6415c0ecd5728481eea5743b" category="summary">BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="647051cbb24da89d3b791c11978a8b90" category="list-text">Connector 가상 머신에 해당 인증 방법을 사용하려는 경우 SSH 공개 키입니다. 인증 방법의 다른 옵션은 암호를 사용하는 것입니다.</block>
+  <block id="94fc3421a7ccbcb57366109daea19aed" category="inline-link">Azure에서 Linux VM에 연결하는 방법에 대해 알아보십시오</block>
+  <block id="51efa34484491a2cd1e24f30b14fc68a" category="paragraph"><block ref="51efa34484491a2cd1e24f30b14fc68a" category="inline-link-rx"></block></block>
+  <block id="c3e1d8cd2a4fddc661ad823da98d5fa7" category="list-text">* VM 인증 *: Azure 구독, 위치, 새 리소스 그룹 또는 기존 리소스 그룹을 선택한 다음 만들려는 Connector 가상 머신에 대한 인증 방법을 선택합니다.</block>
+  <block id="52f3863b6256b8ae764628f74442ca5c" category="paragraph">가상 머신의 인증 방법은 암호 또는 SSH 공개 키일 수 있습니다.</block>
+  <block id="3587d9f2b48c4f0c9c40433731329a21" category="list-text">NetApp Support 사이트 계정이 있는 경우 NSS 계정과 연결된 이메일 주소를 * 로그인 * 페이지에 직접 입력합니다.</block>
+  <block id="61bd9c463723beb495c6ca6a1a35e0eb" category="paragraph">NSS 계정이 있는 경우 등록 페이지를 건너뛸 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.</block>
+  <block id="7c74a9177ae92ae3e635c6ec91ce1d71" category="list-text">NSS 계정이 없는 경우 NetApp 클라우드 로그인을 생성하여 등록하려면 * 등록 * 을 선택하십시오.</block>
+  <block id="9c27b53d053eec29dd123f70f05c5d03" category="list-text">등록 * 페이지에서 NetApp 클라우드 로그인을 생성하는 데 필요한 정보를 입력합니다.</block>
 </blocks>
