@@ -94,9 +94,9 @@ BlueXP는 표준 모드에서 다음과 같이 작동합니다.
 아웃바운드 통신:: Connector에서 BlueXP SaaS 레이어, 클라우드 공급업체의 공개된 리소스, 일상적인 운영을 위한 기타 필수 구성 요소에 연결해야 합니다.
 +
 --
-* link:task-set-up-networking-aws.html#endpoints-contacted-for-day-to-day-operations["Connector가 AWS에 연결하는 엔드포인트에는"]
-* link:task-set-up-networking-azure.html#endpoints-contacted-for-day-to-day-operations["Connector가 Azure에서 접촉하는 끝점"]
-* link:task-set-up-networking-google.html#endpoints-contacted-for-day-to-day-operations["Connector가 Google Cloud에 연결하는 엔드포인트에는"]
+* link:task-set-up-networking-aws.html#endpoints-contacted-from-the-connector["Connector가 AWS에 연결하는 엔드포인트에는"]
+* link:task-set-up-networking-azure.html#endpoints-contacted-from-the-connector["Connector가 Azure에서 접촉하는 끝점"]
+* link:task-set-up-networking-google.html#endpoints-contacted-from-the-connector["Connector가 Google Cloud에 연결하는 엔드포인트에는"]
 
 
 --

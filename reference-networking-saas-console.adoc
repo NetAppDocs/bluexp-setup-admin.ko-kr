@@ -58,8 +58,8 @@ AWS 서비스(amazonaws.com):
 |===
 .관련 링크
 * link:task-prepare-restricted-mode.html#prepare-networking-for-user-access-to-bluexp-console["BlueXP 콘솔에 대한 사용자 액세스를 위한 네트워킹 준비(제한된 모드)"]
-* link:task-set-up-networking-aws.html#endpoints-contacted-for-day-to-day-operations["커넥터가 AWS에 접촉하는 끝점(표준 모드)"]
-* link:task-set-up-networking-azure.html#endpoints-contacted-for-day-to-day-operations["커넥터가 Azure에서 접촉하는 끝점(표준 모드)"]
-* link:task-set-up-networking-google.html#endpoints-contacted-for-day-to-day-operations["Connector가 Google Cloud에서 접촉하는 엔드포인트(표준 모드)"]
+* link:task-set-up-networking-aws.html#endpoints-contacted-from-the-connector["커넥터가 AWS에 접촉하는 끝점(표준 모드)"]
+* link:task-set-up-networking-azure.html#endpoints-contacted-from-the-connector["커넥터가 Azure에서 접촉하는 끝점(표준 모드)"]
+* link:task-set-up-networking-google.html#endpoints-contacted-from-the-connector["Connector가 Google Cloud에서 접촉하는 엔드포인트(표준 모드)"]
 * link:task-set-up-networking-on-prem.html#endpoints-contacted-during-manual-installation["커넥터 수동 설치 중에 연결된 엔드포인트(표준 모드)"]
 
