@@ -76,6 +76,10 @@ Google Cloud에 Connector 및 Cloud Volumes ONTAP를 구축하려면 여러 API�
 * Cloud Resource Manager API를 참조하십시오
 * 컴퓨팅 엔진 API
 * IAM(Identity and Access Management) API
+* 클라우드 키 관리 서비스(KMS) API
++
+(고객이 관리하는 암호화 키(CMEK)로 BlueXP 백업 및 복구를 사용하려는 경우에만 필요)
+
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png["6개"] 커넥터를 작성합니다

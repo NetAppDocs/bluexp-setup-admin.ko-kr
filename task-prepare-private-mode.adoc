@@ -436,6 +436,10 @@ Google Cloud에 Cloud Volumes ONTAP을 구축하려면 여러 API가 필요합�
 ** Cloud Resource Manager API를 참조하십시오
 ** 컴퓨팅 엔진 API
 ** IAM(Identity and Access Management) API
+** 클라우드 키 관리 서비스(KMS) API
++
+(고객이 관리하는 암호화 키(CMEK)로 BlueXP 백업 및 복구를 사용하려는 경우에만 필요)
+
 
 
 

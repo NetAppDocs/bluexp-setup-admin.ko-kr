@@ -24,6 +24,10 @@ Google Cloud에서 Connector 및 Cloud Volumes ONTAP를 배포하기 전에 여�
 ** Cloud Resource Manager API를 참조하십시오
 ** 컴퓨팅 엔진 API
 ** IAM(Identity and Access Management) API
+** 클라우드 키 관리 서비스(KMS) API
++
+(고객이 관리하는 암호화 키(CMEK)로 BlueXP 백업 및 복구를 사용하려는 경우에만 필요)
+
 
 
 
