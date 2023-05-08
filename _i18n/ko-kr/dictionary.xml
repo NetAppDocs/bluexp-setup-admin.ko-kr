@@ -309,10 +309,6 @@
   <block id="b965147e511dac4e3aebd73ea41829e3" category="section-title">새 알림 서비스가 추가되었습니다</block>
   <block id="3c1b23b324258ff4cbade594bf9bba9d" category="inline-link-macro">계정의 작업을 모니터링하는 방법을 확인하십시오</block>
   <block id="e2945895b2a6a405c218350491024401" category="paragraph">알림 서비스가 도입되어 현재 로그인 세션 중에 시작한 Cloud Manager 작업의 상태를 확인할 수 있습니다. 작업이 성공했는지 또는 실패했는지 확인할 수 있습니다. <block ref="f47b918ef0cfcb851278e7a8f756b776" category="inline-link-macro-rx"></block>.</block>
-  <block id="81de4fabd4db5e6833366e4bcef85f1e" category="section-title">커넥터를 통한 RHEL 7.9 지원</block>
-  <block id="a95742b809057568fda07a87694945f1" category="paragraph">이제 Connector는 Red Hat Enterprise Linux 7.9를 실행하는 호스트에서 지원됩니다.</block>
-  <block id="2a75ac250c22787b79b100a2a614a4e2" category="inline-link-macro">커넥터에 대한 시스템 요구 사항을 봅니다</block>
-  <block id="3d3993351431dd156dcaa0d507b8983f" category="paragraph"><block ref="bee2a520a8b2c506ca8f5164283ec407" category="inline-link-macro-rx"></block>.</block>
   <block id="916678dfdf53de83f6afdf8fca563fb3" category="section-title">2021년 7월 7일</block>
   <block id="087ea838180b315ad53e36db764cd8d2" category="section-title">커넥터 추가 마법사 기능 향상</block>
   <block id="49b04ecdbf78ac3e84e01d5ad6dcb05f" category="paragraph">새 옵션을 추가하고 사용하기 쉽도록 * 커넥터 추가 * 마법사를 다시 설계했습니다. 이제 태그를 추가하고, 역할을 지정하고(AWS 또는 Azure의 경우), 프록시 서버에 대한 루트 인증서를 업로드하고, Terraform 자동화에 대한 코드를 보고, 진행률 세부 정보를 보는 등의 작업을 수행할 수 있습니다.</block>
@@ -836,7 +832,6 @@
   <block id="0c8656a54bb3c58b8facb7ba72092bdc" category="section-title">2021년 11월 4일</block>
   <block id="784044bd2af30d58bbb0dbcea3adbad6" category="section-title">2021년 10월 31일</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021년 9월 2일</block>
-  <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021년 8월 1일</block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021년 4월 11일</block>
   <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021년 2월 9일</block>
   <block id="0e78dc7220ea8b6abafe6ef7aaad9998" category="list-text">대상 계정에서 AWS IAM 콘솔로 이동합니다.</block>
@@ -911,11 +906,9 @@
   <block id="2fc22405cb36e8596d9bdb7b52cbf10c" category="paragraph">Connector를 배포하기 전에 또는 문제를 해결해야 하는 경우에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="5eeca886fa07462826a9ea747483f528" category="section-title">AWS 세부 정보</block>
   <block id="6b3a1b41a32e70a38db42e8ec15a6fba" category="list-text">EC2 인스턴스 유형은 T3.xLarge입니다.</block>
-  <block id="1c4a1f461d9d9ab860d5238735bbfa23" category="list-text">이미지의 운영 체제는 Red Hat Enterprise Linux 7.6(HVM)입니다.</block>
   <block id="09572768e7bd2d34b2a051ebb8774173" category="list-text">EC2 Linux 인스턴스의 사용자 이름은 EC2-user입니다.</block>
   <block id="b8c4a5bd8ed4eb470e80955a542dd4bf" category="section-title">Azure 세부 정보</block>
   <block id="82e44dd5e94a855110f9dea154fed0ed" category="list-text">VM 유형은 DS3 v2입니다.</block>
-  <block id="6b20346212b35fa23c8778f7b40af243" category="list-text">이미지의 운영 체제는 CentOS 7.6입니다.</block>
   <block id="474a089504b47eb34ee00ee62f121108" category="list-text">기본 시스템 디스크는 100GiB 프리미엄 SSD 디스크입니다.</block>
   <block id="f246cf5f23e765f0a7ebed4a6c1d923a" category="section-title">Google Cloud 세부 정보</block>
   <block id="6cb5fb9b61376b8ee3092321445fdea4" category="list-text">기본 시스템 디스크는 100GiB SSD 영구 디스크입니다.</block>
@@ -1793,7 +1786,6 @@
   <block id="f658ebadeb22d41618c5222998030cb9" category="section-title">커넥터 3.9.23</block>
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
   <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
-  <block id="9683999221dec5e41e35756b2a8aee04" category="list-text">이미지의 운영 체제는 Red Hat Enterprise Linux 8.6입니다.</block>
   <block id="efa03f1c1a0f03001f1680681d9ac8a7" category="paragraph"><block ref="efa03f1c1a0f03001f1680681d9ac8a7" category="inline-link-rx"></block></block>
   <block id="cc337b5a93c54f8a59d4731866297bf2" category="list-text"><block ref="cc337b5a93c54f8a59d4731866297bf2" category="inline-link-rx"></block></block>
   <block id="2e5620a6569fc852b94b7e03a147a125" category="paragraph">기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다. <block ref="568ce14d3cdae759e790bc127b222228" category="inline-xref-macro-rx"></block>.</block>
@@ -2038,7 +2030,6 @@
   <block id="d4a973e303ec37692cc8923e3148eef7" category="cell">8080</block>
   <block id="3cae1bb62504fde722824fee95046472" category="doc">BlueXP용 Azure 자격 증명 및 구독을 관리합니다</block>
   <block id="ee7f5aec4e9ac5fecb93d224c17fcd43" category="list-text">CentOS 7.6, 7.7, 7.8 및 7.9</block>
-  <block id="fe342f4d7fb16d9eddf02f4c613dfb19" category="list-text">Red Hat Enterprise Linux 7.6, 7.7, 7.8, 7.9, 8.6, 8.7로 표시됩니다</block>
   <block id="643a877b7c306b1bcece42c8f03bebfb" category="paragraph">여기서 &lt;version&gt;는 다운로드한 커넥터 버전입니다.</block>
   <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">클라우드 지역은 AWS C2S/SC2S, Azure IL6 또는 기타 상업 지역과 같은 미국 보안 기관을 위한 지역이 될 수 있습니다.</block>
   <block id="4a2f661974665defd7d188133a1ab48b" category="paragraph">BlueXP에서 다음 작업을 사용하려면 특정 BlueXP 계정 ID와 NetApp Support 사이트 자격 증명을 연결해야 합니다.</block>
@@ -2097,8 +2088,6 @@
   <block id="4be68bdee3a27bc0218c6188d192fc95" category="paragraph"><block ref="4be68bdee3a27bc0218c6188d192fc95" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a48a6aaa99b4cf4a4e641c293de897fa" category="inline-link">지원 사례를 관리하는 방법에 대해 알아보십시오</block>
   <block id="796ced97a72330e5ce3c0935b7b09f45" category="paragraph"><block ref="622b6e7f4143df2aca06b538ee1d864e" category="inline-link-rx"></block>.</block>
-  <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">Connector는 현재 Red Hat Enterprise Linux 8.7을 실행하는 호스트에서 지원됩니다.</block>
-  <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>.</block>
   <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">인터넷에 연결되지 않은 위치에 커넥터를 설치합니다</block>
   <block id="6bfdfb1d6b845d41edac4f1eb0065216" category="list-text"><block ref="6bfdfb1d6b845d41edac4f1eb0065216" category="inline-link-rx"></block></block>
   <block id="cbea6f8d2cd687c094438e0a7a38fedf" category="inline-link">커넥터의 BlueXP 콘솔에 액세스합니다</block>
@@ -2256,10 +2245,6 @@
   <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">이메일 알림을 설정하는 방법에 대해 알아봅니다</block>
   <block id="e16804d7658f4d3132a1170b8cec7c7e" category="paragraph"><block ref="9ce9eb475c326d02a5c224ef8589bc0a" category="inline-link-rx"></block>.</block>
   <block id="1ba259cc1a092c9c30c1a18ccc612c75" category="list-text">Connector는 현재 Google Cloud Turin 지역에서 지원됩니다.</block>
-  <block id="e9c35e9b853bc286e0f3b1a7ee2e338a" category="list-text">이제 BlueXP에서 VMware vCenter Server를 검색할 수 있습니다.</block>
-  <block id="a5b1ab8743c3279fbcf5a93dcd6de23d" category="paragraph">AWS 또는 사내에서 실행 중인 VMware vCenter Server를 발견한 후 작업 환경을 열어 서버와 연결된 데이터 저장소 및 가상 머신에 대한 세부 정보를 볼 수 있습니다.</block>
-  <block id="10cc8c1f48423a72bf1e617861999cae" category="paragraph">버전 7.0 이상을 실행하는 VMware vCenter Server에 대한 연결이 있는 Connector만 필요합니다.</block>
-  <block id="70843c2315ee9e00dc50f03225c92953" category="paragraph">시작하려면 * 작업 환경 추가 * 를 선택하고 * Amazon Web Services * 또는 * On-Premises * 를 선택한 다음 * VMware vCenter Server * 를 선택합니다. 서버의 도메인 이름 또는 IP 주소를 입력한 다음 admin 사용자의 사용자 이름 및 암호를 입력합니다.</block>
   <block id="fb378d84e11ead1b2c8c57bfabde81de" category="list-text">이제 BlueXP 로그인과 연결된 사용자 자격 증명(ONTAP 자격 증명 및 NSS(NetApp Support 사이트) 자격 증명)을 관리할 수 있습니다.</block>
   <block id="f06293a36a992a2a1b8c6f6572b6caf8" category="paragraph">설정 &gt; 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.</block>
   <block id="4e46804b204e02c9bd12cc6d7232cca6" category="list-text">이제 지원 케이스를 생성하거나 기존 지원 사례에 대한 케이스 메모를 업데이트할 때 첨부 파일을 업로드할 수 있습니다.</block>
@@ -2342,9 +2327,7 @@
   <block id="a5ee79c4e6a740f92d76e4ae26f7efd9" category="inline-link-macro">네트워킹 요구 사항에 대해 자세히 알아보십시오</block>
   <block id="587b8633f80536ad1f87ba680eaf93e0" category="paragraph"><block ref="48e0e005bc28fbf668fbd01539cd6de0" category="inline-link-macro-rx"></block>.</block>
   <block id="41c4e1e04e36e331e0bc8306e8c462e4" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 호스트 요구 사항을 검토합니다</block>
-  <block id="8cf82bb665e40bb25d9a540e444e36b3" category="paragraph">Connector 소프트웨어는 특정 요구 사항을 충족하는 호스트에서 실행해야 합니다. 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. BlueXP 또는 Azure Marketplace에서 Connector를 만드는 경우 소프트웨어에서 이미지를 배포하기 때문에 이러한 요구 사항이 적용됩니다.</block>
   <block id="c0cf348e555529bd637208dfcf54a870" category="paragraph">주요 요구사항은 다음과 같습니다.</block>
-  <block id="8d870988502027508b00629d082d4d40" category="list-text">CentOS 또는 Red Hat Enterprise Linux를 실행하는 전용 호스트입니다</block>
   <block id="fd7f01f6e4333c9d37efa65b264ff2a2" category="list-text">CPU 4개</block>
   <block id="ccdc6c134c96d6c386d088a2301d4f2b" category="list-text">14GB의 RAM</block>
   <block id="6cfd8f6d3354ebd55131c33afd96d4f1" category="inline-link-macro">이러한 호스트 요구 사항에 대해 자세히 알아보십시오</block>
@@ -2427,7 +2410,6 @@
   <block id="512bfa3bd93d6398b4e5010a77b6b397" category="paragraph">BlueXP 또는 AWS Marketplace에서 커넥터를 구축하면 필요한 OS 및 소프트웨어 구성 요소가 이미지에 포함됩니다.</block>
   <block id="9cf68904e16d6d689d242f4868ec6c3f" category="list-text">전용 호스트</block>
   <block id="24dfedb0d4bd46f0cd823d4e245f7642" category="paragraph">호스트는 Red Hat Subscription Management에 등록되어 있어야 합니다. 등록되지 않은 경우 호스트는 Connector 설치 중에 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.</block>
-  <block id="6e1a44ecc6a3c7f575a069cf7334fbae" category="list-text">CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.<block ref="e9e3991507328b97d5307322157c9608" category="inline-link-rx"></block></block>
   <block id="6cd56a4cc4ddbbfd2bc9d57de5d788aa" category="list-text">키 쌍</block>
   <block id="58b11c8ddf3d2ba8e39859b658696729" category="list-text">BlueXP 또는 AWS Marketplace에서 Connector를 생성할 때 인스턴스와 함께 사용할 EC2 키 쌍을 선택해야 합니다.</block>
   <block id="d27c20ffdc2a86f7372d5fe1b59e028f" category="summary">네트워킹 설정, 호스트 준비, 클라우드 사용 권한 준비 등을 통해 온-프레미스에 Connector를 만듭니다.</block>
@@ -3130,7 +3112,6 @@
   <block id="a56be8fcf9cdfe04c839d8381b610ad9" category="paragraph"><block ref="ade0887db526f72ed0d1d6c5708f3e13" category="inline-link-macro-rx"></block>.</block>
   <block id="bcbc9fff8d4487788c2d9340f7d3f30a" category="list-text">VPC 및 서브넷</block>
   <block id="b2f11e007fbc7abca64e5c1d6c2b7128" category="paragraph"><block ref="8e7b3f5f067e9282c1888d205cec32d1" category="inline-link-macro-rx"></block>.</block>
-  <block id="6349ee97072121bbd5a4507bac2e8735" category="paragraph">Connector 소프트웨어는 특정 요구 사항을 충족하는 호스트에서 실행해야 합니다. 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. BlueXP 또는 AWS Marketplace에서 Connector를 생성하는 경우 소프트웨어에서 이미지를 배포하기 때문에 이러한 요구 사항이 적용됩니다.</block>
   <block id="a210968d517dd722bb07b30a19848aba" category="paragraph"><block ref="a0def2bb90da07c3ee565e52d86737eb" category="inline-link-macro-rx"></block>.</block>
   <block id="9b2016503a2a16403edd8e4505d62007" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> AWS 권한을 설정합니다</block>
   <block id="c405be6f63207e29490377f138661fe6" category="paragraph">사용하려는 설치 옵션에 따라 AWS 권한을 설정합니다.</block>
@@ -3192,7 +3173,6 @@
   <block id="7a396f953e409fc4113a3eeb3714978c" category="paragraph">Google Cloud에서 커넥터를 생성하는 표준 방법은 BlueXP에서 직접 만들 수 있지만, gcloud를 사용하거나 기존 Linux 호스트에 소프트웨어를 수동으로 설치할 수도 있습니다.</block>
   <block id="d6b2edc88b04bf885cb72e8cf0bdb02e" category="paragraph"><block ref="7faab28792959edccdd5bb629174a43b" category="inline-link-macro-rx"></block>.</block>
   <block id="6d117b41618cb9d361db392dd6ff151b" category="paragraph"><block ref="10b8794b5b9549957094545036a01876" category="inline-link-macro-rx"></block>.</block>
-  <block id="2d1ed7591f7f80cfce8c5b951e513704" category="paragraph">Connector 소프트웨어는 특정 요구 사항을 충족하는 호스트에서 실행해야 합니다. 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. BlueXP에서 또는 gcloud를 사용하여 Connector를 만드는 경우 소프트웨어가 이미지에서 배포되기 때문에 이러한 요구 사항이 적용됩니다.</block>
   <block id="3633aaf72e18b72ee7d2e915e82be0c6" category="paragraph"><block ref="2d4899440637ad0f9b80e78751923630" category="inline-link-macro-rx"></block>.</block>
   <block id="7a48e91302c9dc7f85920f518f25f1d7" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> Google Cloud 권한을 설정합니다</block>
   <block id="f7b1947038df0eb1bf72eca001af4938" category="paragraph">사용하려는 설치 옵션에 대한 Google Cloud 사용 권한 설정:</block>
@@ -3244,7 +3224,6 @@
   <block id="df7114b91c38b799f7e55c741aae2b74" category="list-text">* 수동 설치 *: IAM 정책을 생성하여 IAM 역할 또는 IAM 사용자에게 연결합니다.</block>
   <block id="d427acae4bc956af9fed6c72fb68b12a" category="paragraph"><block ref="b2113e9e3a9e0e0062402d34fe3bdc2d" category="inline-xref-macro-rx"></block>.</block>
   <block id="8098dd228e3c3acafd4ab6231ee02a5b" category="paragraph">두 옵션 중 하나를 사용할 경우 첫 번째 단계는 IAM 정책을 생성하는 것입니다. 이 정책에는 BlueXP에서 AWS에서 Connector 인스턴스를 시작하는 데 필요한 권한만 포함되어 있습니다.</block>
-  <block id="475ac26bd29a47d7852c43b6768e1e79" category="admonition">BlueXP에서 Connector를 만들면 Connector to AWS 리소스를 활성화하는 Connector 인스턴스에 새 권한 집합이 적용됩니다.</block>
   <block id="1bd08699c526c66f71094b5ff54dc839" category="list-text">BlueXP에서 사용할 수 있는 IAM 역할 또는 IAM 사용자에게 정책을 연결하여 BlueXP에 액세스 키를 제공할 수 있도록 합니다.</block>
   <block id="87b8ba43578311804ba14d80f6c8cb89" category="list-text">(옵션 1) BlueXP가 가정할 수 있는 IAM 역할을 설정합니다.</block>
   <block id="bf10cb047f4db72713407e74d30df1e9" category="list-text">(옵션 2) BlueXP에 액세스 키를 제공할 수 있도록 IAM 사용자에 대한 권한을 설정합니다.</block>
@@ -3621,4 +3600,26 @@
   <block id="31dec7fbef975d09b76f499ef8abfb62" category="list-text"><block ref="31dec7fbef975d09b76f499ef8abfb62" category="inline-link-macro-rx"></block></block>
   <block id="b86699cce9d5045d0f0bc82298a74e55" category="list-text">클라우드 키 관리 서비스(KMS) API</block>
   <block id="5cb2601217dd646515fe8e7cba8643b1" category="paragraph">(고객이 관리하는 암호화 키(CMEK)로 BlueXP 백업 및 복구를 사용하려는 경우에만 필요)</block>
+  <block id="e5051949dc3a37f9077e85df0f1c8a21" category="list-text">Ubuntu 22.04</block>
+  <block id="eaf5618d0182a88179ac8580cc418219" category="list-text">Red Hat Enterprise Linux 7.6, 7.7, 7.8 및 7.9</block>
+  <block id="0791add814d036f56d1303750c34ee31" category="list-text">Ubuntu, CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.</block>
+  <block id="394349da65ddd77a10f3cdb6426b7439" category="paragraph"><block ref="394349da65ddd77a10f3cdb6426b7439" category="inline-link-rx"></block></block>
+  <block id="c1e102579945406fac37126823f71dd7" category="paragraph">자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려면 호스트가 특정 요구 사항을 충족하는지 확인해야 합니다. BlueXP 또는 Azure Marketplace에서 Connector를 만드는 경우 소프트웨어에서 이미지를 배포하기 때문에 이러한 요구 사항이 적용됩니다.</block>
+  <block id="458ff6a54977b54b851374a784615658" category="list-text">Ubuntu 22.04, CentOS 7.6 ~ 7.9 또는 RHEL 7.6 ~ 7.9를 실행하는 전용 호스트입니다</block>
+  <block id="3140bd3be2a4f9fe830514ff5b18be1f" category="list-text">Docker Engine 19.3.1 이상</block>
+  <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023년 5월 7일</block>
+  <block id="d13015f8ae4fd0f7f263eba9f81f4caa" category="section-title">커넥터 3.9.29</block>
+  <block id="05263fcc56b50972b2dfe4be20698328" category="list-text">Ubuntu 22.04는 BlueXP 또는 클라우드 공급자의 마켓플레이스에서 커넥터를 배포할 때 커넥터를 위한 새로운 운영 체제입니다.</block>
+  <block id="9ab8f4fa1e0839b1101d04c9cd4e1bae" category="paragraph">Ubuntu 22.04를 실행하는 자체 Linux 호스트에 커넥터를 수동으로 설치할 수도 있습니다.</block>
+  <block id="dfcaca26de191f6219819bb7091c9ebe" category="list-text">Red Hat Enterprise Linux 8.6 및 8.7은 새로운 Connector 배포에서 더 이상 지원되지 않습니다.</block>
+  <block id="2f5617aecec1df3805ada7f05da46bde" category="paragraph">Red Hat은 Connector에 필요한 Docker를 더 이상 지원하지 않기 때문에 이러한 버전은 새 배포에서 지원되지 않습니다. RHEL 8.6 또는 8.7에서 기존 Connector를 실행 중인 경우 NetApp은 계속 귀하의 구성을 지원합니다.</block>
+  <block id="470821fb08a53bb45ecda66d23c58d6f" category="paragraph">Red Hat 7.6, 7.7, 7.8 및 7.9는 신규 및 기존 커넥터에서 계속 지원됩니다.</block>
+  <block id="a2619f6db1e9fa217b857129c75384ab" category="list-text">Connector는 이제 Google Cloud의 Qatar 지역에서 지원됩니다.</block>
+  <block id="368c64d1828dfb51f85a6ad8427db46c" category="list-text">Connector는 Microsoft Azure의 스웨덴 중앙 지역에서도 지원됩니다.</block>
+  <block id="cff120b14e79d2501e83070f59bb2387" category="paragraph"><block ref="cff120b14e79d2501e83070f59bb2387" category="inline-link-rx"></block></block>
+  <block id="a12b9d09313df9b379fff76f6080b543" category="paragraph">자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려면 호스트가 특정 요구 사항을 충족하는지 확인해야 합니다. BlueXP 또는 AWS Marketplace에서 Connector를 생성하는 경우 소프트웨어에서 이미지를 배포하기 때문에 이러한 요구 사항이 적용됩니다.</block>
+  <block id="8a9983b753881349972a7c0a24378110" category="paragraph">자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려면 호스트가 특정 요구 사항을 충족하는지 확인해야 합니다. BlueXP에서 또는 gcloud를 사용하여 Connector를 만드는 경우 소프트웨어가 이미지에서 배포되기 때문에 이러한 요구 사항이 적용됩니다.</block>
+  <block id="eebb9a8111d1623667243e7e41ed0e71" category="list-text">이미지의 운영 체제는 Ubuntu 22.04입니다.</block>
+  <block id="ba5aa0edf5aca9e505ac70fc6e55851d" category="paragraph">BlueXP에서 커넥터를 배포한 경우 다음 사항에 유의하십시오.</block>
+  <block id="09eadec3a9869ab363e913c06ab259a3" category="admonition">BlueXP에서 Connector를 만들면 Connector가 AWS 리소스를 관리할 수 있도록 Connector 인스턴스에 새 권한 집합이 적용됩니다.</block>
 </blocks>

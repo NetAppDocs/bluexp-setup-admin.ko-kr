@@ -18,6 +18,36 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
+== 2023년 5월 7일
+
+
+
+=== 커넥터 3.9.29
+
+* Ubuntu 22.04는 BlueXP 또는 클라우드 공급자의 마켓플레이스에서 커넥터를 배포할 때 커넥터를 위한 새로운 운영 체제입니다.
++
+Ubuntu 22.04를 실행하는 자체 Linux 호스트에 커넥터를 수동으로 설치할 수도 있습니다.
+
+* Red Hat Enterprise Linux 8.6 및 8.7은 새로운 Connector 배포에서 더 이상 지원되지 않습니다.
++
+Red Hat은 Connector에 필요한 Docker를 더 이상 지원하지 않기 때문에 이러한 버전은 새 배포에서 지원되지 않습니다. RHEL 8.6 또는 8.7에서 기존 Connector를 실행 중인 경우 NetApp은 계속 귀하의 구성을 지원합니다.
+
++
+Red Hat 7.6, 7.7, 7.8 및 7.9는 신규 및 기존 커넥터에서 계속 지원됩니다.
+
+* Connector는 이제 Google Cloud의 Qatar 지역에서 지원됩니다.
+* Connector는 Microsoft Azure의 스웨덴 중앙 지역에서도 지원됩니다.
++
+https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
+
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#7-may-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+
+
+
+
+
 == 2023년 4월 4일
 
 
@@ -55,16 +85,6 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operatio
 +
 https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
 
-* 이제 BlueXP에서 VMware vCenter Server를 검색할 수 있습니다.
-+
-AWS 또는 사내에서 실행 중인 VMware vCenter Server를 발견한 후 작업 환경을 열어 서버와 연결된 데이터 저장소 및 가상 머신에 대한 세부 정보를 볼 수 있습니다.
-
-+
-버전 7.0 이상을 실행하는 VMware vCenter Server에 대한 연결이 있는 Connector만 필요합니다.
-
-+
-시작하려면 * 작업 환경 추가 * 를 선택하고 * Amazon Web Services * 또는 * On-Premises * 를 선택한 다음 * VMware vCenter Server * 를 선택합니다. 서버의 도메인 이름 또는 IP 주소를 입력한 다음 admin 사용자의 사용자 이름 및 암호를 입력합니다.
-
 * 이제 BlueXP 로그인과 연결된 사용자 자격 증명(ONTAP 자격 증명 및 NSS(NetApp Support 사이트) 자격 증명)을 관리할 수 있습니다.
 +
 설정 > 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.
@@ -99,10 +119,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/mai
 * BlueXP에서 직접 활성 및 해결된 지원 사례를 보고 관리할 수 있습니다. NSS 계정 및 회사와 관련된 케이스를 관리할 수 있습니다.
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manage-your-support-cases["지원 사례를 관리하는 방법에 대해 알아보십시오"].
-
-* Connector는 현재 Red Hat Enterprise Linux 8.7을 실행하는 호스트에서 지원됩니다.
-+
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["커넥터에 대한 시스템 요구 사항을 봅니다"].
 
 * Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 또한 BlueXP 백업 및 복구를 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수 있습니다. BlueXP 디지털 지갑을 제외하고 이러한 유형의 배포에는 다른 BlueXP 서비스가 지원되지 않습니다.
 +
@@ -554,18 +570,6 @@ link:task-creating-connectors-azure.html#create-a-connector-using-a-service-prin
 === 새 알림 서비스가 추가되었습니다
 
 알림 서비스가 도입되어 현재 로그인 세션 중에 시작한 Cloud Manager 작업의 상태를 확인할 수 있습니다. 작업이 성공했는지 또는 실패했는지 확인할 수 있습니다. link:task-monitor-cm-operations.html["계정의 작업을 모니터링하는 방법을 확인하십시오"].
-
-
-
-== 2021년 8월 1일
-
-
-
-=== 커넥터를 통한 RHEL 7.9 지원
-
-이제 Connector는 Red Hat Enterprise Linux 7.9를 실행하는 호스트에서 지원됩니다.
-
-link:task-installing-linux.html["커넥터에 대한 시스템 요구 사항을 봅니다"].
 
 
 

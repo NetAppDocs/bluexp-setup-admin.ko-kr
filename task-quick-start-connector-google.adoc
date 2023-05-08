@@ -39,16 +39,16 @@ link:task-set-up-networking-google.html["네트워킹 요구 사항에 대해 �
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 호스트 요구 사항을 검토합니다
 [role="quick-margin-para"]
-Connector 소프트웨어는 특정 요구 사항을 충족하는 호스트에서 실행해야 합니다. 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. BlueXP에서 또는 gcloud를 사용하여 Connector를 만드는 경우 소프트웨어가 이미지에서 배포되기 때문에 이러한 요구 사항이 적용됩니다.
+자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려면 호스트가 특정 요구 사항을 충족하는지 확인해야 합니다. BlueXP에서 또는 gcloud를 사용하여 Connector를 만드는 경우 소프트웨어가 이미지에서 배포되기 때문에 이러한 요구 사항이 적용됩니다.
 
 [role="quick-margin-para"]
 주요 요구사항은 다음과 같습니다.
 
 [role="quick-margin-list"]
-* CentOS 또는 Red Hat Enterprise Linux를 실행하는 전용 호스트입니다
+* Ubuntu 22.04, CentOS 7.6 ~ 7.9 또는 RHEL 7.6 ~ 7.9를 실행하는 전용 호스트입니다
 * CPU 4개
 * 14GB의 RAM
-* Docker 엔진
+* Docker Engine 19.3.1 이상
 
 
 [role="quick-margin-para"]

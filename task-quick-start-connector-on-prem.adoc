@@ -35,10 +35,10 @@ link:task-set-up-networking-on-prem.html["네트워킹 요구 사항에 대해 �
 Connector 소프트웨어는 특정 요구 사항을 충족하는 호스트에서 실행해야 합니다. 주요 요구사항은 다음과 같습니다.
 
 [role="quick-margin-list"]
-* CentOS 또는 Red Hat Enterprise Linux를 실행하는 전용 호스트입니다
+* Ubuntu 22.04, CentOS 7.6 ~ 7.9 또는 RHEL 7.6 ~ 7.9를 실행하는 전용 호스트입니다
 * CPU 4개
 * 14GB의 RAM
-* Docker 엔진
+* Docker Engine 19.3.1 이상
 
 
 [role="quick-margin-para"]
