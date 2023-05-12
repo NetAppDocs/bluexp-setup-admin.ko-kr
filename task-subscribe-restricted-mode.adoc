@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-subscribe-restricted-mode.html 
 keywords: subscribe, subscription, marketplace subscription, paygo, contract, annual contract 
-summary: 클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구매한 경우 해당 마켓플레이스 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다. 
+summary: 30f0924c2b9792580922ba2bb932268a 
 ---
 = BlueXP 가입(제한 모드)
 :hardbreaks:
@@ -14,17 +14,7 @@ summary: 클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간
 
 
 [role="lead"]
-클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구매한 경우 해당 마켓플레이스 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.
-
-마켓플레이스에 가입하면 제한된 모드로 다음 BlueXP 서비스를 충전할 수 있습니다.
-
-* 백업 및 복구
-* 분류
-* Cloud Volumes ONTAP
-
-
-.시작하기 전에
-BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 마켓플레이스 구독을 연결해야 합니다. "제한된 모드로 시작하기" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 참조하십시오 link:task-quick-start-restricted-mode.html["제한된 모드에서 BlueXP를 빠르게 시작합니다"].
+30f0924c2b9792580922ba2bb932268a
 
 [role="tabbed-block"]
 ====
@@ -33,9 +23,6 @@ BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 �
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
 . 자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.
-+
-Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.
-
 +
 image:screenshot_associate_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
@@ -79,9 +66,6 @@ NOTE: Azure에서는 연차 계약이 정부 지역에서 지원되지 않습니
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
 . 자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.
-+
-Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.
-
 +
 image:screenshot_azure_add_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
@@ -185,10 +169,3 @@ image:screenshot_gcp_associate.gif["구독 할당 페이지의 스크린샷."]
 
 --
 ====
-.관련 링크
-* https://["Cloud Volumes ONTAP용 BYOL 용량 기반 라이센스 관리"^]
-* https://["BlueXP 데이터 서비스에 대한 BYOL 라이센스 관리"^]
-* https://["BlueXP에 대한 AWS 자격 증명 및 구독을 관리합니다"]
-* https://["BlueXP용 Azure 자격 증명 및 구독을 관리합니다"]
-* https://["BlueXP용 Google Cloud 자격 증명 및 구독을 관리합니다"]
-

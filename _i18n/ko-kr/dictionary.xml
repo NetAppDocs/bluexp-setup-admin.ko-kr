@@ -3616,20 +3616,6 @@
   <block id="eebb9a8111d1623667243e7e41ed0e71" category="list-text">이미지의 운영 체제는 Ubuntu 22.04입니다.</block>
   <block id="ba5aa0edf5aca9e505ac70fc6e55851d" category="paragraph">BlueXP에서 커넥터를 배포한 경우 다음 사항에 유의하십시오.</block>
   <block id="09eadec3a9869ab363e913c06ab259a3" category="admonition">BlueXP에서 Connector를 만들면 Connector가 AWS 리소스를 관리할 수 있도록 Connector 인스턴스에 새 권한 집합이 적용됩니다.</block>
-  <block id="60a24477cd4bc1d96c88b21629d8cd7c" category="summary">클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구매한 경우 해당 마켓플레이스 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
-  <block id="f4abcc0682712b312b347ed2a4b32165" category="paragraph">클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우에도 마켓플레이스 제품을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
-  <block id="56246b5433f690a35c74ed45a296e993" category="paragraph">마켓플레이스에 가입하면 다음 BlueXP 서비스에 대한 비용을 청구할 수 있습니다.</block>
-  <block id="8219b1ea282823d830f661117796ac3d" category="paragraph">BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 마켓플레이스 구독을 연결해야 합니다. "표준 모드 시작" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 참조하십시오 <block ref="ce6d43255d920acadadb7e3862aee0b0" category="inline-link-macro-rx"></block>.</block>
-  <block id="7561d35e392b638f4fb5bc5f72459710" category="paragraph">Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.</block>
-  <block id="53043f0a6d597ccfe179296cc8ded9c0" category="inline-link">Cloud Volumes ONTAP용 BYOL 용량 기반 라이센스 관리</block>
-  <block id="fe58f6b68f2391f47e7f19d45735226a" category="list-text"><block ref="fe58f6b68f2391f47e7f19d45735226a" category="inline-link-rx"></block></block>
-  <block id="fe661ee4e3dd2d796b000bdbe116c002" category="inline-link">BlueXP 데이터 서비스에 대한 BYOL 라이센스 관리</block>
-  <block id="49056b2966eae66ee0345bbf80d6b8d6" category="list-text"><block ref="49056b2966eae66ee0345bbf80d6b8d6" category="inline-link-rx"></block></block>
-  <block id="a4821774f3941403655492bb82c492ca" category="list-text"><block ref="a4821774f3941403655492bb82c492ca" category="inline-link-rx"></block></block>
-  <block id="75c14ab09fd89f95714034d50258a6cc" category="list-text"><block ref="75c14ab09fd89f95714034d50258a6cc" category="inline-link-rx"></block></block>
-  <block id="95c435337a307137f163f5eb04ac01ad" category="list-text"><block ref="95c435337a307137f163f5eb04ac01ad" category="inline-link-rx"></block></block>
-  <block id="ba66b75d479f2289bcf99d989de6e0b1" category="paragraph">마켓플레이스에 가입하면 제한된 모드로 다음 BlueXP 서비스를 충전할 수 있습니다.</block>
-  <block id="d639d0a55c1a57a909ac7ffab5f941c6" category="paragraph">BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 마켓플레이스 구독을 연결해야 합니다. "제한된 모드로 시작하기" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 참조하십시오 <block ref="2d9421fac12c9ac9462f27b55d118c68" category="inline-link-macro-rx"></block>.</block>
   <block id="c9d7cb56a51bc183eea92ab6ecce2997" category="section-title">2023년 5월 12일</block>
   <block id="c8e8c3b324197dbdad9e21df5a435a35" category="paragraph">JSON 정책에는 Cloud Volumes ONTAP 관리에 필요한 다음과 같은 권한이 추가되었습니다.</block>
   <block id="c7e8dc746d7263609202186d1ac75c65" category="inline-link-macro">Connector 인스턴스에 필요한 권한을 봅니다</block>
