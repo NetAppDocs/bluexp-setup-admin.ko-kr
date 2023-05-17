@@ -86,7 +86,6 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
                     "Microsoft.Storage/storageAccounts/delete",
                     "Microsoft.Storage/storageAccounts/write",
                     "Microsoft.Storage/storageAccounts/blobServices/containers/read",
-                    "Microsoft.Storage/storageAccounts/blobServices/containers/write",
                     "Microsoft.Storage/storageAccounts/listAccountSas/action",
                     "Microsoft.Storage/usages/read",
                     "Microsoft.Compute/snapshots/write",
@@ -161,9 +160,10 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
                     "Microsoft.Synapse/workspaces/firewallRules/read",
                     "Microsoft.Synapse/workspaces/replaceAllIpFirewallRules/action",
                     "Microsoft.Synapse/workspaces/operationResults/read",
-                    "Microsoft.Network/publicIPAddresses/delete",
                     "Microsoft.Synapse/workspaces/privateEndpointConnectionsApproval/action",
-                    "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action"
+                    "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action",
+                    "Microsoft.Compute/images/write",
+                    "Microsoft.Network/loadBalancers/frontendIPConfigurations/read"
     ],
     "NotActions": [],
     "AssignableScopes": [],
@@ -226,8 +226,6 @@ Connector는 BlueXP 백업 및 복구를 위해 다음과 같은 API 요청을 �
 * Microsoft.Network/networkInterfaces/delete
 * Microsoft.Network/networkSecurityGroups/delete
 * Microsoft.Resources/Deployments/Delete 를 참조하십시오
-* Microsoft.Network/publicIPAddresses/delete
-* Microsoft.Storage/storageAccounts/blobServices/containers/write
 * Microsoft.ManagedIdentity/userAssignedIdentities/assign/action 을 참조하십시오
 
 
@@ -443,7 +441,10 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 | Microsoft.Resources/Deployments/Delete 를 참조하십시오 | 예 | 아니요 | 아니요 
 
 
-| VHD에서 배포를 활성화합니다 | Microsoft.Compute/images/read | 예 | 아니요 | 아니요 
+.2+| VHD에서 배포를 활성화합니다 | Microsoft.Compute/images/read | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Compute/images/write | 예 | 아니요 | 아니요 
 
 
 .4+| 대상 서브넷에서 네트워크 인터페이스를 생성하고 관리합니다 | Microsoft.Network/networkInterfaces/read | 예 | 예 | 아니요 
@@ -590,7 +591,7 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 | Microsoft.MarketplaceOrdering/offersTypes/publishers/Offers/Plans/Agreement/write | 예 | 예 | 아니요 
 
 
-.8+| HA 쌍에 대한 로드 밸런서를 관리합니다 | Microsoft.Network/loadBalancers/read | 예 | 예 | 아니요 
+.9+| HA 쌍에 대한 로드 밸런서를 관리합니다 | Microsoft.Network/loadBalancers/read | 예 | 예 | 아니요 
 
 
 | Microsoft.Network/loadBalancers/write | 예 | 아니요 | 아니요 
@@ -603,6 +604,9 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 
 
 | Microsoft.Network/loadBalancers/backendAddressPools/join/action | 예 | 아니요 | 아니요 
+
+
+| Microsoft.Network/loadBalancers/frontendIPConfigurations/read | 예 | 예 | 아니요 
 
 
 | Microsoft.Network/loadBalancers/loadBalancingRules/read | 예 | 아니요 | 아니요 
@@ -756,7 +760,6 @@ Connector는 BlueXP 계층화를 설정할 때 다음과 같은 API 요청을 �
 Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행합니다.
 
 * Microsoft.Storage/storageAccounts/blobServices/containers/read
-* Microsoft.Storage/storageAccounts/blobServices/containers/write
 * Microsoft.Storage/storageAccounts/managementPolicies/read를 참조하십시오
 * Microsoft.Storage/storageAccounts/managementPolicies/write를 참조하십시오
 * Microsoft.Storage/storageAccounts/read를 참조하십시오
@@ -767,6 +770,22 @@ Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2023년 5월 12일
+
+JSON 정책에는 Cloud Volumes ONTAP 관리에 필요한 다음과 같은 권한이 추가되었습니다.
+
+* Microsoft.Compute/images/write
+* Microsoft.Network/loadBalancers/frontendIPConfigurations/read
+
+
+다음 권한은 더 이상 필요하지 않으므로 JSON 정책에서 제거되었습니다.
+
+* Microsoft.Storage/storageAccounts/blobServices/containers/write
+* Microsoft.Network/publicIPAddresses/delete
+
 
 
 
@@ -791,27 +810,4 @@ JSON 정책에 다음 권한이 추가되었습니다.
 +
 이 권한은 Cloud Volumes ONTAP 배포에 필요합니다.
 
-
-
-
-
-=== 2022년 12월 1일
-
-JSON 정책에 다음 권한이 추가되었습니다.
-
-* Microsoft.Storage/storageAccounts/blobServices/containers/write
-+
-이 권한은 BlueXP 백업 및 복구 및 BlueXP 계층화에 필요합니다.
-
-* Microsoft.Network/publicIPAddresses/delete
-+
-이 권한은 BlueXP 백업 및 복구에 필요합니다.
-
-
-
-다음 권한은 더 이상 필요하지 않으므로 JSON 정책에서 제거되었습니다.
-
-* Microsoft.Compute/images/write
-* Microsoft.Network/loadBalancers/frontendIPConfigurations/read
-* Microsoft.Storage/storageAccounts/재생성 키/작업
 

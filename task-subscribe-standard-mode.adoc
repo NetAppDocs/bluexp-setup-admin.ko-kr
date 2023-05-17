@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-subscribe-standard-mode.html 
 keywords: subscribe, subscription, marketplace subscription, paygo, contract, annual contract 
-summary: 클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구입한 경우 PAYGO 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다. 
+summary: 클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구매한 경우 해당 마켓플레이스 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다. 
 ---
 = BlueXP 구독(표준 모드)
 :hardbreaks:
@@ -14,7 +14,18 @@ summary: 클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간
 
 
 [role="lead"]
-클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우 PAYGO 오퍼링을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.
+클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우에도 마켓플레이스 제품을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.
+
+마켓플레이스에 가입하면 다음 BlueXP 서비스에 대한 비용을 청구할 수 있습니다.
+
+* 백업 및 복구
+* 분류
+* Cloud Volumes ONTAP
+* 계층화
+
+
+.시작하기 전에
+BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 마켓플레이스 구독을 연결해야 합니다. "표준 모드 시작" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 참조하십시오 link:task-quick-start-standard-mode.html["표준 모드에서 BlueXP를 빠르게 시작합니다"].
 
 [role="tabbed-block"]
 ====
@@ -23,6 +34,9 @@ summary: 클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
 . 자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.
++
+Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.
+
 +
 image:screenshot_associate_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
@@ -63,6 +77,9 @@ video::video_subscribing_aws.mp4[width=848,height=480]
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
 . 자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.
++
+Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.
+
 +
 image:screenshot_azure_add_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
@@ -117,7 +134,7 @@ image:screenshot_gcp_associate.gif["Google Cloud 자격 증명을 위해 선택�
 NOTE: 다음 단계를 완료하기 전에 Google Cloud 계정과 BlueXP 로그인에 Billing Admin 권한이 모두 있는지 확인하십시오.
 
 +
-.. 로 리디렉션된 후 https://console.cloud.google.com/marketplace/product/netapp-cloudmanager/cloud-manager["Google Cloud 마켓플레이스의 NetApp BlueXP 페이지"^]상단 탐색 메뉴에서 올바른 프로젝트가 선택되어 있는지 확인합니다.
+.. 로 리디렉션된 후 https://["Google Cloud 마켓플레이스의 NetApp BlueXP 페이지"^]상단 탐색 메뉴에서 올바른 프로젝트가 선택되어 있는지 확인합니다.
 +
 image:screenshot_gcp_cvo_marketplace.png["Google Cloud의 Cloud Volumes ONTAP 마켓플레이스 페이지 스크린샷"]
 
@@ -137,7 +154,7 @@ image:screenshot_gcp_marketplace_register.png["등록 팝업 스크린샷."]
 .. 구독 할당 * 페이지의 단계를 완료합니다.
 +
 
-NOTE: 조직의 누군가가 청구 계정에서 NetApp BlueXP 구독을 이미 구독한 경우 으로 리디렉션됩니다 https://bluexp.netapp.com/ontap-cloud?x-gcp-marketplace-token=["BlueXP 웹 사이트의 Cloud Volumes ONTAP 페이지"^] 대신 예기치 않은 상황인 경우 NetApp 세일즈 팀에 문의하십시오. Google은 Google 청구 계정당 하나의 가입만 활성화합니다.
+NOTE: 조직의 누군가가 청구 계정에서 NetApp BlueXP 구독을 이미 구독한 경우 으로 리디렉션됩니다 https://["BlueXP 웹 사이트의 Cloud Volumes ONTAP 페이지"^] 대신 예기치 않은 상황인 경우 NetApp 세일즈 팀에 문의하십시오. Google은 Google 청구 계정당 하나의 가입만 활성화합니다.
 
 +
 *** 이 구독을 연결할 BlueXP 계정을 선택합니다.
@@ -166,3 +183,10 @@ image:screenshot_gcp_associate.gif["구독 할당 페이지의 스크린샷."]
 
 --
 ====
+.관련 링크
+* https://["Cloud Volumes ONTAP용 BYOL 용량 기반 라이센스 관리"^]
+* https://["BlueXP 데이터 서비스에 대한 BYOL 라이센스 관리"^]
+* https://["BlueXP에 대한 AWS 자격 증명 및 구독을 관리합니다"]
+* https://["BlueXP용 Azure 자격 증명 및 구독을 관리합니다"]
+* https://["BlueXP용 Google Cloud 자격 증명 및 구독을 관리합니다"]
+

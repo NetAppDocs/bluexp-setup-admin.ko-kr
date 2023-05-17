@@ -43,8 +43,8 @@ Connector가 구내에 설치된 경우 이 인증 방법을 사용해야 합니
 
 . IAM 사용자에게 정책을 연결합니다.
 +
-** https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create.html["AWS 설명서: IAM 역할 생성"^]
-** https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage-attach-detach.html["AWS 설명서: IAM 정책 추가 및 제거"^]
+** https://["AWS 설명서: IAM 역할 생성"^]
+** https://["AWS 설명서: IAM 정책 추가 및 제거"^]
 
 
 . 커넥터를 설치한 후 BlueXP에 추가할 수 있는 액세스 키가 사용자에게 있는지 확인합니다.
@@ -63,7 +63,7 @@ Connector가 사내에 설치된 경우 Azure Active Directory에 서비스 보�
 .역할 기반 액세스 제어를 위해 Azure Active Directory 응용 프로그램을 만듭니다
 . Azure에서 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당할 수 있는 권한이 있는지 확인합니다.
 +
-자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^].
+자세한 내용은 을 참조하십시오 https://["Microsoft Azure 문서: 필요한 권한"^].
 
 . Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.
 +
@@ -108,7 +108,7 @@ AD 응용 프로그램 및 서비스 보안 주체를 만들었습니다.
 다음 단계에서는 Azure Cloud Shell에서 Bash를 사용하여 역할을 생성하는 방법을 설명합니다.
 
 +
-*** 시작 https://docs.microsoft.com/en-us/azure/cloud-shell/overview["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
+*** 시작 https://["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
 *** JSON 파일을 업로드합니다.
 +
 image:screenshot_azure_shell_upload.png["파일을 업로드하는 옵션을 선택할 수 있는 Azure Cloud Shell의 스크린 샷"]

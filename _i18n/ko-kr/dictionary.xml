@@ -1811,7 +1811,6 @@
   <block id="ac692d638162a1dc479fa6a76fb4e114" category="list-text">Microsoft.Compute/images/write</block>
   <block id="61d40b12dddcd9e571bbe7a89b0fbae8" category="list-text">Microsoft.Network/loadBalancers/backendAddressPools/join/action</block>
   <block id="7c90682779ddf616c80c90bad703eddd" category="list-text">Microsoft.Network/loadBalancers/frontendIPConfigurations/read</block>
-  <block id="3af64a9cb34f4b06a9e496f1f6a05879" category="list-text">Microsoft.Storage/storageAccounts/재생성 키/작업</block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 BlueXP에서 사용할 수 있습니다.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾습니다.</block>
@@ -1891,7 +1890,6 @@
   <block id="a5b807c71b066c1d33685818cfa2806e" category="list-text">Microsoft.Synapse/작업 공간/privateEndpointConnectionsApproval/action</block>
   <block id="176944a9db0702558233e827d21e2f80" category="section-title">2023년 1월 5일</block>
   <block id="b73f51f05a3d7aca4e9b86bf6b66c214" category="paragraph">이 권한은 Cloud Volumes ONTAP 배포에 필요합니다.</block>
-  <block id="1d37387582eb7a955869d3991c1dab28" category="section-title">2022년 12월 1일</block>
   <block id="5847199ca78e66e581ccd10e8e88b057" category="list-text">Azure CLI를 사용하여 사용자 지정 역할을 생성합니다.</block>
   <block id="9fc1f8c97e791c3c5fa11f21f2c02740" category="list-text">BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합</block>
   <block id="184e70c253a2ad370c338775e7482497" category="list-text">사내 ONTAP 클러스터를 직접 검색</block>
@@ -3478,8 +3476,6 @@
   <block id="92b5575604daffe3be8d9be7e9eea83d" category="paragraph">Connector는 BlueXP 개선 기능을 사용할 때 Azure 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="826e9938777ea2a0280d06c76218f7c7" category="paragraph">Connector는 BlueXP 계층화를 설정할 때 다음과 같은 API 요청을 수행합니다.</block>
   <block id="6bf8cf4546732effc9436b03e26fd3ab" category="paragraph">BlueXP 분류에는 "Microsoft.Storage/storageAccounts/delete" 권한이 더 이상 필요하지 않습니다.</block>
-  <block id="56e09b1406b08f4b77233f0e7ec35a49" category="paragraph">이 권한은 BlueXP 백업 및 복구 및 BlueXP 계층화에 필요합니다.</block>
-  <block id="82492651a82d98ca83599fcd9c536c5d" category="paragraph">이 권한은 BlueXP 백업 및 복구에 필요합니다.</block>
   <block id="7cd82008ab5d353c3e33f87f49f92961" category="paragraph">Connector는 작업 환경을 만드는 데 필요하지 않지만 볼륨 생성 및 관리, 데이터 복제, ONTAP용 FSx를 BlueXP 분류 및 BlueXP 복사 및 동기화 등의 서비스와 통합해야 합니다.</block>
   <block id="60404bf35ed1506b74cc9cfac99f0818" category="paragraph">Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 않지만 Azure NetApp Files 데이터를 스캔하기 위해 BlueXP 분류를 사용하려면 커넥터가 필요합니다.</block>
   <block id="dd37176246e6abf3e559086afcadce82" category="paragraph">거의 모든 경우 커넥터 없이 디지털 지갑에 라이센스를 추가할 수 있습니다.</block>
@@ -3535,8 +3531,6 @@
   <block id="9345f603d48306b04203c8a77bc1ec43" category="summary">BlueXP 계정을 만들면 단일 관리자 사용자와 작업 영역만 포함됩니다. 사용자를 추가하고, 자동화를 위해 서비스 계정을 만들고, 작업 영역을 추가하는 등의 방법으로 조직의 요구에 맞게 계정을 관리할 수 있습니다.</block>
   <block id="c695b69dfd48e2e642e9cf48a8d3e483" category="inline-link-macro">BlueXP 계정의 작동 방식에 대해 알아보십시오</block>
   <block id="401598fa995f1173bd8b6d805a3761d0" category="paragraph"><block ref="5fbf8d815c8a85b58ff259c4d5123e15" category="inline-link-macro-rx"></block>.</block>
-  <block id="30f0924c2b9792580922ba2bb932268a" category="summary">클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구입한 경우 PAYGO 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
-  <block id="28737e110ddfecf7a0ee4cf74dc11735" category="paragraph">클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우 PAYGO 오퍼링을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
   <block id="771e18f961335c5b2ae045b3fefc3e80" category="summary">Connector의 AWS 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다.</block>
   <block id="5dba83ec70c57d2bf0180e542772a92f" category="summary">BlueXP에 등록하면 웹 기반 콘솔에서 로그인하여 데이터 및 스토리지 인프라 관리를 시작할 수 있습니다.</block>
   <block id="ee88a6eb4f7c0c45ebac21244e471cac" category="summary">Connector가 하이브리드 클라우드 환경 내의 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. 예를 들어 대상 네트워크에 대한 연결을 사용할 수 있고 아웃바운드 인터넷 액세스를 사용할 수 있는지 확인해야 합니다.</block>
@@ -3622,4 +3616,22 @@
   <block id="eebb9a8111d1623667243e7e41ed0e71" category="list-text">이미지의 운영 체제는 Ubuntu 22.04입니다.</block>
   <block id="ba5aa0edf5aca9e505ac70fc6e55851d" category="paragraph">BlueXP에서 커넥터를 배포한 경우 다음 사항에 유의하십시오.</block>
   <block id="09eadec3a9869ab363e913c06ab259a3" category="admonition">BlueXP에서 Connector를 만들면 Connector가 AWS 리소스를 관리할 수 있도록 Connector 인스턴스에 새 권한 집합이 적용됩니다.</block>
+  <block id="60a24477cd4bc1d96c88b21629d8cd7c" category="summary">클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구매한 경우 해당 마켓플레이스 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
+  <block id="f4abcc0682712b312b347ed2a4b32165" category="paragraph">클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우에도 마켓플레이스 제품을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
+  <block id="56246b5433f690a35c74ed45a296e993" category="paragraph">마켓플레이스에 가입하면 다음 BlueXP 서비스에 대한 비용을 청구할 수 있습니다.</block>
+  <block id="8219b1ea282823d830f661117796ac3d" category="paragraph">BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 마켓플레이스 구독을 연결해야 합니다. "표준 모드 시작" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 참조하십시오 <block ref="ce6d43255d920acadadb7e3862aee0b0" category="inline-link-macro-rx"></block>.</block>
+  <block id="7561d35e392b638f4fb5bc5f72459710" category="paragraph">Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.</block>
+  <block id="53043f0a6d597ccfe179296cc8ded9c0" category="inline-link">Cloud Volumes ONTAP용 BYOL 용량 기반 라이센스 관리</block>
+  <block id="fe58f6b68f2391f47e7f19d45735226a" category="list-text"><block ref="fe58f6b68f2391f47e7f19d45735226a" category="inline-link-rx"></block></block>
+  <block id="fe661ee4e3dd2d796b000bdbe116c002" category="inline-link">BlueXP 데이터 서비스에 대한 BYOL 라이센스 관리</block>
+  <block id="49056b2966eae66ee0345bbf80d6b8d6" category="list-text"><block ref="49056b2966eae66ee0345bbf80d6b8d6" category="inline-link-rx"></block></block>
+  <block id="a4821774f3941403655492bb82c492ca" category="list-text"><block ref="a4821774f3941403655492bb82c492ca" category="inline-link-rx"></block></block>
+  <block id="75c14ab09fd89f95714034d50258a6cc" category="list-text"><block ref="75c14ab09fd89f95714034d50258a6cc" category="inline-link-rx"></block></block>
+  <block id="95c435337a307137f163f5eb04ac01ad" category="list-text"><block ref="95c435337a307137f163f5eb04ac01ad" category="inline-link-rx"></block></block>
+  <block id="ba66b75d479f2289bcf99d989de6e0b1" category="paragraph">마켓플레이스에 가입하면 제한된 모드로 다음 BlueXP 서비스를 충전할 수 있습니다.</block>
+  <block id="d639d0a55c1a57a909ac7ffab5f941c6" category="paragraph">BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 마켓플레이스 구독을 연결해야 합니다. "제한된 모드로 시작하기" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 참조하십시오 <block ref="2d9421fac12c9ac9462f27b55d118c68" category="inline-link-macro-rx"></block>.</block>
+  <block id="c9d7cb56a51bc183eea92ab6ecce2997" category="section-title">2023년 5월 12일</block>
+  <block id="c8e8c3b324197dbdad9e21df5a435a35" category="paragraph">JSON 정책에는 Cloud Volumes ONTAP 관리에 필요한 다음과 같은 권한이 추가되었습니다.</block>
+  <block id="c7e8dc746d7263609202186d1ac75c65" category="inline-link-macro">Connector 인스턴스에 필요한 권한을 봅니다</block>
+  <block id="5a25157670ec0b889a34ec2b3905bc26" category="paragraph">이 정책은 BlueXP에서 AWS에서 Connector 인스턴스를 실행하는 데 필요한 권한만 포함합니다. <block ref="e99a10e3be28ba86573878700d04f6c5" category="inline-link-macro-rx"></block>.</block>
 </blocks>

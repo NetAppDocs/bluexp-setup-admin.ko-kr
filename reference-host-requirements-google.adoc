@@ -37,7 +37,7 @@ Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.
 하이퍼바이저:: Ubuntu, CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.
 +
 --
-https://access.redhat.com/certified-hypervisors["Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?"^]
+https://["Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?"^]
 
 --
 CPU:: 코어 4개 또는 vCPU 4개
@@ -45,10 +45,10 @@ RAM:: 14GB
 Google Cloud 컴퓨터 유형입니다:: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. n2-standard-4를 추천합니다.
 +
 --
-Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서 지원됩니다 https://cloud.google.com/compute/shielded-vm/docs/shielded-vm["차폐된 VM 기능"^]
+Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서 지원됩니다 https://["차폐된 VM 기능"^]
 
 --
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
-Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19.3.1 이상이 필요합니다. https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
+Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19.3.1 이상이 필요합니다. https://["설치 지침을 봅니다"^]
 

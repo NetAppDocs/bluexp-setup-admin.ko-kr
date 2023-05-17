@@ -54,7 +54,7 @@ AWS 서비스(amazonaws.com):
 * 보안 토큰 서비스(STS)
 * S3(Simple Storage Service)
 
-| 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^] 
+| 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://["자세한 내용은 AWS 설명서를 참조하십시오"^] 
 
 
 | https://management.azure.com\https://login.microsoftonline.com\https://blob.core.windows.net\https://core.windows.net | Azure 공공 지역의 리소스를 관리합니다. 
@@ -86,10 +86,10 @@ AWS 서비스(amazonaws.com):
 
 === 보안 그룹
 
-커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다. HTTP 및 HTTPS는 에 대한 액세스를 제공합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#the-local-user-interface["로컬 UI"]이는 드문 경우지만 사용할 수 있습니다. SSH는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.
+커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다. HTTP 및 HTTPS는 에 대한 액세스를 제공합니다 https://["로컬 UI"]이는 드문 경우지만 사용할 수 있습니다. SSH는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.
 
 
 
 === IP 주소 제한
 
-172 범위의 IP 주소와 충돌할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-limitations.html["이 제한 사항에 대해 자세히 알아보십시오"].
+172 범위의 IP 주소와 충돌할 수 있습니다. https://["이 제한 사항에 대해 자세히 알아보십시오"].

@@ -40,7 +40,7 @@ link:task-prepare-restricted-mode.html#prepare-cloud-permissions["AWS 권한을 
 
 
 .단계
-. 로 이동합니다 https://aws.amazon.com/marketplace/pp/B018REK8QG["AWS 마켓플레이스의 BlueXP 페이지"^]
+. 로 이동합니다 https://["AWS 마켓플레이스의 BlueXP 페이지"^]
 . Marketplace 페이지에서 * Continue to Subscribe * 를 클릭한 다음 * Continue to Configuration * 을 클릭합니다.
 +
 image:screenshot-subscribe-aws.png["AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷"]
@@ -151,8 +151,8 @@ link:task-prepare-restricted-mode.html#prepare-cloud-permissions["Azure 사용 �
 .단계
 . Azure 마켓플레이스에서 NetApp Connector VM 페이지로 이동합니다.
 +
-** https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.netapp-oncommand-cloud-manager["상용 지역에 대한 Azure Marketplace 페이지"^]
-** https://portal.azure.us/#create/netapp.netapp-oncommand-cloud-manageroccm-byol["Azure Government 지역의 Azure Marketplace 페이지"^]
+** https://["상용 지역에 대한 Azure Marketplace 페이지"^]
+** https://["Azure Government 지역의 Azure Marketplace 페이지"^]
 
 
 . 지금 받기 * 를 클릭한 다음 * 계속 * 을 클릭합니다.
@@ -171,7 +171,7 @@ image:screenshot-azure-sku.png["Azure에서 새 IP 주소 만들기 스크린샷
 대신 표준 SKU IP 주소를 사용하는 경우 BlueXP는 공용 IP 대신 Connector의 _private_ip 주소를 사용합니다. BlueXP 콘솔에 액세스하는 데 사용하는 시스템에서 해당 개인 IP 주소에 액세스할 수 없는 경우 BlueXP 콘솔의 작업이 실패합니다.
 
 +
-https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-addresses#sku["Azure 설명서: 공용 IP SKU"^]
+https://["Azure 설명서: 공용 IP SKU"^]
 
 ** * 네트워크 보안 그룹 *: Connector는 SSH, HTTP 및 HTTPS를 사용하는 인바운드 연결을 필요로 합니다.
 +
@@ -179,7 +179,7 @@ link:task-prepare-restricted-mode.html["네트워킹 요구 사항에 대해 알
 
 ** * ID *: * Management * 에서 * 시스템에서 할당한 관리 ID 활성화 * 를 선택합니다.
 +
-이 설정은 커넥터 가상 시스템이 자격 증명을 제공하지 않고 Azure Active Directory에 자신을 식별할 수 있도록 관리되는 ID를 허용하므로 중요합니다. https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["Azure 리소스의 관리 ID에 대해 자세히 알아보십시오"^].
+이 설정은 커넥터 가상 시스템이 자격 증명을 제공하지 않고 Azure Active Directory에 자신을 식별할 수 있도록 관리되는 ID를 허용하므로 중요합니다. https://["Azure 리소스의 관리 ID에 대해 자세히 알아보십시오"^].
 
 
 
@@ -229,7 +229,7 @@ unset https_proxy
 +
 이러한 시스템 변수를 제거하지 않으면 설치가 실패합니다.
 
-. 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]를 선택한 다음 Linux 호스트에 복사합니다.
+. 에서 Connector 소프트웨어를 다운로드합니다 https://["NetApp Support 사이트"^]를 선택한 다음 Linux 호스트에 복사합니다.
 +
 네트워크 또는 클라우드에서 사용하도록 고안된 "온라인" 커넥터 설치 프로그램을 다운로드해야 합니다. Connector에 대해 별도의 "오프라인" 설치 프로그램을 사용할 수 있지만 전용 모드 배포에서만 지원됩니다.
 
@@ -294,7 +294,7 @@ NOTE: 이미 계정이 있고 다른 계정을 만들려면 Tenancy API를 사�
 .단계
 . Connector 인스턴스에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
-https://_ipaddress_[]
+https://[]
 
 . BlueXP에 가입하거나 로그인합니다.
 . 로그인한 후 BlueXP를 설정합니다.
@@ -413,7 +413,7 @@ NOTE: BlueXP 오퍼레이터는 BlueXP 정책에 제공된 기본 이름입니�
 이전에 설정한 Azure 서비스 보안 주체에 대한 자격 증명을 BlueXP에 제공합니다.
 
 .단계
-. 로 이동합니다 https://console.bluexp.netapp.com["BlueXP 콘솔"^] 로그인한 다음
+. 로 이동합니다 https://["BlueXP 콘솔"^] 로그인한 다음
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
 +
 image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
@@ -445,7 +445,7 @@ image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아
 .단계
 . Google Cloud 포털로 이동하여 Connector VM 인스턴스에 서비스 계정을 할당합니다.
 +
-https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#changeserviceaccountandscopes["Google Cloud 설명서: 인스턴스에 대한 서비스 계정 및 액세스 범위 변경"^]
+https://["Google Cloud 설명서: 인스턴스에 대한 서비스 계정 및 액세스 범위 변경"^]
 
 . 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
 

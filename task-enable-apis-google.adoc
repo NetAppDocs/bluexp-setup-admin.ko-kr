@@ -32,4 +32,4 @@ Google Cloud에서 Connector 및 Cloud Volumes ONTAP를 배포하기 전에 여�
 
 
 
-https://cloud.google.com/apis/docs/getting-started#enabling_apis["Google Cloud 설명서: API 활성화"^]
+https://["Google Cloud 설명서: API 활성화"^]

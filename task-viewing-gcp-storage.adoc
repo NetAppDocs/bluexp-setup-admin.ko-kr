@@ -33,7 +33,7 @@ image:screenshot-gcp-cloud-storage-actions.png["Google Cloud Storage 작업 환�
 
 . Google Cloud Storage 버킷과 데이터를 동기화하려면 * 데이터 동기화 * 를 선택하십시오.
 +
-자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["BlueXP 복사 및 동기화에 대한 개요입니다"^]
+자세한 내용은 을 참조하십시오 https://["BlueXP 복사 및 동기화에 대한 개요입니다"^]
 
 . Google 계정의 버킷에 대한 세부 정보를 보려면 * 작업 환경 입력 * 을 선택하십시오.
 +

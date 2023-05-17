@@ -115,13 +115,13 @@ includedPermissions:
 gcloud iam 역할은 connectorDeployment를 생성합니다.- project=MyProject--file=connector-deployment.yAML
 
 +
-https://cloud.google.com/iam/docs/creating-custom-roles#iam-custom-roles-create-gcloud["Google Cloud docs: 사용자 지정 역할 생성 및 관리"^]
+https://["Google Cloud docs: 사용자 지정 역할 생성 및 관리"^]
 
 
 
 . BlueXP에서 Connector를 배포하거나 gcloud를 사용하는 사용자에게 이 사용자 지정 역할을 할당합니다.
 +
-https://cloud.google.com/iam/docs/granting-changing-revoking-access#grant-single-role["Google Cloud docs: 단일 역할 부여"^]
+https://["Google Cloud docs: 단일 역할 부여"^]
 
 
 
@@ -148,7 +148,7 @@ Google Cloud에서 BlueXP가 리소스를 관리하는 데 필요한 권한을 C
 gcloud iam 역할은 커넥터 생성 -- project=MyProject -- file=connector.yAML
 
 +
-https://cloud.google.com/iam/docs/creating-custom-roles#iam-custom-roles-create-gcloud["Google Cloud docs: 사용자 지정 역할 생성 및 관리"^]
+https://["Google Cloud docs: 사용자 지정 역할 생성 및 관리"^]
 
 
 
@@ -159,7 +159,7 @@ https://cloud.google.com/iam/docs/creating-custom-roles#iam-custom-roles-create-
 .. 방금 만든 역할을 선택합니다.
 .. 나머지 단계를 완료해서 역할을 만듭니다.
 +
-https://cloud.google.com/iam/docs/creating-managing-service-accounts#creating_a_service_account["Google Cloud docs: 서비스 계정 생성"^]
+https://["Google Cloud docs: 서비스 계정 생성"^]
 
 
 
@@ -187,7 +187,7 @@ Connector VM에 대한 서비스 계정이 설정되어 있습니다.
 
 
 
-자세한 내용은 을 참조하십시오 https://cloud.google.com/iam/docs/granting-changing-revoking-access#grant-single-role["Google Cloud 설명서"^]
+자세한 내용은 을 참조하십시오 https://["Google Cloud 설명서"^]
 
 
 

@@ -73,8 +73,8 @@ link:task-set-up-permissions-azure.html["이러한 각 옵션에 대한 단계�
 
 [role="quick-margin-list"]
 * * BlueXP *: 커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.
-* * Azure Marketplace * 에서 로 이동합니다 https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.netapp-oncommand-cloud-manager["Azure 마켓플레이스의 NetApp Connector VM 페이지"^] 메시지에 따라 Connector VM을 생성합니다.
-* * 수동 설치 *: 에서 커넥터 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"] 설치 스크립트를 실행합니다.
+* * Azure Marketplace * 에서 로 이동합니다 https://["Azure 마켓플레이스의 NetApp Connector VM 페이지"^] 메시지에 따라 Connector VM을 생성합니다.
+* * 수동 설치 *: 에서 커넥터 소프트웨어를 다운로드합니다 https://["NetApp Support 사이트"] 설치 스크립트를 실행합니다.
 
 
 [role="quick-margin-para"]

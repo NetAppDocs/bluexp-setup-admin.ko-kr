@@ -25,54 +25,54 @@ BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네
 스토리지:: AWS, Azure, Google Cloud 또는 온프레미스에 상관없이 스토리지를 검색, 구축, 관리할 수 있습니다.
 +
 --
-* 설정 및 사용 https://bluexp.netapp.com/ontap-cloud["Cloud Volumes ONTAP"^] 클라우드 전반에서 효율적인 멀티 프로토콜 데이터 관리
+* 설정 및 사용 https://["Cloud Volumes ONTAP"^] 클라우드 전반에서 효율적인 멀티 프로토콜 데이터 관리
 * 클라우드 파일 스토리지 서비스 설정 및 사용:
 +
-** https://bluexp.netapp.com/azure-netapp-files["Azure NetApp Files"^]
-** https://bluexp.netapp.com/fsx-for-ontap["ONTAP용 Amazon FSx"^]
-** https://bluexp.netapp.com/cloud-volumes-service-for-gcp["Google Cloud용 Cloud Volumes Service"^]
+** https://["Azure NetApp Files"^]
+** https://["ONTAP용 Amazon FSx"^]
+** https://["Google Cloud용 Cloud Volumes Service"^]
 
 
-* 검색 및 관리 https://bluexp.netapp.com/netapp-on-premises["높지 않습니다"^]:
+* 검색 및 관리 https://["높지 않습니다"^]:
 +
 ** E-Series 시스템
 ** ONTAP 클러스터
 ** StorageGRID 시스템
 
 
-* 데이터 오케스트레이션 및 보호 https://bluexp.netapp.com/solutions/kubernetes["Kubernetes 영구 데이터"^]
+* 데이터 오케스트레이션 및 보호 https://["Kubernetes 영구 데이터"^]
 
 
 --
 이동성:: 데이터를 동기화, 복사, 계층화 및 캐싱하여 필요한 위치로 데이터를 이동합니다.
 +
 --
-* https://bluexp.netapp.com/cloud-sync-service["복사 및 동기화"^]
-* https://bluexp.netapp.com/global-file-cache["에지 캐싱"^]
-* https://bluexp.netapp.com/cloud-tiering["계층화"^]
+* https://["복사 및 동기화"^]
+* https://["에지 캐싱"^]
+* https://["계층화"^]
 
 
 --
 보호:: 자동화된 보호 메커니즘을 사용하여 데이터 손실, 계획되지 않은 운영 중단, 랜섬웨어 및 기타 사이버 위협으로부터 데이터를 보호합니다.
 +
 --
-* https://bluexp.netapp.com/cloud-backup["백업 및 복구"^]
-* https://bluexp.netapp.com/replication["복제"^]
+* https://["백업 및 복구"^]
+* https://["복제"^]
 
 
 --
 분석 및 제어:: 툴을 사용하여 데이터 스토리지 및 인프라를 모니터링, 매핑 및 최적화할 수 있습니다.
 +
 --
-* https://bluexp.netapp.com/netapp-cloud-data-sense["분류"^]
-* https://bluexp.netapp.com/digital-advisor["디지털 자문업체"^]
-* https://bluexp.netapp.com/ransomware-protection["랜섬웨어 보호"^]
+* https://["분류"^]
+* https://["디지털 자문업체"^]
+* https://["랜섬웨어 보호"^]
 
 
 --
 
 
-https://bluexp.netapp.com/["BlueXP를 사용하여 조직에 도움을 주는 방법에 대해 자세히 알아보십시오"^]
+https://["BlueXP를 사용하여 조직에 도움을 주는 방법에 대해 자세히 알아보십시오"^]
 
 
 
@@ -84,7 +84,7 @@ BlueXP를 사용하면 Amazon Web Services, Microsoft Azure 및 Google Cloud에�
 
 == 비용
 
-BlueXP의 가격은 사용할 서비스에 따라 다릅니다. https://bluexp.netapp.com/pricing["BlueXP 가격에 대해 알아보십시오"^]
+BlueXP의 가격은 사용할 서비스에 따라 다릅니다. https://["BlueXP 가격에 대해 알아보십시오"^]
 
 
 
@@ -96,7 +96,7 @@ BlueXP에는 SaaS 계층을 통해 제공되는 웹 기반 콘솔, 멀티 테넌
 
 === 서비스형 소프트웨어
 
-BlueXP는 을 통해 액세스할 수 있습니다 https://console.bluexp.netapp.com["웹 기반 콘솔"^] API를 사용해 보십시오. 이 SaaS 환경을 통해 최신 기능이 릴리스될 때 자동으로 액세스할 수 있으며 BlueXP 계정과 커넥터 간에 쉽게 전환할 수 있습니다.
+BlueXP는 을 통해 액세스할 수 있습니다 https://["웹 기반 콘솔"^] API를 사용해 보십시오. 이 SaaS 환경을 통해 최신 기능이 릴리스될 때 자동으로 액세스할 수 있으며 BlueXP 계정과 커넥터 간에 쉽게 전환할 수 있습니다.
 
 
 
@@ -128,4 +128,4 @@ link:concept-modes.html["BlueXP 배포 모드에 대해 자세히 알아보십�
 
 독립적인 공인회계사 및 서비스 감사원이 BlueXP를 조사하여 해당 신뢰 서비스 기준에 따라 SOC 2 Type 2 보고서를 획득하였다는 것을 확인했습니다.
 
-https://www.netapp.com/company/trust-center/compliance/soc-2/["NetApp의 SOC 2 보고서 보기"^]
+https://["NetApp의 SOC 2 보고서 보기"^]

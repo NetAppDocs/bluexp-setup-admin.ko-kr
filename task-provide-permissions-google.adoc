@@ -23,7 +23,7 @@ BlueXP에서 직접 커넥터를 배포했거나 gcloud를 사용하는 경우�
 .단계
 . Google Cloud 포털로 이동하여 Connector VM 인스턴스에 서비스 계정을 할당합니다.
 +
-https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#changeserviceaccountandscopes["Google Cloud 설명서: 인스턴스에 대한 서비스 계정 및 액세스 범위 변경"^]
+https://["Google Cloud 설명서: 인스턴스에 대한 서비스 계정 및 액세스 범위 변경"^]
 
 . 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
 

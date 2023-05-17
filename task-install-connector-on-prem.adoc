@@ -56,7 +56,7 @@ unset https_proxy
 +
 이러한 시스템 변수를 제거하지 않으면 설치가 실패합니다.
 
-. 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^]를 선택한 다음 Linux 호스트에 복사합니다.
+. 에서 Connector 소프트웨어를 다운로드합니다 https://["NetApp Support 사이트"^]를 선택한 다음 Linux 호스트에 복사합니다.
 +
 네트워크 또는 클라우드에서 사용하도록 고안된 "온라인" 커넥터 설치 프로그램을 다운로드해야 합니다. Connector에 대해 별도의 "오프라인" 설치 프로그램을 사용할 수 있지만 전용 모드 배포에서만 지원됩니다.
 
@@ -113,7 +113,7 @@ cacert는 Connector와 프록시 서버 간의 HTTPS 액세스에 사용할 CA �
 .단계
 . 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
-https://_ipaddress_[]
+https://[]
 
 +
 _ipaddress_는 호스트 구성에 따라 localhost, 개인 IP 주소 또는 공용 IP 주소일 수 있습니다. 예를 들어, Connector가 공용 IP 주소가 없는 공용 클라우드에 있는 경우 Connector 호스트에 대한 연결이 있는 호스트의 전용 IP 주소를 입력해야 합니다.

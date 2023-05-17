@@ -80,19 +80,19 @@ Connector가 실행되는 Linux VM에 연결해야 하는 경우 클라우드 �
 설치하고:: AWS에서 Connector 인스턴스를 생성한 경우 AWS 액세스 키와 암호 키를 제공했습니다. 이 키 쌍을 사용하여 인스턴스에 SSH를 사용할 수 있습니다.
 +
 --
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html["AWS Docs: Linux 인스턴스에 연결합니다"^]
+https://["AWS Docs: Linux 인스턴스에 연결합니다"^]
 
 --
 Azure를 지원합니다:: Azure에서 Connector VM을 생성한 경우 암호 또는 SSH 공개 키로 인증하도록 선택했습니다. VM에 연결하도록 선택한 인증 방법을 사용합니다.
 +
 --
-https://docs.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys#ssh-into-your-vm["Azure Docs: VM에 SSH를 연결합니다"^]
+https://["Azure Docs: VM에 SSH를 연결합니다"^]
 
 --
 Google 클라우드:: Google Cloud에서 Connector를 만들 때는 인증 방법을 지정할 수 없습니다. 그러나 Google Cloud Console 또는 Google Cloud CLI(gcloud)를 사용하여 Linux VM 인스턴스에 연결할 수 있습니다.
 +
 --
-https://cloud.google.com/compute/docs/instances/connecting-to-instance["Google Cloud Docs: Linux VM에 연결합니다"^]
+https://["Google Cloud Docs: Linux VM에 연결합니다"^]
 
 --
 
@@ -109,7 +109,7 @@ https://cloud.google.com/compute/docs/instances/connecting-to-instance["Google C
 NOTE: 인터넷에 액세스할 수 있는 호스트에서 Connector는 소프트웨어 업데이트를 얻기 위해 아웃바운드 인터넷 액세스가 가능한 한 소프트웨어를 최신 버전으로 자동 업데이트합니다.
 
 .단계
-. 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^].
+. 에서 Connector 소프트웨어를 다운로드합니다 https://["NetApp Support 사이트"^].
 . Linux 호스트에 설치 프로그램을 복사합니다.
 . 스크립트를 실행할 권한을 할당합니다.
 +
@@ -192,7 +192,7 @@ maxDownloadSessions_ 값은 1이거나 1보다 큰 정수일 수 있습니다. �
 
 
 
-https://docs.netapp.com/us-en/cloud-manager-automation/cm/api_ref_resources.html#occmconfig["/occm/config API 호출에 대해 자세히 알아보십시오"^]
+https://["/occm/config API 호출에 대해 자세히 알아보십시오"^]
 
 
 

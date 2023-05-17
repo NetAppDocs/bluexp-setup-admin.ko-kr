@@ -29,7 +29,7 @@ Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명�
 .단계
 . 웹 브라우저를 열고 다음 URL을 입력합니다.
 +
-https://_ipaddress_[]
+https://[]
 
 +
 _ipaddress_는 Connector를 설치한 호스트의 구성에 따라 localhost, 개인 IP 주소 또는 공용 IP 주소일 수 있습니다. 예를 들어, Connector 호스트에 접속되어 있는 호스트의 전용 IP 주소를 입력해야 할 수 있습니다.
