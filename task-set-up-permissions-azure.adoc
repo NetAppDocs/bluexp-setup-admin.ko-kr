@@ -142,7 +142,7 @@ NOTE: 이 정책은 BlueXP에서 Azure에서 Connector VM을 실행하는 데 �
 다음 단계에서는 Azure Cloud Shell에서 Bash를 사용하여 역할을 생성하는 방법을 설명합니다.
 
 +
-.. 시작 https://["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
+.. 시작 https://docs.microsoft.com/en-us/azure/cloud-shell/overview["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
 .. JSON 파일을 업로드합니다.
 +
 image:screenshot_azure_shell_upload.png["파일을 업로드하는 옵션을 선택할 수 있는 Azure Cloud Shell의 스크린 샷"]
@@ -203,7 +203,7 @@ Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하�
 .역할 기반 액세스 제어를 위해 Azure Active Directory 응용 프로그램을 만듭니다
 . Azure에서 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당할 수 있는 권한이 있는지 확인합니다.
 +
-자세한 내용은 을 참조하십시오 https://["Microsoft Azure 문서: 필요한 권한"^].
+자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^].
 
 . Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.
 +
@@ -317,7 +317,7 @@ Azure Marketplace에서 Connector를 배포하거나 자신의 Linux 호스트�
 .단계
 . 소프트웨어를 자체 호스트에 수동으로 설치하려는 경우 사용자 지정 역할을 통해 필요한 Azure 권한을 제공할 수 있도록 VM에서 시스템에서 할당한 관리 ID를 사용하도록 설정합니다.
 +
-https://["Microsoft Azure 설명서: Azure 포털을 사용하여 VM의 Azure 리소스에 대해 관리되는 ID를 구성합니다"^]
+https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/qs-configure-portal-windows-vm["Microsoft Azure 설명서: Azure 포털을 사용하여 VM의 Azure 리소스에 대해 관리되는 ID를 구성합니다"^]
 
 . 의 내용을 복사합니다 link:reference-permissions-azure.html["Connector에 대한 사용자 지정 역할 권한"] JSON 파일에 저장합니다.
 . 할당 가능한 범위에 Azure 구독 ID를 추가하여 JSON 파일을 수정합니다.
@@ -340,7 +340,7 @@ https://["Microsoft Azure 설명서: Azure 포털을 사용하여 VM의 Azure �
 다음 단계에서는 Azure Cloud Shell에서 Bash를 사용하여 역할을 생성하는 방법을 설명합니다.
 
 +
-.. 시작 https://["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
+.. 시작 https://docs.microsoft.com/en-us/azure/cloud-shell/overview["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
 .. JSON 파일을 업로드합니다.
 +
 image:screenshot_azure_shell_upload.png["파일을 업로드하는 옵션을 선택할 수 있는 Azure Cloud Shell의 스크린 샷"]
@@ -368,7 +368,7 @@ Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하�
 .역할 기반 액세스 제어를 위해 Azure Active Directory 응용 프로그램을 만듭니다
 . Azure에서 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당할 수 있는 권한이 있는지 확인합니다.
 +
-자세한 내용은 을 참조하십시오 https://["Microsoft Azure 문서: 필요한 권한"^].
+자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^].
 
 . Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.
 +

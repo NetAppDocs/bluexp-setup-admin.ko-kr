@@ -18,7 +18,7 @@ summary: 표준 모드에서 BlueXP를 시작하고, 커넥터를 선택적으�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] 등록하고 계정을 만듭니다
 [role="quick-margin-para"]
-로 이동합니다 https://["BlueXP 콘솔"^] 을 클릭합니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다.
+로 이동합니다 https://console.bluexp.netapp.com["BlueXP 콘솔"^] 을 클릭합니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다.
 
 [role="quick-margin-para"]
 이 시점에서 로그인하면 디지털 어드바이저, ONTAP용 Amazon FSx, Azure NetApp Files 등과 같은 여러 BlueXP 서비스를 사용할 수 있습니다. link:concept-connectors.html["커넥터 없이 수행할 수 있는 작업을 알아보십시오"].

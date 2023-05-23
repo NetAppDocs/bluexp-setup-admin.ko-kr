@@ -66,7 +66,7 @@ Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.
 하이퍼바이저:: Ubuntu, CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.
 +
 --
-https://["Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?"^]
+https://access.redhat.com/certified-hypervisors["Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?"^]
 
 --
 CPU:: 코어 4개 또는 vCPU 4개
@@ -76,12 +76,12 @@ Azure VM 크기입니다:: 위의 CPU 및 RAM 요구 사항을 충족하는 인�
 Google Cloud 컴퓨터 유형입니다:: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. n2-standard-4를 추천합니다.
 +
 --
-Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서 지원됩니다 https://["차폐된 VM 기능"^]
+Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서 지원됩니다 https://cloud.google.com/compute/shielded-vm/docs/shielded-vm["차폐된 VM 기능"^]
 
 --
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
-Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19.3.1 이상이 필요합니다. https://["설치 지침을 봅니다"^]
+Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19.3.1 이상이 필요합니다. https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
 
 
 
@@ -134,7 +134,7 @@ AWS 서비스(amazonaws.com):
 * 보안 토큰 서비스(STS)
 * S3(Simple Storage Service)
 
-| 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://["자세한 내용은 AWS 설명서를 참조하십시오"^] 
+| 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^] 
 
 
 | https://management.azure.com\https://login.microsoftonline.com\https://blob.core.windows.net\https://core.windows.net | Azure 공공 지역의 리소스를 관리합니다. 
@@ -191,7 +191,7 @@ image:screenshot-azure-sku.png["Azure에서 새 IP 주소 만들기 스크린샷
 
 대신 표준 SKU IP 주소를 사용하는 경우 BlueXP는 공용 IP 대신 Connector의 _private_ip 주소를 사용합니다. BlueXP 콘솔에 액세스하는 데 사용하는 시스템에서 해당 개인 IP 주소에 액세스할 수 없는 경우 BlueXP 콘솔의 작업이 실패합니다.
 
-https://["Azure 설명서: 공용 IP SKU"^]
+https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-addresses#sku["Azure 설명서: 공용 IP SKU"^]
 
 
 
@@ -283,8 +283,8 @@ IAM 사용자에 대한 권한 및 액세스 키를 설정합니다. Connector�
 
 . IAM 사용자에게 정책을 연결합니다.
 +
-** https://["AWS 설명서: IAM 역할 생성"^]
-** https://["AWS 설명서: IAM 정책 추가 및 제거"^]
+** https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create.html["AWS 설명서: IAM 역할 생성"^]
+** https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage-attach-detach.html["AWS 설명서: IAM 정책 추가 및 제거"^]
 
 
 . 커넥터를 설치한 후 BlueXP에 추가할 수 있는 액세스 키가 사용자에게 있는지 확인합니다.
@@ -301,7 +301,7 @@ IAM 사용자에 대한 권한 및 액세스 키를 설정합니다. Connector�
 .단계
 . 소프트웨어를 자체 호스트에 수동으로 설치하려는 경우 사용자 지정 역할을 통해 필요한 Azure 권한을 제공할 수 있도록 에서 시스템에 할당된 관리 ID를 사용하도록 설정합니다.
 +
-https://["Microsoft Azure 설명서: Azure 포털을 사용하여 VM의 Azure 리소스에 대해 관리되는 ID를 구성합니다"^]
+https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/qs-configure-portal-windows-vm["Microsoft Azure 설명서: Azure 포털을 사용하여 VM의 Azure 리소스에 대해 관리되는 ID를 구성합니다"^]
 
 . 의 내용을 복사합니다 link:reference-permissions-azure.html["Connector에 대한 사용자 지정 역할 권한"] JSON 파일에 저장합니다.
 . 할당 가능한 범위에 Azure 구독 ID를 추가하여 JSON 파일을 수정합니다.
@@ -324,7 +324,7 @@ https://["Microsoft Azure 설명서: Azure 포털을 사용하여 VM의 Azure �
 다음 단계에서는 Azure Cloud Shell에서 Bash를 사용하여 역할을 생성하는 방법을 설명합니다.
 
 +
-.. 시작 https://["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
+.. 시작 https://docs.microsoft.com/en-us/azure/cloud-shell/overview["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
 .. JSON 파일을 업로드합니다.
 +
 image:screenshot_azure_shell_upload.png["파일을 업로드하는 옵션을 선택할 수 있는 Azure Cloud Shell의 스크린 샷"]
@@ -350,7 +350,7 @@ Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하�
 .역할 기반 액세스 제어를 위해 Azure Active Directory 응용 프로그램을 만듭니다
 . Azure에서 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당할 수 있는 권한이 있는지 확인합니다.
 +
-자세한 내용은 을 참조하십시오 https://["Microsoft Azure 문서: 필요한 권한"^].
+자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^].
 
 . Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.
 +
@@ -466,7 +466,7 @@ image:screenshot_azure_client_secret.gif["Azure AD 서비스 보안 주체에 �
 gcloud iam roles create connector --project=myproject --file=connector.yaml
 ----
 +
-https://["Google Cloud docs: 사용자 지정 역할 생성 및 관리"^]
+https://cloud.google.com/iam/docs/creating-custom-roles#iam-custom-roles-create-gcloud["Google Cloud docs: 사용자 지정 역할 생성 및 관리"^]
 
 
 
@@ -477,7 +477,7 @@ https://["Google Cloud docs: 사용자 지정 역할 생성 및 관리"^]
 .. 방금 만든 역할을 선택합니다.
 .. 나머지 단계를 완료해서 역할을 만듭니다.
 +
-https://["Google Cloud docs: 서비스 계정 생성"^]
+https://cloud.google.com/iam/docs/creating-managing-service-accounts#creating_a_service_account["Google Cloud docs: 서비스 계정 생성"^]
 
 
 
@@ -495,7 +495,7 @@ https://["Google Cloud docs: 서비스 계정 생성"^]
 Google Cloud에 Cloud Volumes ONTAP을 구축하려면 여러 API가 필요합니다.
 
 .단계
-. https://["프로젝트에서 다음 Google Cloud API를 활성화합니다"^]
+. https://cloud.google.com/apis/docs/getting-started#enabling_apis["프로젝트에서 다음 Google Cloud API를 활성화합니다"^]
 +
 ** Cloud Deployment Manager V2 API
 ** 클라우드 로깅 API

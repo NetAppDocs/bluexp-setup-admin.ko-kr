@@ -32,7 +32,7 @@ BlueXP에 새 AWS 자격 증명을 추가하면 BlueXP에서 커넥터를 생성
 
 * ONTAP용 FSx용 BlueXP에 AWS 자격 증명을 추가합니다
 +
-BlueXP에 새로운 AWS 자격 증명을 추가하면 ONTAP용 FSx를 생성 및 관리하는 데 필요한 권한이 BlueXP에 부여됩니다. https://["ONTAP용 FSx에 대한 사용 권한을 설정하는 방법에 대해 알아봅니다"^]
+BlueXP에 새로운 AWS 자격 증명을 추가하면 ONTAP용 FSx를 생성 및 관리하는 데 필요한 권한이 BlueXP에 부여됩니다. https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["ONTAP용 FSx에 대한 사용 권한을 설정하는 방법에 대해 알아봅니다"^]
 
 
 
@@ -106,12 +106,12 @@ Connector가 구내에 설치된 경우 이 인증 방법을 사용해야 합니
 .단계
 . IAM 콘솔에서 의 내용을 복사하여 붙여 넣어 정책을 생성합니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
 +
-https://["AWS 설명서: IAM 정책 생성"^]
+https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html["AWS 설명서: IAM 정책 생성"^]
 
 . IAM 역할 또는 IAM 사용자에 정책을 연결합니다.
 +
-** https://["AWS 설명서: IAM 역할 생성"^]
-** https://["AWS 설명서: IAM 정책 추가 및 제거"^]
+** https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create.html["AWS 설명서: IAM 역할 생성"^]
+** https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage-attach-detach.html["AWS 설명서: IAM 정책 추가 및 제거"^]
 
 
 
@@ -175,7 +175,7 @@ BlueXP SaaS 계층이 역할을 맡을 수 있도록 IAM 역할을 설정합니�
 ** 다른 AWS 계정 * 을 선택하고 BlueXP SaaS ID:952013314444를 입력합니다
 ** Connector를 만드는 데 필요한 권한을 포함하는 정책을 만듭니다.
 +
-*** https://["ONTAP용 FSx에 필요한 권한을 봅니다"^]
+*** https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["ONTAP용 FSx에 필요한 권한을 봅니다"^]
 *** link:task-set-up-permissions-aws.html["Connector 배포 정책을 봅니다"]
 
 
@@ -217,7 +217,7 @@ image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아
 
 == ONTAP용 Amazon FSx용 BlueXP에 자격 증명을 추가합니다
 
-자세한 내용은 를 참조하십시오 https://["ONTAP용 Amazon FSx에 대한 BlueXP 문서"^]
+자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["ONTAP용 Amazon FSx에 대한 BlueXP 문서"^]
 
 
 

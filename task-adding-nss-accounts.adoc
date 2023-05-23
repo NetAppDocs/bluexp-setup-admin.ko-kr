@@ -91,10 +91,10 @@ NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련�
 .다음 단계
 이제 사용자는 새 Cloud Volumes ONTAP 시스템을 생성할 때, 기존 Cloud Volumes ONTAP 시스템을 등록할 때, 그리고 지원을 위해 등록할 때 계정을 선택할 수 있습니다.
 
-* https://["AWS에서 Cloud Volumes ONTAP 실행"^]
-* https://["Azure에서 Cloud Volumes ONTAP 실행"^]
-* https://["Google Cloud에서 Cloud Volumes ONTAP 실행"^]
-* https://["선불 종량제 시스템을 등록하는 중입니다"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS에서 Cloud Volumes ONTAP 실행"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure에서 Cloud Volumes ONTAP 실행"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud에서 Cloud Volumes ONTAP 실행"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-registering.html["선불 종량제 시스템을 등록하는 중입니다"^]
 
 
 
@@ -104,7 +104,7 @@ NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련�
 2021년 11월부터 NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다. 이 업데이트의 결과로 BlueXP는 이전에 추가한 기존 계정의 자격 증명을 업데이트하라는 메시지를 표시합니다.
 
 .단계
-. 아직 수행하지 않았다면 https://["현재 BlueXP 계정에 연결할 Microsoft Azure Active Directory B2C 계정을 만듭니다"^].
+. 아직 수행하지 않았다면 https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/FAQs_for_NetApp_adoption_of_MS_Azure_AD_B2C_for_login["현재 BlueXP 계정에 연결할 Microsoft Azure Active Directory B2C 계정을 만듭니다"^].
 . BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.
 . NSS 관리 * 를 선택합니다.
 . 업데이트할 NSS 계정의 경우 * 계정 업데이트 * 를 선택합니다.

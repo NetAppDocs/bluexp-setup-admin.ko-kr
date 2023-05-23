@@ -33,7 +33,7 @@ image:screenshot-azure-actions.png["Azure Blob 작업 환경을 선택한 후의
 
 . Azure Blob 저장소와 데이터를 동기화하려면 * 데이터 동기화 * 를 선택합니다.
 +
-자세한 내용은 을 참조하십시오 https://["BlueXP 복사 및 동기화에 대한 개요입니다"^]
+자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["BlueXP 복사 및 동기화에 대한 개요입니다"^]
 
 . Azure Blob의 Azure 저장소 계정에 대한 세부 정보를 보려면 * 작업 환경 입력 * 을 선택합니다.
 +

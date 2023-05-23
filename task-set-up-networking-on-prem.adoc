@@ -68,7 +68,7 @@ AWS 서비스(amazonaws.com):
 * 보안 토큰 서비스(STS)
 * S3(Simple Storage Service)
 
-| 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://["자세한 내용은 AWS 설명서를 참조하십시오"^] 
+| 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^] 
 
 
 | https://management.azure.com \https://login.microsoftonline.com 으로 문의하십시오 | Azure 공공 지역의 리소스를 관리합니다. 
@@ -130,4 +130,4 @@ link:reference-networking-saas-console.html["BlueXP 콘솔에 대한 사용자 �
 
 == IP 주소 제한
 
-172 범위의 IP 주소와 충돌할 수 있습니다. https://["이 제한 사항에 대해 자세히 알아보십시오"].
+172 범위의 IP 주소와 충돌할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-limitations.html["이 제한 사항에 대해 자세히 알아보십시오"].

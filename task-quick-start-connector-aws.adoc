@@ -73,8 +73,8 @@ link:task-set-up-permissions-aws.html["단계별 지침을 따릅니다"].
 
 [role="quick-margin-list"]
 * * BlueXP *: 커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.
-* * AWS Marketplace * 에서 로 이동합니다 https://["AWS 마켓플레이스의 BlueXP 페이지"^] 표시되는 메시지에 따라 EC2를 실행하여 IAM 역할을 연결할 수 있습니다.
-* * 수동 설치 *: 에서 커넥터 소프트웨어를 다운로드합니다 https://["NetApp Support 사이트"] 설치 스크립트를 실행합니다.
+* * AWS Marketplace * 에서 로 이동합니다 https://aws.amazon.com/marketplace/pp/B018REK8QG["AWS 마켓플레이스의 BlueXP 페이지"^] 표시되는 메시지에 따라 EC2를 실행하여 IAM 역할을 연결할 수 있습니다.
+* * 수동 설치 *: 에서 커넥터 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"] 설치 스크립트를 실행합니다.
 
 
 [role="quick-margin-para"]
