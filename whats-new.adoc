@@ -42,7 +42,7 @@ https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#7-may-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#7-may-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -61,7 +61,7 @@ BlueXP_deployment mode_를 사용하면 비즈니스 및 보안 요구 사항을
 * 비공개 모드
 
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["이러한 배포 모드에 대해 자세히 알아보십시오"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["이러한 배포 모드에 대해 자세히 알아보십시오"].
 
 
 NOTE: 제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성화하는 옵션을 대체합니다. 계정 생성 시 제한 모드를 활성화할 수 있습니다. 나중에 활성화하거나 비활성화할 수 없습니다.
@@ -79,7 +79,7 @@ NOTE: 제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성
 알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법에 대해 알아봅니다"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법에 대해 알아봅니다"].
 
 * Connector는 현재 Google Cloud Turin 지역에서 지원됩니다.
 +
@@ -90,16 +90,16 @@ https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 설정 > 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-user-credentials.html["사용자 자격 증명을 관리하는 방법에 대해 알아봅니다"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-user-credentials.html["사용자 자격 증명을 관리하는 방법에 대해 알아봅니다"].
 
 * 이제 지원 케이스를 생성하거나 기존 지원 사례에 대한 케이스 메모를 업데이트할 때 첨부 파일을 업로드할 수 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manage-your-support-cases["지원 케이스를 생성하고 관리하는 방법에 대해 알아보십시오"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#manage-your-support-cases["지원 케이스를 생성하고 관리하는 방법에 대해 알아보십시오"].
 
 * 이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.
 +
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#3-april-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-** https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html#3-april-2023["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#3-april-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#3-april-2023["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
 
 
 
@@ -114,11 +114,11 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manag
 
 * 이제 BlueXP 콘솔에서 검색을 사용할 수 있습니다. 현재 검색을 사용하여 BlueXP 서비스 및 기능을 찾을 수 있습니다.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-search.png["콘솔 상단에 있는 BlueXP 검색 스크린샷."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-search.png["콘솔 상단에 있는 BlueXP 검색 스크린샷."]
 
 * BlueXP에서 직접 활성 및 해결된 지원 사례를 보고 관리할 수 있습니다. NSS 계정 및 회사와 관련된 케이스를 관리할 수 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manage-your-support-cases["지원 사례를 관리하는 방법에 대해 알아보십시오"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#manage-your-support-cases["지원 사례를 관리하는 방법에 대해 알아보십시오"].
 
 * Connector는 이제 인터넷으로부터 완전히 분리된 모든 클라우드 환경에서 지원됩니다. 그런 다음 커넥터에서 실행되는 BlueXP 콘솔을 사용하여 동일한 위치에 Cloud Volumes ONTAP를 배포하고 사내 ONTAP 클러스터를 검색할 수 있습니다(클라우드 환경에서 온-프레미스 환경으로 연결하는 경우). 또한 BlueXP 백업 및 복구를 사용하여 AWS 및 Azure 상용 지역의 Cloud Volumes ONTAP 볼륨을 백업할 수 있습니다. BlueXP 디지털 지갑을 제외하고 이러한 유형의 배포에는 다른 BlueXP 서비스가 지원되지 않습니다.
 +
@@ -128,10 +128,10 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manag
 시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, BlueXP 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.
 
 +
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["인터넷에 연결되지 않은 위치에 커넥터를 설치합니다"^]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#access-the-local-ui["커넥터의 BlueXP 콘솔에 액세스합니다"^]
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html#manage-byol-licenses["할당되지 않은 라이센스를 추가합니다"^]
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP를 시작하십시오"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-onprem-no-internet.html["인터넷에 연결되지 않은 위치에 커넥터를 설치합니다"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#access-the-local-ui["커넥터의 BlueXP 콘솔에 액세스합니다"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#manage-byol-licenses["할당되지 않은 라이센스를 추가합니다"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP를 시작하십시오"^]
 
 
 * 이제 Connector를 사용하여 BlueXP에서 Amazon S3 버킷을 추가하고 관리할 수 있습니다.
@@ -140,7 +140,7 @@ https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["BlueXP�
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-march-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#5-march-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -160,23 +160,23 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5
 
 
 +
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-login.png["전자 메일 주소를 입력하라는 메시지가 표시되는 BlueXP 로그인 페이지의 스크린 샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-login.png["전자 메일 주소를 입력하라는 메시지가 표시되는 BlueXP 로그인 페이지의 스크린 샷"]
 
 * BlueXP를 처음 사용하는 경우 기존 NetApp Support 사이트(NSS) 자격 증명이 있는 경우 등록 페이지를 건너뛰고 로그인 페이지에 직접 이메일 주소를 입력할 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.
 * 클라우드 공급자의 마켓플레이스에서 BlueXP를 구독하면 이제 하나의 계정에 대한 기존 구독을 새 구독으로 대체할 수 있습니다.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-aws-subscription.png["BlueXP 계정의 구독 할당을 보여 주는 스크린샷."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-aws-subscription.png["BlueXP 계정의 구독 할당을 보여 주는 스크린샷."]
 
 +
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#associate-an-aws-subscription["AWS 구독을 연결하는 방법을 알아보십시오"]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-azure-accounts.html#associating-an-azure-marketplace-subscription-to-credentials["Azure 구독을 연결하는 방법에 대해 알아봅니다"]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-gcp-accounts.html["Google Cloud 구독을 연결하는 방법을 알아보십시오"]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html#associate-an-aws-subscription["AWS 구독을 연결하는 방법을 알아보십시오"]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-azure-accounts.html#associating-an-azure-marketplace-subscription-to-credentials["Azure 구독을 연결하는 방법에 대해 알아봅니다"]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-gcp-accounts.html["Google Cloud 구독을 연결하는 방법을 알아보십시오"]
 
 
 * 이제 BlueXP에서 커넥터 전원이 14일 이상 꺼졌으면 알려 줍니다.
 +
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["BlueXP 알림에 대해 알아보십시오"]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#connectors-should-remain-running["커넥터가 계속 작동하는 이유에 대해 알아보십시오"]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["BlueXP 알림에 대해 알아보십시오"]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#connectors-should-remain-running["커넥터가 계속 작동하는 이유에 대해 알아보십시오"]
 
 
 * Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리하는 데 필요한 권한을 포함하도록 Google Cloud용 커넥터 정책을 업데이트했습니다.
@@ -184,11 +184,11 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/mai
 compute.instances.updateNetworkInterface
 
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions-gcp.html["Connector에 대한 Google Cloud 권한을 봅니다"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-gcp.html["Connector에 대한 Google Cloud 권한을 봅니다"].
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-february-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#5-february-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -202,7 +202,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5
 
 이 커넥터 릴리스에는 Cloud Volumes ONTAP 개선 사항 및 버그 수정 사항이 포함되어 있습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1-january-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#1-january-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -216,8 +216,8 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1
 * Connector는 현재 Google Cloud 이스라엘 지역에서 지원됩니다.
 * 이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.
 +
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#4-december-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-** https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html#4-december-2022["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#4-december-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#4-december-2022["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
 
 
 
@@ -232,11 +232,11 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1
 
 * 이제 BlueXP용 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-subscriptions.html["구독을 관리하는 방법에 대해 알아봅니다"^]
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#6-november-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#6-november-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -244,7 +244,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#6
 
 == 2022년 11월 1일
 
-계정에 연결된 새로 고침 토큰이 3개월 후에 만료될 때 NetApp Support 사이트 계정과 연결된 자격 증명을 업데이트하라는 메시지가 Cloud Manager에 표시됩니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html#update-nss-credentials["NSS 계정 관리 방법에 대해 알아봅니다"^]
+계정에 연결된 새로 고침 토큰이 3개월 후에 만료될 때 NetApp Support 사이트 계정과 연결된 자격 증명을 업데이트하라는 메시지가 Cloud Manager에 표시됩니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html#update-nss-credentials["NSS 계정 관리 방법에 대해 알아봅니다"^]
 
 
 
@@ -257,11 +257,11 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#6
 * Connector 설치에 대한 최소 요구 사항(권한, 인증 및 네트워킹)을 충족하는 단계를 제공하는 _제품 내 가이드_를 추가하여 커넥터 배포 마법사를 개선했습니다.
 * 이제 Cloud Manager의 * 지원 대시보드 * 에서 NetApp 지원 케이스를 직접 생성할 수 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-get-help.html#netapp-support["사례를 만드는 방법을 알아봅니다"].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-get-help.html#netapp-support["사례를 만드는 방법을 알아봅니다"].
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#18-september-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#18-september-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -281,11 +281,11 @@ Canvas에서 * My Opportunities * 탭은 하이브리드 멀티 클라우드에�
 이번 초기 릴리즈에서는 My Opportunities를 통해 AWS 계정에서 기존 ONTAP 파일 시스템용 FSx를 검색할 수 있습니다.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-using-my-opportunities["내 기회를 사용하여 ONTAP용 FSx를 찾는 방법에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#discover-using-my-opportunities["내 기회를 사용하여 ONTAP용 FSx를 찾는 방법에 대해 알아보십시오"^]
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#31-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#31-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -299,9 +299,9 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#3
 
 문서 내에 Cloud Manager 정책을 직접 추가하여 문서를 업데이트했습니다. 즉, 이제 커넥터 및 Cloud Volumes ONTAP에 필요한 사용 권한을 설정하는 방법을 설명하는 단계와 함께 볼 수 있습니다. 이러한 정책은 이전에 NetApp Support 사이트의 페이지에서 액세스할 수 있었습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#create-an-iam-policy["다음은 Connector를 생성하는 데 사용되는 AWS IAM 역할 권한을 보여 주는 예입니다"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html#create-an-iam-policy["다음은 Connector를 생성하는 데 사용되는 AWS IAM 역할 권한을 보여 주는 예입니다"].
 
-또한 각 정책에 대한 링크를 제공하는 페이지도 만들었습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["Cloud Manager에 대한 사용 권한 요약을 봅니다"].
+또한 각 정책에 대한 링크를 제공하는 페이지도 만들었습니다. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["Cloud Manager에 대한 사용 권한 요약을 봅니다"].
 
 
 
@@ -313,11 +313,11 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors
 
 * Cloud Manager 인터페이스에 추가된 새로운 기능을 탐색하는 방법이 도입되었습니다. 이제 왼쪽 패널 위로 마우스를 이동하면 익숙한 Cloud Manager 기능을 모두 쉽게 찾을 수 있습니다.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-navigation.png["Cloud Manager의 새로운 좌측 탐색 메뉴를 보여주는 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-navigation.png["Cloud Manager의 새로운 좌측 탐색 메뉴를 보여주는 스크린샷"]
 
 * 이제 Cloud Manager를 구성하여 시스템에 로그인하지 않아도 중요한 시스템 작업을 이메일로 통지할 수 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["계정의 작업 모니터링에 대해 자세히 알아보십시오"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["계정의 작업 모니터링에 대해 자세히 알아보십시오"].
 
 * Cloud Manager는 이제 Amazon S3 지원과 비슷하게 Azure Blob 스토리지 및 Google Cloud Storage를 작업 환경으로 지원합니다.
 +
@@ -327,7 +327,7 @@ Azure 또는 Google Cloud에 Connector를 설치한 후 Cloud Manager는 이제 
 Azure Blob 작업 환경의 예는 다음과 같습니다.
 
 +
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-azure-blob-details.png["상위 수준의 개요와 스토리지 계정에 대한 자세한 정보를 볼 수 있는 Azure Blob 작업 환경을 보여 주는 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-azure-blob-details.png["상위 수준의 개요와 스토리지 계정에 대한 자세한 정보를 볼 수 있는 Azure Blob 작업 환경을 보여 주는 스크린샷"]
 
 * NetApp은 용량, 암호화 세부 정보 등과 같은 S3 버킷에 대한 자세한 정보를 제공하여 Amazon S3 작업 환경의 리소스 페이지를 재설계했습니다.
 * Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.
@@ -343,7 +343,7 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#2-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#2-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -375,8 +375,8 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 
 * 이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.
 +
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#7-june-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
-** https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html#7-june-2022["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#7-june-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#7-june-2022["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
 
 
 
@@ -412,10 +412,10 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 
 * Connector에 사용할 Google Cloud 서비스 계정을 선택하면 Cloud Manager에 각 서비스 계정과 연결된 이메일 주소가 표시됩니다. 이메일 주소를 보면 동일한 이름을 공유하는 서비스 계정을 쉽게 구별할 수 있습니다.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-google-cloud-service-account.png["서비스 계정 필드의 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-google-cloud-service-account.png["서비스 계정 필드의 스크린샷"]
 
 * 당사는 지원하는 OS를 통해 VM 인스턴스에서 Google Cloud의 Connector를 인증했습니다 https://cloud.google.com/compute/shielded-vm/docs/shielded-vm["차폐된 VM 기능"^]
-* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#2-may-2022["이러한 향상된 기능에 대해 알아보십시오"^]
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#2-may-2022["이러한 향상된 기능에 대해 알아보십시오"^]
 * Connector에서 Cloud Volumes ONTAP를 구축하려면 새로운 AWS 권한이 필요합니다.
 +
 이제 AZ(단일 가용성 영역)에 HA 쌍을 구축할 때 AWS 분산 배치 그룹을 생성하려면 다음 권한이 필요합니다.
@@ -444,9 +444,9 @@ Cloud Manager에 추가한 각 AWS 자격 증명 세트에 이러한 권한을 �
 
 * 이제 Cloud Manager가 사용자 환경에서 설정한 IAM 역할을 가정하도록 하여 Connector를 생성할 수 있습니다. 이 인증 방법은 AWS 액세스 키와 비밀 키를 공유하는 것보다 더 안전합니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["IAM 역할을 사용하여 커넥터를 생성하는 방법에 대해 알아봅니다"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["IAM 역할을 사용하여 커넥터를 생성하는 방법에 대해 알아봅니다"].
 
-* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#3-april-2022["이러한 향상된 기능에 대해 알아보십시오"^]
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#3-april-2022["이러한 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -458,7 +458,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors
 === 커넥터 3.9.16
 
 * Google Cloud에서 새 Connector를 만들면 Cloud Manager에 기존의 모든 방화벽 정책이 표시됩니다. 이전에는 Cloud Manager에 타겟 태그가 없는 정책이 표시되지 않았습니다.
-* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#27-february-2022["이러한 향상된 기능에 대해 알아보십시오"^]
+* 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#27-february-2022["이러한 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -469,7 +469,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors
 
 === 커넥터 3.9.15
 
-이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#30-january-2022["이러한 향상된 기능에 대해 알아보십시오"^]
+이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#30-january-2022["이러한 향상된 기능에 대해 알아보십시오"^]
 
 
 
@@ -481,7 +481,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors
 
 Connector가 퍼블릭 클라우드 환경 내에서 리소스와 프로세스를 관리하는 데 필요한 엔드포인트 수를 줄였습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["필요한 끝점 목록을 봅니다"]
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-checklist-cm.html["필요한 끝점 목록을 봅니다"]
 
 
 
@@ -489,7 +489,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.h
 
 Cloud Manager에서 AWS에 새 Connector를 구축하는 경우 이제 기본 마스터 키 또는 관리 키를 사용하여 Connector의 EBS 디스크를 암호화할 수 있습니다.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-disk-encryption.png["AWS에서 커넥터를 생성할 때 디스크 암호화 옵션을 보여 주는 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-connector-disk-encryption.png["AWS에서 커넥터를 생성할 때 디스크 암호화 옵션을 보여 주는 스크린샷"]
 
 
 
@@ -497,7 +497,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/mai
 
 이제 Cloud Manager에서 NetApp Support 사이트 계정과 연결된 이메일 주소를 표시할 수 있습니다.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-nss-display-email.png["이메일 주소를 표시할 수 있는 기능이 포함된 NetApp Support 사이트 계정의 작업 메뉴를 보여주는 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-nss-display-email.png["이메일 주소를 표시할 수 있는 기능이 포함된 NetApp Support 사이트 계정의 작업 메뉴를 보여주는 스크린샷"]
 
 
 
@@ -541,7 +541,7 @@ https://www.netapp.com/company/trust-center/compliance/soc-2/["NetApp의 SOC 2 �
 
 더 이상 Cloud Manager 커넥터를 프록시 서버로 사용하여 Cloud Volumes ONTAP에서 AutoSupport 메시지를 보낼 수 없습니다. 이 기능은 제거되었으며 더 이상 지원되지 않습니다. NAT 인스턴스 또는 환경의 프록시 서비스를 통해 AutoSupport 연결을 제공해야 합니다.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-verify-autosupport.html["Cloud Volumes ONTAP를 사용하여 AutoSupport를 확인하는 방법에 대해 자세히 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-verify-autosupport.html["Cloud Volumes ONTAP를 사용하여 AutoSupport를 확인하는 방법에 대해 자세히 알아보십시오"^]
 
 
 

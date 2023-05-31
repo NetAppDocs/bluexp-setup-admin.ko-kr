@@ -18,13 +18,13 @@ summary: 제한된 모드에서 BlueXP를 시작하고 실행한 후 제한된 �
 
 자세한 내용은 다음 서비스 설명서를 참조하십시오.
 
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/index.html["ONTAP용 Amazon FSx 문서"^]
-* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/index.html["Azure NetApp Files 문서"^]
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/index.html["백업 및 복구 문서"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/index.html["분류 문서"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP 문서"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/index.html["사내 ONTAP 클러스터 문서"^]
-* https://docs.netapp.com/us-en/cloud-manager-replication/index.html["복제 문서"^]
+* https://docs.netapp.com/us-en/bluexp-fsx-ontap/index.html["ONTAP용 Amazon FSx 문서"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/index.html["Azure NetApp Files 문서"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["백업 및 복구 문서"^]
+* https://docs.netapp.com/us-en/bluexp-classification/index.html["분류 문서"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP 문서"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["사내 ONTAP 클러스터 문서"^]
+* https://docs.netapp.com/us-en/bluexp-replication/index.html["복제 문서"^]
 
 
 .관련 링크

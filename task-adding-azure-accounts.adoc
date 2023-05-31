@@ -298,7 +298,7 @@ PAYGO(시간당 급여)로 Cloud Volumes ONTAP를 지불하려면 Azure 마켓�
 
 
 .결과
-이제 세부 정보 및 자격 증명 페이지에서 다른 자격 증명 집합으로 전환할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["새 작업 환경을 만들 때"^]
+이제 세부 정보 및 자격 증명 페이지에서 다른 자격 증명 집합으로 전환할 수 있습니다 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["새 작업 환경을 만들 때"^]
 
 image:screenshot_accounts_switch_azure.gif["세부 정보 및 amp;Credentials 페이지에서 자격 증명 편집 을 선택한 후 자격 증명 간에 선택을 보여 주는 스크린샷"]
 

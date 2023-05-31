@@ -24,7 +24,7 @@ link:concept-netapp-accounts.html["BlueXP 계정의 작동 방식에 대해 알�
 
 API 요청을 전송하여 계정 설정을 관리하려면 _Tenancy_API를 사용해야 합니다. 이 API는 Cloud Volumes ONTAP 작업 환경을 만들고 관리하는 데 사용하는 BlueXP API와 다릅니다.
 
-https://docs.netapp.com/us-en/cloud-manager-automation/tenancy/overview.html["Tenancy API에 대한 끝점을 봅니다"^]
+https://docs.netapp.com/us-en/bluexp-automation/tenancy/overview.html["Tenancy API에 대한 끝점을 봅니다"^]
 
 
 
@@ -148,9 +148,9 @@ image:screenshot-manage-account-settings.png["계정 드롭다운에서 사용�
 
 === 서비스 계정에 대한 베어러 토큰을 얻습니다
 
-를 API 호출하기 위해 https://docs.netapp.com/us-en/cloud-manager-automation/tenancy/overview.html["테넌시 API"^]서비스 계정에 대한 베어러 토큰을 얻어야 합니다.
+를 API 호출하기 위해 https://docs.netapp.com/us-en/bluexp-automation/tenancy/overview.html["테넌시 API"^]서비스 계정에 대한 베어러 토큰을 얻어야 합니다.
 
-https://docs.netapp.com/us-en/cloud-manager-automation/platform/create_service_token.html["서비스 계정 토큰을 만드는 방법에 대해 알아봅니다"^]
+https://docs.netapp.com/us-en/bluexp-automation/platform/create_service_token.html["서비스 계정 토큰을 만드는 방법에 대해 알아봅니다"^]
 
 
 

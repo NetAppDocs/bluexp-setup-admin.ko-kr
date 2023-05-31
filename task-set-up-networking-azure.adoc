@@ -28,7 +28,7 @@ Connector를 생성할 때 Connector가 상주할 VNET와 서브넷을 지정해
 
 커넥터는 해당 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포하거나 에 배포되어야 합니다 https://docs.microsoft.com/en-us/azure/availability-zones/cross-region-replication-azure#azure-cross-region-replication-pairings-for-all-geographies["Azure 지역 쌍"^] Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-enabling-private-link.html["Cloud Volumes ONTAP에서 Azure 프라이빗 링크를 사용하는 방법에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-enabling-private-link.html["Cloud Volumes ONTAP에서 Azure 프라이빗 링크를 사용하는 방법에 대해 알아보십시오"^]
 
 
 
@@ -131,4 +131,4 @@ NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있�
 
 == IP 주소 제한
 
-172 범위의 IP 주소와 충돌할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-limitations.html["이 제한 사항에 대해 자세히 알아보십시오"].
+172 범위의 IP 주소와 충돌할 수 있습니다. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-limitations.html["이 제한 사항에 대해 자세히 알아보십시오"].

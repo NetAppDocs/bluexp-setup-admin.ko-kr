@@ -17,7 +17,7 @@ summary: BlueXP를 개인 모드로 배포하기 전에 환경을 준비합니�
 BlueXP를 개인 모드로 배포하기 전에 환경을 준비합니다. 예를 들어 호스트 요구 사항을 검토하고, 네트워킹을 준비하고, 사용 권한을 설정하는 등의 작업을 수행해야 합니다.
 
 
-NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/us-intelligence-community/["AWS C2S(Commercial Cloud Services) 환경"^] 그런 다음 커넥터를 준비하고 설치한 다음 Cloud Volumes ONTAP를 시작하는 방법을 설명하는 별도의 지침을 따라야 합니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws-c2s.html["AWS C2S 환경에서 Cloud Volumes ONTAP를 시작하는 방법에 대해 알아보십시오"^]
+NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/us-intelligence-community/["AWS C2S(Commercial Cloud Services) 환경"^] 그런 다음 커넥터를 준비하고 설치한 다음 Cloud Volumes ONTAP를 시작하는 방법을 설명하는 별도의 지침을 따라야 합니다. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-aws-c2s.html["AWS C2S 환경에서 Cloud Volumes ONTAP를 시작하는 방법에 대해 알아보십시오"^]
 
 
 
