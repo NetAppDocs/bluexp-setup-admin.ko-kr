@@ -167,7 +167,8 @@ BlueXP가 AWS에서 Connector 인스턴스를 시작하면 Connector에 해당 A
                 "ce:GetCostAndUsage",
                 "ce:GetTags",
                 "fsx:Describe*",
-                "fsx:List*"
+                "fsx:List*",
+                "kms:GenerateDataKeyWithoutPlaintext"
             ],
             "Resource": "*",
             "Effect": "Allow",
@@ -1133,7 +1134,7 @@ Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다
 | S3:목록 버킷 | 아니요 | 예 | 아니요 
 
 
-.4+| AWS KMS(키 관리 서비스)를 사용하여 Cloud Volumes ONTAP의 데이터 암호화 지원 | KMS: 목록 * | 예 | 예 | 아니요 
+.5+| AWS KMS(키 관리 서비스)를 사용하여 Cloud Volumes ONTAP의 데이터 암호화 지원 | KMS: 목록 * | 예 | 예 | 아니요 
 
 
 | KMS: 재암호화 * | 예 | 아니요 | 아니요 
@@ -1143,6 +1144,9 @@ Connector는 AWS에서 Cloud Volumes ONTAP를 구축 및 관리하기 위해 다
 
 
 | KMS: CreateGrant | 예 | 예 | 아니요 
+
+
+| KMS: GenerateDataKeyWithoutPlaintext | 예 | 예 | 아니요 
 
 
 .4+| Cloud Volumes ONTAP의 AWS 비용 데이터 확보 | CE:GetReservationUtilization을 참조하십시오 | 아니요 | 예 | 아니요 
@@ -1218,6 +1222,14 @@ Connector는 BlueXP 치료 시 AWS 리소스의 태그를 관리하기 위해 �
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2023년 6월 6일
+
+이제 Cloud Volumes ONTAP에 대해 다음 권한이 필요합니다.
+
+KMS: GenerateDataKeyWithoutPlaintext
 
 
 

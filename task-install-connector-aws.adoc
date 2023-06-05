@@ -238,6 +238,9 @@ proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가
 ** http://username:password@address:port 으로 문의하십시오
 ** https://address:port 으로 문의하십시오
 ** https://username:password@address:port 으로 문의하십시오
++
+사용자는 로컬 사용자여야 합니다. 도메인 사용자는 지원되지 않습니다.
+
 
 
 +

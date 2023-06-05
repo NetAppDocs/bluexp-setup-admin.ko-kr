@@ -3667,4 +3667,8 @@
 마켓플레이스에서 Connector를 시작하는 경우 또는 수동으로 Connector를 설치하거나 정책을 직접 설정해야 합니다 <block ref="c5a34c273ba791769e2c0edbb9c79dc0" category="inline-link-macro-rx"></block>.
 
 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다.</block>
+  <block id="b9a11b90960ff803269429887ab4cff3" category="paragraph">사용자는 로컬 사용자여야 합니다. 도메인 사용자는 지원되지 않습니다.</block>
+  <block id="8773d2d5904a6b33e1f92e729d81f86b" category="cell">KMS: GenerateDataKeyWithoutPlaintext</block>
+  <block id="a05b5ce37ea267c22e70da731bcc3494" category="section-title">2023년 6월 6일</block>
+  <block id="14cbfe27bd7092d1b2ab4502adbdd584" category="paragraph">이제 Cloud Volumes ONTAP에 대해 다음 권한이 필요합니다.</block>
 </blocks>
