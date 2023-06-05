@@ -58,20 +58,22 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 표준 모드에서 BlueXP를 사용하는 경우 BlueXP의 다음 기능 및 서비스에 커넥터가 필요합니다.
 
 * ONTAP용 Amazon FSx 관리 기능
-* Amazon S3 검색
-* Azure Blob 검색
+* Amazon S3 스토리지
+* Azure Blob 저장소
 * 백업 및 복구
 * 분류
 * Cloud Volumes ONTAP
 * E-Series 시스템
 * 경제 효율성 ^1^
 * 에지 캐싱
-* Google Cloud Storage 검색
+* Google Cloud Storage 버킷
 * Kubernetes 클러스터
+* 마이그레이션 보고서
 * BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합
 * 작업 복구 ^1^
 * StorageGRID 시스템
 * 계층화
+* 볼륨 캐싱
 
 
 ^1^ 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.

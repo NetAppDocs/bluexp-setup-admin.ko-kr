@@ -966,9 +966,6 @@
   <block id="f63d604edef29843d35ad367e0d82814" category="inline-link">ONTAP용 FSx에 대한 사용 권한을 설정하는 방법에 대해 알아봅니다</block>
   <block id="875232e8c1abaa42024ddc396bcef6da" category="list-text">Connector를 만드는 데 필요한 권한을 포함하는 정책을 만듭니다.</block>
   <block id="8dbc816059e1b421ecb65c693d5f2171" category="paragraph">이제 새 커넥터를 만들 때 자격 증명을 사용할 수 있습니다.</block>
-  <block id="c3d36b4a46dce16b3ad60eecabc87582" category="list-text">Amazon S3 검색</block>
-  <block id="bde43e83db72512f1aea47540264c8f0" category="list-text">Azure Blob 검색</block>
-  <block id="6060e8f925263dfdc63a751c294072e0" category="list-text">Google Cloud Storage 검색</block>
   <block id="693adfb773a054f1c9287da186e8ce5d" category="list-text">EC2: CreateTags(태그 생성)</block>
   <block id="3a2cbdfb7b022d729d851d5052148241" category="list-text">EC2: 삭제 태그</block>
   <block id="684a1bfe5fbc91f18d96de978a7df58a" category="list-text">EC2: DescribeTags(설명 태그)</block>
@@ -3671,4 +3668,9 @@
   <block id="8773d2d5904a6b33e1f92e729d81f86b" category="cell">KMS: GenerateDataKeyWithoutPlaintext</block>
   <block id="a05b5ce37ea267c22e70da731bcc3494" category="section-title">2023년 6월 6일</block>
   <block id="14cbfe27bd7092d1b2ab4502adbdd584" category="paragraph">이제 Cloud Volumes ONTAP에 대해 다음 권한이 필요합니다.</block>
+  <block id="d79294e72dc3584cc12c98a7a931315d" category="list-text">Amazon S3 스토리지</block>
+  <block id="2b3e8f910d66604cd77f93b333670468" category="list-text">Azure Blob 저장소</block>
+  <block id="390e388eccc77b388b4d54d73b76f902" category="list-text">Google Cloud Storage 버킷</block>
+  <block id="ac7b3cf10ea08c788a374e0291742517" category="list-text">마이그레이션 보고서</block>
+  <block id="ff45d71e69fb5930de79de7c94326d7b" category="list-text">볼륨 캐싱</block>
 </blocks>
