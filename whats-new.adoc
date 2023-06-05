@@ -18,6 +18,58 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
+== 2023년 6월 4일
+
+
+
+=== 커넥터 3.9.30
+
+* 지원 대시보드에서 NetApp 지원 케이스를 열면 BlueXP에서 BlueXP 로그인과 연결된 NetApp Support 사이트 계정을 사용하여 케이스를 엽니다. BlueXP는 이전에 전체 BlueXP 계정과 연결된 NetApp Support 사이트 계정을 사용했습니다.
++
+이 변경 사항의 일환으로 BlueXP 계정에 대한 지원 등록은 사용자의 BlueXP 로그인과 연결된 NetApp Support 사이트 계정을 통해 수행됩니다. 이전에는 전체 BlueXP 계정과 연결된 NSS 계정을 통해 지원 등록을 수행했습니다. 따라서 다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 이전에 BlueXP 계정을 등록한 경우 등록 상태는 여전히 유효합니다. 상태를 보려면 사용자 수준 NSS 계정만 추가하면 됩니다.
+
++
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["NetApp 지원을 통해 케이스를 생성하는 방법을 알아보십시오"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-user-credentials.html["BlueXP 로그인과 관련된 자격 증명을 관리하는 방법에 대해 알아봅니다"]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-support-registration.html["지원 등록 방법을 알아보십시오"]
+
+
+* 이제 BlueXP 내에서 문서를 검색할 수 있습니다. 이제 검색 결과에 docs.netapp.com 및 kb.netapp.com 있는 콘텐츠에 대한 링크가 제공됩니다. 이 링크를 클릭하면 궁금한 사항을 해결하는 데 도움이 될 수 있습니다.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-search-docs.png["콘솔 상단에 있는 BlueXP 검색 스크린샷."]
+
+* Connector는 이제 다음 AWS 지역에서 지원됩니다.
++
+** 하이데라바드(AP-남부-2)
+** 멜버른(AP-남동-4)
+** 스페인(EU-남부-2)
+** 아랍에미리트(ME-센트럴-1)
+** 취리히(EU-중부-2)
+
+
+* 이제 커넥터는 다음 Azure 지역에서 지원됩니다.
++
+** 브라질 남부
+** 프랑스 남쪽
+** Jio India Central을 참조하십시오
+** Jio India West
+** 폴란드 센트럴
+** 카타르 중부
+
+
+* Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.
++
+** 콜럼버스(us-east5)
+** 댈러스(us-south1)
+
+
++
+https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
+
+
+
+
+
 == 2023년 5월 7일
 
 
