@@ -189,8 +189,6 @@
   <block id="fee2d29ad57ecb4f5309060016b4495c" category="paragraph">다음 이미지는 위의 숫자 1과 2에 설명된 사용 권한 요구 사항을 보여 줍니다.</block>
   <block id="ebd7d1e81a9a2891e260eecaa709adbf" category="section-title">Cloud Volumes ONTAP 프로젝트</block>
   <block id="a4ccd00c9229d2a8510153f89f2a576a" category="paragraph">Cloud Volumes ONTAP는 Connector와 같은 프로젝트나 다른 프로젝트에 상주할 수 있습니다. 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려면 먼저 해당 프로젝트에 Connector 서비스 계정 및 역할을 추가해야 합니다.</block>
-  <block id="c5eb6c02a9d49411a265d5ddf6527796" category="inline-link-macro">서비스 계정 설정 방법에 대해 알아보십시오</block>
-  <block id="b2a3116602dffae5ec2500e053b897f2" category="list-text"><block ref="b2a3116602dffae5ec2500e053b897f2" category="inline-link-macro-rx"></block></block>
   <block id="9085e5686dfeb6405cc2917702710ed3" category="cell">알림 센터</block>
   <block id="3d1f92a565d3b1a61880236e33c49bf3" category="cell">타임라인</block>
   <block id="0486b07a3d352a89611f0005bff8bbd3" category="cell">이벤트 및 작업에 대한 상위 상태를 표시합니다</block>
@@ -1533,7 +1531,6 @@
   <block id="825a028e49bfdd88d5c17500e011aaf5" category="inline-image-macro">Azure 계정 및 구독에 Connector를 배포하는 BlueXP를 보여 주는 개념 이미지입니다. 시스템에서 할당한 관리 ID가 활성화되고 사용자 지정 역할이 Connector 가상 머신에 할당됩니다.</block>
   <block id="4ba8970a06f2fd9f7ce2b5459745a3f0" category="paragraph"><block ref="4ba8970a06f2fd9f7ce2b5459745a3f0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4b8d6d1554d22a2bda6470094c227037" category="paragraph">BlueXP는 Cloud Volumes ONTAP의 새 작업 환경을 만들 때 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.</block>
-  <block id="79f0e2a1f0b9a07786aae7969fdf941c" category="paragraph">그러면 됩니다 <block ref="fdb068e0f25207f010bf6b52e6d7dd53" category="inline-link-macro-rx"></block> AD 서비스 보안 주체에 대한 세부 정보를 제공합니다.</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">BlueXP에서 사용권 키를 업로드하고 구입한 용어에 대한 구독을 활성화하려면 NSS 계정을 제공해야 합니다. 여기에는 기간 갱신을 위한 자동 업데이트가 포함됩니다.</block>
   <block id="37cb0cdf24a1597d838bc5f1699b9e5a" category="list-text">계정은 사용자 수준에서 관리되므로 로그인한 다른 사용자가 볼 수 없습니다.</block>
   <block id="759f5e4f5dca6e6753e9254efed21ea1" category="paragraph">2021년 11월부터 NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다. 이 업데이트의 결과로 BlueXP는 이전에 추가한 기존 계정의 자격 증명을 업데이트하라는 메시지를 표시합니다.</block>
@@ -2158,7 +2155,6 @@
   <block id="a72a43431413f493c5087ab72327a680" category="list-text">SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
   <block id="3944b94e332ebaaeeb1f75ea267f7687" category="paragraph">BlueXP에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 나열됩니다 <block ref="215c62f8f7b8f0001687c60d93a1178c" category="inline-link-macro-rx"></block>.</block>
   <block id="61d31e18d80b565c39bc938c02808e6f" category="paragraph">초기 Azure 자격 증명을 사용하여 모든 Cloud Volumes ONTAP 시스템을 배포하거나 추가 자격 증명을 추가할 수 있습니다.</block>
-  <block id="75904d63b29699480eda8c85929c78ee" category="paragraph">Connector VM에 할당된 시스템 할당 관리 ID는 Connector를 시작한 구독과 연결됩니다. 다른 Azure 구독을 선택하려면 를 수행해야 합니다 <block ref="fde23217a3c87d38cc57946a4ba7d7b4" category="inline-link-macro-rx"></block>.</block>
   <block id="008c03a90ac1fbf6c15706a19f919f3b" category="paragraph">BlueXP에서 다른 Azure 자격 증명을 사용하려면 에서 필요한 권한을 부여해야 합니다 <block ref="551303c9f711674f6fbd417b1f488bc0" category="inline-link-macro-rx"></block> 각 Azure 계정에 대해. 다음 그림에서는 두 개의 추가 계정을 보여 줍니다. 각 계정에는 권한을 제공하는 서비스 보안 주체와 사용자 지정 역할이 설정되어 있습니다.</block>
   <block id="eb99e348d38c212372a6e836f66f7356" category="paragraph">예를 들어, 새 Cloud Volumes ONTAP 작업 환경을 생성할 때 자격 증명 간에 전환할 수 있습니다.</block>
   <block id="018f02432b76c440f6d0c2a5da5a1a5d" category="paragraph">위 섹션에서는 BlueXP의 커넥터에 권장되는 배포 방법에 대해 설명합니다. Azure Marketplace에서 Connector를 배포할 수도 있고, 자신의 Linux 호스트에 Connector 소프트웨어를 설치할 수도 있습니다.</block>
@@ -2321,7 +2317,6 @@
   <block id="eec108a26c2c4c3392174c931352146b" category="cell">BlueXP에서 커넥터 배치</block>
   <block id="2d3fc94cd0898448a15e6e05f4098b6f" category="inline-link-macro">AWS 권한을 설정합니다</block>
   <block id="5e32b9a1412a74f0635b487d41937c4a" category="cell"><block ref="5e32b9a1412a74f0635b487d41937c4a" category="inline-link-macro-rx"></block></block>
-  <block id="d7977db2bcddda7e6cbf6cfc23b6278b" category="cell">BlueXP에서 Connector를 시작하면 해당 인스턴스에 정책을 연결하여 AWS 계정의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다. 마켓플레이스에서 Connector를 시작하는 경우 또는 수동으로 Connector를 설치하거나 정책을 직접 설정해야 합니다 <block ref="aec3821661a331ee5026b7ddbb2bcb98" category="inline-link-macro-rx"></block>. 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다.</block>
   <block id="8ff08eb12a4bed8d94e8682a89020c56" category="paragraph">마켓플레이스에서 Connector를 시작하는 경우 또는 수동으로 Connector를 설치하거나 사용자 정의 역할을 직접 설정해야 합니다 <block ref="3a714b4b67994f94abb2f77ce85a395b" category="inline-link-macro-rx"></block>.</block>
   <block id="cf94f172dc39ef92ca49e3c869407357" category="cell"><block ref="cf94f172dc39ef92ca49e3c869407357" category="inline-link-macro-rx"></block></block>
   <block id="8e83b819241a1bf1d918adcc453afeab" category="cell"><block ref="8e83b819241a1bf1d918adcc453afeab" category="inline-link-macro-rx"></block></block>
@@ -2430,10 +2425,8 @@
   <block id="c0f31a85c681cbd2946d5195b382308e" category="paragraph">다른 AWS 계정에서 Cloud Volumes ONTAP를 실행하려면 IAM 사용자에 대한 AWS 키나 신뢰할 수 있는 계정에서 역할의 ARN을 제공할 수 있습니다. 다음 이미지는 두 개의 추가 계정을 보여 줍니다. 하나는 신뢰할 수 있는 계정에서 IAM 역할을 통해 권한을 제공하고 다른 하나는 IAM 사용자의 AWS 키를 통해 권한을 제공합니다.</block>
   <block id="48c7f5d184d27ef640370421d3317ba5" category="paragraph">그런 다음 IAM 역할의 ARN(Amazon Resource Name)이나 IAM 사용자의 AWS 키를 지정하여 BlueXP에 계정 자격 증명을 추가합니다.</block>
   <block id="a6856ad65a90d33bc83bd78362d9bfce" category="inline-link-macro">기존 커넥터에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오.</block>
-  <block id="51c8ce8bb23533cdcf692a4e99f34896" category="paragraph"><block ref="51c8ce8bb23533cdcf692a4e99f34896" category="inline-link-macro-rx"></block></block>
   <block id="a3d00aa90b48860260586c7be1bec2e8" category="inline-link-macro">ONTAP용 Amazon FSx용 BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오</block>
   <block id="3e9d4cd6e63ede4decfd24e1cd55b4f5" category="inline-link-macro">Connector를 생성하기 위해 BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오</block>
-  <block id="d53482083698aad0c56365a4b9848a94" category="list-text"><block ref="d53482083698aad0c56365a4b9848a94" category="inline-link-macro-rx"></block></block>
   <block id="3551bffff472d33de9e274227109232f" category="paragraph">위 섹션에서는 BlueXP의 커넥터에 권장되는 배포 방법에 대해 설명합니다. AWS Marketplace에서 Connector를 AWS에 구축할 수도 있고, 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치할 수도 있습니다.</block>
   <block id="c369edb322a8885a983610e18f932d0c" category="paragraph">온-프레미스 배포의 경우 BlueXP 시스템에 대해 IAM 역할을 설정할 수 없지만 AWS 액세스 키를 사용하여 권한을 제공할 수 있습니다.</block>
   <block id="b8c45dd3fc7b806721f81b6d91964231" category="summary">비공개 모드에서 BlueXP를 시작하고 실행한 후 비공개 모드로 지원되는 BlueXP 서비스를 사용할 수 있습니다.</block>
@@ -2970,7 +2963,6 @@
   <block id="0a3420a284048b3146bfedfda39bc929" category="list-text">Active Directory 서비스 보안 주체 * 를 선택하여 필요한 권한을 부여하는 Azure Active Directory 서비스 보안 주체에 대한 정보를 입력합니다.</block>
   <block id="37653ce036b712cbc8dcc5b189d94b80" category="inline-link-macro">서비스 보안 주체에 대해 이러한 값을 가져오는 방법에 대해 알아봅니다</block>
   <block id="283459c094a8c0f9ef857a405f711530" category="paragraph"><block ref="82e5cd1190c32cd925829227067e3312" category="inline-link-macro-rx"></block>.</block>
-  <block id="870a297127d1f7e2fafbc700250f7ba7" category="paragraph"><block ref="3596f994dc1277abac9bff5ff853fb6f" category="inline-link-macro-rx"></block>.</block>
   <block id="2ad12e29d6b612d0df73a715eb04038a" category="list-text">관리 * 에서 * 켜기 * 를 선택하여 커넥터 VM에 대해 * 시스템 할당 관리 ID * 를 활성화합니다.</block>
   <block id="827aaa681f80dbd83d41241979226f5a" category="paragraph">이 설정은 커넥터 가상 시스템이 자격 증명을 제공하지 않고 Azure Active Directory에 자신을 식별할 수 있도록 관리되는 ID를 허용하므로 중요합니다. 작업을 완료한 후에는 에서 만든 사용자 지정 역할을 할당해야 합니다<block ref="f91ce7faef49711445322691b4d6ac64" category="inline-link-rx"></block>.</block>
   <block id="f6f67a41d5743f1fd41a2fb8b54fd85b" category="paragraph"><block ref="7e9e5669a04928e1ffa0a9abd020b87e" category="inline-link-macro-rx"></block>.</block>
@@ -3659,4 +3651,20 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="13348442cc6a27032d2b4aa28b75a5d3" category="cell">검색</block>
+  <block id="41f10588fd19d4ce9160a06b3b02b971" category="paragraph"><block ref="a42750006c41b7be8d7d74e88b9209f7" category="inline-link-macro-rx"></block>.</block>
+  <block id="8bee474fd085c11334ab13b9c1a78d9e" category="inline-link-macro">서비스 계정 설정 방법에 대해 알아보십시오</block>
+  <block id="2846d36d7005f43bc3cc15749f932ff7" category="list-text"><block ref="2846d36d7005f43bc3cc15749f932ff7" category="inline-link-macro-rx"></block></block>
+  <block id="e9449a821e5687d61739e39e9c79898a" category="paragraph">Connector VM에 할당된 시스템 할당 관리 ID는 Connector를 시작한 구독과 연결됩니다. 다른 Azure 구독을 선택하려면 를 수행해야 합니다 <block ref="f01caac2e85764bbee287cdcbf568231" category="inline-link-macro-rx"></block>.</block>
+  <block id="f25b2b221edfa2bdf4fb0df0c1b2c9d5" category="paragraph">그러면 됩니다 <block ref="d81a76d92186f9ebef738a7789fc0680" category="inline-link-macro-rx"></block> AD 서비스 보안 주체에 대한 세부 정보를 제공합니다.</block>
+  <block id="affef63146feae005315127173a28aa9" category="paragraph"><block ref="affef63146feae005315127173a28aa9" category="inline-link-macro-rx"></block></block>
+  <block id="7a3f65e5f9d581964ce0fcd660ba7130" category="list-text"><block ref="7a3f65e5f9d581964ce0fcd660ba7130" category="inline-link-macro-rx"></block></block>
+  <block id="37c1762f10d4fe7f0bd3dd2820e543c3" category="section-title">도메인 사용자를 사용한 프록시 구성</block>
+  <block id="2ced7e677ffb2b0b579ea765f328f9d9" category="paragraph">BlueXP는 Connector에 대한 프록시 서버를 구성할 때 도메인 사용자를 지원하지 않습니다. 프록시 서버의 사용자 이름을 입력할 때는 로컬 사용자여야 합니다.</block>
+  <block id="0964ada151a483bdbffce0cc395edecc" category="admonition">인증서 만료 날짜를 기록해 둡니다. Federation Setup 페이지로 돌아가서 certificate_before_it expires를 업데이트해야 합니다. 이것은 여러분의 책임입니다. BlueXP는 만료 날짜를 추적하지 않습니다. AD 팀과 함께 시간을 두고 알림을 받는 것이 가장 좋습니다.</block>
+  <block id="5b70b2d98b345016c9e69390ea296277" category="admonition">비밀 키 만료 날짜를 기록해 두십시오. Federation Setup 페이지로 돌아가서 certificate_before_it expires를 업데이트해야 합니다. 이것은 여러분의 책임입니다. BlueXP는 만료 날짜를 추적하지 않습니다. AD 팀과 함께 시간을 두고 알림을 받는 것이 가장 좋습니다.</block>
+  <block id="ec2a26203d1e704fea5fe65b3298f175" category="cell">BlueXP에서 Connector를 시작하면 해당 인스턴스에 정책을 연결하여 AWS 계정의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다.
+
+마켓플레이스에서 Connector를 시작하는 경우 또는 수동으로 Connector를 설치하거나 정책을 직접 설정해야 합니다 <block ref="c5a34c273ba791769e2c0edbb9c79dc0" category="inline-link-macro-rx"></block>.
+
+또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다.</block>
 </blocks>

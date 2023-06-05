@@ -36,7 +36,7 @@ image:screenshot_accounts_select_azure.gif["세부 정보 및 amp;Credentials �
 
 == 관리되는 ID에 대한 추가 Azure 구독
 
-Connector VM에 할당된 시스템 할당 관리 ID는 Connector를 시작한 구독과 연결됩니다. 다른 Azure 구독을 선택하려면 를 수행해야 합니다 link:task-adding-azure-accounts.html#associating-additional-azure-subscriptions-with-a-managed-identity["관리되는 ID를 해당 구독과 연결합니다"].
+Connector VM에 할당된 시스템 할당 관리 ID는 Connector를 시작한 구독과 연결됩니다. 다른 Azure 구독을 선택하려면 를 수행해야 합니다 link:task-adding-azure-accounts.html#associate-additional-azure-subscriptions-with-a-managed-identity["관리되는 ID를 해당 구독과 연결합니다"].
 
 
 
@@ -46,7 +46,7 @@ BlueXP에서 다른 Azure 자격 증명을 사용하려면 에서 필요한 권�
 
 image:diagram_permissions_multiple_azure.png["사용자 지정 역할 및 관리 ID를 통해 권한을 받는 초기 Azure 계정과 사용자 지정 역할 및 서비스 보안 주체를 통해 권한을 받는 두 개의 추가 계정을 보여 주는 개념 이미지입니다."]
 
-그러면 됩니다 link:task-adding-azure-accounts.html#adding-azure-accounts-to-cloud-manager["계정 자격 증명을 BlueXP에 추가합니다"] AD 서비스 보안 주체에 대한 세부 정보를 제공합니다.
+그러면 됩니다 link:task-adding-azure-accounts.html#add-additional-azure-credentials-to-bluexp["계정 자격 증명을 BlueXP에 추가합니다"] AD 서비스 보안 주체에 대한 세부 정보를 제공합니다.
 
 예를 들어, 새 Cloud Volumes ONTAP 작업 환경을 생성할 때 자격 증명 간에 전환할 수 있습니다.
 

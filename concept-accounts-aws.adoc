@@ -58,7 +58,7 @@ image:diagram_permissions_multiple_aws.png["두 개의 추가 계정을 보여 �
 
 image:screenshot_accounts_switch_aws.png["세부 정보 및 amp;Credentials 페이지에서 계정 전환 을 클릭한 후 클라우드 공급자 계정 간 선택을 보여 주는 스크린샷"]
 
-link:task-adding-aws-accounts.html#add-credentials-to-a-connector["기존 커넥터에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오."]
+link:task-adding-aws-accounts.html#add-additional-credentials-to-a-connector["기존 커넥터에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오."]
 
 
 
@@ -67,7 +67,7 @@ link:task-adding-aws-accounts.html#add-credentials-to-a-connector["기존 커넥
 BlueXP에 새 AWS 자격 증명을 추가하면 ONTAP 작업 환경에 대한 FSx를 생성 및 관리하거나 커넥터를 생성하는 데 필요한 권한이 제공됩니다.
 
 * link:task-adding-aws-accounts.html#add-credentials-to-bluexp-for-creating-a-connector["ONTAP용 Amazon FSx용 BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오"^]
-* link:task-adding-aws-accounts.html#add-credentials-to-a-connector["Connector를 생성하기 위해 BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오"]
+* link:task-adding-aws-accounts.html#add-additional-credentials-to-a-connector["Connector를 생성하기 위해 BlueXP에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오"]
 
 
 
