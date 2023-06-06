@@ -38,6 +38,10 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 +
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-search-docs.png["콘솔 상단에 있는 BlueXP 검색 스크린샷."]
 
+* 이제 Connector를 사용하여 BlueXP에서 Azure 저장소 계정을 추가하고 관리할 수 있습니다.
++
+https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["BlueXP에서 Azure 구독에 새 Azure 저장소 계정을 추가하는 방법을 알아보십시오"^].
+
 * Connector는 이제 다음 AWS 지역에서 지원됩니다.
 +
 ** 하이데라바드(AP-남부-2)

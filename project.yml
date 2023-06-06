@@ -191,7 +191,7 @@ sidebar:
       entries:
       - title: Amazon S3 버킷을 관리합니다
         url: "/task-viewing-amazon-s3.html"
-      - title: Azure Blob 계정을 봅니다
+      - title: Azure Blob 계정을 관리합니다
         url: "/task-viewing-azure-blob.html"
       - title: Google Cloud Storage 버킷을 확인하십시오
         url: "/task-viewing-gcp-storage.html"
