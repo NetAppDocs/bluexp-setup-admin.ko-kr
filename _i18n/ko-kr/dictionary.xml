@@ -2103,7 +2103,6 @@
   <block id="b82af7a7b96d34942cadb7921514f408" category="paragraph">커넥터를 사용하지 않고 사내 ONTAP 클러스터를 직접 검색할 경우 클러스터에 대한 ONTAP 자격 증명을 입력하라는 메시지가 표시됩니다. 이러한 자격 증명은 사용자 수준에서 관리되므로 로그인하는 다른 사용자가 볼 수 없습니다.</block>
   <block id="4cdcf6b8fd95bbaa7cf27e4443c7681b" category="section-title">NSS 자격 증명</block>
   <block id="fb81cc600c8251372b08f0797c3abdd7" category="list-text">BlueXP의 Digital Advisor에 액세스하면 NSS 자격 증명을 입력하여 Digital Advisor에 로그인하라는 메시지가 표시됩니다.</block>
-  <block id="276e2bd44117ba4b3317de4a352235b2" category="paragraph">NSS 계정에 대한 다음 사항을 참고하십시오.</block>
   <block id="db0f1f3e531a1a1c690b42c9a6daae35" category="inline-link-macro">BlueXP 계정에서 NSS 자격 증명을 사용하는 방법에 대해 자세히 알아보십시오</block>
   <block id="dacf2f246c2efb276c3709c141985f7c" category="paragraph"><block ref="4734e8f3bab5a9c00aebb286a2f16deb" category="inline-link-macro-rx"></block>.</block>
   <block id="cc96a4cc30e50577aa6671b076af72e1" category="section-title">사용자 자격 증명을 관리합니다</block>
@@ -3589,7 +3588,6 @@
   <block id="c60a13b5352c81dedc5a2bed03d2f76a" category="list-text"><block ref="c60a13b5352c81dedc5a2bed03d2f76a" category="inline-link-rx"></block></block>
   <block id="8b2f4a40ac1aa19f2dc2b3da3efe4ffc" category="summary">NetApp Support 사이트 계정을 BlueXP 계정과 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다. 이러한 NSS 자격 증명은 전체 BlueXP 계정과 연결되어 있습니다.</block>
   <block id="71e32bbdd672e63bea65d67ecaa9f394" category="paragraph">이제 사용자는 새 Cloud Volumes ONTAP 시스템을 생성할 때와 기존 Cloud Volumes ONTAP 시스템을 등록할 때 계정을 선택할 수 있습니다.</block>
-  <block id="282252a29e0d06c01483bbd34c2304a0" category="paragraph">BlueXP 로그인과 연결된 NSS 자격 증명을 통해 Digital Advisor에 액세스하고 등록 및 케이스 관리 기능을 지원할 수 있습니다.</block>
   <block id="f57a365a74c463e64fe68cc99fbed5f5" category="list-text">지원 &gt; 리소스 * 에 액세스하여 지원을 등록하면 NSS 자격 증명을 BlueXP 로그인에 연결하라는 메시지가 표시됩니다.</block>
   <block id="b5d4819a4e8d73d085630d52e025ce10" category="paragraph">그러면 지원을 위해 BlueXP 계정이 등록되고 지원 권한이 활성화됩니다. BlueXP 계정에 있는 한 명의 사용자만 NetApp Support 사이트 계정을 BlueXP 로그인에 연결하여 지원을 등록하고 지원 권한을 활성화해야 합니다. 이 작업이 완료되면 * 리소스 * 페이지에 계정이 지원을 위해 등록되었다는 내용이 표시됩니다.</block>
   <block id="aefc4dbe9b72d17b676f3fa6cb3d70e1" category="paragraph"><block ref="aefc4dbe9b72d17b676f3fa6cb3d70e1" category="inline-link-rx"></block></block>
@@ -3669,6 +3667,8 @@
   <block id="ac7b3cf10ea08c788a374e0291742517" category="list-text">마이그레이션 보고서</block>
   <block id="ff45d71e69fb5930de79de7c94326d7b" category="list-text">볼륨 캐싱</block>
   <block id="fcaf3921e62bfc728003fed248ffa3f9" category="list-text">사용자당 Digital Advisor 및 지원 케이스 관리와 연결된 NSS 계정은 하나만 있을 수 있습니다.</block>
-  <block id="a90e2fd00c8dae4d2fb187ce1b69fa09" category="list-text">이 계정은 Cloud Volumes ONTAP 라이센스와 함께 사용할 수 없습니다.</block>
-  <block id="49dd7d8a4c2b90d52580a51718450534" category="paragraph">Cloud Volumes ONTAP를 사용하는 경우 NetApp Support 사이트 자격 증명을 자신이 속한 BlueXP 계정과 연결할 수 있습니다. NSS 계정 수준 자격 증명을 사용하면 BYOL(Bring Your Own License), PAYGO 시스템 등록 및 Cloud Volumes ONTAP 소프트웨어 업그레이드 시 Cloud Volumes ONTAP를 구축할 수 있습니다.</block>
+  <block id="9b7ea233ab4085c74e7506949f6c1a49" category="paragraph">BlueXP 로그인과 관련된 NSS 자격 증명을 통해 등록, 케이스 관리 및 Digital Advisor에 액세스할 수 있습니다.</block>
+  <block id="bff35f79163f07f1c3724cc46b19c1f3" category="paragraph">BlueXP 로그인과 관련된 NSS 계정은 다음과 같습니다.</block>
+  <block id="7919f3886eb3f79725465a41663fb32e" category="list-text">NetApp Support 사이트 계정을 Cloud Volumes ONTAP 작업 환경과 연결하려는 경우, BlueXP 계정에 추가한 NSS 계정에서만 사용자가 구성원으로 속해 있는 계정을 선택할 수 있습니다.</block>
+  <block id="a91658662405c5ec223c95cc1036afce" category="paragraph">NSS 계정 수준 자격 증명은 BlueXP 로그인과 연결된 NSS 계정과 다릅니다. NSS 계정 수준 자격 증명을 사용하면 BYOL(Bring Your Own License), PAYGO 시스템 등록 및 Cloud Volumes ONTAP 소프트웨어 업그레이드 시 Cloud Volumes ONTAP를 구축할 수 있습니다.</block>
 </blocks>
