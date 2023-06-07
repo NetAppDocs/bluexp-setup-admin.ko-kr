@@ -750,27 +750,6 @@ S3:GetEncryptionConfiguration
 
 === 백업 및 복구
 
-Connector는 BlueXP 백업 및 복구를 위한 복원 인스턴스를 배포하도록 다음과 같은 API 요청을 수행합니다.
-
-* EC2: StartInstances(시작 인스턴스)
-* EC2: StopInstances(중지 인스턴스)
-* EC2: DescribeInstances(지시 인스턴스)
-* EC2: DescribeInstanceStatus
-* EC2: 런인스턴스
-* EC2: 터미네이스
-* EC2: DescribeInstanceAttribute
-* EC2: DescribeImages(설명 영상)
-* EC2: CreateTags(태그 생성)
-* EC2: CreateVolume
-* EC2:CreateSecurityGroup입니다
-* EC2: DescribeSubnet
-* EC2: 설명
-* EC2: 설명
-* CloudFormation:CreateStack
-* CloudFormation:DeleteStack
-* CloudFormation: DescribeStacks
-
-
 Connector는 Amazon S3에서 백업을 관리하기 위해 다음과 같은 API 요청을 수행합니다.
 
 * S3:GetBucketLocation
