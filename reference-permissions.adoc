@@ -71,5 +71,7 @@ link:reference-permissions-azure.html["Connector에 대한 Azure 권한"]
 | 커넥터 전개 | BlueXP의 Connector를 배포하는 Google Cloud 사용자는 Google Cloud에 Connector를 배포하기 위한 특정 권한이 필요합니다. | link:task-set-up-permissions-google.html#set-up-permissions-to-create-the-connector-from-bluexp-or-gcloud["Connector 배포 권한을 설정합니다"] 
 
 
-| 커넥터 작동 | Connector VM 인스턴스의 서비스 계정에는 일상적인 작업에 대한 특정 권한이 있어야 합니다. BlueXP에서 서비스 계정을 배포할 때 서비스 계정을 커넥터에 연결해야 합니다. 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:reference-permissions-gcp.html["Connector에 대한 Google Cloud 권한"] 
+| 커넥터 작동 | Connector VM 인스턴스의 서비스 계정에는 일상적인 작업에 대한 특정 권한이 있어야 합니다. BlueXP에서 서비스 계정을 배포할 때 서비스 계정을 커넥터에 연결해야 합니다.
+
+또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:reference-permissions-gcp.html["Connector에 대한 Google Cloud 권한"] 
 |===

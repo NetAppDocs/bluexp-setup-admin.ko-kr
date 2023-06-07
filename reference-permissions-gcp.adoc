@@ -147,22 +147,36 @@ includedPermissions:
 | 작업 | 목적 
 
 
-| -compute.disks.create-compute.disks.createSnapshot-compute.disks.delete -compute.disks.get-compute.disks.list -compute.disks.setLabels -compute.disks.us e | Cloud Volumes ONTAP용 디스크를 생성하고 관리합니다. 
+| -compute.disks.create를 참조하십시오
+-compute.disks.createSnapshot을 참조하십시오
+compute.disks.delete 으로 문의하십시오
+-compute.disks.get을 참조하십시오
+-compute.disks.list 를 참조하십시오
+compute.disks.setLabels 으로 문의하십시오
+compute.disks.us e | Cloud Volumes ONTAP용 디스크를 생성하고 관리합니다. 
 
 
-| -compute.w방화벽.create-compute.firewalls.delete-compute.w방화벽.get-compute.w방화벽.list를 참조하십시오 | Cloud Volumes ONTAP에 대한 방화벽 규칙을 만듭니다. 
+| -컴퓨팅.방화벽.create
+compute.firewalls.delete 으로 문의하십시오
+바로 컴퓨팅, 방화벽, GET입니다
+-compute.방화벽.list 를 참조하십시오 | Cloud Volumes ONTAP에 대한 방화벽 규칙을 만듭니다. 
 
 
 | -compute.globalOperations.get | 작업 상태를 확인합니다. 
 
 
-| -compute.images.get-compute.images.getFromFamily-compute.images.list-compute.images.useReadOnly 를 참조하십시오 | VM 인스턴스의 이미지를 가져옵니다. 
+| -compute.images.get
+-compute.images.getFromFamily 를 참조하십시오
+-compute.images.list 를 선택합니다
+compute.images.useReadOnly 으로 문의하십시오 | VM 인스턴스의 이미지를 가져옵니다. 
 
 
-| compute.instances.attachDisk - compute.instances.detachDisk 으로 문의하십시오 | Cloud Volumes ONTAP에 디스크를 연결 및 분리합니다. 
+| compute.instances.attachDisk 으로 문의하십시오
+compute.instances.detachDisk 으로 문의하십시오 | Cloud Volumes ONTAP에 디스크를 연결 및 분리합니다. 
 
 
-| compute.instances.create - compute.instances.delete 으로 문의하십시오 | Cloud Volumes ONTAP VM 인스턴스를 생성 및 삭제합니다. 
+| compute.instances.create 으로 문의하십시오
+compute.instances.delete 으로 문의하십시오 | Cloud Volumes ONTAP VM 인스턴스를 생성 및 삭제합니다. 
 
 
 | compute.instances.get 으로 문의하십시오 | VM 인스턴스를 나열합니다. 
@@ -180,7 +194,8 @@ includedPermissions:
 | compute.instances.setLabels 으로 문의하십시오 | 를 눌러 라벨을 추가합니다. 
 
 
-| compute.instances.setMachineType - compute.instances.setMinCpuPlatform 으로 문의하십시오 | Cloud Volumes ONTAP의 기계 유형을 변경합니다. 
+| compute.instances.setMachineType 으로 문의하십시오
+compute.instances.setMinCpuPlatform 으로 문의하십시오 | Cloud Volumes ONTAP의 기계 유형을 변경합니다. 
 
 
 | compute.instances.setMetadata 으로 문의하십시오 | 를 눌러 메타데이터를 추가합니다. 
@@ -189,7 +204,9 @@ includedPermissions:
 | compute.instances.setTags 으로 문의하십시오 | 방화벽 규칙에 대한 태그를 추가하려면 
 
 
-| compute.instances.start - compute.instances.stop - compute.instances.updateDisplayDevice | Cloud Volumes ONTAP를 시작 및 중지합니다. 
+| compute.instances.start 으로 문의하십시오
+compute.instances.stop 으로 문의하십시오
+compute.instances.updateDisplayDevice 으로 문의하십시오 | Cloud Volumes ONTAP를 시작 및 중지합니다. 
 
 
 | -compute.machineTypes.get | 를 클릭하여 qoutas를 확인하십시오. 
@@ -198,52 +215,108 @@ includedPermissions:
 | compute.projects.get 으로 문의하십시오 | 여러 프로젝트를 지원합니다. 
 
 
-| -compute.snapshots.create-compute.snapshots.delete-compute.snapshots.get-compute.snapshots.list-compute.snapshots.setLabels 를 참조하십시오 | 영구 디스크 스냅샷을 생성하고 관리합니다. 
+| -compute.snapshots.create를 참조하십시오
+compute.snapshots.delete 으로 문의하십시오
+-compute.snapshots.get
+-compute.snapshots.list 를 참조하십시오
+compute.snapshots.setLabels 으로 문의하십시오 | 영구 디스크 스냅샷을 생성하고 관리합니다. 
 
 
-| -compute.networks.get -compute.networks.list -compute.regions.get-compute.regions.list-compute.subnetworks.get-compute.subnetworks.list-compute.zoneOperations.get-compute.zones.get-compute.zones.list 를 참조하십시오 | 새 Cloud Volumes ONTAP 가상 머신 인스턴스를 생성하는 데 필요한 네트워킹 정보를 가져옵니다. 
+| compute.networks.get 으로 문의하십시오
+compute.networks.list 으로 문의하십시오
+-compute.regions.get 을 선택합니다
+-compute.regions.list 를 선택합니다
+-compute.subnetworks.get
+-compute.subnetworks.list 를 참조하십시오
+-compute.zoneOperations.get
+-compute.zone.get을 입력합니다
+-compute.zones.list를 입력합니다 | 새 Cloud Volumes ONTAP 가상 머신 인스턴스를 생성하는 데 필요한 네트워킹 정보를 가져옵니다. 
 
 
-| deploymentmanager.compositeTypes.get -deploymentmanager.compositeTypes.list -deploymentmanager.deployments.create -deploymentmanager.deployments.delete -deploymentmanager.deployments.get -deploymentmanager.deployments.list deploymentmanager.manifests.get-deploymentmanager.manager.manifests.list.deploymentmanager.operations.get-deploymentmanager.resources.get-deploymentmanager.resources.list.list.deploymentmanager.deploymentmanager.deploymentmanager.deploymentmanager.type.deploymentmanager.deploymentmanager.deploymentmanager.type.get.type.get | Google Cloud Deployment Manager를 사용하여 Cloud Volumes ONTAP 가상 머신 인스턴스를 구축합니다. 
+| deploymentmanager.compositeTypes.get 으로 문의하십시오
+deploymentmanager.compositeTypes.list 으로 문의하십시오
+deploymentmanager.deployments.create 으로 문의하십시오
+deploymentmanager.deployments.delete 으로 문의하십시오
+deploymentmanager.deployments.get 으로 문의하십시오
+deploymentmanager.deployments.list 으로 문의하십시오
+-deploymentmanager.manifests.get
+-deploymentmanager.manifests.list 를 참조하십시오
+-deploymentmanager.operations.get
+-deploymentmanager.operations.list 를 참조하십시오
+-deploymentmanager.resources.get
+-deploymentmanager.resources.list 를 참조하십시오
+-deploymentmanager.typeProviders.get
+-deploymentmanager.typeProviders.list 를 참조하십시오
+-deploymentmanager.types.get
+-deploymentmanager.types.list 를 참조하십시오 | Google Cloud Deployment Manager를 사용하여 Cloud Volumes ONTAP 가상 머신 인스턴스를 구축합니다. 
 
 
-| logging.logEntrs.list-logging.privateLogEntrs.list 를 참조하십시오 | 스택 로그 드라이브를 가져옵니다. 
+| -logging.logEntrries.list 를 참조하십시오
+-logging.privateLogEntrs.list 를 참조하십시오 | 스택 로그 드라이브를 가져옵니다. 
 
 
 | resourcemanager.projects.get 으로 문의하십시오 | 여러 프로젝트를 지원합니다. 
 
 
-| -storage.버킷.create-storage.buckets.delete-storage.버킷.get-storage.버킷.list-storage.버킷.update | 데이터 계층화를 위한 Google Cloud Storage 버킷 생성 및 관리 
+| -storage.버킷.create
+storage.buckets.delete 으로 문의하십시오
+버킷.GET
+-storage.버킷.list
+-storage.버킷.update | 데이터 계층화를 위한 Google Cloud Storage 버킷 생성 및 관리 
 
 
-| -cloudkms.cryptoKeyVersions.useToEncrypt -cloudkms.cryptoKeys.get-cloudkms.cryptoKeys.list-cloudkms.keyring.list를 참조하십시오 | 클라우드 키 관리 서비스(Cloud Volumes ONTAP 포함)에서 고객이 관리하는 암호화 키를 사용하려면 
+| cloudkms.cryptoKeyVersions.useToEncrypt 으로 문의하십시오
+-클라우드킬로미터.암호화 키.가져오기
+-cloudkms.cryptoKeys.list
+-cloudkms.keyRings.list를 선택합니다 | 클라우드 키 관리 서비스(Cloud Volumes ONTAP 포함)에서 고객이 관리하는 암호화 키를 사용하려면 
 
 
-| -compute.instances.setServiceAccount -iam.serviceAccounts.actAs -iam.serviceAccounts.getIamPolicy -iam.serviceAccounts.list -storage.objects.get-storage.objects.list 를 참조하십시오 | Cloud Volumes ONTAP 인스턴스에서 서비스 계정을 설정하려면 이 서비스 계정은 Google Cloud Storage 버킷에 대한 데이터 계층화 권한을 제공합니다. 
+| compute.instances.setServiceAccount 으로 문의하십시오
+iam.serviceAccounts.actAs 으로 문의하십시오
+iam.serviceAccounts.getIamPolicy 으로 문의하십시오
+iam.serviceAccounts.list 으로 문의하십시오
+-storage.objects.get 을 선택합니다
+-storage.objects.list 를 선택합니다 | Cloud Volumes ONTAP 인스턴스에서 서비스 계정을 설정하려면 이 서비스 계정은 Google Cloud Storage 버킷에 대한 데이터 계층화 권한을 제공합니다. 
 
 
 | -compute.addresses.list 를 참조하십시오 | HA 쌍을 구축할 때 영역의 주소를 검색합니다. 
 
 
-| -compute.backendServices.create-compute.regionBackendServices.create-compute.regionBackendServices.get-compute.regionBackendServices.list를 참조하십시오 | HA 쌍으로 트래픽을 분산하기 위한 백엔드 서비스를 구성합니다. 
+| -compute.backendServices.create 를 참조하십시오
+-compute.regionBackendServices.create
+-compute.regionBackendServices.get
+-compute.regionBackendServices.list 를 참조하십시오 | HA 쌍으로 트래픽을 분산하기 위한 백엔드 서비스를 구성합니다. 
 
 
 | compute.networks.updatePolicy 으로 문의하십시오 | HA 쌍에 대한 VPC 및 서브넷에 방화벽 규칙을 적용합니다. 
 
 
-| compute.subnetworks.us e-compute.subnetworks.useExternalIp - compute.instances.addAccessConfig 으로 문의하십시오 | BlueXP 분류를 사용하도록 설정합니다. 
+| compute.subnetworks.us e
+compute.subnetworks.useExternalIp 으로 문의하십시오
+compute.instances.addAccessConfig 으로 문의하십시오 | BlueXP 분류를 사용하도록 설정합니다. 
 
 
-| -container.clusters.get-container.clusters.list 를 참조하십시오 | Google Kubernetes Engine에서 실행 중인 Kubernetes 클러스터를 검색할 수 있습니다. 
+| container.clusters.get을 선택합니다
+-container.clusters.list 를 선택합니다 | Google Kubernetes Engine에서 실행 중인 Kubernetes 클러스터를 검색할 수 있습니다. 
 
 
-| -compute.instanceGroups.get -compute.addresses.get-compute.instances.updateNetworkInterface 를 참조하십시오 | Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리합니다. 
+| compute.instanceGroups.get 으로 문의하십시오
+-compute.addresses.get
+compute.instances.updateNetworkInterface 으로 문의하십시오 | Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리합니다. 
 
 
-| -monitoring.timeseries.list-storage.버킷.getIamPolicy | Google Cloud Storage 버킷에 대한 정보를 검색할 수 있습니다. 
+| -monitoring.timeseries.list 를 참조하십시오
+-storage.버킷.getIamPolicy | Google Cloud Storage 버킷에 대한 정보를 검색할 수 있습니다. 
 
 
-| -cloudkms.cryptoKeys.get-cloudkms.cryptoKeys.getIamPolicy-cloudkms.cryptoKeys.list-cloudkms.cryptoKeys.setIamPolicy -cloudkms.keyRings.get-cloudkms.keyRings.getIamPolicy-cloudkms.keyRings.list-cloudkms.keyRings.setIamPolicy | Google에서 관리하는 기본 암호화 키를 사용하는 대신 BlueXP 백업 및 복구 활성화 마법사에서 고객이 관리하는 키를 직접 선택할 수 있습니다. 
+| -클라우드킬로미터.암호화 키.가져오기
+-cloudkms.cryptoKeys.getIamPolicy
+-cloudkms.cryptoKeys.list
+cloudkms.cryptoKeys.setIamPolicy 으로 문의하십시오
+-cloudkms.keyrings.get
+-cloudkms.keyRings.getIamPolicy
+-cloudkms.keyRings.list를 선택합니다
+cloudkms.keyRings.setIamPolicy 으로 문의하십시오 | Google에서 관리하는 기본 암호화 키를 사용하는 대신 BlueXP 백업 및 복구 활성화 마법사에서 고객이 관리하는 키를 직접 선택할 수 있습니다. 
 |===
 
 

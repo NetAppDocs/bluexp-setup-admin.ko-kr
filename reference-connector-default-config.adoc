@@ -79,7 +79,8 @@ Connector 설치 폴더는 다음 위치에 있습니다.
 
 로그 파일은 다음 폴더에 들어 있습니다.
 
-* /opt/application/netapp/cloudmanager/log 또는
+* /opt/application/netapp/cloudmanager/log입니다
+또는
 * /opt/application/netapp/service-manager-2/로그(새로운 3.9.23 설치부터 시작)
 +
 이러한 폴더의 로그에는 Connector 및 Docker 이미지에 대한 세부 정보가 나와 있습니다.

@@ -281,7 +281,7 @@ homepage:
       url: task-adding-gcp-accounts.html
     - title: 계정의 NSS 자격 증명을 관리합니다
       url: task-adding-nss-accounts.html
-  - title: 블로그 커뮤니티
+  - title: 블로그 및 커뮤니티
     links:
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS

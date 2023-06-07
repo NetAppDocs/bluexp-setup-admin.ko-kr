@@ -118,16 +118,33 @@ AWS 서비스(amazonaws.com):
 | 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^] 
 
 
-| https://management.azure.com\https://login.microsoftonline.com\https://blob.core.windows.net\https://core.windows.net | Azure 공공 지역의 리소스를 관리합니다. 
+| \https://management.azure.com
+\https://login.microsoftonline.com
+\https://blob.core.windows.net
+\https://core.windows.net | Azure 공공 지역의 리소스를 관리합니다. 
 
 
-| https://management.azure.microsoft.scloud\https://login.microsoftonline.microsoft.scloud\https://blob.core.microsoft.scloud\https://core.microsoft.scloud | Azure IL6 영역의 리소스를 관리합니다. 
+| \https://management.azure.microsoft.scloud
+\https://login.microsoftonline.microsoft.scloud
+\https://blob.core.microsoft.scloud
+\https://core.microsoft.scloud | Azure IL6 영역의 리소스를 관리합니다. 
 
 
-| https://management.chinacloudapi.cn\https://login.chinacloudapi.cn\https://blob.core.chinacloudapi.cn\https://core.chinacloudapi.cn | Azure 중국 지역의 리소스를 관리합니다. 
+| \https://management.chinacloudapi.cn
+\https://login.chinacloudapi.cn
+\https://blob.core.chinacloudapi.cn
+\https://core.chinacloudapi.cn | Azure 중국 지역의 리소스를 관리합니다. 
 
 
-| https://www.googleapis.com/compute/v1/\https://compute.googleapis.com/compute/v1\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects | Google Cloud에서 리소스를 관리합니다. 
+| \https://www.googleapis.com/compute/v1/
+\https://compute.googleapis.com/compute/v1
+\https://cloudresourcemanager.googleapis.com/v1/projects
+\https://www.googleapis.com/compute/beta
+\https://storage.googleapis.com/storage/v1
+\https://www.googleapis.com/storage/v1
+\https://iam.googleapis.com/v1
+\https://cloudkms.googleapis.com/v1
+\https://www.googleapis.com/deploymentmanager/v2/projects | Google Cloud에서 리소스를 관리합니다. 
 |===
 
 

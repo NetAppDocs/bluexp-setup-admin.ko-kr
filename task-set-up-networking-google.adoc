@@ -48,13 +48,13 @@ link:reference-networking-saas-console.html["BlueXP 콘솔에서 연결된 엔�
 
 자체 Linux 호스트에 커넥터를 수동으로 설치하려는 경우 Connector 설치 과정에서 다음 URL에 액세스해야 합니다.
 
-* https://support.netapp.com 으로 문의하십시오
-* https://mysupport.netapp.com 으로 문의하십시오
-* https://cloudmanager.cloud.netapp.com/tenancy 으로 문의하십시오
-* https://stream.cloudmanager.cloud.netapp.com 으로 문의하십시오
-* https://cloudmanagerinfraprod.azurecr.io 으로 문의하십시오
-* https://production-artifacts.cloudmanager.cloud.netapp.com 으로 문의하십시오
-* https://*.blob.core.windows.net 으로 문의하십시오
+* \https://support.netapp.com
+* \https://mysupport.netapp.com
+* \https://cloudmanager.cloud.netapp.com/tenancy
+* \https://stream.cloudmanager.cloud.netapp.com
+* \https://cloudmanagerinfraprod.azurecr.io
+* \https://production-artifacts.cloudmanager.cloud.netapp.com
+* \https://*.blob.core.windows.net
 
 
 설치 중에 호스트가 운영 체제 패키지를 업데이트하려고 할 수 있습니다. 호스트는 이러한 OS 패키지의 서로 다른 미러링 사이트에 연결할 수 있습니다.
@@ -70,20 +70,28 @@ Connector는 일상적인 운영을 위해 퍼블릭 클라우드 환경 내의 
 | 엔드포인트 | 목적 
 
 
-| https://www.googleapis.com/compute/v1/\https://compute.googleapis.com/compute/v1\https://cloudresourcemanager.googleapis.com/v1/projects\https://www.googleapis.com/compute/beta\https://storage.googleapis.com/storage/v1\https://www.googleapis.com/storage/v1\https://iam.googleapis.com/v1\https://cloudkms.googleapis.com/v1\https://www.googleapis.com/deploymentmanager/v2/projects | Google Cloud에서 리소스를 관리합니다. 
+| \https://www.googleapis.com/compute/v1/
+\https://compute.googleapis.com/compute/v1
+\https://cloudresourcemanager.googleapis.com/v1/projects
+\https://www.googleapis.com/compute/beta
+\https://storage.googleapis.com/storage/v1
+\https://www.googleapis.com/storage/v1
+\https://iam.googleapis.com/v1
+\https://cloudkms.googleapis.com/v1
+\https://www.googleapis.com/deploymentmanager/v2/projects | Google Cloud에서 리소스를 관리합니다. 
 
 
-| https://support.netapp.com 으로 문의하십시오 | 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다. 
+| \https://support.netapp.com | 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다. 
 
 
  a| 
-https://*.api.bluexp.netapp.com 으로 문의하십시오
+\https://*.api.bluexp.netapp.com
 
-https://api.bluexp.netapp.com 으로 문의하십시오
+\https://api.bluexp.netapp.com
 
-https://*.cloudmanager.cloud.netapp.com 으로 문의하십시오
+\https://*.cloudmanager.cloud.netapp.com
 
-https://cloudmanager.cloud.netapp.com 으로 문의하십시오
+\https://cloudmanager.cloud.netapp.com
  a| 
 BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.
 
@@ -92,7 +100,9 @@ NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있�
 
 
 
-| https://cloudmanagerinfraprod.azurecr.io \https://*.blob.core.windows.net 으로 문의하십시오 | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
+| \https://cloudmanagerinfraprod.azurecr.io
+
+\https://*.blob.core.windows.net | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
 |===
 
 

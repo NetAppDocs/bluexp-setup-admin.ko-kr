@@ -258,10 +258,10 @@ proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가
 -- 프록시는 다음 형식 중 하나를 사용하여 커넥터가 HTTP 또는 HTTPS 프록시 서버를 사용하도록 구성합니다.
 
 +
-** http://address:port 으로 문의하십시오
-** http://username:password@address:port 으로 문의하십시오
-** https://address:port 으로 문의하십시오
-** https://username:password@address:port 으로 문의하십시오
+** \http://address:port
+** \http://username:password@address:port
+** \https://address:port
+** \https://username:password@address:port
 +
 사용자는 로컬 사용자여야 합니다. 도메인 사용자는 지원되지 않습니다.
 

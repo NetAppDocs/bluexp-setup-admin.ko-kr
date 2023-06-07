@@ -21,7 +21,8 @@ SaaS 계층을 통해 제공되는 BlueXP 웹 기반 콘솔을 사용하면 여�
 | 엔드포인트 | 목적 
 
 
-| https://console.bluexp.netapp.com \https://*.console.bluexp.netapp.com 으로 문의하십시오 | 웹 브라우저는 BlueXP 웹 기반 콘솔을 사용할 때 이러한 URL에 연락합니다. 
+| \https://console.bluexp.netapp.com
+\https://*.console.bluexp.netapp.com | 웹 브라우저는 BlueXP 웹 기반 콘솔을 사용할 때 이러한 URL에 연락합니다. 
 
 
  a| 
@@ -36,25 +37,35 @@ AWS 서비스(amazonaws.com):
 | AWS의 BlueXP에서 커넥터를 구축하는 데 필요합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오."^] 
 
 
-| https://management.azure.com \https://login.microsoftonline.com 으로 문의하십시오 | 대부분의 Azure 지역에서 BlueXP의 커넥터를 배포하는 데 필요합니다. 
+| \https://management.azure.com
+
+\https://login.microsoftonline.com | 대부분의 Azure 지역에서 BlueXP의 커넥터를 배포하는 데 필요합니다. 
 
 
-| https://management.microsoftazure.de \https://login.microsoftonline.de 으로 문의하십시오 | Azure 독일 지역의 BlueXP에서 커넥터를 배포하는 데 필요합니다. 
+| \https://management.microsoftazure.de
+
+\https://login.microsoftonline.de | Azure 독일 지역의 BlueXP에서 커넥터를 배포하는 데 필요합니다. 
 
 
-| https://management.usgovcloudapi.net \https://login.microsoftonline.com 으로 문의하십시오 | Azure US Gov 지역의 BlueXP에서 커넥터를 배포하는 데 필요합니다. 
+| \https://management.usgovcloudapi.net
+
+\https://login.microsoftonline.com | Azure US Gov 지역의 BlueXP에서 커넥터를 배포하는 데 필요합니다. 
 
 
-| https://www.googleapis.com 으로 문의하십시오 | Google Cloud의 BlueXP에서 커넥터를 배포하는 데 필요합니다. 
+| \https://www.googleapis.com | Google Cloud의 BlueXP에서 커넥터를 배포하는 데 필요합니다. 
 
 
-| https://signin.b2c.netapp.com 으로 문의하십시오 | NetApp Support 사이트(NSS) 자격 증명을 업데이트하거나 BlueXP에 새 NSS 자격 증명을 추가하는 데 필요합니다. 
+| \https://signin.b2c.netapp.com | NetApp Support 사이트(NSS) 자격 증명을 업데이트하거나 BlueXP에 새 NSS 자격 증명을 추가하는 데 필요합니다. 
 
 
-| https://netapp-cloud-account.auth0.com \https://cdn.auth0.com \https://services.cloud.netapp.com 를 참조하십시오 | 웹 브라우저는 BlueXP를 통한 중앙 집중식 사용자 인증을 위해 이러한 엔드포인트에 연결됩니다. 
+| \https://netapp-cloud-account.auth0.com
+
+\https://cdn.auth0.com
+
+\https://services.cloud.netapp.com | 웹 브라우저는 BlueXP를 통한 중앙 집중식 사용자 인증을 위해 이러한 엔드포인트에 연결됩니다. 
 
 
-| https://widget.intercom.io 으로 문의하십시오 | 제품 내에서 NetApp 클라우드 전문가와 상담할 수 있는 채팅을 제공합니다. 
+| \https://widget.intercom.io | 제품 내에서 NetApp 클라우드 전문가와 상담할 수 있는 채팅을 제공합니다. 
 |===
 .관련 링크
 * link:task-prepare-restricted-mode.html#prepare-networking-for-user-access-to-bluexp-console["BlueXP 콘솔에 대한 사용자 액세스를 위한 네트워킹 준비(제한된 모드)"]
