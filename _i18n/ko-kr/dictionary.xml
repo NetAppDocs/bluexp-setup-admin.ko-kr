@@ -3792,4 +3792,23 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="5388026a16709
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="cell">지속 가능성</block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023년 7월 2일</block>
+  <block id="78ee56d07ea6442fbe0c88b1ea3be7ad" category="section-title">커넥터 3.9.31</block>
+  <block id="9f1d24d5ab10dd326cb52dffc172eea5" category="list-text">이제 * My Estate * 탭(이전 * My Opportunities *)에서 온프레미스 ONTAP 클러스터를 검색할 수 있습니다.</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">내 정보 페이지에서 클러스터를 검색하는 방법에 대해 알아봅니다</block>
+  <block id="92adae4e241e70163adb8c5469771a82" category="paragraph"><block ref="24b3a807a9407b81f5101322f988421d" category="inline-link-rx"></block>.</block>
+  <block id="6bdb2baa8fe05cff12c22f9f6f8e9e7f" category="list-text">Azure Government 지역에서 Connector를 사용하는 경우 Connector가 다음 끝점에 연결할 수 있는지 확인해야 합니다.</block>
+  <block id="1f29f58c7cdabd46095c6ad242933991" category="paragraph">\https://occmclientinfragov.azurecr.us</block>
+  <block id="7cbd2e15c5d25612181f48c177cab04b" category="paragraph">Connector를 수동으로 설치하고 Connector 및 해당 Docker 구성 요소를 업그레이드하려면 이 끝점이 필요합니다.</block>
+  <block id="49145759efbc79c21fc5ba75bb2aaf72" category="paragraph">이러한 변경으로 인해 Azure Government 지역의 Connector는 더 이상 다음 끝점에 문의하지 않습니다.</block>
+  <block id="979b0001d7bec41aff8509faf7b59bef" category="paragraph">이 엔드포인트는 다른 모든 제한된 모드 구성 및 표준 모드에 대해 여전히 필요합니다.</block>
+  <block id="b7e5db85ee5e5c349f5841d09bf19cbe" category="paragraph">Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block>
+  <block id="8e1098945acc0cdc1dade8505d9ce607" category="paragraph">이 엔드포인트는 Azure Government 지역에서만 필요합니다.</block>
+  <block id="2ecb939d80f14a8df5cdeee557b8a6a2" category="cell">\https://*.blob.core.windows.net
+
+\https://cloudmanagerinfraprod.azurecr.io
+Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
+
+\https://occmclientinfragov.azurecr.us
+이 엔드포인트는 Azure Government 지역에서만 필요합니다.</block>
 </blocks>

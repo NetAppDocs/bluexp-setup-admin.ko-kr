@@ -106,9 +106,16 @@ Connector는 저장소를 관리하려는 위치에 대한 네트워크 연결�
 * \https://mysupport.netapp.com
 * \https://cloudmanager.cloud.netapp.com/tenancy
 * \https://stream.cloudmanager.cloud.netapp.com
-* \https://cloudmanagerinfraprod.azurecr.io
 * \https://production-artifacts.cloudmanager.cloud.netapp.com
 * \https://*.blob.core.windows.net
+* \https://cloudmanagerinfraprod.azurecr.io
++
+Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
+
+* \https://occmclientinfragov.azurecr.us
++
+이 엔드포인트는 Azure Government 지역에서만 필요합니다.
+
 
 
 설치 중에 호스트가 운영 체제 패키지를 업데이트하려고 할 수 있습니다. 호스트는 이러한 OS 패키지의 서로 다른 미러링 사이트에 연결할 수 있습니다.
@@ -185,9 +192,13 @@ NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있�
 
 
 
-| \https://cloudmanagerinfraprod.azurecr.io
+| \https://*.blob.core.windows.net
 
-\https://*.blob.core.windows.net | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
+\https://cloudmanagerinfraprod.azurecr.io
+Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
+
+\https://occmclientinfragov.azurecr.us
+이 엔드포인트는 Azure Government 지역에서만 필요합니다. | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
 |===
 
 

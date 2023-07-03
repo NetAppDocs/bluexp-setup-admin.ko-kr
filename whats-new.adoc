@@ -18,6 +18,36 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
+== 2023년 7월 2일
+
+
+
+=== 커넥터 3.9.31
+
+* 이제 * My Estate * 탭(이전 * My Opportunities *)에서 온프레미스 ONTAP 클러스터를 검색할 수 있습니다.
++
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["내 정보 페이지에서 클러스터를 검색하는 방법에 대해 알아봅니다"].
+
+* Azure Government 지역에서 Connector를 사용하는 경우 Connector가 다음 끝점에 연결할 수 있는지 확인해야 합니다.
++
+\https://occmclientinfragov.azurecr.us
+
++
+Connector를 수동으로 설치하고 Connector 및 해당 Docker 구성 요소를 업그레이드하려면 이 끝점이 필요합니다.
+
++
+이러한 변경으로 인해 Azure Government 지역의 Connector는 더 이상 다음 끝점에 문의하지 않습니다.
+
++
+\https://cloudmanagerinfraprod.azurecr.io
+
++
+이 엔드포인트는 다른 모든 제한된 모드 구성 및 표준 모드에 대해 여전히 필요합니다.
+
+
+
+
+
 == 2023년 6월 4일
 
 
