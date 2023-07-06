@@ -397,7 +397,7 @@ NOTE: BlueXP 오퍼레이터는 BlueXP 정책에 제공된 기본 이름입니�
 .. 선택 * 을 클릭합니다.
 .. 다음 * 을 클릭합니다.
 .. 검토 + 할당 * 을 클릭합니다.
-.. 추가 구독에서 Cloud Volumes ONTAP를 배포하려면 해당 구독으로 전환한 다음 이 단계를 반복합니다.
+.. 추가 구독에서 리소스를 관리하려면 해당 구독으로 전환한 다음 이 단계를 반복합니다.
 
 
 
@@ -445,7 +445,7 @@ image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아
 +
 https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#changeserviceaccountandscopes["Google Cloud 설명서: 인스턴스에 대한 서비스 계정 및 액세스 범위 변경"^]
 
-. 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려는 경우 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
+. 다른 프로젝트의 리소스를 관리하려면 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
 
 
 .결과

@@ -26,7 +26,7 @@ BlueXP가 AWS에서 Connector 인스턴스를 시작하면 IAM 역할과 해당 
 
 image:diagram_permissions_initial_aws.png["AWS 계정에 Connector를 구축하는 BlueXP의 개념 이미지입니다. IAM 정책은 BlueXP 인스턴스에 연결된 IAM 역할에 할당됩니다."]
 
-BlueXP는 Cloud Volumes ONTAP에 대한 새 작업 환경을 생성할 때 기본적으로 다음과 같은 AWS 자격 증명을 선택합니다.
+Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음 AWS 자격 증명을 선택합니다.
 
 image:screenshot_accounts_select_aws.gif["세부 정보 및 amp;Credentials 페이지의 계정 전환 옵션을 보여 주는 스크린샷"]
 

@@ -26,7 +26,7 @@ BlueXP가 Azure에 Connector 가상 시스템을 배포하면 가 활성화됩�
 
 image:diagram_permissions_initial_azure.png["Azure 계정 및 구독에 Connector를 배포하는 BlueXP를 보여 주는 개념 이미지입니다. 시스템에서 할당한 관리 ID가 활성화되고 사용자 지정 역할이 Connector 가상 머신에 할당됩니다."]
 
-BlueXP는 Cloud Volumes ONTAP의 새 작업 환경을 만들 때 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.
+Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.
 
 image:screenshot_accounts_select_azure.gif["세부 정보 및 amp;Credentials 페이지의 계정 전환 옵션을 보여 주는 스크린샷"]
 

@@ -140,7 +140,7 @@ image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아
 .. * 자격 증명 정의 *: 신뢰할 수 있는 IAM 역할의 ARN(Amazon Resource Name)을 제공하거나 AWS 액세스 키와 비밀 키를 입력합니다.
 .. * Marketplace 구독 *: 지금 가입하거나 기존 구독을 선택하여 마켓플레이스 구독을 이러한 자격 증명과 연결합니다.
 +
-PAYGO(시간당 급여) 또는 연간 계약으로 Cloud Volumes ONTAP를 지불하려면 AWS 마켓플레이스의 Cloud Volumes ONTAP 구독과 AWS 자격 증명이 연결되어 있어야 합니다.
+PAYGO(시간별 비용) 또는 연간 계약으로 BlueXP 서비스에 대한 비용을 지불하려면 AWS Marketplace 구독과 AWS 자격 증명이 연결되어 있어야 합니다.
 
 .. * 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 선택합니다.
 

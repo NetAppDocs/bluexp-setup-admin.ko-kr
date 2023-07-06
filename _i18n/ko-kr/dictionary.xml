@@ -146,7 +146,6 @@
   <block id="52f3863b6256b8ae764628f74442ca5c" category="paragraph">가상 머신의 인증 방법은 암호 또는 SSH 공개 키일 수 있습니다.</block>
   <block id="a6100ac4fa5cb7bbb1c49e95165b96b2" category="inline-link-macro">필요한 권한</block>
   <block id="45e2f16f488dd77ea28e4cc6a50751e5" category="list-text">* 세부 정보 *: 인스턴스의 이름을 입력하고 태그를 지정한 다음 BlueXP에서 필요한 권한이 있는 새 역할을 생성할지 또는 로 설정한 기존 역할을 선택할지 여부를 선택합니다 <block ref="b569336f779a413e2d7fa8c0ccb0306d" category="inline-link-macro-rx"></block>.</block>
-  <block id="e1ca9b0274808b9c445718fa4b9a5d26" category="paragraph">이 역할과 연결된 구독을 선택할 수 있습니다. 선택한 각 구독은 해당 구독에 Cloud Volumes ONTAP를 배포할 수 있는 권한을 커넥터에 제공합니다.</block>
   <block id="316cce18546001b2f1149ed17a4d3900" category="list-text">* 네트워크 *: VNET 및 서브넷을 선택하고, 공용 IP 주소를 활성화할지 여부를 선택한 다음 선택적으로 프록시 구성을 지정합니다.</block>
   <block id="90eac3cf24d6ad4fdd59cac1fb153a63" category="list-text">* 보안 그룹 *: 새 보안 그룹을 생성할지 또는 필요한 인바운드 및 아웃바운드 규칙을 허용하는 기존 보안 그룹을 선택할지 여부를 선택합니다.</block>
   <block id="ffcf64d34f1dcc41900c7060705863c1" category="inline-link-macro">Azure의 보안 그룹 규칙을 봅니다</block>
@@ -522,7 +521,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="356334a26d74c400a5e0a69f237ba73e" category="paragraph">BlueXP에서 직접 커넥터를 배포하기 전에 두 가지 권한 세트가 있어야 합니다.</block>
   <block id="7e1224e2fd0f204a7cd31b8672f1b63d" category="list-text">BlueXP에서 Connector VM 인스턴스를 시작할 수 있는 권한이 있는 Google 계정을 사용하여 Connector를 배포해야 합니다.</block>
   <block id="1c3efa7cf0b87cbb078fe955b2c587a5" category="inline-link">서비스 계정</block>
-  <block id="47ca16329494467c539bde558f0ae632" category="list-text">커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다<block ref="98f22f2dda0728ebb39af9a8fe826c8e" category="inline-link-rx"></block> VM 인스턴스의 경우. BlueXP는 서비스 계정에서 권한을 받아 사용자를 대신하여 Cloud Volumes ONTAP 시스템을 생성 및 관리하는 등의 작업을 수행합니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.</block>
   <block id="fee2d29ad57ecb4f5309060016b4495c" category="paragraph">다음 이미지는 위의 숫자 1과 2에 설명된 사용 권한 요구 사항을 보여 줍니다.</block>
   <block id="1b33affeaa41a09a9f3a99d38d14376f" category="inline-image-macro">Cloud Volumes ONTAP를 배포하기 위한 Google 및 서비스 계정에 대한 권한 요구 사항을 나타내는 개념적 이미지입니다.</block>
   <block id="61ed3f7479580c6ad0ce86e9e6f3dd8d" category="paragraph"><block ref="61ed3f7479580c6ad0ce86e9e6f3dd8d" category="inline-image-macro-rx" type="image"></block></block>
@@ -539,9 +537,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="2846d36d7005f43bc3cc15749f932ff7" category="list-text"><block ref="2846d36d7005f43bc3cc15749f932ff7" category="inline-link-macro-rx"></block></block>
   <block id="4ec920ccbe2fc417ccd7dcd957eb9653" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP를 배포하고 프로젝트를 선택하는 방법에 대해 알아보십시오</block>
   <block id="486db18d2aa67b603506d28b5425dc88" category="list-text"><block ref="486db18d2aa67b603506d28b5425dc88" category="inline-link-rx"></block></block>
-  <block id="894183ce1a3e115b89d0e6b0726cfff2" category="summary">BlueXP 계정은 조직에 멀티 테넌시를 제공하므로 사용자와 리소스를 격리된 작업 영역에서 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다.</block>
   <block id="389368f5d98ef09e3dca047f7f72f270" category="doc">BlueXP 계정에 대해 알아보십시오</block>
-  <block id="b9a1d81f39a3e0be85108ee4eee92e56" category="paragraph">BlueXP 계정 _ 은(는) 조직에 멀티 테넌시를 제공하므로 사용자는 이를 통해 격리된_작업 공간 _ 에서 사용자와 리소스를 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다.</block>
   <block id="684ef065a6596c929baa4364adca2e52" category="paragraph">BlueXP에 처음 액세스하면 계정을 선택하거나 생성하라는 메시지가 표시됩니다. 예를 들어 아직 계정이 없는 경우 다음 화면이 표시됩니다.</block>
   <block id="21ad8a394fd878b4f709af241e04c2fc" category="inline-image-macro">BlueXP를 만들 BlueXP 계정을 묻는 BlueXP 설치 마법사의 스크린샷.</block>
   <block id="f735901c47be672686b9be997d3bf0d7" category="paragraph"><block ref="f735901c47be672686b9be997d3bf0d7" category="inline-image-macro-rx" type="image"></block></block>
@@ -1239,7 +1235,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="d47be244f383106c84a24b1e4ba4fea6" category="paragraph">BlueXP가 Azure에 Connector 가상 시스템을 배포하면 가 활성화됩니다<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block> 가상 머신에서 사용자 지정 역할을 생성하고 가상 머신에 할당합니다. BlueXP는 이 역할을 통해 Azure 가입 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 얻을 수 있습니다. <block ref="daf58003d5227a43b6fbea1d165f6f7b" category="inline-link-macro-rx"></block>.</block>
   <block id="825a028e49bfdd88d5c17500e011aaf5" category="inline-image-macro">Azure 계정 및 구독에 Connector를 배포하는 BlueXP를 보여 주는 개념 이미지입니다. 시스템에서 할당한 관리 ID가 활성화되고 사용자 지정 역할이 Connector 가상 머신에 할당됩니다.</block>
   <block id="4ba8970a06f2fd9f7ce2b5459745a3f0" category="paragraph"><block ref="4ba8970a06f2fd9f7ce2b5459745a3f0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4b8d6d1554d22a2bda6470094c227037" category="paragraph">BlueXP는 Cloud Volumes ONTAP의 새 작업 환경을 만들 때 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.</block>
   <block id="98c16c747c940667876d314b6eb47dba" category="inline-image-macro">세부 정보 및 amp;Credentials 페이지의 계정 전환 옵션을 보여 주는 스크린샷</block>
   <block id="d640a03c3d2fca2ca36870e7954e48cc" category="paragraph"><block ref="a864416fc969bfbd6c4c8b4ff646cd2f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="61d31e18d80b565c39bc938c02808e6f" category="paragraph">초기 Azure 자격 증명을 사용하여 모든 Cloud Volumes ONTAP 시스템을 배포하거나 추가 자격 증명을 추가할 수 있습니다.</block>
@@ -1821,7 +1816,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="858c852a1a4696d4e56295d4b4b0ea20" category="paragraph">BlueXP가 AWS에서 Connector 인스턴스를 시작하면 IAM 역할과 해당 인스턴스에 대한 인스턴스 프로필이 생성됩니다. 또한 Connector에 해당 AWS 계정 내의 리소스 및 프로세스를 관리할 수 있는 권한을 제공하는 정책을 첨부합니다. <block ref="9d2ef148313eb953f656b8efd4016e8c" category="inline-link-macro-rx"></block>.</block>
   <block id="87905dffb8ffacc115ce029071ecc843" category="inline-image-macro">AWS 계정에 Connector를 구축하는 BlueXP의 개념 이미지입니다. IAM 정책은 BlueXP 인스턴스에 연결된 IAM 역할에 할당됩니다.</block>
   <block id="c234f29a81f1d5eb1c1e71c54ce5a0e7" category="paragraph"><block ref="c234f29a81f1d5eb1c1e71c54ce5a0e7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1845774a539e719af2ff230adb01acc9" category="paragraph">BlueXP는 Cloud Volumes ONTAP에 대한 새 작업 환경을 생성할 때 기본적으로 다음과 같은 AWS 자격 증명을 선택합니다.</block>
   <block id="e39fac9d22fb901a8fb8b7118de8c4e7" category="paragraph"><block ref="e4d4efd6d9bbb3c296b1c319bd5c65f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="109a76aa4a30822be3d0a4a6162bbc73" category="paragraph">초기 AWS 자격 증명을 사용하여 모든 Cloud Volumes ONTAP 시스템을 구축하거나 추가 자격 증명을 추가할 수 있습니다.</block>
   <block id="59cf740f037c70fa5f9d43001aabf6b9" category="section-title">추가 AWS 자격 증명</block>
@@ -3213,7 +3207,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="b26bf0de9fb68038a5f4e2e2a13c5811" category="paragraph">Connector를 생성할 때 Connector가 상주할 VNET와 서브넷을 지정해야 합니다.</block>
   <block id="0b21fb3864d43aad91ca35b2b5d2354d" category="section-title">Azure 지역</block>
   <block id="573514d5de621ecfe56c91e7c665d73d" category="inline-link">Azure 지역 쌍</block>
-  <block id="0e4b0391e50169d97fc505f0c73a94ba" category="paragraph">커넥터는 해당 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포하거나 에 배포되어야 합니다<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다.</block>
   <block id="6882deeb4b60915fc6b7a36d03f329e3" category="inline-link">Cloud Volumes ONTAP에서 Azure 프라이빗 링크를 사용하는 방법에 대해 알아보십시오</block>
   <block id="f09d4eba567a9e2b031517b472055a69" category="paragraph"><block ref="f09d4eba567a9e2b031517b472055a69" category="inline-link-rx"></block></block>
   <block id="d0d67dd335747b3a00234d869cd08267" category="summary">BlueXP SaaS 계층에 대한 아웃바운드 연결이 제한된 BlueXP를 사용할 수 있도록 제한된 모드로 커넥터를 배포합니다. 시작하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 이전에 설정한 클라우드 권한을 제공합니다.</block>
@@ -3413,7 +3406,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">자격 증명을 추가합니다</block>
   <block id="0fcafd12d45dbcf0e60c3aba44fe49a1" category="paragraph">필요한 권한이 있는 AWS 계정을 제공한 후 해당 계정의 자격 증명을 기존 Connector에 추가할 수 있습니다. 이렇게 하면 동일한 커넥터를 사용하여 해당 계정에서 Cloud Volumes ONTAP 시스템을 시작할 수 있습니다.</block>
   <block id="a1418a1fbbbe1aec52c1618b6cc4b381" category="list-text">* 자격 증명 정의 *: 신뢰할 수 있는 IAM 역할의 ARN(Amazon Resource Name)을 제공하거나 AWS 액세스 키와 비밀 키를 입력합니다.</block>
-  <block id="1e65c796a2058f2e006fb33cdd7e9879" category="paragraph">PAYGO(시간당 급여) 또는 연간 계약으로 Cloud Volumes ONTAP를 지불하려면 AWS 마켓플레이스의 Cloud Volumes ONTAP 구독과 AWS 자격 증명이 연결되어 있어야 합니다.</block>
   <block id="59c42111c120e2a009a663d366f4914f" category="paragraph">이제 새 작업 환경을 만들 때 세부 정보 및 자격 증명 페이지에서 다른 자격 증명 세트로 전환할 수 있습니다.</block>
   <block id="21eadec2055a6f0a03fad1207bdeece7" category="inline-image-macro">세부 정보 및 amp;Credentials 페이지에서 계정 전환 을 선택한 후 클라우드 공급자 계정 간에 선택을 보여 주는 스크린샷</block>
   <block id="670a8a47b7b3908f997fce0320ebba4d" category="paragraph"><block ref="516be10b96635b1f3aefce4dcd4540dd" category="inline-image-macro-rx" type="image"></block></block>
@@ -3462,7 +3454,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="ba7c13ef3e78a348949ddfd6f17e4f18" category="paragraph">비공개 모드에서 Connector를 자체 Linux 호스트에 수동으로 설치하여 온프레미스 또는 클라우드에 설치할 수 있습니다.</block>
   <block id="fb04864667c4668b6288df7ac7f6f40b" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP 시스템을 만들려면 Connector가 Google Cloud에서 실행 중이어야 합니다. 이는 사내에서 실행할 수 없습니다.</block>
   <block id="c3d3f783d267d1bd41b2e7f8639a5865" category="section-title">일상적 작업의 엔드포인트</block>
-  <block id="838ec2871c40a93d892b2ebb5ec4ae58" category="paragraph">Connector는 퍼블릭 클라우드 환경에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 다음 엔드포인트에 연결합니다.</block>
   <block id="b2723147717f1c60a42e0b1cbdb0ad6c" category="cell">\https://management.azure.microsoft.scloud
 \https://login.microsoftonline.microsoft.scloud
 \https://blob.core.microsoft.scloud
@@ -3811,4 +3802,19 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
 
 \https://occmclientinfragov.azurecr.us
 이 엔드포인트는 Azure Government 지역에서만 필요합니다.</block>
+  <block id="297a49f6150dc8dc8d45620c0f09f393" category="list-text">다른 Google Cloud 프로젝트의 리소스를 관리하려면 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.</block>
+  <block id="1f7d098197ba2def0ffc66c388b2aa6c" category="paragraph">Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음 AWS 자격 증명을 선택합니다.</block>
+  <block id="1c16bd0b2377f4460ae56ecb40a419ae" category="paragraph">이 역할과 연결된 Azure 구독을 선택할 수 있습니다. 선택한 각 구독은 해당 구독의 리소스를 관리하는 커넥터 권한을 제공합니다(예: Cloud Volumes ONTAP).</block>
+  <block id="55a733edf0d6d526d9ebeda09e38bdd1" category="summary">BlueXP 계정은 조직에 멀티 테넌시를 제공하므로 사용자와 리소스를 격리된 작업 영역에서 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 작업 영역에서 여러 유형의 작업 환경을 관리하는 다른 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다.</block>
+  <block id="e96a7b63d6df3633f05aea7438dd616e" category="paragraph">BlueXP 계정 _ 은(는) 조직에 멀티 테넌시를 제공하므로 사용자는 이를 통해 격리된_작업 공간 _ 에서 사용자와 리소스를 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 작업 영역에서 여러 유형의 작업 환경을 관리하는 다른 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 시스템을 배포하고 관리할 수 있습니다.</block>
+  <block id="d90aceadc99dce46d7d593ee18ab0d90" category="paragraph">Connector는 다음 엔드포인트를 접촉하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리합니다.</block>
+  <block id="91499b479a6f9fe14de575cded8e2ab6" category="paragraph">여러 Azure 구독에서 리소스를 관리하려면 각 구독에 서비스 보안 주체를 바인딩해야 합니다. 예를 들어, BlueXP에서는 Cloud Volumes ONTAP를 배포할 때 사용할 구독을 선택할 수 있습니다.</block>
+  <block id="6258a889f12d08d6da95cf4059f67498" category="paragraph">BlueXP에서 사용할 각 Azure 구독에 대한 ID를 추가해야 합니다.</block>
+  <block id="4f700fdc55105ee1225978e0ecbf1046" category="paragraph">Cloud Volumes ONTAP를 사용하는 경우 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포되거나 에 배포되어야 합니다<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다.</block>
+  <block id="ddc3be173496396ad174fa34013f6165" category="list-text">추가 Azure 구독에서 리소스를 관리하려면 해당 구독으로 전환한 다음 이 단계를 반복합니다.</block>
+  <block id="89297fbbf3c86991163b7008fe105840" category="paragraph">PAYGO(시간별 비용) 또는 연간 계약으로 BlueXP 서비스에 대한 비용을 지불하려면 AWS Marketplace 구독과 AWS 자격 증명이 연결되어 있어야 합니다.</block>
+  <block id="4047ebfdbd8672d8c7471db55440e35a" category="list-text">추가 구독에서 리소스를 관리하려면 해당 구독으로 전환한 다음 이 단계를 반복합니다.</block>
+  <block id="cb4a26e3cea7ec3938d93961d212ef39" category="list-text">다른 프로젝트의 리소스를 관리하려면 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.</block>
+  <block id="c063b725387c641804ed10699362a645" category="list-text">커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다<block ref="98f22f2dda0728ebb39af9a8fe826c8e" category="inline-link-rx"></block> VM 인스턴스의 경우. BlueXP는 서비스 계정에서 Cloud Volumes ONTAP 시스템을 생성 및 관리하고 BlueXP 백업 및 복구를 사용하여 백업을 관리하는 권한을 얻습니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.</block>
+  <block id="4196d70b52fef46e6943a70842908897" category="paragraph">Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.</block>
 </blocks>
