@@ -3034,13 +3034,10 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="5c61dbbb22810fcf5149eb1192885607" category="cell">계정 사용자 및 다른 사용자에게 알림을 이메일로 보낼 수 있는 기능을 제공합니다</block>
   <block id="e92861fef775acb8c5a64f8d282a8b80" category="cell">이메일 기능이 없습니다</block>
   <block id="d1e2d8530c09fe28c2a817289491bd01" category="section-title">알림 센터를 사용하여 활동을 모니터링합니다</block>
-  <block id="1e687a002fd0b9a542bf652069246ebb" category="paragraph">알림은 BlueXP에서 시작한 작업의 진행 상황을 추적하므로 작업의 성공 여부를 확인할 수 있습니다. 이 기능을 사용하면 현재 로그인 세션 중에 시작한 여러 BlueXP 작업의 상태를 볼 수 있습니다. 현재 모든 서비스에서 알림 센터에 정보를 보고하는 것은 아닙니다.</block>
   <block id="40da6f1400e45d080a97992a6a539894" category="inline-image-macro">알림 벨</block>
   <block id="5cf9ecbcae765efe1cb17d1c802e39cb" category="paragraph">알림 벨(<block ref="df7c8a71ca3da4359e40e121f18f87b9" category="inline-image-macro-rx" type="image"></block>)를 선택합니다. 벨의 작은 거품의 색상은 활성 상태인 최상위 심각도 알림을 나타냅니다. 따라서 빨간색 기포가 나타나면 확인해야 할 중요한 알림이 있다는 의미입니다.</block>
   <block id="d59387ab05a2cbd005866b74628417a0" category="inline-image-macro">알림 센터의 현재 알림 목록을 보여 주는 스크린샷</block>
   <block id="e24c5199eee665d8e879dc72dc56c667" category="paragraph"><block ref="e24c5199eee665d8e879dc72dc56c667" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6c836fac6db418cb1aa7dbc3dbd8ff62" category="inline-xref">이메일 알림 설정 설정</block>
-  <block id="4d45f6ca89e32d46a11c304cf274697c" category="paragraph">또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일로 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이메일은 BlueXP 계정에 속한 모든 사용자 또는 특정 유형의 시스템 작업을 알고 있어야 하는 다른 수신자에게 보낼 수 있습니다. 을 참조하십시오 <block ref="2fb0285882e9333d924eb054161cd903" category="inline-xref-macro-rx"></block> 아래에 있습니다.</block>
   <block id="2a4be390687f80c7cdf976afca0fe778" category="section-title">알림 유형</block>
   <block id="0ebfeb3212b9bb4b152ea82a5877a33b" category="paragraph">알림은 다음 범주로 분류됩니다.</block>
   <block id="9e89e978c220a2a733d027866cb12907" category="cell">알림 유형입니다</block>
@@ -3057,15 +3054,12 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="505a83f220c02df2f85c3810cd9ceb38" category="cell">성공</block>
   <block id="ae75ef51af35154ca4a9e6d19fb16774" category="cell">작업 또는 프로세스가 성공적으로 완료되었습니다.</block>
   <block id="e457faf451b04c78c6b2c6bc25491ad1" category="section-title">알림을 필터링합니다</block>
-  <block id="f3ac04608c1c767bc38258edb6feb320" category="paragraph">기본적으로 모든 알림이 표시됩니다. 알림 센터에 표시되는 알림을 필터링하여 사용자에게 중요한 알림만 표시할 수 있습니다. BlueXP "서비스" 및 "유형" 알림별로 필터링할 수 있습니다.</block>
   <block id="3ad97ba753a3f0d27266b3d174a47648" category="inline-image-macro">알림 센터에서 사용할 수 있는 두 가지 유형의 필터를 보여 주는 스크린샷</block>
   <block id="86a2197cbddea56be1e7cc24be3d4916" category="paragraph"><block ref="86a2197cbddea56be1e7cc24be3d4916" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4815e02c8d3314e19dd0c9f88070f95e" category="paragraph">예를 들어, BlueXP 작업에 대한 "오류" 및 "경고" 알림만 표시하려면 해당 항목을 선택하면 해당 유형의 알림만 표시됩니다.</block>
   <block id="def7f3eac7eed1dada5cdcd2951ede36" category="section-title">이메일 알림 설정을 지정합니다</block>
   <block id="f8e2d638417ba643bd67781e67c8ff5f" category="paragraph">이메일을 통해 특정 유형의 알림을 전송할 수 있으므로 BlueXP에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있습니다. 이메일은 BlueXP 계정에 속한 모든 사용자 또는 특정 유형의 시스템 작업을 알고 있어야 하는 다른 수신자에게 보낼 수 있습니다.</block>
-  <block id="46cbe9208ff114439409f262e659f93e" category="list-text">현재, 전자 메일을 통해 커넥터, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 디지털 지갑 및 BlueXP 랜섬웨어 보호 등의 BlueXP 기능 및 서비스에 대한 알림을 보냅니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
   <block id="5fd245f2aeee830efb92d081af6a0e22" category="list-text">Connector가 인터넷에 연결되지 않은 사이트에 설치되어 있으면 이메일 알림 전송이 지원되지 않습니다.</block>
-  <block id="95542c2d2bb8f536e459ea1a4e6e77b7" category="paragraph">기본적으로 BlueXP 계정 관리자는 모든 "중요" 및 "권장 사항" 알림에 대한 이메일을 받게 됩니다. 다른 모든 사용자와 수신자는 기본적으로 알림 이메일을 수신하지 않도록 구성되어 있습니다.</block>
   <block id="f6cf378d25bc2bcaeedbdbd322fec41b" category="paragraph">알림 설정을 사용자 지정하려면 계정 관리자여야 합니다.</block>
   <block id="8d7a9434573819ca2918a0be28a97671" category="list-text">BlueXP 메뉴 표시줄에서 * 설정 &gt; 경고 및 알림 설정 * 을 선택합니다.</block>
   <block id="dffb0ae952f619b638efb5dbc37b121a" category="inline-image-macro">경고 및 알림 설정 페이지를 표시하는 방법을 보여 주는 스크린샷</block>
@@ -3817,4 +3811,11 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
   <block id="cb4a26e3cea7ec3938d93961d212ef39" category="list-text">다른 프로젝트의 리소스를 관리하려면 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.</block>
   <block id="c063b725387c641804ed10699362a645" category="list-text">커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다<block ref="98f22f2dda0728ebb39af9a8fe826c8e" category="inline-link-rx"></block> VM 인스턴스의 경우. BlueXP는 서비스 계정에서 Cloud Volumes ONTAP 시스템을 생성 및 관리하고 BlueXP 백업 및 복구를 사용하여 백업을 관리하는 권한을 얻습니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.</block>
   <block id="4196d70b52fef46e6943a70842908897" category="paragraph">Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.</block>
+  <block id="9704e328148ed91b7f98eb143244edd7" category="paragraph">알림은 BlueXP에서 시작한 작업의 진행 상황을 추적하므로 작업의 성공 여부를 확인할 수 있습니다. 이 기능을 사용하면 현재 로그인 세션 중에 시작한 여러 BlueXP 작업의 상태를 볼 수 있습니다. 현재 모든 BlueXP 서비스가 알림 센터에 정보를 보고하는 것은 아닙니다.</block>
+  <block id="8efb4a247c34c0ca71ba217009352182" category="inline-xref">이메일 알림 설정을 지정합니다</block>
+  <block id="5e703ffd4a02b69f95fc98818e5f3919" category="paragraph">또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일을 통해 특정 유형의 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이메일은 BlueXP 계정에 속한 모든 사용자 또는 특정 유형의 시스템 작업을 알고 있어야 하는 다른 수신자에게 보낼 수 있습니다. 자세한 내용은 를 참조하십시오 <block ref="a148e670707e0255b9681ed2a38729bc" category="inline-xref-macro-rx"></block>.</block>
+  <block id="b0689737e83154357ff9ef36053bda4f" category="paragraph">기본적으로 알림 센터에는 모든 활성 알림이 표시됩니다. 표시되는 알림을 필터링하여 중요한 알림만 표시할 수 있습니다. BlueXP "서비스" 및 "유형" 알림별로 필터링할 수 있습니다.</block>
+  <block id="9a4a8fa1cd4f878ff0d3a810b77cddd2" category="list-text">현재, 전자 메일을 통해 커넥터, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 디지털 지갑 및 BlueXP 랜섬웨어 보호 등의 BlueXP 기능 및 서비스에 대한 알림을 보냅니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
+  <block id="2ad68125d72949aee5ac56974ac53849" category="paragraph">알림 센터에서 설정한 필터에 따라 전자 메일로 받을 알림 유형이 결정되지는 않습니다. 기본적으로 BlueXP 계정 관리자는 모든 "중요" 및 "권장 사항" 알림에 대한 이메일을 받게 됩니다. 이러한 알림은 모든 서비스에 걸쳐 제공됩니다. 커넥터 또는 BlueXP 백업 및 복구와 같은 특정 서비스에 대해서만 알림을 받도록 선택할 수는 없습니다.</block>
+  <block id="7fcffcce675dad706dbf53d68f1f86f2" category="paragraph">다른 모든 사용자와 수신자는 알림 이메일을 수신하지 않도록 구성되어 있으므로 추가 사용자에 대한 알림 설정을 구성해야 합니다.</block>
 </blocks>
