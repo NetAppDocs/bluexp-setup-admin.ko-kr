@@ -1473,20 +1473,8 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="82f74539a8232efa9fe9d44fbb820377" category="doc">Google Cloud Storage 버킷을 확인하십시오</block>
   <block id="e952b1c060b2dc1be5663131351e06a5" category="paragraph">Google Cloud에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Google 계정에 있는 Google Cloud Storage 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Google Cloud Storage 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.</block>
   <block id="4a5a2cb37f05953f58468c7fed5af846" category="paragraph">위치, 액세스 상태, 스토리지 클래스, 총 용량 및 사용된 용량 등 Google Cloud Storage 버킷에 대한 자세한 정보를 볼 수 있습니다. 이러한 버킷은 BlueXP 백업 및 복구, BlueXP 계층화 또는 BlueXP 복사 및 동기화 작업의 대상으로 사용할 수 있습니다.</block>
-  <block id="aaaa45300f726e0be12017066c3b12e8" category="list-text">Google Cloud Storage 버킷을 보려는 Google 계정에 Connector를 설치합니다.</block>
-  <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">탐색 메뉴에서 * Storage &gt; Canvas * 를 선택합니다.</block>
-  <block id="18fe44f15840f7116c5288c8e5b736da" category="paragraph">곧 Google Cloud Storage 작업 환경이 자동으로 표시됩니다.</block>
   <block id="21b1bc909131728ad1b5d3d05c538f6b" category="inline-image-macro">Google Cloud Storage 작업 환경의 스크린샷</block>
   <block id="94bd1056e53b5ba66af1269a83d9d853" category="paragraph"><block ref="94bd1056e53b5ba66af1269a83d9d853" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f0574ea9efbf61e3005311c1ed736537" category="list-text">작업 환경을 선택하고 오른쪽 창에서 작업을 선택합니다.</block>
-  <block id="dda5d91ac092d5a2808c7b76b6686167" category="inline-image-macro">Google Cloud Storage 작업 환경을 선택한 후 작업 창을 보여 주는 스크린샷 이 창에는 총 버킷 수 및 동기화 서비스 사용을 위한 작업이 표시됩니다.</block>
-  <block id="15d37262e72beba7163abfd70b5bfa25" category="paragraph"><block ref="15d37262e72beba7163abfd70b5bfa25" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2d08106578502b2089149e27907c689b" category="list-text">Google Cloud Storage 버킷과 데이터를 동기화하려면 * 데이터 동기화 * 를 선택하십시오.</block>
-  <block id="6beafc0ddd3d2d40e91fd1f10beca6f6" category="inline-link">BlueXP 복사 및 동기화에 대한 개요입니다</block>
-  <block id="e0e6f4b8b0641d976b8e099c1fe32756" category="paragraph">자세한 내용은 을 참조하십시오<block ref="fb520091925060688384bbe43ee465fa" category="inline-link-rx"></block></block>
-  <block id="1a2a90dcdbeaa1a29ed61b2e814f7fc6" category="list-text">Google 계정의 버킷에 대한 세부 정보를 보려면 * 작업 환경 입력 * 을 선택하십시오.</block>
-  <block id="b008bc9f769ee3b6c8813b19052b43a6" category="inline-image-macro">Google Cloud Storage 작업 환경의 세부 정보, 즉 총 버킷 수, 용량 및 위치, 각 버킷에 대한 세부 정보가 표시된 표를 보여주는 스크린샷</block>
-  <block id="14738180b3115b94f504ce48bf25a31a" category="paragraph"><block ref="14738180b3115b94f504ce48bf25a31a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c7c7fe81ff2afbb7f657e592f9871125" category="summary">제한된 모드에서 BlueXP를 시작하고 실행한 후 제한된 모드로 지원되는 BlueXP 서비스를 사용할 수 있습니다.</block>
   <block id="d279ef9d3fa427882e45e653bc7b1949" category="doc">다음에 수행할 수 있는 작업(제한된 모드)</block>
   <block id="9ed3d93e6149b9255047c4f345ace3ed" category="paragraph">자세한 내용은 다음 서비스 설명서를 참조하십시오.</block>
@@ -3195,7 +3183,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="93850b8e1d97181700833dcae4c7e219" category="paragraph"><block ref="93850b8e1d97181700833dcae4c7e219" category="inline-image-macro-rx" type="image"></block></block>
   <block id="54301079e01fc865e928c6fe22deeeef" category="paragraph">지역, 액세스 정책, 계정, 총 용량 및 사용된 용량 등을 비롯한 S3 버킷에 대한 세부 정보를 볼 수 있습니다. 이러한 버킷은 BlueXP 백업 및 복구, BlueXP 계층화 또는 BlueXP 복사 및 동기화 작업의 대상으로 사용할 수 있습니다. 또한 BlueXP 분류를 사용하여 이러한 버킷을 스캔할 수 있습니다.</block>
   <block id="1f96aa045f6500e7c58cc5f50ea21ffd" category="inline-link">여기에서 BlueXP를 사용하여 S3 버킷을 확인, 생성 및 관리하는 방법을 확인하십시오</block>
-  <block id="8ca79a150bd523c9a9a82fb5420fee36" category="paragraph">이제 새로 추가된 기능을 사용하여 S3 버킷을 생성하고 편집할 수 있습니다.<block ref="c4481f66e0558788424eb34d61e736ff" category="inline-link-rx"></block></block>
   <block id="08533087d95fb07c92ed0773080a65d4" category="doc">Azure 네트워킹을 설정합니다</block>
   <block id="1387f52f9e1a700036780a5bf567fab3" category="section-title">VNET 및 서브넷</block>
   <block id="b26bf0de9fb68038a5f4e2e2a13c5811" category="paragraph">Connector를 생성할 때 Connector가 상주할 VNET와 서브넷을 지정해야 합니다.</block>
@@ -3818,4 +3805,8 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
   <block id="9a4a8fa1cd4f878ff0d3a810b77cddd2" category="list-text">현재, 전자 메일을 통해 커넥터, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 디지털 지갑 및 BlueXP 랜섬웨어 보호 등의 BlueXP 기능 및 서비스에 대한 알림을 보냅니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
   <block id="2ad68125d72949aee5ac56974ac53849" category="paragraph">알림 센터에서 설정한 필터에 따라 전자 메일로 받을 알림 유형이 결정되지는 않습니다. 기본적으로 BlueXP 계정 관리자는 모든 "중요" 및 "권장 사항" 알림에 대한 이메일을 받게 됩니다. 이러한 알림은 모든 서비스에 걸쳐 제공됩니다. 커넥터 또는 BlueXP 백업 및 복구와 같은 특정 서비스에 대해서만 알림을 받도록 선택할 수는 없습니다.</block>
   <block id="7fcffcce675dad706dbf53d68f1f86f2" category="paragraph">다른 모든 사용자와 수신자는 알림 이메일을 수신하지 않도록 구성되어 있으므로 추가 사용자에 대한 알림 설정을 구성해야 합니다.</block>
+  <block id="00fba3f8242dff426927884c6521757a" category="paragraph">이제 새로 추가된 기능을 사용하여 S3 버킷을 생성하고 편집할 수 있습니다.<block ref="c4481f66e0558788424eb34d61e736ff" category="inline-link-rx"></block>.</block>
+  <block id="238db521ba5110fd4f7c460de28dd0c8" category="inline-link">BlueXP를 사용하여 클라우드 스토리지 버킷을 확인, 생성 및 관리하는 방법을 보려면 여기 를 방문하십시오</block>
+  <block id="8bc5e348bcf49d1543e86fd28ce45f86" category="paragraph">이제 새로 추가된 기능을 사용하여 Google Cloud Storage 버킷을 생성 및 편집할 수 있습니다.<block ref="640cf64376886268ca971c71c762f644" category="inline-link-rx"></block>.</block>
+  <block id="19b587cc77ce4b8566975983ec907303" category="sidebar">Google Cloud Storage 버킷 관리</block>
 </blocks>
