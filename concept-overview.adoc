@@ -66,6 +66,8 @@ BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네
 --
 * https://bluexp.netapp.com/netapp-cloud-data-sense["분류"^]
 * https://bluexp.netapp.com/digital-advisor["디지털 자문업체"^]
+* https://bluexp.netapp.com/digital-advisor["경제적인 효율성"^]
+* https://bluexp.netapp.com/digital-advisor["운영 복원력"^]
 * https://bluexp.netapp.com/ransomware-protection["랜섬웨어 보호"^]
 
 
@@ -90,7 +92,7 @@ BlueXP의 가격은 사용할 서비스에 따라 다릅니다. https://bluexp.n
 
 == BlueXP의 작동 방식
 
-BlueXP에는 SaaS 계층을 통해 제공되는 웹 기반 콘솔, 멀티 테넌시를 제공하는 계정, Cloud Volumes ONTAP 및 기타 클라우드 서비스를 관리하는 커넥터가 포함되어 있습니다.
+BlueXP에는 SaaS 계층을 통해 제공되는 웹 기반 콘솔, 멀티 테넌시를 제공하는 계정 및 작업 환경을 관리하고 BlueXP 클라우드 서비스를 지원하는 커넥터가 포함되어 있습니다.
 
 
 
@@ -110,7 +112,7 @@ link:concept-netapp-accounts.html["어카운트에 대해 자세히 알아보십
 
 === 커넥터
 
-BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다. Connector를 사용하면 사내 환경과 클라우드 환경 전반에서 리소스와 프로세스를 관리할 수 있습니다. Cloud Volumes ONTAP 및 기타 데이터 서비스를 사용해야 합니다.
+BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다. Connector를 사용하면 사내 환경과 클라우드 환경 전반에서 리소스와 프로세스를 관리할 수 있습니다. 작업 환경(예: Cloud Volumes ONTAP 및 온프레미스 ONTAP 클러스터)을 관리하고 여러 BlueXP 데이터 서비스를 사용해야 합니다.
 
 link:concept-connectors.html["커넥터에 대해 자세히 알아보십시오"].
 

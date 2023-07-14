@@ -145,7 +145,7 @@ Google Cloud에서 BlueXP가 리소스를 관리하는 데 필요한 권한을 C
 다음 예제에서는 프로젝트 수준에서 "connector"라는 역할을 만듭니다.
 
 +
-gcloud iam 역할은 커넥터 생성 -- project=MyProject -- file=connector.yAML
+`gcloud iam roles create connector --project=myproject --file=connector.yaml`
 
 +
 https://cloud.google.com/iam/docs/creating-custom-roles#iam-custom-roles-create-gcloud["Google Cloud docs: 사용자 지정 역할 생성 및 관리"^]

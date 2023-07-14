@@ -20,7 +20,9 @@ BlueXP 웹 기반 콘솔, AWS Marketplace 또는 자체 Linux 호스트에 소�
 ====
 .BlueXP
 --
-.필요한 것
+.시작하기 전에
+다음과 같은 항목이 있어야 합니다.
+
 * AWS 인증 방법: 필요한 권한이 있는 IAM 사용자의 IAM 역할 또는 액세스 키
 +
 link:task-set-up-permissions-aws.html["AWS 권한을 설정하는 방법에 대해 알아보십시오"]
@@ -84,7 +86,9 @@ link:reference-ports-aws.html["AWS의 보안 그룹 규칙을 봅니다"].
 --
 .AWS 마켓플레이스 를 참조하십시오
 --
-.필요한 것
+.시작하기 전에
+다음과 같은 항목이 있어야 합니다.
+
 * 네트워킹 요구사항을 충족하는 VPC 및 서브넷
 +
 link:task-set-up-networking-aws.html["네트워킹 요구 사항에 대해 알아보십시오"].
@@ -94,6 +98,10 @@ link:task-set-up-networking-aws.html["네트워킹 요구 사항에 대해 알�
 link:task-set-up-permissions-aws.html["AWS 권한을 설정하는 방법에 대해 알아보십시오"].
 
 * IAM 사용자에 대한 AWS 마켓플레이스의 구독 및 구독 취소 권한
+* 인스턴스의 CPU 및 RAM 요구 사항 이해
++
+link:reference-host-requirements-aws.html["인스턴스 요구 사항 검토"].
+
 * EC2 인스턴스의 키 쌍입니다.
 
 
@@ -112,10 +120,7 @@ image:screenshot-subscribe-aws.png["AWS Marketplace에서 Continue to Subscribe 
 +
 ** * 이름 및 태그 *: 인스턴스의 이름과 태그를 입력합니다.
 ** * 응용 프로그램 및 OS 이미지 *: 이 섹션을 건너뜁니다. 커넥터 AMI가 이미 선택되어 있습니다.
-** * 인스턴스 유형 *: 지역 가용성에 따라 지원되는 인스턴스 유형 중 하나를 선택합니다(T3.xLarge가 권장됨).
-+
-link:reference-host-requirements-aws.html["인스턴스 요구 사항을 검토합니다"].
-
+** * 인스턴스 유형 *: 지역 가용성에 따라 RAM 및 CPU 요구 사항을 충족하는 인스턴스 유형을 선택합니다(T3.xLarge가 권장됨).
 ** * 키 쌍(로그인) *: 인스턴스에 안전하게 연결하는 데 사용할 키 쌍을 선택합니다.
 ** * 네트워크 설정 *: 필요에 따라 네트워크 설정을 편집합니다.
 +
@@ -132,9 +137,6 @@ link:reference-ports-aws.html["AWS의 보안 그룹 규칙을 봅니다"].
 
 ** * 스토리지 구성 *: 기본 스토리지 옵션을 유지합니다.
 ** * 고급 세부 정보 *: * IAM 인스턴스 프로파일 * 에서 Connector에 필요한 권한이 포함된 IAM 역할을 선택합니다.
-+
-link:task-set-up-permissions-aws.html["AWS 권한을 설정하는 방법에 대해 알아보십시오"].
-
 ** * 요약 *: 요약을 검토하고 * 인스턴스 시작 * 을 클릭합니다.
 
 
@@ -166,7 +168,9 @@ https://_ipaddress_[]
 --
 .수동 설치
 --
-.필요한 것
+.시작하기 전에
+다음과 같은 항목이 있어야 합니다.
+
 * 커넥터를 설치할 수 있는 루트 권한
 * Connector의 인터넷 액세스에 프록시가 필요한 경우 프록시 서버에 대한 세부 정보입니다.
 +

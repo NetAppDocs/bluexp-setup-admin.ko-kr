@@ -1,0 +1,14 @@
+= 
+:allow-uri-read: 
+
+
+.단계
+. Amazon EC2 콘솔로 이동합니다.
+. 인스턴스 * 를 선택합니다.
+. 커넥터 인스턴스를 선택합니다.
+. Actions > Security > Modify IAM role * 을 선택합니다.
+. IAM 역할을 선택하고 * Update IAM role * 을 클릭합니다.
+
+
+.결과
+BlueXP는 이제 AWS에서 사용자 대신 작업을 수행하는 데 필요한 권한을 가집니다.

@@ -1,26 +1,6 @@
----
-sidebar: sidebar 
-permalink: task-adding-gcp-accounts.html 
-keywords: permissions, gcp, marketplace, gcp subscription, subscription, gcp marketplace, subscribe, data tiering, tiering, setup, requirements, account for data tiering, account for tiering, interoperable, interoperability, interoperable storage access keys, access keys 
-summary: 마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. 
----
-= BlueXP용 Google Cloud 자격 증명 및 구독을 관리합니다
-:hardbreaks:
+= 
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
-
-[role="lead"]
-마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다.
-
-
-
-== 마켓플레이스 구독을 Google Cloud 자격 증명과 연결합니다
-
-Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. 언제든지 이러한 자격 증명과 연결된 마켓플레이스 구독을 변경할 수 있습니다. 이 구독을 통해 선불 종량제 Cloud Volumes ONTAP 시스템을 생성하고 다른 BlueXP 서비스를 사용할 수 있습니다.
 
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
@@ -80,30 +60,6 @@ video::video-subscribing-google-cloud.mp4[width=848,height=480]
 .. 이 프로세스가 완료되면 BlueXP의 자격 증명 페이지로 돌아가서 이 새 구독을 선택합니다.
 +
 image:screenshot_gcp_associate.gif["구독 할당 페이지의 스크린샷."]
-
-
-
-
-
-
-
-== 마켓플레이스 가입 프로세스 문제 해결
-
-때로는 Google Cloud Marketplace를 통해 BlueXP를 구독하는 경우 권한이 잘못되거나 BlueXP 웹 사이트로 리디렉션되는 것을 실수로 수행하지 않기 때문에 조각화될 수 있습니다. 이 경우 다음 단계를 사용하여 구독 프로세스를 완료합니다.
-
-.단계
-. 로 이동합니다 https://console.cloud.google.com/marketplace/product/netapp-cloudmanager/cloud-manager["Google Cloud 마켓플레이스의 NetApp BlueXP 페이지"^] 주문 상태를 확인합니다. 페이지에 * 공급자 * 에서 관리 * 가 표시되면 아래로 스크롤하여 * 주문 관리 * 를 선택합니다.
-+
-image:screenshot_gcp_manage_orders.png["마켓플레이스 페이지 사후 구독 스크린샷."]
-
-+
-** 주문에 녹색 확인 표시가 있고 예상치 못한 경우 동일한 대금 청구 계정을 사용하는 조직의 다른 사용자가 이미 구독 중인 것일 수 있습니다. 예기치 않은 요청이거나 이 구독에 대한 자세한 정보가 필요한 경우 NetApp 세일즈 팀에 문의하십시오.
-+
-image:screenshot_gcp_green_marketplace.png["승인된 소유 권한의 스크린샷."]
-
-** 주문에 시계 및 * 보류 * 상태가 표시되면 마켓플레이스 페이지로 돌아가서 * 공급자 관리 * 를 선택하여 위에 설명된 프로세스를 완료합니다.
-+
-image:screenshot_gcp_pending_marketplace.png["보류 중인 마켓플레이스 소유 권한의 스크린샷."]
 
 
 

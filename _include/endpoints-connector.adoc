@@ -1,0 +1,87 @@
+= 
+:allow-uri-read: 
+
+
+| AWS 서비스(amazonaws.com):
+
+* CloudFormation 을 참조하십시오
+* EC2(탄력적인 컴퓨팅 클라우드)
+* IAM(Identity and Access Management)
+* 키 관리 서비스(KMS)
+* 보안 토큰 서비스(STS)
+* S3(Simple Storage Service)
+
+
+를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^]
+
+|\https://management.azure.com
+\https://login.microsoftonline.com
+\https://blob.core.windows.net
+\https://core.windows.net
+
+Azure 퍼블릭 지역의 리소스를 관리합니다.
+
+|
+\https://management.azure.microsoft.scloud
+\https://login.microsoftonline.microsoft.scloud
+\https://blob.core.microsoft.scloud
+\https://core.microsoft.scloud
+
+Azure IL6 지역의 리소스를 관리합니다.
+
+|\https://management.usgovcloudapi.net
+\https://login.microsoftonline.us
+\https://blob.core.usgovcloudapi.net
+\https://core.usgovcloudapi.net
+
+| Azure Government 지역의 리소스를 관리합니다.
+
+|\https://management.chinacloudapi.cn
+\https://login.chinacloudapi.cn
+\https://blob.core.chinacloudapi.cn
+\https://core.chinacloudapi.cn
+
+| Azure China 지역의 리소스를 관리합니다.
+
+|\https://www.googleapis.com/compute/v1/
+\https://compute.googleapis.com/compute/v1
+\https://cloudresourcemanager.googleapis.com/v1/projects
+\https://www.googleapis.com/compute/beta
+\https://storage.googleapis.com/storage/v1
+\https://www.googleapis.com/storage/v1
+\https://iam.googleapis.com/v1
+\https://cloudkms.googleapis.com/v1
+\https://www.googleapis.com/deploymentmanager/v2/projects
+
+Google Cloud에서 리소스를 관리합니다.
+
+|\https://support.netapp.com|을 클릭하여 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원으로 전송합니다.
+
+|\https://*.api.bluexp.netapp.com
+
+\https://api.bluexp.netapp.com
+
+\https://*.cloudmanager.cloud.netapp.com
+
+\https://cloudmanager.cloud.netapp.com
+
+BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.
+
+
+NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있지만 곧 출시될 릴리스에서 "api.bluexp.netapp.com" 에 연락하기 시작합니다.
+
+|\https://*.blob.core.windows.net
+
+\https://cloudmanagerinfraprod.azurecr.io
+
+Connector 및 해당 Docker 구성 요소를 업그레이드하려면 |를 수행합니다.
+
+|\https://*.blob.core.windows.net
+
+\https://cloudmanagerinfraprod.azurecr.io
+Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
+
+\https://occmclientinfragov.azurecr.us
+이 엔드포인트는 Azure Government 지역에서만 필요합니다.
+
+Connector 및 해당 Docker 구성 요소를 업그레이드하려면 |를 수행합니다.

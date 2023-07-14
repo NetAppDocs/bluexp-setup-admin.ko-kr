@@ -28,6 +28,7 @@ BlueXP를 시작하기 위해 커넥터가 필요하지 않습니다. Connector�
 +
 Connector는 작업 환경을 만드는 데 필요하지 않지만 볼륨 생성 및 관리, 데이터 복제, ONTAP용 FSx를 BlueXP 분류 및 BlueXP 복사 및 동기화 등의 서비스와 통합해야 합니다.
 
+* 자동화 카탈로그
 * Azure NetApp Files
 +
 Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 않지만 Azure NetApp Files 데이터를 스캔하기 위해 BlueXP 분류를 사용하려면 커넥터가 필요합니다.
@@ -49,6 +50,7 @@ Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 �
 +
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터를 위한 검색 및 관리 옵션에 대해 자세히 알아보십시오"^]
 
+* 지속 가능성
 
 
 

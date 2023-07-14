@@ -100,7 +100,7 @@ Connector는 저장소를 관리하려는 위치에 대한 네트워크 연결�
 
 Connector는 다음 엔드포인트를 접촉하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리합니다.
 
-[cols="2*"]
+[cols="2a,1a"]
 |===
 | 엔드포인트 | 목적 
 
@@ -115,28 +115,43 @@ AWS 서비스(amazonaws.com):
 * 보안 토큰 서비스(STS)
 * S3(Simple Storage Service)
 
-| 를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^] 
+ a| 
+를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^]
 
 
-| \https://management.azure.com
+
+ a| 
+\https://management.azure.com
 \https://login.microsoftonline.com
 \https://blob.core.windows.net
-\https://core.windows.net | Azure 공공 지역의 리소스를 관리합니다. 
+\https://core.windows.net
+ a| 
+Azure 공공 지역의 리소스를 관리합니다.
 
 
-| \https://management.azure.microsoft.scloud
+
+ a| 
+\https://management.azure.microsoft.scloud
 \https://login.microsoftonline.microsoft.scloud
 \https://blob.core.microsoft.scloud
-\https://core.microsoft.scloud | Azure IL6 영역의 리소스를 관리합니다. 
+\https://core.microsoft.scloud
+ a| 
+Azure IL6 영역의 리소스를 관리합니다.
 
 
-| \https://management.chinacloudapi.cn
+
+ a| 
+\https://management.chinacloudapi.cn
 \https://login.chinacloudapi.cn
 \https://blob.core.chinacloudapi.cn
-\https://core.chinacloudapi.cn | Azure 중국 지역의 리소스를 관리합니다. 
+\https://core.chinacloudapi.cn
+ a| 
+Azure 중국 지역의 리소스를 관리합니다.
 
 
-| \https://www.googleapis.com/compute/v1/
+
+ a| 
+\https://www.googleapis.com/compute/v1/
 \https://compute.googleapis.com/compute/v1
 \https://cloudresourcemanager.googleapis.com/v1/projects
 \https://www.googleapis.com/compute/beta
@@ -144,18 +159,23 @@ AWS 서비스(amazonaws.com):
 \https://www.googleapis.com/storage/v1
 \https://iam.googleapis.com/v1
 \https://cloudkms.googleapis.com/v1
-\https://www.googleapis.com/deploymentmanager/v2/projects | Google Cloud에서 리소스를 관리합니다. 
+\https://www.googleapis.com/deploymentmanager/v2/projects
+ a| 
+Google Cloud에서 리소스를 관리합니다.
+
 |===
 
 
 === 프록시 서버
 
-조직에서 나가는 인터넷 트래픽을 위해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다.
+조직에서 나가는 모든 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다.
 
 * IP 주소입니다
 * 자격 증명
 * HTTPS 인증서
 
+
+설치하는 동안 이 정보를 제공해야 합니다.
 
 비공개 모드에서 BlueXP가 아웃바운드 트래픽을 전송하는 유일한 시간은 클라우드 공급자에게 Cloud Volumes ONTAP 시스템을 생성하는 것입니다.
 
@@ -223,7 +243,8 @@ IAM 역할을 사용하여 Connector에 권한을 제공합니다. Connector의 
 IAM 사용자에 대한 권한 및 액세스 키를 설정합니다. Connector를 설치하고 BlueXP를 설정한 후 BlueXP에 AWS 액세스 키를 제공해야 합니다.
 
 .단계
-. IAM 콘솔에서 정책을 생성합니다.
+. AWS 콘솔에 로그인하고 IAM 서비스로 이동합니다.
+. 정책 생성:
 +
 .. 정책 > 정책 생성 * 을 클릭합니다.
 .. JSON * 을 선택하고 의 내용을 복사하여 붙여 넣습니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
@@ -261,7 +282,7 @@ https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azur
 . 의 내용을 복사합니다 link:reference-permissions-azure.html["Connector에 대한 사용자 지정 역할 권한"] JSON 파일에 저장합니다.
 . 할당 가능한 범위에 Azure 구독 ID를 추가하여 JSON 파일을 수정합니다.
 +
-사용자가 Cloud Volumes ONTAP 시스템을 생성할 각 Azure 구독에 대한 ID를 추가해야 합니다.
+BlueXP에서 사용할 각 Azure 구독에 대한 ID를 추가해야 합니다.
 
 +
 * 예 *
@@ -305,7 +326,7 @@ Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하�
 .역할 기반 액세스 제어를 위해 Azure Active Directory 응용 프로그램을 만듭니다
 . Azure에서 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당할 수 있는 권한이 있는지 확인합니다.
 +
-자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^].
+자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^]
 
 . Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.
 +
@@ -326,35 +347,80 @@ AD 응용 프로그램 및 서비스 보안 주체를 만들었습니다.
 
 
 
-.응용 프로그램에 사용자 지정 역할을 할당합니다
-. Azure 포털에서 * Subscriptions * 서비스를 엽니다.
-. 구독을 선택합니다.
-. IAM(Access Control) > 추가 > 역할 할당 추가 * 를 클릭합니다.
-. Role * 탭에서 * BlueXP Operator * 역할을 선택하고 * Next * 를 클릭합니다.
-. Members* 탭에서 다음 단계를 완료합니다.
+.애플리케이션에 역할을 할당합니다
+. 사용자 지정 역할 만들기:
 +
-.. 사용자, 그룹 또는 서비스 보안 주체 * 를 선택한 상태로 유지합니다.
-.. 구성원 선택 * 을 클릭합니다.
+.. 의 내용을 복사합니다 link:reference-permissions-azure.html["Connector에 대한 사용자 지정 역할 권한"] JSON 파일에 저장합니다.
+.. 할당 가능한 범위에 Azure 구독 ID를 추가하여 JSON 파일을 수정합니다.
++
+사용자가 Cloud Volumes ONTAP 시스템을 생성할 각 Azure 구독에 대한 ID를 추가해야 합니다.
+
++
+* 예 *
+
++
+[source, json]
+----
+"AssignableScopes": [
+"/subscriptions/d333af45-0d07-4154-943d-c25fbzzzzzzz",
+"/subscriptions/54b91999-b3e6-4599-908e-416e0zzzzzzz",
+"/subscriptions/398e471c-3b42-4ae7-9b59-ce5bbzzzzzzz"
+----
+.. JSON 파일을 사용하여 Azure에서 사용자 지정 역할을 생성합니다.
++
+다음 단계에서는 Azure Cloud Shell에서 Bash를 사용하여 역할을 생성하는 방법을 설명합니다.
+
++
+*** 시작 https://docs.microsoft.com/en-us/azure/cloud-shell/overview["Azure 클라우드 셸"^] Bash 환경을 선택하십시오.
+*** JSON 파일을 업로드합니다.
++
+image:screenshot_azure_shell_upload.png["파일을 업로드하는 옵션을 선택할 수 있는 Azure Cloud Shell의 스크린 샷"]
+
+*** Azure CLI를 사용하여 사용자 지정 역할을 생성합니다.
++
+[source, azurecli]
+----
+az role definition create --role-definition Connector_Policy.json
+----
++
+이제 Connector 가상 머신에 할당할 수 있는 BlueXP Operator라는 사용자 지정 역할이 있어야 합니다.
+
+
+
+
+
+. 역할에 응용 프로그램을 할당합니다.
++
+.. Azure 포털에서 * Subscriptions * 서비스를 엽니다.
+.. 구독을 선택합니다.
+.. IAM(Access Control) > 추가 > 역할 할당 추가 * 를 클릭합니다.
+.. Role * 탭에서 * BlueXP Operator * 역할을 선택하고 * Next * 를 클릭합니다.
+.. Members* 탭에서 다음 단계를 완료합니다.
++
+*** 사용자, 그룹 또는 서비스 보안 주체 * 를 선택한 상태로 유지합니다.
+*** 구성원 선택 * 을 클릭합니다.
 +
 image:screenshot-azure-service-principal-role.png["애플리케이션에 역할을 추가할 때 구성원 탭을 표시하는 Azure 포털의 스크린샷"]
 
-.. 응용 프로그램의 이름을 검색합니다.
+*** 응용 프로그램의 이름을 검색합니다.
 +
 예를 들면 다음과 같습니다.
 
 +
 image:screenshot_azure_service_principal_role.png["Azure 포털에서 역할 할당 추가 양식을 보여 주는 Azure 포털의 스크린샷"]
 
-.. 응용 프로그램을 선택하고 * 선택 * 을 클릭합니다.
-.. 다음 * 을 클릭합니다.
+*** 응용 프로그램을 선택하고 * 선택 * 을 클릭합니다.
+*** 다음 * 을 클릭합니다.
 
 
-. 검토 + 할당 * 을 클릭합니다.
+.. 검토 + 할당 * 을 클릭합니다.
 +
 이제 서비스 보안 주체에 Connector를 배포하는 데 필요한 Azure 권한이 있습니다.
 
 +
 여러 Azure 구독에서 Cloud Volumes ONTAP를 배포하려면 서비스 보안 주체를 해당 구독 각각에 바인딩해야 합니다. BlueXP를 사용하면 Cloud Volumes ONTAP를 배포할 때 사용할 구독을 선택할 수 있습니다.
+
+
 
 
 

@@ -1,0 +1,16 @@
+= 
+:allow-uri-read: 
+
+
+서비스 계정을 Connector VM에 연결합니다.
+
+.단계
+. Google Cloud 포털로 이동하여 Connector VM 인스턴스에 서비스 계정을 할당합니다.
++
+https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#changeserviceaccountandscopes["Google Cloud 설명서: 인스턴스에 대한 서비스 계정 및 액세스 범위 변경"^]
+
+. 다른 프로젝트의 리소스를 관리하려면 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.
+
+
+.결과
+BlueXP는 이제 Google Cloud에서 대신 작업을 수행하는 데 필요한 권한을 가지고 있습니다.

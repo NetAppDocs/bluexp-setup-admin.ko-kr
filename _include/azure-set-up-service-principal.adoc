@@ -1,67 +1,7 @@
----
-sidebar: sidebar 
-permalink: task-set-up-permissions-on-prem.html 
-keywords: set up permissions, cloud permissions, aws permissions, azure permissions, on prem permissions, connector permissions 
-summary: AWS 또는 Azure에서 BlueXP 서비스를 온프레미스 커넥터와 함께 사용하려면 클라우드 공급자에 권한을 설정해야 자격 증명을 설치한 후 Connector에 추가할 수 있습니다. 
----
-= 온프레미스 구축을 위한 클라우드 권한 설정
-:hardbreaks:
+= 
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
 
-[role="lead"]
-온-프레미스 커넥터가 있는 AWS 또는 Azure에서 BlueXP 서비스를 사용하려면 클라우드 공급자에 권한을 설정해야 자격 증명을 설치한 후 Connector에 추가할 수 있습니다.
-
-
-TIP: Google Cloud가 적합하지 않은 이유 Connector가 구내에 설치되어 있으면 Google Cloud에서 리소스를 관리할 수 없습니다. Connector를 Google Cloud에 설치하여 그 안에 있는 모든 리소스를 관리해야 합니다.
-
-[role="tabbed-block"]
-====
-.설치하고
---
-Connector가 사내에 설치된 경우 필요한 권한이 있는 IAM 사용자에 대한 액세스 키를 추가하여 BlueXP에 AWS 권한을 제공해야 합니다.
-
-Connector가 구내에 설치된 경우 이 인증 방법을 사용해야 합니다. IAM 역할을 사용할 수 없습니다.
-
-.단계
-. AWS 콘솔에 로그인하고 IAM 서비스로 이동합니다.
-. 정책 생성:
-+
-.. 정책 > 정책 생성 * 을 클릭합니다.
-.. JSON * 을 선택하고 의 내용을 복사하여 붙여 넣습니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
-.. 나머지 단계를 완료하고 정책을 생성합니다.
-+
-사용할 BlueXP 서비스에 따라 두 번째 정책을 만들어야 할 수도 있습니다.
-
-+
-표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다. link:reference-permissions-aws.html["Connector에 대한 IAM 정책에 대해 자세히 알아보십시오"].
-
-
-
-. IAM 사용자에게 정책을 연결합니다.
-+
-** https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create.html["AWS 설명서: IAM 역할 생성"^]
-** https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage-attach-detach.html["AWS 설명서: IAM 정책 추가 및 제거"^]
-
-
-. 커넥터를 설치한 후 BlueXP에 추가할 수 있는 액세스 키가 사용자에게 있는지 확인합니다.
-
-
-.결과
-이제 필요한 권한이 있는 IAM 사용자를 위한 액세스 키가 있어야 합니다. Connector를 설치한 후 이러한 자격 증명을 BlueXP의 커넥터와 연결해야 합니다.
-
-link:task-provide-permissions-on-prem.html["이러한 권한을 BlueXP에 제공하는 방법을 알아보십시오"].
-
---
-.Azure를 지원합니다
---
-Connector가 사내에 설치된 경우 Azure Active Directory에 서비스 보안 주체를 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 BlueXP에 Azure 권한을 제공해야 합니다.
-
-.역할 기반 액세스 제어를 위해 Azure Active Directory 응용 프로그램을 만듭니다
 . Azure에서 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당할 수 있는 권한이 있는지 확인합니다.
 +
 자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^]
@@ -85,7 +25,6 @@ AD 응용 프로그램 및 서비스 보안 주체를 만들었습니다.
 
 
 
-.애플리케이션에 역할을 할당합니다
 . 사용자 지정 역할 만들기:
 +
 .. 의 내용을 복사합니다 link:reference-permissions-azure.html["Connector에 대한 사용자 지정 역할 권한"] JSON 파일에 저장합니다.
@@ -162,7 +101,6 @@ image:screenshot_azure_service_principal_role.png["Azure 포털에서 역할 할
 
 
 
-.Windows Azure 서비스 관리 API 권한을 추가합니다
 . Azure Active Directory * 서비스에서 * 앱 등록 * 을 클릭하고 응용 프로그램을 선택합니다.
 . API 권한 > 권한 추가 * 를 클릭합니다.
 . Microsoft API * 에서 * Azure Service Management * 를 선택합니다.
@@ -175,7 +113,6 @@ image:screenshot_azure_service_mgmt_apis_add.gif["Azure 서비스 관리 API 추
 
 
 
-.응용 프로그램의 응용 프로그램 ID 및 디렉터리 ID를 가져옵니다
 . Azure Active Directory * 서비스에서 * 앱 등록 * 을 클릭하고 응용 프로그램을 선택합니다.
 . 응용 프로그램(클라이언트) ID * 와 * 디렉터리(테넌트) ID * 를 복사합니다.
 +
@@ -186,7 +123,6 @@ Azure 계정을 BlueXP에 추가하는 경우 응용 프로그램의 응용 프�
 
 
 
-.클라이언트 암호를 생성합니다
 . Azure Active Directory * 서비스를 엽니다.
 . 앱 등록 * 을 클릭하고 응용 프로그램을 선택합니다.
 . 인증서 및 비밀 > 새 클라이언트 비밀 * 을 클릭합니다.
@@ -200,11 +136,3 @@ image:screenshot_azure_client_secret.gif["Azure AD 서비스 보안 주체에 �
 이제 BlueXP에서 Azure AD를 인증하는 데 사용할 수 있는 클라이언트 암호가 있습니다.
 
 
-
-.결과
-이제 서비스 보안 주체가 설정되었으므로 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사해야 합니다. Connector를 설치한 후 이러한 자격 증명을 BlueXP의 커넥터와 연결해야 합니다.
-
-link:task-provide-permissions-on-prem.html["이러한 권한을 BlueXP에 제공하는 방법을 알아보십시오"].
-
---
-====

@@ -55,7 +55,7 @@ TIP: BlueXP에서 Connector를 만들면 Connector가 AWS 리소스를 관리할
 . JSON * 을 클릭합니다.
 . 다음 정책을 복사하여 붙여 넣습니다.
 +
-이 정책은 BlueXP에서 AWS에서 Connector 인스턴스를 실행하는 데 필요한 권한만 포함합니다. link:reference-permissions-aws.html["Connector 인스턴스에 필요한 권한을 봅니다"].
+이 정책은 BlueXP에서 AWS에서 Connector 인스턴스를 실행하는 데 필요한 권한만 포함합니다. link:reference-permissions-aws.html["Connector 인스턴스 자체에 필요한 권한을 봅니다"].
 
 +
 [source, json]
@@ -163,27 +163,25 @@ TIP: BlueXP에서 Connector를 만들면 Connector가 AWS 리소스를 관리할
 
 == AWS Marketplace에서 구축할 때 Connector에 대한 권한을 설정합니다
 
-AWS에서 IAM 정책을 생성하고 IAM 역할에 연결합니다. AWS Marketplace에서 Connector를 생성하면 해당 IAM 역할을 선택하라는 메시지가 표시됩니다.
+시장 구축을 준비하려면 AWS에서 IAM 정책을 생성하고 IAM 역할에 연결합니다. AWS Marketplace에서 Connector를 생성하면 해당 IAM 역할을 선택하라는 메시지가 표시됩니다.
 
 .단계
-. IAM 콘솔에서 정책을 생성합니다.
+. AWS 콘솔에 로그인하고 IAM 서비스로 이동합니다.
+. 정책 생성:
 +
 .. 정책 > 정책 생성 * 을 클릭합니다.
 .. JSON * 을 선택하고 의 내용을 복사하여 붙여 넣습니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
 .. 나머지 단계를 완료하고 정책을 생성합니다.
 +
-사용할 BlueXP 서비스에 따라 두 번째 정책을 만들어야 할 수도 있습니다.
-
-+
-표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다.
+사용할 BlueXP 서비스에 따라 두 번째 정책을 만들어야 할 수도 있습니다. 표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다. link:reference-permissions-aws.html["Connector에 대한 IAM 정책에 대해 자세히 알아보십시오"].
 
 
 
-. IAM 콘솔로 돌아가서 IAM 역할을 생성합니다.
+. IAM 역할 생성:
 +
 .. 역할 > 역할 생성 * 을 클릭합니다.
 .. AWS 서비스 > EC2 * 를 선택합니다.
-.. 이전 단계에서 만든 정책을 첨부하여 사용 권한을 추가합니다.
+.. 방금 만든 정책을 첨부하여 사용 권한을 추가합니다.
 .. 나머지 단계를 완료해서 역할을 만듭니다.
 
 
@@ -196,7 +194,7 @@ AWS Marketplace에서 구축하는 동안 IAM 역할을 EC2 인스턴스와 연�
 
 == 수동 설치 후 할당할 권한을 설정합니다
 
-AWS의 자체 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 경우 다음과 같은 방법으로 권한을 제공할 수 있습니다.
+AWS의 자체 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하려는 경우 다음과 같은 방법으로 권한을 제공할 수 있습니다.
 
 * 옵션 1: IAM 정책을 생성하고 EC2 인스턴스와 연결할 수 있는 IAM 역할에 정책을 연결합니다.
 * 옵션 2: 필요한 권한이 있는 IAM 사용자를 위해 BlueXP에 AWS 액세스 키를 제공합니다.
@@ -207,24 +205,22 @@ AWS의 자체 Linux 호스트에 Connector 소프트웨어를 수동으로 설�
 .IAM 역할
 --
 .단계
-. IAM 콘솔에서 정책을 생성합니다.
+. AWS 콘솔에 로그인하고 IAM 서비스로 이동합니다.
+. 정책 생성:
 +
 .. 정책 > 정책 생성 * 을 클릭합니다.
 .. JSON * 을 선택하고 의 내용을 복사하여 붙여 넣습니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
 .. 나머지 단계를 완료하고 정책을 생성합니다.
 +
-사용할 BlueXP 서비스에 따라 두 번째 정책을 만들어야 할 수도 있습니다.
-
-+
-표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다. link:reference-permissions-aws.html["Connector에 대한 IAM 정책에 대해 자세히 알아보십시오"].
+사용할 BlueXP 서비스에 따라 두 번째 정책을 만들어야 할 수도 있습니다. 표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다. link:reference-permissions-aws.html["Connector에 대한 IAM 정책에 대해 자세히 알아보십시오"].
 
 
 
-. IAM 콘솔로 돌아가서 IAM 역할을 생성합니다.
+. IAM 역할 생성:
 +
 .. 역할 > 역할 생성 * 을 클릭합니다.
 .. AWS 서비스 > EC2 * 를 선택합니다.
-.. 이전 단계에서 만든 정책을 첨부하여 사용 권한을 추가합니다.
+.. 방금 만든 정책을 첨부하여 사용 권한을 추가합니다.
 .. 나머지 단계를 완료해서 역할을 만듭니다.
 
 
@@ -237,7 +233,8 @@ AWS의 자체 Linux 호스트에 Connector 소프트웨어를 수동으로 설�
 .AWS 액세스 키입니다
 --
 .단계
-. IAM 콘솔에서 정책을 생성합니다.
+. AWS 콘솔에 로그인하고 IAM 서비스로 이동합니다.
+. 정책 생성:
 +
 .. 정책 > 정책 생성 * 을 클릭합니다.
 .. JSON * 을 선택하고 의 내용을 복사하여 붙여 넣습니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].

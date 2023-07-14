@@ -54,15 +54,15 @@ link:reference-networking-saas-console.html["BlueXP 콘솔에서 연결된 엔�
 
 === 수동 설치 중에 연결된 끝점입니다
 
-자체 Linux 호스트에 커넥터를 수동으로 설치하려는 경우 Connector 설치 과정에서 다음 URL에 액세스해야 합니다.
+자체 Linux 호스트에 커넥터를 수동으로 설치할 경우 Connector 설치 과정에서 다음 URL에 액세스해야 합니다.
 
 * \https://support.netapp.com
 * \https://mysupport.netapp.com
 * \https://cloudmanager.cloud.netapp.com/tenancy
 * \https://stream.cloudmanager.cloud.netapp.com
-* \https://cloudmanagerinfraprod.azurecr.io
 * \https://production-artifacts.cloudmanager.cloud.netapp.com
 * \https://*.blob.core.windows.net
+* \https://cloudmanagerinfraprod.azurecr.io
 
 
 설치 중에 호스트가 운영 체제 패키지를 업데이트하려고 할 수 있습니다. 호스트는 이러한 OS 패키지의 서로 다른 미러링 사이트에 연결할 수 있습니다.
@@ -73,24 +73,36 @@ link:reference-networking-saas-console.html["BlueXP 콘솔에서 연결된 엔�
 
 Connector는 일상적인 운영을 위해 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하려면 다음 엔드포인트에 연결하는 아웃바운드 인터넷 액세스가 필요합니다.
 
-[cols="2*"]
+[cols="2a,1a"]
 |===
 | 엔드포인트 | 목적 
 
 
-| \https://management.azure.com
+ a| 
+\https://management.azure.com
 \https://login.microsoftonline.com
 \https://blob.core.windows.net
-\https://core.windows.net | Azure 공공 지역의 리소스를 관리합니다. 
+\https://core.windows.net
+ a| 
+Azure 공공 지역의 리소스를 관리합니다.
 
 
-| \https://management.chinacloudapi.cn
+
+ a| 
+\https://management.chinacloudapi.cn
 \https://login.chinacloudapi.cn
 \https://blob.core.chinacloudapi.cn
-\https://core.chinacloudapi.cn | Azure 중국 지역의 리소스를 관리합니다. 
+\https://core.chinacloudapi.cn
+ a| 
+Azure 중국 지역의 리소스를 관리합니다.
 
 
-| \https://support.netapp.com | 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다. 
+
+ a| 
+\https://support.netapp.com
+ a| 
+라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다.
+
 
 
  a| 
@@ -109,9 +121,13 @@ NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있�
 
 
 
-| \https://cloudmanagerinfraprod.azurecr.io
+ a| 
+\https://*.blob.core.windows.net
 
-\https://*.blob.core.windows.net | Connector 및 해당 Docker 구성 요소를 업그레이드합니다. 
+\https://cloudmanagerinfraprod.azurecr.io
+ a| 
+Connector 및 해당 Docker 구성 요소를 업그레이드합니다.
+
 |===
 
 
@@ -124,15 +140,20 @@ NOTE: 커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있�
 * HTTPS 인증서
 
 
+설치하는 동안 이 정보를 제공해야 합니다.
+
 
 
 == 포트
 
-커넥터를 시작하거나 커넥터가 AutoSupport 메시지의 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다.
+커넥터를 시작하거나 커넥터가 Cloud Volumes ONTAP에서 NetApp 지원으로 AutoSupport 메시지를 보내는 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다.
 
 * HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.
 * SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.
-* 아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다. Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아웃바운드 인터넷 연결이 없는 경우 BlueXP는 자동으로 해당 Cloud Volumes ONTAP 시스템이 커넥터에 포함된 프록시 서버를 사용하도록 구성합니다. 유일한 요구 사항은 커넥터 보안 그룹이 포트 3128을 통한 인바운드 연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.
+* 아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다.
++
+Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아웃바운드 인터넷 연결이 없는 경우 BlueXP는 자동으로 해당 Cloud Volumes ONTAP 시스템이 커넥터에 포함된 프록시 서버를 사용하도록 구성합니다. 유일한 요구 사항은 커넥터 보안 그룹이 포트 3128을 통한 인바운드 연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.
+
 
 
 
