@@ -27,6 +27,9 @@ AD 응용 프로그램 및 서비스 보안 주체를 만들었습니다.
 
 . 사용자 지정 역할 만들기:
 +
+Azure 포털, Azure PowerShell, Azure CLI 또는 REST API를 사용하여 Azure 사용자 지정 역할을 생성할 수 있습니다. 다음 단계에서는 Azure CLI를 사용하여 역할을 생성하는 방법을 보여 줍니다. 다른 방법을 사용하려면 을 참조하십시오 https://learn.microsoft.com/en-us/azure/role-based-access-control/custom-roles#steps-to-create-a-custom-role["Azure 문서"^]
+
++
 .. 의 내용을 복사합니다 link:reference-permissions-azure.html["Connector에 대한 사용자 지정 역할 권한"] JSON 파일에 저장합니다.
 .. 할당 가능한 범위에 Azure 구독 ID를 추가하여 JSON 파일을 수정합니다.
 +

@@ -36,6 +36,18 @@ BlueXP의 기능과 서비스를 사용하려면 BlueXP가 클라우드 환경�
 
 
 | Cloud Volumes ONTAP 작동 | IAM 역할은 AWS의 각 Cloud Volumes ONTAP 노드에 연결되어야 합니다. HA 중재자의 경우도 마찬가지입니다. 기본 옵션은 BlueXP에서 IAM 역할을 생성할 수 있도록 하는 것이지만 직접 사용할 수 있습니다. | https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-set-up-iam-roles.html["IAM 역할을 직접 설정하는 방법에 대해 알아봅니다"^] 
+
+
+| 사내 ONTAP 클러스터를 Amazon S3에 백업 | ONTAP 볼륨에서 백업을 활성화할 때 특정 권한이 있는 IAM 사용자에 대한 액세스 키와 암호를 입력하라는 메시지가 BlueXP 백업 및 복구에 표시됩니다. | https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-to-aws.html#set-up-s3-permissions["백업에 대한 S3 권한을 설정합니다"^] 
+
+
+| 사내 ONTAP 클러스터를 StorageGRID로 백업 | StorageGRID를 ONTAP 클러스터의 백업 대상으로 준비할 때 BlueXP 백업 및 복구 시 특정 권한이 있는 IAM 사용자에 대한 액세스 키와 암호를 입력하라는 메시지가 표시됩니다. | https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html#prepare-storagegrid-as-your-backup-target["StorageGRID를 백업 타겟으로 준비합니다"^] 
+
+
+| 사내 ONTAP 클러스터를 AWS로 계층화 | BlueXP 계층화를 AWS에 활성화하면 마법사에서 액세스 키와 비밀 키를 입력하라는 메시지가 표시됩니다. 이러한 자격 증명은 ONTAP 클러스터에 전달되므로 ONTAP은 데이터를 S3 버킷으로 계층화할 수 있습니다. | https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#set-up-s3-permissions["계층화에 S3 사용 권한 설정"^] 
+
+
+| 사내 ONTAP 클러스터를 StorageGRID로 계층화 | StorageGRID에 BlueXP 계층화를 설정할 경우 S3 액세스 키와 비밀 키를 사용하여 BlueXP 계층화를 제공해야 합니다. BlueXP 계층화는 키를 사용하여 버킷에 액세스합니다. | https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html#prepare-storagegrid-as-your-backup-target["StorageGRID에 계층화할 준비를 합니다"^] 
 |===
 
 
@@ -74,4 +86,20 @@ link:reference-permissions-azure.html["Connector에 대한 Azure 권한"]
 | 커넥터 작동 | Connector VM 인스턴스의 서비스 계정에는 일상적인 작업에 대한 특정 권한이 있어야 합니다. BlueXP에서 서비스 계정을 배포할 때 서비스 계정을 커넥터에 연결해야 합니다.
 
 또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:reference-permissions-gcp.html["Connector에 대한 Google Cloud 권한"] 
+
+
+| Cloud Volumes ONTAP을 Google Cloud에 백업합니다  a| 
+BlueXP 백업 및 복구를 사용하여 Cloud Volumes ONTAP를 백업할 때 다음 시나리오에서 커넥터에 권한을 추가해야 합니다.
+
+* "검색 및 복원" 기능을 사용하려고 합니다
+* 고객 관리 암호화 키(CMEK)를 사용하려는 경우
+
+ a| 
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-to-gcp.html#verify-or-add-permissions-to-the-connector["검색 및 표시 권한; 복원 기능"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-to-gcp.html#required-information-for-using-customer-managed-encryption-keys-cmek["CMEK에 대한 권한"^]
+
+
+
+
+| 사내 ONTAP 클러스터를 Google Cloud로 백업 | BlueXP 백업 및 복구를 사용하여 온프레미스 ONTAP 클러스터를 백업하는 경우 "검색 및 복원" 기능을 사용하려면 커넥터에 권한을 추가해야 합니다. | https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-to-gcp.html#verify-or-add-permissions-to-the-connector["검색 및 표시 권한; 복원 기능"^] 
 |===

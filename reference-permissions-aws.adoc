@@ -785,7 +785,7 @@ Connector는 검색 및 복원 방법을 사용하여 볼륨 및 파일을 복�
 * S3: PutBucketPublicAccessBlock
 * S3:중단멀티업로드입니다
 * S3:ListMultipartUploadParts(S3:ListMultimpartUploadParts) 를
-* Athena:StartQueryExecutionc
+* Athena: StartQueryExecution
 * Athena:GetQueryResults
 * Athena:GetQueryExecution을 참조하십시오
 * Athena: StopQueryExecution
