@@ -2906,9 +2906,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="be01cd1242a81da984b776c6a5aacb83" category="section-title">타사 서비스를 허용합니다</block>
   <block id="0d36dab0ce71c33a40b8ea4c8c773291" category="paragraph">사용자 계정의 타사 서비스가 BlueXP에서 사용 가능한 타사 서비스에 액세스할 수 있도록 허용합니다. 타사 서비스는 NetApp에서 제공하는 서비스와 유사한 클라우드 서비스이지만 타사의 관리 및 지원을 받습니다.</block>
   <block id="90837faa596ab1d28c90a381b6997722" category="list-text">개요 * 탭에서 * 타사 서비스 허용 * 설정을 활성화합니다.</block>
-  <block id="84dddaa8f7ae88c549f969e61659e03a" category="summary">BlueXP의 기능과 서비스를 사용하려면 BlueXP가 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다. 이 페이지의 링크를 사용하여 BlueXP에 필요한 사용 권한에 신속하게 액세스할 수 있습니다.</block>
   <block id="f664478fbdfbd15104b014e41c35e88c" category="doc">BlueXP에 대한 권한 요약</block>
-  <block id="b26840ebf08ae862c7d257c1229a3091" category="paragraph">BlueXP의 기능과 서비스를 사용하려면 BlueXP가 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다. 이 페이지의 링크를 사용하여 목표에 따라 필요한 사용 권한에 빠르게 액세스할 수 있습니다.</block>
   <block id="d2c0c7feb18d0e89bab9d23b6ec4c042" category="section-title">AWS 권한</block>
   <block id="97e7c9a7d06eac006a28bf05467fcc8b" category="cell">링크</block>
   <block id="eec108a26c2c4c3392174c931352146b" category="cell">BlueXP에서 커넥터 배치</block>
@@ -3780,7 +3778,6 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="649c5239d0163afb3411e36c5e857809" category="cell">StorageGRID를 ONTAP 클러스터의 백업 대상으로 준비할 때 BlueXP 백업 및 복구 시 특정 권한이 있는 IAM 사용자에 대한 액세스 키와 암호를 입력하라는 메시지가 표시됩니다.</block>
   <block id="08cdeb7ce64fda06111111c8fea66510" category="inline-link">StorageGRID를 백업 타겟으로 준비합니다</block>
   <block id="62d09ae20af8b1a53c08a95792d3bdb1" category="cell"><block ref="62d09ae20af8b1a53c08a95792d3bdb1" category="inline-link-rx"></block></block>
-  <block id="746562efc5b1b0667c7d322c1bda9554" category="cell">사내 ONTAP 클러스터를 AWS로 계층화</block>
   <block id="e6b202bba8f7c7c067b2137e58a41397" category="cell">BlueXP 계층화를 AWS에 활성화하면 마법사에서 액세스 키와 비밀 키를 입력하라는 메시지가 표시됩니다. 이러한 자격 증명은 ONTAP 클러스터에 전달되므로 ONTAP은 데이터를 S3 버킷으로 계층화할 수 있습니다.</block>
   <block id="827bb82562627531a1105788bd9826e6" category="inline-link">계층화에 S3 사용 권한 설정</block>
   <block id="5f2c172dbfc6022aa5027029dc114852" category="cell"><block ref="5f2c172dbfc6022aa5027029dc114852" category="inline-link-rx"></block></block>
@@ -3815,4 +3812,7 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="d1c50736002ef3676d1c143a04d4cc59" category="list-text">Athena: StartQueryExecution</block>
   <block id="e7a0ee2f9390b4213bbeb8838f2d3896" category="list-text">BlueXP SaaS 계층에는 아웃바운드 연결이 필요하지 않습니다. 모든 패키지, 종속성 및 필수 구성 요소는 커넥터와 함께 패키지로 제공되며 로컬 시스템에서 제공됩니다. Cloud Volumes ONTAP를 구축하는 경우에만 클라우드 공급자의 공개 리소스에 연결해야 합니다.</block>
   <block id="75dbd7f878d584e6e9f033b3806519ac" category="sidebar">네트워킹을 준비합니다</block>
+  <block id="48f169efc2b522ea6ab10451a2a28cd8" category="summary">BlueXP 기능 및 서비스를 사용하려면 BlueXP가 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다. 이 페이지의 링크를 사용하여 목표에 따라 필요한 사용 권한에 빠르게 액세스할 수 있습니다.</block>
+  <block id="6bc8bd282f003afcaaf88391550efbaf" category="cell">사내 ONTAP 클러스터를 Amazon S3에 계층화</block>
+  <block id="23c27147b4e0e766d76ac0f6e872424e" category="section-title">StorageGRID 권한</block>
 </blocks>
