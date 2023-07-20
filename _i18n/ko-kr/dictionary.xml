@@ -1828,7 +1828,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">목적지</block>
   <block id="241b5fab8e737eaa79c543efe7307059" category="cell">API 호출 및 AutoSupport</block>
   <block id="096a28c32a85d3d48462b468a3700d9a" category="cell">아웃바운드 인터넷 및 ONTAP 클러스터 관리 LIF</block>
-  <block id="7863903e1b4b84391267ab5c4af6a68d" category="cell">API는 Google Cloud 및 ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, AutoSupport 메시지 전송을 호출합니다</block>
   <block id="22043367a89ddcf3eb99eec509a967ba" category="cell">API 호출</block>
   <block id="e93028bdc1aacdfb3687181f2031765d" category="cell">3000입니다</block>
   <block id="e9ed822bdea417e9dfd79a2c81634ba4" category="cell">ONTAP HA 중재자</block>
@@ -3815,4 +3814,7 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="48f169efc2b522ea6ab10451a2a28cd8" category="summary">BlueXP 기능 및 서비스를 사용하려면 BlueXP가 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다. 이 페이지의 링크를 사용하여 목표에 따라 필요한 사용 권한에 빠르게 액세스할 수 있습니다.</block>
   <block id="6bc8bd282f003afcaaf88391550efbaf" category="cell">사내 ONTAP 클러스터를 Amazon S3에 계층화</block>
   <block id="23c27147b4e0e766d76ac0f6e872424e" category="section-title">StorageGRID 권한</block>
+  <block id="eb44d47feda5532d1121c79d84128d2e" category="cell">API는 AWS, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
+  <block id="e671b39f5fdb18b38eb5c968b368b3aa" category="cell">API는 Azure, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
+  <block id="8150638aa57d2b5755445cf3ab8eac20" category="cell">API는 Google Cloud, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
 </blocks>
