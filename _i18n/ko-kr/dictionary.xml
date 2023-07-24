@@ -1239,7 +1239,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="35083c8541bb2de95fd92715b18737cb" category="paragraph">제한된 모드를 활성화하려면 요청 본문에 다음을 포함해야 합니다.</block>
   <block id="69a442aca267a323cb2e19a768758f93" category="admonition">BlueXP에서 계정을 만든 후에는 제한된 모드 설정을 변경할 수 없습니다. 나중에 제한 모드를 활성화할 수 없으며 나중에 비활성화할 수 없습니다. 계정을 생성할 때 설정해야 합니다.</block>
   <block id="82ed80a9e9141ee7778aeb10a225c2fc" category="inline-link">이 API 호출을 사용하는 방법에 대해 알아보십시오</block>
-  <block id="ffcea1f0cafb5afdb99327d5e41340ea" category="paragraph"><block ref="ffcea1f0cafb5afdb99327d5e41340ea" category="inline-link-rx"></block></block>
   <block id="07999df8a3fec91dcf6daa7e52777cc7" category="list-text"><block ref="07999df8a3fec91dcf6daa7e52777cc7" category="inline-link-macro-rx"></block></block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link-macro">BlueXP 배포 모드에 대해 알아보십시오</block>
   <block id="d8c1ee023ea7a4705048e3464cfcb854" category="list-text"><block ref="d8c1ee023ea7a4705048e3464cfcb854" category="inline-link-macro-rx"></block></block>
@@ -3817,4 +3816,5 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="eb44d47feda5532d1121c79d84128d2e" category="cell">API는 AWS, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
   <block id="e671b39f5fdb18b38eb5c968b368b3aa" category="cell">API는 Azure, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
   <block id="8150638aa57d2b5755445cf3ab8eac20" category="cell">API는 Google Cloud, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
+  <block id="6d349a0af72df500a21b7660d8e471b2" category="paragraph"><block ref="6d349a0af72df500a21b7660d8e471b2" category="inline-link-rx"></block></block>
 </blocks>
