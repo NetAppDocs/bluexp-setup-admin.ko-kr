@@ -4,12 +4,12 @@
 
 .단계
 . 로 이동합니다 https://aws.amazon.com/marketplace/pp/B018REK8QG["AWS 마켓플레이스의 BlueXP 페이지"^]
-. Marketplace 페이지에서 * Continue to Subscribe * 를 클릭한 다음 * Continue to Configuration * 을 클릭합니다.
+. Marketplace 페이지에서 * Continue to Subscribe * 를 선택한 다음 * Continue to Configuration * 을 선택합니다.
 +
 image:screenshot-subscribe-aws.png["AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷"]
 
-. 기본 옵션을 변경하고 * 계속 시작 * 을 클릭합니다.
-. 작업 선택 * 에서 * EC2 * 를 통해 시작 * 을 선택한 다음 * 시작 * 을 클릭합니다.
+. 기본 옵션을 변경하고 * Continue to Launch * 를 선택합니다.
+. 작업 선택 * 에서 * EC2 * 를 통해 시작 * 을 선택한 다음 * 시작 * 을 선택합니다.
 +
 다음 단계에서는 콘솔에서 IAM 역할을 Connector 인스턴스에 연결할 수 있으므로 EC2 콘솔에서 인스턴스를 실행하는 방법을 설명합니다. 웹 사이트에서 시작 * 작업을 사용하면 이 작업을 수행할 수 없습니다.
 
@@ -34,7 +34,7 @@ link:reference-ports-aws.html["AWS의 보안 그룹 규칙을 봅니다"].
 
 ** * 스토리지 구성 *: 기본 스토리지 옵션을 유지합니다.
 ** * 고급 세부 정보 *: * IAM 인스턴스 프로파일 * 에서 Connector에 필요한 권한이 포함된 IAM 역할을 선택합니다.
-** * 요약 *: 요약을 검토하고 * 인스턴스 시작 * 을 클릭합니다.
+** * 요약 *: 요약을 검토하고 * 인스턴스 시작 * 을 선택합니다.
 
 
 

@@ -181,7 +181,7 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
 
 === Azure NetApp Files
 
-Connector는 Azure NetApp Files 작업 환경 관리를 위해 다음과 같은 API 요청을 수행합니다.
+BlueXP 분류를 사용하여 Azure NetApp Files 데이터를 스캔할 때 커넥터는 다음과 같은 API 요청을 합니다.
 
 * Microsoft.NetApp/netAppAccounts/read
 * Microsoft.NetApp/netAppAccounts/capacityPools/read

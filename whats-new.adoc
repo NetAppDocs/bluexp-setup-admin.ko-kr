@@ -18,6 +18,32 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
+== 7월 30일
+
+
+
+=== 커넥터 3.9.32
+
+* 이제 BlueXP 감사 서비스 API를 사용하여 감사 로그를 내보낼 수 있습니다.
++
+감사 서비스는 BlueXP 서비스에서 수행한 작업에 대한 정보를 기록합니다. 여기에는 원래 IP 주소, 작업 공간, 사용된 커넥터 및 기타 원격 측정 데이터가 포함됩니다. 이 데이터를 사용하여 어떤 작업을 수행했는지, 누가 수행했는지, 언제 수행했는지 확인할 수 있습니다.
+
++
+https://docs.netapp.com/us-en/bluexp-automation/audit/overview.html["감사 서비스 API 사용에 대해 자세히 알아보십시오"^]
+
++
+이 링크는 시각표 페이지의 BlueXP 사용자 인터페이스로도 액세스할 수 있습니다.
+
+* 이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.
++
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#30-july-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#30-july-2023["ONTAP 온프레미스 클러스터 개선 사항에 대해 알아보십시오"^]
+
+
+
+
+
+
 == 2023년 7월 2일
 
 
@@ -238,7 +264,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#5-march-
 
 === 커넥터 3.9.26
 
-* 로그인 * 페이지에서 로그인과 관련된 이메일 주소를 입력하라는 메시지가 표시됩니다. 다음 * 을 클릭하면 BlueXP가 로그인과 관련된 인증 방법을 사용하여 인증하라는 메시지를 표시합니다.
+* 로그인 * 페이지에서 로그인과 관련된 이메일 주소를 입력하라는 메시지가 표시됩니다. 다음 * 을 선택한 후 BlueXP는 로그인과 관련된 인증 방법을 사용하여 인증하라는 메시지를 표시합니다.
 +
 ** NetApp 클라우드 자격 증명의 암호입니다
 ** 통합 ID 자격 증명

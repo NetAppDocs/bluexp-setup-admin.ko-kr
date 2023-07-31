@@ -56,7 +56,7 @@ image:diagram_permissions_multiple_aws.png["두 개의 추가 계정을 보여 �
 
 다른 자격 증명 세트를 추가한 후 새 작업 환경을 만들 때 자격 증명으로 전환할 수 있습니다.
 
-image:screenshot_accounts_switch_aws.png["세부 정보 및 amp;Credentials 페이지에서 계정 전환 을 클릭한 후 클라우드 공급자 계정 간 선택을 보여 주는 스크린샷"]
+image:screenshot_accounts_switch_aws.png["세부 정보 및 amp;Credentials 페이지에서 계정 전환 을 선택한 후 클라우드 공급자 계정 간에 선택을 보여 주는 스크린샷"]
 
 link:task-adding-aws-accounts.html#add-additional-credentials-to-a-connector["기존 커넥터에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오."]
 

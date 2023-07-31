@@ -50,7 +50,7 @@ image:diagram_permissions_multiple_azure.png["사용자 지정 역할 및 관리
 
 예를 들어, 새 Cloud Volumes ONTAP 작업 환경을 생성할 때 자격 증명 간에 전환할 수 있습니다.
 
-image:screenshot_accounts_switch_azure.gif["세부 정보 및 amp;Credentials 페이지에서 계정 전환 을 클릭한 후 클라우드 공급자 계정 간 선택을 보여 주는 스크린샷"]
+image:screenshot_accounts_switch_azure.gif["세부 정보 및 amp;Credentials 페이지에서 계정 전환 을 선택한 후 클라우드 공급자 계정 간에 선택을 보여 주는 스크린샷"]
 
 
 

@@ -219,14 +219,14 @@ IAM 역할을 사용하여 Connector에 권한을 제공합니다. Connector의 
 . AWS 콘솔에 로그인하고 IAM 서비스로 이동합니다.
 . 정책 생성:
 +
-.. 정책 > 정책 생성 * 을 클릭합니다.
+.. 정책 > 정책 생성 * 을 선택합니다.
 .. JSON * 을 선택하고 의 내용을 복사하여 붙여 넣습니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
 .. 나머지 단계를 완료하고 정책을 생성합니다.
 
 
 . IAM 역할 생성:
 +
-.. 역할 > 역할 생성 * 을 클릭합니다.
+.. 역할 > 역할 생성 * 을 선택합니다.
 .. AWS 서비스 > EC2 * 를 선택합니다.
 .. 방금 만든 정책을 첨부하여 사용 권한을 추가합니다.
 .. 나머지 단계를 완료해서 역할을 만듭니다.
@@ -246,7 +246,7 @@ IAM 사용자에 대한 권한 및 액세스 키를 설정합니다. Connector�
 . AWS 콘솔에 로그인하고 IAM 서비스로 이동합니다.
 . 정책 생성:
 +
-.. 정책 > 정책 생성 * 을 클릭합니다.
+.. 정책 > 정책 생성 * 을 선택합니다.
 .. JSON * 을 선택하고 의 내용을 복사하여 붙여 넣습니다 link:reference-permissions-aws.html["Connector에 대한 IAM 정책"].
 .. 나머지 단계를 완료하고 정책을 생성합니다.
 +
@@ -334,8 +334,8 @@ Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하�
 +
 image:screenshot_azure_ad.gif["에는 Microsoft Azure의 Active Directory 서비스가 나와 있습니다."]
 
-. 메뉴에서 * 앱 등록 * 을 클릭합니다.
-. 새 등록 * 을 클릭합니다.
+. 메뉴에서 * 앱 등록 * 을 선택합니다.
+. 새 등록 * 을 선택합니다.
 . 응용 프로그램에 대한 세부 정보를 지정합니다.
 +
 ** * 이름 *: 응용 프로그램의 이름을 입력합니다.
@@ -343,7 +343,7 @@ image:screenshot_azure_ad.gif["에는 Microsoft Azure의 Active Directory 서비
 ** * URI 리디렉션 *: 이 필드는 비워 둘 수 있습니다.
 
 
-. Register * 를 클릭합니다.
+. Register * 를 선택합니다.
 +
 AD 응용 프로그램 및 서비스 보안 주체를 만들었습니다.
 
@@ -398,12 +398,12 @@ az role definition create --role-definition Connector_Policy.json
 +
 .. Azure 포털에서 * Subscriptions * 서비스를 엽니다.
 .. 구독을 선택합니다.
-.. IAM(Access Control) > 추가 > 역할 할당 추가 * 를 클릭합니다.
-.. Role * 탭에서 * BlueXP Operator * 역할을 선택하고 * Next * 를 클릭합니다.
+.. 액세스 제어(IAM) > 추가 > 역할 할당 추가 * 를 선택합니다.
+.. Role * 탭에서 * BlueXP Operator * 역할을 선택하고 * Next * 를 선택합니다.
 .. Members* 탭에서 다음 단계를 완료합니다.
 +
 *** 사용자, 그룹 또는 서비스 보안 주체 * 를 선택한 상태로 유지합니다.
-*** 구성원 선택 * 을 클릭합니다.
+*** 구성원 선택 * 을 선택합니다.
 +
 image:screenshot-azure-service-principal-role.png["애플리케이션에 역할을 추가할 때 구성원 탭을 표시하는 Azure 포털의 스크린샷"]
 
@@ -414,11 +414,11 @@ image:screenshot-azure-service-principal-role.png["애플리케이션에 역할�
 +
 image:screenshot_azure_service_principal_role.png["Azure 포털에서 역할 할당 추가 양식을 보여 주는 Azure 포털의 스크린샷"]
 
-*** 응용 프로그램을 선택하고 * 선택 * 을 클릭합니다.
-*** 다음 * 을 클릭합니다.
+*** 응용 프로그램을 선택하고 * 선택 * 을 선택합니다.
+*** 다음 * 을 선택합니다.
 
 
-.. 검토 + 할당 * 을 클릭합니다.
+.. 검토 + 할당 * 을 선택합니다.
 +
 이제 서비스 보안 주체에 Connector를 배포하는 데 필요한 Azure 권한이 있습니다.
 
@@ -430,20 +430,20 @@ image:screenshot_azure_service_principal_role.png["Azure 포털에서 역할 할
 
 
 .Windows Azure 서비스 관리 API 권한을 추가합니다
-. Azure Active Directory * 서비스에서 * 앱 등록 * 을 클릭하고 응용 프로그램을 선택합니다.
-. API 권한 > 권한 추가 * 를 클릭합니다.
+. Azure Active Directory * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.
+. API 권한 > 권한 추가 * 를 선택합니다.
 . Microsoft API * 에서 * Azure Service Management * 를 선택합니다.
 +
 image:screenshot_azure_service_mgmt_apis.gif["Azure 서비스 관리 API 권한을 보여 주는 Azure 포털의 스크린샷"]
 
-. Access Azure Service Management as organization users * 를 클릭한 다음 * Add permissions * 를 클릭합니다.
+. Access Azure Service Management as organization users * 를 선택한 다음 * Add permissions * 를 선택합니다.
 +
 image:screenshot_azure_service_mgmt_apis_add.gif["Azure 서비스 관리 API 추가를 보여 주는 Azure 포털의 스크린샷"]
 
 
 
 .응용 프로그램의 응용 프로그램 ID 및 디렉터리 ID를 가져옵니다
-. Azure Active Directory * 서비스에서 * 앱 등록 * 을 클릭하고 응용 프로그램을 선택합니다.
+. Azure Active Directory * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.
 . 응용 프로그램(클라이언트) ID * 와 * 디렉터리(테넌트) ID * 를 복사합니다.
 +
 image:screenshot_azure_app_ids.gif["Azure Active Directory의 응용 프로그램에 대한 응용 프로그램(클라이언트) ID 및 디렉터리(테넌트) ID를 보여 주는 스크린샷"]
@@ -455,10 +455,10 @@ Azure 계정을 BlueXP에 추가하는 경우 응용 프로그램의 응용 프�
 
 .클라이언트 암호를 생성합니다
 . Azure Active Directory * 서비스를 엽니다.
-. 앱 등록 * 을 클릭하고 응용 프로그램을 선택합니다.
-. 인증서 및 비밀 > 새 클라이언트 비밀 * 을 클릭합니다.
+. 앱 등록 * 을 선택하고 응용 프로그램을 선택합니다.
+. 인증서 및 비밀 > 새 클라이언트 비밀 * 을 선택합니다.
 . 비밀과 기간에 대한 설명을 제공하십시오.
-. 추가 * 를 클릭합니다.
+. 추가 * 를 선택합니다.
 . 클라이언트 암호 값을 복사합니다.
 +
 image:screenshot_azure_client_secret.gif["Azure AD 서비스 보안 주체에 대한 클라이언트 암호를 보여 주는 Azure 포털의 스크린샷"]
@@ -498,8 +498,8 @@ https://cloud.google.com/iam/docs/creating-custom-roles#iam-custom-roles-create-
 
 . Google Cloud에서 서비스 계정 생성:
 +
-.. IAM 및 관리 서비스에서 * 서비스 계정 > 서비스 계정 생성 * 을 클릭합니다.
-.. 서비스 계정 세부 정보를 입력하고 * 생성 및 계속 * 을 클릭합니다.
+.. IAM 및 관리 서비스에서 * 서비스 계정 > 서비스 계정 생성 * 을 선택합니다.
+.. 서비스 계정 세부 정보를 입력하고 * 생성 및 계속 * 을 선택합니다.
 .. 방금 만든 역할을 선택합니다.
 .. 나머지 단계를 완료해서 역할을 만듭니다.
 +

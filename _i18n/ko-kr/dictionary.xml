@@ -37,7 +37,6 @@
   <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">다섯</block>
   <block id="0db7fae0cbffb2606b92943c020175f6" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 커넥터를 작성합니다</block>
   <block id="58dfb3b98f86ab56e2908a35ae6b090f" category="paragraph">사용 가능한 설치 옵션 중 하나를 사용하여 커넥터를 만듭니다.</block>
-  <block id="c74633a8da806f7e37e5c3ff44c2e479" category="list-text">* BlueXP *: 커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.</block>
   <block id="5be6bb31e75b1dd8bd94a7ae6af3e755" category="inline-link">Azure 마켓플레이스의 NetApp Connector VM 페이지</block>
   <block id="29e1a7cf06605bf888586cc76182b640" category="list-text">* Azure Marketplace * 에서 로 이동합니다<block ref="ed0d2d9c900d50a83f742250d29abeec" category="inline-link-rx"></block> 메시지에 따라 Connector VM을 생성합니다.</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support 사이트</block>
@@ -77,19 +76,15 @@
   <block id="18387052a5adf3d55c9d07f70f3141e7" category="list-text">인스턴스 * 를 선택합니다.</block>
   <block id="e09de68bcf89e3f1adb5c29284597f34" category="list-text">커넥터 인스턴스를 선택합니다.</block>
   <block id="87116be258b420bc3c65682ee8c3c80b" category="list-text">Actions &gt; Security &gt; Modify IAM role * 을 선택합니다.</block>
-  <block id="0608ae08455224c5aa2037a0505848e7" category="list-text">IAM 역할을 선택하고 * Update IAM role * 을 클릭합니다.</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link">BlueXP 콘솔</block>
   <block id="1f2b7de34bbdaf655d7cd7c95b1bbd93" category="open-title">AWS 액세스 키입니다</block>
   <block id="fcfd4daeb24b4db3bb89c89c8f03c50e" category="paragraph">필요한 권한이 있는 IAM 사용자를 위해 BlueXP에 AWS 액세스 키를 제공합니다.</block>
   <block id="8ee9f4a3034e4f87e8571e2c3b43e9a2" category="list-text">현재 BlueXP에서 올바른 커넥터가 선택되어 있는지 확인합니다.</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.</block>
   <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷.</block>
   <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">자격 증명 추가 * 를 클릭하고 마법사의 단계를 따릅니다.</block>
   <block id="5e15e451ab1dcb5e3bfae55f8b58e524" category="list-text">* 자격 증명 위치 *: * Amazon Web Services &gt; Connector * 를 선택합니다.</block>
   <block id="8117407a9689d4f991904d5739091c47" category="list-text">* 자격 증명 정의 *: AWS 액세스 키와 비밀 키를 입력합니다.</block>
   <block id="dc6e318a413899b5467eabc5f69ad366" category="list-text">* Marketplace 구독 *: 지금 가입하거나 기존 구독을 선택하여 마켓플레이스 구독을 이러한 자격 증명과 연결합니다.</block>
-  <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">* 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 클릭합니다.</block>
   <block id="3747d8dfb456f8cefbe5ea8eed8a4289" category="summary">Azure에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Azure 구독에 있는 Azure 저장소 계정에 대한 정보를 자동으로 검색할 수 있습니다. Azure Blob 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.</block>
   <block id="70c85793f0a33ef534a67f193287a992" category="doc">Azure Blob 계정을 관리합니다</block>
   <block id="2ed919302195764ff313fc8d75b59525" category="inline-image-macro">Azure Blob 작업 환경의 스크린샷</block>
@@ -123,7 +118,6 @@
   <block id="bc3d26f932a03033b70d3ed650139a18" category="inline-link-macro">이 페이지의 정책 사용</block>
   <block id="578821444383a169c989590dba162c8a" category="list-text">BlueXP에서 Connector에 대한 Azure 역할을 자동으로 생성하지 않으려면 고유한 역할을 만들어야 합니다 <block ref="7706b04266d0a3d170ef3034140acd41" category="inline-link-macro-rx"></block>.</block>
   <block id="bb0af45d6e9045bc2046c5f245006f7c" category="paragraph">이러한 권한은 Connector 인스턴스 자체에 대한 것입니다. 이전 설정과는 다른 사용 권한 집합으로 Connector를 배포하기만 하면 됩니다.</block>
-  <block id="d2b74161d054c69894469355bb22cb63" category="list-text">처음 작업 환경을 만드는 경우 * 작업 환경 추가 * 를 클릭하고 화면의 지시를 따릅니다. 그렇지 않으면 * 커넥터 * 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택합니다.</block>
   <block id="df5b4e7d7b6a4648ec54c1e80de11594" category="inline-image-macro">머리글의 연결선 아이콘 및 연결선 추가 동작을 보여 주는 스크린샷</block>
   <block id="6afef7f4017876f5216334b8130f14fb" category="paragraph"><block ref="6afef7f4017876f5216334b8130f14fb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="02a8c4a4e553694e2236fd17bb20b197" category="list-text">클라우드 공급자로 * Microsoft Azure * 를 선택합니다.</block>
@@ -148,18 +142,14 @@
   <block id="ffcf64d34f1dcc41900c7060705863c1" category="inline-link-macro">Azure의 보안 그룹 규칙을 봅니다</block>
   <block id="27d00e27487104fffbc6a7d63cbf6baf" category="paragraph"><block ref="bfc1f993753d234d09b3194b930d1b96" category="inline-link-macro-rx"></block>.</block>
   <block id="77c0c575c550fbbb80de7e5c1eda4fbc" category="list-text">* 검토 *: 선택 사항을 검토하여 설정이 올바른지 확인합니다.</block>
-  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
   <block id="a1630873c12a4c232f890d319c1b34a5" category="paragraph">가상 시스템은 약 7분 내에 준비되어야 합니다. 프로세스가 완료될 때까지 페이지를 유지해야 합니다.</block>
   <block id="06a2a1a9babe72982d387f96f2be2014" category="paragraph">프로세스가 완료되면 BlueXP에서 커넥터를 사용할 수 있습니다.</block>
   <block id="21e74b3c28d006317f38a2bc8eb1da3b" category="open-title">Azure 마켓플레이스 를 참조하십시오</block>
   <block id="40ca3108b6381f9eda9574daf00c3b01" category="list-text">Azure 마켓플레이스에서 NetApp Connector VM 페이지로 이동합니다.</block>
   <block id="0c5f74a83e5cbc5c6c230dd0caf096f7" category="inline-link">상용 지역에 대한 Azure Marketplace 페이지</block>
   <block id="5fb9ace1b2fee444b848b1ad1c5d886c" category="paragraph"><block ref="5fb9ace1b2fee444b848b1ad1c5d886c" category="inline-link-rx"></block></block>
-  <block id="225df19c00186b6ea3e256ba18a0a186" category="list-text">지금 받기 * 를 클릭한 다음 * 계속 * 을 클릭합니다.</block>
-  <block id="74056a9be421d18494e08827c2a4c7f6" category="list-text">Azure 포털에서 * Create * 를 클릭하고 다음 단계에 따라 가상 시스템을 구성합니다.</block>
   <block id="d110361593d3c3b635cec5b83db5e311" category="paragraph">VM을 구성할 때 다음 사항에 유의하십시오.</block>
   <block id="089f373f5f48b55cde8c8de1db96243c" category="inline-link">Azure 리소스의 관리 ID에 대해 자세히 알아보십시오</block>
-  <block id="cf4a06fce4c7b1055a372af2e026d54e" category="list-text">Review + create * 페이지에서 선택 사항을 검토하고 * Create * 를 클릭하여 배포를 시작합니다.</block>
   <block id="764960e87b4fddf3ade9ee834c310b2b" category="paragraph">Azure는 지정된 설정으로 가상 머신을 구축합니다. 가상 머신 및 커넥터 소프트웨어는 약 5분 내에 실행되어야 합니다.</block>
   <block id="f8cccaed0b932ef662605b0a2cef04df" category="list-text">Connector 가상 머신에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
@@ -170,7 +160,6 @@
   <block id="bc2db05002588dce0afea6db153376bc" category="list-text">에서 * 보안 환경에서 실행 중입니까? * 제한된 모드를 사용하지 않도록 설정합니다.</block>
   <block id="443d63c9ee87e9dac12aa2216b54f52d" category="inline-link-macro">제한된 모드에서 BlueXP를 시작하려면 다음 단계를 따르십시오</block>
   <block id="47b475ce8fffd929f1fc89967e693fe0" category="paragraph">이 단계에서는 표준 모드에서 BlueXP를 사용하는 방법을 설명하므로 제한된 모드를 사용하지 않도록 설정해야 합니다. 보안 환경이 있고 BlueXP 백엔드 서비스에서 이 계정의 연결을 끊으려면 제한된 모드만 활성화해야 합니다. 그렇다면 <block ref="d4230e2957fd67694fbeb2d4cebbd012" category="inline-link-macro-rx"></block>.</block>
-  <block id="78d81209f9229f459cb7adc59599a9f9" category="list-text">시작 * 을 클릭합니다.</block>
   <block id="e48cc2b8b425580d8ee1508fd8a29ab2" category="paragraph">이제 커넥터가 설치되어 BlueXP 계정으로 설정됩니다.</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
   <block id="ba997697bddbedc57faeb5fdc16c15a6" category="inline-link-macro">이전에 설정한 권한을 BlueXP에 제공합니다</block>
@@ -815,7 +804,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="dacf2f246c2efb276c3709c141985f7c" category="paragraph"><block ref="4734e8f3bab5a9c00aebb286a2f16deb" category="inline-link-macro-rx"></block>.</block>
   <block id="cc96a4cc30e50577aa6671b076af72e1" category="section-title">사용자 자격 증명을 관리합니다</block>
   <block id="fa6e9e9d0c238d856c9d80111986b0b1" category="paragraph">사용자 이름과 암호를 업데이트하거나 자격 증명을 삭제하여 사용자 자격 증명을 관리합니다.</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">사용자 자격 증명 * 을 클릭합니다.</block>
   <block id="9afc8b6b41174c0836030fc8ac89ce5a" category="list-text">아직 사용자 자격 증명이 없는 경우 * NSS 자격 증명 추가 * 를 선택하여 NetApp Support 사이트 계정을 추가할 수 있습니다.</block>
   <block id="f89f00feaba2fad2b55607ff15acc121" category="list-text">다음 옵션을 선택하여 기존 자격 증명을 관리합니다.</block>
   <block id="73877140c9191100114cf829d4df1aa5" category="list-text">* 자격 증명 업데이트 *: 계정의 사용자 이름과 암호를 업데이트합니다.</block>
@@ -862,7 +850,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="d9027b224a5d127be0b2843b650e4806" category="list-text"><block ref="d9027b224a5d127be0b2843b650e4806" category="inline-link-macro-rx"></block></block>
   <block id="92ec95b8916ebc493b6546010073c81f" category="section-title">Azure 사용 권한 사용 방법</block>
   <block id="815957003313e5f9581718376c2c472f" category="paragraph">다음 섹션에서는 각 BlueXP 서비스에 대한 사용 권한이 어떻게 사용되는지 설명합니다. 이 정보는 기업 정책에 따라 사용 권한이 필요한 경우에만 제공된다는 내용이 지정되어 있는 경우에 유용합니다.</block>
-  <block id="cff963a7ee056005e400757f5bb06556" category="paragraph">Connector는 Azure NetApp Files 작업 환경 관리를 위해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="e400a17015f6033633700b6ba11625ba" category="list-text">Microsoft.NetApp/netAppAccounts/read</block>
   <block id="6db1cf4cd8e4d2dd21411cc7d81bfe62" category="list-text">Microsoft.NetApp/netAppAccounts/capacityPools/read</block>
   <block id="d532d42cdca6427a0c94a0fe2b7724bf" category="list-text">Microsoft.NetApp/netAppAccounts/capacityPools/volumes/write</block>
@@ -1046,11 +1033,8 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="482049a2c27830202c448327d329f378" category="list-text">네트워킹 요구사항을 충족하는 VPC 및 서브넷</block>
   <block id="b66539d8d1c1e3f97e751ce32b201932" category="inline-link-macro">네트워킹 요구 사항에 대해 알아보십시오</block>
   <block id="1e2c4b5ca22d40c55b8d98ccd5e1ba09" category="paragraph"><block ref="1e2c4b5ca22d40c55b8d98ccd5e1ba09" category="inline-link-macro-rx"></block></block>
-  <block id="18e6b8699d1a4d091a3257edbd45153c" category="list-text">커넥터 * 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택합니다.</block>
   <block id="5ec1fdc717a09349991e1304c5bd757a" category="list-text">클라우드 공급자로 * Google Cloud Platform * 을 선택합니다.</block>
   <block id="1fbc47392baedd9a8a771f5372aa43d4" category="list-text">커넥터 배포 * 페이지에서 필요한 사항에 대한 세부 정보를 검토합니다. 두 가지 옵션이 있습니다.</block>
-  <block id="639c5d452ac23b93fb028a8d3101d2c2" category="list-text">제품 내 가이드를 사용하여 배포를 준비하려면 * 계속 * 을 클릭합니다. 제품 내 가이드의 각 단계에는 이 문서 페이지에 포함된 정보가 포함되어 있습니다.</block>
-  <block id="ce670b5c6b0b9f0203bdb18071265645" category="list-text">이 페이지의 단계를 따라 이미 준비되었으면 * 배포로 건너뛰기 * 를 클릭합니다.</block>
   <block id="12e9d88275170959cb7167c4c85f6c77" category="list-text">메시지가 표시되면 Google 계정에 로그인합니다. 이 계정에는 가상 머신 인스턴스를 생성하는 데 필요한 권한이 있어야 합니다.</block>
   <block id="29b28ad1793cec26548948fbe79ebfd5" category="paragraph">이 양식은 Google에서 소유하고 호스팅됩니다. 자격 증명이 NetApp에 제공되지 않습니다.</block>
   <block id="abfd76b9567ca082322504a092e076c7" category="list-text">* 세부 정보 *: 가상 머신 인스턴스의 이름을 입력하고, 태그를 지정하고, 프로젝트를 선택한 다음 필요한 권한이 있는 서비스 계정을 선택합니다(자세한 내용은 위의 섹션 참조).</block>
@@ -1136,10 +1120,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">BlueXP 로그인과 관련된 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">케이스 생성 * 기능을 사용하려면 먼저 NetApp Support 사이트 자격 증명을 BlueXP 로그인에 연결해야 합니다.<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>.</block>
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">일련 번호가 있는 ONTAP 시스템의 케이스를 여는 경우 NSS 계정은 해당 시스템의 일련 번호와 연결되어 있어야 합니다.</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXP에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">리소스 * 페이지의 기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">전화로 통화하려면 * 전화 * 를 클릭하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 담당자와 티켓을 엽니다.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 BlueXP 계정, 작업 영역 및 커넥터의 범위 내에 있습니다.</block>
@@ -1153,7 +1134,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">지원 케이스 번호와 함께 팝업이 나타납니다. NetApp 지원 전문가가 귀사의 사례를 검토하고 곧 다시 연결해 드릴 것입니다.</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">지원 케이스 내역을 보려면 * 설정 &gt; 일정 * 을 클릭하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">케이스를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">이 오류는 NSS 계정과 연결된 레코드 회사가 BlueXP 계정 일련 번호( 960xxxx) 또는 작동 환경 일련 번호 다음 옵션 중 하나를 사용하여 지원을 요청할 수 있습니다.</block>
@@ -1169,10 +1149,8 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">관심 있는 열을 추가 또는 제거할 수 있으며 우선 순위 및 상태 등의 열 내용을 필터링할 수 있습니다. 다른 열은 정렬 기능만 제공합니다.</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">자세한 내용은 아래 단계를 참조하십시오.</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">케이스 수준별로 케이스 메모를 업데이트하거나 아직 종결 또는 미결 종결 상태가 아닌 케이스를 종결할 수 있습니다.</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Case Management * 를 클릭하고 메시지가 표시되면 NSS 계정을 BlueXP에 추가합니다.</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">케이스 관리 * 페이지에는 BlueXP 사용자 계정과 연결된 NSS 계정과 관련된 미해결 케이스가 표시됩니다. NSS 관리 * 페이지 상단에 나타나는 것과 동일한 NSS 계정입니다.</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">필요한 경우 테이블에 표시되는 정보를 수정합니다.</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">조직의 케이스 * 에서 * 보기 * 를 클릭하여 회사와 관련된 모든 케이스를 봅니다.</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">정확한 날짜 범위를 선택하거나 다른 기간을 선택하여 날짜 범위를 수정합니다.</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">케이스 관리 페이지의 표 위에 있는 옵션 스크린샷으로 정확한 날짜 범위 또는 최근 7일, 30일 또는 3개월을 선택할 수 있습니다.</block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
@@ -1180,14 +1158,11 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">활성 또는 종료와 같은 특정 상태와 일치하는 케이스를 필터링할 수 있는 상태 열의 필터 옵션 스크린샷</block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">테이블에 나타나는 더하기 아이콘입니다</block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">을 클릭하여 테이블에 표시되는 열을 변경합니다 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">표에 표시할 수 있는 열을 보여 주는 스크린샷</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">표의 마지막 열에 세 개의 점이 있는 아이콘</block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">를 클릭하여 기존 케이스를 관리합니다 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">* 사례 보기 *: 특정 케이스에 대한 전체 세부 정보를 봅니다.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 케이스 메모 업데이트 *: 문제에 대한 추가 세부 정보를 제공하거나 * 파일 업로드 * 를 선택하여 최대 5개의 파일을 첨부할 수 있습니다.</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">* 케이스 종료 *: 케이스를 닫는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 클릭합니다.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">표의 마지막 열에서 메뉴를 선택한 후 수행할 수 있는 작업을 보여 주는 스크린샷</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4453e7502515d4db1f3a4a1c28c48f13" category="summary">Connector 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 포트 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다. 커넥터를 수동으로 설치하려는 경우 호스트가 이러한 요구 사항을 충족하는지 확인해야 합니다. 커넥터를 설치하기 전에 호스트가 이러한 요구 사항을 충족하는지 확인하십시오.</block>
@@ -1221,8 +1196,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="9d28e4868b7fcb2d0b7ab54f9d7f7b3c" category="inline-link-macro">계정 자격 증명을 BlueXP에 추가합니다</block>
   <block id="f25b2b221edfa2bdf4fb0df0c1b2c9d5" category="paragraph">그러면 됩니다 <block ref="d81a76d92186f9ebef738a7789fc0680" category="inline-link-macro-rx"></block> AD 서비스 보안 주체에 대한 세부 정보를 제공합니다.</block>
   <block id="eb99e348d38c212372a6e836f66f7356" category="paragraph">예를 들어, 새 Cloud Volumes ONTAP 작업 환경을 생성할 때 자격 증명 간에 전환할 수 있습니다.</block>
-  <block id="22b179015545d216826bf3c224079c70" category="inline-image-macro">세부 정보 및 amp;Credentials 페이지에서 계정 전환 을 클릭한 후 클라우드 공급자 계정 간 선택을 보여 주는 스크린샷</block>
-  <block id="920013a5de0f78687797397a6c0ee0d8" category="paragraph"><block ref="96ae547f4f3f25ad031b61cef1d8f2b8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="baa9dd166d2a7f1d62e78a829f4b35a6" category="section-title">Marketplace 구축 및 온프레미스 배포는 어떻습니까?</block>
   <block id="018f02432b76c440f6d0c2a5da5a1a5d" category="paragraph">위 섹션에서는 BlueXP의 커넥터에 권장되는 배포 방법에 대해 설명합니다. Azure Marketplace에서 Connector를 배포할 수도 있고, 자신의 Linux 호스트에 Connector 소프트웨어를 설치할 수도 있습니다.</block>
   <block id="f0e36fc8cdf840530f36b60220f9185b" category="paragraph">Marketplace를 사용하는 경우 Connector VM 및 시스템에 할당된 관리되는 ID에 사용자 지정 역할을 할당하여 사용 권한을 제공하거나 Azure AD 서비스 보안 주체를 사용할 수 있습니다.</block>
@@ -1261,32 +1234,22 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="15f7c3376619ce497205d543fd1d7767" category="paragraph">필요한 경우 IAM을 사용하여 IAM 정책을 제한할 수 있습니다<block ref="9e2941b3c81256fac10392aaca4ccfde" prefix=" " category="inline-code"></block> 요소.<block ref="19ffef022087e160f1e54b9948795943" category="inline-link-rx"></block></block>
   <block id="09eadec3a9869ab363e913c06ab259a3" category="admonition">BlueXP에서 Connector를 만들면 Connector가 AWS 리소스를 관리할 수 있도록 Connector 인스턴스에 새 권한 집합이 적용됩니다.</block>
   <block id="1e71ce7defc90d8f5a2c46c08ba968df" category="list-text">AWS IAM 콘솔로 이동합니다.</block>
-  <block id="cda6184a38ec01634b0cabf02341cb56" category="list-text">정책 &gt; 정책 생성 * 을 클릭합니다.</block>
-  <block id="b52a6ab6cdcb340c9e1189b56821ffd8" category="list-text">JSON * 을 클릭합니다.</block>
   <block id="26d4a7a50dfbae842d907e3b8000633e" category="list-text">다음 정책을 복사하여 붙여 넣습니다.</block>
-  <block id="e46847d94dd6255ac0cabcdc93eed31f" category="list-text">필요한 경우 * 다음 * 을 클릭하고 태그를 추가합니다.</block>
-  <block id="83f97720ed2c284e94fe989612d7ae1a" category="list-text">다음 * 을 클릭하고 이름과 설명을 입력합니다.</block>
-  <block id="ab899735d36938b4c6cb8edd18a222e5" category="list-text">Create policy * 를 클릭합니다.</block>
   <block id="1bd08699c526c66f71094b5ff54dc839" category="list-text">BlueXP에서 사용할 수 있는 IAM 역할 또는 IAM 사용자에게 정책을 연결하여 BlueXP에 액세스 키를 제공할 수 있도록 합니다.</block>
   <block id="87b8ba43578311804ba14d80f6c8cb89" category="list-text">(옵션 1) BlueXP가 가정할 수 있는 IAM 역할을 설정합니다.</block>
   <block id="0e78dc7220ea8b6abafe6ef7aaad9998" category="list-text">대상 계정에서 AWS IAM 콘솔로 이동합니다.</block>
-  <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">액세스 관리에서 * 역할 &gt; 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">신뢰할 수 있는 엔터티 유형 * 에서 * AWS 계정 * 을 선택합니다.</block>
   <block id="b3c7a22f0973e84651078c58ec8c36f6" category="list-text">다른 AWS 계정 * 을 선택하고 BlueXP SaaS 계정의 ID를 입력합니다. 952013314444</block>
   <block id="dbab690717fb052924566c13e8768748" category="list-text">이전 섹션에서 생성한 정책을 선택합니다.</block>
   <block id="b132a51c84b6101c058abbb40225f87d" category="list-text">역할을 만든 후 역할 ARN을 복사하여 Connector를 만들 때 BlueXP에 붙여 넣을 수 있습니다.</block>
   <block id="bf10cb047f4db72713407e74d30df1e9" category="list-text">(옵션 2) BlueXP에 액세스 키를 제공할 수 있도록 IAM 사용자에 대한 권한을 설정합니다.</block>
-  <block id="380aef99fa69053a3675c5cd0a2aaee2" category="list-text">AWS IAM 콘솔에서 * Users * 를 클릭한 다음 사용자 이름을 선택합니다.</block>
-  <block id="91ae93d60d63596e2482a109b23c1290" category="list-text">Add permissions &gt; Attach existing policies directly * 를 클릭합니다.</block>
   <block id="8bcbf62e98416780ffe2095559aba87a" category="list-text">생성한 정책을 선택합니다.</block>
-  <block id="7480dbf3472d377494469f75467b8989" category="list-text">다음 * 을 클릭한 다음 * 권한 추가 * 를 클릭합니다.</block>
   <block id="c34ab4140439856fda51871a0f20b53c" category="list-text">IAM 사용자를 위한 액세스 키와 비밀 키가 있는지 확인합니다.</block>
   <block id="faeb6083a2ae4785925222b65d1d968f" category="paragraph">필요한 권한이 있는 IAM 역할 또는 필요한 권한이 있는 IAM 사용자가 있어야 합니다. BlueXP에서 커넥터를 생성할 때 역할 또는 액세스 키에 대한 정보를 제공할 수 있습니다.</block>
   <block id="59d21ffd9004e044bf10a41bde94377c" category="section-title">AWS Marketplace에서 구축할 때 Connector에 대한 권한을 설정합니다</block>
   <block id="c0b444d12ee4e633b23b686f19a32aaa" category="list-text">나머지 단계를 완료하고 정책을 생성합니다.</block>
   <block id="b905fd344340f966488111072eda83d7" category="paragraph">사용할 BlueXP 서비스에 따라 두 번째 정책을 만들어야 할 수도 있습니다.</block>
   <block id="481dd59686d42d2d6a74eae1a1d763ad" category="paragraph">표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다.</block>
-  <block id="d570f412d2674b04019b74531c43fed8" category="list-text">역할 &gt; 역할 생성 * 을 클릭합니다.</block>
   <block id="caab423eeeabf261321ce00d10ad838a" category="list-text">AWS 서비스 &gt; EC2 * 를 선택합니다.</block>
   <block id="0543e6140cb57d05d778d01c055f1dc0" category="list-text">나머지 단계를 완료해서 역할을 만듭니다.</block>
   <block id="97f503ba18358d479d025475ba069bec" category="paragraph">AWS Marketplace에서 구축하는 동안 IAM 역할을 EC2 인스턴스와 연결할 수 있습니다.</block>
@@ -1349,13 +1312,10 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="c9bae6707a626ab71ed3b97345b5becf" category="list-text">Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.</block>
   <block id="2edcc284e8171b76333ca90d4cda988f" category="inline-image-macro">에는 Microsoft Azure의 Active Directory 서비스가 나와 있습니다.</block>
   <block id="2947c6ef91b5c925ae2fcec9d7750590" category="paragraph"><block ref="2947c6ef91b5c925ae2fcec9d7750590" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="af88b24a1b0f5294f806d8d9f2744f27" category="list-text">메뉴에서 * 앱 등록 * 을 클릭합니다.</block>
-  <block id="0e1ac21d4b9ed97a0c89007cafe6b733" category="list-text">새 등록 * 을 클릭합니다.</block>
   <block id="c9034af778b085a9440ffcb8389cc4db" category="list-text">응용 프로그램에 대한 세부 정보를 지정합니다.</block>
   <block id="46beecb01aa2327ae1886dfc53955977" category="list-text">* 이름 *: 응용 프로그램의 이름을 입력합니다.</block>
   <block id="c1433d2b36933dc034014d989542d7e9" category="list-text">* 계정 유형 *: 계정 유형을 선택합니다(모두 BlueXP에서 사용 가능).</block>
   <block id="47a80925db7f7667c76a27c384c35793" category="list-text">* URI 리디렉션 *: 이 필드는 비워 둘 수 있습니다.</block>
-  <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">Register * 를 클릭합니다.</block>
   <block id="07429b136ade673e85f1a27e25a0239c" category="paragraph">AD 응용 프로그램 및 서비스 보안 주체를 만들었습니다.</block>
   <block id="705ea5b8b9077bcdc0aedb01e5cc4c58" category="list-title">애플리케이션에 역할을 할당합니다</block>
   <block id="6534ae3540891eec0e4feef8e844bf94" category="list-text">사용자 지정 역할 만들기:</block>
@@ -1375,29 +1335,20 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="1efe3dd87fa14ed122c5ea4f702755d8" category="list-text">역할에 응용 프로그램을 할당합니다.</block>
   <block id="973ddd4ad0d28fecb4f9f0a53ca5ab21" category="list-text">Azure 포털에서 * Subscriptions * 서비스를 엽니다.</block>
   <block id="9d13605979e591928497f3c94aa907c2" category="list-text">구독을 선택합니다.</block>
-  <block id="8174c4d89029818113468594f8347c70" category="list-text">IAM(Access Control) &gt; 추가 &gt; 역할 할당 추가 * 를 클릭합니다.</block>
-  <block id="54b14f07c36bed41295c2086ea238332" category="list-text">Role * 탭에서 * BlueXP Operator * 역할을 선택하고 * Next * 를 클릭합니다.</block>
   <block id="0a6c621aa17fc5940d876eaadda3bb73" category="list-text">Members* 탭에서 다음 단계를 완료합니다.</block>
   <block id="8663f7025266bcb72c4429db8da6c602" category="list-text">사용자, 그룹 또는 서비스 보안 주체 * 를 선택한 상태로 유지합니다.</block>
-  <block id="e567d156455b03053b50302bf4ff266e" category="list-text">구성원 선택 * 을 클릭합니다.</block>
   <block id="0972e60de3c49ba718e1aa6c9313eebc" category="inline-image-macro">애플리케이션에 역할을 추가할 때 구성원 탭을 표시하는 Azure 포털의 스크린샷</block>
   <block id="4156bc2d0a73e1d63625fa6f09d010d4" category="paragraph"><block ref="4156bc2d0a73e1d63625fa6f09d010d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="33aa57c696b6d88350adf8cda157f866" category="list-text">응용 프로그램의 이름을 검색합니다.</block>
   <block id="4d947fe0b5c4693f487f4fd1a4295c99" category="paragraph">예를 들면 다음과 같습니다.</block>
   <block id="f6f55020a29188338bc94800ac249ad7" category="inline-image-macro">Azure 포털에서 역할 할당 추가 양식을 보여 주는 Azure 포털의 스크린샷</block>
   <block id="14c3fe204bce9316486ab448ad8a4874" category="paragraph"><block ref="14c3fe204bce9316486ab448ad8a4874" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e33ca9bd2b94654f882a0e0ed82dec19" category="list-text">응용 프로그램을 선택하고 * 선택 * 을 클릭합니다.</block>
-  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">다음 * 을 클릭합니다.</block>
-  <block id="e3bbb08034982e47da96f9df0529c14b" category="list-text">검토 + 할당 * 을 클릭합니다.</block>
   <block id="868bd2cfec146290fe12785061d21aff" category="paragraph">이제 서비스 보안 주체에 Connector를 배포하는 데 필요한 Azure 권한이 있습니다.</block>
   <block id="b95f8b6a159c207e3d8204b8b1c4f172" category="paragraph">여러 Azure 구독에서 Cloud Volumes ONTAP를 배포하려면 서비스 보안 주체를 해당 구독 각각에 바인딩해야 합니다. BlueXP를 사용하면 Cloud Volumes ONTAP를 배포할 때 사용할 구독을 선택할 수 있습니다.</block>
   <block id="45cd180c1610798f49999ab014a177fa" category="list-title">Windows Azure 서비스 관리 API 권한을 추가합니다</block>
-  <block id="bd77e589abdaf3d4c3901b4aa35638e1" category="list-text">Azure Active Directory * 서비스에서 * 앱 등록 * 을 클릭하고 응용 프로그램을 선택합니다.</block>
-  <block id="4c8edaa7cd1534af6a107fe9b79e805b" category="list-text">API 권한 &gt; 권한 추가 * 를 클릭합니다.</block>
   <block id="121258133fb4072956407593231a70d2" category="list-text">Microsoft API * 에서 * Azure Service Management * 를 선택합니다.</block>
   <block id="0f208ec7c0ee2f540820aa9624359349" category="inline-image-macro">Azure 서비스 관리 API 권한을 보여 주는 Azure 포털의 스크린샷</block>
   <block id="44ec446c110f865aefee64ec02e6dfe6" category="paragraph"><block ref="44ec446c110f865aefee64ec02e6dfe6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="397f8e229dc6a378e7b85f319690a7fd" category="list-text">Access Azure Service Management as organization users * 를 클릭한 다음 * Add permissions * 를 클릭합니다.</block>
   <block id="09ac154e6995039c28007bd218615b7e" category="inline-image-macro">Azure 서비스 관리 API 추가를 보여 주는 Azure 포털의 스크린샷</block>
   <block id="1e957f13620bb4b87171f37fc42387b1" category="paragraph"><block ref="1e957f13620bb4b87171f37fc42387b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f7cb8eeaecd418d11a034c2be7337f33" category="list-title">응용 프로그램의 응용 프로그램 ID 및 디렉터리 ID를 가져옵니다</block>
@@ -1407,8 +1358,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="6f49aa80c50bf9d897f387113aee3a15" category="paragraph">Azure 계정을 BlueXP에 추가하는 경우 응용 프로그램의 응용 프로그램(클라이언트) ID와 디렉터리(테넌트) ID를 제공해야 합니다. BlueXP는 ID를 사용하여 프로그래밍 방식으로 로그인합니다.</block>
   <block id="3a1ecf20407e16f0524dacb991fefae3" category="list-title">클라이언트 암호를 생성합니다</block>
   <block id="eeae8e1dd73b92b26863247fdba559d5" category="list-text">Azure Active Directory * 서비스를 엽니다.</block>
-  <block id="5f4efbf7cfcfcc9f45c4a3b9ea4dd3a2" category="list-text">앱 등록 * 을 클릭하고 응용 프로그램을 선택합니다.</block>
-  <block id="814ab761b05ac26a224a99eac97f2f4d" category="list-text">인증서 및 비밀 &gt; 새 클라이언트 비밀 * 을 클릭합니다.</block>
   <block id="56c696c4118c8dc3d2947c159fdbbb7c" category="list-text">비밀과 기간에 대한 설명을 제공하십시오.</block>
   <block id="a91d60261e2974b6b9f5d3d3d0abacdd" category="list-text">클라이언트 암호 값을 복사합니다.</block>
   <block id="5a3a4c596a95b6a9851a1c7b6539b0ea" category="inline-image-macro">Azure AD 서비스 보안 주체에 대한 클라이언트 암호를 보여 주는 Azure 포털의 스크린샷</block>
@@ -1717,13 +1666,11 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="31f7ed39632ba5f8fbafe2e78de61213" category="paragraph">다음 화면이 나타납니다.</block>
   <block id="87c4a866519ae557380141f0da21e74f" category="inline-image-macro">웹 브라우저에 Connector의 IP 주소를 입력한 후 나타나는 시작 페이지의 스크린 샷</block>
   <block id="baae31039a43d31e57f9e5c0c7262afc" category="paragraph"><block ref="baae31039a43d31e57f9e5c0c7262afc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f681629287f9315842951d38d04b1eda" category="list-text">Set Up New BlueXP * 를 클릭하고 화면의 지시에 따라 시스템을 설정합니다.</block>
   <block id="9f390f684f634b575bf8d3a2e73f760c" category="list-text">* 시스템 세부 정보 *: 커넥터 이름과 회사 이름을 입력합니다.</block>
   <block id="ed55d4951cd784cfacedc42b26d251dd" category="inline-image-macro">시스템 세부 정보 페이지의 스크린샷으로 BlueXP 이름과 회사 이름을 입력하라는 메시지가 표시됩니다.</block>
   <block id="c630091323c70c3e08081e625ae63da9" category="paragraph"><block ref="c630091323c70c3e08081e625ae63da9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="43601154a054554dd57207148a15b7b1" category="list-text">* 관리자 사용자 생성 *: 시스템에 대한 관리자 사용자를 생성합니다.</block>
   <block id="0e5308fba9cc92e9ff80d599c7e865ca" category="paragraph">이 사용자 계정은 시스템에서 로컬로 실행됩니다. BlueXP를 통해 사용할 수 있는 auth0 서비스에 연결할 수 없습니다.</block>
-  <block id="b530111cab51b765877bc100b0a43e1f" category="list-text">* 검토 *: 세부 정보를 검토하고 사용권 계약에 동의한 다음 * 설정 * 을 클릭합니다.</block>
   <block id="d847fd38c43b77f685712342ed5f2a9a" category="list-text">방금 생성한 admin 사용자를 사용하여 BlueXP에 로그인합니다.</block>
   <block id="2fdca5f14e2fdf34df61ef1c2e18eae5" category="paragraph">이제 커넥터가 설치되고 설정되었습니다.</block>
   <block id="c4d9d6c8e652595e9d46970f56499783" category="inline-link-macro">Connector를 업그레이드하는 방법에 대해 알아보십시오</block>
@@ -1737,11 +1684,8 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="0c8a608ccb6d8462e37f1062502116c5" category="open-title">Azure 역할</block>
   <block id="493607fb28e81f13b01e27634c0e7e57" category="paragraph">Azure 포털로 이동하여 하나 이상의 구독에 대해 Connector 가상 머신에 Azure 사용자 지정 역할을 할당합니다.</block>
   <block id="01022a7caafe0f95bc1085bb13d5f9ec" category="list-text">Azure Portal에서 * Subscriptions * 서비스를 열고 구독을 선택합니다.</block>
-  <block id="1b8e19500b0a199435651fe8ade7df74" category="list-text">IAM(Access Control) * &gt; * 추가 * &gt; * 역할 할당 추가 * 를 클릭합니다.</block>
   <block id="6f27dbb1253286305377b6e14973a99a" category="admonition">BlueXP 오퍼레이터는 BlueXP 정책에 제공된 기본 이름입니다. 역할에 다른 이름을 선택한 경우 대신 해당 이름을 선택합니다.</block>
   <block id="490ec1422ed033ebd41a56ee1a3d7bca" category="list-text">관리되는 ID*에 대한 액세스를 할당합니다.</block>
-  <block id="f3c300467d5973dfb4bb4ac50c1635b4" category="list-text">구성원 선택 * 을 클릭하고 Connector 가상 머신이 생성된 구독을 선택한 다음 * 가상 머신 * 을 선택하고 Connector 가상 머신을 선택합니다.</block>
-  <block id="a2396693254d9ec35f0b6faa885e8f58" category="list-text">선택 * 을 클릭합니다.</block>
   <block id="8dca68d83a53837ae38b833a53560cb9" category="paragraph">이제 BlueXP는 Azure에서 사용자를 대신하여 작업을 수행하는 데 필요한 권한을 가지고 있습니다.</block>
   <block id="201a0e8a9a7e1b007b99b4e4c24c017d" category="open-title">Azure 서비스 보안 주체</block>
   <block id="e326875367720b38c29c8fa0afd491be" category="paragraph">이전에 설정한 Azure 서비스 보안 주체에 대한 자격 증명을 BlueXP에 제공합니다.</block>
@@ -1770,7 +1714,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="49a11e441cb19dc0d43b1d3a3794d033" category="paragraph"><block ref="49a11e441cb19dc0d43b1d3a3794d033" category="inline-image-macro-rx" type="image"></block></block>
   <block id="48c7f5d184d27ef640370421d3317ba5" category="paragraph">그런 다음 IAM 역할의 ARN(Amazon Resource Name)이나 IAM 사용자의 AWS 키를 지정하여 BlueXP에 계정 자격 증명을 추가합니다.</block>
   <block id="bc84b27c0d74f906857d6c1a83c368a0" category="paragraph">다른 자격 증명 세트를 추가한 후 새 작업 환경을 만들 때 자격 증명으로 전환할 수 있습니다.</block>
-  <block id="2cc5711a45ceecaf1f22f2aac5f47fe0" category="paragraph"><block ref="9e05e85c54c3c5144a41ef38daf9be1d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a6856ad65a90d33bc83bd78362d9bfce" category="inline-link-macro">기존 커넥터에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오.</block>
   <block id="affef63146feae005315127173a28aa9" category="paragraph"><block ref="affef63146feae005315127173a28aa9" category="inline-link-macro-rx"></block></block>
   <block id="a923d2e65283c489ad78d9cdfa9bad74" category="section-title">BlueXP에 AWS 자격 증명을 직접 추가합니다</block>
@@ -1959,7 +1902,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="98a589e7baa6e35fa2a8b5710c9f3908" category="paragraph"><block ref="98a589e7baa6e35fa2a8b5710c9f3908" category="inline-link-rx"></block></block>
   <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">2023년 2월 5일</block>
   <block id="d2ab99e3c8406089dca863337debb121" category="section-title">커넥터 3.9.26</block>
-  <block id="330ddcd0a3779c8729cfb2c56aeb33f5" category="list-text">로그인 * 페이지에서 로그인과 관련된 이메일 주소를 입력하라는 메시지가 표시됩니다. 다음 * 을 클릭하면 BlueXP가 로그인과 관련된 인증 방법을 사용하여 인증하라는 메시지를 표시합니다.</block>
   <block id="1baec3621cd37cfb63c78d95c414ca61" category="list-text">NetApp 클라우드 자격 증명의 암호입니다</block>
   <block id="1dca7678a1041ed05b6071c24454dfde" category="list-text">통합 ID 자격 증명</block>
   <block id="9ec04e5ecf7230969f472cb3ba28f9d5" category="list-text">NetApp Support 사이트 자격 증명</block>
@@ -2199,8 +2141,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="89c19793fa4fd34426a128c4ebe03948" category="list-text">의 내용이 포함된 YAML 파일을 생성합니다 <block ref="16c885f571f66caafdba8f3cb6f880e3" category="inline-link-macro-rx"></block>.</block>
   <block id="60696c8c3376d314543ef1f6c5dd3364" category="paragraph">다음 예제에서는 프로젝트 수준에서 "connector"라는 역할을 만듭니다.</block>
   <block id="bd67573655874b669c5ced800e8181a2" category="list-text">Google Cloud에서 서비스 계정 생성:</block>
-  <block id="e81e4e7ef7043b471a5f895cfe2932ff" category="list-text">IAM 및 관리 서비스에서 * 서비스 계정 &gt; 서비스 계정 생성 * 을 클릭합니다.</block>
-  <block id="4335cd428e49ade89c004cb921b74ae5" category="list-text">서비스 계정 세부 정보를 입력하고 * 생성 및 계속 * 을 클릭합니다.</block>
   <block id="2806d36a02ea6ae3c55b65ffb3f9138d" category="list-text">방금 만든 역할을 선택합니다.</block>
   <block id="18853fd6b8b6bc9f150dcd5bfc2d0d12" category="inline-link">Google Cloud docs: 서비스 계정 생성</block>
   <block id="f4aac271a6b2fa84b18b0131c75d5efd" category="paragraph"><block ref="f4aac271a6b2fa84b18b0131c75d5efd" category="inline-link-rx"></block></block>
@@ -2211,7 +2151,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e2b43bc6eddd7c5ec2c7104bd42e0e6e" category="list-text">IAM * 페이지에서 * 액세스 권한 부여 * 를 선택하고 필요한 세부 정보를 제공합니다.</block>
   <block id="eacb1b3758ebd1aa03b4f1b86b49bd53" category="list-text">Connector의 서비스 계정의 이메일을 입력합니다.</block>
   <block id="8f3118254324aa503647a0f0a4cd34cc" category="list-text">Connector의 사용자 정의 역할을 선택합니다.</block>
-  <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">저장 * 을 클릭합니다.</block>
   <block id="b0cd7667098b2a3439c52ba1f9334faa" category="inline-link">Google Cloud 설명서</block>
   <block id="ece59c09a5f78f29903e8e1daac67577" category="paragraph">자세한 내용은 을 참조하십시오<block ref="eb023f41fbcdd6f661c855770356f2dc" category="inline-link-rx"></block></block>
   <block id="893b6747ffabae1d7bbd6d266f24c4ab" category="section-title">공유 VPC 권한 설정</block>
@@ -2570,7 +2509,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="f911544c9d1c454bbad50b12be4649a1" category="paragraph"><block ref="f911544c9d1c454bbad50b12be4649a1" category="inline-link-macro-rx"></block></block>
   <block id="a2678c8f1e6c4ef6102f9e3e10a87ecc" category="paragraph"><block ref="a2678c8f1e6c4ef6102f9e3e10a87ecc" category="inline-link-macro-rx"></block></block>
   <block id="b16e9971e18d4e63cd90cc2dc398c39e" category="list-text">EC2 인스턴스의 키 쌍입니다.</block>
-  <block id="7cddf1ab764729128f3c7130203d73a0" category="list-text">클라우드 공급자로 * Amazon Web Services * 를 선택하고 * 계속 * 을 클릭합니다.</block>
   <block id="af9010f3e11d7efceb7ba88d02e92d39" category="list-text">* 준비 완료 *: 필요한 사항을 검토합니다.</block>
   <block id="694fc44336d7d79e22d661cd3051861e" category="list-text">* AWS 자격 증명 *: AWS 지역을 지정한 다음 BlueXP가 사용할 수 있는 IAM 역할 또는 AWS 액세스 키와 비밀 키를 선택하는 인증 방법을 선택합니다.</block>
   <block id="8b8f36850755c4ac43a0df238add8748" category="inline-link-macro">자격 증명을 추가하는 방법에 대해 알아봅니다</block>
@@ -2591,11 +2529,8 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="dfcbfa4ce7dbf520f2b737359dfbc591" category="list-text">IAM 사용자에 대한 AWS 마켓플레이스의 구독 및 구독 취소 권한</block>
   <block id="7c9b14f6116e140202c359bff8bc86c2" category="inline-link">AWS 마켓플레이스의 BlueXP 페이지</block>
   <block id="3a1757ca714434ada3988895ed0a0fab" category="list-text">로 이동합니다<block ref="aa1bf3a3349706e28315b07c47668a91" category="inline-link-rx"></block></block>
-  <block id="b748cb0f2ad325f27d30850a71d55e6d" category="list-text">Marketplace 페이지에서 * Continue to Subscribe * 를 클릭한 다음 * Continue to Configuration * 을 클릭합니다.</block>
   <block id="648fca9db3d7e8e554a59d3519d8b0f6" category="inline-image-macro">AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷</block>
   <block id="973e3a2a390bb57ce9d9e16ac0145023" category="paragraph"><block ref="973e3a2a390bb57ce9d9e16ac0145023" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6901834c9ae604b653768895509f4303" category="list-text">기본 옵션을 변경하고 * 계속 시작 * 을 클릭합니다.</block>
-  <block id="197769c5244e448b93746c973eb17b81" category="list-text">작업 선택 * 에서 * EC2 * 를 통해 시작 * 을 선택한 다음 * 시작 * 을 클릭합니다.</block>
   <block id="7c36ac5a8d104c08bd1c9905b4e5d437" category="paragraph">다음 단계에서는 콘솔에서 IAM 역할을 Connector 인스턴스에 연결할 수 있으므로 EC2 콘솔에서 인스턴스를 실행하는 방법을 설명합니다. 웹 사이트에서 시작 * 작업을 사용하면 이 작업을 수행할 수 없습니다.</block>
   <block id="b3472ff32fca13e95a664d2516fabc9d" category="list-text">프롬프트에 따라 인스턴스를 구성하고 배포합니다.</block>
   <block id="d062afbb0dab008c992fc7630e6e5b1d" category="list-text">* 이름 및 태그 *: 인스턴스의 이름과 태그를 입력합니다.</block>
@@ -2609,7 +2544,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="2cff93ab04445d2412fc49f1670cf749" category="paragraph">특정 구성에는 몇 가지 규칙이 더 필요합니다.</block>
   <block id="79b8b9ad9bf89b0b494ac4c62694d70f" category="list-text">* 스토리지 구성 *: 기본 스토리지 옵션을 유지합니다.</block>
   <block id="752330cdb2fab31ec29aaa286269a882" category="list-text">* 고급 세부 정보 *: * IAM 인스턴스 프로파일 * 에서 Connector에 필요한 권한이 포함된 IAM 역할을 선택합니다.</block>
-  <block id="00e3e218776ebf2123cac5b55d575b53" category="list-text">* 요약 *: 요약을 검토하고 * 인스턴스 시작 * 을 클릭합니다.</block>
   <block id="10a3df02c55e733eca6fef076545645a" category="paragraph">AWS가 지정된 설정으로 소프트웨어를 시작합니다. Connector 인스턴스 및 소프트웨어는 약 5분 내에 실행되어야 합니다.</block>
   <block id="263bf141eee327cfdfe08fdc96fb32bc" category="paragraph"><block ref="53f6e9b699374851a8086ab8319c48f4" category="inline-link-macro-rx"></block>.</block>
   <block id="037ab8e28d036e5a218a1692a62fd8b5" category="summary">설치 옵션, 네트워킹 설정, 사용 권한 준비 등을 선택하여 AWS에서 Connector를 생성합니다.</block>
@@ -2746,7 +2680,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSS 계정을 가지고 있는 NetApp 고객은 BlueXP를 통해 지원을 받기 위해 등록하기만 하면 됩니다.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">리소스 * 페이지에 계정이 지원을 위해 등록되었다는 내용이 표시됩니다.</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -2760,7 +2693,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">의 단계를 완료하여 새 NSS 계정을 BlueXP 로그인에 연결합니다 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp이 처음이었습니다</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp의 새로운 브랜드이고 NSS 계정이 없는 경우 아래의 각 단계를 수행하십시오.</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾습니다.</block>
   <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp의 지원 등록 사이트</block>
@@ -2779,8 +2711,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">지원을 위해 선불 종량제 Cloud Volumes ONTAP 시스템을 등록합니다</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 클릭합니다.</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="a046fbde0a8e04968445555624e37a69" category="summary">회사 정책에 따라 인터넷에 대한 모든 통신에 프록시 서버를 사용해야 하는 경우 해당 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 설치하는 동안 프록시 서버를 사용하도록 Connector를 구성하지 않은 경우 언제든지 해당 프록시 서버를 사용하도록 Connector를 구성할 수 있습니다.</block>
   <block id="146adb7944757e88795676b780c31811" category="doc">프록시 서버를 사용하도록 Connector를 구성합니다</block>
   <block id="9d8704731bd068bd3be5ad98b7941cba" category="paragraph">BlueXP는 HTTP 및 HTTPS를 지원합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
@@ -2871,7 +2801,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="a1af18fd60a9b7bf856838a0a7ada673" category="list-text">클라이언트 ID * 를 선택합니다.</block>
   <block id="a59c428dfaf34cac48f2f98a39d73d8d" category="list-text">ID가 클립보드에 복사됩니다.</block>
   <block id="1ca3bf189dbc7ec926b42edad60ee61d" category="section-title">키를 다시 생성합니다</block>
-  <block id="f787b2b98aa352927c5b610979ee1e62" category="paragraph">키를 다시 생성하면 이 서비스 계정의 기존 키가 삭제되며 새 키가 생성됩니다. 이전 키를 사용할 수 없습니다.</block>
   <block id="a09d0aef708d0fd918ab67fd89c82210" category="list-text">키 재생성 * 을 선택합니다.</block>
   <block id="e2ce6c698f201abf2e0cc354c1f6d75f" category="list-text">reate * 를 선택하여 확인합니다.</block>
   <block id="30b299e9cb0ca616520dfdc739caa685" category="section-title">서비스 계정을 삭제합니다</block>
@@ -2963,7 +2892,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e92861fef775acb8c5a64f8d282a8b80" category="cell">이메일 기능이 없습니다</block>
   <block id="d1e2d8530c09fe28c2a817289491bd01" category="section-title">알림 센터를 사용하여 활동을 모니터링합니다</block>
   <block id="40da6f1400e45d080a97992a6a539894" category="inline-image-macro">알림 벨</block>
-  <block id="5cf9ecbcae765efe1cb17d1c802e39cb" category="paragraph">알림 벨(<block ref="df7c8a71ca3da4359e40e121f18f87b9" category="inline-image-macro-rx" type="image"></block>)를 선택합니다. 벨의 작은 거품의 색상은 활성 상태인 최상위 심각도 알림을 나타냅니다. 따라서 빨간색 기포가 나타나면 확인해야 할 중요한 알림이 있다는 의미입니다.</block>
   <block id="d59387ab05a2cbd005866b74628417a0" category="inline-image-macro">알림 센터의 현재 알림 목록을 보여 주는 스크린샷</block>
   <block id="e24c5199eee665d8e879dc72dc56c667" category="paragraph"><block ref="e24c5199eee665d8e879dc72dc56c667" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2a4be390687f80c7cdf976afca0fe778" category="section-title">알림 유형</block>
@@ -3120,7 +3048,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="19afccead98b1836658110442ef9c5e6" category="list-text">BlueXP를 검색하고 서비스를 선택합니다.</block>
   <block id="a93a66fe6d6d648adde8457a60af5942" category="inline-image-macro">AWS Marketplace에서 BlueXP 제품을 검색한 후 이를 보여 주는 스크린샷</block>
   <block id="8782d52b41ea9b735c120df8ccab4f47" category="paragraph"><block ref="8782d52b41ea9b735c120df8ccab4f47" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="26983a904e0717c520032a2178795368" category="list-text">계속 * 을 클릭합니다.</block>
   <block id="07910e9ec98e7a02ee5b24f85cc660d2" category="list-text">* 인스턴스 유형 선택 *: 지역 가용성에 따라 지원되는 인스턴스 유형 중 하나를 선택합니다(T3.xLarge가 권장됨).</block>
   <block id="7de969f5ec8b28cd7687e32ca5c245bc" category="list-text">* 인스턴스 세부 정보 구성 *: VPC 및 서브넷을 선택하고, 1단계에서 만든 IAM 역할을 선택하고, 종료 보호(권장)를 활성화하고, 요구 사항을 충족하는 다른 구성 옵션을 선택합니다.</block>
   <block id="f1e012a5b5a981694252d85992469fd7" category="inline-image-macro">AWS의 인스턴스 구성 페이지에 있는 필드를 보여 주는 스크린샷 1단계에서 만들어야 하는 IAM 역할이 선택됩니다.</block>
@@ -3128,7 +3055,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="05c4d183e8bff44df2e6ac91133757fd" category="list-text">* 스토리지 추가 *: 기본 스토리지 옵션을 유지합니다.</block>
   <block id="ff821e6be3aec0bf40cb1012dad2089f" category="list-text">* 태그 추가 *: 필요한 경우 인스턴스에 대한 태그를 입력합니다.</block>
   <block id="704a96694410db036940a9b758b475ac" category="list-text">* 보안 그룹 구성 *: 커넥터 인스턴스에 필요한 연결 방법(SSH, HTTP 및 HTTPS)을 지정합니다.</block>
-  <block id="3dcd3a438eecbdd8bc716a93dbc7adf7" category="list-text">* 검토 *: 선택 사항을 검토하고 * 시작 * 을 클릭합니다.</block>
   <block id="36f12b5d2f30503ac36305c4f494f280" category="list-text">네트워크 요구 사항을 충족하는 VNET 및 서브넷</block>
   <block id="e055afdf7d35580a49ddc59582adcf3b" category="list-text">Connector에 필요한 권한이 포함된 Azure 사용자 지정 역할입니다.</block>
   <block id="fd5738f5f42540888241b6b51480ad14" category="inline-link-macro">Azure 사용 권한을 설정하는 방법에 대해 알아봅니다</block>
@@ -3541,20 +3467,8 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="5388026a16709
   <block id="f4abcc0682712b312b347ed2a4b32165" category="paragraph">클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우에도 마켓플레이스 제품을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
   <block id="56246b5433f690a35c74ed45a296e993" category="paragraph">마켓플레이스에 가입하면 다음 BlueXP 서비스에 대한 비용을 청구할 수 있습니다.</block>
   <block id="8219b1ea282823d830f661117796ac3d" category="paragraph">BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 마켓플레이스 구독을 연결해야 합니다. "표준 모드 시작" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 참조하십시오 <block ref="ce6d43255d920acadadb7e3862aee0b0" category="inline-link-macro-rx"></block>.</block>
-  <block id="fe001b474268cb9300af19ba4c12edd8" category="list-text">자격 증명 집합에 대한 작업 메뉴를 클릭한 다음 * 가입 연결 * 을 선택합니다.</block>
   <block id="7561d35e392b638f4fb5bc5f72459710" category="paragraph">Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.</block>
-  <block id="35189ab5714b42941b6c22320f395243" category="list-text">자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 구독을 선택하고 * Associate * 를 클릭합니다.</block>
-  <block id="0da34741c0fedd26eb889170d87be2c7" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 클릭하고 AWS 마켓플레이스의 단계를 따릅니다.</block>
-  <block id="1c1c040e218e35ae634138db5c2055f4" category="list-text">구매 옵션 보기 * 를 클릭합니다.</block>
-  <block id="85bb97cf1fc6a37ea1a5e97e0e2e1a8b" category="list-text">구독 * 을 클릭합니다.</block>
-  <block id="c75b8cac68776a239e8da30928fbc723" category="list-text">계정 설정 * 을 클릭합니다.</block>
   <block id="20dc3df4cdf91b4bd876009a415c2cec" category="paragraph">다음 비디오에서는 AWS 마켓플레이스를 구독하는 단계를 보여줍니다.</block>
-  <block id="7f024bcfe9b965209454c94e48004d5d" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 클릭하고 Azure 마켓플레이스의 단계를 따릅니다.</block>
-  <block id="078d62005d56b885b14c45dcfcd16082" category="list-text">양식을 작성하고 * Subscribe * 를 클릭합니다.</block>
-  <block id="ac66d82c89aefbe9c31ed8fe6308233a" category="list-text">가입 프로세스가 완료되면 * 지금 계정 구성 * 을 클릭합니다.</block>
-  <block id="978deed4db0f89cc0f25e6998d8c5ede" category="list-text">자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 Google Cloud 프로젝트 및 구독을 선택한 다음 * Associate * 를 클릭합니다.</block>
-  <block id="b46cc5bd37bd52a5b31b40b8ff054c3d" category="list-text">아직 구독이 없는 경우 * 구독 추가 &gt; 계속 * 을 클릭하고 Google Cloud Marketplace의 단계를 따릅니다.</block>
-  <block id="8e43471beda7327a078697a498a253ca" category="list-text">팝업 대화 상자에서 * Register with NetApp, Inc. * 를 클릭합니다</block>
   <block id="53043f0a6d597ccfe179296cc8ded9c0" category="inline-link">Cloud Volumes ONTAP용 BYOL 용량 기반 라이센스 관리</block>
   <block id="fe58f6b68f2391f47e7f19d45735226a" category="list-text"><block ref="fe58f6b68f2391f47e7f19d45735226a" category="inline-link-rx"></block></block>
   <block id="fe661ee4e3dd2d796b000bdbe116c002" category="inline-link">BlueXP 데이터 서비스에 대한 BYOL 라이센스 관리</block>
@@ -3598,11 +3512,7 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="5388026a16709
   <block id="f9ae909c9f8845215c3524f51ff1ed97" category="open-title">Azure 사용자 계정</block>
   <block id="0c5e0cb46ed59511e60fcbc8e0e423c2" category="paragraph">BlueXP에서 커넥터를 배포할 사용자에게 사용자 지정 역할을 할당합니다.</block>
   <block id="69f03931f7dda53f08365d3254d0ce78" category="list-text">Azure 포털에서 * Subscriptions * 서비스를 열고 사용자의 구독을 선택합니다.</block>
-  <block id="6dc4f3e9aa2dada18f0a17189fa7d079" category="list-text">IAM(액세스 제어) * 을 클릭합니다.</block>
-  <block id="761218505548d0e5a2977bd7c31de50a" category="list-text">Add * &gt; * Add role assignment * 를 클릭한 후 권한을 추가합니다.</block>
-  <block id="407df91196b1a54a89a9911a8ac6a332" category="list-text">Azure SetupAsService * 역할을 선택하고 * 다음 * 을 클릭합니다.</block>
   <block id="4cca684df8c889c784e30e6f0215cff5" category="admonition">Azure SetupAsService는 Azure의 커넥터 배포 정책에 제공된 기본 이름입니다. 역할에 다른 이름을 선택한 경우 대신 해당 이름을 선택합니다.</block>
-  <block id="42cffe053a918fe3b27cd3bef2758b91" category="list-text">회원 선택 * 을 클릭하고 사용자 계정을 선택한 다음 * 선택 * 을 클릭합니다.</block>
   <block id="f6d4189bf00021bb75f4f2f5b11507bf" category="paragraph">이제 Azure 사용자는 BlueXP에서 커넥터를 배포하는 데 필요한 권한을 갖게 됩니다.</block>
   <block id="d9a4ebb1284c84465eac2a20b8331523" category="paragraph">Azure 계정으로 로그인하는 대신 필요한 권한이 있는 Azure 서비스 보안 주체에 대한 자격 증명을 BlueXP에 제공할 수 있습니다.</block>
   <block id="f7f4921534d4730228a1def336cce565" category="paragraph">Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 얻습니다.</block>
@@ -3817,4 +3727,95 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="e671b39f5fdb18b38eb5c968b368b3aa" category="cell">API는 Azure, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
   <block id="8150638aa57d2b5755445cf3ab8eac20" category="cell">API는 Google Cloud, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
   <block id="6d349a0af72df500a21b7660d8e471b2" category="paragraph"><block ref="6d349a0af72df500a21b7660d8e471b2" category="inline-link-rx"></block></block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">사용자 자격 증명 * 을 선택합니다.</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
+  <block id="8281d32bb775e644bd52916734e16bef" category="paragraph">BlueXP 분류를 사용하여 Azure NetApp Files 데이터를 스캔할 때 커넥터는 다음과 같은 API 요청을 합니다.</block>
+  <block id="b6903fcc348dc2286adda5751418a7f9" category="list-text">메뉴에서 * 앱 등록 * 을 선택합니다.</block>
+  <block id="6d730ff41d50e6c38331a70a20a46df3" category="list-text">새 등록 * 을 선택합니다.</block>
+  <block id="b5249314aff5fae6b6de54ce7f13f16b" category="list-text">Register * 를 선택합니다.</block>
+  <block id="4373f2885ec5493eabb4edec6b9422e4" category="list-text">액세스 제어(IAM) &gt; 추가 &gt; 역할 할당 추가 * 를 선택합니다.</block>
+  <block id="ac594ce6138d4938493333dec80544b8" category="list-text">Role * 탭에서 * BlueXP Operator * 역할을 선택하고 * Next * 를 선택합니다.</block>
+  <block id="049d14d05ca9e7adafff9e17ed48736e" category="list-text">구성원 선택 * 을 선택합니다.</block>
+  <block id="ce2590ec8b406b42ba7a670543c8ab81" category="list-text">응용 프로그램을 선택하고 * 선택 * 을 선택합니다.</block>
+  <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">다음 * 을 선택합니다.</block>
+  <block id="85b8cec39bdb05ec73cd076b2359cfd1" category="list-text">검토 + 할당 * 을 선택합니다.</block>
+  <block id="9993d6f6284200668a6f4c51df9812da" category="list-text">Azure Active Directory * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.</block>
+  <block id="69dc2d1327bf480b016b4aed7cd7d900" category="list-text">API 권한 &gt; 권한 추가 * 를 선택합니다.</block>
+  <block id="4477be44a064848adbf1b5f50428e0cd" category="list-text">Access Azure Service Management as organization users * 를 선택한 다음 * Add permissions * 를 선택합니다.</block>
+  <block id="39ec83d3cc8c12b784bf30f64700b168" category="list-text">앱 등록 * 을 선택하고 응용 프로그램을 선택합니다.</block>
+  <block id="05498c836fbd4349a752efbb54e8949c" category="list-text">인증서 및 비밀 &gt; 새 클라이언트 비밀 * 을 선택합니다.</block>
+  <block id="fa12509cfb8e8ccded16e2a254e988c4" category="list-text">추가 * 를 선택합니다.</block>
+  <block id="c6233dcd0500982eabc73e85f42efc41" category="list-text">자격 증명 추가 * 를 선택하고 마법사의 단계를 따릅니다.</block>
+  <block id="6372aab032a410c40af497b1755aa8b2" category="list-text">자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 가입 연결 * 을 선택합니다.</block>
+  <block id="5aa5ca3c4ae1419b335323e6ee592b93" category="list-text">자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 구독을 선택하고 * Associate * 를 선택합니다.</block>
+  <block id="875d095c260fa8c96e0e69a41dd336b7" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 선택하고 Azure 마켓플레이스의 단계를 따릅니다.</block>
+  <block id="12975d5f412a47bef9db3c7a4d365814" category="list-text">가입 * 을 선택합니다.</block>
+  <block id="9dc9a5b2f23fe90a0fd71125f3034dfd" category="list-text">양식을 작성하고 * Subscribe * 를 선택합니다.</block>
+  <block id="3221538307211e131f96e1a83b1a5235" category="list-text">가입 프로세스가 완료되면 * 지금 계정 구성 * 을 선택합니다.</block>
+  <block id="6887254b5f03610818b55891a5db48ef" category="list-text">Azure SetupAsService * 역할을 선택하고 * Next * 를 선택합니다.</block>
+  <block id="53b4a11766155c5b179df42cfaced80f" category="list-text">구성원 선택 * 을 선택하고 사용자 계정을 선택한 다음 * 선택 * 을 선택합니다.</block>
+  <block id="497002c594b6f249087bf6b22381ee4d" category="list-text">자격 증명을 기존 구독과 연결하려면 아래 목록에서 Google Cloud 프로젝트 및 구독을 선택한 다음 * Associate * 를 선택합니다.</block>
+  <block id="ba192d211ab8fe6aceb98f59e685d1bb" category="list-text">아직 구독이 없는 경우 * 구독 추가 &gt; 계속 * 을 선택하고 Google Cloud Marketplace의 단계를 따릅니다.</block>
+  <block id="375b5c037ddde62b74d4b30381271828" category="list-text">팝업 대화 상자에서 * Register with NetApp, Inc. * 를 선택합니다</block>
+  <block id="dcb058618377cff08193ee6990096f07" category="list-text">IAM(액세스 제어) * &gt; * 추가 * &gt; * 역할 할당 추가 * 를 선택합니다.</block>
+  <block id="51c9db5527a197748c924f3777b04b5d" category="list-text">구성원 선택 * 을 선택하고 Connector 가상 머신이 생성된 구독을 선택한 다음 * 가상 머신 * 을 선택하고 Connector 가상 머신을 선택합니다.</block>
+  <block id="a907c3ee93defa4e7eb326edec72fa3d" category="list-text">선택 * 을 선택합니다.</block>
+  <block id="6d2d5c49a26a8339a26911674ee69f80" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 선택하고 AWS 마켓플레이스의 단계를 따릅니다.</block>
+  <block id="cc5b03fa4f937c63363767c812feeb34" category="list-text">구매 옵션 보기 * 를 선택합니다.</block>
+  <block id="0b45e429b84384fa541446c3364409c9" category="list-text">계정 설정 * 을 선택합니다.</block>
+  <block id="9d5f9909bec8cf71910a31c50878914c" category="section-title">7월 30일</block>
+  <block id="167693b239be0e2939d61376cd3a5487" category="section-title">커넥터 3.9.32</block>
+  <block id="7af14628b780746da1b2b7396f10a07e" category="list-text">이제 BlueXP 감사 서비스 API를 사용하여 감사 로그를 내보낼 수 있습니다.</block>
+  <block id="f7cc7ff5799b515f0c19fb83e0dd5098" category="paragraph">감사 서비스는 BlueXP 서비스에서 수행한 작업에 대한 정보를 기록합니다. 여기에는 원래 IP 주소, 작업 공간, 사용된 커넥터 및 기타 원격 측정 데이터가 포함됩니다. 이 데이터를 사용하여 어떤 작업을 수행했는지, 누가 수행했는지, 언제 수행했는지 확인할 수 있습니다.</block>
+  <block id="5a97fe4fe664c9e98d8ad88cdbf44d98" category="inline-link">감사 서비스 API 사용에 대해 자세히 알아보십시오</block>
+  <block id="23822bdcf5039c31a637229d8ca51ffa" category="paragraph"><block ref="23822bdcf5039c31a637229d8ca51ffa" category="inline-link-rx"></block></block>
+  <block id="d00604985bd7a191952bde8a0cec39fd" category="paragraph">이 링크는 시각표 페이지의 BlueXP 사용자 인터페이스로도 액세스할 수 있습니다.</block>
+  <block id="23c565330e0f5d82619b18108f5a32ca" category="list-text"><block ref="23c565330e0f5d82619b18108f5a32ca" category="inline-link-rx"></block></block>
+  <block id="405527e38d3c42926031f86b50d381d4" category="list-text"><block ref="405527e38d3c42926031f86b50d381d4" category="inline-link-rx"></block></block>
+  <block id="b5163cd43881e34d9478fc7e00e66e62" category="list-text">로그인 * 페이지에서 로그인과 관련된 이메일 주소를 입력하라는 메시지가 표시됩니다. 다음 * 을 선택한 후 BlueXP는 로그인과 관련된 인증 방법을 사용하여 인증하라는 메시지를 표시합니다.</block>
+  <block id="3de985fb980dfcce5f5196709e3e62ce" category="list-text">정책 &gt; 정책 생성 * 을 선택합니다.</block>
+  <block id="d36ec2dc8acd5ade1fda1b4397ccc99a" category="list-text">JSON * 을 선택합니다.</block>
+  <block id="cedfddf2dfb74aa203be428f7657457c" category="list-text">필요한 경우 * 다음 * 을 선택하고 태그를 추가합니다.</block>
+  <block id="01de2e1a7f136c3eeda419bfb07814da" category="list-text">다음 * 을 선택하고 이름과 설명을 입력합니다.</block>
+  <block id="db92c743d97601150bbdfa11bf3cf66b" category="list-text">Create policy * 를 선택합니다.</block>
+  <block id="ab9ad001a35a833243a30f3acf6417eb" category="list-text">AWS IAM 콘솔에서 * Users * 를 선택한 다음 사용자 이름을 선택합니다.</block>
+  <block id="93583a9b95fb527997b95ba8db57df14" category="list-text">Add permissions &gt; Attach existing policies directly * 를 선택합니다.</block>
+  <block id="0a6bca3addac2684ad319713b9fb22ed" category="list-text">다음 * 을 선택한 다음 * 권한 추가 * 를 선택합니다.</block>
+  <block id="2f1197d590dc982e571ad76ed9962122" category="list-text">역할 &gt; 역할 생성 * 을 선택합니다.</block>
+  <block id="cd22a7243285b0197650652e956f0870" category="list-text">* BlueXP * 에서: 커넥터 드롭다운을 선택하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.</block>
+  <block id="a383b5c1d32b2c38a7dcfa44af208c71" category="list-text">IAM 역할을 선택하고 * Update IAM role * 을 선택합니다.</block>
+  <block id="03c5d9363dbf1b3b05f46e5d41ec0266" category="list-text">커넥터 * 드롭다운을 선택하고 * 커넥터 추가 * 를 선택합니다.</block>
+  <block id="0447e5af15c21fbb6eee1972d30cef83" category="list-text">클라우드 공급자로 * Amazon Web Services * 를 선택하고 * Continue * 를 선택합니다.</block>
+  <block id="15de410cab5b286c0cff40620cbbc2f8" category="list-text">제품 내 가이드를 사용하여 배포를 준비하려면 * 계속 * 을 선택합니다. 제품 내 가이드의 각 단계에는 이 문서 페이지에 포함된 정보가 포함되어 있습니다.</block>
+  <block id="43c314e15e760781773285daf91c0ad5" category="list-text">이 페이지의 단계에 따라 이미 준비되었으면 * 배포로 건너뛰기 * 를 선택합니다.</block>
+  <block id="21d86ad4e09aa752397558f2a4a4d776" category="list-text">Marketplace 페이지에서 * Continue to Subscribe * 를 선택한 다음 * Continue to Configuration * 을 선택합니다.</block>
+  <block id="62e122f28cedb83482c8d975a0ebbc6b" category="list-text">기본 옵션을 변경하고 * Continue to Launch * 를 선택합니다.</block>
+  <block id="b5db57dbb4b1fc339bfbf2e32844ab33" category="list-text">작업 선택 * 에서 * EC2 * 를 통해 시작 * 을 선택한 다음 * 시작 * 을 선택합니다.</block>
+  <block id="a77947bca5ad1214f93361073cfddb0a" category="list-text">* 요약 *: 요약을 검토하고 * 인스턴스 시작 * 을 선택합니다.</block>
+  <block id="6cd4b1aeb7ee91ddbd1d37ee958a2b58" category="list-text">Let's start * 를 선택합니다.</block>
+  <block id="74fea2a07b811e755565557990612058" category="list-text">첫 번째 작업 환경을 만드는 경우 * 작업 환경 추가 * 를 선택하고 화면의 지시를 따릅니다. 그렇지 않으면 * 커넥터 * 드롭다운을 선택하고 * 커넥터 추가 * 를 선택합니다.</block>
+  <block id="1ce857b02028095dcbdb6522daf11862" category="list-text">지금 받기 * 를 선택한 다음 * 계속 * 을 선택합니다.</block>
+  <block id="36cfedae32501cb288f9aa908aadb288" category="list-text">Azure 포털에서 * Create * 를 선택하고 다음 단계에 따라 가상 머신을 구성합니다.</block>
+  <block id="6b18581fd807739e0d0c13a503a419de" category="list-text">Review + create * 페이지에서 선택 사항을 검토하고 * Create * 를 선택하여 배포를 시작합니다.</block>
+  <block id="cda446e0619e283b785d96b7c48bde3e" category="list-text">IAM 및 관리 서비스에서 * 서비스 계정 &gt; 서비스 계정 생성 * 을 선택합니다.</block>
+  <block id="b401764de6903f86e7de99c18b91b1e9" category="list-text">서비스 계정 세부 정보를 입력하고 * 생성 및 계속 * 을 선택합니다.</block>
+  <block id="2a8d5c29022382dfb4cb321383f29d88" category="paragraph">알림 벨(<block ref="df7c8a71ca3da4359e40e121f18f87b9" category="inline-image-macro-rx" type="image"></block>)를 선택합니다. 벨의 작은 거품의 색상은 활성 상태인 최상위 심각도 알림을 나타냅니다. 따라서 빨간색 기포가 나타나면 확인해야 할 중요한 알림이 있다는 의미입니다.</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">BlueXP에서 * 도움말 &gt; 지원 * 을 선택합니다.</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">전화로 통화하려면 * 전화 * 를 선택하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetApp 지원 전문가와 함께 티켓을 열려면 * 케이스 생성 * 을 선택하십시오.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">지원 케이스 내역을 보려면 * 설정 &gt; 타임라인 * 을 선택하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Case Management * 를 선택하고 메시지가 표시되면 NSS 계정을 BlueXP에 추가합니다.</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">조직의 케이스 * 에서 * 보기 * 를 선택하여 회사와 관련된 모든 케이스를 봅니다.</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">를 선택하여 테이블에 표시되는 열을 변경합니다 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">를 선택하여 기존 케이스를 관리합니다 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 케이스 종료 *: 케이스를 종료하는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 선택합니다.</block>
+  <block id="57ab38f0801cd04e83411dd83b30729f" category="inline-link-macro">Connector의 작업 영역을 관리하는 방법에 대해 알아봅니다</block>
+  <block id="bb9f1b247d229038dd3e314bd90af7da" category="admonition">또한 Workspace 관리자가 BlueXP에서 해당 작업 영역에 액세스할 수 있도록 Connector를 작업 영역과 연결해야 합니다. <block ref="1e9768478c545fd11a6bc38c853aa6cd" category="inline-link-macro-rx"></block>.</block>
+  <block id="aaa1dcd03bd1289bed9f95d54940df48" category="paragraph">키를 다시 생성하면 이 서비스 계정의 기존 키가 삭제되며 새 키가 생성됩니다. 이전 키를 사용할 수 없습니다.</block>
+  <block id="28d4bc1715fb315a1134ddb9ce9b69ef" category="paragraph">새 작업 영역을 만든 경우 해당 작업 영역에 연결선 을 추가해야 합니다. Connector를 추가하지 않으면 작업 영역 관리자가 작업 영역의 리소스에 액세스할 수 없습니다. 자세한 내용은 다음 섹션을 참조하십시오.</block>
+  <block id="136dc09835924029e4299fa28f17233d" category="list-text">Continue * 를 선택합니다.</block>
+  <block id="b7d7e6e6aa05f7913906689b7f1e583a" category="list-text">* 검토 *: 선택 사항을 검토하고 * 시작 * 을 선택합니다.</block>
+  <block id="ecbc764762d64c7a0728c929154e75f5" category="list-text">Set Up New BlueXP * 를 선택하고 화면의 지시에 따라 시스템을 설정합니다.</block>
+  <block id="22cb2add8f3bffef4e749ab0af395ded" category="list-text">* 검토 *: 세부 정보를 검토하고 사용권 계약에 동의한 다음 * 설정 * 을 선택합니다.</block>
+  <block id="451c5548be4e9e7bdee0e30d3122050a" category="paragraph"><block ref="5df7abb03e9cd39c0665b677aaa45ef4" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
