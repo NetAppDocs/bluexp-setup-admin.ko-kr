@@ -273,10 +273,8 @@
   <block id="9e434ddc2ad4b9de005368b77254223d" category="paragraph">\https://*.cloudmanager.cloud.netapp.com</block>
   <block id="115781a0043a85f8707c5c99fd02dc75" category="paragraph">\https://cloudmanager.cloud.netapp.com</block>
   <block id="23486ca53d499245ebae5460cf6d10ad" category="paragraph">BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.</block>
-  <block id="7eea1027ea51763c57b7b5965f1ba900" category="admonition">커넥터가 현재 "cloudmanager.cloud.netapp.com" 에 문의하고 있지만 곧 출시될 릴리스에서 "api.bluexp.netapp.com" 에 연락하기 시작합니다.</block>
   <block id="065880318484084e9bfe33ea9c6a8702" category="cell">Connector 및 해당 Docker 구성 요소를 업그레이드합니다.</block>
   <block id="824f455afa0ae197e5e7156988b6dc50" category="section-title">프록시 서버</block>
-  <block id="dae5521ccadea1321150f5f74aad0a58" category="paragraph">조직에서 나가는 모든 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다.</block>
   <block id="407c4e9fac86b98147da49acd4fa0d01" category="section-title">포트</block>
   <block id="b68600c18c6dd9598d4518bc4a3f2c90" category="list-text">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.</block>
   <block id="a72a43431413f493c5087ab72327a680" category="list-text">SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
@@ -3614,7 +3612,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="5388026a16709
   <block id="19b587cc77ce4b8566975983ec907303" category="sidebar">Google Cloud Storage 버킷 관리</block>
   <block id="161fbe930f63fa83671b46be2b2b3d58" category="paragraph">다음과 같은 항목이 있어야 합니다.</block>
   <block id="7e0b6f72a006c5db4d352632364cae2a" category="paragraph">자세한 내용은 을 참조하십시오<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block></block>
-  <block id="d6feb2cb4605dd3d35a1cfeb944fe219" category="paragraph">설치하는 동안 이 정보를 제공해야 합니다.</block>
   <block id="1b6d3b3a89f4e066eb8bb8d481156cbb" category="list-text">* 인스턴스 유형 *: 지역 가용성에 따라 RAM 및 CPU 요구 사항을 충족하는 인스턴스 유형을 선택합니다(T3.xLarge가 권장됨).</block>
   <block id="2ad37577d6b48e75deace7b9df85fa0f" category="paragraph">커넥터를 시작하거나 커넥터가 Cloud Volumes ONTAP에서 NetApp 지원으로 AutoSupport 메시지를 보내는 프록시로 사용되지 않는 한 커넥터로 들어오는 트래픽이 없습니다.</block>
   <block id="46b7ac383833d40797a3c63596b781a1" category="list-text">아웃바운드 인터넷 연결을 사용할 수 없는 서브넷에 Cloud Volumes ONTAP 시스템을 배포하는 경우 포트 3128을 통한 인바운드 연결이 필요합니다.</block>
@@ -3818,4 +3815,41 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="ecbc764762d64c7a0728c929154e75f5" category="list-text">Set Up New BlueXP * 를 선택하고 화면의 지시에 따라 시스템을 설정합니다.</block>
   <block id="22cb2add8f3bffef4e749ab0af395ded" category="list-text">* 검토 *: 세부 정보를 검토하고 사용권 계약에 동의한 다음 * 설정 * 을 선택합니다.</block>
   <block id="451c5548be4e9e7bdee0e30d3122050a" category="paragraph"><block ref="5df7abb03e9cd39c0665b677aaa45ef4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6a60f29cdbb848f0645646b0cceee422" category="paragraph">현재 Connector가 "cloudmanager.cloud.netapp.com" 에 문의하고 있지만 곧 출시될 릴리스에서 "api.bluexp.netapp.com" 에 연락하기 시작합니다.</block>
+  <block id="2da6f1af030756bb235fd83baa6abd7b" category="paragraph">조직에서 모든 나가는 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다. 설치하는 동안 이 정보를 제공해야 합니다.</block>
+  <block id="f68132eadaa2c37170b842a86fa6955d" category="paragraph">Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아웃바운드 인터넷 연결이 없는 경우 BlueXP는 자동으로 해당 시스템이 커넥터에 포함된 프록시 서버를 사용하도록 구성합니다. 유일한 요구 사항은 커넥터 보안 그룹이 포트 3128을 통한 인바운드 연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.</block>
+  <block id="e12fb4f30abef516bf6f5e0e9a5b72b7" category="doc">BlueXP에서 Azure에 커넥터를 만듭니다</block>
+  <block id="5b943b0498231c38714aca470c3c0dab" category="paragraph">네트워킹을 설정하고 Azure 사용 권한을 준비한 다음 BlueXP에서 Azure에 Connector를 만듭니다.</block>
+  <block id="42f8643eb52a942747937327c72c8361" category="section-title">구축 개요</block>
+  <block id="ac5d5b7ded11cc7f8b4df462f961d2e8" category="paragraph">다음 단계에서는 이 페이지에서 완료할 작업에 대한 상위 수준의 요약을 제공합니다. 이러한 각 단계에 대한 자세한 내용은 아래 섹션에서 확인할 수 있습니다.</block>
+  <block id="2ef15946081a8510366177e6ee7e5111" category="paragraph">Connector가 하이브리드 클라우드 환경 내의 리소스 및 프로세스를 관리할 수 있도록 네트워킹을 설정합니다. 예를 들어, 아웃바운드 인터넷 액세스 및 대상 네트워크에 대한 네트워크 연결이 있는 가상 네트워크가 필요합니다.</block>
+  <block id="c794110cfe04873f3ea19458fb48df3c" category="inline-xref">네트워킹 요구 사항을 확인합니다</block>
+  <block id="582b3a879115844ed6c92eedc860c81a" category="paragraph"><block ref="01fbc73f2f4d3ada99434a64c61d271f" category="inline-xref-macro-rx"></block>.</block>
+  <block id="3cf3b3a2d331d9973e9029f5ee423d59" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Azure 권한을 설정합니다</block>
+  <block id="1503a9f546164361607faf57c69eae56" category="paragraph">사용자 지정 역할을 만든 다음 Azure 계정 또는 Azure AD 서비스 보안 주체에 적용합니다. BlueXP는 Azure를 사용하여 인증을 수행하고 이러한 권한을 사용하여 사용자를 대신하여 Connector 인스턴스를 만듭니다.</block>
+  <block id="e82d7f6d0b7a997d6eac1814ff1c2863" category="paragraph"><block ref="74b20113240190c7a71403f57a3cd8fc" category="inline-xref-macro-rx"></block>.</block>
+  <block id="aea46324800b152c6a50caff1d14e2fc" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 커넥터를 작성합니다</block>
+  <block id="985afe15de341c249321c6704172a4ea" category="paragraph">BlueXP에서 커넥터 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택한 후 표시되는 메시지를 따릅니다.</block>
+  <block id="1dc565e14b0401db0c6aee5f8e24ef79" category="paragraph"><block ref="450d1cb8d9a0a316433d14e18974a979" category="inline-xref-macro-rx"></block>.</block>
+  <block id="95643ce42bab17c218d7c19a0c0040bb" category="paragraph">커넥터를 설치할 네트워크 위치가 다음 요구 사항을 지원하는지 확인합니다.</block>
+  <block id="83bb814dc9552aa2612588ab7ce9f0e9" category="list-text">Connector를 사용하려면 작업 환경을 만들고 관리할 위치에 대한 네트워크 연결이 필요합니다. 예를 들어, Cloud Volumes ONTAP 시스템 또는 온프레미스 환경에서 스토리지를 생성하려는 VNET를 예로 들 수 있습니다.</block>
+  <block id="8e97b7d14c907dc59419c53c5e813e4d" category="list-text">커넥터를 배포하는 네트워크 위치는 다음 섹션에 설명된 대로 특정 끝점에 연결하는 아웃바운드 인터넷 연결이 있어야 합니다.</block>
+  <block id="864fadbab69859b77befd9c5a1c37c61" category="paragraph">BlueXP에서 커넥터를 생성할 때 BlueXP가 Azure에서 인증되고 VM을 배포할 수 있도록 로그인을 제공해야 합니다. 두 가지 옵션이 있습니다.</block>
+  <block id="79a9c2b8e447685125856ec6046d8128" category="admonition">이 사용자 지정 역할에는 BlueXP에서 Azure에서 Connector VM을 실행하는 데 필요한 권한만 포함됩니다. 다른 상황에서는 이 정책을 사용하지 마십시오. BlueXP에서 Connector를 만들면 Connector가 공용 클라우드 환경의 리소스를 관리할 수 있도록 Connector VM에 새로운 권한 집합이 적용됩니다.</block>
+  <block id="00e80b4b164dd96954a27ed3236c9728" category="paragraph">Connector를 배포하려면 BlueXP가 Azure를 인증해야 합니다. 두 Azure 인증 방법 중 하나를 선택할 수 있습니다.</block>
+  <block id="6dc4f3e9aa2dada18f0a17189fa7d079" category="list-text">IAM(액세스 제어) * 을 클릭합니다.</block>
+  <block id="761218505548d0e5a2977bd7c31de50a" category="list-text">Add * &gt; * Add role assignment * 를 클릭한 후 권한을 추가합니다.</block>
+  <block id="407df91196b1a54a89a9911a8ac6a332" category="list-text">Azure SetupAsService * 역할을 선택하고 * 다음 * 을 클릭합니다.</block>
+  <block id="42cffe053a918fe3b27cd3bef2758b91" category="list-text">회원 선택 * 을 클릭하고 사용자 계정을 선택한 다음 * 선택 * 을 클릭합니다.</block>
+  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">다음 * 을 클릭합니다.</block>
+  <block id="e3bbb08034982e47da96f9df0529c14b" category="list-text">검토 + 할당 * 을 클릭합니다.</block>
+  <block id="8174c4d89029818113468594f8347c70" category="list-text">IAM(Access Control) &gt; 추가 &gt; 역할 할당 추가 * 를 클릭합니다.</block>
+  <block id="54b14f07c36bed41295c2086ea238332" category="list-text">Role * 탭에서 * BlueXP Operator * 역할을 선택하고 * Next * 를 클릭합니다.</block>
+  <block id="e567d156455b03053b50302bf4ff266e" category="list-text">구성원 선택 * 을 클릭합니다.</block>
+  <block id="e33ca9bd2b94654f882a0e0ed82dec19" category="list-text">응용 프로그램을 선택하고 * 선택 * 을 클릭합니다.</block>
+  <block id="16d491a352eff99aff3a3090f243e9a7" category="paragraph">BlueXP 웹 기반 콘솔에서 직접 커넥터를 생성합니다.</block>
+  <block id="38c0deaf9ce4435ad8d471fc04a21ac0" category="paragraph">이러한 권한은 Connector 인스턴스 자체에 대한 것입니다. Connector VM을 배포하기 위해 이전에 설정한 것과 다른 권한 집합입니다.</block>
+  <block id="d2b74161d054c69894469355bb22cb63" category="list-text">처음 작업 환경을 만드는 경우 * 작업 환경 추가 * 를 클릭하고 화면의 지시를 따릅니다. 그렇지 않으면 * 커넥터 * 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택합니다.</block>
+  <block id="7dafa3d9179efddb7b70ff753d853a0e" category="paragraph"><block ref="29949bbccf251af183678449a2465f09" category="inline-xref-macro-rx"></block>.</block>
+  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
 </blocks>
