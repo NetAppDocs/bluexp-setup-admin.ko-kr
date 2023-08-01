@@ -60,11 +60,10 @@ BlueXP는 계정의 모든 자격 증명에 대한 기존 구독을 이 새 구�
 
 *** 저장 * 을 선택합니다.
 +
-다음 비디오는 자격 증명을 새 구독과 연결하는 방법을 보여 줍니다.
+다음 비디오에서는 AWS 마켓플레이스를 구독하는 단계를 보여줍니다.
 
 +
-.AWS 마켓플레이스에서 BlueXP를 구독하십시오
-video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
+video::video_subscribing_aws.mp4[width=848,height=480]
 
 
 
@@ -105,11 +104,10 @@ BlueXP는 계정의 모든 자격 증명에 대한 기존 구독을 이 새 구�
 
 *** 저장 * 을 선택합니다.
 +
-다음 비디오는 자격 증명을 새 구독과 연결하는 방법을 보여 줍니다.
+다음 비디오에서는 Azure 마켓플레이스에서 구독하는 단계를 보여 줍니다.
 
 +
-.Azure 마켓플레이스에서 BlueXP를 구독하십시오
-video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
+video::video_subscribing_azure.mp4[width=848,height=480]
 
 
 
@@ -168,11 +166,10 @@ BlueXP는 계정의 모든 자격 증명에 대한 기존 구독을 이 새 구�
 
 *** 저장 * 을 선택합니다.
 +
-다음 비디오는 자격 증명을 새 구독과 연결하는 방법을 보여 줍니다.
+다음 비디오에서는 Google Cloud Marketplace를 구독하는 단계를 보여줍니다.
 
 +
-.Google Cloud 마켓플레이스에서 BlueXP를 구독하십시오
-video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
+video::video-subscribing-google-cloud.mp4[width=848,height=480]
 
 
 .. 이 프로세스가 완료되면 BlueXP의 자격 증명 페이지로 돌아가서 이 새 구독을 선택합니다.

@@ -3876,8 +3876,7 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="ff61d6606967c3f8b0dfa41b1fd7bfa0" category="paragraph">예를 들어,</block>
   <block id="91bff69789722fff2c4a5649d3493da5" category="inline-image-macro">자격 증명과 연결된 구독 이름을 식별하는 구독 필드가 포함된 AWS 자격 증명을 보여 주는 BlueXP 계정 자격 증명 페이지의 스크린샷</block>
   <block id="57ed1d98795cc2b599a80064fd2b2bbf" category="paragraph"><block ref="57ed1d98795cc2b599a80064fd2b2bbf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a19fbbab905f444316acc463c35da764" category="paragraph">다음 비디오는 자격 증명을 새 구독과 연결하는 방법을 보여 줍니다.</block>
-  <block id="040832c90148c5bba767901a4a55ebe4" category="video-title">Azure 마켓플레이스에서 BlueXP를 구독하십시오</block>
-  <block id="c6e17aa071476599f5e5fc5b8bc42431" category="video-title">Google Cloud 마켓플레이스에서 BlueXP를 구독하십시오</block>
-  <block id="8ddd07f4c199accad92d619cc396eaef" category="video-title">AWS 마켓플레이스에서 BlueXP를 구독하십시오</block>
+  <block id="89d8b3b4c08395fc5dbef0d35cb50529" category="paragraph">다음 비디오에서는 Azure 마켓플레이스에서 구독하는 단계를 보여 줍니다.</block>
+  <block id="a6b7d96f53186edb463f8f8611f97cd9" category="paragraph">다음 비디오에서는 Google Cloud Marketplace를 구독하는 단계를 보여줍니다.</block>
+  <block id="20dc3df4cdf91b4bd876009a415c2cec" category="paragraph">다음 비디오에서는 AWS 마켓플레이스를 구독하는 단계를 보여줍니다.</block>
 </blocks>
