@@ -3852,4 +3852,31 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="d2b74161d054c69894469355bb22cb63" category="list-text">처음 작업 환경을 만드는 경우 * 작업 환경 추가 * 를 클릭하고 화면의 지시를 따릅니다. 그렇지 않으면 * 커넥터 * 드롭다운을 클릭하고 * 커넥터 추가 * 를 선택합니다.</block>
   <block id="7dafa3d9179efddb7b70ff753d853a0e" category="paragraph"><block ref="29949bbccf251af183678449a2465f09" category="inline-xref-macro-rx"></block>.</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
+  <block id="6f634a99f964ad704af4d4f3aaf6d261" category="section-title">기존 구독을 계정에 연결합니다</block>
+  <block id="18fdf9616b567e691b5890f032e3bba7" category="paragraph">AWS 마켓플레이스에서 BlueXP를 구독하는 경우 프로세스의 마지막 단계는 BlueXP 웹 사이트의 구독과 BlueXP 계정을 연결하는 것입니다. 이 단계를 완료하지 않은 경우 BlueXP 계정에 가입을 사용할 수 없습니다.</block>
+  <block id="6fb458ce426e7a3b13d1d111785c2d01" category="paragraph">AWS 마켓플레이스에서 BlueXP를 구독했지만 구독과 계정을 연결하는 단계를 놓친 경우 아래 단계를 따르십시오.</block>
+  <block id="bb2c89244641e4e9b00203476e12f0fa" category="list-text">BlueXP 디지털 지갑으로 이동하여 구독 요금과 BlueXP 계정의 연결이 아닌지 확인합니다.</block>
+  <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">BlueXP 탐색 메뉴에서 * Governance &gt; Digital Wallet * 을 선택합니다.</block>
+  <block id="8c3682e85d7f4dbe8a46485082335dec" category="list-text">구독 * 을 선택합니다.</block>
+  <block id="ed6b397e0118acc4ce6973d71f8bf52b" category="list-text">BlueXP 구독이 나타나지 않는지 확인합니다.</block>
+  <block id="0b63efe724268bea77154f68b732287f" category="paragraph">현재 보고 있는 계정과 연결된 구독만 표시됩니다. 구독이 표시되지 않으면 다음 단계를 진행합니다.</block>
+  <block id="f059d36774fc7cb0f68cf549634c6649" category="list-text">AWS 콘솔에 로그인하고 * AWS Marketplace 구독 * 으로 이동합니다.</block>
+  <block id="f8c6f0be8abb9f25513e90fc59a8022a" category="list-text">NetApp BlueXP 구독을 찾을 수 있습니다.</block>
+  <block id="a33c6ab064752da11797cc3fcb72c16c" category="inline-image-macro">NetApp BlueXP 가입이 표시된 AWS 마켓플레이스의 스크린샷</block>
+  <block id="cd0345f5cc6a1039b0fb0404342bcf95" category="paragraph"><block ref="cd0345f5cc6a1039b0fb0404342bcf95" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5df82b79e0671efbca7c878a5dc6ff0c" category="list-text">제품 설정 * 을 선택합니다.</block>
+  <block id="d322d34d737802e42885dcb924b50296" category="paragraph">구독 제안 페이지는 새 브라우저 탭 또는 창에 로드되어야 합니다.</block>
+  <block id="49ff8f7962f9a965de7b3ac21b54fa0c" category="inline-image-macro">페이지의 오른쪽 상단에 NetApp BlueXP 구독과 계정 설정 옵션이 표시된 AWS 마켓플레이스의 스크린샷</block>
+  <block id="ed95a7891978e2cf8bdd5f3a968fadf8" category="paragraph"><block ref="ed95a7891978e2cf8bdd5f3a968fadf8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3973d17448cb9fb34230d9497124e62e" category="paragraph">netapp.com 의 * 구독 할당 * 페이지가 새 브라우저 탭 또는 창에 로드되어야 합니다.</block>
+  <block id="2bd91e2097a924ebf8ed96f27e0e014b" category="paragraph">먼저 BlueXP에 로그인하라는 메시지가 표시될 수 있습니다.</block>
+  <block id="ad06dac7d3f75caabc6bbf1ee222b5b1" category="inline-image-macro">이 구독과 연결할 BlueXP 계정을 정확히 선택할 수 있는 구독 할당 페이지 스크린샷</block>
+  <block id="f08dbbf2dcc1aaacd389964d9e1720e9" category="paragraph"><block ref="f08dbbf2dcc1aaacd389964d9e1720e9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ab7f683bf33e15557d8b8c755ab6925d" category="list-text">BlueXP 디지털 지갑으로 이동하여 구독이 BlueXP 계정과 연결되어 있는지 확인합니다.</block>
+  <block id="3d202823d7d9b23ecb538a9e600a47f9" category="list-text">BlueXP 구독이 나타나는지 확인합니다.</block>
+  <block id="b37f51b57881b03b6c52e06acb6edd87" category="list-text">구독이 AWS 자격 증명과 연결되어 있는지 확인합니다.</block>
+  <block id="be7152363bc92639c82fcab79b823266" category="list-text">계정 자격 증명 * 페이지에서 구독이 AWS 자격 증명과 연결되어 있는지 확인합니다.</block>
+  <block id="ff61d6606967c3f8b0dfa41b1fd7bfa0" category="paragraph">예를 들어,</block>
+  <block id="91bff69789722fff2c4a5649d3493da5" category="inline-image-macro">자격 증명과 연결된 구독 이름을 식별하는 구독 필드가 포함된 AWS 자격 증명을 보여 주는 BlueXP 계정 자격 증명 페이지의 스크린샷</block>
+  <block id="57ed1d98795cc2b599a80064fd2b2bbf" category="paragraph"><block ref="57ed1d98795cc2b599a80064fd2b2bbf" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
