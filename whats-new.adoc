@@ -665,7 +665,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-verify-autosupport
 
 Microsoft Azure에서 새 Connector를 만들면 Azure 계정 자격 증명이 아닌 Azure 서비스 보안 주체를 사용하여 인증할 수 있습니다.
 
-link:task-creating-connectors-azure.html#create-a-connector-using-a-service-principal["Azure 서비스 보안 주체를 인증하는 방법에 대해 알아봅니다"].
+link:task-creating-connectors-azure.html["Azure 서비스 보안 주체를 인증하는 방법에 대해 알아봅니다"].
 
 
 
@@ -718,7 +718,7 @@ image:screenshot_nss_management.png["NSS 계정을 추가할 수 있는 지원 �
 
 이제 Cloud Manager의 타임라인에 계정 관리와 관련된 작업 및 이벤트가 표시됩니다. 이러한 동작에는 사용자 연결, 작업 영역 만들기, 커넥터 만들기 등이 있습니다. 특정 작업을 수행한 사람을 확인해야 하거나 작업의 상태를 확인해야 하는 경우 시간 표시 막대를 확인하는 것이 도움이 됩니다.
 
-link:task-monitor-cm-operations.html#auditing-user-activity-in-your-account["타임라인을 Tenancy 서비스로 필터링하는 방법에 대해 알아보십시오"].
+link:task-monitor-cm-operations.html#audit-user-activity-in-your-account["타임라인을 Tenancy 서비스로 필터링하는 방법에 대해 알아보십시오"].
 
 
 
@@ -740,7 +740,7 @@ link:task-configuring-proxy.html["이 설정에 대해 자세히 알아보십시
 
 서비스 계정은 자동화를 위해 Cloud Manager에 승인된 API 호출을 수행할 수 있는 "사용자" 역할을 합니다. 따라서 언제든지 퇴사할 수 있는 실제 사용자의 계정을 기반으로 자동화 스크립트를 작성할 필요가 없으므로 자동화를 더욱 쉽게 관리할 수 있습니다. 페더레이션을 사용하는 경우 클라우드에서 새로 고침 토큰을 생성하지 않고 토큰을 생성할 수 있습니다.
 
-link:task-managing-netapp-accounts.html#creating-and-managing-service-accounts["서비스 계정 사용에 대해 자세히 알아보십시오"].
+link:task-managing-netapp-accounts.html#create-and-manage-service-accounts["서비스 계정 사용에 대해 자세히 알아보십시오"].
 
 
 
@@ -748,7 +748,7 @@ link:task-managing-netapp-accounts.html#creating-and-managing-service-accounts["
 
 이제 고객 어카운트의 프라이빗 미리보기 기능을 사용하여 Cloud Manager의 미리보기 기능을 이용하여 새로운 NetApp 클라우드 서비스에 액세스할 수 있습니다.
 
-link:task-managing-netapp-accounts.html#allowing-private-previews["이 옵션에 대해 자세히 알아보십시오"].
+link:task-managing-netapp-accounts.html#allow-private-previews["이 옵션에 대해 자세히 알아보십시오"].
 
 
 
@@ -756,7 +756,7 @@ link:task-managing-netapp-accounts.html#allowing-private-previews["이 옵션에
 
 또한 사용자 계정의 타사 서비스가 Cloud Manager에서 사용 가능한 타사 서비스에 액세스하도록 허용할 수도 있습니다.
 
-link:task-managing-netapp-accounts.html#allowing-third-party-services["이 옵션에 대해 자세히 알아보십시오"].
+link:task-managing-netapp-accounts.html#allow-third-party-services["이 옵션에 대해 자세히 알아보십시오"].
 
 
 

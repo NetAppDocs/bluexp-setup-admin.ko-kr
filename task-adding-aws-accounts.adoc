@@ -24,7 +24,7 @@ BlueXP에서 AWS 계정에 클라우드 리소스를 배포하고 관리하는 �
 
 * 기존 커넥터에 AWS 자격 증명을 추가합니다
 +
-기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다. <<Add credentials to a Connector,Connector에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오>>.
+기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다. <<Connector에 추가 자격 증명을 추가합니다,Connector에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오>>.
 
 * Connector 생성을 위해 BlueXP에 AWS 자격 증명을 추가합니다
 +

@@ -141,7 +141,7 @@ image:screenshot-change-notifications.png["여러 사용자에 대한 알림을 
 
 === 추가 이메일 수신자를 추가합니다
 
-계정 사용자_탭에 나타나는 사용자는 에서 BlueXP 계정의 사용자로부터 자동으로 채워집니다 link:task-managing-netapp-accounts.html#creating-and-managing-users["계정 관리 페이지"])를 클릭합니다. BlueXP에 액세스할 수 없지만 특정 유형의 경고 및 알림에 대해 알림을 받아야 하는 다른 사람 또는 그룹에 대해서는 _Additional Recipients_tab에서 전자 메일 주소를 추가할 수 있습니다.
+계정 사용자_탭에 나타나는 사용자는 에서 BlueXP 계정의 사용자로부터 자동으로 채워집니다 link:task-managing-netapp-accounts.html#create-and-manage-users["계정 관리 페이지"])를 클릭합니다. BlueXP에 액세스할 수 없지만 특정 유형의 경고 및 알림에 대해 알림을 받아야 하는 다른 사람 또는 그룹에 대해서는 _Additional Recipients_tab에서 전자 메일 주소를 추가할 수 있습니다.
 
 .단계
 . 알림 및 알림 설정 페이지에서 * 새 수신자 추가 * 를 선택합니다.
