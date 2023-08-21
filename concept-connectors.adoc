@@ -65,6 +65,7 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 * 백업 및 복구
 * 분류
 * Cloud Volumes ONTAP
+* 재해 복구
 * E-Series 시스템
 * 경제 효율성 ^1^
 * 에지 캐싱
