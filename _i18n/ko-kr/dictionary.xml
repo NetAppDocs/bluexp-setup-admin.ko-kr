@@ -3915,4 +3915,7 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="04e4cf5594e5bdae569d4fdcee8b46a6" category="list-text">Azure에서 Connector VM을 생성할 때 사용자 이름을 지정하고 암호 또는 SSH 공개 키로 인증하도록 선택했습니다. VM에 연결하도록 선택한 인증 방법을 사용합니다.</block>
   <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\https://netapp-cloud-account.auth0.com</block>
   <block id="80a43f3cb5826b8218d88da517c1e84b" category="list-text">현재 BlueXP 기능 및 서비스와 같은 BlueXP 기능 및 서비스에 대한 알림이 이메일로 전송됩니다. 커넥터, BlueXP 디지털 전자지갑크기, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 계층화, BlueXP 마이그레이션 보고서, BlueXP 랜섬웨어 보호. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
+  <block id="8ddd07f4c199accad92d619cc396eaef" category="video-title">AWS 마켓플레이스에서 BlueXP를 구독하십시오</block>
+  <block id="040832c90148c5bba767901a4a55ebe4" category="video-title">Azure 마켓플레이스에서 BlueXP를 구독하십시오</block>
+  <block id="c6e17aa071476599f5e5fc5b8bc42431" category="video-title">Google Cloud 마켓플레이스에서 BlueXP를 구독하십시오</block>
 </blocks>

@@ -35,7 +35,8 @@ BlueXP는 계정의 모든 자격 증명에 대한 기존 구독을 이 새 구�
 다음 비디오에서는 AWS 마켓플레이스를 구독하는 단계를 보여줍니다.
 
 +
-video::video_subscribing_aws.mp4[width=848,height=480]
+.AWS 마켓플레이스에서 BlueXP를 구독하십시오
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 
 
 
