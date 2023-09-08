@@ -18,7 +18,7 @@ BlueXP SaaS 계층에 대한 아웃바운드 연결이 제한된 BlueXP를 사�
 
 
 
-== 커넥터를 설치합니다
+== 1단계: 커넥터를 설치합니다
 
 클라우드 공급자의 마켓플레이스에서 Connector를 설치하거나 자체 Linux 호스트에 소프트웨어를 수동으로 설치합니다.
 
@@ -35,12 +35,12 @@ link:task-prepare-restricted-mode.html["네트워킹 요구 사항에 대해 알
 
 * Connector에 필요한 권한을 포함하는 정책이 첨부된 IAM 역할
 +
-link:task-prepare-restricted-mode.html#prepare-cloud-permissions["AWS 권한을 설정하는 방법에 대해 알아보십시오"]
+link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["AWS 권한을 설정하는 방법에 대해 알아보십시오"]
 
 * IAM 사용자에 대한 AWS 마켓플레이스의 구독 및 구독 취소 권한
 * 인스턴스의 CPU 및 RAM 요구 사항 이해
 +
-link:task-prepare-restricted-mode.html#review-host-requirements["인스턴스 요구 사항 검토"].
+link:task-prepare-restricted-mode.html#step-3-review-host-requirements["인스턴스 요구 사항 검토"].
 
 * EC2 인스턴스의 키 쌍입니다.
 
@@ -100,7 +100,7 @@ link:task-prepare-restricted-mode.html["네트워킹 요구 사항에 대해 알
 
 * Connector에 필요한 권한을 포함하는 정책이 첨부된 IAM 역할
 +
-link:task-prepare-restricted-mode.html#prepare-cloud-permissions["AWS 권한을 설정하는 방법에 대해 알아보십시오"]
+link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["AWS 권한을 설정하는 방법에 대해 알아보십시오"]
 
 * IAM 사용자에 대한 AWS 마켓플레이스의 구독 및 구독 취소 권한
 * EC2 인스턴스의 키 쌍입니다.
@@ -154,7 +154,7 @@ link:task-prepare-restricted-mode.html["네트워킹 요구 사항에 대해 알
 
 * Connector에 필요한 권한이 포함된 Azure 사용자 지정 역할입니다.
 +
-link:task-prepare-restricted-mode.html#prepare-cloud-permissions["Azure 사용 권한을 설정하는 방법에 대해 알아봅니다"]
+link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["Azure 사용 권한을 설정하는 방법에 대해 알아봅니다"]
 
 
 
@@ -294,7 +294,7 @@ BlueXP를 설정합니다.
 ====
 
 
-== BlueXP를 설정합니다
+== 2단계: BlueXP 설정
 
 BlueXP 콘솔에 처음 액세스할 때 Connector를 연결할 계정을 선택하라는 메시지가 표시되면 제한된 모드를 활성화해야 합니다.
 
@@ -338,13 +338,13 @@ image:screenshot-restricted-mode.png["커넥터 이름, 계정 이름을 입력�
 
 
 
-== BlueXP에 대한 권한을 제공합니다
+== 3단계: BlueXP에 권한 제공
 
 Azure Marketplace에서 Connector를 배포했거나 Connector 소프트웨어를 수동으로 설치한 경우 BlueXP 서비스를 사용할 수 있도록 이전에 설정한 사용 권한을 제공해야 합니다.
 
 구축 중에 필요한 IAM 역할을 선택했기 때문에 AWS Marketplace에서 Connector를 구축한 경우에는 이 단계가 적용되지 않습니다.
 
-link:task-prepare-restricted-mode.html#prepare-cloud-permissions["클라우드 사용 권한을 준비하는 방법에 대해 알아봅니다"].
+link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["클라우드 사용 권한을 준비하는 방법에 대해 알아봅니다"].
 
 [role="tabbed-block"]
 ====

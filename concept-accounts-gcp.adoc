@@ -34,9 +34,9 @@ image:diagram_permissions_gcp.png["Cloud Volumes ONTAP를 배포하기 위한 Go
 
 사용 권한을 설정하는 방법은 다음 페이지를 참조하십시오.
 
-* link:task-set-up-permissions-google.html["표준 모드에 대한 Google Cloud 권한을 설정합니다"]
-* link:task-prepare-restricted-mode.html#prepare-cloud-permissions["제한된 모드에 대한 클라우드 권한을 설정합니다"]
-* link:task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 클라우드 권한을 설정합니다"]
+* link:task-install-connector-google-bluexp-gcloud.html#step-2-set-up-permissions-to-create-the-connector["표준 모드에 대한 Google Cloud 권한을 설정합니다"]
+* link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
 
@@ -45,6 +45,6 @@ image:diagram_permissions_gcp.png["Cloud Volumes ONTAP를 배포하기 위한 Go
 
 Cloud Volumes ONTAP는 Connector와 같은 프로젝트나 다른 프로젝트에 상주할 수 있습니다. 다른 프로젝트에 Cloud Volumes ONTAP를 배포하려면 먼저 해당 프로젝트에 Connector 서비스 계정 및 역할을 추가해야 합니다.
 
-* link:task-set-up-permissions-google.html["서비스 계정 설정 방법에 대해 알아보십시오"]
+* link:task-install-connector-google-bluexp-gcloud.html#step-3-set-up-permissions-for-the-connector["서비스 계정 설정 방법에 대해 알아보십시오"]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud에서 Cloud Volumes ONTAP를 배포하고 프로젝트를 선택하는 방법에 대해 알아보십시오"^]
 

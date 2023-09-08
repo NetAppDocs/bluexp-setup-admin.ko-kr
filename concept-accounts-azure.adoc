@@ -20,7 +20,7 @@ BlueXP에서 Azure 자격 증명과 사용 권한을 사용하여 사용자를 �
 
 == 초기 Azure 자격 증명
 
-BlueXP에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 나열됩니다 link:task-set-up-permissions-azure.html["Azure용 커넥터 배포 정책"].
+BlueXP에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 나열됩니다 link:task-install-connector-azure-bluexp.html#step-2-create-a-custom-role["Azure용 커넥터 배포 정책"].
 
 BlueXP가 Azure에 Connector 가상 시스템을 배포하면 가 활성화됩니다 https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["시스템에서 할당한 관리 ID입니다"^] 가상 머신에서 사용자 지정 역할을 생성하고 가상 머신에 할당합니다. BlueXP는 이 역할을 통해 Azure 가입 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 얻을 수 있습니다. link:reference-permissions-azure.html["BlueXP에서 사용 권한을 사용하는 방법을 검토합니다"].
 
@@ -66,10 +66,10 @@ Marketplace를 사용하는 경우 Connector VM 및 시스템에 할당된 관�
 
 * 표준 모드
 +
-** link:task-set-up-permissions-azure.html["Azure 권한을 설정합니다"]
-** link:task-set-up-permissions-on-prem.html["온프레미스 구축을 위한 클라우드 권한 설정"]
+** link:task-install-connector-azure-marketplace.html#step-3-set-up-permissions["Azure Marketplace 배포에 대한 사용 권한을 설정합니다"]
+** link:task-install-connector-on-prem.html#step-3-set-up-cloud-permissions["온프레미스 배포에 대한 권한을 설정합니다"]
 
 
-* link:task-prepare-restricted-mode.html#prepare-cloud-permissions["제한된 모드에 대한 클라우드 권한을 설정합니다"]
-* link:task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 클라우드 권한을 설정합니다"]
+* link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 

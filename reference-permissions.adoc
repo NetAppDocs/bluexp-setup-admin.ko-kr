@@ -31,7 +31,7 @@ BlueXP를 사용하려면 Connector 및 개별 서비스에 대한 AWS 권한이
 | 목표 | 설명 | 링크 
 
 
-| BlueXP에서 Connector를 구축합니다 | BlueXP에서 Connector를 생성하는 사용자는 AWS에 인스턴스를 배포하기 위한 특정 권한이 필요합니다. | link:task-set-up-permissions-aws.html["AWS 권한을 설정합니다"] 
+| BlueXP에서 Connector를 구축합니다 | BlueXP에서 Connector를 생성하는 사용자는 AWS에 인스턴스를 배포하기 위한 특정 권한이 필요합니다. | link:task-install-connector-aws-bluexp.html#step-2-set-up-aws-permissions["AWS 권한을 설정합니다"] 
 
 
 | 커넥터에 대한 사용 권한을 제공합니다 | BlueXP에서 Connector를 시작하면 해당 인스턴스에 정책을 연결하여 AWS 계정의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다.
@@ -116,7 +116,7 @@ BlueXP를 사용하려면 Connector 및 개별 서비스에 대한 Azure 권한�
 | 목표 | 설명 | 링크 
 
 
-| BlueXP에서 Connector를 구축합니다 | BlueXP에서 Connector를 배포하는 경우 Azure에 Connector VM을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. | link:task-set-up-permissions-azure.html["Azure 권한을 설정합니다"] 
+| BlueXP에서 Connector를 구축합니다 | BlueXP에서 Connector를 배포하는 경우 Azure에 Connector VM을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. | link:task-install-connector-azure-bluexp.html#step-2-create-a-custom-role["Azure 권한을 설정합니다"] 
 
 
 | 커넥터에 대한 사용 권한을 제공합니다  a| 
@@ -155,12 +155,12 @@ BlueXP를 사용하려면 Connector 및 개별 서비스에 대한 Google Cloud 
 | 목표 | 설명 | 링크 
 
 
-| BlueXP에서 Connector를 구축합니다 | BlueXP의 Connector를 배포하는 Google Cloud 사용자는 Google Cloud에 Connector를 배포하기 위한 특정 권한이 필요합니다. | link:task-set-up-permissions-google.html#set-up-permissions-to-create-the-connector-from-bluexp-or-gcloud["Connector 배포 권한을 설정합니다"] 
+| BlueXP에서 Connector를 구축합니다 | BlueXP의 Connector를 배포하는 Google Cloud 사용자는 Google Cloud에 Connector를 배포하기 위한 특정 권한이 필요합니다. | link:task-install-connector-google-bluexp-gcloud.html#step-2-set-up-permissions-to-create-the-connector["커넥터를 만들 수 있는 권한을 설정합니다"] 
 
 
 | 커넥터에 대한 사용 권한을 제공합니다 | Connector VM 인스턴스의 서비스 계정에는 일상적인 작업에 대한 특정 권한이 있어야 합니다. 배포 중에 서비스 계정을 커넥터에 연결해야 합니다.
 
-또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:reference-permissions-gcp.html["Connector에 대한 Google Cloud 권한"] 
+또한 새 권한이 후속 릴리스에 추가될 때 정책이 최신 상태인지 확인해야 합니다. | link:task-install-connector-google-bluexp-gcloud.html#step-3-set-up-permissions-for-the-connector["Connector에 대한 권한을 설정합니다"] 
 |===
 
 

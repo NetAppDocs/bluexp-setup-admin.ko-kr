@@ -30,10 +30,10 @@ BlueXP가 AWS에서 Connector 인스턴스를 시작하면 Connector에 해당 A
 * 필요한 경우 IAM을 사용하여 IAM 정책을 제한할 수 있습니다 `Condition` 요소. https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_condition.html["AWS 설명서:조건 요소"^]
 * 이러한 정책 사용에 대한 단계별 지침을 보려면 다음 페이지를 참조하십시오.
 +
-** link:task-set-up-permissions-aws.html["AWS에서 Connector 설치 권한 설정(표준 모드)"]
-** link:task-set-up-permissions-on-prem.html["온-프레미스 Connector 설치에 대한 권한 설정(표준 모드)"]
-** link:task-prepare-restricted-mode.html#prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
-** link:task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
+** link:task-install-connector-aws-marketplace.html#step-2-set-up-aws-permissions["AWS Marketplace 구축에 대한 사용 권한을 설정합니다"]
+** link:task-install-connector-on-prem.html#step-3-set-up-cloud-permissions["온프레미스 배포에 대한 권한을 설정합니다"]
+** link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+** link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
 

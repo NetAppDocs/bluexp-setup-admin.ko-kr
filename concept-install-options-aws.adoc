@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-install-options-aws.html 
 keywords: install connector aws, aws install connector, connector aws, aws connector, installation options, aws marketplace, manual install 
-summary: AWS에서 커넥터를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 선택한 설치 옵션에 따라 배포 준비 방법이 결정됩니다. 
+summary: AWS에서 커넥터를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 
 ---
 = AWS의 커넥터 설치 옵션
 :hardbreaks:
@@ -14,21 +14,19 @@ summary: AWS에서 커넥터를 생성하는 방법은 몇 가지가 있습니�
 
 
 [role="lead"]
-AWS에서 커넥터를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 선택한 설치 옵션에 따라 배포 준비 방법이 결정됩니다.
+AWS에서 커넥터를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다.
 
 다음 설치 옵션을 사용할 수 있습니다.
 
-* BlueXP에서 직접 커넥터 생성(표준 옵션)
+* link:task-install-connector-aws-bluexp.html["BlueXP에서 직접 Connector를 생성합니다"] (표준 옵션)
 +
 이렇게 하면 선택한 VPC에서 Linux를 실행하는 EC2 인스턴스와 Connector 소프트웨어가 실행됩니다.
 
-* AWS Marketplace에서 Connector를 생성합니다
+* link:task-install-connector-aws-marketplace.html["AWS Marketplace에서 Connector를 생성합니다"]
 +
-이 작업을 수행하면 Linux 및 Connector 소프트웨어를 실행하는 EC2 인스턴스도 실행됩니다.
+이 작업으로 Linux와 Connector 소프트웨어를 실행하는 EC2 인스턴스도 시작하지만 BlueXP가 아닌 AWS 마켓플레이스에서 직접 구축이 시작됩니다.
 
-* 자체 Linux 호스트에 소프트웨어를 다운로드하고 수동으로 설치합니다
+* link:task-install-connector-aws-manual.html["자체 Linux 호스트에 소프트웨어를 다운로드하고 수동으로 설치합니다"]
 
 
 선택하는 설치 옵션은 설치 준비 방법에 영향을 줍니다. 여기에는 AWS의 리소스를 인증하고 관리하는 데 필요한 권한을 BlueXP에 제공하는 방법이 포함됩니다.
-
-link:task-install-connector-aws.html["AWS에서 Connector를 설치하는 방법에 대해 알아보십시오"].

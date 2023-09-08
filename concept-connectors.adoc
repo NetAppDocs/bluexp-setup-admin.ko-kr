@@ -141,18 +141,20 @@ BlueXP 계정 관리자는 BlueXP, 클라우드 공급자의 마켓플레이스�
 
 BlueXP에서 직접 Connector를 만들려면 특정 권한이 필요하며 Connector 인스턴스 자체에 다른 권한 집합이 필요합니다. BlueXP에서 직접 AWS 또는 Azure에서 커넥터를 생성하는 경우 BlueXP는 필요한 권한으로 Connector를 생성합니다.
 
-사용 권한을 설정하는 방법은 다음 페이지를 참조하십시오.
+표준 모드에서 BlueXP를 사용할 때 사용 권한을 제공하는 방법은 Connector를 생성하는 계획에 따라 다릅니다.
+
+사용 권한을 설정하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 
 * 표준 모드
 +
-** link:task-set-up-permissions-aws.html["AWS 권한을 설정합니다"]
-** link:task-set-up-permissions-azure.html["Azure 권한을 설정합니다"]
-** link:task-set-up-permissions-google.html["Google Cloud 권한을 설정합니다"]
-** link:task-set-up-permissions-on-prem.html["온프레미스 구축을 위한 클라우드 권한 설정"]
+** link:concept-install-options-aws.html["AWS의 커넥터 설치 옵션"]
+** link:concept-install-options-azure.html["Azure의 커넥터 설치 옵션"]
+** link:concept-install-options-google.html["Google Cloud의 커넥터 설치 옵션"]
+** link:task-install-connector-on-prem.html#step-3-set-up-cloud-permissions["온프레미스 구축을 위한 클라우드 권한 설정"]
 
 
-* link:task-prepare-restricted-mode.html#prepare-cloud-permissions["제한된 모드에 대한 클라우드 권한을 설정합니다"]
-* link:task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 클라우드 권한을 설정합니다"]
+* link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
 Connector에 필요한 정확한 권한을 보려면 다음 페이지를 참조하십시오.

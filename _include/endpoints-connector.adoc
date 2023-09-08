@@ -2,6 +2,9 @@
 :allow-uri-read: 
 
 
+커넥터에서 접촉된 끝점:: Connector는 일상적인 운영을 위해 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하려면 다음 엔드포인트에 연결하는 아웃바운드 인터넷 액세스가 필요합니다.
+
+
 | AWS 서비스(amazonaws.com):
 
 * CloudFormation 을 참조하십시오
@@ -12,7 +15,7 @@
 * S3(Simple Storage Service)
 
 
-를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 Connector를 배포하는 영역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^]
+를 사용하여 AWS에서 리소스를 관리합니다. 정확한 끝점은 사용 중인 AWS 지역에 따라 다릅니다. https://docs.aws.amazon.com/general/latest/gr/rande.html["자세한 내용은 AWS 설명서를 참조하십시오"^]
 
 |\https://management.azure.com
 \https://login.microsoftonline.com

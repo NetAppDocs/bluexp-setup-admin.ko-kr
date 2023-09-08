@@ -20,7 +20,7 @@ BlueXP에서 AWS 자격 증명과 사용 권한을 사용하여 사용자를 대
 
 == 초기 AWS 자격 증명
 
-BlueXP에서 커넥터를 배포할 때는 IAM 사용자의 ARN 또는 액세스 키를 제공해야 합니다. 사용하는 인증 방법에는 Connector 인스턴스를 AWS에 구축하는 데 필요한 권한이 있어야 합니다. 필요한 권한이 에 나열됩니다 link:task-set-up-permissions-aws.html["AWS의 커넥터 구축 정책"].
+BlueXP에서 커넥터를 배포할 때는 IAM 사용자의 ARN 또는 액세스 키를 제공해야 합니다. 사용하는 인증 방법에는 Connector 인스턴스를 AWS에 구축하는 데 필요한 권한이 있어야 합니다. 필요한 권한이 에 나열됩니다 link:task-install-connector-aws-bluexp.html#step-2-set-up-aws-permissions["AWS의 커넥터 구축 정책"].
 
 BlueXP가 AWS에서 Connector 인스턴스를 시작하면 IAM 역할과 해당 인스턴스에 대한 인스턴스 프로필이 생성됩니다. 또한 Connector에 해당 AWS 계정 내의 리소스 및 프로세스를 관리할 수 있는 권한을 제공하는 정책을 첨부합니다. link:reference-permissions-aws.html["BlueXP에서 사용 권한을 사용하는 방법을 검토합니다"].
 
@@ -84,12 +84,12 @@ Marketplace를 사용하는 경우 사용 권한이 동일한 방식으로 제�
 
 * 표준 모드
 +
-** link:task-set-up-permissions-aws.html["AWS 권한을 설정합니다"]
-** link:task-set-up-permissions-on-prem.html["온프레미스 구축을 위한 클라우드 권한 설정"]
+** link:task-install-connector-aws-marketplace.html#step-2-set-up-aws-permissions["AWS Marketplace 구축에 대한 사용 권한을 설정합니다"]
+** link:task-install-connector-on-prem.html#step-3-set-up-cloud-permissions["온프레미스 배포에 대한 권한을 설정합니다"]
 
 
-* link:task-prepare-restricted-mode.html#prepare-cloud-permissions["제한된 모드에 대한 클라우드 권한을 설정합니다"]
-* link:task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 클라우드 권한을 설정합니다"]
+* link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
 

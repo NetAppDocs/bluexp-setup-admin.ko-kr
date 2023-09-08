@@ -26,10 +26,12 @@ BlueXP에서 직접 커넥터를 만들면 BlueXP에서 자동으로 이 사용�
 
 Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector를 수동으로 설치하는 경우 사용자 지정 역할을 직접 설정해야 합니다.
 
-* link:task-set-up-permissions-azure.html["Azure에서 Connector 설치 권한 설정(표준 모드)"]
-* link:task-set-up-permissions-on-prem.html["온-프레미스 Connector 설치에 대한 권한 설정(표준 모드)"]
-* link:task-prepare-restricted-mode.html#prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
-* link:task-prepare-private-mode.html#prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
+이러한 정책 사용에 대한 단계별 지침을 보려면 다음 페이지를 참조하십시오.
+
+* link:task-install-connector-azure-marketplace.html#step-3-set-up-permissions["Azure Marketplace 배포에 대한 사용 권한을 설정합니다"]
+* link:task-install-connector-on-prem.html#step-3-set-up-cloud-permissions["온프레미스 배포에 대한 권한을 설정합니다"]
+* link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
 또한 후속 릴리스에 새 권한이 추가되므로 역할이 최신 상태인지 확인해야 합니다.
