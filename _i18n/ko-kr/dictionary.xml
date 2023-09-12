@@ -3406,7 +3406,6 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="6d2d5c49a26a8339a26911674ee69f80" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 선택하고 AWS 마켓플레이스의 단계를 따릅니다.</block>
   <block id="cc5b03fa4f937c63363767c812feeb34" category="list-text">구매 옵션 보기 * 를 선택합니다.</block>
   <block id="0b45e429b84384fa541446c3364409c9" category="list-text">계정 설정 * 을 선택합니다.</block>
-  <block id="9d5f9909bec8cf71910a31c50878914c" category="section-title">7월 30일</block>
   <block id="167693b239be0e2939d61376cd3a5487" category="section-title">커넥터 3.9.32</block>
   <block id="7af14628b780746da1b2b7396f10a07e" category="list-text">이제 BlueXP 감사 서비스 API를 사용하여 감사 로그를 내보낼 수 있습니다.</block>
   <block id="5a97fe4fe664c9e98d8ad88cdbf44d98" category="inline-link">감사 서비스 API 사용에 대해 자세히 알아보십시오</block>
@@ -3773,4 +3772,11 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="490065fa675522d3a515cadb526d26f6" category="sidebar">마켓플레이스에서 생성</block>
   <block id="655a3c90b399118b5d073277c90e6b0f" category="sidebar">수동으로 설치합니다</block>
   <block id="054df94b323e23fce659cffe65ef10ef" category="sidebar">BlueXP에서 생성하거나 gcloud를 사용하여 생성합니다</block>
+  <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023년 9월 10일</block>
+  <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">커넥터 3.9.33</block>
+  <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
+  <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">BlueXP에서 AWS에 Connector를 생성할 때 네트워크 페이지에 표시되는 Key Pair 필드의 검색 옵션 스크린샷</block>
+  <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="90641719c2018ef19f0a8140a88f5fee" category="list-text">이 업데이트에는 버그 수정도 포함되어 있습니다.</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023년 7월 30일</block>
 </blocks>

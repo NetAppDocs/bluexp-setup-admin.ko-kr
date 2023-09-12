@@ -18,7 +18,22 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
-== 7월 30일
+== 2023년 9월 10일
+
+
+
+=== 커넥터 3.9.33
+
+* AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["BlueXP에서 AWS에 Connector를 생성할 때 네트워크 페이지에 표시되는 Key Pair 필드의 검색 옵션 스크린샷"]
+
+* 이 업데이트에는 버그 수정도 포함되어 있습니다.
+
+
+
+
+== 2023년 7월 30일
 
 
 
