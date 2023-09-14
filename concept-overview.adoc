@@ -68,7 +68,6 @@ BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네
 * https://bluexp.netapp.com/digital-advisor["디지털 자문업체"^]
 * https://bluexp.netapp.com/digital-advisor["경제적인 효율성"^]
 * https://bluexp.netapp.com/digital-advisor["운영 복원력"^]
-* https://bluexp.netapp.com/ransomware-protection["랜섬웨어 보호"^]
 
 
 --

@@ -75,7 +75,7 @@ NOTE: 소스 IP 주소는 커넥터 호스트입니다.
 | 서비스 | 프로토콜 | 포트 | 목적지 | 목적 
 
 
-| API 호출 및 AutoSupport | HTTPS | 443 | 아웃바운드 인터넷 및 ONTAP 클러스터 관리 LIF | API는 Azure, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다 
+| API 호출 및 AutoSupport | HTTPS | 443 | 아웃바운드 인터넷 및 ONTAP 클러스터 관리 LIF | API에서는 Azure, ONTAP, BlueXP 분류 및 AutoSupport 메시지를 NetApp에 전송합니다 
 
 
 | API 호출 | TCP | 8080 | BlueXP 분류 | 배포 중에 BlueXP 분류 인스턴스를 조사합니다 

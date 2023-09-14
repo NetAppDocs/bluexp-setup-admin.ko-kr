@@ -566,8 +566,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="3e347fe716ab17eefd02acef8c0347bf" category="list-text"><block ref="3e347fe716ab17eefd02acef8c0347bf" category="inline-link-rx"></block></block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="inline-link">디지털 자문업체</block>
   <block id="86d4d1274a29106954740fc239a0af79" category="list-text"><block ref="86d4d1274a29106954740fc239a0af79" category="inline-link-rx"></block></block>
-  <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="inline-link">랜섬웨어 보호</block>
-  <block id="ecbf594bb3a0b1f21d5ca3e417aec924" category="list-text"><block ref="ecbf594bb3a0b1f21d5ca3e417aec924" category="inline-link-rx"></block></block>
   <block id="e1d4fcf84146530af8da4a20a003710d" category="inline-link">BlueXP를 사용하여 조직에 도움을 주는 방법에 대해 자세히 알아보십시오</block>
   <block id="b2be08edab4d3d89797b89ae19e20493" category="paragraph"><block ref="b2be08edab4d3d89797b89ae19e20493" category="inline-link-rx"></block></block>
   <block id="902e65d33784bd8924eb05e622aa2dda" category="section-title">지원되는 클라우드 공급자</block>
@@ -3355,9 +3353,6 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="48f169efc2b522ea6ab10451a2a28cd8" category="summary">BlueXP 기능 및 서비스를 사용하려면 BlueXP가 클라우드 환경에서 작업을 수행할 수 있도록 권한을 제공해야 합니다. 이 페이지의 링크를 사용하여 목표에 따라 필요한 사용 권한에 빠르게 액세스할 수 있습니다.</block>
   <block id="6bc8bd282f003afcaaf88391550efbaf" category="cell">사내 ONTAP 클러스터를 Amazon S3에 계층화</block>
   <block id="23c27147b4e0e766d76ac0f6e872424e" category="section-title">StorageGRID 권한</block>
-  <block id="eb44d47feda5532d1121c79d84128d2e" category="cell">API는 AWS, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
-  <block id="e671b39f5fdb18b38eb5c968b368b3aa" category="cell">API는 Azure, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
-  <block id="8150638aa57d2b5755445cf3ab8eac20" category="cell">API는 Google Cloud, ONTAP, BlueXP 분류, BlueXP 랜섬웨어 보호, NetApp에 AutoSupport 메시지 전송을 호출합니다</block>
   <block id="6d349a0af72df500a21b7660d8e471b2" category="paragraph"><block ref="6d349a0af72df500a21b7660d8e471b2" category="inline-link-rx"></block></block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">사용자 자격 증명 * 을 선택합니다.</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
@@ -3566,7 +3561,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="2a3be610e29cddb2c56aa61b555b895a" category="list-text">AWS에서 Connector 인스턴스를 생성한 경우 AWS 액세스 키와 암호 키를 제공했습니다. 이 키 쌍을 사용하여 인스턴스에 SSH를 사용할 수 있습니다. EC2 Linux 인스턴스의 사용자 이름은 Ubuntu입니다(2023년 5월 이전에 생성된 커넥터의 경우 사용자 이름은 EC2-user입니다).</block>
   <block id="04e4cf5594e5bdae569d4fdcee8b46a6" category="list-text">Azure에서 Connector VM을 생성할 때 사용자 이름을 지정하고 암호 또는 SSH 공개 키로 인증하도록 선택했습니다. VM에 연결하도록 선택한 인증 방법을 사용합니다.</block>
   <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\https://netapp-cloud-account.auth0.com</block>
-  <block id="80a43f3cb5826b8218d88da517c1e84b" category="list-text">현재 BlueXP 기능 및 서비스와 같은 BlueXP 기능 및 서비스에 대한 알림이 이메일로 전송됩니다. 커넥터, BlueXP 디지털 전자지갑크기, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 계층화, BlueXP 마이그레이션 보고서, BlueXP 랜섬웨어 보호. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
   <block id="8ddd07f4c199accad92d619cc396eaef" category="video-title">AWS 마켓플레이스에서 BlueXP를 구독하십시오</block>
   <block id="040832c90148c5bba767901a4a55ebe4" category="video-title">Azure 마켓플레이스에서 BlueXP를 구독하십시오</block>
   <block id="c6e17aa071476599f5e5fc5b8bc42431" category="video-title">Google Cloud 마켓플레이스에서 BlueXP를 구독하십시오</block>
@@ -3778,4 +3772,8 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
 
 Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1be4ab82a1194533aac59" category="inline-link-rx"></block>,<block ref="6f5217ea8a3f93cd9532863eb844647b" category="inline-link-rx"></block>, 또는<block ref="360910fe60b5d1cf9b7056b9b6f46685" category="inline-link-rx"></block></block>
   <block id="fcbe8b204f3332d68f1b0f5f05c998db" category="cell">인터넷에 액세스할 수 없으므로 자동화된 소프트웨어 업그레이드 및 AutoSupport 기능을 사용할 수 없습니다.</block>
+  <block id="8bb35bd6add2b83baee34c828e6acacf" category="cell">API에서는 Azure, ONTAP, BlueXP 분류 및 AutoSupport 메시지를 NetApp에 전송합니다</block>
+  <block id="d80bf17e105d87b4295cb2e090a28117" category="list-text">현재 BlueXP 기능 및 서비스와 같은 BlueXP 기능 및 서비스에 대한 알림은 커넥터, BlueXP 디지털 지갑, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 계층화, BlueXP 마이그레이션 보고서에 대한 이메일로 전송됩니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
+  <block id="2cc0b2404e9976abc7bb1156519a654c" category="cell">API에서는 AWS, ONTAP, BlueXP 분류 및 AutoSupport 메시지를 NetApp에 전송하는 데 호출됩니다</block>
+  <block id="5f16447aef2a6c01e852292f98e5a67d" category="cell">API에서는 Google Cloud, ONTAP, BlueXP 분류 및 AutoSupport 메시지를 NetApp에 전송합니다</block>
 </blocks>

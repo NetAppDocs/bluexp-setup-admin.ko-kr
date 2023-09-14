@@ -110,7 +110,7 @@ image:screenshot_notification_dismiss1.png["단일 알림을 닫는 방법을 �
 
 [NOTE]
 ====
-* 현재 BlueXP 기능 및 서비스와 같은 BlueXP 기능 및 서비스에 대한 알림이 이메일로 전송됩니다. 커넥터, BlueXP 디지털 전자지갑크기, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 계층화, BlueXP 마이그레이션 보고서, BlueXP 랜섬웨어 보호. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.
+* 현재 BlueXP 기능 및 서비스와 같은 BlueXP 기능 및 서비스에 대한 알림은 커넥터, BlueXP 디지털 지갑, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 계층화, BlueXP 마이그레이션 보고서에 대한 이메일로 전송됩니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.
 * Connector가 인터넷에 연결되지 않은 사이트에 설치되어 있으면 이메일 알림 전송이 지원되지 않습니다.
 
 
