@@ -2372,7 +2372,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="61bc7bf1f88516437cb71c2afcff94f5" category="paragraph">연결을 만든 BlueXP 관리자는 연결을 업데이트할 수 있는 권한이 있는 유일한 사용자입니다. 관리자를 추가하려면 NetApp Support에 문의하십시오.</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">NetApp 기술 지원 팀과 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
-  <block id="0c7db2bd63c891adb2c0fa4527805d72" category="paragraph">BlueXP 계정 및 개별 Cloud Volumes ONTAP 시스템에 대한 지원 등록이 필요합니다.</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXP 계정 ID 지원 가입 등록(BlueXP의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
@@ -2380,8 +2379,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 BlueXP에서 생성됩니다.</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">두 가지 유형의 일련 번호를 등록하면 지원 티켓 열기와 자동 케이스 생성 등의 기능을 사용할 수 있습니다. 아래 설명과 같이 BlueXP에 NetApp Support 사이트(NSS) 계정을 추가하여 등록을 완료합니다.</block>
-  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">클라우드 공급자 솔루션 지원</block>
-  <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">다음 클라우드 제공업체 솔루션에 대한 기술 지원은 해당 제품에 대한 BlueXP 설명서의 "도움말 얻기"를 참조하십시오.</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
   <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
@@ -3217,7 +3214,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="cell">지속 가능성</block>
   <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023년 7월 2일</block>
   <block id="78ee56d07ea6442fbe0c88b1ea3be7ad" category="section-title">커넥터 3.9.31</block>
@@ -3777,4 +3773,9 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="4aed728875c28373d48d9ac6dc115722" category="paragraph">루트 볼륨에서 Amazon EBS 암호화를 활성화하려면 * 고급 *, * 볼륨 1 * 을 차례로 선택하고 * 암호화 * 를 선택한 다음 KMS 키를 선택합니다.</block>
   <block id="cf5973f42a5c4e31665e41b2ec75f8a0" category="list-text">Set up New BlueXP Connector * 를 선택하고 프롬프트에 따라 시스템을 설정합니다.</block>
   <block id="1759129089da3c0c000cb4c2196a2fd0" category="list-text">* 관리 사용자 생성 *: 시스템의 관리자 사용자를 생성합니다.</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스와 관련된 기술 지원을 받으려면 지원을 등록해야 합니다. Cloud Volumes ONTAP 시스템의 주요 워크플로우를 사용하려면 지원 등록도 필요합니다.</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">지원을 등록한다고 해서 클라우드 공급자 파일 서비스에 대한 NetApp 지원이 활성화되지 않습니다. 클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
 </blocks>
