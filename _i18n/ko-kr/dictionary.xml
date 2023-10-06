@@ -3778,4 +3778,7 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
+  <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023년 10월 6일</block>
+  <block id="ce408175c3b7eaf6c3dfc910f3547833" category="section-title">커넥터 3.9.34</block>
+  <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">이 릴리스에는 사소한 개선 사항 및 버그 픽스가 포함되어 있습니다.</block>
 </blocks>
