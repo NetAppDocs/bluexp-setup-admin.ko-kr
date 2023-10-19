@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-overview.html 
 keywords: overview, concepts, features, use case, cloud manager, bluexp, how bluexp works, supported cloud providers, cloud providers, hyperscalers 
-summary: NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터를 구축, 보호, 관리할 수 있는 단일 제어 계층을 제공합니다. BlueXP SaaS 플랫폼에는 스토리지 관리, 데이터 이동성, 데이터 보호, 데이터 분석 및 제어 기능을 제공하는 스토리지 및 데이터 서비스가 포함되어 있습니다. 관리 기능은 웹 기반 콘솔 및 API를 통해 제공됩니다. 
+summary: NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터를 구축, 보호, 관리할 수 있는 단일 제어 계층을 제공합니다. BlueXP SaaS 플랫폼에는 스토리지 관리, 데이터 이동성, 데이터 보호, 데이터 분석 및 제어 기능을 제공하는 서비스가 포함됩니다. 관리 기능은 웹 기반 콘솔 및 API를 통해 제공됩니다. 
 ---
 = BlueXP에 대해 자세히 알아보십시오
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터�
 
 
 [role="lead"]
-NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터를 구축, 보호, 관리할 수 있는 단일 제어 계층을 제공합니다. BlueXP SaaS 플랫폼에는 스토리지 관리, 데이터 이동성, 데이터 보호, 데이터 분석 및 제어 기능을 제공하는 스토리지 및 데이터 서비스가 포함되어 있습니다. 관리 기능은 웹 기반 콘솔 및 API를 통해 제공됩니다.
+NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터를 구축, 보호, 관리할 수 있는 단일 제어 계층을 제공합니다. BlueXP SaaS 플랫폼에는 스토리지 관리, 데이터 이동성, 데이터 보호, 데이터 분석 및 제어 기능을 제공하는 서비스가 포함됩니다. 관리 기능은 웹 기반 콘솔 및 API를 통해 제공됩니다.
 
 
 
@@ -40,7 +40,6 @@ BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네
 ** StorageGRID 시스템
 
 
-* 데이터 오케스트레이션 및 보호 https://bluexp.netapp.com/solutions/kubernetes["Kubernetes 영구 데이터"^]
 
 
 --
@@ -58,10 +57,11 @@ BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네
 --
 * https://bluexp.netapp.com/cloud-backup["백업 및 복구"^]
 * https://bluexp.netapp.com/replication["복제"^]
+* https://bluexp.netapp.com/solutions/kubernetes["Kubernetes 워크로드의 데이터 보호"^]
 
 
 --
-분석 및 제어:: 툴을 사용하여 데이터 스토리지 및 인프라를 모니터링, 매핑 및 최적화할 수 있습니다.
+분석 및 제어:: 툴을 사용하여 데이터 스토리지 및 인프라를 모니터링, 매핑 및 최적화할 수 있습니다. 실행 가능한 인텔리전스를 확보하여 스토리지 상태, 복원력 및 경제성을 최적화합니다.
 +
 --
 * https://bluexp.netapp.com/netapp-cloud-data-sense["분류"^]

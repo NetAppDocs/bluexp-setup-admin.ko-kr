@@ -81,6 +81,8 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 
 ^1^ 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.
 
+BlueXP가 제한된 모드 또는 프라이빗 모드로 사용하려면 커넥터가 필요합니다.
+
 
 
 == 커넥터는 항상 작동해야 합니다
@@ -130,9 +132,9 @@ link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"].
 BlueXP 계정 관리자는 BlueXP, 클라우드 공급자의 마켓플레이스에서 직접 커넥터를 만들거나, 자체 Linux 호스트에 소프트웨어를 수동으로 설치할 수 있습니다. 표준 모드, 제한 모드 또는 비공개 모드에서 BlueXP를 사용하고 있는지 여부에 따라 시작 방법이 달라집니다.
 
 * link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"]
-* link:task-quick-start-standard-mode.html["표준 모드에서 BlueXP를 빠르게 시작합니다"]
-* link:task-quick-start-restricted-mode.html["제한된 모드에서 BlueXP를 빠르게 시작합니다"]
-* link:task-quick-start-private-mode.html["비공개 모드에서 BlueXP를 빠르게 시작합니다"]
+* link:task-quick-start-standard-mode.html["표준 모드에서 BlueXP를 시작하십시오"]
+* link:task-quick-start-restricted-mode.html["제한된 모드에서 BlueXP를 시작하십시오"]
+* link:task-quick-start-private-mode.html["프라이빗 모드에서 BlueXP를 시작하십시오"]
 
 
 
@@ -157,7 +159,7 @@ BlueXP에서 직접 Connector를 만들려면 특정 권한이 필요하며 Conn
 * link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
-Connector에 필요한 정확한 권한을 보려면 다음 페이지를 참조하십시오.
+Connector에 일상적인 작업에 필요한 정확한 사용 권한을 보려면 다음 페이지를 참조하십시오.
 
 * link:reference-permissions-aws.html["Connector에서 AWS 권한을 사용하는 방법에 대해 알아보십시오"]
 * link:reference-permissions-azure.html["Connector에서 Azure 권한을 사용하는 방법에 대해 알아봅니다"]
