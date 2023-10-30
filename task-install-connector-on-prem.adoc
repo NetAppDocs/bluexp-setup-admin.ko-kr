@@ -456,7 +456,7 @@ chmod +x OnCommandCloudManager-<version>
  ./OnCommandCloudManager-<version> --proxy <HTTP or HTTPS proxy server> --cacert <path and file name of a CA-signed certificate>
 ----
 +
-proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가 있는 경우 표시된 대로 매개 변수를 입력해야 합니다. 설치 프로그램에서 프록시에 대한 정보를 제공하라는 메시지를 표시하지 않습니다.
+proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가 있는 경우 그림과 같이 매개 변수를 입력해야 합니다. 설치 프로그램에서 프록시에 대한 정보를 제공하라는 메시지를 표시하지 않습니다.
 
 +
 다음은 두 가지 선택적 매개 변수를 사용하는 명령의 예입니다.
@@ -464,18 +464,26 @@ proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가
 +
 [source, cli]
 ----
- ./OnCommandCloudManager-V3.9.26 --proxy https://user:password@10.0.0.30:8080/ --cacert /tmp/cacert/certificate.cer
+ ./OnCommandCloudManager-V3.9.32 --proxy https://user:password@10.0.0.30:8080/ --cacert /tmp/cacert/certificate.cer
 ----
 +
 -- 프록시는 다음 형식 중 하나를 사용하여 커넥터가 HTTP 또는 HTTPS 프록시 서버를 사용하도록 구성합니다.
 
 +
 ** \http://address:port
-** \http://username:password@address:port
+** \http://user-name:password@address:port
+** \http://domain-name%92user-name:password@address:port
 ** \https://address:port
-** \https://username:password@address:port
+** \https://user-name:password@address:port
+** \https://domain-name%92user-name:password@address:port
 +
-사용자는 로컬 사용자여야 합니다. 도메인 사용자는 지원되지 않습니다.
+다음 사항에 유의하십시오.
+
++
+*** 사용자는 로컬 사용자 또는 도메인 사용자일 수 있습니다.
+*** 도메인 사용자의 경우 위에 표시된 \ 에 ASCII 코드를 사용해야 합니다.
+*** BlueXP는 @ 문자를 포함하는 암호를 지원하지 않습니다.
+
 
 
 
