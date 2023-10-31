@@ -445,7 +445,7 @@ unset https_proxy
 +
 [source, cli]
 ----
-chmod +x OnCommandCloudManager-<version>
+chmod +x Cloud-Manager-Connector-Cloud-<version>
 ----
 +
 여기서 <version>는 다운로드한 커넥터 버전입니다.
@@ -454,7 +454,7 @@ chmod +x OnCommandCloudManager-<version>
 +
 [source, cli]
 ----
- ./OnCommandCloudManager-<version> --proxy <HTTP or HTTPS proxy server> --cacert <path and file name of a CA-signed certificate>
+ ./Cloud-Manager-Connector-Cloud-<version> --proxy <HTTP or HTTPS proxy server> --cacert <path and file name of a CA-signed certificate>
 ----
 +
 proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가 있는 경우 그림과 같이 매개 변수를 입력해야 합니다. 설치 프로그램에서 프록시에 대한 정보를 제공하라는 메시지를 표시하지 않습니다.
@@ -465,7 +465,7 @@ proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가
 +
 [source, cli]
 ----
- ./OnCommandCloudManager-V3.9.32 --proxy https://user:password@10.0.0.30:8080/ --cacert /tmp/cacert/certificate.cer
+ ./Cloud-Manager-Connector-Cloud-V3.9.32 --proxy https://user:password@10.0.0.30:8080/ --cacert /tmp/cacert/certificate.cer
 ----
 +
 -- 프록시는 다음 형식 중 하나를 사용하여 커넥터가 HTTP 또는 HTTPS 프록시 서버를 사용하도록 구성합니다.
