@@ -143,7 +143,8 @@ Google Cloud에서 리소스를 관리합니다.
 
 
  a| 
-\https://support.netapp.com
+https://support.netapp.com 으로 문의하십시오
+https://mysupport.netapp.com 으로 문의하십시오
  a| 
 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다.
 
