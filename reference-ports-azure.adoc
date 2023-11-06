@@ -4,7 +4,7 @@ permalink: reference-ports-azure.html
 keywords: ports, security group, http, https, inbound, outbound 
 summary: Connector의 Azure 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다. 
 ---
-= Azure의 보안 그룹 규칙
+= Azure의 커넥터 보안 그룹 규칙
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

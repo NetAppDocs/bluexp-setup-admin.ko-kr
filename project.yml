@@ -17,13 +17,13 @@ sidebar:
     entries:
     - title: 새로운 소식
       url: "/whats-new.html"
-    - title: 제한 사항
+    - title: 알려진 제한 사항
       url: "/reference-limitations.html"
   - title: 시작하십시오
     entries:
     - title: 기본 사항 학습
       entries:
-      - title: BlueXP 개요
+      - title: BlueXP
         url: "/concept-overview.html"
       - title: 계정
         url: "/concept-netapp-accounts.html"
@@ -43,31 +43,31 @@ sidebar:
         entries:
         - title: 설치하고
           entries:
-          - title: 설치 옵션
+          - title: 커넥터 설치 옵션
             url: "/concept-install-options-aws.html"
-          - title: BlueXP에서 생성합니다
+          - title: BlueXP에서 커넥터를 만듭니다
             url: "/task-install-connector-aws-bluexp.html"
-          - title: 마켓플레이스에서 생성
+          - title: 마켓플레이스에서 커넥터를 생성합니다
             url: "/task-install-connector-aws-marketplace.html"
-          - title: 수동으로 설치합니다
+          - title: 커넥터를 수동으로 설치합니다
             url: "/task-install-connector-aws-manual.html"
         - title: Azure를 지원합니다
           entries:
-          - title: 설치 옵션
+          - title: 커넥터 설치 옵션
             url: "/concept-install-options-azure.html"
-          - title: BlueXP에서 생성합니다
+          - title: BlueXP에서 커넥터를 만듭니다
             url: "/task-install-connector-azure-bluexp.html"
-          - title: 마켓플레이스에서 생성
+          - title: 마켓플레이스에서 커넥터를 생성합니다
             url: "/task-install-connector-azure-marketplace.html"
-          - title: 수동으로 설치합니다
+          - title: 커넥터를 수동으로 설치합니다
             url: "/task-install-connector-azure-manual.html"
         - title: Google 클라우드
           entries:
-          - title: 설치 옵션
+          - title: 커넥터 설치 옵션
             url: "/concept-install-options-google.html"
-          - title: BlueXP에서 생성하거나 gcloud를 사용하여 생성합니다
+          - title: BlueXP 또는 gcloud에서 Connector를 생성합니다
             url: "/task-install-connector-google-bluexp-gcloud.html"
-          - title: 수동으로 설치합니다
+          - title: 커넥터를 수동으로 설치합니다
             url: "/task-install-connector-google-manual.html"
         - title: 온프레미스
           url: "/task-install-connector-on-prem.html"
@@ -105,11 +105,11 @@ sidebar:
       url: "/concept-federation.html"
     - title: BlueXP 계정
       entries:
-      - title: 계정을 관리합니다
+      - title: BlueXP 계정을 관리합니다
         url: "/task-managing-netapp-accounts.html"
       - title: 계정의 작업을 모니터링합니다
         url: "/task-monitor-cm-operations.html"
-      - title: 다른 계정을 만듭니다
+      - title: 다른 BlueXP 계정을 만듭니다
         url: "/task-create-account.html"
       - title: 사용자 역할
         url: "/reference-user-roles.html"
@@ -119,29 +119,29 @@ sidebar:
         url: "/task-finding-system-id.html"
       - title: 기존 커넥터 관리
         url: "/task-managing-connectors.html"
-      - title: HTTPS 인증서를 설치합니다
+      - title: 보안 액세스를 위해 HTTPS 인증서를 설치합니다
         url: "/task-installing-https-cert.html"
-      - title: 프록시 설정을 구성합니다
+      - title: 프록시 서버를 사용하도록 Connector를 구성합니다
         url: "/task-configuring-proxy.html"
-      - title: 기본 구성
+      - title: Connector의 기본 설정
         url: "/reference-connector-default-config.html"
-    - title: 자격 증명
+    - title: 자격 증명 및 구독
       entries:
-      - title: AWS 자격 증명 관리
+      - title: 설치하고
         entries:
-        - title: 개요
+        - title: 자격 증명 및 사용 권한에 대해 알아봅니다
           url: "/concept-accounts-aws.html"
         - title: 자격 증명 및 구독을 관리합니다
           url: "/task-adding-aws-accounts.html"
-      - title: Azure 자격 증명을 관리합니다
+      - title: Azure를 지원합니다
         entries:
-        - title: 개요
+        - title: 자격 증명 및 사용 권한에 대해 알아봅니다
           url: "/concept-accounts-azure.html"
         - title: 자격 증명 및 구독을 관리합니다
           url: "/task-adding-azure-accounts.html"
-      - title: Google Cloud 자격 증명을 관리합니다
+      - title: Google 클라우드
         entries:
-        - title: 개요
+        - title: 프로젝트 및 사용 권한에 대해 알아봅니다
           url: "/concept-accounts-gcp.html"
         - title: 자격 증명 및 구독을 관리합니다
           url: "/task-adding-gcp-accounts.html"
@@ -171,11 +171,11 @@ sidebar:
         url: "/reference-permissions-gcp.html"
     - title: 포트
       entries:
-      - title: AWS의 보안 그룹 규칙
+      - title: AWS의 커넥터 보안 그룹 규칙
         url: "/reference-ports-aws.html"
-      - title: Azure의 보안 그룹 규칙
+      - title: Azure의 커넥터 보안 그룹 규칙
         url: "/reference-ports-azure.html"
-      - title: Google Cloud의 방화벽 규칙
+      - title: Google Cloud의 커넥터 방화벽 규칙
         url: "/reference-ports-gcp.html"
       - title: 사내 커넥터용 포트
         url: "/reference-ports-on-prem.html"

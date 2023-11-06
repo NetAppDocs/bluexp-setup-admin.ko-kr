@@ -37,13 +37,7 @@
   <block id="5e15e451ab1dcb5e3bfae55f8b58e524" category="list-text">* 자격 증명 위치 *: * Amazon Web Services &gt; Connector * 를 선택합니다.</block>
   <block id="8117407a9689d4f991904d5739091c47" category="list-text">* 자격 증명 정의 *: AWS 액세스 키와 비밀 키를 입력합니다.</block>
   <block id="dc6e318a413899b5467eabc5f69ad366" category="list-text">* Marketplace 구독 *: 지금 가입하거나 기존 구독을 선택하여 마켓플레이스 구독을 이러한 자격 증명과 연결합니다.</block>
-  <block id="3747d8dfb456f8cefbe5ea8eed8a4289" category="summary">Azure에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Azure 구독에 있는 Azure 저장소 계정에 대한 정보를 자동으로 검색할 수 있습니다. Azure Blob 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.</block>
   <block id="70c85793f0a33ef534a67f193287a992" category="doc">Azure Blob 계정을 관리합니다</block>
-  <block id="2ed919302195764ff313fc8d75b59525" category="inline-image-macro">Azure Blob 작업 환경의 스크린샷</block>
-  <block id="33b5e081bfc2a4ff553d44178d68dda0" category="paragraph"><block ref="33b5e081bfc2a4ff553d44178d68dda0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="df329246877a4bd1e46b66f9dd6845df" category="paragraph">위치, 리소스 그룹, 총 용량 및 사용된 용량 등 Azure 저장소 계정에 대한 세부 정보를 볼 수 있습니다. 이러한 계정은 BlueXP 백업 및 복구, BlueXP 계층화 또는 BlueXP 복사 및 동기화 작업의 대상으로 사용할 수 있습니다.</block>
-  <block id="bbea79834217efc10b46f4ce874042e0" category="inline-link">BlueXP를 사용하여 Azure 저장소 계정을 확인, 생성 및 관리하는 방법을 보려면 여기 를 방문하십시오</block>
-  <block id="925b4bfac5efe2fd0e529d00b71f77ab" category="paragraph">이제 새로 추가된 기능을 사용하여 Azure 저장소 계정을 만들고 편집할 수 있습니다.<block ref="3ed7f712e1a5045237f8df14106ff39a" category="inline-link-rx"></block>.</block>
   <block id="f9a2f8eef1df12108fd0c6b9b6b7fe6a" category="doc">Google Cloud의 커넥터 설치 옵션</block>
   <block id="b5afc81c4f24b143224e304b939a3f6c" category="paragraph">다음 설치 옵션을 사용할 수 있습니다.</block>
   <block id="b584cbf8cb993e5b450384402639e3c4" category="paragraph">이 작업을 수행하면 선택한 VPC에서 Linux 및 Connector 소프트웨어를 실행하는 VM 인스턴스가 시작됩니다.</block>
@@ -394,7 +388,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e7456e97941e04b31434ba6dcce10d88" category="list-text">cloudkms.keyRings.setIamPolicy</block>
   <block id="7c68c9240932ba8b284de266f9564faa" category="paragraph">이러한 권한은 BlueXP 백업 및 복구에 필요합니다.</block>
   <block id="1c498f9a6415c0ecd5728481eea5743b" category="summary">BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.</block>
-  <block id="0384f4ba39f6a15ffd9b42bfb03b8d83" category="doc">Google Cloud 프로젝트, 권한 및 계정</block>
   <block id="a8f8f08c9d91eeaecc31377113ddd27b" category="section-title">BlueXP의 프로젝트 및 권한</block>
   <block id="627c5def4348066ddd5e7a1664e1079b" category="paragraph">BlueXP를 사용하여 Google Cloud 프로젝트의 리소스를 관리하려면 먼저 Connector를 배포해야 합니다. Connector는 사내 또는 다른 클라우드 공급자에서 실행할 수 없습니다.</block>
   <block id="356334a26d74c400a5e0a69f237ba73e" category="paragraph">BlueXP에서 직접 커넥터를 배포하기 전에 두 가지 권한 세트가 있어야 합니다.</block>
@@ -1019,7 +1012,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="984ca77a9a51746d3dd5a855a71d3493" category="inline-link">차폐된 VM 기능</block>
   <block id="5e59673ea4dc0650f587413c4848c02c" category="paragraph">Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서 지원됩니다<block ref="bd10301ee2e8f0cb38112a71d2b6920c" category="inline-link-rx"></block></block>
   <block id="c01f728e9ef3359c6e9b452f47a9ca09" category="summary">BlueXP에서 Azure 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아봅니다. 이러한 세부 정보를 이해하면 하나 이상의 Azure 구독에 대한 자격 증명을 관리하는 데 도움이 됩니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
-  <block id="1ab5193f89cf79df51fd4138318923ac" category="doc">Azure 자격 증명 및 권한</block>
   <block id="08a6159f6d9d986210470d2ab6dff166" category="section-title">초기 Azure 자격 증명</block>
   <block id="25b6fc1a8ebb7aa3a82a611b3dc7cc8d" category="inline-link-macro">Azure용 커넥터 배포 정책</block>
   <block id="9cbe008fc71c240a16ab125b2873fe44" category="inline-link-macro">BlueXP에서 사용 권한을 사용하는 방법을 검토합니다</block>
@@ -1097,7 +1089,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="7c04a15d03a827f3e932f6ea885fb875" category="list-text"><block ref="7c04a15d03a827f3e932f6ea885fb875" category="inline-link-rx"></block></block>
   <block id="59c8a7b2e005ee251a6301c0ca1f23b3" category="list-text">커넥터를 설치한 후 BlueXP에 추가할 수 있는 액세스 키가 사용자에게 있는지 확인합니다.</block>
   <block id="9370643895ad52c4da3ddf50c1e24a82" category="summary">계정 관리자, 작업 영역 관리자, 규정 준수 뷰어 및 SnapCenter 관리자 역할은 사용자에게 특정 권한을 제공합니다. 새 사용자를 BlueXP 계정에 연결할 때 이러한 역할 중 하나를 할당할 수 있습니다.</block>
-  <block id="a5cd3ed116608dac017f14c046ea56bf" category="doc">역할</block>
   <block id="706c30f817a6d965f23bc2798759eb15" category="paragraph">Compliance Viewer 역할은 읽기 전용 BlueXP 분류 액세스를 위한 것입니다.</block>
   <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">작업</block>
   <block id="023bddc1580239bc605771883a09c8ff" category="cell">계정 관리자</block>
@@ -1198,12 +1189,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="41adb69bcb6f24f8432b590170f61d23" category="list-text">로그인한 후 BlueXP를 설정합니다.</block>
   <block id="c0112364e46bcec7ed4460a6be7ead53" category="paragraph">이 단계에서는 표준 모드에서 BlueXP를 사용하는 방법을 설명하므로 제한된 모드를 사용하지 않도록 설정해야 합니다. (또한 Connector가 구내에 설치된 경우에는 제한된 모드가 지원되지 않습니다.)</block>
   <block id="dcdd03125bee39fb6c8e9aa5e0bfcc7f" category="paragraph">BlueXP는 이제 방금 설치한 커넥터를 사용하여 설정됩니다.</block>
-  <block id="773752fa8722d25b5cb88d771e3c6459" category="summary">Google Cloud에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Google 계정에 있는 Google Cloud 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Google Cloud Storage 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.</block>
-  <block id="82f74539a8232efa9fe9d44fbb820377" category="doc">Google Cloud Storage 버킷을 확인하십시오</block>
-  <block id="e952b1c060b2dc1be5663131351e06a5" category="paragraph">Google Cloud에 Connector를 설치한 후 BlueXP는 Connector가 설치된 Google 계정에 있는 Google Cloud Storage 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Google Cloud Storage 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.</block>
-  <block id="4a5a2cb37f05953f58468c7fed5af846" category="paragraph">위치, 액세스 상태, 스토리지 클래스, 총 용량 및 사용된 용량 등 Google Cloud Storage 버킷에 대한 자세한 정보를 볼 수 있습니다. 이러한 버킷은 BlueXP 백업 및 복구, BlueXP 계층화 또는 BlueXP 복사 및 동기화 작업의 대상으로 사용할 수 있습니다.</block>
-  <block id="21b1bc909131728ad1b5d3d05c538f6b" category="inline-image-macro">Google Cloud Storage 작업 환경의 스크린샷</block>
-  <block id="94bd1056e53b5ba66af1269a83d9d853" category="paragraph"><block ref="94bd1056e53b5ba66af1269a83d9d853" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c7c7fe81ff2afbb7f657e592f9871125" category="summary">제한된 모드에서 BlueXP를 시작하고 실행한 후 제한된 모드로 지원되는 BlueXP 서비스를 사용할 수 있습니다.</block>
   <block id="d279ef9d3fa427882e45e653bc7b1949" category="doc">다음에 수행할 수 있는 작업(제한된 모드)</block>
   <block id="9ed3d93e6149b9255047c4f345ace3ed" category="paragraph">자세한 내용은 다음 서비스 설명서를 참조하십시오.</block>
@@ -1461,7 +1446,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="b2cc56e18c7250863c6c74a223137e16" category="summary">BlueXP SaaS 계층에 대한 아웃바운드 연결 없이 BlueXP를 사용할 수 있도록 커넥터를 비공개 모드로 배포합니다. 시작하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 이전에 설정한 클라우드 권한을 제공합니다.</block>
   <block id="2f549fb867eb9c0be636782d32264aa6" category="doc">커넥터를 비공개 모드로 배포합니다</block>
   <block id="377655366b79df746cc3d0c01596ba86" category="paragraph">NetApp Support 사이트에서 제품 설치 프로그램을 다운로드한 다음 자체 Linux 호스트에 커넥터를 수동으로 설치합니다.</block>
-  <block id="ffe7522d9ea3d134eb0a945275d454d7" category="paragraph-title">필요한 권한</block>
   <block id="7bc3966adb932d8b546fbfa4ef7113d7" category="paragraph">커넥터를 설치하려면 루트 권한이 필요합니다.</block>
   <block id="2ba7eb945a77498b8342e4be53a3761e" category="list-text">에서 Connector 소프트웨어를 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block></block>
   <block id="21ecc51e06ea55adef72442730b0d5cf" category="paragraph">인터넷 액세스 없이 제한된 네트워크에 대한 설치 프로그램을 다운로드해야 합니다.</block>
@@ -1497,7 +1481,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="3612e0e7a44ec38da1e226c618526f91" category="open-title">Google Cloud 서비스 계정</block>
   <block id="4b6fbf3b382ce342b57bbdb4fe0d6baf" category="paragraph">서비스 계정을 Connector VM에 연결합니다.</block>
   <block id="ea5bc95c9558a374461d71a1d2f029ca" category="summary">BlueXP에서 AWS 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법을 알아보십시오. BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 때 이러한 세부 정보를 이해하는 것이 도움이 될 수 있습니다. 예를 들어, BlueXP에 AWS 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
-  <block id="97911b3c54a4e826b34c1f79026316c5" category="doc">AWS 자격 증명 및 권한</block>
   <block id="9ef43b020d41cab5808d78fdf855c429" category="section-title">초기 AWS 자격 증명</block>
   <block id="09c2333ff15fa85698d91a366cce26dd" category="inline-link-macro">AWS의 커넥터 구축 정책</block>
   <block id="858c852a1a4696d4e56295d4b4b0ea20" category="paragraph">BlueXP가 AWS에서 Connector 인스턴스를 시작하면 IAM 역할과 해당 인스턴스에 대한 인스턴스 프로필이 생성됩니다. 또한 Connector에 해당 AWS 계정 내의 리소스 및 프로세스를 관리할 수 있는 권한을 제공하는 정책을 첨부합니다. <block ref="9d2ef148313eb953f656b8efd4016e8c" category="inline-link-macro-rx"></block>.</block>
@@ -1544,7 +1527,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="13f3cf8c531952d72e5847c4183e6910" category="cell">443</block>
   <block id="2f0c197eb73a7c6da10b03384f241025" category="cell">클라이언트 웹 브라우저에서 로컬 사용자 인터페이스로 HTTPS 액세스를 제공합니다</block>
   <block id="771e18f961335c5b2ae045b3fefc3e80" category="summary">Connector의 AWS 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다.</block>
-  <block id="60f0453bf0393ab630be6aa37dc20180" category="doc">AWS의 보안 그룹 규칙</block>
   <block id="1b3884b38c271fe13c8142e1355e4523" category="section-title">인바운드 규칙</block>
   <block id="765553e6c7ac8592c389acb9878a050a" category="cell">SSH를 클릭합니다</block>
   <block id="b6d767d2f8ed5d21a44b0e5886680cb9" category="cell">22</block>
@@ -2081,7 +2063,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="c1c864c3ccb60090d311d4a9c4abf990" category="section-title">비공개 모드를 사용할 경우 커넥터를 업그레이드합니다</block>
   <block id="bdfe8a8b0f5b6a0b4242be2e550dff4a" category="paragraph">비공개 모드에서 BlueXP를 사용하는 경우 NetApp Support 사이트에서 최신 버전을 사용할 수 있는 경우 커넥터를 업그레이드할 수 있습니다.</block>
   <block id="84692ef80d23d7ba11b5ce40223e1af5" category="paragraph">업그레이드 프로세스 중에 Connector를 다시 시작해야 업그레이드 중에 웹 기반 콘솔을 사용할 수 없게 됩니다.</block>
-  <block id="3d41aa2f47aa25529d8df924099f90c8" category="admonition">인터넷에 액세스할 수 있는 호스트에서 Connector는 소프트웨어 업데이트를 얻기 위해 아웃바운드 인터넷 액세스가 가능한 한 소프트웨어를 최신 버전으로 자동 업데이트합니다.</block>
   <block id="d651da37c0942c2e8d61b167e835ec80" category="list-text">에서 Connector 소프트웨어를 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block>.</block>
   <block id="29796d02ce8782cd7e5fc7ab3be29617" category="list-text">업그레이드가 완료되면 * 도움말 &gt; 지원 &gt; 커넥터 * 로 이동하여 커넥터 버전을 확인할 수 있습니다.</block>
   <block id="5c6b09600cdfc594130f9f3c053efecb" category="section-title">커넥터의 IP 주소를 변경합니다</block>
@@ -2692,12 +2673,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="7132b07cc411f1ad7091b34cfe32d739" category="section-title">자격 증명을 삭제합니다</block>
   <block id="a16b0bbea9ed6a7a22d41efc21ec1cef" category="paragraph">더 이상 자격 증명 세트가 필요하지 않으면 BlueXP에서 삭제할 수 있습니다. 작업 환경과 연결되지 않은 자격 증명만 삭제할 수 있습니다.</block>
   <block id="79c33710e10337a79e50227860ebf59a" category="list-text">계정 자격 증명 * 페이지에서 자격 증명 세트의 작업 메뉴를 선택한 다음 * 자격 증명 삭제 * 를 선택합니다.</block>
-  <block id="efd9710de9c698fbbeb7b7b11597f70b" category="summary">AWS에 Connector를 설치한 후 BlueXP는 Connector가 설치된 AWS 계정에 있는 Amazon S3 버킷에 대한 정보를 자동으로 검색할 수 있습니다. Amazon S3 작업 환경이 Canvas에 추가되어 이 정보를 볼 수 있습니다.</block>
   <block id="a4f513306c1a0ead14679ffb7c282460" category="doc">Amazon S3 버킷을 관리합니다</block>
-  <block id="620734ddcf438083fa8f2f7a7550fbbf" category="inline-image-macro">Amazon S3 작업 환경의 스크린샷</block>
-  <block id="93850b8e1d97181700833dcae4c7e219" category="paragraph"><block ref="93850b8e1d97181700833dcae4c7e219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="54301079e01fc865e928c6fe22deeeef" category="paragraph">지역, 액세스 정책, 계정, 총 용량 및 사용된 용량 등을 비롯한 S3 버킷에 대한 세부 정보를 볼 수 있습니다. 이러한 버킷은 BlueXP 백업 및 복구, BlueXP 계층화 또는 BlueXP 복사 및 동기화 작업의 대상으로 사용할 수 있습니다. 또한 BlueXP 분류를 사용하여 이러한 버킷을 스캔할 수 있습니다.</block>
-  <block id="1f96aa045f6500e7c58cc5f50ea21ffd" category="inline-link">여기에서 BlueXP를 사용하여 S3 버킷을 확인, 생성 및 관리하는 방법을 확인하십시오</block>
   <block id="08533087d95fb07c92ed0773080a65d4" category="doc">Azure 네트워킹을 설정합니다</block>
   <block id="1387f52f9e1a700036780a5bf567fab3" category="section-title">VNET 및 서브넷</block>
   <block id="b26bf0de9fb68038a5f4e2e2a13c5811" category="paragraph">Connector를 생성할 때 Connector가 상주할 VNET와 서브넷을 지정해야 합니다.</block>
@@ -2811,7 +2787,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e3ab4c013397e346e8f211ff03ac44b2" category="list-text"><block ref="e3ab4c013397e346e8f211ff03ac44b2" category="inline-link-macro-rx"></block></block>
   <block id="538fc0c04ce8a0ef5cf78a12dbe8f68a" category="section-title">커넥터 업그레이드</block>
   <block id="c568c61bf8e9e5a305fc06655cdac862" category="paragraph">일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. BlueXP 플랫폼의 서비스 및 기능은 대부분 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
-  <block id="8c03e33a988ffb4175368e0784ca1ff5" category="paragraph">Connector는 아웃바운드 인터넷 액세스를 통해 소프트웨어 업데이트를 받는 경우 소프트웨어를 최신 버전으로 자동 업데이트합니다. 비공개 모드에서 BlueXP를 사용하는 경우 커넥터를 수동으로 업그레이드해야 합니다.</block>
   <block id="ed0b87049db36af81b1e2989ce889651" category="inline-link-macro">Connector 소프트웨어를 수동으로 업그레이드하는 방법에 대해 알아보십시오</block>
   <block id="c6793bcdb1eae6a26c6e9cb42e6b2f31" category="paragraph"><block ref="079398d71b1e343d69f7a6ed5f005eb2" category="inline-link-macro-rx"></block>.</block>
   <block id="2162bc1fbb13d2539c146b3472921eb5" category="paragraph"><block ref="7270aabdb0c26b6b937d76a49fcda623" category="inline-xref-macro-rx"></block>.</block>
@@ -3110,7 +3085,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="cell">알림</block>
   <block id="13348442cc6a27032d2b4aa28b75a5d3" category="cell">검색</block>
   <block id="285c4c5f9756d9707fc1afed457a8b43" category="summary">Connector의 Azure 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. BlueXP에서 커넥터를 만들면 이 보안 그룹이 자동으로 생성됩니다. 다른 모든 설치 옵션에 대해 이 보안 그룹을 설정해야 합니다.</block>
-  <block id="569fe31933e5918613ae1efa70e82d16" category="doc">Azure의 보안 그룹 규칙</block>
   <block id="60a24477cd4bc1d96c88b21629d8cd7c" category="summary">클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구매한 경우 해당 마켓플레이스 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
   <block id="7280e590fc25414ce879506ed16e2a62" category="doc">BlueXP 구독(표준 모드)</block>
   <block id="f4abcc0682712b312b347ed2a4b32165" category="paragraph">클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우에도 마켓플레이스 제품을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
@@ -3155,15 +3129,12 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="f53835e0f369158c476f99fda577e700" category="sidebar">설치 및 관리 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
-  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="sidebar">제한 사항</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="e4c53684ddd66ee4898db459d57514e8" category="sidebar">기본 사항 학습</block>
-  <block id="de2a909827c9bf0f62effae09a746963" category="sidebar">BlueXP 개요</block>
   <block id="9b945efebb006547a94415eadaa12921" category="sidebar">계정</block>
   <block id="7e99ea34b714387479c29a20b4a89752" category="sidebar">표준 모드로 시작하십시오</block>
   <block id="55553d1b65f45713caedcf9f0b1a6042" category="sidebar">BlueXP에 로그인합니다</block>
   <block id="94ee7072c2750da1997438a715efb7d4" category="sidebar">커넥터를 작성합니다</block>
-  <block id="ea206a7167c7e693d778525a7c87c869" category="sidebar">설치 옵션</block>
   <block id="4df40e141b0559f15db8f84f78aed013" category="sidebar">온프레미스</block>
   <block id="f559abff8763b27adc86fdb8b373f2c7" category="sidebar">BlueXP에 가입하십시오</block>
   <block id="d0a7edff5cd82c23f3d1c18e0779ccbc" category="sidebar">다음에 할 수 있는 일</block>
@@ -3174,11 +3145,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="a222de5f9a1db461954d4160797dfa76" category="sidebar">BlueXP 관리</block>
   <block id="eed7d7eea79968152bcb0157d198eeea" category="sidebar">ID 제휴</block>
   <block id="b02d6a4d5c11f6d94cd3e2e249d6dec1" category="sidebar">BlueXP 계정</block>
-  <block id="f20e69549fc23f9df431f9511f177e5e" category="sidebar">계정을 관리합니다</block>
-  <block id="cb7db6069dfbe23b6c36beb350a5ceaa" category="sidebar">다른 계정을 만듭니다</block>
   <block id="f4040f71a7d553f2519487070892b115" category="sidebar">사용자 역할</block>
-  <block id="ca82fdd9a480fcc34a6b470f5ec8e908" category="sidebar">프록시 설정을 구성합니다</block>
-  <block id="7c584a16cbf4210dc0a344179e274e09" category="sidebar">기본 구성</block>
   <block id="6dc6b060b761d145366b9ed041137917" category="sidebar">AWS 자격 증명 관리</block>
   <block id="8d855a86408ade086a4d47d808971acd" category="sidebar">자격 증명 및 구독을 관리합니다</block>
   <block id="c135c603177e58023474a65f829c0fd3" category="sidebar">Azure 자격 증명을 관리합니다</block>
@@ -3229,9 +3196,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="b0689737e83154357ff9ef36053bda4f" category="paragraph">기본적으로 알림 센터에는 모든 활성 알림이 표시됩니다. 표시되는 알림을 필터링하여 중요한 알림만 표시할 수 있습니다. BlueXP "서비스" 및 "유형" 알림별로 필터링할 수 있습니다.</block>
   <block id="2ad68125d72949aee5ac56974ac53849" category="paragraph">알림 센터에서 설정한 필터에 따라 전자 메일로 받을 알림 유형이 결정되지는 않습니다. 기본적으로 BlueXP 계정 관리자는 모든 "중요" 및 "권장 사항" 알림에 대한 이메일을 받게 됩니다. 이러한 알림은 모든 서비스에 걸쳐 제공됩니다. 커넥터 또는 BlueXP 백업 및 복구와 같은 특정 서비스에 대해서만 알림을 받도록 선택할 수는 없습니다.</block>
   <block id="7fcffcce675dad706dbf53d68f1f86f2" category="paragraph">다른 모든 사용자와 수신자는 알림 이메일을 수신하지 않도록 구성되어 있으므로 추가 사용자에 대한 알림 설정을 구성해야 합니다.</block>
-  <block id="00fba3f8242dff426927884c6521757a" category="paragraph">이제 새로 추가된 기능을 사용하여 S3 버킷을 생성하고 편집할 수 있습니다.<block ref="c4481f66e0558788424eb34d61e736ff" category="inline-link-rx"></block>.</block>
-  <block id="238db521ba5110fd4f7c460de28dd0c8" category="inline-link">BlueXP를 사용하여 클라우드 스토리지 버킷을 확인, 생성 및 관리하는 방법을 보려면 여기 를 방문하십시오</block>
-  <block id="8bc5e348bcf49d1543e86fd28ce45f86" category="paragraph">이제 새로 추가된 기능을 사용하여 Google Cloud Storage 버킷을 생성 및 편집할 수 있습니다.<block ref="640cf64376886268ca971c71c762f644" category="inline-link-rx"></block>.</block>
   <block id="19b587cc77ce4b8566975983ec907303" category="sidebar">Google Cloud Storage 버킷 관리</block>
   <block id="161fbe930f63fa83671b46be2b2b3d58" category="paragraph">다음과 같은 항목이 있어야 합니다.</block>
   <block id="7e0b6f72a006c5db4d352632364cae2a" category="paragraph">자세한 내용은 을 참조하십시오<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block></block>
@@ -3723,10 +3687,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="9cc4c3a223d9b6def6feaec3c11d5585" category="paragraph">AWS Marketplace에서 직접 Connector를 생성합니다.</block>
   <block id="0d8dcd0440293645b17304e6ec7f0b44" category="paragraph">AWS Marketplace에서 Connector를 생성하면 기본 구성을 사용하여 AWS에서 EC2 인스턴스를 배포합니다. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
   <block id="65ce4dce26160be29539699c6623e379" category="sidebar">워크플로를 시작합니다</block>
-  <block id="4cb8580dcb7bdd5753758d2029cf5760" category="sidebar">BlueXP에서 생성합니다</block>
-  <block id="490065fa675522d3a515cadb526d26f6" category="sidebar">마켓플레이스에서 생성</block>
-  <block id="655a3c90b399118b5d073277c90e6b0f" category="sidebar">수동으로 설치합니다</block>
-  <block id="054df94b323e23fce659cffe65ef10ef" category="sidebar">BlueXP에서 생성하거나 gcloud를 사용하여 생성합니다</block>
   <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023년 9월 10일</block>
   <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">커넥터 3.9.33</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
@@ -3791,4 +3751,28 @@ https://mysupport.netapp.com 으로 문의하십시오</block>
   <block id="e3f6d97d14c949f7b5db051894f11c57" category="paragraph">|
 https://support.netapp.com 으로 문의하십시오
 \https://mysupport.netapp.com|를 클릭하여 라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 부서에 보냅니다.</block>
+  <block id="825f8f6e963c62263362be1e363454da" category="paragraph">아래 나열된 끝점은 모두 CNAME 항목입니다.</block>
+  <block id="efd3103f59d6a221100ba6b86e61d13f" category="inline-link">BlueXP에서 S3 버킷을 관리하는 방법에 관해 알아보십시오</block>
+  <block id="0686a4b69c0857da5761e2372d45472a" category="paragraph">Connector를 생성한 동일한 AWS 계정에 Amazon S3 버킷이 있는 경우 BlueXP 캔버스에 Amazon S3 작업 환경이 자동으로 표시됩니다.<block ref="359ed6b0e0b11360def0521aafc36e93" category="inline-link-rx"></block></block>
+  <block id="00f6aa26fd2d156c4cb2ed8cdca2d096" category="inline-link">BlueXP에서 Azure Blob 스토리지를 관리하는 방법에 관해 알아보십시오</block>
+  <block id="4bb1f971cf168c4c2e4189001ae61261" category="paragraph">Connector를 생성한 동일한 Azure 구독에 Azure Blob 스토리지가 있는 경우 BlueXP 캔버스에 Azure Blob 스토리지 작업 환경이 자동으로 표시됩니다.<block ref="ecbdb206e5a4043c75ba8711318e9969" category="inline-link-rx"></block></block>
+  <block id="517b4864a21021001d9ffbea31801854" category="doc">AWS의 커넥터 보안 그룹 규칙</block>
+  <block id="1fd4a2295cad602ba9d73683db88e799" category="doc">Google Cloud 프로젝트 및 권한에 대해 자세히 알아보십시오</block>
+  <block id="2182d12983be8c797d228ee21c2b02b0" category="inline-link">BlueXP SaaS 콘솔</block>
+  <block id="17b675be82d235246bdf979500c94ab2" category="paragraph">Connector에는 커넥터 호스트에서 액세스할 수 있는 로컬 UI가 포함되어 있습니다. 이 UI는 제한된 모드 또는 프라이빗 모드에서 BlueXP를 사용하는 고객을 위해 제공됩니다. 표준 모드에서 BlueXP를 사용하는 경우 에서 사용자 인터페이스에 액세스해야 합니다<block ref="6548feb79c59958b036d822d57f02759" category="inline-link-rx"></block></block>
+  <block id="f04fb35532e1f63b23af3f141e062ccb" category="admonition">표준 모드 또는 제한된 모드에서 BlueXP를 사용할 경우, 소프트웨어 업데이트를 받을 수 있도록 아웃바운드 인터넷에 액세스할 수 있는 경우 Connector에서 소프트웨어를 자동으로 최신 버전으로 업데이트합니다.</block>
+  <block id="3268a52d584d54a973d1b4473e7ef96b" category="doc">Google Cloud의 커넥터 방화벽 규칙</block>
+  <block id="2a503072b9710cfa223e43ffc3e2205d" category="inline-link">BlueXP에서 Google Cloud 스토리지를 관리하는 방법에 관해 알아보십시오</block>
+  <block id="bd41cc82cd5b7d398db648a7e5e5c451" category="paragraph">Connector를 생성한 동일한 Google Cloud 계정에 Google Cloud Storage 버킷이 있는 경우 BlueXP 캔버스에 Google Cloud 스토리지 작업 환경이 자동으로 표시됩니다.<block ref="7f24473f521905a69e81b318fe43926f" category="inline-link-rx"></block></block>
+  <block id="ebbdb2eceb6d812854d7adfa9001d63f" category="paragraph">표준 모드 또는 제한된 모드에서 BlueXP를 사용할 경우, 소프트웨어 업데이트를 받을 수 있도록 아웃바운드 인터넷에 액세스할 수 있는 경우 Connector에서 소프트웨어를 자동으로 최신 버전으로 업데이트합니다. 비공개 모드에서 BlueXP를 사용하는 경우 커넥터를 수동으로 업그레이드해야 합니다.</block>
+  <block id="d53959ef476385f4ff37b13069a7450f" category="doc">Azure의 커넥터 보안 그룹 규칙</block>
+  <block id="af790df8534f0e00ebe9aac720a6201b" category="admonition">AWS, Microsoft Azure 또는 Google Cloud에 Connector를 설치한 경우 BlueXP는 Connector가 설치된 위치에서 Amazon S3 버킷, Azure Blob 스토리지 또는 Google Cloud 스토리지 버킷에 대한 정보를 자동으로 검색합니다. 작업 환경은 BlueXP 캔버스에 자동으로 추가됩니다.</block>
+  <block id="dd746cfc77428bc895dc95237f5de7a8" category="sidebar">커넥터 설치 옵션</block>
+  <block id="a42616d3c3ebba497b57aee237328d50" category="sidebar">BlueXP에서 커넥터를 만듭니다</block>
+  <block id="0f7c22f8ff1ddbe6e606a0a2925ab6b4" category="sidebar">마켓플레이스에서 커넥터를 생성합니다</block>
+  <block id="6abbc2938988f1a163c4450f171a3d41" category="sidebar">커넥터를 수동으로 설치합니다</block>
+  <block id="411ed7f7690ed51edcf19e7db36a24a5" category="sidebar">BlueXP 또는 gcloud에서 Connector를 생성합니다</block>
+  <block id="260bcd27c402b5ba9f5dcabbfc1e0ddd" category="sidebar">자격 증명 및 구독</block>
+  <block id="cbaee96b9499da2c5c6d3b23090382c6" category="sidebar">자격 증명 및 사용 권한에 대해 알아봅니다</block>
+  <block id="9d812302dfdd0fdbf4faa0fe53b9ed24" category="sidebar">프로젝트 및 사용 권한에 대해 알아봅니다</block>
 </blocks>

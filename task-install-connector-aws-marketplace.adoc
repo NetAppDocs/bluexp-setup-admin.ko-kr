@@ -37,6 +37,8 @@ VPC 및 서브넷:: Connector를 생성할 때 Connector가 상주할 VPC와 서
 커넥터에서 접촉된 끝점:: Connector는 일상적인 운영을 위해 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하려면 다음 엔드포인트에 연결하는 아웃바운드 인터넷 액세스가 필요합니다.
 +
 --
+아래 나열된 끝점은 모두 CNAME 항목입니다.
+
 [cols="2a,1a"]
 |===
 | 엔드포인트 | 목적 
@@ -241,3 +243,5 @@ https://_ipaddress_[]
 이제 커넥터가 설치되어 BlueXP 계정으로 설정됩니다.
 
 웹 브라우저를 열고 로 이동합니다 https://console.bluexp.netapp.com["BlueXP 콘솔"^] 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.
+
+Connector를 생성한 동일한 AWS 계정에 Amazon S3 버킷이 있는 경우 BlueXP 캔버스에 Amazon S3 작업 환경이 자동으로 표시됩니다. https://docs.netapp.com/us-en/bluexp-s3-storage/index.html["BlueXP에서 S3 버킷을 관리하는 방법에 관해 알아보십시오"^]
