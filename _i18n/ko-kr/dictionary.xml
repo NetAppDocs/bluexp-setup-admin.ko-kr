@@ -3775,4 +3775,7 @@ https://support.netapp.com 으로 문의하십시오
   <block id="260bcd27c402b5ba9f5dcabbfc1e0ddd" category="sidebar">자격 증명 및 구독</block>
   <block id="cbaee96b9499da2c5c6d3b23090382c6" category="sidebar">자격 증명 및 사용 권한에 대해 알아봅니다</block>
   <block id="9d812302dfdd0fdbf4faa0fe53b9ed24" category="sidebar">프로젝트 및 사용 권한에 대해 알아봅니다</block>
+  <block id="d64cd771f2e77e7c0e4209d28afed019" category="section-title">2023년 11월 8일</block>
+  <block id="82a9cd2bfcf44ef6090c93dcb2ee0451" category="section-title">커넥터 3.9.35</block>
+  <block id="77fe99ef9ead4490d30142892f6b5fec" category="paragraph">이 릴리스에는 사소한 보안 개선 사항 및 버그 픽스가 포함되어 있습니다.</block>
 </blocks>
