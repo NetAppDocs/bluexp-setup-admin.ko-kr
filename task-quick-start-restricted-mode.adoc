@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-quick-start-restricted-mode.html 
-keywords: quick start, restricted mode quick start 
+keywords: quick start, restricted mode quick start, govcloud, government, aws gov, azure gov 
 summary: 사용자 환경을 준비하고 커넥터를 배포하고 BlueXP에 가입하여 제한된 모드에서 BlueXP를 시작하십시오. 
 ---
 = 워크플로 시작(제한된 모드)
@@ -16,7 +16,7 @@ summary: 사용자 환경을 준비하고 커넥터를 배포하고 BlueXP에 �
 [role="lead"]
 사용자 환경을 준비하고 커넥터를 배포하고 BlueXP에 가입하여 제한된 모드에서 BlueXP를 시작하십시오.
 
-시작하기 전에 에 대한 이해가 있어야 합니다 link:concept-netapp-accounts.html["BlueXP 계정"], link:concept-connectors.html["커넥터"], 및 link:concept-modes.html["배포 모드"].
+제한 모드는 일반적으로 AWS GovCloud 및 Azure Government 지역의 구축을 비롯하여 주 정부 및 지방 정부 및 규제 회사에서 사용합니다. 시작하기 전에 에 대한 이해가 있어야 합니다 link:concept-netapp-accounts.html["BlueXP 계정"], link:concept-connectors.html["커넥터"], 및 link:concept-modes.html["배포 모드"].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] link:task-prepare-restricted-mode.html["배포를 준비합니다"]
 [role="quick-margin-list"]

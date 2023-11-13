@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-quick-start-private-mode.html 
-keywords: private mode quick start, quick start 
+keywords: private mode quick start, quick start, aws top secret cloud, aws secret cloud, secret cloud, top secret cloud 
 summary: 환경을 준비하고 Connector를 배포하여 BlueXP를 개인 모드로 시작하십시오. 
 ---
 = 워크플로 시작(비공개 모드)
@@ -15,6 +15,8 @@ summary: 환경을 준비하고 Connector를 배포하여 BlueXP를 개인 모�
 
 [role="lead"]
 환경을 준비하고 Connector를 배포하여 BlueXP를 개인 모드로 시작하십시오.
+
+프라이빗 모드는 일반적으로 인터넷에 연결되지 않고 을 포함하는 보안 클라우드 지역에서 사용되는 온프레미스 환경에서 사용됩니다 https://aws.amazon.com/federal/secret-cloud/["AWS 비밀 클라우드"^], https://aws.amazon.com/federal/top-secret-cloud/["AWS Top Secret Cloud의 약어입니다"^], 및 https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-dod-il6["Azure iL6"^]
 
 시작하기 전에 에 대한 이해가 있어야 합니다 link:concept-netapp-accounts.html["BlueXP 계정"], link:concept-connectors.html["커넥터"], 및 link:concept-modes.html["배포 모드"].
 
