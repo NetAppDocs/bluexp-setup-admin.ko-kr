@@ -37,7 +37,6 @@
   <block id="5e15e451ab1dcb5e3bfae55f8b58e524" category="list-text">* 자격 증명 위치 *: * Amazon Web Services &gt; Connector * 를 선택합니다.</block>
   <block id="8117407a9689d4f991904d5739091c47" category="list-text">* 자격 증명 정의 *: AWS 액세스 키와 비밀 키를 입력합니다.</block>
   <block id="dc6e318a413899b5467eabc5f69ad366" category="list-text">* Marketplace 구독 *: 지금 가입하거나 기존 구독을 선택하여 마켓플레이스 구독을 이러한 자격 증명과 연결합니다.</block>
-  <block id="70c85793f0a33ef534a67f193287a992" category="doc">Azure Blob 계정을 관리합니다</block>
   <block id="f9a2f8eef1df12108fd0c6b9b6b7fe6a" category="doc">Google Cloud의 커넥터 설치 옵션</block>
   <block id="b5afc81c4f24b143224e304b939a3f6c" category="paragraph">다음 설치 옵션을 사용할 수 있습니다.</block>
   <block id="b584cbf8cb993e5b450384402639e3c4" category="paragraph">이 작업을 수행하면 선택한 VPC에서 Linux 및 Connector 소프트웨어를 실행하는 VM 인스턴스가 시작됩니다.</block>
@@ -387,7 +386,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="9df83ab1f3ab5fb0d62768dd3ff406e6" category="list-text">cloudkms.keyRings.getIamPolicy를 참조하십시오</block>
   <block id="e7456e97941e04b31434ba6dcce10d88" category="list-text">cloudkms.keyRings.setIamPolicy</block>
   <block id="7c68c9240932ba8b284de266f9564faa" category="paragraph">이러한 권한은 BlueXP 백업 및 복구에 필요합니다.</block>
-  <block id="1c498f9a6415c0ecd5728481eea5743b" category="summary">BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.</block>
   <block id="a8f8f08c9d91eeaecc31377113ddd27b" category="section-title">BlueXP의 프로젝트 및 권한</block>
   <block id="627c5def4348066ddd5e7a1664e1079b" category="paragraph">BlueXP를 사용하여 Google Cloud 프로젝트의 리소스를 관리하려면 먼저 Connector를 배포해야 합니다. Connector는 사내 또는 다른 클라우드 공급자에서 실행할 수 없습니다.</block>
   <block id="356334a26d74c400a5e0a69f237ba73e" category="paragraph">BlueXP에서 직접 커넥터를 배포하기 전에 두 가지 권한 세트가 있어야 합니다.</block>
@@ -1011,7 +1009,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="98de57befcb39b412a8dac16a11d762e" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. n2-standard-4를 추천합니다.</block>
   <block id="984ca77a9a51746d3dd5a855a71d3493" category="inline-link">차폐된 VM 기능</block>
   <block id="5e59673ea4dc0650f587413c4848c02c" category="paragraph">Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서 지원됩니다<block ref="bd10301ee2e8f0cb38112a71d2b6920c" category="inline-link-rx"></block></block>
-  <block id="c01f728e9ef3359c6e9b452f47a9ca09" category="summary">BlueXP에서 Azure 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아봅니다. 이러한 세부 정보를 이해하면 하나 이상의 Azure 구독에 대한 자격 증명을 관리하는 데 도움이 됩니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
   <block id="08a6159f6d9d986210470d2ab6dff166" category="section-title">초기 Azure 자격 증명</block>
   <block id="25b6fc1a8ebb7aa3a82a611b3dc7cc8d" category="inline-link-macro">Azure용 커넥터 배포 정책</block>
   <block id="9cbe008fc71c240a16ab125b2873fe44" category="inline-link-macro">BlueXP에서 사용 권한을 사용하는 방법을 검토합니다</block>
@@ -1033,7 +1030,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="9d28e4868b7fcb2d0b7ab54f9d7f7b3c" category="inline-link-macro">계정 자격 증명을 BlueXP에 추가합니다</block>
   <block id="f25b2b221edfa2bdf4fb0df0c1b2c9d5" category="paragraph">그러면 됩니다 <block ref="d81a76d92186f9ebef738a7789fc0680" category="inline-link-macro-rx"></block> AD 서비스 보안 주체에 대한 세부 정보를 제공합니다.</block>
   <block id="eb99e348d38c212372a6e836f66f7356" category="paragraph">예를 들어, 새 Cloud Volumes ONTAP 작업 환경을 생성할 때 자격 증명 간에 전환할 수 있습니다.</block>
-  <block id="baa9dd166d2a7f1d62e78a829f4b35a6" category="section-title">Marketplace 구축 및 온프레미스 배포는 어떻습니까?</block>
   <block id="018f02432b76c440f6d0c2a5da5a1a5d" category="paragraph">위 섹션에서는 BlueXP의 커넥터에 권장되는 배포 방법에 대해 설명합니다. Azure Marketplace에서 Connector를 배포할 수도 있고, 자신의 Linux 호스트에 Connector 소프트웨어를 설치할 수도 있습니다.</block>
   <block id="f0e36fc8cdf840530f36b60220f9185b" category="paragraph">Marketplace를 사용하는 경우 Connector VM 및 시스템에 할당된 관리되는 ID에 사용자 지정 역할을 할당하여 사용 권한을 제공하거나 Azure AD 서비스 보안 주체를 사용할 수 있습니다.</block>
   <block id="a5cd95b551d8bf545c63c76c6fb91786" category="paragraph">온-프레미스 배포의 경우 Connector에 대해 관리되는 ID를 설정할 수 없지만 서비스 보안 주체를 사용하여 권한을 제공할 수 있습니다.</block>
@@ -1212,7 +1208,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="01da112af45ab74fbf33e58033fbd785" category="summary">마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다.</block>
   <block id="f691281f53b81c9f5d73a97dc7c334fd" category="doc">BlueXP용 Google Cloud 자격 증명 및 구독을 관리합니다</block>
   <block id="209e33f8aa50ade8c82e5bc82a8c023d" category="section-title">마켓플레이스 구독을 Google Cloud 자격 증명과 연결합니다</block>
-  <block id="e6bd6cdf191b4526ecbd9326bd7b5c24" category="paragraph">Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. 언제든지 이러한 자격 증명과 연결된 마켓플레이스 구독을 변경할 수 있습니다. 이 구독을 통해 선불 종량제 Cloud Volumes ONTAP 시스템을 생성하고 다른 BlueXP 서비스를 사용할 수 있습니다.</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.</block>
   <block id="0d28acbceed906f52a206d0f3fb0add2" category="inline-image-macro">기존 자격 증명 집합에 대한 작업 메뉴 스크린샷</block>
   <block id="ea765af20d763fe16d94ba9ef03fd31b" category="paragraph"><block ref="ea765af20d763fe16d94ba9ef03fd31b" category="inline-image-macro-rx" type="image"></block></block>
@@ -1480,7 +1475,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="5d1285233566f1379ef88c010de06abc" category="list-text">* 자격 증명 정의 *: 필요한 권한을 부여하는 Azure Active Directory 서비스 보안 주체에 대한 정보를 입력합니다.</block>
   <block id="3612e0e7a44ec38da1e226c618526f91" category="open-title">Google Cloud 서비스 계정</block>
   <block id="4b6fbf3b382ce342b57bbdb4fe0d6baf" category="paragraph">서비스 계정을 Connector VM에 연결합니다.</block>
-  <block id="ea5bc95c9558a374461d71a1d2f029ca" category="summary">BlueXP에서 AWS 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법을 알아보십시오. BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 때 이러한 세부 정보를 이해하는 것이 도움이 될 수 있습니다. 예를 들어, BlueXP에 AWS 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
   <block id="9ef43b020d41cab5808d78fdf855c429" category="section-title">초기 AWS 자격 증명</block>
   <block id="09c2333ff15fa85698d91a366cce26dd" category="inline-link-macro">AWS의 커넥터 구축 정책</block>
   <block id="858c852a1a4696d4e56295d4b4b0ea20" category="paragraph">BlueXP가 AWS에서 Connector 인스턴스를 시작하면 IAM 역할과 해당 인스턴스에 대한 인스턴스 프로필이 생성됩니다. 또한 Connector에 해당 AWS 계정 내의 리소스 및 프로세스를 관리할 수 있는 권한을 제공하는 정책을 첨부합니다. <block ref="9d2ef148313eb953f656b8efd4016e8c" category="inline-link-macro-rx"></block>.</block>
@@ -1494,11 +1488,9 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="d366b2fda179ae88058b546b6cd89726" category="list-text">AWS 자격 증명을 BlueXP에 직접 추가할 수 있습니다</block>
   <block id="1fba93959336f34e08c6d34d0ca68230" category="paragraph">자세한 내용은 아래 섹션을 참조하십시오.</block>
   <block id="a456be184fc96fef017630ede092b15d" category="section-title">기존 커넥터에 AWS 자격 증명을 추가합니다</block>
-  <block id="c0f31a85c681cbd2946d5195b382308e" category="paragraph">다른 AWS 계정에서 Cloud Volumes ONTAP를 실행하려면 IAM 사용자에 대한 AWS 키나 신뢰할 수 있는 계정에서 역할의 ARN을 제공할 수 있습니다. 다음 이미지는 두 개의 추가 계정을 보여 줍니다. 하나는 신뢰할 수 있는 계정에서 IAM 역할을 통해 권한을 제공하고 다른 하나는 IAM 사용자의 AWS 키를 통해 권한을 제공합니다.</block>
   <block id="25743d3dcac2dfe95c6e899571bfccc3" category="inline-image-macro">두 개의 추가 계정을 보여 주는 개념 이미지입니다. 각 정책에는 IAM 정책이 있으며, 하나는 IAM 사용자에게 연결되고 다른 하나는 IAM 역할에 연결됩니다.</block>
   <block id="49a11e441cb19dc0d43b1d3a3794d033" category="paragraph"><block ref="49a11e441cb19dc0d43b1d3a3794d033" category="inline-image-macro-rx" type="image"></block></block>
   <block id="48c7f5d184d27ef640370421d3317ba5" category="paragraph">그런 다음 IAM 역할의 ARN(Amazon Resource Name)이나 IAM 사용자의 AWS 키를 지정하여 BlueXP에 계정 자격 증명을 추가합니다.</block>
-  <block id="bc84b27c0d74f906857d6c1a83c368a0" category="paragraph">다른 자격 증명 세트를 추가한 후 새 작업 환경을 만들 때 자격 증명으로 전환할 수 있습니다.</block>
   <block id="a6856ad65a90d33bc83bd78362d9bfce" category="inline-link-macro">기존 커넥터에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오.</block>
   <block id="affef63146feae005315127173a28aa9" category="paragraph"><block ref="affef63146feae005315127173a28aa9" category="inline-link-macro-rx"></block></block>
   <block id="a923d2e65283c489ad78d9cdfa9bad74" category="section-title">BlueXP에 AWS 자격 증명을 직접 추가합니다</block>
@@ -1511,7 +1503,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="a4542ce435b67066671321f478dce8cc" category="paragraph">Marketplace를 사용하는 경우 사용 권한이 동일한 방식으로 제공됩니다. IAM 역할을 수동으로 생성 및 설정한 다음 추가 계정에 대한 권한을 제공하면 됩니다.</block>
   <block id="c369edb322a8885a983610e18f932d0c" category="paragraph">온-프레미스 배포의 경우 BlueXP 시스템에 대해 IAM 역할을 설정할 수 없지만 AWS 액세스 키를 사용하여 권한을 제공할 수 있습니다.</block>
   <block id="70bfaa19a89e29bf0fc2b34b8f3150ba" category="section-title">AWS 자격 증명을 안전하게 회전하려면 어떻게 해야 합니까?</block>
-  <block id="ee0f653772b33fb034bc7001a0c5e7a3" category="paragraph">위에서 설명한 바와 같이 BlueXP에서는 신뢰할 수 있는 계정에서 IAM 역할을 가정하거나 AWS 액세스 키를 제공하여 Connector 인스턴스와 연관된 IAM 역할, AWS 자격 증명을 몇 가지 방법으로 제공할 수 있습니다.</block>
   <block id="025a22cb479bbf0e83048a4ae6ffaaa0" category="paragraph">처음 두 가지 옵션을 사용할 경우 BlueXP는 AWS 보안 토큰 서비스를 사용하여 지속적으로 회전하는 임시 자격 증명을 얻습니다. 이 프로세스는 자동 및 안전의 모범 사례입니다.</block>
   <block id="f265ab1711375ae7a7a4e8594c5e1395" category="paragraph">BlueXP에 AWS 액세스 키를 제공하는 경우 정기적으로 BlueXP에서 키를 업데이트하여 키를 회전해야 합니다. 이는 완전히 수동으로 진행되는 프로세스입니다.</block>
   <block id="ccd2fd61b259ee660f0c8a22d4d70882" category="summary">Connector는 온-프레미스 Linux 호스트에 수동으로 설치할 때 인바운드 포트를 사용합니다. 이러한 포트는 계획 목적으로 참조해야 할 수 있습니다.</block>
@@ -2661,7 +2652,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="ef21f4467b6f56b5c04a15d016e654a2" category="paragraph">Azure 자격 증명을 BlueXP에 추가한 후 Azure Marketplace 구독을 해당 자격 증명에 연결할 수 있습니다. 이 구독을 통해 선불 종량제 Cloud Volumes ONTAP 시스템을 생성하고 다른 BlueXP 서비스를 사용할 수 있습니다.</block>
   <block id="2e6aa15d4609a29d86e5e9f886599c4c" category="paragraph">BlueXP에 자격 증명을 추가한 후 Azure Marketplace 구독을 연결할 수 있는 두 가지 시나리오가 있습니다.</block>
   <block id="20e15acf80fa51f5de6b9e96c9c64fde" category="list-text">처음에 BlueXP에 자격 증명을 추가할 때 구독을 연결하지 않았습니다.</block>
-  <block id="086754afbe30b09d7f6a643dd6e05800" category="list-text">기존 Azure Marketplace 구독을 새 구독으로 바꾸려는 경우</block>
   <block id="20a8a479e52579cf8f1fe773676218bc" category="paragraph"><block ref="20a8a479e52579cf8f1fe773676218bc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7dffa6296286b12f66d638f53340316c" category="list-text">메시지가 표시되면 Azure 계정에 로그인합니다.</block>
   <block id="344ece1ef43a9e3bbb281e15f3df6442" category="paragraph">BlueXP 웹 사이트로 이동합니다.</block>
@@ -2673,7 +2663,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="7132b07cc411f1ad7091b34cfe32d739" category="section-title">자격 증명을 삭제합니다</block>
   <block id="a16b0bbea9ed6a7a22d41efc21ec1cef" category="paragraph">더 이상 자격 증명 세트가 필요하지 않으면 BlueXP에서 삭제할 수 있습니다. 작업 환경과 연결되지 않은 자격 증명만 삭제할 수 있습니다.</block>
   <block id="79c33710e10337a79e50227860ebf59a" category="list-text">계정 자격 증명 * 페이지에서 자격 증명 세트의 작업 메뉴를 선택한 다음 * 자격 증명 삭제 * 를 선택합니다.</block>
-  <block id="a4f513306c1a0ead14679ffb7c282460" category="doc">Amazon S3 버킷을 관리합니다</block>
   <block id="08533087d95fb07c92ed0773080a65d4" category="doc">Azure 네트워킹을 설정합니다</block>
   <block id="1387f52f9e1a700036780a5bf567fab3" category="section-title">VNET 및 서브넷</block>
   <block id="b26bf0de9fb68038a5f4e2e2a13c5811" category="paragraph">Connector를 생성할 때 Connector가 상주할 VNET와 서브넷을 지정해야 합니다.</block>
@@ -2890,7 +2879,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="94935dba78b982df4dbaaf55737f4d0b" category="section-title">AWS 구독을 연결합니다</block>
   <block id="490ff557e203933a15d8fe5bc6dad106" category="paragraph">BlueXP에 AWS 자격 증명을 추가한 후 AWS Marketplace 구독을 해당 자격 증명과 연결할 수 있습니다. 이 구독을 통해 PAYGO(hourly rate)로 Cloud Volumes ONTAP를 결제하거나 연간 계약을 통해 다른 BlueXP 서비스를 사용할 수 있습니다.</block>
   <block id="5eae6608f40144c94d96a8f0a1602c97" category="paragraph">BlueXP에 자격 증명을 추가한 후 AWS Marketplace 구독을 연결할 수 있는 두 가지 시나리오가 있습니다.</block>
-  <block id="dbaf1a33cea4faeebcb91c3b7d479cc9" category="list-text">기존 AWS Marketplace 구독을 새 구독으로 교체하려고 합니다.</block>
   <block id="7061e8aac5780f13c42d7f3d3010b5c2" category="inline-link-macro">커넥터를 만드는 방법에 대해 알아봅니다</block>
   <block id="4affaad75ff37743ed549d6641de07e8" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="ffb61fe647da5972e7e78ecadafdfb45" category="inline-link-macro-rx"></block>.</block>
   <block id="583059f51a0b347f747db9f8d2421392" category="paragraph"><block ref="583059f51a0b347f747db9f8d2421392" category="inline-image-macro-rx" type="image"></block></block>
@@ -3147,7 +3135,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="b02d6a4d5c11f6d94cd3e2e249d6dec1" category="sidebar">BlueXP 계정</block>
   <block id="f4040f71a7d553f2519487070892b115" category="sidebar">사용자 역할</block>
   <block id="8d855a86408ade086a4d47d808971acd" category="sidebar">자격 증명 및 구독을 관리합니다</block>
-  <block id="fbfa85280a8f29e21ca92f023121f1b2" category="sidebar">검색된 클라우드 스토리지</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">참조하십시오</block>
   <block id="a4f605cd0aab29ee5fb50f28627cef5d" category="sidebar">권한 요약</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
@@ -3188,7 +3175,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="b0689737e83154357ff9ef36053bda4f" category="paragraph">기본적으로 알림 센터에는 모든 활성 알림이 표시됩니다. 표시되는 알림을 필터링하여 중요한 알림만 표시할 수 있습니다. BlueXP "서비스" 및 "유형" 알림별로 필터링할 수 있습니다.</block>
   <block id="2ad68125d72949aee5ac56974ac53849" category="paragraph">알림 센터에서 설정한 필터에 따라 전자 메일로 받을 알림 유형이 결정되지는 않습니다. 기본적으로 BlueXP 계정 관리자는 모든 "중요" 및 "권장 사항" 알림에 대한 이메일을 받게 됩니다. 이러한 알림은 모든 서비스에 걸쳐 제공됩니다. 커넥터 또는 BlueXP 백업 및 복구와 같은 특정 서비스에 대해서만 알림을 받도록 선택할 수는 없습니다.</block>
   <block id="7fcffcce675dad706dbf53d68f1f86f2" category="paragraph">다른 모든 사용자와 수신자는 알림 이메일을 수신하지 않도록 구성되어 있으므로 추가 사용자에 대한 알림 설정을 구성해야 합니다.</block>
-  <block id="19b587cc77ce4b8566975983ec907303" category="sidebar">Google Cloud Storage 버킷 관리</block>
   <block id="161fbe930f63fa83671b46be2b2b3d58" category="paragraph">다음과 같은 항목이 있어야 합니다.</block>
   <block id="7e0b6f72a006c5db4d352632364cae2a" category="paragraph">자세한 내용은 을 참조하십시오<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block></block>
   <block id="1b6d3b3a89f4e066eb8bb8d481156cbb" category="list-text">* 인스턴스 유형 *: 지역 가용성에 따라 RAM 및 CPU 요구 사항을 충족하는 인스턴스 유형을 선택합니다(T3.xLarge가 권장됨).</block>
@@ -3789,4 +3775,49 @@ https://support.netapp.com 으로 문의하십시오
   <block id="917f62b5224eebe3d212f654f1273e57" category="sidebar">표준 모드로 커넥터를 설치하고 설정합니다</block>
   <block id="f6bf5d3da1d67288a149ab832d6401d0" category="sidebar">커넥터를 비공개 모드로 설치 및 설정합니다</block>
   <block id="6596e863cf1d0baa0dbccff0e9088e4a" category="sidebar">로그인 중입니다</block>
+  <block id="337e8febb8ac96133c86a51cd7bc0240" category="summary">BlueXP가 Azure 자격 증명을 사용하여 사용자를 대신하여 작업을 수행하는 방법과 해당 자격 증명이 마켓플레이스 구독과 어떻게 연관되는지 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Azure 구독에 대한 자격 증명을 관리하는 데 도움이 됩니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
+  <block id="3bf21bdc87a8f6ebde5b75e8cb0d5138" category="section-title">자격 증명 및 마켓플레이스 구독</block>
+  <block id="b1e32c999d336fb505915de8a8ffca55" category="paragraph">커넥터에 추가하는 자격 증명은 Azure Marketplace 구독과 연결되어 시간 단위(PAYGO) 또는 연간 계약을 통해 Cloud Volumes ONTAP에 대한 비용을 지불하고 다른 BlueXP 서비스를 사용할 수 있어야 합니다.</block>
+  <block id="fb84f4e33822ea62702acf73a6936590" category="paragraph"><block ref="1203dc0bfed75eb2f240871bcc177fc9" category="inline-link-macro-rx"></block>.</block>
+  <block id="699a4563fbdfb82a77a96312a9c5b942" category="paragraph">Azure 자격 증명 및 마켓플레이스 구독에 대해서는 다음을 참고하십시오.</block>
+  <block id="394fe3b41aaabcee1c8575842cbb5c99" category="list-text">하나의 Azure Marketplace 구독만 Azure 자격 증명 세트와 연결할 수 있습니다</block>
+  <block id="d9fbcede0b5dd54b1e4b6bd98ebd3fff" category="list-text">기존 마켓플레이스 구독을 새 구독으로 바꿀 수 있습니다</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="section-title">FAQ 를 참조하십시오</block>
+  <block id="c304c6eb88f5bb91ab96ba559c3124d2" category="paragraph">다음 질문은 자격 증명 및 구독과 관련이 있습니다.</block>
+  <block id="d1498a931fa5f0af32115f36f233018b" category="section-title">Cloud Volumes ONTAP 작업 환경에 대한 Azure 마켓플레이스 가입을 변경할 수 있습니까?</block>
+  <block id="eb61c2cc62653045f5374d6c02b9cb28" category="paragraph">예, 가능합니다. Azure 자격 증명 세트와 연결된 Azure 마켓플레이스 구독을 변경하면 기존 및 새 Cloud Volumes ONTAP 작업 환경이 새 구독에 대해 요금이 청구됩니다.</block>
+  <block id="9da47999e254d317c9c5eadda7df30b7" category="section-title">마켓플레이스 구독이 서로 다른 여러 Azure 자격 증명을 추가할 수 있습니까?</block>
+  <block id="c0e1571fee7bc6b756a9626664ca06e8" category="paragraph">동일한 Azure 구독에 속하는 모든 Azure 자격 증명은 동일한 Azure 마켓플레이스 구독에 연결됩니다.</block>
+  <block id="0fa4c0b97cc5b7972696a2ba8c38b9c8" category="paragraph">서로 다른 Azure 구독에 속하는 여러 Azure 자격 증명이 있는 경우 해당 자격 증명을 동일한 Azure Marketplace 구독 또는 다른 마켓플레이스 구독에 연결할 수 있습니다.</block>
+  <block id="4666e56ab2715e92af8b4dbb7fc97357" category="section-title">기존 Cloud Volumes ONTAP 작업 환경을 다른 Azure 구독으로 이동할 수 있습니까?</block>
+  <block id="cd0af57faab800d64dbc9b6686539495" category="paragraph">아니요, Cloud Volumes ONTAP 작업 환경에 연결된 Azure 리소스를 다른 Azure 구독으로 이동할 수 없습니다.</block>
+  <block id="94db8f0d9e472465df4f4a2373f34e15" category="section-title">마켓플레이스 배포 및 온프레미스 배포에 자격 증명이 어떻게 작동합니까?</block>
+  <block id="459f61ebe7bde01cca8ed21d42e836ca" category="paragraph">Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. 언제든지 이러한 자격 증명과 연결된 Google Cloud Marketplace 구독을 변경할 수 있습니다. 이 구독을 통해 선불 종량제 Cloud Volumes ONTAP 시스템을 생성하고 다른 BlueXP 서비스를 사용할 수 있습니다.</block>
+  <block id="9e2bbef36ac6bd075f201eb1ac82fddb" category="paragraph">현재 마켓플레이스 구독을 새 구독으로 교체하면 기존 Cloud Volumes ONTAP 작업 환경과 모든 새로운 작업 환경에 대한 마켓플레이스 구독이 변경됩니다.</block>
+  <block id="6f3c919771c405c0014ee0f6d72d3149" category="summary">BlueXP가 Google Cloud 자격 증명을 사용하여 대신 작업을 수행하는 방법과 해당 자격 증명이 마켓플레이스 구독과 어떻게 연관되는지 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.</block>
+  <block id="2b28187ebaea3b39a76735548553c017" category="paragraph">Google Cloud에 Connector를 구축하면 BlueXP는 Connector가 상주하는 프로젝트에서 Google Cloud 서비스 계정에 대한 기본 자격 증명 세트를 생성합니다. Cloud Volumes ONTAP를 시간당 요금(PAYGO)으로 지불하고 다른 BlueXP 서비스를 사용할 수 있도록 자격 증명이 Google Cloud Marketplace 구독에 연결되어 있어야 합니다.</block>
+  <block id="09287a1087bc09afb8b07a6d1a5eae1e" category="inline-link-macro">Google Cloud Marketplace 구독을 연결하는 방법에 대해 알아보십시오</block>
+  <block id="7acdafee5614d2da4affd478462c535e" category="paragraph"><block ref="4394d3ef2937eb47839ebd4e9350c4a7" category="inline-link-macro-rx"></block>.</block>
+  <block id="ebb6d853fd57e1782a582fe71ada39d8" category="paragraph">Google Cloud 자격 증명 및 마켓플레이스 구독에 대해서는 다음을 참고하십시오.</block>
+  <block id="4d1b7e7c166bf4ed32fa5d56516fa083" category="list-text">하나의 Google Cloud 자격 증명 세트만 Connector에 연결할 수 있습니다</block>
+  <block id="6d399b7b3ed393068765f55064547297" category="list-text">하나의 Google Cloud Marketplace 구독만 자격 증명에 연결할 수 있습니다</block>
+  <block id="239d1b40f08bc1656a0d7e74a463506d" category="summary">BlueXP가 AWS 자격 증명을 사용하여 대신 작업을 수행하는 방법과 해당 자격 증명이 마켓플레이스 구독과 어떻게 연관되는지 알아보십시오. BlueXP에서 하나 이상의 AWS 계정에 대한 자격 증명을 관리할 때 이러한 세부 정보를 이해하는 것이 도움이 될 수 있습니다. 예를 들어, BlueXP에 AWS 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
+  <block id="83c8c6a596b650f7a3d797d7ca610eec" category="paragraph">추가 AWS 계정과 함께 BlueXP를 사용하려면 IAM 사용자를 위한 AWS 키 또는 신뢰할 수 있는 계정에서 역할의 ARN을 제공할 수 있습니다. 다음 이미지는 두 개의 추가 계정을 보여 줍니다. 하나는 신뢰할 수 있는 계정에서 IAM 역할을 통해 권한을 제공하고 다른 하나는 IAM 사용자의 AWS 키를 통해 권한을 제공합니다.</block>
+  <block id="69989e90b246317e0163189ff8d059e9" category="paragraph">커넥터에 추가하는 자격 증명은 AWS Marketplace 구독과 연결되어 시간 단위(PAYGO) 또는 연간 계약을 통해 Cloud Volumes ONTAP에 대한 비용을 지불하고 다른 BlueXP 서비스를 사용할 수 있어야 합니다.</block>
+  <block id="121abc14ff73ca8b4e21d30028c17399" category="paragraph"><block ref="ec04a55c38de32bb88fa7b4155061e7c" category="inline-link-macro-rx"></block>.</block>
+  <block id="76561e64ef8af12896c02fcfaddaf89e" category="paragraph">AWS 자격 증명 및 마켓플레이스 구독에 대해서는 다음을 참조하십시오.</block>
+  <block id="7b0c974aab7fa6523b2e4aa45c818464" category="list-text">AWS Marketplace 구독은 하나의 AWS 자격 증명 집합과 연결할 수 있습니다</block>
+  <block id="d33d86c6f3f99b3b9b1b988bde0679bd" category="paragraph">다음은 자격 증명 및 구독과 관련된 질문입니다.</block>
+  <block id="f4ccd042e43557d6dcec2b8d243b7662" category="paragraph">위 섹션에서 설명한 것처럼 BlueXP를 이용하면 커넥터 인스턴스와 연결된 IAM 역할이나 신뢰할 수 있는 계정에서 IAM 역할을 가정하거나 AWS 액세스 키를 제공하는 등 몇 가지 방법으로 AWS 자격 증명을 제공할 수 있습니다.</block>
+  <block id="c9195aa1791c4bdbc03156535bd27fc0" category="section-title">Cloud Volumes ONTAP 작업 환경에 대한 AWS Marketplace 구독을 변경할 수 있습니까?</block>
+  <block id="2fde9464009be43ef57f1ae03915ce1b" category="paragraph">예, 가능합니다. 자격 증명 세트와 연결된 AWS 마켓플레이스 가입을 변경하면 모든 기존 및 신규 Cloud Volumes ONTAP 작업 환경이 새 구독에 대해 요금이 청구됩니다.</block>
+  <block id="5f40627f2e8501cf250f4cc37e129f5c" category="section-title">마켓플레이스 구독이 서로 다른 여러 AWS 자격 증명을 추가할 수 있습니까?</block>
+  <block id="f3d5116dad7634904c5a0daad024b77d" category="paragraph">동일한 AWS 계정에 속한 모든 AWS 자격 증명은 동일한 AWS 마켓플레이스 구독에 연결됩니다.</block>
+  <block id="941c9eda62bf4e57d449bdcf28810b26" category="paragraph">서로 다른 AWS 계정에 속하는 여러 AWS 자격 증명이 있는 경우 해당 자격 증명을 동일한 AWS Marketplace 구독 또는 다른 구독에 연결할 수 있습니다.</block>
+  <block id="240d9c0eecb88b98c7fc253d7a1ea3e9" category="section-title">기존 Cloud Volumes ONTAP 작업 환경을 다른 AWS 계정으로 이동할 수 있습니까?</block>
+  <block id="48fee81c8905ac5f4a12516fa379b0f7" category="paragraph">아니요, Cloud Volumes ONTAP 작업 환경에 연결된 AWS 리소스를 다른 AWS 계정으로 이동할 수 없습니다.</block>
+  <block id="a0b5de080d56bb71b1a6a7c72fd88757" category="doc">BlueXP의 AWS 자격 증명 및 마켓플레이스 가입을 관리합니다</block>
+  <block id="8fda5ebe3faa8194a970ad5e0645d8c7" category="list-text">AWS 자격 증명과 연결된 AWS Marketplace 구독을 변경하려고 합니다.</block>
+  <block id="0b3b411ceb545e69a73eeeea9e0f4812" category="doc">BlueXP의 Azure 자격 증명 및 마켓플레이스 가입을 관리합니다</block>
+  <block id="f2427bd8db58aeac7d862aab97ae63df" category="list-text">Azure 자격 증명과 연결된 Azure Marketplace 구독을 변경하려고 합니다.</block>
 </blocks>

@@ -4,7 +4,7 @@ permalink: task-adding-azure-accounts.html
 keywords: permissions, microsoft, azure, permissions, custom role, role, json, active directory, ad, service principal, key, tenant id, application key, application id, operator role, managed identity, iam, operator, role, virtual machine, create custom role, create azure custom role, azure custom role 
 summary: Azure 자격 증명을 추가 및 관리하여 BlueXP가 Azure 구독에서 클라우드 리소스를 배포하고 관리하는 데 필요한 권한을 갖도록 합니다. 여러 Azure Marketplace 구독을 관리하는 경우 자격 증명 페이지에서 각 구독을 서로 다른 Azure 자격 증명에 할당할 수 있습니다. 
 ---
-= BlueXP용 Azure 자격 증명 및 구독을 관리합니다
+= BlueXP의 Azure 자격 증명 및 마켓플레이스 가입을 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -327,7 +327,10 @@ Azure 자격 증명을 BlueXP에 추가한 후 Azure Marketplace 구독을 해�
 BlueXP에 자격 증명을 추가한 후 Azure Marketplace 구독을 연결할 수 있는 두 가지 시나리오가 있습니다.
 
 * 처음에 BlueXP에 자격 증명을 추가할 때 구독을 연결하지 않았습니다.
-* 기존 Azure Marketplace 구독을 새 구독으로 바꾸려는 경우
+* Azure 자격 증명과 연결된 Azure Marketplace 구독을 변경하려고 합니다.
++
+현재 마켓플레이스 구독을 새 구독으로 교체하면 기존 Cloud Volumes ONTAP 작업 환경과 모든 새로운 작업 환경에 대한 마켓플레이스 구독이 변경됩니다.
+
 
 
 .시작하기 전에

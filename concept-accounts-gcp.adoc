@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-accounts-gcp.html 
 keywords: cloud provider accounts, gcp, gcp accounts, google cloud platform, google accounts, google cloud platform accounts, permissions, project, google cloud project 
-summary: BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다. 
+summary: BlueXP가 Google Cloud 자격 증명을 사용하여 대신 작업을 수행하는 방법과 해당 자격 증명이 마켓플레이스 구독과 어떻게 연관되는지 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다. 
 ---
 = Google Cloud 프로젝트 및 권한에 대해 자세히 알아보십시오
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하�
 
 
 [role="lead"]
-BlueXP에서 Google Cloud 자격 증명과 사용 권한을 사용하여 사용자를 대신하여 작업을 수행하는 방법에 대해 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.
+BlueXP가 Google Cloud 자격 증명을 사용하여 대신 작업을 수행하는 방법과 해당 자격 증명이 마켓플레이스 구독과 어떻게 연관되는지 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Google Cloud 프로젝트에 대한 자격 증명을 관리하는 데 도움이 될 수 있습니다. 예를 들어 Connector VM과 연결된 서비스 계정에 대해 자세히 알아볼 수 있습니다.
 
 
 
@@ -37,6 +37,21 @@ image:diagram_permissions_gcp.png["Cloud Volumes ONTAP를 배포하기 위한 Go
 * link:task-install-connector-google-bluexp-gcloud.html#step-2-set-up-permissions-to-create-the-connector["표준 모드에 대한 Google Cloud 권한을 설정합니다"]
 * link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
 * link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
+
+
+
+
+== 자격 증명 및 마켓플레이스 구독
+
+Google Cloud에 Connector를 구축하면 BlueXP는 Connector가 상주하는 프로젝트에서 Google Cloud 서비스 계정에 대한 기본 자격 증명 세트를 생성합니다. Cloud Volumes ONTAP를 시간당 요금(PAYGO)으로 지불하고 다른 BlueXP 서비스를 사용할 수 있도록 자격 증명이 Google Cloud Marketplace 구독에 연결되어 있어야 합니다.
+
+link:task-adding-gcp-accounts.html["Google Cloud Marketplace 구독을 연결하는 방법에 대해 알아보십시오"].
+
+Google Cloud 자격 증명 및 마켓플레이스 구독에 대해서는 다음을 참고하십시오.
+
+* 하나의 Google Cloud 자격 증명 세트만 Connector에 연결할 수 있습니다
+* 하나의 Google Cloud Marketplace 구독만 자격 증명에 연결할 수 있습니다
+* 기존 마켓플레이스 구독을 새 구독으로 바꿀 수 있습니다
 
 
 
