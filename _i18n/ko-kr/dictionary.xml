@@ -487,7 +487,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="9cf68904e16d6d689d242f4868ec6c3f" category="list-text">전용 호스트</block>
   <block id="3e54bf758f50b15d709edd166d8bf82b" category="list-text">다른 애플리케이션과 공유되는 호스트에서는 Connector가 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
   <block id="bbf3330385f894cd7bd34b34e4c36d6c" category="list-text">지원되는 운영 체제</block>
-  <block id="e5051949dc3a37f9077e85df0f1c8a21" category="list-text">Ubuntu 22.04</block>
   <block id="ee7f5aec4e9ac5fecb93d224c17fcd43" category="list-text">CentOS 7.6, 7.7, 7.8 및 7.9</block>
   <block id="eaf5618d0182a88179ac8580cc418219" category="list-text">Red Hat Enterprise Linux 7.6, 7.7, 7.8 및 7.9</block>
   <block id="24dfedb0d4bd46f0cd823d4e245f7642" category="paragraph">호스트는 Red Hat Subscription Management에 등록되어 있어야 합니다. 등록되지 않은 경우 호스트는 Connector 설치 중에 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.</block>
@@ -1970,7 +1969,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="5eeca886fa07462826a9ea747483f528" category="section-title">AWS 세부 정보</block>
   <block id="a0676ac5cfebaef69b53ff7e37cd8c3c" category="paragraph">BlueXP 또는 클라우드 제공업체의 마켓플레이스에서 Connector를 배포한 경우 다음 사항에 유의하십시오.</block>
   <block id="6b3a1b41a32e70a38db42e8ec15a6fba" category="list-text">EC2 인스턴스 유형은 T3.xLarge입니다.</block>
-  <block id="eebb9a8111d1623667243e7e41ed0e71" category="list-text">이미지의 운영 체제는 Ubuntu 22.04입니다.</block>
   <block id="953e61420be6157aa122dfd3475d4070" category="paragraph">운영 체제에는 GUI가 포함되어 있지 않습니다. 시스템에 액세스하려면 터미널을 사용해야 합니다.</block>
   <block id="efabd80ebdd217a47d9be936e5f0b8aa" category="list-text">기본 시스템 디스크는 100GiB GP2 디스크입니다.</block>
   <block id="b8c4a5bd8ed4eb470e80955a542dd4bf" category="section-title">Azure 세부 정보</block>
@@ -2089,13 +2087,8 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="ec2047192779921dd8c042d6555c8cd8" category="list-text">확인할 커넥터 이름을 입력한 다음 * 제거 * 를 선택합니다.</block>
   <block id="7c42efcb94d7f8204bfb69f49301938f" category="paragraph">BlueXP는 커넥터에서 커넥터를 제거합니다.</block>
   <block id="1e5422449b0eb99ea40cb7fe70879cc1" category="section-title">Connector 소프트웨어를 제거합니다</block>
-  <block id="1eadfd8e2f3b513abf35355f37e97001" category="paragraph">커넥터 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거합니다. 필요한 단계는 인터넷 액세스가 있는 호스트에 커넥터를 설치했는지 아니면 인터넷 액세스가 없는 제한된 네트워크에 있는 호스트를 설치했는지에 따라 다릅니다.</block>
-  <block id="4d67fb715dceafe12fe6803426ac57b2" category="section-title">인터넷 액세스 권한이 있는 호스트에서 제거합니다</block>
-  <block id="e089c95fb359ddfa284cac5771dbcd57" category="paragraph">온라인 커넥터에는 소프트웨어를 제거하는 데 사용할 수 있는 제거 스크립트가 포함되어 있습니다.</block>
   <block id="6a5be3e06b444aea04beccda3bc9e1d6" category="list-text">Linux 호스트에서 제거 스크립트를 실행합니다.</block>
   <block id="0bb43692ecd0352eecc69c235e34d6f0" category="paragraph">_silent_는 확인 메시지를 표시하지 않고 스크립트를 실행합니다.</block>
-  <block id="8df713934e0916c402f7101820962747" category="section-title">인터넷에 액세스하지 않고 호스트에서 제거합니다</block>
-  <block id="aa03c0a49ae5be9aa71931d934887122" category="paragraph">NetApp Support 사이트에서 Connector 소프트웨어를 다운로드하고 인터넷에 액세스할 수 없는 제한된 네트워크에 설치한 경우 다음 명령을 사용하십시오.</block>
   <block id="c89064bda3f1ae133a231f5b1f44c3b0" category="list-text">Linux 호스트에서 다음 명령을 실행합니다.</block>
   <block id="111374538bcb0d5c90baaab097278e39" category="doc">사내 네트워킹을 설정합니다</block>
   <block id="8efafb8ae5af62e571308cca0bdcb4f0" category="paragraph">자체 Linux 호스트에 커넥터를 수동으로 설치할 경우 Connector 설치 과정에서 다음 URL에 액세스해야 합니다.</block>
@@ -2444,7 +2437,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="aca7ecb913d1693820d3cecc61146e57" category="list-text">사용자와 연결할 작업 영역을 선택하고 * 적용 * 을 선택합니다.</block>
   <block id="00c13424586ec3eadb8e36d6a47c5a3d" category="paragraph">이제 사용자는 Connector가 작업 영역과 연결되어 있는 한 BlueXP에서 해당 작업 영역에 액세스할 수 있습니다.</block>
   <block id="f932d2619edea0dc69b40e9be53abdc4" category="section-title">서비스 계정 생성 및 관리</block>
-  <block id="a27c9464b539fe59f34a06ecfb5eebf0" category="paragraph">서비스 계정은 자동화를 위해 BlueXP에 인증된 API 호출을 수행할 수 있는 "사용자" 역할을 합니다. 따라서 언제든지 퇴사할 수 있는 실제 사용자의 계정을 기반으로 자동화 스크립트를 작성할 필요가 없으므로 자동화를 더욱 쉽게 관리할 수 있습니다. 페더레이션을 사용하는 경우 클라우드에서 새로 고침 토큰을 생성하지 않고 토큰을 생성할 수 있습니다.</block>
   <block id="3867fe57530ba0aa0540b395cae02bbe" category="paragraph">다른 BlueXP 사용자와 마찬가지로 서비스 계정에 역할을 할당하여 서비스 계정에 권한을 부여합니다. 또한 서비스 계정을 특정 작업 영역에 연결하여 서비스가 액세스할 수 있는 작업 환경(리소스)을 제어할 수도 있습니다.</block>
   <block id="3e90ee6ffbf4747b6daa7514209e20ef" category="paragraph">서비스 계정을 만들 때 BlueXP에서 서비스 계정에 대한 클라이언트 ID 및 클라이언트 암호를 복사하거나 다운로드할 수 있습니다. 이 키 쌍은 BlueXP의 인증에 사용됩니다.</block>
   <block id="41d9e1257b3e21add2e59d038938ea94" category="section-title">서비스 계정을 생성합니다</block>
@@ -3820,4 +3812,19 @@ https://support.netapp.com 으로 문의하십시오
   <block id="8fda5ebe3faa8194a970ad5e0645d8c7" category="list-text">AWS 자격 증명과 연결된 AWS Marketplace 구독을 변경하려고 합니다.</block>
   <block id="0b3b411ceb545e69a73eeeea9e0f4812" category="doc">BlueXP의 Azure 자격 증명 및 마켓플레이스 가입을 관리합니다</block>
   <block id="f2427bd8db58aeac7d862aab97ae63df" category="list-text">Azure 자격 증명과 연결된 Azure Marketplace 구독을 변경하려고 합니다.</block>
+  <block id="183f3a1e578d0dce86eeb393edf40a5d" category="list-text">우분투 22.04 LTS</block>
+  <block id="7f9b20909dd63d1bee579fee63d32a4a" category="paragraph">커넥터 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거합니다. 사용해야 하는 단계는 인터넷 액세스(표준 모드 또는 제한된 모드)가 있는 호스트에 커넥터를 설치했는지, 인터넷 액세스가 없는 네트워크에 있는 호스트(개인 모드)에 커넥터를 설치했는지에 따라 다릅니다.</block>
+  <block id="704318f2299bbf226c9c1348790ad16a" category="section-title">표준 모드 또는 제한 모드를 사용하는 경우 를 제거합니다</block>
+  <block id="cb4aad09336fbc7a1b8ecf07e5495e18" category="paragraph">아래 단계를 사용하여 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때 Connector 소프트웨어를 제거할 수 있습니다.</block>
+  <block id="fd1e4807d8caf9eb7b22acef39d3e5ce" category="list-text">커넥터용 Linux VM에 연결합니다.</block>
+  <block id="e1b145fbf942267f38a8e6f0928d8629" category="paragraph"><block ref="9ff6aead716ef57f3a1e9e40a858062f" prefix="" category="inline-code"></block></block>
+  <block id="e62b509228c00429c0a06d3fd75b6e6e" category="section-title">비공개 모드를 사용하는 경우 를 제거합니다</block>
+  <block id="56772d07c7720c5dc4391eea138265a3" category="paragraph">아래 단계를 수행하여 인터넷에 액세스할 수 없는 비공개 모드에서 BlueXP를 사용할 때 Connector 소프트웨어를 제거할 수 있습니다.</block>
+  <block id="72b013396e56865d3673702aa9bcc731" category="paragraph"><block ref="53c9ecf44ffc5c93a5a42f4cda983463" prefix="" category="inline-code"></block><block ref="3be06caa62382aade39cdb5bcb105da0" prefix=" " category="inline-code"></block></block>
+  <block id="6ae4e7f185de6791c9b45f3d273959f9" category="cell">\https://aiq.netapp.com</block>
+  <block id="034ade3fc7b98591feafb7b0039b2724" category="cell">BlueXP 디지털 어드바이저에 액세스하기 위해 필요합니다.</block>
+  <block id="345dbd48a6c734a7dc3b743f014493be" category="paragraph">서비스 계정은 자동화를 위해 BlueXP에 인증된 API 호출을 수행할 수 있는 "사용자" 역할을 합니다. 따라서 언제든지 퇴사할 수 있는 실제 사용자의 계정을 기반으로 자동화 스크립트를 작성할 필요가 없으므로 자동화를 더욱 쉽게 관리할 수 있습니다.</block>
+  <block id="f48ee857175ccdfbd5ae5d5354c32c08" category="inline-link">토큰 새로 고침 에 대해 알아봅니다</block>
+  <block id="713b059ba47ab000812d3dd15273cee6" category="paragraph">서비스 계정을 사용할 때는 API 작업에 새로 고침 토큰이 필요하지 않습니다.<block ref="cc919b62f11a25e2d8c9fb23b34ada32" category="inline-link-rx"></block></block>
+  <block id="7c42c6e2f8295dada12f50f825327ddf" category="list-text">이미지의 운영 체제는 Ubuntu 22.04 LTS입니다.</block>
 </blocks>

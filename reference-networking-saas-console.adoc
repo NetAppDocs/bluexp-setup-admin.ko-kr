@@ -27,6 +27,9 @@ SaaS 계층을 통해 제공되는 BlueXP 웹 기반 콘솔을 사용할 때 몇
 \https://*.console.bluexp.netapp.com | 웹 브라우저는 BlueXP 웹 기반 콘솔을 사용할 때 이러한 URL에 연락합니다. 
 
 
+| \https://aiq.netapp.com | BlueXP 디지털 어드바이저에 액세스하기 위해 필요합니다. 
+
+
  a| 
 AWS 서비스(amazonaws.com):
 

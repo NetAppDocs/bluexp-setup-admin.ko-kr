@@ -51,7 +51,7 @@ AWS 또는 Azure Marketplace에서 Connector를 구축하면 필요한 OS 및 �
 지원되는 운영 체제::
 +
 --
-* Ubuntu 22.04
+* 우분투 22.04 LTS
 * CentOS 7.6, 7.7, 7.8 및 7.9
 * Red Hat Enterprise Linux 7.6, 7.7, 7.8 및 7.9
 +
