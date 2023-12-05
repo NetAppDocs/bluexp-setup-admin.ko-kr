@@ -1442,7 +1442,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="377655366b79df746cc3d0c01596ba86" category="paragraph">NetApp Support 사이트에서 제품 설치 프로그램을 다운로드한 다음 자체 Linux 호스트에 커넥터를 수동으로 설치합니다.</block>
   <block id="7bc3966adb932d8b546fbfa4ef7113d7" category="paragraph">커넥터를 설치하려면 루트 권한이 필요합니다.</block>
   <block id="2ba7eb945a77498b8342e4be53a3761e" category="list-text">에서 Connector 소프트웨어를 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block></block>
-  <block id="21ecc51e06ea55adef72442730b0d5cf" category="paragraph">인터넷 액세스 없이 제한된 네트워크에 대한 설치 프로그램을 다운로드해야 합니다.</block>
   <block id="0d5d3e78379f182967772aab096aa6ac" category="list-text">Linux 호스트에 설치 프로그램을 복사합니다.</block>
   <block id="482c8088b93a78c2682279e88617ca7f" category="list-text">설치 스크립트를 실행합니다.</block>
   <block id="d932ef50072ac5f51fe3242771618f19" category="paragraph">커넥터 소프트웨어가 설치됩니다. 이제 BlueXP를 설정할 수 있습니다.</block>
@@ -3026,9 +3025,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="99f9fe7adce4b6282eee924da977b6d4" category="list-text">사내 배포에서 지원되는 BlueXP 서비스</block>
   <block id="614a24e7adcef9d83ca4454cd4443cbd" category="list-text">BlueXP는 Connector를 사내에 설치할 때 다음과 같은 개인 모드로 저장 및 데이터 서비스를 지원합니다.</block>
   <block id="1a1c1a2053d87746c09321c96ffee577" category="inline-link">사내 ONTAP 데이터를 StorageGRID에 백업하는 방법을 알아보십시오</block>
-  <block id="4b2d116ffff1d0b3943a8369ed15f92e" category="cell">사내 ONTAP 볼륨을 StorageGRID 시스템에 대해서만 백업 및 복원을 지원합니다.
-
-<block ref="06335b9f199e896c8eeed49a6ea11aae" category="inline-link-rx"></block></block>
   <block id="53a7caecec393fdcc143318b6a21f701" category="list-text">지원되는 데이터 원본은 로컬에서 검색할 수 있는 원본뿐입니다.</block>
   <block id="ad85db404f0dfc2267b348299aa513b9" category="inline-link">로컬로 검색할 수 있는 소스를 봅니다</block>
   <block id="c31f6ba921f50b9fdf957e9653b25a96" category="paragraph"><block ref="c31f6ba921f50b9fdf957e9653b25a96" category="inline-link-rx"></block></block>
@@ -3827,4 +3823,20 @@ https://support.netapp.com 으로 문의하십시오
   <block id="f48ee857175ccdfbd5ae5d5354c32c08" category="inline-link">토큰 새로 고침 에 대해 알아봅니다</block>
   <block id="713b059ba47ab000812d3dd15273cee6" category="paragraph">서비스 계정을 사용할 때는 API 작업에 새로 고침 토큰이 필요하지 않습니다.<block ref="cc919b62f11a25e2d8c9fb23b34ada32" category="inline-link-rx"></block></block>
   <block id="7c42c6e2f8295dada12f50f825327ddf" category="list-text">이미지의 운영 체제는 Ubuntu 22.04 LTS입니다.</block>
+  <block id="e8a0c291b754a75e0e91ecf69d567912" category="section-title">2023년 12월 5일</block>
+  <block id="1771e2f4014c6ccd829b84cf9e8c7d27" category="section-title">비공개 모드 해제</block>
+  <block id="5a78b457c661dc3d01c5125da794f0ed" category="paragraph">이제 BlueXP에 새로운 프라이빗 모드 릴리즈가 제공됩니다. 이 릴리즈에는 2023년 10월 현재 프라이빗 모드에서 지원되는 Connector 버전 3.9.35 및 BlueXP 서비스 버전이 포함됩니다.</block>
+  <block id="ec34e91164e39c9df1bfb906cff07162" category="paragraph">이 새로운 릴리스는 NetApp Support 사이트에서 다운로드할 수 있습니다.</block>
+  <block id="2e57b160bcd31ccd527a6670d94879de" category="inline-link">프라이빗 모드에 포함된 BlueXP 서비스에 대해 알아보십시오</block>
+  <block id="d51183b71ba843f2f97d0b54a084f7e8" category="list-text"><block ref="d51183b71ba843f2f97d0b54a084f7e8" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다</block>
+  <block id="4e208e7f54024bf731fae02025ce34d9" category="list-text"><block ref="4e208e7f54024bf731fae02025ce34d9" category="inline-link-rx"></block></block>
+  <block id="a6c2003199e95310a83aa40a67058bd8" category="paragraph">인터넷 액세스 없이 개인 네트워크용 오프라인 설치 프로그램을 다운로드해야 합니다.</block>
+  <block id="592f630e8b69cd90cac093e1bdbd9dbb" category="list-text">온프레미스 ONTAP 볼륨을 StorageGRID 시스템에 백업 및 복원할 수 있습니다.</block>
+  <block id="06335b9f199e896c8eeed49a6ea11aae" category="paragraph"><block ref="06335b9f199e896c8eeed49a6ea11aae" category="inline-link-rx"></block></block>
+  <block id="74456640d8afbf406f720d7bd598b445" category="list-text">온프레미스 ONTAP 볼륨을 ONTAP S3에 백업하고 복원할 수도 있습니다.</block>
+  <block id="18bb302ce6a2bf46e1beed1133756fb6" category="inline-link">온프레미스 ONTAP 데이터를 ONTAP S3에 백업하는 방법에 대해 알아보십시오</block>
+  <block id="4befb86902877ee4e8c0bab35f4c9850" category="paragraph"><block ref="4befb86902877ee4e8c0bab35f4c9850" category="inline-link-rx"></block></block>
 </blocks>

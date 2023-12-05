@@ -117,12 +117,15 @@ NOTE: 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 경우, �
 
 .단계
 . 에서 Connector 소프트웨어를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/cloud-manager/downloads-tab["NetApp Support 사이트"^].
++
+인터넷 액세스 없이 개인 네트워크용 오프라인 설치 프로그램을 다운로드해야 합니다.
+
 . Linux 호스트에 설치 프로그램을 복사합니다.
 . 스크립트를 실행할 권한을 할당합니다.
 +
 [source, cli]
 ----
-chmod +x /path/cloud-manager-connector-offline-<version>
+chmod +x /path/BlueXP-Connector-offline-<version>
 ----
 +
 여기서 <version>는 다운로드한 커넥터 버전입니다.
@@ -131,7 +134,7 @@ chmod +x /path/cloud-manager-connector-offline-<version>
 +
 [source, cli]
 ----
-sudo /path/cloud-manager-connector-offline-<version>
+sudo /path/BlueXP-Connector-offline-<version>
 ----
 +
 여기서 <version>는 다운로드한 커넥터 버전입니다.
