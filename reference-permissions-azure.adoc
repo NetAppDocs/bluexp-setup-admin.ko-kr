@@ -198,9 +198,6 @@ BlueXP 분류를 사용하여 Azure NetApp Files 데이터를 스캔할 때 커�
 
 Connector는 BlueXP 백업 및 복구를 위해 다음과 같은 API 요청을 수행합니다.
 
-* Microsoft.Compute/virtualMachines/read
-* Microsoft.Compute/virtualMachines/start/action
-* Microsoft.Compute/virtualMachines/deallocate/action
 * Microsoft.Storage/storageAccounts/listkeys/action
 * Microsoft.Storage/storageAccounts/read를 참조하십시오
 * Microsoft.Storage/storageAccounts/write입니다
@@ -223,8 +220,6 @@ Connector는 BlueXP 백업 및 복구를 위해 다음과 같은 API 요청을 �
 * Microsoft.Network/privateDnsZones/A/write
 * Microsoft.Network/privateDnsZones/read
 * Microsoft.Network/privateDnsZones/virtualNetworkLinks/read
-* Microsoft.Compute/virtualMachines/extensions/delete
-* Microsoft.Compute/virtualMachines/delete
 * Microsoft.Network/networkInterfaces/delete
 * Microsoft.Network/networkSecurityGroups/delete
 * Microsoft.Resources/Deployments/Delete 를 참조하십시오
@@ -772,6 +767,21 @@ Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2023년 12월 5일
+
+볼륨 데이터를 Azure Blob 스토리지에 백업할 때 BlueXP 백업 및 복구에 더 이상 다음 권한이 필요하지 않습니다.
+
+* Microsoft.Compute/virtualMachines/read
+* Microsoft.Compute/virtualMachines/start/action
+* Microsoft.Compute/virtualMachines/deallocate/action
+* Microsoft.Compute/virtualMachines/extensions/delete
+* Microsoft.Compute/virtualMachines/delete
+
+
+이러한 권한은 다른 BlueXP 스토리지 서비스에 필요하므로 다른 스토리지 서비스를 사용하는 경우에도 Connector의 사용자 지정 역할이 유지됩니다.
 
 
 
