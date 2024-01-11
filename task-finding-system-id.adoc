@@ -18,14 +18,14 @@ summary: 시작하려면 NetApp 담당자가 Connector의 시스템 ID를 물어
 
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택합니다.
-. 지원 > 커넥터 * 를 선택합니다.
+. Support > BlueXP Connector * 를 선택합니다.
 +
-시스템 ID가 맨 위에 나타납니다.
+시스템 ID가 페이지 상단에 나타납니다.
 
 +
 * 예 *
 
 +
-image:screenshot_system_id.gif["지원 대시보드에 표시되는 BlueXP의 시스템 ID를 보여 주는 스크린샷"]
+image:screenshot-system-id.png["지원 대시보드에 표시되는 BlueXP의 시스템 ID를 보여 주는 스크린샷"]
 
 

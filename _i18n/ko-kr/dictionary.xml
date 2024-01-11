@@ -12,11 +12,8 @@
   <block id="4d23d12ce4b0de2019310ec73c45d09b" category="doc">커넥터의 시스템 ID를 찾습니다</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="beabea313ffb3a9482595dfdd092b6c6" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택합니다.</block>
-  <block id="ee2045d2e396ef6520817ecf395d1155" category="list-text">지원 &gt; 커넥터 * 를 선택합니다.</block>
-  <block id="cd9ffc2440addbacdf692ee7105ad41f" category="paragraph">시스템 ID가 맨 위에 나타납니다.</block>
   <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">* 예 *</block>
   <block id="2529cf627b3e8b4f850e5b8e7998dea3" category="inline-image-macro">지원 대시보드에 표시되는 BlueXP의 시스템 ID를 보여 주는 스크린샷</block>
-  <block id="dd452be96917f1c62ed3d40b11c4ebf2" category="paragraph"><block ref="dd452be96917f1c62ed3d40b11c4ebf2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a31342596e31d918d08c0417177a8f77" category="list-text">Google Cloud 포털로 이동하여 Connector VM 인스턴스에 서비스 계정을 할당합니다.</block>
   <block id="81c722be01f6c1251ced26ff2ff9dd3f" category="inline-link">Google Cloud 설명서: 인스턴스에 대한 서비스 계정 및 액세스 범위 변경</block>
   <block id="c8b77e7a211a8e1bbb884962a105fc2f" category="paragraph"><block ref="c8b77e7a211a8e1bbb884962a105fc2f" category="inline-link-rx"></block></block>
@@ -952,8 +949,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. BlueXP 개선에 도움이 되는 피드백을 제출하십시오.</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp Support로 케이스 생성</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">BlueXP 로그인과 관련된 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
@@ -3842,4 +3837,17 @@ https://support.netapp.com 으로 문의하십시오
   <block id="d22d5d645d5b80561936fd406bec2118" category="section-title">2023년 12월 5일</block>
   <block id="f729237ece11d2ac3f651452a87ead32" category="paragraph">볼륨 데이터를 Azure Blob 스토리지에 백업할 때 BlueXP 백업 및 복구에 더 이상 다음 권한이 필요하지 않습니다.</block>
   <block id="fe3f6158e2c4c966c8642056658d69e0" category="paragraph">이러한 권한은 다른 BlueXP 스토리지 서비스에 필요하므로 다른 스토리지 서비스를 사용하는 경우에도 Connector의 사용자 지정 역할이 유지됩니다.</block>
+  <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024년 1월 11일</block>
+  <block id="dfbe132af57c8e3ca0aa9a94fc940839" category="section-title">커넥터 3.9.36</block>
+  <block id="c86344b833d64024dcd801a79f3f366e" category="paragraph">이 릴리스에는 다음과 같은 클라우드 지역에서 Connector에 대한 사소한 개선 사항, 버그 수정 및 지원이 포함되어 있습니다.</block>
+  <block id="5c4c535d51f9fbfc21f1baf9f449004c" category="list-text">AWS의 이스라엘(텔아비브) 지역</block>
+  <block id="c53c95f8243560e843dabb8877e4d787" category="list-text">Google Cloud의 사우디아라비아 지역</block>
+  <block id="3244421fb40bc38e67d918370813ac13" category="list-text">Support &gt; BlueXP Connector * 를 선택합니다.</block>
+  <block id="f3678f7b6e79e91c386c1443915f058a" category="paragraph">시스템 ID가 페이지 상단에 나타납니다.</block>
+  <block id="78b33f2334c7af84c813788a6be69874" category="paragraph"><block ref="78b33f2334c7af84c813788a6be69874" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="da0773230b01d6a89d37c6a470238b1c" category="section-title">Connector 버전 보기</block>
+  <block id="9135b5936981eca97dce83eb29069ca4" category="paragraph">Connector 버전을 확인하여 커넥터가 최신 릴리즈로 자동 업그레이드되었는지 또는 NetApp 담당자와 공유해야 하는지 확인할 수 있습니다.</block>
+  <block id="eb59fa7ccae5cea6d510c55c15078ce1" category="paragraph">버전이 페이지 상단에 표시됩니다.</block>
+  <block id="a2f380016f769a1938d51415013af95a" category="inline-image-macro">지원 대시보드에 커넥터 버전을 보여 주는 스크린샷</block>
+  <block id="da65ca9f7cc579e3fad52951fe45cdb6" category="paragraph"><block ref="da65ca9f7cc579e3fad52951fe45cdb6" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

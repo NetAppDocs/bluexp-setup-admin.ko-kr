@@ -39,6 +39,23 @@ link:concept-connectors.html#connectors-must-be-operational-at-all-times["커넥
 
 
 
+== Connector 버전 보기
+
+Connector 버전을 확인하여 커넥터가 최신 릴리즈로 자동 업그레이드되었는지 또는 NetApp 담당자와 공유해야 하는지 확인할 수 있습니다.
+
+.단계
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택합니다.
+. Support > BlueXP Connector * 를 선택합니다.
++
+버전이 페이지 상단에 표시됩니다.
+
++
+image:screenshot-connector-version.png["지원 대시보드에 커넥터 버전을 보여 주는 스크린샷"]
+
+
+
+
+
 == 커넥터 사이를 전환합니다
 
 커넥터가 여러 개 있는 경우 커넥터 사이를 전환하여 특정 커넥터와 연결된 작업 환경을 볼 수 있습니다.
