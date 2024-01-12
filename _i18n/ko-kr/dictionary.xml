@@ -2972,9 +2972,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="ea22f9957523103248d84695e98b17ba" category="cell">지원되는 서비스</block>
   <block id="f4c6f851b00d5518bf888815de279aba" category="cell">참고</block>
   <block id="34678ee868eeabce720fc4a0fd60c17a" category="cell">완벽한 지원</block>
-  <block id="c9a7d35c9d99037b4d9d587cc87ddf09" category="cell">제한 모드가 있는 정부 지역 및 상업 지역에서 지원됩니다. 제한된 모드의 주권 지역에서는 지원되지 않습니다.
-
-애플리케이션, 가상 시스템 및 Kubernetes는 지원되지 않습니다.</block>
   <block id="0a44fe605745a017fde35750e5fae36a" category="paragraph">제한 모드가 있는 정부 지역에서 지원됩니다. 상용 지역 또는 제한된 모드의 주권 지역에서는 지원되지 않습니다.</block>
   <block id="9bff93d1123789b473f27a881c3e00c6" category="paragraph">다음과 같은 제한 사항이 적용됩니다.</block>
   <block id="b3478a494adde25715314b14559dd6a4" category="list-text">OneDrive 계정, SharePoint 계정 및 Google Drive 계정을 검색할 수 없습니다.</block>
@@ -3019,7 +3016,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
 커넥터가 없는 검색(직접 검색)은 지원되지 않습니다.</block>
   <block id="99f9fe7adce4b6282eee924da977b6d4" category="list-text">사내 배포에서 지원되는 BlueXP 서비스</block>
   <block id="614a24e7adcef9d83ca4454cd4443cbd" category="list-text">BlueXP는 Connector를 사내에 설치할 때 다음과 같은 개인 모드로 저장 및 데이터 서비스를 지원합니다.</block>
-  <block id="1a1c1a2053d87746c09321c96ffee577" category="inline-link">사내 ONTAP 데이터를 StorageGRID에 백업하는 방법을 알아보십시오</block>
   <block id="53a7caecec393fdcc143318b6a21f701" category="list-text">지원되는 데이터 원본은 로컬에서 검색할 수 있는 원본뿐입니다.</block>
   <block id="ad85db404f0dfc2267b348299aa513b9" category="inline-link">로컬로 검색할 수 있는 소스를 봅니다</block>
   <block id="c31f6ba921f50b9fdf957e9653b25a96" category="paragraph"><block ref="c31f6ba921f50b9fdf957e9653b25a96" category="inline-link-rx"></block></block>
@@ -3040,7 +3036,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="b04b058acf83e4616c9312ab2b951050" category="paragraph">일부 서비스는 제한 사항으로 지원될 수 있습니다. 제한된 모드 및 비공개 모드에서 이러한 서비스를 지원하는 방법에 대한 자세한 내용은 위의 섹션을 참조하십시오.</block>
   <block id="aa200c19289e5050e77edc0bccc67c2b" category="cell">제품 영역</block>
   <block id="7e4b1c5ec6c6adb1fa50f4ca17076845" category="cell">BlueXP 서비스 또는 기능</block>
-  <block id="4e74f624e4d0f3f558ca01aa93696658" category="cell">* 작업 환경 *</block>
   <block id="270fcb785810d0206945029bb05f4e97" category="cell">Amazon S3</block>
   <block id="52745271323ee9ea30e3a37d0338d118" category="cell">Azure Blob</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="cell">Google 클라우드 스토리지</block>
@@ -3663,9 +3658,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="026951b63281b53e88087e2423613cad" category="example-title">비밀 영역</block>
   <block id="76187385115cd00f6a1ec1ff426ad7b5" category="example-title">주요 비밀 지역</block>
   <block id="5327be2346849398acb42586361c3fa1" category="paragraph">보안 영역에는 다음이 포함됩니다<block ref="da2732e6e9a1be4ab82a1194533aac59" category="inline-link-rx"></block>,<block ref="6f5217ea8a3f93cd9532863eb844647b" category="inline-link-rx"></block>, 및<block ref="360910fe60b5d1cf9b7056b9b6f46685" category="inline-link-rx"></block></block>
-  <block id="1b46f73bf231e8eefaf1347b4383cc0a" category="cell">AWS 및 Azure 상용 지역에서 지원됩니다.
-
-Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1be4ab82a1194533aac59" category="inline-link-rx"></block>,<block ref="6f5217ea8a3f93cd9532863eb844647b" category="inline-link-rx"></block>, 또는<block ref="360910fe60b5d1cf9b7056b9b6f46685" category="inline-link-rx"></block></block>
   <block id="fcbe8b204f3332d68f1b0f5f05c998db" category="cell">인터넷에 액세스할 수 없으므로 자동화된 소프트웨어 업그레이드 및 AutoSupport 기능을 사용할 수 없습니다.</block>
   <block id="8bb35bd6add2b83baee34c828e6acacf" category="cell">API에서는 Azure, ONTAP, BlueXP 분류 및 AutoSupport 메시지를 NetApp에 전송합니다</block>
   <block id="d80bf17e105d87b4295cb2e090a28117" category="list-text">현재 BlueXP 기능 및 서비스와 같은 BlueXP 기능 및 서비스에 대한 알림은 커넥터, BlueXP 디지털 지갑, BlueXP 복사 및 동기화, BlueXP 백업 및 복구, BlueXP 계층화, BlueXP 마이그레이션 보고서에 대한 이메일로 전송됩니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
@@ -3829,11 +3821,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다</block>
   <block id="4e208e7f54024bf731fae02025ce34d9" category="list-text"><block ref="4e208e7f54024bf731fae02025ce34d9" category="inline-link-rx"></block></block>
   <block id="a6c2003199e95310a83aa40a67058bd8" category="paragraph">인터넷 액세스 없이 개인 네트워크용 오프라인 설치 프로그램을 다운로드해야 합니다.</block>
-  <block id="592f630e8b69cd90cac093e1bdbd9dbb" category="list-text">온프레미스 ONTAP 볼륨을 StorageGRID 시스템에 백업 및 복원할 수 있습니다.</block>
-  <block id="06335b9f199e896c8eeed49a6ea11aae" category="paragraph"><block ref="06335b9f199e896c8eeed49a6ea11aae" category="inline-link-rx"></block></block>
-  <block id="74456640d8afbf406f720d7bd598b445" category="list-text">온프레미스 ONTAP 볼륨을 ONTAP S3에 백업하고 복원할 수도 있습니다.</block>
-  <block id="18bb302ce6a2bf46e1beed1133756fb6" category="inline-link">온프레미스 ONTAP 데이터를 ONTAP S3에 백업하는 방법에 대해 알아보십시오</block>
-  <block id="4befb86902877ee4e8c0bab35f4c9850" category="paragraph"><block ref="4befb86902877ee4e8c0bab35f4c9850" category="inline-link-rx"></block></block>
   <block id="d22d5d645d5b80561936fd406bec2118" category="section-title">2023년 12월 5일</block>
   <block id="f729237ece11d2ac3f651452a87ead32" category="paragraph">볼륨 데이터를 Azure Blob 스토리지에 백업할 때 BlueXP 백업 및 복구에 더 이상 다음 권한이 필요하지 않습니다.</block>
   <block id="fe3f6158e2c4c966c8642056658d69e0" category="paragraph">이러한 권한은 다른 BlueXP 스토리지 서비스에 필요하므로 다른 스토리지 서비스를 사용하는 경우에도 Connector의 사용자 지정 역할이 유지됩니다.</block>
@@ -3850,4 +3837,29 @@ https://support.netapp.com 으로 문의하십시오
   <block id="eb59fa7ccae5cea6d510c55c15078ce1" category="paragraph">버전이 페이지 상단에 표시됩니다.</block>
   <block id="a2f380016f769a1938d51415013af95a" category="inline-image-macro">지원 대시보드에 커넥터 버전을 보여 주는 스크린샷</block>
   <block id="da65ca9f7cc579e3fad52951fe45cdb6" category="paragraph"><block ref="da65ca9f7cc579e3fad52951fe45cdb6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="34c6561859a3a97caa0248fbb4372124" category="inline-link">ONTAP 데이터에 대해 지원되는 백업 대상 목록을 봅니다</block>
+  <block id="b78582359876713ba71594c58c688056" category="cell">제한 모드가 있는 정부 지역 및 상업 지역에서 지원됩니다. 제한된 모드의 주권 지역에서는 지원되지 않습니다.
+
+제한된 모드에서 BlueXP 백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다.<block ref="db0a18d2a99588054f71bf6c0bd14abb" category="inline-link-rx"></block>
+
+애플리케이션 데이터, 가상 머신 데이터 및 Kubernetes 데이터의 백업 및 복원은 지원되지 않습니다.</block>
+  <block id="daf7166d96d9be504340c5f0fca638a4" category="cell">AWS 및 Azure 상용 지역에서 지원됩니다.
+
+Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1be4ab82a1194533aac59" category="inline-link-rx"></block>,<block ref="6f5217ea8a3f93cd9532863eb844647b" category="inline-link-rx"></block>, 또는<block ref="360910fe60b5d1cf9b7056b9b6f46685" category="inline-link-rx"></block>
+
+프라이빗 모드에서 BlueXP 백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다.<block ref="178bedf5671592d86ab011b6af0333e7" category="inline-link-rx"></block>
+
+애플리케이션 데이터, 가상 머신 데이터 및 Kubernetes 데이터의 백업 및 복원은 지원되지 않습니다.</block>
+  <block id="b17e900e063883a32cc6ff0df77599bf" category="inline-link">ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다</block>
+  <block id="652dc029a5083b41e38c79d0e4d16733" category="paragraph">프라이빗 모드에서 BlueXP 백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다.<block ref="eebf709c38a40036acede282fbe8b80c" category="inline-link-rx"></block></block>
+  <block id="f85eecb0561afa9ea5f5e20833e958c3" category="paragraph">애플리케이션 데이터, 가상 머신 데이터 및 Kubernetes 데이터의 백업 및 복원은 지원되지 않습니다.</block>
+  <block id="d0622c7af7b2cc2435986b2d005d8fc3" category="cell">* 작업 환경 *
+
+표의 이 부분에는 BlueXP 캔버스에서 작업 환경 관리를 위한 지원이 나와 있습니다. BlueXP 백업 및 복구에 지원되는 백업 대상은 표시되지 않습니다.</block>
+  <block id="156b68e03278a01a3d2781f8c900caac" category="cell">예
+
+<block ref="14c876cb6a245f558ae78bae571d2b6e" category="inline-link-rx"></block></block>
+  <block id="fa0738e12b2324073fa9b5f91af71e48" category="cell">예
+
+<block ref="42dbd2df9d57eeeb664cce05b5a35bf1" category="inline-link-rx"></block></block>
 </blocks>

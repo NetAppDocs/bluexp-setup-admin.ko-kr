@@ -158,7 +158,9 @@ API 종점:: API 호출은 다음 끝점에 대해 이루어집니다.
 
 | 백업 및 복구 | 제한 모드가 있는 정부 지역 및 상업 지역에서 지원됩니다. 제한된 모드의 주권 지역에서는 지원되지 않습니다.
 
-애플리케이션, 가상 시스템 및 Kubernetes는 지원되지 않습니다. 
+제한된 모드에서 BlueXP 백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-restricted-mode["ONTAP 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^]
+
+애플리케이션 데이터, 가상 머신 데이터 및 Kubernetes 데이터의 백업 및 복원은 지원되지 않습니다. 
 
 
 | 분류  a| 
@@ -254,7 +256,11 @@ API 종점:: API 호출은 Connector 가상 시스템으로 이루어집니다.
 
 | 백업 및 복구 | AWS 및 Azure 상용 지역에서 지원됩니다.
 
-Google Cloud 또는 에서는 지원되지 않습니다 https://aws.amazon.com/federal/secret-cloud/["AWS 비밀 클라우드"^], https://aws.amazon.com/federal/top-secret-cloud/["AWS Top Secret Cloud의 약어입니다"^], 또는 https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-dod-il6["Azure iL6"^] 
+Google Cloud 또는 에서는 지원되지 않습니다 https://aws.amazon.com/federal/secret-cloud/["AWS 비밀 클라우드"^], https://aws.amazon.com/federal/top-secret-cloud/["AWS Top Secret Cloud의 약어입니다"^], 또는 https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-dod-il6["Azure iL6"^]
+
+프라이빗 모드에서 BlueXP 백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-private-mode["ONTAP 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^]
+
+애플리케이션 데이터, 가상 머신 데이터 및 Kubernetes 데이터의 백업 및 복원은 지원되지 않습니다. 
 
 
 | Cloud Volumes ONTAP | 인터넷에 액세스할 수 없으므로 자동화된 소프트웨어 업그레이드 및 AutoSupport 기능을 사용할 수 없습니다. 
@@ -277,15 +283,9 @@ Google Cloud 또는 에서는 지원되지 않습니다 https://aws.amazon.com/f
 
 
 | 백업 및 복구  a| 
-* 온프레미스 ONTAP 볼륨을 StorageGRID 시스템에 백업 및 복원할 수 있습니다.
-+
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["사내 ONTAP 데이터를 StorageGRID에 백업하는 방법을 알아보십시오"^]
+프라이빗 모드에서 BlueXP 백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-private-mode["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^]
 
-* 온프레미스 ONTAP 볼륨을 ONTAP S3에 백업하고 복원할 수도 있습니다.
-+
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-to-ontap-s3.html["온프레미스 ONTAP 데이터를 ONTAP S3에 백업하는 방법에 대해 알아보십시오"^]
-
-
+애플리케이션 데이터, 가상 머신 데이터 및 Kubernetes 데이터의 백업 및 복원은 지원되지 않습니다.
 
 
 
@@ -343,7 +343,9 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 | 제품 영역 | BlueXP 서비스 또는 기능 | 제한된 모드 | 비공개 모드 
 
 
-.11+| * 작업 환경 * | ONTAP용 Amazon FSx | 예 | 아니요 
+.11+| * 작업 환경 *
+
+표의 이 부분에는 BlueXP 캔버스에서 작업 환경 관리를 위한 지원이 나와 있습니다. BlueXP 백업 및 복구에 지원되는 백업 대상은 표시되지 않습니다. | ONTAP용 Amazon FSx | 예 | 아니요 
 
 
 | Amazon S3 | 아니요 | 아니요 
@@ -376,7 +378,11 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 | StorageGRID | 아니요 | 아니요 
 
 
-.16+| 서비스 * | 백업 및 복구 | 예 | 예 
+.16+| 서비스 * | 백업 및 복구 | 예
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-restricted-mode["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] | 예
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-private-mode["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 
 
 
 | 분류 | 예 | 예 
