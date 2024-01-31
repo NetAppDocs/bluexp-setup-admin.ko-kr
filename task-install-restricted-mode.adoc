@@ -192,7 +192,7 @@ link:reference-ports-azure.html["Azure의 보안 그룹 규칙을 봅니다"].
 
 ** * ID *: * Management * 에서 * 시스템에서 할당한 관리 ID 활성화 * 를 선택합니다.
 +
-이 설정은 커넥터 가상 시스템이 자격 증명을 제공하지 않고 Azure Active Directory에 자신을 식별할 수 있도록 관리되는 ID를 허용하므로 중요합니다. https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["Azure 리소스의 관리 ID에 대해 자세히 알아보십시오"^].
+이 설정은 관리되는 ID를 통해 Connector 가상 컴퓨터가 자격 증명을 제공하지 않고 Microsoft Entra ID를 식별할 수 있기 때문에 중요합니다. https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["Azure 리소스의 관리 ID에 대해 자세히 알아보십시오"^].
 
 
 
@@ -440,7 +440,7 @@ image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아
 . 자격 증명 추가 * 를 선택하고 마법사의 단계를 따릅니다.
 +
 .. * 자격 증명 위치 *: * Microsoft Azure > 커넥터 * 를 선택합니다.
-.. * 자격 증명 정의 *: 필요한 권한을 부여하는 Azure Active Directory 서비스 보안 주체에 대한 정보를 입력합니다.
+.. * 자격 증명 정의 *: 필요한 권한을 부여하는 Microsoft Entra 서비스 보안 주체에 대한 정보를 입력합니다.
 +
 *** 애플리케이션(클라이언트) ID입니다
 *** 디렉토리(테넌트) ID입니다

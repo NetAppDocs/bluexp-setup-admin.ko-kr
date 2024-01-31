@@ -176,6 +176,9 @@ Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아�
 --
 
 
+NTP를 활성화합니다:: BlueXP 분류를 사용하여 회사 데이터 소스를 검사하려는 경우 BlueXP Connector 시스템과 BlueXP 분류 시스템 모두에서 NTP(Network Time Protocol) 서비스를 활성화하여 시스템 간에 시간이 동기화되도록 해야 합니다. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 자세히 알아보십시오"^]
+
+
 
 
 == 3단계: 커넥터에 대한 사용 권한을 설정합니다

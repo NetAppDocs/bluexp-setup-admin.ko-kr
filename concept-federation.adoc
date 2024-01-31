@@ -56,7 +56,7 @@ ID 페더레이션은 SAML(Security Assertion Markup Language 2.0) 및 OIDC(Open
 BlueXP는 다음과 같은 ID 공급자를 지원합니다.
 
 * SAML(Security Assertion Markup Language) ID 공급자
-* Microsoft Azure AD(Active Directory)
+* Microsoft Entra ID입니다
 * ADFS(Active Directory Federation Services)
 * PingFederate(PingFederate)
 
@@ -129,9 +129,9 @@ NOTE: 인증서 만료 날짜를 기록해 둡니다. Federation Setup 페이지
 |===
 
 
-=== Microsoft Azure AD를 참조하십시오
+=== Microsoft Entra ID입니다
 
-BlueXP와 Azure AD 간의 페더레이션 연결을 설정하는 단계는 다음과 같습니다.
+BlueXP와 Microsoft Entra ID 간에 페더레이션 연결을 설정하는 단계는 다음과 같습니다.
 
 [cols="10,15,75"]
 |===
@@ -139,9 +139,9 @@ BlueXP와 Azure AD 간의 페더레이션 연결을 설정하는 단계는 다�
 
 
 | 1 | AD 관리자  a| 
-BlueXP와 ID 페더레이션을 사용하도록 Azure Active Directory를 구성합니다.
+BlueXP와 ID 통합을 지원하도록 Microsoft Entra ID를 구성합니다.
 
-https://auth0.com/docs/authenticate/identity-providers/enterprise-identity-providers/azure-active-directory/v2["Azure AD에 응용 프로그램을 등록하는 방법에 대한 지침을 봅니다"^]
+https://auth0.com/docs/authenticate/identity-providers/enterprise-identity-providers/azure-active-directory/v2["Microsoft Entra ID로 응용 프로그램을 등록하는 방법에 대한 지침을 봅니다"^]
 
 
 TIP: auth0에서 연결을 만드는 방법을 설명하는 단계를 _NOT_완료하십시오. 다음 단계에서 해당 연결을 만듭니다.
@@ -155,7 +155,7 @@ TIP: auth0에서 연결을 만드는 방법을 설명하는 단계를 _NOT_완�
 
 * 클라이언트 ID입니다
 * 클라이언트 암호 값입니다
-* Microsoft Azure AD 도메인입니다
+* Microsoft Entra ID 도메인입니다
 
 
 이 정보를 사용하여 연결을 만든 후 페더레이션 설정 페이지에는 다음 단계에서 구성을 완료하기 위해 AD 관리자에게 보낼 수 있는 매개 변수가 나열됩니다.
@@ -165,7 +165,7 @@ NOTE: 비밀 키 만료 날짜를 기록해 두십시오. Federation Setup 페�
 
 
 
-| 3 | AD 관리자 | 2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 Azure AD의 구성을 완료합니다. 
+| 3 | AD 관리자 | 2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 Microsoft Entra ID에서 구성을 완료합니다. 
 
 
 | 4 | BlueXP 관리자 | 에서 연결을 테스트하고 활성화합니다 https://services.cloud.netapp.com/federation-setup["NetApp Federation 설정 페이지"^]

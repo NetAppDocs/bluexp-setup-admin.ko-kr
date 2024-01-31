@@ -61,7 +61,6 @@
   <block id="ca5c14dd1767138ec0ae60d1c4d7a128" category="list-text">필요한 권한이 있는 Microsoft 계정에 로그인하려면 * Azure 사용자 계정 * 을 선택합니다.</block>
   <block id="e0f74d06e87b3ad6fc9f3b3cfc573c38" category="paragraph">이 양식은 Microsoft에서 소유하고 호스팅됩니다. 자격 증명이 NetApp에 제공되지 않습니다.</block>
   <block id="49e88457c3aa8d56ebf17eb8460a3eb8" category="admonition">이미 Azure 계정에 로그인한 경우 BlueXP에서 해당 계정을 자동으로 사용합니다. 계정이 여러 개인 경우 먼저 로그아웃해야 올바른 계정을 사용할 수 있습니다.</block>
-  <block id="0a3420a284048b3146bfedfda39bc929" category="list-text">Active Directory 서비스 보안 주체 * 를 선택하여 필요한 권한을 부여하는 Azure Active Directory 서비스 보안 주체에 대한 정보를 입력합니다.</block>
   <block id="5f92aba7d335e90da33ac643d56ed817" category="list-text">애플리케이션(클라이언트) ID입니다</block>
   <block id="ac1fdeeca5975112ea2d53b754a4c94f" category="list-text">디렉토리(테넌트) ID입니다</block>
   <block id="734082edf44417dd19cc65943aa65c36" category="list-text">클라이언트 암호</block>
@@ -586,7 +585,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 선택합니다.</block>
   <block id="85b9386ed443776127e099931d73448a" category="list-text">메시지가 표시되면 * 계속 * 을 선택하여 Microsoft 로그인 페이지로 리디렉션합니다.</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">이러한 작업을 통해 BlueXP는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
@@ -608,19 +606,9 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="f8c7ce78aaf937671ef25c9c931e368e" category="list-text"><block ref="f8c7ce78aaf937671ef25c9c931e368e" category="inline-link-rx"></block></block>
   <block id="a37ea04c3e1568f7c0e8e6abc9104d40" category="inline-link">선불 종량제 시스템을 등록하는 중입니다</block>
   <block id="b973035f0b680495b14f344d6beef53c" category="list-text"><block ref="b973035f0b680495b14f344d6beef53c" category="inline-link-rx"></block></block>
-  <block id="bdc3d022de69262bc7cb126fddac2df3" category="section-title">NSS 계정을 업데이트하여 새 인증 방법을 확인합니다</block>
-  <block id="759f5e4f5dca6e6753e9254efed21ea1" category="paragraph">2021년 11월부터 NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다. 이 업데이트의 결과로 BlueXP는 이전에 추가한 기존 계정의 자격 증명을 업데이트하라는 메시지를 표시합니다.</block>
-  <block id="a8ee828dbf9ffbba52ad9d7c1d04242a" category="inline-link">현재 BlueXP 계정에 연결할 Microsoft Azure Active Directory B2C 계정을 만듭니다</block>
-  <block id="4ca24677e66997a22608e9d0d222f780" category="list-text">아직 수행하지 않았다면<block ref="7a8e518e973906b81bf65d6cae725be0" category="inline-link-rx"></block>.</block>
   <block id="b7d544e19d5b26255a1df1dd3e33d678" category="list-text">NSS 관리 * 를 선택합니다.</block>
-  <block id="de427ea5ca6af7aba62b71992e7b574a" category="list-text">업데이트할 NSS 계정의 경우 * 계정 업데이트 * 를 선택합니다.</block>
-  <block id="d351b79158a130fb8ea25841a60a3d92" category="inline-image-macro">계정 업데이트 옵션을 보여 주는 스크린샷</block>
-  <block id="8c513892354d080911596538a0a8e779" category="paragraph"><block ref="8c513892354d080911596538a0a8e779" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="12e10a54c3e2f5a33f8aa5731c8309bd" category="paragraph">프로세스가 완료되면 업데이트한 계정이 이제 테이블에 _new_account 로 나열됩니다. 기존 작업 환경 연관을 비롯하여 계정의 _listed_version이 테이블에 계속 나열되어 있습니다.</block>
   <block id="5f74d1c3714e49926cf5f752029ebcc2" category="inline-xref">이러한 작업 환경을 다른 NSS 계정에 연결합니다</block>
-  <block id="fa867fa0605c678ee51d2260103bd8bf" category="list-text">기존 Cloud Volumes ONTAP 작업 환경이 기존 버전의 계정에 연결된 경우, 다음 ~ 단계를 수행하십시오 <block ref="ac2d4b7aa5ce32d2814e2f5e96d09326" category="inline-xref-macro-rx"></block>.</block>
   <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">세 개의 나란히 점이 있는 아이콘입니다</block>
-  <block id="957061f35945035f7619d487eeae3396" category="list-text">NSS 계정의 이전 버전으로 이동하고 를 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 삭제 * 를 선택합니다.</block>
   <block id="8cb2ff10d15cea1a460cee3b506d5a6c" category="section-title">NSS 자격 증명을 업데이트합니다</block>
   <block id="90488de845793cd541dd12866e86b44a" category="paragraph">다음 중 하나가 발생할 경우 BlueXP의 NSS 계정에 대한 자격 증명을 업데이트해야 합니다.</block>
   <block id="d7fb44c1919b66d02d93dc18ebb82756" category="list-text">계정의 자격 증명을 변경합니다</block>
@@ -630,7 +618,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="2aa3557242cb0eddbff8233ad0c81a45" category="paragraph"><block ref="2aa3557242cb0eddbff8233ad0c81a45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="297e9bab56e72eca06bc12c5f89c3007" category="section-title">작업 환경을 다른 NSS 계정에 연결합니다</block>
   <block id="8b65cb7585cade7e7c6df120ae10da1b" category="paragraph">조직에 여러 NetApp Support 사이트 계정이 있는 경우 Cloud Volumes ONTAP 시스템과 연결된 계정을 변경할 수 있습니다.</block>
-  <block id="71030de456dade7df9dd4194ac0cc64e" category="paragraph">이 기능은 NetApp에서 ID 관리를 위해 채택한 Microsoft Azure AD를 사용하도록 구성된 NSS 계정에서만 지원됩니다. 이 기능을 사용하려면 * NSS 계정 추가 * 또는 * 계정 업데이트 * 를 선택해야 합니다.</block>
   <block id="2b1290920584c08c2e2b07569cf0a3b0" category="list-text">NSS 계정을 변경하려면 다음 단계를 수행하십시오.</block>
   <block id="7ebef2f036d00a5760c52a09582f43b4" category="list-text">작업 환경이 현재 연결되어 있는 NetApp Support 사이트 계정의 행을 확장합니다.</block>
   <block id="4ff944075f223ced34dfceaeee89f003" category="list-text">연결을 변경할 작업 환경의 경우 을 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block></block>
@@ -639,7 +626,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="11ecc3de6ba7beb5561699b813f5f452" category="paragraph"><block ref="11ecc3de6ba7beb5561699b813f5f452" category="inline-image-macro-rx" type="image"></block></block>
   <block id="17b44f0405de560bdd9ba352b67adb7a" category="list-text">계정을 선택한 다음 * 저장 * 을 선택합니다.</block>
   <block id="504f62cd55407d98070b45659035b7f5" category="section-title">NSS 계정의 이메일 주소를 표시합니다</block>
-  <block id="b740e07b8f623825c65d7d54111e7561" category="paragraph">NetApp Support 사이트 계정이 인증 서비스를 위해 Microsoft Azure Active Directory를 사용하므로 일반적으로 BlueXP에 표시되는 NSS 사용자 이름은 Azure AD에서 생성된 식별자입니다. 따라서 해당 계정과 연결된 전자 메일 주소를 즉시 알지 못할 수 있습니다. 그러나 BlueXP에는 관련 이메일 주소를 표시하는 옵션이 있습니다.</block>
   <block id="a74d4f6da1f4962caa974b5e68852f05" category="admonition">NSS 관리 페이지로 이동하면 BlueXP에서 표의 각 계정에 대한 토큰을 생성합니다. 이 토큰에는 연결된 이메일 주소에 대한 정보가 포함됩니다. 그런 다음 페이지를 나갈 때 토큰이 제거됩니다. 정보는 캐싱되지 않으며 개인 정보를 보호하는 데 도움이 됩니다.</block>
   <block id="fb62719b7db2f72c6247845a1f5cbcb1" category="list-text">업데이트할 NSS 계정의 경우 를 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 이메일 주소 표시 * 를 선택합니다.</block>
   <block id="51f80facd7c70833cf77adf937c57d0f" category="inline-image-macro">이메일 주소를 표시할 수 있는 기능이 포함된 NetApp Support 사이트 계정의 작업 메뉴를 보여주는 스크린샷</block>
@@ -1017,15 +1003,12 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="daa8ebdcea8faf9c0a905610b976465d" category="inline-link-macro">관리되는 ID를 해당 구독과 연결합니다</block>
   <block id="e9449a821e5687d61739e39e9c79898a" category="paragraph">Connector VM에 할당된 시스템 할당 관리 ID는 Connector를 시작한 구독과 연결됩니다. 다른 Azure 구독을 선택하려면 를 수행해야 합니다 <block ref="f01caac2e85764bbee287cdcbf568231" category="inline-link-macro-rx"></block>.</block>
   <block id="87201b9d2d1782996b39bbbe3547cd00" category="section-title">추가 Azure 자격 증명</block>
-  <block id="65362b4c54ef572e25b742c44ba41e3e" category="inline-link-macro">Azure Active Directory에서 서비스 보안 주체 만들기 및 설정</block>
-  <block id="008c03a90ac1fbf6c15706a19f919f3b" category="paragraph">BlueXP에서 다른 Azure 자격 증명을 사용하려면 에서 필요한 권한을 부여해야 합니다 <block ref="551303c9f711674f6fbd417b1f488bc0" category="inline-link-macro-rx"></block> 각 Azure 계정에 대해. 다음 그림에서는 두 개의 추가 계정을 보여 줍니다. 각 계정에는 권한을 제공하는 서비스 보안 주체와 사용자 지정 역할이 설정되어 있습니다.</block>
   <block id="21df124adba9039de035d33b17717b15" category="inline-image-macro">사용자 지정 역할 및 관리 ID를 통해 권한을 받는 초기 Azure 계정과 사용자 지정 역할 및 서비스 보안 주체를 통해 권한을 받는 두 개의 추가 계정을 보여 주는 개념 이미지입니다.</block>
   <block id="0d613716f3793197f23817b5b3a36ec3" category="paragraph"><block ref="0d613716f3793197f23817b5b3a36ec3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9d28e4868b7fcb2d0b7ab54f9d7f7b3c" category="inline-link-macro">계정 자격 증명을 BlueXP에 추가합니다</block>
   <block id="f25b2b221edfa2bdf4fb0df0c1b2c9d5" category="paragraph">그러면 됩니다 <block ref="d81a76d92186f9ebef738a7789fc0680" category="inline-link-macro-rx"></block> AD 서비스 보안 주체에 대한 세부 정보를 제공합니다.</block>
   <block id="eb99e348d38c212372a6e836f66f7356" category="paragraph">예를 들어, 새 Cloud Volumes ONTAP 작업 환경을 생성할 때 자격 증명 간에 전환할 수 있습니다.</block>
   <block id="018f02432b76c440f6d0c2a5da5a1a5d" category="paragraph">위 섹션에서는 BlueXP의 커넥터에 권장되는 배포 방법에 대해 설명합니다. Azure Marketplace에서 Connector를 배포할 수도 있고, 자신의 Linux 호스트에 Connector 소프트웨어를 설치할 수도 있습니다.</block>
-  <block id="f0e36fc8cdf840530f36b60220f9185b" category="paragraph">Marketplace를 사용하는 경우 Connector VM 및 시스템에 할당된 관리되는 ID에 사용자 지정 역할을 할당하여 사용 권한을 제공하거나 Azure AD 서비스 보안 주체를 사용할 수 있습니다.</block>
   <block id="a5cd95b551d8bf545c63c76c6fb91786" category="paragraph">온-프레미스 배포의 경우 Connector에 대해 관리되는 ID를 설정할 수 없지만 서비스 보안 주체를 사용하여 권한을 제공할 수 있습니다.</block>
   <block id="53c512e9599c71e1a585d636a5229820" category="list-text">표준 모드</block>
   <block id="4275ae61422c34253a59329bd20a0449" category="inline-link-macro">Azure 권한을 설정합니다</block>
@@ -1110,13 +1093,9 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="a4a42c8639c0aa2e10cb3a3eaaae664b" category="paragraph">Connector가 구내에 설치된 경우 이 인증 방법을 사용해야 합니다. IAM 역할을 사용할 수 없습니다.</block>
   <block id="c6a2a62c2d06a1633aadd355cae5e2d6" category="paragraph">이제 필요한 권한이 있는 IAM 사용자를 위한 액세스 키가 있어야 합니다. Connector를 설치한 후 이러한 자격 증명을 BlueXP의 커넥터와 연결해야 합니다.</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="open-title">Azure를 지원합니다</block>
-  <block id="0180cc84ac01ea354335e5e4c42027db" category="paragraph">Connector가 사내에 설치된 경우 Azure Active Directory에 서비스 보안 주체를 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 BlueXP에 Azure 권한을 제공해야 합니다.</block>
-  <block id="ac572c9e1fee2fbf598102a8524251e8" category="list-title">역할 기반 액세스 제어를 위해 Azure Active Directory 응용 프로그램을 만듭니다</block>
   <block id="2189e37a9b7c751d238d4e13fd8f634b" category="list-text">Azure에서 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당할 수 있는 권한이 있는지 확인합니다.</block>
   <block id="9e0b4c608c2ed027fef07ddc68aae407" category="inline-link">Microsoft Azure 문서: 필요한 권한</block>
-  <block id="c9bae6707a626ab71ed3b97345b5becf" category="list-text">Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.</block>
   <block id="2edcc284e8171b76333ca90d4cda988f" category="inline-image-macro">에는 Microsoft Azure의 Active Directory 서비스가 나와 있습니다.</block>
-  <block id="2947c6ef91b5c925ae2fcec9d7750590" category="paragraph"><block ref="2947c6ef91b5c925ae2fcec9d7750590" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c9034af778b085a9440ffcb8389cc4db" category="list-text">응용 프로그램에 대한 세부 정보를 지정합니다.</block>
   <block id="46beecb01aa2327ae1886dfc53955977" category="list-text">* 이름 *: 응용 프로그램의 이름을 입력합니다.</block>
   <block id="c1433d2b36933dc034014d989542d7e9" category="list-text">* 계정 유형 *: 계정 유형을 선택합니다(모두 BlueXP에서 사용 가능).</block>
@@ -1158,16 +1137,10 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="1e957f13620bb4b87171f37fc42387b1" category="paragraph"><block ref="1e957f13620bb4b87171f37fc42387b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f7cb8eeaecd418d11a034c2be7337f33" category="list-title">응용 프로그램의 응용 프로그램 ID 및 디렉터리 ID를 가져옵니다</block>
   <block id="e762ce4f71e8abc9d8deee4d4b7277fe" category="list-text">응용 프로그램(클라이언트) ID * 와 * 디렉터리(테넌트) ID * 를 복사합니다.</block>
-  <block id="8fd7e29954792b2ee199fcf4fb0e7dec" category="inline-image-macro">Azure Active Directory의 응용 프로그램에 대한 응용 프로그램(클라이언트) ID 및 디렉터리(테넌트) ID를 보여 주는 스크린샷</block>
-  <block id="825a40e15534f0cdcdd95391c6eb18c2" category="paragraph"><block ref="825a40e15534f0cdcdd95391c6eb18c2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6f49aa80c50bf9d897f387113aee3a15" category="paragraph">Azure 계정을 BlueXP에 추가하는 경우 응용 프로그램의 응용 프로그램(클라이언트) ID와 디렉터리(테넌트) ID를 제공해야 합니다. BlueXP는 ID를 사용하여 프로그래밍 방식으로 로그인합니다.</block>
   <block id="3a1ecf20407e16f0524dacb991fefae3" category="list-title">클라이언트 암호를 생성합니다</block>
-  <block id="eeae8e1dd73b92b26863247fdba559d5" category="list-text">Azure Active Directory * 서비스를 엽니다.</block>
   <block id="56c696c4118c8dc3d2947c159fdbbb7c" category="list-text">비밀과 기간에 대한 설명을 제공하십시오.</block>
   <block id="a91d60261e2974b6b9f5d3d3d0abacdd" category="list-text">클라이언트 암호 값을 복사합니다.</block>
-  <block id="5a3a4c596a95b6a9851a1c7b6539b0ea" category="inline-image-macro">Azure AD 서비스 보안 주체에 대한 클라이언트 암호를 보여 주는 Azure 포털의 스크린샷</block>
-  <block id="7c5f29026f30af547f4c1e9a0f0854e6" category="paragraph"><block ref="7c5f29026f30af547f4c1e9a0f0854e6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="023ea1edce87fad0b64c3daf1301e63a" category="paragraph">이제 BlueXP에서 Azure AD를 인증하는 데 사용할 수 있는 클라이언트 암호가 있습니다.</block>
   <block id="62089e33eb517da2e77f2dbae303746e" category="paragraph">이제 서비스 보안 주체가 설정되었으므로 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사해야 합니다. Connector를 설치한 후 이러한 자격 증명을 BlueXP의 커넥터와 연결해야 합니다.</block>
   <block id="b6bbae5bdf4c539603a70f4db19e6b04" category="summary">구내 커넥터를 설치한 다음 로그인하여 BlueXP 계정과 작동하도록 설정합니다.</block>
   <block id="1fb392a56edc456b1bc3eddb57b0906b" category="doc">온-프레미스에 커넥터를 설치하고 설정합니다</block>
@@ -1465,7 +1438,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="201a0e8a9a7e1b007b99b4e4c24c017d" category="open-title">Azure 서비스 보안 주체</block>
   <block id="e326875367720b38c29c8fa0afd491be" category="paragraph">이전에 설정한 Azure 서비스 보안 주체에 대한 자격 증명을 BlueXP에 제공합니다.</block>
   <block id="58cf09b42fff9dfb526ddbf232538ae2" category="list-text">* 자격 증명 위치 *: * Microsoft Azure &gt; 커넥터 * 를 선택합니다.</block>
-  <block id="5d1285233566f1379ef88c010de06abc" category="list-text">* 자격 증명 정의 *: 필요한 권한을 부여하는 Azure Active Directory 서비스 보안 주체에 대한 정보를 입력합니다.</block>
   <block id="3612e0e7a44ec38da1e226c618526f91" category="open-title">Google Cloud 서비스 계정</block>
   <block id="4b6fbf3b382ce342b57bbdb4fe0d6baf" category="paragraph">서비스 계정을 Connector VM에 연결합니다.</block>
   <block id="9ef43b020d41cab5808d78fdf855c429" category="section-title">초기 AWS 자격 증명</block>
@@ -1811,10 +1783,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="afd82a1708e69d4da8a44f0cbee4ae9c" category="section-title">NetApp Support 사이트 계정을 위해 업데이트해야 합니다</block>
   <block id="cd9cf4a2a1c115f8da1d3cd4b0b783dd" category="paragraph">2021년 12월부터 NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다. 이 업데이트의 결과로, Cloud Manager에서 이전에 추가한 기존 NetApp Support 사이트 계정의 자격 증명을 업데이트하라는 메시지를 표시합니다.</block>
   <block id="a47acc65b2885cddfc6096e5aa5324f7" category="paragraph">NSS 계정을 IDaaS로 마이그레이션하지 않은 경우 먼저 계정을 마이그레이션한 다음 Cloud Manager에서 자격 증명을 업데이트해야 합니다.</block>
-  <block id="d843af49cdcc73f67f6a04467ff7a5b1" category="inline-link-macro">NSS 계정을 새 인증 방법으로 업데이트하는 방법을 알아봅니다</block>
-  <block id="39324a4f3b6b149e18eccdfc7337abd7" category="list-text"><block ref="3c862e0ed1419b55d2a034c234cd6671" category="inline-link-macro-rx"></block>.</block>
-  <block id="b48762bb68eb4f8c518d5be6f1c76d16" category="inline-link">NetApp에서 ID 관리를 위해 Microsoft Azure AD를 사용하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="d9031e6782c3419c7b81c9c83572daf7" category="list-text"><block ref="d9031e6782c3419c7b81c9c83572daf7" category="inline-link-rx"></block></block>
   <block id="3d0f9c18d87223bbfa0a981f08fc2ba8" category="section-title">Cloud Volumes ONTAP의 NSS 계정을 변경합니다</block>
   <block id="e99f30e825d98bd08033ec588636b5fc" category="paragraph">조직에 여러 NetApp Support 사이트 계정이 있는 경우, 이제 Cloud Volumes ONTAP 시스템과 연결된 계정을 변경할 수 있습니다.</block>
   <block id="410c9dea5614a1c565dab22836dac506" category="inline-link-macro">작업 환경을 다른 NSS 계정에 연결하는 방법에 대해 알아봅니다</block>
@@ -2152,7 +2120,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="608216b752e1b11f41d17b75b772c3a3" category="paragraph">IAM 사용자에 대한 권한 및 액세스 키를 설정합니다. Connector를 설치하고 BlueXP를 설정한 후 BlueXP에 AWS 액세스 키를 제공해야 합니다.</block>
   <block id="5850d39c612d40f90f438e324ad5d585" category="paragraph">이제 계정에 필요한 권한이 있습니다.</block>
   <block id="e204418b1dd1e0b04b4cf51c3a87d8b4" category="paragraph">필요한 권한이 있는 Azure 사용자 지정 역할을 만듭니다. 이 역할을 Connector VM에 할당합니다.</block>
-  <block id="a05caac06592f9dd951208e6ba7ea716" category="paragraph">Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 얻습니다. Connector를 설치하고 BlueXP를 설정한 후 이러한 자격 증명을 BlueXP에 제공해야 합니다.</block>
   <block id="173005bb35533114a1987fe6db4b3ce0" category="list-title">응용 프로그램에 사용자 지정 역할을 할당합니다</block>
   <block id="0f49f1997355db31e21cf44f968bde0d" category="paragraph">이제 서비스 보안 주체가 설정되었으므로 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사해야 합니다. Azure 계정을 추가할 때 BlueXP에 이 정보를 입력해야 합니다.</block>
   <block id="1ed6266d74ad49161a59212a6ae176ed" category="paragraph">역할을 생성하여 Connector VM 인스턴스에 사용할 서비스 계정에 적용합니다.</block>
@@ -2243,7 +2210,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="f1a3fd4ef355aad263b4de618c67166b" category="section-title">지원되는 ID 공급자</block>
   <block id="7d141767127fe81f539e933e77b452bf" category="paragraph">BlueXP는 다음과 같은 ID 공급자를 지원합니다.</block>
   <block id="a07e97604d6d44417ed607f955f75bb4" category="list-text">SAML(Security Assertion Markup Language) ID 공급자</block>
-  <block id="6ed3014fadd3eec5c63b090c750c1377" category="list-text">Microsoft Azure AD(Active Directory)</block>
   <block id="00f7a7902fa21b12c977cbf65a600530" category="list-text">ADFS(Active Directory Federation Services)</block>
   <block id="8be692f2d7f8fe746b9e4a80e973c3ab" category="list-text">PingFederate(PingFederate)</block>
   <block id="b3a90c39fbb2a07cca4a396cdcfbcda7" category="paragraph">BlueXP는 서비스 공급업체에서 시작한(SP 시작) SSO만 지원합니다. ID 공급자 시작(IDP 시작) SSO는 지원되지 않습니다.</block>
@@ -2291,17 +2257,10 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="77515c9e6cbb6a15e2cb738105271642" category="cell">에서 연결을 테스트하고 활성화합니다<block ref="635463d6f42fa56c4a5df120d7d58405" category="inline-link-rx"></block>
 
 연결 테스트와 연결 설정 간에 페이지가 새로 고쳐집니다.</block>
-  <block id="6e9feb3d8b1d2610e025f8bd1e048c93" category="section-title">Microsoft Azure AD를 참조하십시오</block>
-  <block id="fa292d75bd72ae1e1506c8f6c8e39fa3" category="paragraph">BlueXP와 Azure AD 간의 페더레이션 연결을 설정하는 단계는 다음과 같습니다.</block>
-  <block id="9149dec1c87108fda2f607ad7f9d0f7c" category="paragraph">BlueXP와 ID 페더레이션을 사용하도록 Azure Active Directory를 구성합니다.</block>
-  <block id="a2c2d074b529efb4b812b96b74e02f33" category="inline-link">Azure AD에 응용 프로그램을 등록하는 방법에 대한 지침을 봅니다</block>
-  <block id="8f916695f0c02d47ca7caf627294b5b2" category="paragraph"><block ref="8f916695f0c02d47ca7caf627294b5b2" category="inline-link-rx"></block></block>
   <block id="ef64c252ec5198cd24bcab0c5b591d8c" category="paragraph">이 단계를 완료하려면 AD 관리자로부터 다음 정보를 얻어야 합니다.</block>
   <block id="76525f0f34b48475e5ca33f71d296f3b" category="list-text">클라이언트 ID입니다</block>
   <block id="797685b539958d3786d560ae97430767" category="list-text">클라이언트 암호 값입니다</block>
-  <block id="a5ebf29140e5a70af04c991816638085" category="list-text">Microsoft Azure AD 도메인입니다</block>
   <block id="5b70b2d98b345016c9e69390ea296277" category="admonition">비밀 키 만료 날짜를 기록해 두십시오. Federation Setup 페이지로 돌아가서 certificate_before_it expires를 업데이트해야 합니다. 이것은 여러분의 책임입니다. BlueXP는 만료 날짜를 추적하지 않습니다. AD 팀과 함께 시간을 두고 알림을 받는 것이 가장 좋습니다.</block>
-  <block id="bcaf1c3aeb49ac35fd670bdcd8cd4946" category="cell">2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 Azure AD의 구성을 완료합니다.</block>
   <block id="d39660f3085c958967d8d820464b4974" category="paragraph">BlueXP와 ADFS 간의 통합 연결을 설정하는 단계는 다음과 같습니다.</block>
   <block id="d37e669914774ef1ff275b462c890f08" category="paragraph">BlueXP에서 ID 페더레이션을 사용하도록 ADFS 서버를 구성합니다.</block>
   <block id="f1b98402afda515a4e3b322603f457af" category="inline-link">auth0으로 ADFS 서버를 구성하기 위한 지침을 봅니다</block>
@@ -2605,24 +2564,15 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="4c8e6ab2d23d4298d90b773c324cb53f" category="paragraph">BlueXP에서 커넥터를 배포할 때 BlueXP는 필요한 권한이 있는 가상 시스템에서 시스템에 할당된 관리 ID를 활성화합니다. BlueXP는 Cloud Volumes ONTAP의 새 작업 환경을 만들 때 기본적으로 이러한 Azure 자격 증명을 선택합니다.</block>
   <block id="960aa67e3f5a73b6b0ebfceb7ad917b1" category="inline-link-macro">Azure 자격 증명 및 권한에 대해 알아보십시오</block>
   <block id="85d7d6e9942cf214a95a83e7e69cb42d" category="admonition">기존 시스템에 Connector 소프트웨어를 수동으로 설치한 경우 초기 자격 증명 세트가 추가되지 않습니다. <block ref="03e7749e48caa10071407ca0a90e6393" category="inline-link-macro-rx"></block>.</block>
-  <block id="59472e728844389989783720db86de5d" category="paragraph">_different_sAzure 자격 증명을 사용하여 Cloud Volumes ONTAP를 배포하려는 경우 각 Azure 계정에 대해 Azure Active Directory에서 서비스 보안 주체를 만들고 설정하여 필요한 권한을 부여해야 합니다. 그런 다음 새 자격 증명을 BlueXP에 추가할 수 있습니다.</block>
   <block id="6e95efa08c25f0af7a47ce778b6734b5" category="section-title">서비스 보안 주체를 사용하여 Azure 사용 권한을 부여합니다</block>
-  <block id="b2998e2e0ef7309b8da02b90df84bd24" category="paragraph">BlueXP에는 Azure에서 작업을 수행할 수 있는 권한이 필요합니다. Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
-  <block id="a51a8051417c96e970980b9b28955db7" category="paragraph">다음 이미지는 BlueXP가 Azure에서 작업을 수행할 수 있는 권한을 얻는 방법을 보여 줍니다. 하나 이상의 Azure 구독에 연결된 서비스 보안 주체 개체는 Azure Active Directory의 BlueXP를 나타내며 필요한 권한을 허용하는 사용자 지정 역할에 할당됩니다.</block>
-  <block id="a842603387c8331a94843de5d982e083" category="inline-image-macro">BlueXP가 API 호출을 하기 전에 Azure Active Directory에서 인증 및 권한 부여를 받는 방법을 보여 주는 개념 이미지입니다. Active Directory에서 BlueXP 역할은 사용 권한을 정의합니다. Cloud Manger 애플리케이션을 나타내는 하나 이상의 Azure 구독 및 서비스 보안 주체 개체에 연결됩니다.</block>
-  <block id="36cdb45a5a4d45ce925c965292b1bf5e" category="paragraph"><block ref="36cdb45a5a4d45ce925c965292b1bf5e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="38a91ab5feb97884a3314ce2a24ffe85" category="list-text"><block ref="37b5fab1aa996a2c516511211cb14d49" category="inline-xref-macro-rx"></block>.</block>
   <block id="b5cf760d7a6af85b245fd69703dbf615" category="list-text"><block ref="043a4d29eb639fbbd1f56826dde09f8f" category="inline-xref-macro-rx"></block>.</block>
   <block id="a7fa3c1cd24012fd30c1c780e76ed243" category="list-text"><block ref="64c971bf921f5a3e2106b2880ac38406" category="inline-xref-macro-rx"></block>.</block>
   <block id="1c80a5d7f18a46f8056d76d21087faa4" category="list-text"><block ref="6e43fddc58b77d10342452e0c5f86200" category="inline-xref-macro-rx"></block>.</block>
   <block id="984e49e0fdc61eadd13acdd5613f2579" category="list-text"><block ref="2f8da44aff19ae4d1a810f6d1d618984" category="inline-xref-macro-rx"></block>.</block>
-  <block id="f80027e1697bb881bbd28096ec4eb44d" category="section-title">Azure Active Directory 응용 프로그램을 만듭니다</block>
-  <block id="bde31a3498404dfaa1dada9308b8c172" category="paragraph">BlueXP에서 역할 기반 액세스 제어에 사용할 수 있는 Azure AD(Active Directory) 응용 프로그램 및 서비스 보안 주체를 만듭니다.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
   <block id="805d5c27eec50dcf481d2dff37f36287" category="paragraph">서비스 보안 주체를 하나 이상의 Azure 구독에 바인딩하고 BlueXP에서 권한을 갖도록 사용자 지정 "BlueXP 운영자" 역할을 할당해야 합니다.</block>
   <block id="10976842fc02803e74db1e7ad1d16d24" category="paragraph">서비스 보안 주체는 "Windows Azure Service Management API" 권한이 있어야 합니다.</block>
   <block id="4c8a0043df6fc20c84f393cad42133de" category="section-title">애플리케이션 ID 및 디렉토리 ID를 가져옵니다</block>
-  <block id="38551ea5316187f2da6d181a1e614e38" category="paragraph">클라이언트 암호를 만든 다음 BlueXP에서 이 암호를 사용하여 Azure AD를 인증할 수 있도록 보안 가치를 BlueXP에 제공해야 합니다.</block>
   <block id="6186e185b0ea9b1c5909f6190ea935aa" category="section-title">BlueXP에 자격 증명을 추가합니다</block>
   <block id="897558c0bcdd42cd68064bdca7591b82" category="paragraph">필요한 권한이 있는 Azure 계정을 제공한 후 해당 계정에 대한 자격 증명을 BlueXP에 추가할 수 있습니다. 이 단계를 완료하면 다른 Azure 자격 증명을 사용하여 Cloud Volumes ONTAP를 시작할 수 있습니다.</block>
   <block id="15bb02041f104dbc655746382fa7ea1c" category="paragraph">클라우드 공급자에서 이러한 자격 증명을 만든 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.</block>
@@ -2686,7 +2636,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="fd5bdaf26d6756bb4ba2d2c659da9808" category="list-text">* 공용 IP *: 커넥터 VM에서 공용 IP 주소를 사용하려면 IP 주소가 기본 SKU를 사용하여 BlueXP가 이 공용 IP 주소를 사용하도록 해야 합니다.</block>
   <block id="0b7c0e66015972c9e3c3e051249db480" category="list-text">* 네트워크 보안 그룹 *: Connector는 SSH, HTTP 및 HTTPS를 사용하는 인바운드 연결을 필요로 합니다.</block>
   <block id="92fa0fc1299e55c066d0a19cd22b4e7b" category="list-text">* ID *: * Management * 에서 * 시스템에서 할당한 관리 ID 활성화 * 를 선택합니다.</block>
-  <block id="76f2625388817626b5d20572023827a8" category="paragraph">이 설정은 커넥터 가상 시스템이 자격 증명을 제공하지 않고 Azure Active Directory에 자신을 식별할 수 있도록 관리되는 ID를 허용하므로 중요합니다.<block ref="f91ce7faef49711445322691b4d6ac64" category="inline-link-rx"></block>.</block>
   <block id="2d3bb174766a8cbc78a4d5d0a2739c56" category="paragraph">BlueXP 콘솔에 처음 액세스할 때 Connector를 연결할 계정을 선택하라는 메시지가 표시되면 제한된 모드를 활성화해야 합니다.</block>
   <block id="b22816a3d20c18e89e4ef89984ca5df6" category="inline-link-macro">추가 BlueXP 계정을 만드는 방법에 대해 알아봅니다</block>
   <block id="432f719258fc9e575a2982302eac9cdc" category="admonition">이미 계정이 있고 다른 계정을 만들려면 Tenancy API를 사용해야 합니다. <block ref="987610e2980e99ab837daf2502634d0e" category="inline-link-macro-rx"></block>.</block>
@@ -2966,7 +2915,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="572a35a7a9ed649cca9ec1cf347c9b9a" category="paragraph">또한 해당 지역 내의 클라우드 공급자 리소스에 연결해야 합니다.</block>
   <block id="f987da77cc0f6de4634d1fa74f39b8bf" category="list-text">제한 모드에서 Connector는 정부 지역, 주권 지역 또는 상업 지역의 클라우드에서 지원됩니다.</block>
   <block id="d4d5e0af068ca8798201df6c91671178" category="list-text">커넥터는 AWS 또는 Azure Marketplace에서 설치하거나 자체 Linux 호스트에 수동으로 설치할 수 있습니다.</block>
-  <block id="5d2e991218aeae54cc4d2ce0102ec194" category="list-text">사용자 인터페이스는 해당 클라우드 지역에 배포된 Connector에서 액세스할 수 있습니다.</block>
   <block id="a67215d34dfdabae38d0a7c1f5f4b6cc" category="list-text">인증은 auth0을 사용하여 BlueXP의 클라우드 서비스를 통해 제공됩니다. ID 페더레이션을 사용할 수도 있습니다.</block>
   <block id="2a4defb74ef42279e0fb8c75b5c452cd" category="list-text">BlueXP는 제한된 모드에서 다음과 같은 스토리지 및 데이터 서비스를 지원합니다.</block>
   <block id="ea22f9957523103248d84695e98b17ba" category="cell">지원되는 서비스</block>
@@ -3077,7 +3025,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="8a7c8d2028930eaef2c3f44925994051" category="list-text">NetApp 클라우드 자격 증명: 암호를 입력합니다</block>
   <block id="a02705346febd77df5680fe2f12343a9" category="list-text">통합 사용자: 통합 ID 자격 증명을 입력합니다</block>
   <block id="24bdc2b22d38abff9ff97a9c5b5e7966" category="list-text">NetApp Support 사이트 계정: NetApp Support 사이트 자격 증명을 입력합니다</block>
-  <block id="e3e02b70df514c22082124328763d018" category="list-text">Azure AD 서비스 보안 주체에 대한 세부 정보를 제공합니다. 이 서비스 보안 주체는 특정 권한도 필요합니다.</block>
   <block id="fdf818accfe04434a4c9fd9ccfe6d56c" category="list-text">Azure에서 새 사용자 지정 역할에 필요한 권한을 복사하여 JSON 파일에 저장합니다.</block>
   <block id="6beeae0bdc78c57583db2029e3f5c09d" category="list-text">Azure 구독 ID를 할당 가능한 범위에 추가하여 JSON을 수정합니다.</block>
   <block id="6d3e63abb9fe9c98dbe6a99d8a196043" category="list-text">다음 Azure CLI 명령을 입력합니다.</block>
@@ -3087,7 +3034,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="4cca684df8c889c784e30e6f0215cff5" category="admonition">Azure SetupAsService는 Azure의 커넥터 배포 정책에 제공된 기본 이름입니다. 역할에 다른 이름을 선택한 경우 대신 해당 이름을 선택합니다.</block>
   <block id="f6d4189bf00021bb75f4f2f5b11507bf" category="paragraph">이제 Azure 사용자는 BlueXP에서 커넥터를 배포하는 데 필요한 권한을 갖게 됩니다.</block>
   <block id="d9a4ebb1284c84465eac2a20b8331523" category="paragraph">Azure 계정으로 로그인하는 대신 필요한 권한이 있는 Azure 서비스 보안 주체에 대한 자격 증명을 BlueXP에 제공할 수 있습니다.</block>
-  <block id="f7f4921534d4730228a1def336cce565" category="paragraph">Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 얻습니다.</block>
   <block id="26f0c6c76fbc2f0b096a4ff32489120c" category="paragraph">이제 서비스 보안 주체가 설정되었으므로 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사해야 합니다. 커넥터를 생성할 때 BlueXP에 이 정보를 입력해야 합니다.</block>
   <block id="0d1f9ac2ac0f76a6809ba58855ffa7f5" category="list-text">옵션 1: 시스템에서 할당한 관리 ID를 사용하여 Azure VM에 사용자 지정 역할을 할당합니다.</block>
   <block id="d31f2fb13b2fed83440a04d526a6ca7d" category="list-text">옵션 2: 필요한 권한이 있는 Azure 서비스 보안 주체에 대한 자격 증명을 BlueXP에 제공합니다.</block>
@@ -3116,12 +3062,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">참조하십시오</block>
   <block id="a4f605cd0aab29ee5fb50f28627cef5d" category="sidebar">권한 요약</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
-  <block id="bd684dd31e369444b29047e57d56ff19" category="sidebar">배포 모드에 대해 알아봅니다</block>
-  <block id="c8aded93abddb2318a41b08cba739012" category="sidebar">커넥터 관리</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="cell">지속 가능성</block>
   <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023년 7월 2일</block>
   <block id="78ee56d07ea6442fbe0c88b1ea3be7ad" category="section-title">커넥터 3.9.31</block>
@@ -3261,7 +3201,6 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="ce2590ec8b406b42ba7a670543c8ab81" category="list-text">응용 프로그램을 선택하고 * 선택 * 을 선택합니다.</block>
   <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">다음 * 을 선택합니다.</block>
   <block id="85b8cec39bdb05ec73cd076b2359cfd1" category="list-text">검토 + 할당 * 을 선택합니다.</block>
-  <block id="9993d6f6284200668a6f4c51df9812da" category="list-text">Azure Active Directory * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.</block>
   <block id="69dc2d1327bf480b016b4aed7cd7d900" category="list-text">API 권한 &gt; 권한 추가 * 를 선택합니다.</block>
   <block id="4477be44a064848adbf1b5f50428e0cd" category="list-text">Access Azure Service Management as organization users * 를 선택한 다음 * Add permissions * 를 선택합니다.</block>
   <block id="39ec83d3cc8c12b784bf30f64700b168" category="list-text">앱 등록 * 을 선택하고 응용 프로그램을 선택합니다.</block>
@@ -3568,7 +3507,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="a0d5fffa896034a79c127d53a34685b7" category="list-text"><block ref="a0d5fffa896034a79c127d53a34685b7" category="inline-link-macro-rx"></block></block>
   <block id="8ce9c61f5e14fb093fdb6cc132fb3103" category="summary">BlueXP에서 Azure에서 Connector를 생성하려면 네트워킹을 설정하고 Azure 권한을 준비한 다음 Connector를 생성해야 합니다.</block>
   <block id="383a4f176227e611b43fffaef447cf94" category="section-title">2단계: 사용자 지정 역할을 만듭니다</block>
-  <block id="568a7904f89eda5a0e1ad00f19631224" category="paragraph">Azure 계정 또는 Azure AD 서비스 보안 주체에 할당할 수 있는 Azure 사용자 지정 역할을 만듭니다. BlueXP는 Azure를 사용하여 인증을 수행하고 이러한 권한을 사용하여 사용자를 대신하여 Connector 인스턴스를 만듭니다.</block>
   <block id="93017c2ae371dc5a19be6e0cce08ab5a" category="section-title">단계 3: 인증을 설정합니다</block>
   <block id="a29efb5754bb36ee62d4a2e17c5e5717" category="list-text">메시지가 표시되면 Azure 계정으로 로그인합니다. 이 계정에는 특정 Azure 권한이 있어야 합니다. 이 옵션이 기본 옵션입니다.</block>
   <block id="fbb7d70eda793afc4159d1bd8f3c3814" category="paragraph">단계에 따라 BlueXP와 함께 사용할 인증 방법 중 하나를 준비합니다.</block>
@@ -3734,22 +3672,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="ee06369b39630f4fbf14829266d40a91" category="paragraph">프라이빗 모드는 일반적으로 인터넷에 연결되지 않고 을 포함하는 보안 클라우드 지역에서 사용되는 온프레미스 환경에서 사용됩니다<block ref="da2732e6e9a1be4ab82a1194533aac59" category="inline-link-rx"></block>,<block ref="6f5217ea8a3f93cd9532863eb844647b" category="inline-link-rx"></block>, 및<block ref="360910fe60b5d1cf9b7056b9b6f46685" category="inline-link-rx"></block></block>
   <block id="a95e947d8a886ad72a7cea0e895006fd" category="paragraph">제한 모드는 일반적으로 AWS GovCloud 및 Azure Government 지역의 구축을 비롯하여 주 정부 및 지방 정부 및 규제 회사에서 사용합니다. 시작하기 전에 에 대한 이해가 있어야 합니다 <block ref="ad4b275d9dc1eba2c344335cef84161e" category="inline-link-macro-rx"></block>, <block ref="939be5a52f87f3be4e9cee0e0efdb78e" category="inline-link-macro-rx"></block>, 및 <block ref="dd9572e43b86cdf1b1d508e121fd732e" category="inline-link-macro-rx"></block>.</block>
   <block id="c2a3212cb98f382140fb5a23af1c6063" category="paragraph">표준 모드에서 BlueXP는 웹 기반 콘솔에서 클라우드 서비스로 사용자에게 액세스할 수 있습니다. 시작하기 전에 에 대한 이해가 있어야 합니다 <block ref="ad4b275d9dc1eba2c344335cef84161e" category="inline-link-macro-rx"></block>, <block ref="939be5a52f87f3be4e9cee0e0efdb78e" category="inline-link-macro-rx"></block>, 및 <block ref="dd9572e43b86cdf1b1d508e121fd732e" category="inline-link-macro-rx"></block>.</block>
-  <block id="a620abb16506a8da5f6b8dcbc0073466" category="sidebar">AWS 권한 보기</block>
-  <block id="b7053c5f835c45d38cf071449c74fd56" category="sidebar">Azure 권한을 봅니다</block>
-  <block id="7050d365baa220c42a688cbf36a7e997" category="sidebar">Google Cloud 권한 보기</block>
-  <block id="891c5b2cea54480f0e1abb74959457a6" category="sidebar">표준 AWS 지역에서 시작하십시오</block>
-  <block id="e766f31fe70a68c11b8631144211d0f7" category="sidebar">AWS GovCloud 지역에서 시작하십시오</block>
-  <block id="9722aa95875a94430d4569d2e8bd2382" category="sidebar">AWS Secret 또는 Top Secret Cloud에서 시작해 보십시오</block>
-  <block id="e55aba8c57180a56450db886ecd8232e" category="sidebar">커넥터에 대한 IAM 정책을 봅니다</block>
-  <block id="27c705176bc1f05cf50771b1f8fe182a" category="sidebar">표준 Azure 지역에서 시작하십시오</block>
-  <block id="60563f8b2620e88ac71d1a98ee73e2e5" category="sidebar">Azure Government 지역에서 시작하십시오</block>
-  <block id="31b63be41ae4657f9e340188aa268589" category="sidebar">Azure IL6에서 시작하십시오</block>
-  <block id="3dbdf7d7951b212ca0000f0027184bb8" category="sidebar">Connector의 사용자 지정 역할을 봅니다</block>
-  <block id="6c3328ab0a2ccaa273efaec9a88e2751" category="sidebar">표준 Google Cloud 지역에서 시작하십시오</block>
-  <block id="6844a754c2b209da7ac4949824ac467d" category="sidebar">커넥터의 서비스 계정을 봅니다</block>
-  <block id="917f62b5224eebe3d212f654f1273e57" category="sidebar">표준 모드로 커넥터를 설치하고 설정합니다</block>
-  <block id="f6bf5d3da1d67288a149ab832d6401d0" category="sidebar">커넥터를 비공개 모드로 설치 및 설정합니다</block>
-  <block id="6596e863cf1d0baa0dbccff0e9088e4a" category="sidebar">로그인 중입니다</block>
   <block id="337e8febb8ac96133c86a51cd7bc0240" category="summary">BlueXP가 Azure 자격 증명을 사용하여 사용자를 대신하여 작업을 수행하는 방법과 해당 자격 증명이 마켓플레이스 구독과 어떻게 연관되는지 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Azure 구독에 대한 자격 증명을 관리하는 데 도움이 됩니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
   <block id="3bf21bdc87a8f6ebde5b75e8cb0d5138" category="section-title">자격 증명 및 마켓플레이스 구독</block>
   <block id="b1e32c999d336fb505915de8a8ffca55" category="paragraph">커넥터에 추가하는 자격 증명은 Azure Marketplace 구독과 연결되어 시간 단위(PAYGO) 또는 연간 계약을 통해 Cloud Volumes ONTAP에 대한 비용을 지불하고 다른 BlueXP 서비스를 사용할 수 있어야 합니다.</block>
@@ -3862,4 +3784,52 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="fa0738e12b2324073fa9b5f91af71e48" category="cell">예
 
 <block ref="42dbd2df9d57eeeb664cce05b5a35bf1" category="inline-link-rx"></block></block>
+  <block id="ceff1e7e9afd603be2687369aac73bb6" category="paragraph">이 설정은 관리되는 ID를 통해 Connector 가상 컴퓨터가 자격 증명을 제공하지 않고 Microsoft Entra ID를 식별할 수 있기 때문에 중요합니다.<block ref="f91ce7faef49711445322691b4d6ac64" category="inline-link-rx"></block>.</block>
+  <block id="10d9864d222fd249479246f9c50df58c" category="list-text">* 자격 증명 정의 *: 필요한 권한을 부여하는 Microsoft Entra 서비스 보안 주체에 대한 정보를 입력합니다.</block>
+  <block id="9c0e62a86b9fe558cad9c4d280ea439d" category="list-text">NTP를 활성화합니다</block>
+  <block id="726d1cad4d0527532460d1a853919ebc" category="inline-link">BlueXP 분류에 대해 자세히 알아보십시오</block>
+  <block id="aa58ae713abe4e1f7b639f232b2814b8" category="list-text">BlueXP 분류를 사용하여 회사 데이터 소스를 검사하려는 경우 BlueXP Connector 시스템과 BlueXP 분류 시스템 모두에서 NTP(Network Time Protocol) 서비스를 활성화하여 시스템 간에 시간이 동기화되도록 해야 합니다.<block ref="f37549d88d23259dc9470e2f2bfbbbf0" category="inline-link-rx"></block></block>
+  <block id="9ed6715eace733ae6dc526b52a03058e" category="paragraph">Connector를 만든 후 이 네트워킹 요구 사항을 구현해야 합니다.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
+  <block id="dfec517d439938ca1ef24de3972ed1d6" category="paragraph">이 기능은 ID 관리를 위해 NetApp에서 채택한 Microsoft Entra ID를 사용하도록 구성된 NSS 계정에서만 지원됩니다. 이 기능을 사용하려면 * NSS 계정 추가 * 또는 * 계정 업데이트 * 를 선택해야 합니다.</block>
+  <block id="a5b46ae1ec2ad5287349444529a0b53c" category="paragraph">이제 NetApp Support 사이트 계정에서 인증 서비스에 Microsoft Entra ID를 사용했으므로 BlueXP에 표시되는 NSS 사용자 이름은 일반적으로 Microsoft Entra에서 생성되는 식별자입니다. 따라서 해당 계정과 연결된 전자 메일 주소를 즉시 알지 못할 수 있습니다. 그러나 BlueXP에는 관련 이메일 주소를 표시하는 옵션이 있습니다.</block>
+  <block id="009cf1f7b9b15240104b17e10bb20e3a" category="paragraph">Microsoft Entra ID에서 서비스 주체를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 받습니다.</block>
+  <block id="20a548e155064dfebc2cf8e9a74ab489" category="list-title">역할 기반 액세스 제어를 위한 Microsoft Entra 응용 프로그램을 만듭니다</block>
+  <block id="3acc75f616414df16724fc2f4fe192eb" category="list-text">Azure 포털에서 * Microsoft Entra ID * 서비스를 엽니다.</block>
+  <block id="ef37e6517cca469b358f0c04ca3cf119" category="paragraph"><block ref="ef37e6517cca469b358f0c04ca3cf119" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8427c98ccc673304dbaa4bf3fd3975a1" category="list-text">Microsoft Entra ID * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.</block>
+  <block id="0e9983a04d343289b5ae2931f37d22a2" category="inline-image-macro">Microsoft Entra IDy의 응용 프로그램에 대한 응용 프로그램(클라이언트) ID 및 디렉터리(테넌트) ID를 보여 주는 스크린샷.</block>
+  <block id="5f3a0546e3f6705a50269404106d5aba" category="paragraph"><block ref="5f3a0546e3f6705a50269404106d5aba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0540893171fcc820664625cbbe23e031" category="list-text">Microsoft Entra ID * 서비스를 엽니다.</block>
+  <block id="9056be4df2e385c15b0e73176bcf8af3" category="inline-image-macro">Microsoft Entra 서비스 보안 주체의 클라이언트 암호를 보여 주는 Azure 포털 스크린샷</block>
+  <block id="bc061266b02f85e444a9b5ae50e1a3fd" category="paragraph"><block ref="bc061266b02f85e444a9b5ae50e1a3fd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b750da0ca2dca4110c6636dcb1ebbe6f" category="paragraph">이제 BlueXP에서 Microsoft Entra ID를 사용하여 인증하는 클라이언트 암호가 있습니다.</block>
+  <block id="93f1f0c1ede8583ffa25159579861501" category="inline-link">ID 관리를 위한 NetApp의 Microsoft Azure Active Directory 사용에 대해 자세히 알아보십시오</block>
+  <block id="b17de28cfe26993460dbe87832a64b2e" category="paragraph"><block ref="b17de28cfe26993460dbe87832a64b2e" category="inline-link-rx"></block></block>
+  <block id="8b0acfdcefc686d1057ba6e0a6e5660e" category="paragraph">Connector를 사내에 설치한 경우 Microsoft Entra ID에서 서비스 주체를 설정하고 BlueXP에 필요한 Azure 자격 증명을 입수하여 BlueXP에 Azure 권한을 제공해야 합니다.</block>
+  <block id="33a300827c19fa9f3bf7b47e8b880c1a" category="paragraph">Azure 계정 또는 Microsoft Entra 서비스 보안 주체에 할당할 수 있는 Azure 사용자 지정 역할을 만듭니다. BlueXP는 Azure를 사용하여 인증을 수행하고 이러한 권한을 사용하여 사용자를 대신하여 Connector 인스턴스를 만듭니다.</block>
+  <block id="4dc29cf7d5ceac3415d2828b1afce709" category="list-text">Microsoft Entra 서비스 보안 주체에 대한 자세한 정보를 제공합니다. 이 서비스 보안 주체는 특정 권한도 필요합니다.</block>
+  <block id="b4dba39cc2b8d5c6f4a03822fd76264e" category="list-text">필요한 권한을 부여하는 Microsoft Entra 서비스 보안 주체에 대한 정보를 입력하려면 * Active Directory 서비스 주체 * 를 선택합니다.</block>
+  <block id="7f29dd2bb0d156a9d6d9989b5778daa2" category="paragraph">클라우드 공급자의 마켓플레이스에서 Connector를 만들려는 경우 Connector를 만든 후에 이 네트워킹 요구 사항을 구현해야 합니다.</block>
+  <block id="b8209f3a8b56fd0a82dda548b64e89ef" category="paragraph">Microsoft Entra ID에서 서비스 주체를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 받습니다. Connector를 설치하고 BlueXP를 설정한 후 이러한 자격 증명을 BlueXP에 제공해야 합니다.</block>
+  <block id="861b0fb25af072735ec514d20fc89dcf" category="list-text">사용자 인터페이스는 클라우드 지역에 배포된 Connector 가상 머신에서 액세스할 수 있습니다.</block>
+  <block id="22b4db6594130f0f35e22d0a9f00512b" category="paragraph">Cloud Volumes ONTAP를 _different_Azure 자격 증명을 사용하여 배포하려면 각 Azure 계정에 대해 Microsoft Entra ID에서 서비스 보안 주체를 만들고 설정하여 필요한 권한을 부여해야 합니다. 그런 다음 새 자격 증명을 BlueXP에 추가할 수 있습니다.</block>
+  <block id="5c1680223b4715618aa00772c8cde483" category="paragraph">BlueXP에는 Azure에서 작업을 수행할 수 있는 권한이 필요합니다. Microsoft Entra ID에서 서비스 주체를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
+  <block id="fe5c910b24c178432f88a8f6c9bff2f8" category="paragraph">다음 이미지는 BlueXP가 Azure에서 작업을 수행할 수 있는 권한을 얻는 방법을 보여 줍니다. 하나 이상의 Azure 구독에 연결되는 서비스 사용자 지정 개체는 Microsoft Entra ID의 BlueXP를 나타내며 필요한 권한을 허용하는 사용자 지정 역할에 할당됩니다.</block>
+  <block id="7afd1b01e02546b27e413c581edae96f" category="inline-image-macro">API 호출을 송신하기 전에 Microsoft Entra ID에서 인증 및 승인을 얻는 BlueXP의 개념 이미지 Active Directory에서 BlueXP 역할은 사용 권한을 정의합니다. Cloud Manger 애플리케이션을 나타내는 하나 이상의 Azure 구독 및 서비스 보안 주체 개체에 연결됩니다.</block>
+  <block id="6d78ad58e10567f5ec4210ab631a73a7" category="paragraph"><block ref="6d78ad58e10567f5ec4210ab631a73a7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f2ef9d77d1510f334154dfe7d165c04f" category="list-text"><block ref="f6c5720bdbe1f9f8e6fbf04de7a942ac" category="inline-xref-macro-rx"></block>.</block>
+  <block id="6a9a84396b26e1101ebf5eac3a9595ed" category="section-title">Microsoft Entra 응용 프로그램을 만듭니다</block>
+  <block id="1e6c9b3850b2a8aff77429d3da407ad1" category="paragraph">BlueXP가 역할 기반 액세스 제어에 사용할 수 있는 Microsoft Entra 애플리케이션 및 서비스 보안 주체를 생성합니다.</block>
+  <block id="de44ed3c24fd21ff1cd5065625a6d78e" category="paragraph">클라이언트 암호를 생성한 다음 BlueXP에 해당 암호를 사용하여 Microsoft Entra ID를 통해 인증할 수 있도록 BlueXP에 해당 암호를 제공해야 합니다.</block>
+  <block id="4df90909cc2d04997870c4949a39d14b" category="list-text">Microsoft Entra ID입니다</block>
+  <block id="f03abb60d67394fd935c0b64f6d1c3c1" category="paragraph">BlueXP와 Microsoft Entra ID 간에 페더레이션 연결을 설정하는 단계는 다음과 같습니다.</block>
+  <block id="4d78a4f82051c51790a4d6a1b19d7bf4" category="paragraph">BlueXP와 ID 통합을 지원하도록 Microsoft Entra ID를 구성합니다.</block>
+  <block id="91b6e8c144e0b0c26485c1d90cdf8e9b" category="inline-link">Microsoft Entra ID로 응용 프로그램을 등록하는 방법에 대한 지침을 봅니다</block>
+  <block id="f56344318e894c9b20e07a08f6a512c3" category="paragraph"><block ref="f56344318e894c9b20e07a08f6a512c3" category="inline-link-rx"></block></block>
+  <block id="b1b357376edc356774ec099bb39e65b7" category="list-text">Microsoft Entra ID 도메인입니다</block>
+  <block id="bcf96e38858d09ccb3d335e0944d8a4a" category="cell">2단계를 완료한 후 페더레이션 설정 페이지에 표시된 매개 변수를 사용하여 Microsoft Entra ID에서 구성을 완료합니다.</block>
+  <block id="b63eb36e7e2e258bb1104cee2cd67c79" category="inline-link-macro">Microsoft Entra ID에서 서비스 보안 주체 만들기 및 설정</block>
+  <block id="3c648c2bdafb5df126cd7d0e3dfcad8a" category="paragraph">BlueXP에서 다른 Azure 자격 증명을 사용하려면 에서 필요한 권한을 부여해야 합니다 <block ref="45c7e71be639d18293cd100d389b6dc3" category="inline-link-macro-rx"></block> 각 Azure 계정에 대해. 다음 그림에서는 두 개의 추가 계정을 보여 줍니다. 각 계정에는 권한을 제공하는 서비스 보안 주체와 사용자 지정 역할이 설정되어 있습니다.</block>
+  <block id="66106267dde1c941a1fde19110f5e949" category="paragraph">마켓플레이스를 사용하는 경우 Connector VM 및 시스템에서 할당한 관리 ID에 사용자 지정 역할을 할당하여 사용 권한을 제공하거나 Microsoft Entra 서비스 보안 주체를 사용할 수 있습니다.</block>
 </blocks>

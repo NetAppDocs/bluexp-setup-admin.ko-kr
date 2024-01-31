@@ -191,6 +191,9 @@ HTTP(80) 및 HTTPS(443)는 BlueXP 콘솔에 대한 액세스를 제공합니다.
 --
 
 
+NTP를 활성화합니다:: BlueXP 분류를 사용하여 회사 데이터 소스를 검사하려는 경우 BlueXP Connector 시스템과 BlueXP 분류 시스템 모두에서 NTP(Network Time Protocol) 서비스를 활성화하여 시스템 간에 시간이 동기화되도록 해야 합니다. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 자세히 알아보십시오"^]
+
+
 
 
 == 5단계: 클라우드 권한 준비
@@ -315,16 +318,16 @@ az role definition create --role-definition Connector_Policy.json
 --
 .Azure 서비스 보안 주체
 --
-Azure Active Directory에서 서비스 보안 사용자를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 얻습니다. Connector를 설치하고 BlueXP를 설정한 후 이러한 자격 증명을 BlueXP에 제공해야 합니다.
+Microsoft Entra ID에서 서비스 주체를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 받습니다. Connector를 설치하고 BlueXP를 설정한 후 이러한 자격 증명을 BlueXP에 제공해야 합니다.
 
-.역할 기반 액세스 제어를 위해 Azure Active Directory 응용 프로그램을 만듭니다
+.역할 기반 액세스 제어를 위한 Microsoft Entra 응용 프로그램을 만듭니다
 . Azure에서 Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당할 수 있는 권한이 있는지 확인합니다.
 +
 자세한 내용은 을 참조하십시오 https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure 문서: 필요한 권한"^]
 
-. Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.
+. Azure 포털에서 * Microsoft Entra ID * 서비스를 엽니다.
 +
-image:screenshot_azure_ad.gif["에는 Microsoft Azure의 Active Directory 서비스가 나와 있습니다."]
+image:screenshot_azure_ad.png["에는 Microsoft Azure의 Active Directory 서비스가 나와 있습니다."]
 
 . 메뉴에서 * 앱 등록 * 을 선택합니다.
 . 새 등록 * 을 선택합니다.
@@ -422,7 +425,7 @@ image:screenshot_azure_service_principal_role.png["Azure 포털에서 역할 할
 
 
 .Windows Azure 서비스 관리 API 권한을 추가합니다
-. Azure Active Directory * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.
+. Microsoft Entra ID * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.
 . API 권한 > 권한 추가 * 를 선택합니다.
 . Microsoft API * 에서 * Azure Service Management * 를 선택합니다.
 +
@@ -435,10 +438,10 @@ image:screenshot_azure_service_mgmt_apis_add.gif["Azure 서비스 관리 API 추
 
 
 .응용 프로그램의 응용 프로그램 ID 및 디렉터리 ID를 가져옵니다
-. Azure Active Directory * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.
+. Microsoft Entra ID * 서비스에서 * 앱 등록 * 을 선택하고 애플리케이션을 선택합니다.
 . 응용 프로그램(클라이언트) ID * 와 * 디렉터리(테넌트) ID * 를 복사합니다.
 +
-image:screenshot_azure_app_ids.gif["Azure Active Directory의 응용 프로그램에 대한 응용 프로그램(클라이언트) ID 및 디렉터리(테넌트) ID를 보여 주는 스크린샷"]
+image:screenshot_azure_app_ids.gif["Microsoft Entra IDy의 응용 프로그램에 대한 응용 프로그램(클라이언트) ID 및 디렉터리(테넌트) ID를 보여 주는 스크린샷."]
 
 +
 Azure 계정을 BlueXP에 추가하는 경우 응용 프로그램의 응용 프로그램(클라이언트) ID와 디렉터리(테넌트) ID를 제공해야 합니다. BlueXP는 ID를 사용하여 프로그래밍 방식으로 로그인합니다.
@@ -446,17 +449,17 @@ Azure 계정을 BlueXP에 추가하는 경우 응용 프로그램의 응용 프�
 
 
 .클라이언트 암호를 생성합니다
-. Azure Active Directory * 서비스를 엽니다.
+. Microsoft Entra ID * 서비스를 엽니다.
 . 앱 등록 * 을 선택하고 응용 프로그램을 선택합니다.
 . 인증서 및 비밀 > 새 클라이언트 비밀 * 을 선택합니다.
 . 비밀과 기간에 대한 설명을 제공하십시오.
 . 추가 * 를 선택합니다.
 . 클라이언트 암호 값을 복사합니다.
 +
-image:screenshot_azure_client_secret.gif["Azure AD 서비스 보안 주체에 대한 클라이언트 암호를 보여 주는 Azure 포털의 스크린샷"]
+image:screenshot_azure_client_secret.gif["Microsoft Entra 서비스 보안 주체의 클라이언트 암호를 보여 주는 Azure 포털 스크린샷"]
 
 +
-이제 BlueXP에서 Azure AD를 인증하는 데 사용할 수 있는 클라이언트 암호가 있습니다.
+이제 BlueXP에서 Microsoft Entra ID를 사용하여 인증하는 클라이언트 암호가 있습니다.
 
 
 

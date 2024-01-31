@@ -689,9 +689,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media
 
 NSS 계정을 IDaaS로 마이그레이션하지 않은 경우 먼저 계정을 마이그레이션한 다음 Cloud Manager에서 자격 증명을 업데이트해야 합니다.
 
-* link:task-adding-nss-accounts.html#update-an-nss-account-for-the-new-authentication-method["NSS 계정을 새 인증 방법으로 업데이트하는 방법을 알아봅니다"].
-* https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/FAQs_for_NetApp_adoption_of_MS_Azure_AD_B2C_for_login["NetApp에서 ID 관리를 위해 Microsoft Azure AD를 사용하는 방법에 대해 자세히 알아보십시오"^]
-
+https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/FAQs_for_NetApp_adoption_of_MS_Azure_AD_B2C_for_login["ID 관리를 위한 NetApp의 Microsoft Azure Active Directory 사용에 대해 자세히 알아보십시오"^]
 
 
 
