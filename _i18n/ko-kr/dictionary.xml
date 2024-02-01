@@ -3832,4 +3832,29 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="b63eb36e7e2e258bb1104cee2cd67c79" category="inline-link-macro">Microsoft Entra ID에서 서비스 보안 주체 만들기 및 설정</block>
   <block id="3c648c2bdafb5df126cd7d0e3dfcad8a" category="paragraph">BlueXP에서 다른 Azure 자격 증명을 사용하려면 에서 필요한 권한을 부여해야 합니다 <block ref="45c7e71be639d18293cd100d389b6dc3" category="inline-link-macro-rx"></block> 각 Azure 계정에 대해. 다음 그림에서는 두 개의 추가 계정을 보여 줍니다. 각 계정에는 권한을 제공하는 서비스 보안 주체와 사용자 지정 역할이 설정되어 있습니다.</block>
   <block id="66106267dde1c941a1fde19110f5e949" category="paragraph">마켓플레이스를 사용하는 경우 Connector VM 및 시스템에서 할당한 관리 ID에 사용자 지정 역할을 할당하여 사용 권한을 제공하거나 Microsoft Entra 서비스 보안 주체를 사용할 수 있습니다.</block>
+  <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">BlueXP 소개</block>
+  <block id="6cc6d549680ee5bae0375022aa7c117c" category="paragraph">NetApp BlueXP는 Cloud Manager를 통해 제공되는 기능을 확장하고 개선합니다. BlueXP는 사내 및 클라우드 환경 전반에 걸쳐 스토리지 및 데이터 서비스를 위한 하이브리드 멀티 클라우드 환경을 제공하는 통합 제어 플레인입니다.</block>
+  <block id="4860911c5c67c5e04987564884e8b85e" category="list-text">통합된 관리 환경</block>
+  <block id="c3eb39b445a75ad05505fe32c6f061df" category="list-text">BlueXP를 사용하면 단일 인터페이스에서 모든 스토리지 및 데이터 자산을 관리할 수 있습니다.</block>
+  <block id="a28e6578744ceeb545878235d414e497" category="paragraph">BlueXP를 사용하여 클라우드 스토리지(예: Cloud Volumes ONTAP 및 Azure NetApp Files)를 생성 및 관리하고, 데이터를 이동, 보호 및 분석하며, 많은 사내 및 에지 스토리지 장치를 제어할 수 있습니다.</block>
+  <block id="fc8ff23d0bf81d0f8427b5c75023f80e" category="inline-link">자세한 내용은 BlueXP 웹 사이트를 참조하십시오</block>
+  <block id="6680bbdbd7bdd3c542020121df4cb264" category="paragraph"><block ref="6680bbdbd7bdd3c542020121df4cb264" category="inline-link-rx"></block></block>
+  <block id="31f0834695d820dc381e57397e466d12" category="list-text">새 탐색 메뉴</block>
+  <block id="e6481c5ec5346aeaf59c7bacad0a735a" category="list-text">BlueXP의 탐색 메뉴에서 서비스는 범주별로 구성되며 기능에 따라 이름이 지정됩니다. 예를 들어, * 보호 * 범주에서 BlueXP 백업 및 복구에 액세스할 수 있습니다.</block>
+  <block id="7cb04a79785e33be744a126127319a35" category="inline-image-macro">스토리지 및 상태 등의 범주를 보여 주는 BlueXP의 탐색 메뉴 스크린샷</block>
+  <block id="e3a2069a256a46b571b57fe46324f5c0" category="paragraph"><block ref="e3a2069a256a46b571b57fe46324f5c0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="68d4f3d7366b4ea59a65f0c44540e368" category="list-text">새로운 제품 통합</block>
+  <block id="cf6a3994dac804af910024cf740e14ac" category="list-text">이제 Connector가 설치된 AWS 계정에서 Amazon S3 버킷을 관리할 수 있습니다.</block>
+  <block id="054332983ba253fe4573945dcdbc8109" category="list-text">이제 E-Series와 StorageGRID와 같은 사내 스토리지 시스템을 더 많이 관리할 수 있습니다.</block>
+  <block id="bcaa38b35b3f595027217ec10755368a" category="list-text">이제 BlueXP Active IQ(Digital Advisor)와 같은 별도의 UI를 통해 이전에는 독립 실행형 서비스로만 제공되던 데이터 서비스를 사용할 수 있습니다.</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="list-text">자세한 정보</block>
+  <block id="72098f7f145b12a125b92539edd37f4a" category="inline-link">Amazon S3 버킷을 관리합니다</block>
+  <block id="8a4a49cb4536baac7f58e0eb6e2dac29" category="list-text"><block ref="8a4a49cb4536baac7f58e0eb6e2dac29" category="inline-link-rx"></block></block>
+  <block id="23c19e9851a45bd1a62c97b5c51e16ab" category="inline-link">E-Series 스토리지 시스템을 관리합니다</block>
+  <block id="120b07a98eececd322e53cecc2102f44" category="list-text"><block ref="120b07a98eececd322e53cecc2102f44" category="inline-link-rx"></block></block>
+  <block id="280f0ea2e556e240b5f15b51047b45b8" category="inline-link">StorageGRID 스토리지 시스템을 관리합니다</block>
+  <block id="e85444ee57c2061143502fa15b083bcc" category="list-text"><block ref="e85444ee57c2061143502fa15b083bcc" category="inline-link-rx"></block></block>
+  <block id="f3bb3ec21babd88d81e5f7aefe69cced" category="inline-link">Digital Advisor 통합에 대해 알아보십시오</block>
+  <block id="fd93e0ac3cede5691afd22e4d95042e3" category="list-text"><block ref="fd93e0ac3cede5691afd22e4d95042e3" category="inline-link-rx"></block></block>
+  <block id="ba1f7346b31e12566f94dd10dbca2587" category="section-title">NSS 자격 증명을 업데이트하라는 메시지를 표시합니다</block>
 </blocks>
