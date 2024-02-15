@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, connectors' 
 summary: BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라우드 공급자 자격 증명 등에 대해 알아보십시오. 
 ---
 = 새로운 기능
@@ -15,6 +15,28 @@ summary: BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터,
 
 [role="lead"]
 BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라우드 공급자 자격 증명 등에 대해 알아보십시오.
+
+
+
+== 2024년 2월 15일
+
+
+
+=== 커넥터 3.9.37
+
+이번 BlueXP Connector 릴리즈에는 사소한 보안 개선사항과 버그 수정이 포함되어 있습니다.
+
+현재 3.9.37 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
+
+
+
+=== 이름을 편집합니다
+
+NetApp 클라우드 자격 증명을 사용하여 BlueXP에 로그인하는 경우 이제 * 사용자 설정 * 에서 이름을 편집할 수 있습니다.
+
+image:screenshot-edit-name.png["사용자 설정에서 사용자 이름을 편집하는 기능을 보여 주는 스크린샷."]
+
+페더레이션 연결 또는 NetApp Support 사이트 계정으로 로그인한 경우에는 사용자 이름 편집이 지원되지 않습니다.
 
 
 
