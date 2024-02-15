@@ -24,9 +24,19 @@ summary: 알려진 제한 사항은 이 제품 릴리스에서 지원하지 않�
 
 
 
+=== EC2 인스턴스에 IMDSv1이 필요합니다
+
+표준 모드 또는 제한 모드를 사용할 때 AWS의 EC2 인스턴스에 커넥터 소프트웨어를 수동으로 설치하기 전에 EC2 인스턴스가 IMDSv1(Instance Metadata Service Version 1)을 사용하는지 확인해야 합니다. 커넥터는 IMDSv2에서 지원되지 않습니다.
+
+이제 IMDSv2가 새 EC2 인스턴스의 기본 버전이므로 IMDSv1 사용을 복원하려면 인스턴스 메타데이터 옵션을 수정해야 합니다.
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-IMDS-existing-instances.html#modify-restore-IMDSv1["AWS 설명서: IMDSv1 사용을 복원합니다"^]
+
+
+
 === 기본 EC2 인스턴스 설정은 변경할 수 없습니다
 
-AWS에 Connector를 구축하면 다음과 같은 EC2 인스턴스 설정이 기본적으로 구성됩니다.
+BlueXP 또는 AWS 마켓플레이스에서 Connector를 AWS에 구축하는 경우 기본적으로 다음 EC2 인스턴스 설정이 구성됩니다.
 
 * IMDSv2는 선택 사항으로 설정되어 있습니다
 * HttpTokens 는 선택 사항으로 설정되어 있습니다

@@ -82,6 +82,14 @@ Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
 Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19.3.1 이상이 필요합니다. https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
+IMDSv1 을 참조하십시오:: EC2 인스턴스에 인스턴스 메타데이터 서비스 버전 1(IMDSv1)이 필요합니다. 커넥터는 IMDSv2에서 지원되지 않습니다.
++
+--
+이제 IMDSv2가 새 EC2 인스턴스의 기본 버전이므로 IMDSv1 사용을 복원하려면 인스턴스 메타데이터 옵션을 수정해야 합니다.
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-IMDS-existing-instances.html#modify-restore-IMDSv1["AWS 설명서: IMDSv1 사용을 복원합니다"^]
+
+--
 
 
 
