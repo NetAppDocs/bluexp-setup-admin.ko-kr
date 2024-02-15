@@ -34,17 +34,17 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 NetApp 클라우드 자격 증명을 사용하여 BlueXP에 로그인하는 경우 이제 * 사용자 설정 * 에서 이름을 편집할 수 있습니다.
 
-image:screenshot-edit-name.png["사용자 설정에서 사용자 이름을 편집하는 기능을 보여 주는 스크린샷."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-edit-name.png["사용자 설정에서 사용자 이름을 편집하는 기능을 보여 주는 스크린샷."]
 
 페더레이션 연결 또는 NetApp Support 사이트 계정으로 로그인한 경우에는 사용자 이름 편집이 지원되지 않습니다.
 
 
 
-=== Amazon EC2 인스턴스 메타데이터 서비스 요구 사항
+=== EC2 인스턴스에 대한 IMDSv1 요구 사항
 
-AWS에 Connector 소프트웨어를 수동으로 설치하기 전에 EC2 인스턴스에 IMDSv1이 필요하다는 것을 알고 있어야 합니다.
+AWS에 Connector 소프트웨어를 수동으로 설치하기 전에 Amazon EC2 인스턴스에서 IMDSv1(인스턴스 메타데이터 서비스 버전 1)이 필요하다는 것을 알고 있어야 합니다.
 
-link:reference-limitations.html["AWS에서 IMDSv1의 요구 사항에 대해 자세히 알아보십시오"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-limitations.html["AWS에서 IMDSv1의 요구 사항에 대해 자세히 알아보십시오"].
 
 
 
@@ -107,7 +107,7 @@ link:reference-limitations.html["AWS에서 IMDSv1의 요구 사항에 대해 자
 
 * AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["BlueXP에서 AWS에 Connector를 생성할 때 네트워크 페이지에 표시되는 Key Pair 필드의 검색 옵션 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-connector-aws-key-pair.png["BlueXP에서 AWS에 Connector를 생성할 때 네트워크 페이지에 표시되는 Key Pair 필드의 검색 옵션 스크린샷"]
 
 * 이 업데이트에는 버그 수정도 포함되어 있습니다.
 

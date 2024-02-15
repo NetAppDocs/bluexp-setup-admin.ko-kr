@@ -3580,7 +3580,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">커넥터 3.9.33</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">AWS에서 BlueXP를 통해 Connector를 생성할 때 Key Pair 필드 내에서 검색하여 Connector 인스턴스에 사용할 키 쌍을 더 쉽게 찾을 수 있습니다.</block>
   <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">BlueXP에서 AWS에 Connector를 생성할 때 네트워크 페이지에 표시되는 Key Pair 필드의 검색 옵션 스크린샷</block>
-  <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90641719c2018ef19f0a8140a88f5fee" category="list-text">이 업데이트에는 버그 수정도 포함되어 있습니다.</block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023년 7월 30일</block>
   <block id="e22252cf3c711c916163d727b6261500" category="paragraph">클라우드 지역은 AWS Top Secret Cloud, AWS Secret Cloud, Azure IL6 또는 모든 상업 지역과 같은 미국 보안 기관의 지역이 될 수 있습니다.</block>
@@ -3859,7 +3858,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="f1c2261d89d52febeed15edf1f34a5b7" category="section-title">이름을 편집합니다</block>
   <block id="c42458c54134318669b685ee8730a478" category="paragraph">NetApp 클라우드 자격 증명을 사용하여 BlueXP에 로그인하는 경우 이제 * 사용자 설정 * 에서 이름을 편집할 수 있습니다.</block>
   <block id="ab15c21485050b3b0c09a3b7b31d97d7" category="inline-image-macro">사용자 설정에서 사용자 이름을 편집하는 기능을 보여 주는 스크린샷.</block>
-  <block id="19f8b99a1063fac466ee71dbd38b8447" category="paragraph"><block ref="19f8b99a1063fac466ee71dbd38b8447" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4a784443543a41df794122c52fae1df7" category="paragraph">페더레이션 연결 또는 NetApp Support 사이트 계정으로 로그인한 경우에는 사용자 이름 편집이 지원되지 않습니다.</block>
   <block id="bf032cb5bcb45fec81b7b5b993ebabe4" category="paragraph">각 Cloud Volumes ONTAP 시스템의 백업 위치를 업데이트해야 합니다.</block>
   <block id="2a066cad1fef063fff0ca56b5d416b10" category="list-text">Cloud Volumes ONTAP CLI에서 다음 명령을 실행하여 현재 백업 타겟을 표시합니다.</block>
@@ -3872,8 +3870,10 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="1dd4f77b0b91e0fcf80bc700a9a86fd6" category="paragraph">BlueXP 또는 AWS 마켓플레이스에서 Connector를 AWS에 구축하는 경우 기본적으로 다음 EC2 인스턴스 설정이 구성됩니다.</block>
   <block id="a781cb38c0c2c5288c02850fcd3cda7d" category="list-text">IMDSv1 을 참조하십시오</block>
   <block id="1b863f7993d117f5ab767043f7a0bcdb" category="list-text">EC2 인스턴스에 인스턴스 메타데이터 서비스 버전 1(IMDSv1)이 필요합니다. 커넥터는 IMDSv2에서 지원되지 않습니다.</block>
-  <block id="7626696bd9f21a6589ce40ea53af6046" category="section-title">Amazon EC2 인스턴스 메타데이터 서비스 요구 사항</block>
-  <block id="bce093b82ba18b11f0951a0e0b61a538" category="paragraph">AWS에 Connector 소프트웨어를 수동으로 설치하기 전에 EC2 인스턴스에 IMDSv1이 필요하다는 것을 알고 있어야 합니다.</block>
   <block id="f8197842b4e7ad7b7b15ef36dcb4ae78" category="inline-link-macro">AWS에서 IMDSv1의 요구 사항에 대해 자세히 알아보십시오</block>
-  <block id="b305801a6c9c8eadb3e6439dc658aaa8" category="paragraph"><block ref="785f731db3565bf64fce6692ea6b4a4a" category="inline-link-macro-rx"></block>.</block>
+  <block id="daf15a33710ed6188d035a01c084bee9" category="paragraph"><block ref="daf15a33710ed6188d035a01c084bee9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c7f67b21e0c8d093756f7b3a59e8d2e8" category="section-title">EC2 인스턴스에 대한 IMDSv1 요구 사항</block>
+  <block id="09477b433fb18272d0d3ee6b7a7e23ad" category="paragraph">AWS에 Connector 소프트웨어를 수동으로 설치하기 전에 Amazon EC2 인스턴스에서 IMDSv1(인스턴스 메타데이터 서비스 버전 1)이 필요하다는 것을 알고 있어야 합니다.</block>
+  <block id="ae1d4316f9a8104fa910e65fd2096cb3" category="paragraph"><block ref="3fb75bc46ec80b0989f43707450cda37" category="inline-link-rx"></block>.</block>
+  <block id="bbd3f8aeec942b5e418da40a3101ed3e" category="paragraph"><block ref="bbd3f8aeec942b5e418da40a3101ed3e" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
