@@ -31,11 +31,39 @@ Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아�
 이 작업은 Connector를 다시 시작합니다. 계속하기 전에 커넥터가 어떠한 작업도 수행하지 않는지 확인하십시오.
 
 .단계
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 커넥터 설정 * 을 선택합니다.
+. BlueXP 커넥터 편집 * 페이지로 이동합니다.
 +
-image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
+탐색 방법은 표준 모드에서 BlueXP를 사용(SaaS 웹 사이트에서 BlueXP 인터페이스에 액세스) 하는지, 제한된 모드나 프라이빗 모드(커넥터 호스트에서 로컬로 BlueXP 인터페이스에 액세스)로 BlueXP를 사용 중인지 여부에 따라 달라집니다.
 
-. 일반 * 에서 * HTTP 프록시 구성 * 을 선택합니다.
++
+[role="tabbed-block"]
+====
+.표준 모드
+--
+.. BlueXP 헤더에서 * 커넥터 * 드롭다운을 선택합니다.
+.. 커넥터 관리 * 를 선택합니다.
++
+image:screenshot-manage-connectors.png["연결선을 선택한 후 사용할 수 있는 연결선 관리 페이지를 보여 주는 스크린샷"]
+
+.. 커넥터의 작업 메뉴를 선택하고 * 커넥터 편집 * 을 선택합니다.
++
+image:screenshot-edit-connector-standard.png["작업 메뉴에서 사용할 수 있는 연결선 편집 옵션을 보여 주는 스크린샷"]
+
+
+
+--
+.제한 또는 비공개 모드
+--
+.. BlueXP 헤더에서 * 커넥터 * 드롭다운을 선택합니다.
+.. 커넥터 편집 * 을 선택합니다.
++
+image:screenshot-edit-connector.png["연결선 메뉴를 확장한 후 사용할 수 있는 연결선 편집 옵션을 보여 주는 스크린샷"]
+
+
+
+--
+====
+. HTTP 프록시 구성 * 을 선택합니다.
 . 프록시 설정:
 +
 .. 프록시 사용 * 을 선택합니다.
@@ -69,10 +97,38 @@ Cloud Volumes ONTAP에서 Azure 개인 링크 사용을 비활성화했으며 �
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-enabling-private-link.html["Cloud Volumes ONTAP에서 Azure 전용 링크 또는 서비스 끝점을 사용하는 방법에 대해 자세히 알아보십시오"^]
 
 .단계
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 커넥터 설정 * 을 선택합니다.
+. BlueXP Connector 편집 * 페이지로 이동합니다.
 +
-image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
+탐색 방법은 표준 모드에서 BlueXP를 사용(SaaS 웹 사이트에서 BlueXP 인터페이스에 액세스) 하는지, 제한된 모드나 프라이빗 모드(커넥터 호스트에서 로컬로 BlueXP 인터페이스에 액세스)로 BlueXP를 사용 중인지 여부에 따라 달라집니다.
 
-. 일반 * 에서 * Support Direct API Traffic * 을 선택합니다.
++
+[role="tabbed-block"]
+====
+.표준 모드
+--
+.. BlueXP 헤더에서 * 커넥터 * 드롭다운을 선택합니다.
+.. 커넥터 관리 * 를 선택합니다.
++
+image:screenshot-manage-connectors.png["연결선을 선택한 후 사용할 수 있는 연결선 관리 페이지를 보여 주는 스크린샷"]
+
+.. 커넥터의 작업 메뉴를 선택하고 * 커넥터 편집 * 을 선택합니다.
++
+image:screenshot-edit-connector-standard.png["작업 메뉴에서 사용할 수 있는 연결선 편집 옵션을 보여 주는 스크린샷"]
+
+
+
+--
+.제한 또는 비공개 모드
+--
+.. BlueXP 헤더에서 * 커넥터 * 드롭다운을 선택합니다.
+.. 커넥터 편집 * 을 선택합니다.
++
+image:screenshot-edit-connector.png["연결선 메뉴를 확장한 후 사용할 수 있는 연결선 편집 옵션을 보여 주는 스크린샷"]
+
+
+
+--
+====
+. Support Direct API Traffic * 을 선택합니다.
 . 확인란을 선택하여 옵션을 활성화한 다음 * Save * 를 선택합니다.
 

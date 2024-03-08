@@ -1401,9 +1401,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="f624e5f75138eb92caddd44e1bc7342e" category="list-text">태그: getTagValues</block>
   <block id="5e665d8f5cf0c341dce9f3bd5e7f4cc0" category="list-text">태그: 태그 리소스</block>
   <block id="5e10058ad3f07bfeca3eef81de09ce28" category="list-text">태그: UntagResources</block>
-  <block id="a05b5ce37ea267c22e70da731bcc3494" category="section-title">2023년 6월 6일</block>
   <block id="14cbfe27bd7092d1b2ab4502adbdd584" category="paragraph">이제 Cloud Volumes ONTAP에 대해 다음 권한이 필요합니다.</block>
-  <block id="1be1ae3d277ebf372ecefda4d444dbbb" category="section-title">2023년 2월 14일</block>
   <block id="bf9c7c9727a11f040da47cdd589f7ea6" category="paragraph">이제 BlueXP 계층화에 대해 다음 권한이 필요합니다.</block>
   <block id="b2cc56e18c7250863c6c74a223137e16" category="summary">BlueXP SaaS 계층에 대한 아웃바운드 연결 없이 BlueXP를 사용할 수 있도록 커넥터를 비공개 모드로 배포합니다. 시작하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 이전에 설정한 클라우드 권한을 제공합니다.</block>
   <block id="2f549fb867eb9c0be636782d32264aa6" category="doc">커넥터를 비공개 모드로 배포합니다</block>
@@ -1524,10 +1522,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">알려진 제한 사항</block>
   <block id="6802f2d551252ff38d10cfab7b7735b3" category="paragraph">이러한 제한 사항은 Connector, SaaS 플랫폼 등 BlueXP 설정 및 관리와 관련된 것입니다.</block>
   <block id="83e566847d42782b3343e108150d7f57" category="section-title">커넥터 제한</block>
-  <block id="cf4525e15b866700f10e91573643ba54" category="section-title">기본 EC2 인스턴스 설정은 변경할 수 없습니다</block>
-  <block id="b6c588d5cb8cbc221e66a15877aed30a" category="list-text">IMDSv2는 선택 사항으로 설정되어 있습니다</block>
-  <block id="b29d18da75a3c01939275500a8fc2e70" category="list-text">HttpTokens 는 선택 사항으로 설정되어 있습니다</block>
-  <block id="a91c1c121088ffbd72985e0bf2459f87" category="paragraph">이러한 설정은 필수 설정으로 변경해서는 안 됩니다. 이러한 설정을 필수로 변경하면 커넥터 및 Cloud Volumes ONTAP 가용성에 영향을 줍니다.</block>
   <block id="911d15b7ac55478d2b567e8488658687" category="section-title">172 범위의 IP 주소와 충돌할 수 있습니다</block>
   <block id="efdb2123102821583a0af000d2fa9040" category="paragraph">BlueXP는 172.17.0.0/16 및 172.18.0.0/16 범위의 IP 주소를 가진 두 개의 인터페이스로 커넥터를 배포합니다.</block>
   <block id="5646658d58bb92ba775a6c2cd024ef17" category="paragraph">네트워크에 이러한 범위 중 하나로 구성된 서브넷이 있는 경우 BlueXP에서 연결 오류가 발생할 수 있습니다. 예를 들어, BlueXP에서 온프레미스 ONTAP 클러스터를 검색하지 못할 수 있습니다.</block>
@@ -2328,8 +2322,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="58dcadbd8de2066b4071d6ed4e0b4baf" category="section-title">Connector에서 프록시를 활성화합니다</block>
   <block id="a211e8f0d908dfd70d36364b3fbd91b0" category="paragraph">커넥터가 관리하는 프록시 서버(HA 중개자 포함)와 Cloud Volumes ONTAP 시스템을 사용하도록 커넥터를 구성하는 경우 모두 프록시 서버를 사용합니다.</block>
   <block id="f5cfd333047dfa220ee8666d14286034" category="paragraph">이 작업은 Connector를 다시 시작합니다. 계속하기 전에 커넥터가 어떠한 작업도 수행하지 않는지 확인하십시오.</block>
-  <block id="1ba8304c99952e6f64861018bbefcdd0" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 커넥터 설정 * 을 선택합니다.</block>
-  <block id="861d390100edeb52d8f385f026c72049" category="list-text">일반 * 에서 * HTTP 프록시 구성 * 을 선택합니다.</block>
   <block id="2c451caa323474f558c4e4065578647d" category="list-text">프록시 설정:</block>
   <block id="dabc8d2c79f6529ca393b4b3d4f75805" category="list-text">프록시 사용 * 을 선택합니다.</block>
   <block id="25e8eb6a683e97e04e337e061a18205c" category="list-text">구문을 사용하여 서버를 지정합니다<block ref="f8f3e404ad5e32f60f55bb48e6395ae6" category="inline-link-rx"></block> 또는<block ref="9ab29a9097f3907435367cc314192885" category="inline-link-rx"></block></block>
@@ -2339,7 +2331,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="37bccc08c3c6cebbbf500cfe54775991" category="paragraph">Cloud Volumes ONTAP에서 Azure 개인 링크 사용을 비활성화했으며 서비스 끝점을 대신 사용하는 경우 직접 API 트래픽을 활성화해야 합니다. 그렇지 않으면 트래픽이 제대로 라우팅되지 않습니다.</block>
   <block id="ac10c9401f16ed5ff0a029bce2712adc" category="inline-link">Cloud Volumes ONTAP에서 Azure 전용 링크 또는 서비스 끝점을 사용하는 방법에 대해 자세히 알아보십시오</block>
   <block id="6143580a5ae490efe32d3c566650ad6c" category="paragraph"><block ref="6143580a5ae490efe32d3c566650ad6c" category="inline-link-rx"></block></block>
-  <block id="73918d630dd9a657f3442a2c1231fd74" category="list-text">일반 * 에서 * Support Direct API Traffic * 을 선택합니다.</block>
   <block id="c569dd49f93a05d537d61130ed43e6e9" category="list-text">확인란을 선택하여 옵션을 활성화한 다음 * Save * 를 선택합니다.</block>
   <block id="9345f603d48306b04203c8a77bc1ec43" category="summary">BlueXP 계정을 만들면 단일 관리자 사용자와 작업 영역만 포함됩니다. 사용자를 추가하고, 자동화를 위해 서비스 계정을 만들고, 작업 영역을 추가하는 등의 방법으로 조직의 요구에 맞게 계정을 관리할 수 있습니다.</block>
   <block id="f2b686d839a94b2d7f1e0a55d1c7c302" category="doc">BlueXP 계정을 관리합니다</block>
@@ -3456,7 +3447,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="bbc8741d5b8cb60c926722b934bec008" category="section-title">2단계: AWS 권한 설정</block>
   <block id="76fc03e9ac56ec6623a5f3fd59761d4b" category="section-title">3단계: 커넥터를 만듭니다</block>
   <block id="da14ee4a8100ac08980150bcda1e397d" category="inline-link-macro">Connector의 기본 설정에 대해 알아봅니다</block>
-  <block id="f1620bf756a71002318f3eb8b1277d2f" category="paragraph">BlueXP에서 Connector를 생성하면 기본 구성을 사용하여 AWS에서 EC2 인스턴스를 배포합니다. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
   <block id="26b0998fe035211b8097187e431e16b9" category="summary">자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 AWS 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="eb44c1bbcb138bd8d43dab2a2d5dd798" category="doc">Connector를 AWS에 수동으로 설치합니다</block>
   <block id="2cdec4e0f473161523115d9e1cc50257" category="list-text">Connector를 생성할 때 인스턴스와 함께 사용할 EC2 키 쌍을 선택해야 합니다.</block>
@@ -3507,7 +3497,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="fbb7d70eda793afc4159d1bd8f3c3814" category="paragraph">단계에 따라 BlueXP와 함께 사용할 인증 방법 중 하나를 준비합니다.</block>
   <block id="a9242e0bd7c37f9c26c954ae4eff29b3" category="open-title">Azure 계정</block>
   <block id="d1ff9355f81257b2c8a7693e702ba3f7" category="section-title">4단계: 커넥터를 만듭니다</block>
-  <block id="f23ed1e499f82b7b35d463ccef21eed1" category="paragraph">BlueXP에서 Connector를 생성하면 기본 구성을 사용하여 Azure에서 가상 머신을 구축할 수 있습니다. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
   <block id="2f44f891a2e61a894ccc4f30dfd7b4be" category="paragraph"><block ref="8d330a1f00fb06fce7867e682fb9a351" category="inline-xref-macro-rx"></block>.</block>
   <block id="234849cccf32785a20387f435fbc1665" category="paragraph">표준 모드에서 BlueXP를 사용할 때 사용 권한을 제공하는 방법은 Connector를 생성하는 계획에 따라 다릅니다.</block>
   <block id="235df19fd66aa61dd8174f1a6480f822" category="paragraph">사용 권한을 설정하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</block>
@@ -3546,7 +3535,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="4d55aaa36c67fd980b8ca20ca5db6ef9" category="paragraph">BlueXP에서 또는 gcloud를 사용하여 Connector를 배포하려면 Connector VM을 배포할 Google Cloud 사용자의 권한을 설정해야 합니다.</block>
   <block id="8456ad5c97fd1db8b43fc61d8ea03799" category="section-title">6단계: 커넥터를 만듭니다</block>
   <block id="bb919bb919074dbe6c69b05695d0a1aa" category="paragraph">BlueXP 웹 기반 콘솔에서 직접 또는 gcloud를 사용하여 Connector를 생성합니다.</block>
-  <block id="b03261236b57a26202438940439ee786" category="paragraph">Connector를 생성하면 기본 구성을 사용하여 Google Cloud에 가상 머신 인스턴스를 배포합니다. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
   <block id="ec2ce152b3b60e3721ae091911de473d" category="list-text">VM 인스턴스 요구 사항 이해</block>
   <block id="aab924c92611ee11b49b8687e53ec943" category="list-text">* CPU *: 4코어 또는 4개의 vCPU</block>
   <block id="3f8517f6b0146fc27e0a5144098713fb" category="list-text">* RAM *: 14GB</block>
@@ -3862,19 +3850,91 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="bf032cb5bcb45fec81b7b5b993ebabe4" category="paragraph">각 Cloud Volumes ONTAP 시스템의 백업 위치를 업데이트해야 합니다.</block>
   <block id="2a066cad1fef063fff0ca56b5d416b10" category="list-text">Cloud Volumes ONTAP CLI에서 다음 명령을 실행하여 현재 백업 타겟을 표시합니다.</block>
   <block id="78cae36205d703274f695ea4e85f6ffe" category="list-text">다음 명령을 실행하여 백업 대상의 IP 주소를 업데이트합니다.</block>
-  <block id="375a8301ce4caf38298dba148206d69c" category="section-title">EC2 인스턴스에 IMDSv1이 필요합니다</block>
-  <block id="997791080d6fcd216110fbfe145cef98" category="paragraph">표준 모드 또는 제한 모드를 사용할 때 AWS의 EC2 인스턴스에 커넥터 소프트웨어를 수동으로 설치하기 전에 EC2 인스턴스가 IMDSv1(Instance Metadata Service Version 1)을 사용하는지 확인해야 합니다. 커넥터는 IMDSv2에서 지원되지 않습니다.</block>
   <block id="95371958414dbd4f614d7ff8348b9b31" category="paragraph">이제 IMDSv2가 새 EC2 인스턴스의 기본 버전이므로 IMDSv1 사용을 복원하려면 인스턴스 메타데이터 옵션을 수정해야 합니다.</block>
   <block id="c637448044ff305c64a7c1cd8b77b196" category="inline-link">AWS 설명서: IMDSv1 사용을 복원합니다</block>
   <block id="dd3ddc1f5982d8946100b097e7993378" category="paragraph"><block ref="dd3ddc1f5982d8946100b097e7993378" category="inline-link-rx"></block></block>
-  <block id="1dd4f77b0b91e0fcf80bc700a9a86fd6" category="paragraph">BlueXP 또는 AWS 마켓플레이스에서 Connector를 AWS에 구축하는 경우 기본적으로 다음 EC2 인스턴스 설정이 구성됩니다.</block>
   <block id="a781cb38c0c2c5288c02850fcd3cda7d" category="list-text">IMDSv1 을 참조하십시오</block>
   <block id="1b863f7993d117f5ab767043f7a0bcdb" category="list-text">EC2 인스턴스에 인스턴스 메타데이터 서비스 버전 1(IMDSv1)이 필요합니다. 커넥터는 IMDSv2에서 지원되지 않습니다.</block>
-  <block id="f8197842b4e7ad7b7b15ef36dcb4ae78" category="inline-link-macro">AWS에서 IMDSv1의 요구 사항에 대해 자세히 알아보십시오</block>
   <block id="daf15a33710ed6188d035a01c084bee9" category="paragraph"><block ref="daf15a33710ed6188d035a01c084bee9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c7f67b21e0c8d093756f7b3a59e8d2e8" category="section-title">EC2 인스턴스에 대한 IMDSv1 요구 사항</block>
-  <block id="09477b433fb18272d0d3ee6b7a7e23ad" category="paragraph">AWS에 Connector 소프트웨어를 수동으로 설치하기 전에 Amazon EC2 인스턴스에서 IMDSv1(인스턴스 메타데이터 서비스 버전 1)이 필요하다는 것을 알고 있어야 합니다.</block>
-  <block id="ae1d4316f9a8104fa910e65fd2096cb3" category="paragraph"><block ref="3fb75bc46ec80b0989f43707450cda37" category="inline-link-rx"></block>.</block>
   <block id="bbd3f8aeec942b5e418da40a3101ed3e" category="paragraph"><block ref="bbd3f8aeec942b5e418da40a3101ed3e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="list-text">랜섬웨어 보호</block>
+  <block id="4a1a05ee22994e328d9ec0402052b926" category="section-title">2024년 3월 8일</block>
+  <block id="e95eef6ba2551f885847cc2b51459994" category="paragraph">이제 커넥터 정책에 다음 권한이 포함됩니다.</block>
+  <block id="33e595f0fd43192e3f1d28a291860881" category="paragraph">EC2:가용성 영역 설명</block>
+  <block id="b12f2c2fee8ccdb3cad2171b53ed3cfd" category="paragraph">이 권한은 다음 릴리스에 필요합니다. 해당 릴리스가 출시되면 릴리스 노트를 더 자세히 업데이트하겠습니다.</block>
+  <block id="6a7140fd5370f297d9a834d30e26ffde" category="section-title">2023년 6월 6일</block>
+  <block id="5fc531b28735a6e141b39c2b5e2f1dcc" category="section-title">2023년 2월 14일</block>
+  <block id="d1b9e6a9e660eac14ba251761cf89e4b" category="paragraph">BlueXP에서 Connector를 생성하면 기본 구성을 사용하여 Azure에서 가상 머신을 구축할 수 있습니다. Connector를 생성한 후에는 CPU 또는 RAM이 적은 더 작은 VM 유형으로 변경하지 마십시오. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
+  <block id="d54ab8a1d5dd0b1066137c76d5021844" category="section-title">VM 또는 인스턴스 유형입니다</block>
+  <block id="c371dc405db8facc84986c93c1618d1e" category="paragraph">BlueXP에서 Connector를 직접 생성한 경우 BlueXP는 기본 구성을 사용하여 클라우드 공급자에 가상 머신 인스턴스를 구축했습니다. Connector를 생성한 후에는 CPU 또는 RAM이 적은 더 작은 VM 인스턴스로 변경하지 마십시오.</block>
+  <block id="bdfd85d15fc6c7ed4e5a19af0a8f1999" category="paragraph">CPU 및 RAM 요구 사항은 다음과 같습니다.</block>
+  <block id="84fc34721c0c912a148a70d22ac7cd5a" category="paragraph"><block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
+  <block id="98dddf7eafbbdfa88756d62945237473" category="section-title">Amazon EC2 인스턴스에서 IMDSv2를 사용해야 합니다</block>
+  <block id="824e7fae55f361d08bb9bd5bdf494ff0" category="inline-link">IMDSv2에 대한 자세한 내용은 AWS 보안 블로그 를 참조하십시오</block>
+  <block id="c49009b6f155acc311d4014abe19ec98" category="paragraph">2024년부터 BlueXP는 이제 커넥터 및 Cloud Volumes ONTAP(HA 구축을 위한 중재자 포함)를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다.<block ref="cb4336eb4a08d88f663206e070c9e1af" category="inline-link-rx"></block></block>
+  <block id="4166379ba80de4be17a81c04ec7819c4" category="list-text">IMDSv2는 모든 새 커넥터 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다.</block>
+  <block id="6f218fd0d06a9a2564453a73bc05ee13" category="list-text">IMDSv1은 모든 신규 및 기존 Cloud Volumes ONTAP EC2 인스턴스에 대해 기본적으로 활성화됩니다.</block>
+  <block id="7e6c98db93605459a9b69da423ef4684" category="paragraph">보안 정책에서 요구하는 경우 IMDSv2를 사용하도록 EC2 인스턴스를 구성할 수 있습니다.</block>
+  <block id="b2f60e6f194d16e1bf9deaa367cd9eae" category="list-text">Connector 버전은 3.9.38 이상이어야 합니다.</block>
+  <block id="177aac65c5f4518e1a35eb1479fac1a1" category="list-text">이 변경 사항을 적용하려면 Cloud Volumes ONTAP 인스턴스를 다시 시작해야 합니다.</block>
+  <block id="5024434a1308ae5aff26ba15a55bce13" category="paragraph">응답 홉 제한을 3으로 변경해야 하므로 다음 단계를 수행하려면 AWS CLI를 사용해야 합니다.</block>
+  <block id="674bc63ff5794e51146ad842329f5afd" category="list-text">커넥터 인스턴스에서 IMDSv2를 사용해야 합니다.</block>
+  <block id="7c08236138358b7a6e12dcdf43b92969" category="list-text">AWS CLI를 설치합니다.</block>
+  <block id="97b647a1aeead85f7ff9e6660cadfd49" category="inline-link">AWS 문서: 최신 버전의 AWS CLI를 설치하거나 업데이트합니다</block>
+  <block id="0eccbc3e7cb345786a9c69cf32e0b410" category="paragraph"><block ref="0eccbc3e7cb345786a9c69cf32e0b410" category="inline-link-rx"></block></block>
+  <block id="fdedd16440c0c883dfc66fe8ef510c62" category="list-text">를 사용합니다<block ref="163406f31b4a352573543db4a8b761b7" prefix=" " category="inline-code"></block> IMDSv2의 사용을 요구하고 PUT 응답 홉 제한을 3으로 변경하는 명령어이다.</block>
+  <block id="d83ec76d50b3bda1cf13e81a46048f91" category="admonition">를 클릭합니다<block ref="b14a1de55f9953d856d03b1230916191" prefix=" " category="inline-code"></block> 매개 변수는 IMDSv2를 Required 로 설정합니다. 시기<block ref="b14a1de55f9953d856d03b1230916191" prefix=" " category="inline-code"></block> 이 필수 요소이며 도 설정해야 합니다<block ref="075040dbadfe9a123d2621d11f01b0a6" prefix=" " category="inline-code"></block> 를 활성화합니다.</block>
+  <block id="e3562f747ad313da62190f86bb64dc87" category="list-text">Cloud Volumes ONTAP 인스턴스에서 IMDSv2를 사용해야 합니다.</block>
+  <block id="e813184f980902e482da371f4c1635a3" category="inline-link">Amazon EC2 콘솔</block>
+  <block id="a3c1ab8ea16cbc440d74ed1810e1ea29" category="list-text">로 이동합니다<block ref="a979ef0662428242021a3b937a5a7bf7" category="inline-link-rx"></block></block>
+  <block id="0923d272646612aa7fcac06ded4f9775" category="list-text">탐색 창에서 * 인스턴스 * 를 선택합니다.</block>
+  <block id="bd669926126507d7fbfbbb50bfafba24" category="list-text">Cloud Volumes ONTAP 인스턴스를 선택합니다.</block>
+  <block id="1c9db3e842584a909d28ae8882a8e58a" category="list-text">조치 &gt; 인스턴스 설정 &gt; 인스턴스 메타데이터 옵션 수정 * 을 선택합니다.</block>
+  <block id="dee3242d9f387f850469315724ac6c27" category="list-text">인스턴스 메타데이터 수정 옵션 * 대화 상자에서 다음을 선택합니다.</block>
+  <block id="e24b7163a4dc37a3db7eb4e01db5a81f" category="list-text">인스턴스 메타데이터 서비스 * 의 경우 * 활성화 * 를 선택합니다.</block>
+  <block id="2c239daef1a43ddd2011dfa4a307c157" category="list-text">IMDSv2 * 의 경우 * 필수 * 를 선택합니다.</block>
+  <block id="5cf803d4e6ce3c1fc67e7320dcd440b1" category="list-text">HA 중재자를 포함하여 다른 Cloud Volumes ONTAP 인스턴스에 대해 이 단계를 반복합니다.</block>
+  <block id="0694adc8bc882f236f606e1c56eebe94" category="inline-link">Cloud Volumes ONTAP 인스턴스를 중지하고 시작합니다</block>
+  <block id="96afcc62a59c68b277c1a37c2254e239" category="list-text"><block ref="96afcc62a59c68b277c1a37c2254e239" category="inline-link-rx"></block></block>
+  <block id="1bf094b9d6f1b1c1ae5e745beefb3ff7" category="paragraph">이제 커넥터 인스턴스 및 Cloud Volumes ONTAP 인스턴스가 IMDSv2를 사용하도록 구성되었습니다.</block>
+  <block id="00d14f718aca7db50368d8fc7008b41a" category="section-title">커넥터 3.9.38</block>
+  <block id="d39d3f642c13ecde9b0fc02889aa6386" category="paragraph">현재 3.9.38 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다. 이 릴리스에는 AWS의 IMDSv2 지원과 AWS 권한 업데이트가 포함되어 있습니다.</block>
+  <block id="b8048e9aa508d6c9379607c39c84e904" category="section-title">IMDSv2 지원</block>
+  <block id="727615b8adbd72d276572a4469f7c09d" category="paragraph">이제 BlueXP는 커넥터 인스턴스 및 Cloud Volumes ONTAP 인스턴스를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다. 이전에 IMDSv1만 지원되었습니다.</block>
+  <block id="8035ec6377ab933cc4bc2a70b5416a29" category="paragraph"><block ref="8035ec6377ab933cc4bc2a70b5416a29" category="inline-link-rx"></block></block>
+  <block id="89f5243637c4f72512944130a95ee3e5" category="paragraph">EC2 인스턴스에 대해 IMDS(인스턴스 메타데이터 서비스)가 다음과 같이 활성화됩니다.</block>
+  <block id="baebea4bbd59d6c8efcae96586b2e199" category="inline-link">Terraform 스크립트</block>
+  <block id="0b18bb2eadaff9912e9bbefb3accbc90" category="list-text">BlueXP, AWS Marketplace 또는 를 사용하여 새로운 Connector를 구축하는 경우<block ref="d5789cbcfe02eb67db017173bcddbe49" category="inline-link-rx"></block>, IMDSv2는 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다.</block>
+  <block id="0319f9ec57f9eeb8250ac949896c30fd" category="list-text">AWS에서 새 EC2 인스턴스를 시작한 다음 Connector 소프트웨어를 수동으로 설치하면 IMDSv2도 기본적으로 사용하도록 설정됩니다.</block>
+  <block id="1fac08ada9902743d92641fbbd32d13f" category="list-text">기존 커넥터의 경우 IMDSv1은 계속 지원되지만 원하는 경우 EC2 인스턴스에서 IMDSv2를 수동으로 구성할 수 있습니다.</block>
+  <block id="d0371cc329d08bb54c28e8881cc93db7" category="list-text">Cloud Volumes ONTAP의 경우 새 인스턴스와 기존 인스턴스에서 IMDSv1이 기본적으로 사용됩니다. 원하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.</block>
+  <block id="e064a507c52bd5a195428edf98b8aecb" category="inline-link">기존 인스턴스에서 IMDSv2를 구성하는 방법에 대해 알아봅니다</block>
+  <block id="35caf9a212e382e214a82a5d75099530" category="paragraph"><block ref="2136f09eaf84594e894a08f345e725b8" category="inline-link-rx"></block>.</block>
+  <block id="4cc078461f1763cdb13efec9da8a6a3f" category="section-title">AWS 권한 업데이트</block>
+  <block id="5b208d0b88475ec99f06a7e55104a566" category="paragraph">AWS에 대한 커넥터 정책을 "EC2:DescripbeAvailabilityZones" 권한을 포함하도록 업데이트했습니다. 이 권한은 다음 릴리스에 필요합니다. 해당 릴리스가 출시되면 릴리스 노트를 더 자세히 업데이트하겠습니다.</block>
+  <block id="7595af352964f2b06057ab6310fdff44" category="inline-link">Connector에 대한 AWS 권한을 봅니다</block>
+  <block id="bad85d32b5f3e46e956809c13b502817" category="paragraph"><block ref="7e42187d6259f740c2e1915df5429efc" category="inline-link-rx"></block>.</block>
+  <block id="9796f4649a0c963c7b6019196c7f14f0" category="section-title">프록시 설정 및 Cloud Volumes ONTAP 설정</block>
+  <block id="1697d0f8a0936757a7bb28b4fa2eacd1" category="paragraph">커넥터에 대한 프록시 서버 설정은 이제 * 커넥터 관리 * 페이지(표준 모드) 또는 * 커넥터 편집 * 페이지(제한된 모드 및 개인 모드)에서 사용할 수 있습니다.</block>
+  <block id="50770490f832c2b93de5aff17e5102b5" category="inline-link">프록시 서버를 사용하도록 커넥터를 구성하는 방법에 대해 알아봅니다</block>
+  <block id="d58ba1e11f305c91632d6e86e3515966" category="paragraph"><block ref="f2fec40748e9e912170fdd2984d9b989" category="inline-link-rx"></block>.</block>
+  <block id="d560347c8aaf0de44ab17132b9923b1c" category="paragraph">또한 * 커넥터 설정 * 페이지의 이름을 * Cloud Volumes ONTAP 설정 * 으로 변경했습니다.</block>
+  <block id="79c73187c699b08002880f70fb88a0a8" category="inline-image-macro">설정 메뉴에서 사용할 수 있는 Cloud Volumes ONTAP 설정 옵션을 보여 주는 스크린샷.</block>
+  <block id="1a1ed66dc9bfcad0fc9c0c7fa6b4f0ca" category="paragraph"><block ref="1a1ed66dc9bfcad0fc9c0c7fa6b4f0ca" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03c012ec036bd77d62ef64e67f7dbc5a" category="list-text">BlueXP 커넥터 편집 * 페이지로 이동합니다.</block>
+  <block id="5682fb3f3dc6955b7e9d4b14adc8daa0" category="paragraph">탐색 방법은 표준 모드에서 BlueXP를 사용(SaaS 웹 사이트에서 BlueXP 인터페이스에 액세스) 하는지, 제한된 모드나 프라이빗 모드(커넥터 호스트에서 로컬로 BlueXP 인터페이스에 액세스)로 BlueXP를 사용 중인지 여부에 따라 달라집니다.</block>
+  <block id="75effefc9fa992948e167a31a7b2c21e" category="inline-image-macro">연결선을 선택한 후 사용할 수 있는 연결선 관리 페이지를 보여 주는 스크린샷</block>
+  <block id="e929efc0ae3c20b98faca1bce939c39f" category="paragraph"><block ref="e929efc0ae3c20b98faca1bce939c39f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d7cd2871be8edef469dbc0a8331b2ea1" category="list-text">커넥터의 작업 메뉴를 선택하고 * 커넥터 편집 * 을 선택합니다.</block>
+  <block id="51061648a222d2e9cfc0c81e3936b2ed" category="inline-image-macro">작업 메뉴에서 사용할 수 있는 연결선 편집 옵션을 보여 주는 스크린샷</block>
+  <block id="b56348249fcdfb1d99adf3c4aed569de" category="paragraph"><block ref="b56348249fcdfb1d99adf3c4aed569de" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c2e1602403c9ad1e0a65c8bcd78343f0" category="open-title">제한 또는 비공개 모드</block>
+  <block id="58254850bdb77fd29a5e690737b3b38e" category="list-text">커넥터 편집 * 을 선택합니다.</block>
+  <block id="52151b08532438e354a67736d7f485dd" category="inline-image-macro">연결선 메뉴를 확장한 후 사용할 수 있는 연결선 편집 옵션을 보여 주는 스크린샷</block>
+  <block id="00f7462bbd72cb5b8ec9621909b3ebb1" category="paragraph"><block ref="00f7462bbd72cb5b8ec9621909b3ebb1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3a71443a0764cf544fb5e2055be2d744" category="list-text">HTTP 프록시 구성 * 을 선택합니다.</block>
+  <block id="7562ce5f768e11625bc10a4b9ebb71b0" category="list-text">BlueXP Connector 편집 * 페이지로 이동합니다.</block>
+  <block id="f5d22e387d3dd91dbc45f16de7949a06" category="list-text">Support Direct API Traffic * 을 선택합니다.</block>
+  <block id="0515ac140ab701cd78614b76c8296d4f" category="paragraph">BlueXP에서 Connector를 생성하면 기본 구성을 사용하여 AWS에서 EC2 인스턴스를 배포합니다. 커넥터를 생성한 후에는 CPU 또는 RAM이 더 적은 더 작은 EC2 인스턴스 유형으로 변경하지 마십시오. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
+  <block id="b1f8391bb8c209468262aa239bef0d41" category="paragraph">Connector를 생성하면 기본 구성을 사용하여 Google Cloud에 가상 머신 인스턴스를 배포합니다. Connector를 생성한 후에는 CPU 또는 RAM이 적은 더 작은 VM 인스턴스로 변경하지 마십시오. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
 </blocks>

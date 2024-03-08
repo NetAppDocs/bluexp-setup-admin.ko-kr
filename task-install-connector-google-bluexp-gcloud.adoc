@@ -378,7 +378,7 @@ https://cloud.google.com/apis/docs/getting-started#enabling_apis["Google Cloud �
 BlueXP 웹 기반 콘솔에서 직접 또는 gcloud를 사용하여 Connector를 생성합니다.
 
 .이 작업에 대해
-Connector를 생성하면 기본 구성을 사용하여 Google Cloud에 가상 머신 인스턴스를 배포합니다. link:reference-connector-default-config.html["Connector의 기본 설정에 대해 알아봅니다"].
+Connector를 생성하면 기본 구성을 사용하여 Google Cloud에 가상 머신 인스턴스를 배포합니다. Connector를 생성한 후에는 CPU 또는 RAM이 적은 더 작은 VM 인스턴스로 변경하지 마십시오. link:reference-connector-default-config.html["Connector의 기본 설정에 대해 알아봅니다"].
 
 [role="tabbed-block"]
 ====
