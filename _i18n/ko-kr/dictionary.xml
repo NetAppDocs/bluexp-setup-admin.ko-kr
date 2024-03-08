@@ -3909,7 +3909,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="1fac08ada9902743d92641fbbd32d13f" category="list-text">기존 커넥터의 경우 IMDSv1은 계속 지원되지만 원하는 경우 EC2 인스턴스에서 IMDSv2를 수동으로 구성할 수 있습니다.</block>
   <block id="d0371cc329d08bb54c28e8881cc93db7" category="list-text">Cloud Volumes ONTAP의 경우 새 인스턴스와 기존 인스턴스에서 IMDSv1이 기본적으로 사용됩니다. 원하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.</block>
   <block id="e064a507c52bd5a195428edf98b8aecb" category="inline-link">기존 인스턴스에서 IMDSv2를 구성하는 방법에 대해 알아봅니다</block>
-  <block id="35caf9a212e382e214a82a5d75099530" category="paragraph"><block ref="2136f09eaf84594e894a08f345e725b8" category="inline-link-rx"></block>.</block>
   <block id="4cc078461f1763cdb13efec9da8a6a3f" category="section-title">AWS 권한 업데이트</block>
   <block id="5b208d0b88475ec99f06a7e55104a566" category="paragraph">AWS에 대한 커넥터 정책을 "EC2:DescripbeAvailabilityZones" 권한을 포함하도록 업데이트했습니다. 이 권한은 다음 릴리스에 필요합니다. 해당 릴리스가 출시되면 릴리스 노트를 더 자세히 업데이트하겠습니다.</block>
   <block id="7595af352964f2b06057ab6310fdff44" category="inline-link">Connector에 대한 AWS 권한을 봅니다</block>
@@ -3937,4 +3936,5 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="f5d22e387d3dd91dbc45f16de7949a06" category="list-text">Support Direct API Traffic * 을 선택합니다.</block>
   <block id="0515ac140ab701cd78614b76c8296d4f" category="paragraph">BlueXP에서 Connector를 생성하면 기본 구성을 사용하여 AWS에서 EC2 인스턴스를 배포합니다. 커넥터를 생성한 후에는 CPU 또는 RAM이 더 적은 더 작은 EC2 인스턴스 유형으로 변경하지 마십시오. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
   <block id="b1f8391bb8c209468262aa239bef0d41" category="paragraph">Connector를 생성하면 기본 구성을 사용하여 Google Cloud에 가상 머신 인스턴스를 배포합니다. Connector를 생성한 후에는 CPU 또는 RAM이 적은 더 작은 VM 인스턴스로 변경하지 마십시오. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
+  <block id="7c3d026f5f0bf0d01848d386f69159eb" category="paragraph"><block ref="7295f02a3c546b103864aa8261ac9cab" category="inline-link-rx"></block>.</block>
 </blocks>

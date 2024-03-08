@@ -42,7 +42,7 @@ EC2 인스턴스에 대해 IMDS(인스턴스 메타데이터 서비스)가 다�
 * Cloud Volumes ONTAP의 경우 새 인스턴스와 기존 인스턴스에서 IMDSv1이 기본적으로 사용됩니다. 원하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.
 
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["기존 인스턴스에서 IMDSv2를 구성하는 방법에 대해 알아봅니다"].
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#require-the-use-of-imdsv2-on-amazon-ec2-instances["기존 인스턴스에서 IMDSv2를 구성하는 방법에 대해 알아봅니다"].
 
 
 
