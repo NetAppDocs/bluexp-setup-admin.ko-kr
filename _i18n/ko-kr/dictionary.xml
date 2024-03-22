@@ -1075,14 +1075,12 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="39ac68e476b37c123efa68256cf31a7d" category="cell">작업 공간 간 전환</block>
   <block id="838203d064fe980b5ae00097d667d9f4" category="cell">BlueXP 분류 검사 결과를 봅니다</block>
   <block id="93b557fcf4dca896b9a77328a5ae0e92" category="cell">작업 환경을 삭제합니다</block>
-  <block id="ff1717f17ee6eef1b2a1bb43f6547a36" category="cell">Kubernetes 클러스터를 작업 환경에 연결</block>
   <block id="778cfbd8e3739e3af0e367072a92b2c3" category="cell">Cloud Volumes ONTAP 보고서를 받습니다</block>
   <block id="91ddd20c84fc1e8ded7b005f805d8705" category="cell">커넥터 작성</block>
   <block id="044b77b68a82998776d7f4dc9b550bee" category="cell">BlueXP 계정을 관리합니다</block>
   <block id="1eda8b1f4dfa35b119f2a579170d4546" category="cell">자격 증명 관리</block>
   <block id="d7cea5f953c31662cd13f98b3b7d8608" category="cell">BlueXP 설정을 수정합니다</block>
   <block id="59d212e47ec92d175a35d52f6c448d89" category="cell">지원 대시보드 보기 및 관리</block>
-  <block id="309a17e5c03cbe61700c1e46eb38532f" category="cell">BlueXP에서 작업 환경을 제거합니다</block>
   <block id="768acef28167e99aae88f7c6d5d9322a" category="inline-link-macro">BlueXP 계정에서 작업 영역 및 사용자를 설정합니다</block>
   <block id="efb23fed841e93229b5eba2d12143dd0" category="list-text"><block ref="efb23fed841e93229b5eba2d12143dd0" category="inline-link-macro-rx"></block></block>
   <block id="5cc33db7bd831802e558ae70eb573d98" category="inline-link-macro">BlueXP 계정에서 작업 영역 및 사용자 관리</block>
@@ -3984,4 +3982,5 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="b29f8ca8f9e48d5b3100564f6829e5f6" category="paragraph"><block ref="b29f8ca8f9e48d5b3100564f6829e5f6" category="inline-link-rx"></block></block>
   <block id="86a6fd8c0323b87db34eb287a461c194" category="section-title">Azure NetApp Files의 향상된 기능</block>
   <block id="d63816bce1f68b3d99c6b101eb23f900" category="paragraph">이제 볼륨의 서비스 수준을 동적으로 변경하여 워크로드 요구사항을 충족하고 비용을 최적화할 수 있습니다. 볼륨은 볼륨에 영향을 주지 않고 다른 용량 풀로 이동됩니다.<block ref="1c1fc3f10579c2dcdaafa6f121b73c03" category="inline-link-rx"></block></block>
+  <block id="849f31cbd6498a40e853e0172989edd1" category="cell">작업 영역에서 작업 환경을 제거합니다</block>
 </blocks>
