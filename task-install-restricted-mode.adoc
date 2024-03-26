@@ -267,7 +267,7 @@ proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가
 +
 [source, cli]
 ----
- ./BlueXP-Connector-Cloud-v3.9.35 --proxy https://user:password@10.0.0.30:8080/ --cacert /tmp/cacert/certificate.cer
+ ./BlueXP-Connector-Cloud-v3.9.38 --proxy https://user:password@10.0.0.30:8080/ --cacert /tmp/cacert/certificate.cer
 ----
 +
 -- 프록시는 다음 형식 중 하나를 사용하여 커넥터가 HTTP 또는 HTTPS 프록시 서버를 사용하도록 구성합니다.

@@ -3713,7 +3713,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="713b059ba47ab000812d3dd15273cee6" category="paragraph">서비스 계정을 사용할 때는 API 작업에 새로 고침 토큰이 필요하지 않습니다.<block ref="cc919b62f11a25e2d8c9fb23b34ada32" category="inline-link-rx"></block></block>
   <block id="7c42c6e2f8295dada12f50f825327ddf" category="list-text">이미지의 운영 체제는 Ubuntu 22.04 LTS입니다.</block>
   <block id="e8a0c291b754a75e0e91ecf69d567912" category="section-title">2023년 12월 5일</block>
-  <block id="1771e2f4014c6ccd829b84cf9e8c7d27" category="section-title">비공개 모드 해제</block>
   <block id="5a78b457c661dc3d01c5125da794f0ed" category="paragraph">이제 BlueXP에 새로운 프라이빗 모드 릴리즈가 제공됩니다. 이 릴리즈에는 2023년 10월 현재 프라이빗 모드에서 지원되는 Connector 버전 3.9.35 및 BlueXP 서비스 버전이 포함됩니다.</block>
   <block id="ec34e91164e39c9df1bfb906cff07162" category="paragraph">이 새로운 릴리스는 NetApp Support 사이트에서 다운로드할 수 있습니다.</block>
   <block id="2e57b160bcd31ccd527a6670d94879de" category="inline-link">프라이빗 모드에 포함된 BlueXP 서비스에 대해 알아보십시오</block>
@@ -3983,4 +3982,18 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="86a6fd8c0323b87db34eb287a461c194" category="section-title">Azure NetApp Files의 향상된 기능</block>
   <block id="d63816bce1f68b3d99c6b101eb23f900" category="paragraph">이제 볼륨의 서비스 수준을 동적으로 변경하여 워크로드 요구사항을 충족하고 비용을 최적화할 수 있습니다. 볼륨은 볼륨에 영향을 주지 않고 다른 용량 풀로 이동됩니다.<block ref="1c1fc3f10579c2dcdaafa6f121b73c03" category="inline-link-rx"></block></block>
   <block id="849f31cbd6498a40e853e0172989edd1" category="cell">작업 영역에서 작업 환경을 제거합니다</block>
+  <block id="fe8fcef9d0fdb328fbc812d42b4ca2e7" category="section-title">2024년 3월 26일</block>
+  <block id="3c16167b6c091087d9151aee3f52b379" category="section-title">비공개 모드 해제(3.9.38)</block>
+  <block id="b7070cb9b31e0d402b92f5c1d4efa401" category="paragraph">이제 BlueXP에 새로운 프라이빗 모드 릴리즈가 제공됩니다. 이 릴리즈에는 프라이빗 모드에서 지원되는 다음과 같은 BlueXP 서비스 버전이 포함됩니다.</block>
+  <block id="b742a03d26cdd3a73daedbab8ce0898b" category="cell">버전이 포함됩니다</block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">커넥터</block>
+  <block id="0eff5e73304fb938a09633bd1b0cec70" category="cell">3.9.38</block>
+  <block id="2d67cd05b64a3416bc8bae12b4ef5685" category="cell">2024년 3월 12일</block>
+  <block id="9ee51d75827fcf6a985ed40e7418fea6" category="cell">2024년 3월 4일</block>
+  <block id="20f71c84b5a0e44a35f3a8c4207c85a9" category="cell">Cloud Volumes ONTAP 관리</block>
+  <block id="900dd8f50d2294930a102034524e26b7" category="cell">온프레미스 ONTAP 클러스터 관리</block>
+  <block id="638be56d4cf930b576e6dc1300c7c33b" category="cell">2022년 9월 18일</block>
+  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">비공개 모드에 대해 알아봅니다</block>
+  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
+  <block id="de945439c2ef8db914ae9a056d6763b1" category="section-title">비공개 모드 해제(3.9.35)</block>
 </blocks>
