@@ -54,14 +54,6 @@ AWS EC2 인스턴스 유형:: 위의 CPU 및 RAM 요구 사항을 충족하는 �
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
 Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19.3.1 이상이 필요합니다. https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
-IMDSv1 을 참조하십시오:: EC2 인스턴스에 인스턴스 메타데이터 서비스 버전 1(IMDSv1)이 필요합니다. 커넥터는 IMDSv2에서 지원되지 않습니다.
-+
---
-이제 IMDSv2가 새 EC2 인스턴스의 기본 버전이므로 IMDSv1 사용을 복원하려면 인스턴스 메타데이터 옵션을 수정해야 합니다.
-
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-IMDS-existing-instances.html#modify-restore-IMDSv1["AWS 설명서: IMDSv1 사용을 복원합니다"^]
-
---
 
 
 
@@ -162,6 +154,8 @@ Connector 및 해당 Docker 구성 요소를 업그레이드합니다.
 * 자격 증명
 * HTTPS 인증서
 
+
+BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
 
 --
 
@@ -269,6 +263,9 @@ NTP를 활성화합니다:: BlueXP 분류를 사용하여 회사 데이터 소�
 * Connector의 인터넷 액세스에 프록시가 필요한 경우 프록시 서버에 대한 세부 정보입니다.
 +
 설치 후 프록시 서버를 구성할 수 있지만 이렇게 하려면 커넥터를 다시 시작해야 합니다.
+
++
+BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
 
 * 프록시 서버가 HTTPS를 사용하거나 프록시가 가로채기 프록시인 경우 CA 서명 인증서입니다.
 

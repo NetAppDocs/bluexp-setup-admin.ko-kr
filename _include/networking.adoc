@@ -55,6 +55,8 @@ Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아�
 * HTTPS 인증서
 
 
+BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
+
 --
 
 

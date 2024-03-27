@@ -2314,7 +2314,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="a046fbde0a8e04968445555624e37a69" category="summary">회사 정책에 따라 인터넷에 대한 모든 통신에 프록시 서버를 사용해야 하는 경우 해당 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 설치하는 동안 프록시 서버를 사용하도록 Connector를 구성하지 않은 경우 언제든지 해당 프록시 서버를 사용하도록 Connector를 구성할 수 있습니다.</block>
   <block id="146adb7944757e88795676b780c31811" category="doc">프록시 서버를 사용하도록 Connector를 구성합니다</block>
-  <block id="9d8704731bd068bd3be5ad98b7941cba" category="paragraph">BlueXP는 HTTP 및 HTTPS를 지원합니다. 프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
   <block id="30d7902c191c571f1aa091af3df65f3d" category="paragraph">프록시 서버를 사용하도록 Connector를 구성하면 공용 IP 주소 또는 NAT 게이트웨이를 사용할 수 없는 경우 아웃바운드 인터넷 액세스를 제공합니다. 이 프록시 서버는 아웃바운드 연결이 있는 커넥터만 제공합니다. Cloud Volumes ONTAP 시스템에 대한 연결은 제공하지 않습니다.</block>
   <block id="66dcf6df2e799ff19e8fe5b0ed10a143" category="paragraph">Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아웃바운드 인터넷 연결이 없는 경우 BlueXP는 자동으로 해당 Cloud Volumes ONTAP 시스템이 커넥터에 포함된 프록시 서버를 사용하도록 구성합니다. 유일한 요구 사항은 커넥터 보안 그룹이 포트 3128을 통한 인바운드 연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.</block>
   <block id="58dcadbd8de2066b4071d6ed4e0b4baf" category="section-title">Connector에서 프록시를 활성화합니다</block>
@@ -2817,7 +2816,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
 \https://blob.core.microsoft.scloud
 \https://core.microsoft.scloud</block>
   <block id="8ec83edee8d0c8a3dd001c3d7e558479" category="cell">Azure IL6 영역의 리소스를 관리합니다.</block>
-  <block id="5b9a9863d7ad33310f21a8e9b1c1d682" category="paragraph">비공개 모드에서 BlueXP가 아웃바운드 트래픽을 전송하는 유일한 시간은 클라우드 공급자에게 Cloud Volumes ONTAP 시스템을 생성하는 것입니다.</block>
   <block id="41d07a4a0a908721d3dbbf8c6e1a98a4" category="paragraph">Cloud Volumes ONTAP 시스템을 생성할 계획이라면 BlueXP에 클라우드 공급업체의 권한이 필요합니다. 클라우드 공급자에서 사용 권한을 설정한 다음 설치한 후 해당 권한을 Connector 인스턴스에 연결해야 합니다.</block>
   <block id="3d715e57805c2356f84c41d139ed45c5" category="paragraph">온-프레미스에 Connector를 설치하려면 AWS 액세스 키 또는 Azure 서비스 보안 주체를 사용하여 권한을 제공해야 합니다. 다른 옵션은 지원되지 않습니다.</block>
   <block id="68f824a5014b20fc98aea0beb5945581" category="paragraph">IAM 역할을 사용하여 Connector에 권한을 제공합니다. Connector의 EC2 인스턴스에 역할을 수동으로 연결해야 합니다.</block>
@@ -3847,11 +3845,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="bf032cb5bcb45fec81b7b5b993ebabe4" category="paragraph">각 Cloud Volumes ONTAP 시스템의 백업 위치를 업데이트해야 합니다.</block>
   <block id="2a066cad1fef063fff0ca56b5d416b10" category="list-text">Cloud Volumes ONTAP CLI에서 다음 명령을 실행하여 현재 백업 타겟을 표시합니다.</block>
   <block id="78cae36205d703274f695ea4e85f6ffe" category="list-text">다음 명령을 실행하여 백업 대상의 IP 주소를 업데이트합니다.</block>
-  <block id="95371958414dbd4f614d7ff8348b9b31" category="paragraph">이제 IMDSv2가 새 EC2 인스턴스의 기본 버전이므로 IMDSv1 사용을 복원하려면 인스턴스 메타데이터 옵션을 수정해야 합니다.</block>
-  <block id="c637448044ff305c64a7c1cd8b77b196" category="inline-link">AWS 설명서: IMDSv1 사용을 복원합니다</block>
-  <block id="dd3ddc1f5982d8946100b097e7993378" category="paragraph"><block ref="dd3ddc1f5982d8946100b097e7993378" category="inline-link-rx"></block></block>
-  <block id="a781cb38c0c2c5288c02850fcd3cda7d" category="list-text">IMDSv1 을 참조하십시오</block>
-  <block id="1b863f7993d117f5ab767043f7a0bcdb" category="list-text">EC2 인스턴스에 인스턴스 메타데이터 서비스 버전 1(IMDSv1)이 필요합니다. 커넥터는 IMDSv2에서 지원되지 않습니다.</block>
   <block id="daf15a33710ed6188d035a01c084bee9" category="paragraph"><block ref="daf15a33710ed6188d035a01c084bee9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bbd3f8aeec942b5e418da40a3101ed3e" category="paragraph"><block ref="bbd3f8aeec942b5e418da40a3101ed3e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="list-text">랜섬웨어 보호</block>
@@ -3996,4 +3989,15 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">비공개 모드에 대해 알아봅니다</block>
   <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
   <block id="de945439c2ef8db914ae9a056d6763b1" category="section-title">비공개 모드 해제(3.9.35)</block>
+  <block id="63d6aff1d21e14755a0a0cd9fcdbe7fc" category="paragraph">BlueXP는 투명한 프록시 서버를 지원하지 않습니다.</block>
+  <block id="a8080c542b2627e36657b832e30937bf" category="paragraph">를 누릅니다
+비공개 모드에서 BlueXP가 아웃바운드 트래픽을 전송하는 유일한 시간은 클라우드 공급자에게 Cloud Volumes ONTAP 시스템을 생성하는 것입니다.</block>
+  <block id="79911dec911bf03733bda7065e7e3964" category="section-title">투명 프록시 서버는 지원되지 않습니다</block>
+  <block id="d0da98586108cb1be969ff43380eee45" category="paragraph">BlueXP는 Connector를 통해 투명한 프록시 서버를 지원하지 않습니다.</block>
+  <block id="eb38246be0b09c0a9d91cb2085b20b5d" category="inline-link-macro">커넥터를 사용하여 프록시 서버를 사용하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="20cac3f0e9288e4238db227a684ecc49" category="paragraph"><block ref="cad892d1cc18ace00e67298d6d6448d0" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">지원되는 구성</block>
+  <block id="7d207720727cb20f87ab53c6a1b2514b" category="list-text">BlueXP는 HTTP 및 HTTPS를 지원합니다.</block>
+  <block id="add3a67a28c550a2cc27b87a5a61ea8e" category="list-text">프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
+  <block id="8ddee083db5cf3707b8335f563d2c755" category="list-text">BlueXP는 투명한 프록시 서버를 지원하지 않습니다.</block>
 </blocks>

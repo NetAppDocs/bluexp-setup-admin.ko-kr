@@ -111,6 +111,8 @@ link:reference-networking-saas-console.html["BlueXP 콘솔에서 연결된 엔�
 * HTTPS 인증서
 
 
+BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
+
 --
 
 

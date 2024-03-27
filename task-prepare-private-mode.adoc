@@ -177,10 +177,12 @@ https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-ad
 * IP 주소입니다
 * 자격 증명
 * HTTPS 인증서
-+
+
+
+BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
+
+를 누릅니다
 비공개 모드에서 BlueXP가 아웃바운드 트래픽을 전송하는 유일한 시간은 클라우드 공급자에게 Cloud Volumes ONTAP 시스템을 생성하는 것입니다.
-
-
 
 --
 포트:: 커넥터 를 시작하지 않으면 커넥터로 들어오는 트래픽이 없습니다.

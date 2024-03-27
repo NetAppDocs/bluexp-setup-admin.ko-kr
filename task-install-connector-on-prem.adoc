@@ -188,6 +188,8 @@ Connector 및 해당 Docker 구성 요소를 업그레이드합니다.
 * HTTPS 인증서
 
 
+BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
+
 --
 
 
@@ -418,6 +420,9 @@ image:screenshot_azure_client_secret.gif["Microsoft Entra 서비스 보안 주�
 * Connector의 인터넷 액세스에 프록시가 필요한 경우 프록시 서버에 대한 세부 정보입니다.
 +
 설치 후 프록시 서버를 구성할 수 있지만 이렇게 하려면 커넥터를 다시 시작해야 합니다.
+
++
+BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
 
 * 프록시 서버가 HTTPS를 사용하거나 프록시가 가로채기 프록시인 경우 CA 서명 인증서입니다.
 
