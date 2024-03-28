@@ -1,0 +1,2700 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head class="at-element-marker">
+  <title>커넥터에 대해 자세히 알아보십시오 | NetApp Documentation</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="커넥터에 대해 자세히 알아보십시오 | NetApp Documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/ko-kr/bluexp-setup-admin/concept-connectors.html" />
+	<meta property="og:description" content="Connector는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. 데이터 인프라를 관리하기 위해 BlueXP에서 수행해야 하는 작업을 실행합니다. Connector는 수행해야 하는 작업에 대해 BlueXP SaaS 레이어를 지속적으로 폴링합니다. ..." />
+  <meta property="og:image" content="https://docs.netapp.com/ko-kr/bluexp-setup-admin/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Connector는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. 데이터 인프라를 관리하기 위해 BlueXP에서 수행해야 하는 작업을 실행합니다. Connector는 수행해야 하는 작업에 대해 BlueXP SaaS 레이어를 지속적으로 폴링합니다. ...">
+  <meta name="keywords" content=" concept, connectors, learn about connectors, what are connectors, what is a connector, what"s a connector, days, 14 days, when is a connector required, connector supported locations, restricted mode, private mode, dark site, permissions, multiple connectors, disaster recovery"><!-- Icons -->
+  <link rel="icon" href="/ko-kr/bluexp-setup-admin/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><link rel="alternate" type="application/rss+xml" title="NetApp Documentation" href="/ko-kr/bluexp-setup-admin/feed.xml"><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ko-kr/bluexp-setup-admin/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/ko-kr/bluexp-setup-admin/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/ko-kr/bluexp-setup-admin/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/ko-kr/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-setup-admin/concept-connectors.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-setup-admin/concept-connectors.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ko-kr/bluexp-setup-admin/js/na-search.js'></script><script src='/ko-kr/bluexp-setup-admin/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/ko-kr/bluexp-setup-admin/js/custom-dropdown.js'></script>
+  <script src='/ko-kr/bluexp-setup-admin/js/FileSaver.min.js'></script>
+  <script src='/ko-kr/bluexp-setup-admin/js/jszip-utils.min.js'></script>
+  <script src='/ko-kr/bluexp-setup-admin/js/jszip.min.js'></script><script src='/ko-kr/bluexp-setup-admin/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/ko-kr/bluexp-setup-admin/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/kr">
+                <image id="ie-header-logo" src="/ko-kr/bluexp-setup-admin/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/support-and-training/documentation/">문서</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/ko-kr/bluexp-setup-admin/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">한국어</span>
+                    <img src="/ko-kr/bluexp-setup-admin/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/ko-kr/bluexp-setup-admin/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/ko-kr/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/bluexp-setup-admin/concept-connectors.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/ko-kr/bluexp-setup-admin/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">모든 NetApp</span>
+                    <img src="/ko-kr/bluexp-setup-admin/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/ko-kr/bluexp-setup-admin/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">지원</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">기술 자료</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/ko/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">교육</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/ko-kr/bluexp-setup-admin/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/ko-kr/bluexp-setup-admin/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">모든 문서</a>
+    </li>
+    
+    
+    <li class="">
+      <a href="https://docs.netapp.com/us-en/cloud/">클라우드 문서</a>
+    </li>
+    
+
+    
+    <li class="">
+      <a href="https://docs.netapp.com/ko-kr/bluexp-family/">
+        BlueXP
+      </a>
+    </li>
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/ko-kr/bluexp-setup-admin/">-->
+      Setup and administration
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/ko-kr/bluexp-setup-admin/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/ko-kr/bluexp-setup-admin/search.html" 
+        data-type="widget"
+        data-placeholder="설명서 검색"
+        data-no-results-found="{query}에 대한 결과를 찾을 수 없습니다"
+        data-did-you-mean="{suggestion}을(를) 검색하십시오."
+        data-no-results-found-did-you-mean="{query}에 대한 결과가 없습니다. {suggestion}을(를) 찾고 계시는 건가요?"
+        data-results-found="{hitCount}개의 결과를 찾았습니다"
+        data-error-message="오류가 발생했습니다. 다시 시도해 주십시오."
+        data-error-reset="검색 재설정"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="설치 및 관리 문서"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ko-kr/bluexp-setup-admin/index.html">
+        설치 및 관리 문서
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="릴리스 정보"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 릴리스 정보</div>-->
+         릴리스 정보
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="새로운 소식"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/whats-new.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/bluexp-setup-admin/whats-new.html">
+        새로운 소식
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="알려진 제한 사항"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-limitations.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/bluexp-setup-admin/reference-limitations.html">
+        알려진 제한 사항
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="시작하십시오"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 시작하십시오</div>-->
+         시작하십시오
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="기본 사항 학습"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 기본 사항 학습</div>-->
+         기본 사항 학습
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-overview.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/concept-overview.html">
+        BlueXP
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="계정"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-netapp-accounts.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/concept-netapp-accounts.html">
+        계정
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터"
+      data-li-level="3#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-connectors.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/concept-connectors.html">
+        커넥터
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="배포 모드"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-modes.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/concept-modes.html">
+        배포 모드
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="표준 모드로 시작하십시오"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 표준 모드로 시작하십시오</div>-->
+         표준 모드로 시작하십시오
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="워크플로를 시작합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-quick-start-standard-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-quick-start-standard-mode.html">
+        워크플로를 시작합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP 콘솔을 사용하기 위한 네트워킹을 준비합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-networking-saas-console.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-networking-saas-console.html">
+        BlueXP 콘솔을 사용하기 위한 네트워킹을 준비합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP에 등록하십시오"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-sign-up-saas.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-sign-up-saas.html">
+        BlueXP에 등록하십시오
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터를 작성합니다"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 커넥터를 작성합니다</div>-->
+         커넥터를 작성합니다
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="설치하고"
+      data-li-level="4" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-4  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 설치하고</div>-->
+         설치하고
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터 설치 옵션"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-install-options-aws.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/concept-install-options-aws.html">
+        커넥터 설치 옵션
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP에서 커넥터를 만듭니다"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-aws-bluexp.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/task-install-connector-aws-bluexp.html">
+        BlueXP에서 커넥터를 만듭니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="마켓플레이스에서 커넥터를 생성합니다"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-aws-marketplace.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/task-install-connector-aws-marketplace.html">
+        마켓플레이스에서 커넥터를 생성합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터를 수동으로 설치합니다"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-aws-manual.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/task-install-connector-aws-manual.html">
+        커넥터를 수동으로 설치합니다
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Azure를 지원합니다"
+      data-li-level="4" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-4  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Azure를 지원합니다</div>-->
+         Azure를 지원합니다
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터 설치 옵션"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-install-options-azure.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/concept-install-options-azure.html">
+        커넥터 설치 옵션
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP에서 커넥터를 만듭니다"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-azure-bluexp.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/task-install-connector-azure-bluexp.html">
+        BlueXP에서 커넥터를 만듭니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="마켓플레이스에서 커넥터를 생성합니다"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-azure-marketplace.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/task-install-connector-azure-marketplace.html">
+        마켓플레이스에서 커넥터를 생성합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터를 수동으로 설치합니다"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-azure-manual.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/task-install-connector-azure-manual.html">
+        커넥터를 수동으로 설치합니다
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Google 클라우드"
+      data-li-level="4" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-4  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Google 클라우드</div>-->
+         Google 클라우드
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터 설치 옵션"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-install-options-google.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/concept-install-options-google.html">
+        커넥터 설치 옵션
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP 또는 gcloud에서 Connector를 생성합니다"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-google-bluexp-gcloud.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/task-install-connector-google-bluexp-gcloud.html">
+        BlueXP 또는 gcloud에서 Connector를 생성합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터를 수동으로 설치합니다"
+      data-li-level="5#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-google-manual.html" 
+    ><a class="ie-sidebar-menuitem-5 " href="/ko-kr/bluexp-setup-admin/task-install-connector-google-manual.html">
+        커넥터를 수동으로 설치합니다
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="온프레미스"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-connector-on-prem.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ko-kr/bluexp-setup-admin/task-install-connector-on-prem.html">
+        온프레미스
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP에 가입하십시오"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-subscribe-standard-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-subscribe-standard-mode.html">
+        BlueXP에 가입하십시오
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="다음에 할 수 있는 일"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-whats-next.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-whats-next.html">
+        다음에 할 수 있는 일
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="제한된 모드로 시작하십시오"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 제한된 모드로 시작하십시오</div>-->
+         제한된 모드로 시작하십시오
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="워크플로를 시작합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-quick-start-restricted-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-quick-start-restricted-mode.html">
+        워크플로를 시작합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="배포를 준비합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-prepare-restricted-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-prepare-restricted-mode.html">
+        배포를 준비합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터를 배포합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-restricted-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-install-restricted-mode.html">
+        커넥터를 배포합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP에 가입하십시오"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-subscribe-restricted-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-subscribe-restricted-mode.html">
+        BlueXP에 가입하십시오
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="다음에 할 수 있는 일"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-whats-next-restricted-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-whats-next-restricted-mode.html">
+        다음에 할 수 있는 일
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="비공개 모드로 시작하십시오"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 비공개 모드로 시작하십시오</div>-->
+         비공개 모드로 시작하십시오
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="워크플로를 시작합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-quick-start-private-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-quick-start-private-mode.html">
+        워크플로를 시작합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="배포를 준비합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-prepare-private-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-prepare-private-mode.html">
+        배포를 준비합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터를 배포합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-install-private-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-install-private-mode.html">
+        커넥터를 배포합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="다음에 할 수 있는 일"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-whats-next-private-mode.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-whats-next-private-mode.html">
+        다음에 할 수 있는 일
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP에 로그인합니다"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-logging-in.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/bluexp-setup-admin/task-logging-in.html">
+        BlueXP에 로그인합니다
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP 관리"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> BlueXP 관리</div>-->
+         BlueXP 관리
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ID 제휴"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-federation.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/bluexp-setup-admin/concept-federation.html">
+        ID 제휴
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP 계정"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> BlueXP 계정</div>-->
+         BlueXP 계정
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP 계정을 관리합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-managing-netapp-accounts.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-managing-netapp-accounts.html">
+        BlueXP 계정을 관리합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="계정의 작업을 모니터링합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-monitor-cm-operations.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-monitor-cm-operations.html">
+        계정의 작업을 모니터링합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="다른 BlueXP 계정을 만듭니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-create-account.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-create-account.html">
+        다른 BlueXP 계정을 만듭니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="사용자 역할"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-user-roles.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-user-roles.html">
+        사용자 역할
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 커넥터</div>-->
+         커넥터
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="커넥터의 시스템 ID를 찾습니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-finding-system-id.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-finding-system-id.html">
+        커넥터의 시스템 ID를 찾습니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="기존 커넥터 관리"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-managing-connectors.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-managing-connectors.html">
+        기존 커넥터 관리
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="보안 액세스를 위해 HTTPS 인증서를 설치합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-installing-https-cert.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-installing-https-cert.html">
+        보안 액세스를 위해 HTTPS 인증서를 설치합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="프록시 서버를 사용하도록 Connector를 구성합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-configuring-proxy.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-configuring-proxy.html">
+        프록시 서버를 사용하도록 Connector를 구성합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Connector의 기본 설정"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-connector-default-config.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-connector-default-config.html">
+        Connector의 기본 설정
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="자격 증명 및 구독"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 자격 증명 및 구독</div>-->
+         자격 증명 및 구독
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="설치하고"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 설치하고</div>-->
+         설치하고
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="자격 증명 및 사용 권한에 대해 알아봅니다"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-accounts-aws.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ko-kr/bluexp-setup-admin/concept-accounts-aws.html">
+        자격 증명 및 사용 권한에 대해 알아봅니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="자격 증명 및 구독을 관리합니다"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-adding-aws-accounts.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ko-kr/bluexp-setup-admin/task-adding-aws-accounts.html">
+        자격 증명 및 구독을 관리합니다
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Azure를 지원합니다"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Azure를 지원합니다</div>-->
+         Azure를 지원합니다
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="자격 증명 및 사용 권한에 대해 알아봅니다"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-accounts-azure.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ko-kr/bluexp-setup-admin/concept-accounts-azure.html">
+        자격 증명 및 사용 권한에 대해 알아봅니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="자격 증명 및 구독을 관리합니다"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-adding-azure-accounts.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ko-kr/bluexp-setup-admin/task-adding-azure-accounts.html">
+        자격 증명 및 구독을 관리합니다
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Google 클라우드"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Google 클라우드</div>-->
+         Google 클라우드
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="프로젝트 및 사용 권한에 대해 알아봅니다"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/concept-accounts-gcp.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ko-kr/bluexp-setup-admin/concept-accounts-gcp.html">
+        프로젝트 및 사용 권한에 대해 알아봅니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="자격 증명 및 구독을 관리합니다"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-adding-gcp-accounts.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/ko-kr/bluexp-setup-admin/task-adding-gcp-accounts.html">
+        자격 증명 및 구독을 관리합니다
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP 계정과 연결된 NSS 자격 증명을 관리합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-adding-nss-accounts.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-adding-nss-accounts.html">
+        BlueXP 계정과 연결된 NSS 자격 증명을 관리합니다
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="BlueXP 로그인과 관련된 자격 증명을 관리합니다"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-manage-user-credentials.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/task-manage-user-credentials.html">
+        BlueXP 로그인과 관련된 자격 증명을 관리합니다
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="참조하십시오"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 참조하십시오</div>-->
+         참조하십시오
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="권한"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 권한</div>-->
+         권한
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="권한 요약"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-permissions.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-permissions.html">
+        권한 요약
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Connector에 대한 AWS 권한"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-permissions-aws.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-permissions-aws.html">
+        Connector에 대한 AWS 권한
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Connector에 대한 Azure 권한"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-permissions-azure.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-permissions-azure.html">
+        Connector에 대한 Azure 권한
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Connector에 대한 Google Cloud 권한"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-permissions-gcp.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-permissions-gcp.html">
+        Connector에 대한 Google Cloud 권한
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="포트"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 포트</div>-->
+         포트
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="AWS의 커넥터 보안 그룹 규칙"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-ports-aws.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-ports-aws.html">
+        AWS의 커넥터 보안 그룹 규칙
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Azure의 커넥터 보안 그룹 규칙"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-ports-azure.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-ports-azure.html">
+        Azure의 커넥터 보안 그룹 규칙
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Google Cloud의 커넥터 방화벽 규칙"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-ports-gcp.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-ports-gcp.html">
+        Google Cloud의 커넥터 방화벽 규칙
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="사내 커넥터용 포트"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/reference-ports-on-prem.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/ko-kr/bluexp-setup-admin/reference-ports-on-prem.html">
+        사내 커넥터용 포트
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="지식 및 지원"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/ko-kr/bluexp-setup-admin/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/ko-kr/bluexp-setup-admin/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> 지식 및 지원</div>-->
+         지식 및 지원
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="지원을 위해 등록하십시오"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-support-registration.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/bluexp-setup-admin/task-support-registration.html">
+        지원을 위해 등록하십시오
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="도움을 받으십시오"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/task-get-help.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/ko-kr/bluexp-setup-admin/task-get-help.html">
+        도움을 받으십시오
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="법적 고지"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/concept-connectors.html" 
+      dale-entry-url="/legal-notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/ko-kr/bluexp-setup-admin/legal-notices.html">
+        법적 고지
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/ko-kr/bluexp-setup-admin"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/ko-kr/bluexp-setup-admin"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-info-disclaimer">
+    <span>
+      <div class="ie-info-disclaimer-container">
+        <div class="ie-info-disclaimer-icon">
+          <img src="/ko-kr/bluexp-setup-admin/images/notification-icons.svg" class="luci-icon" alt="" />
+        </div>
+        <div class="ie-info-disclaimer-content">
+          <span> 본 한국어 번역은 사용자 편의를 위해 제공되는 기계 번역입니다. 영어 버전과 한국어 버전이 서로 어긋나는 경우에는 언제나 영어 버전이 우선합니다. </span>
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+    </span>
+  </div><div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">커넥터에 대해 자세히 알아보십시오</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2024-03-07 05:48:34 +0000">03/07/2024</time>
+        
+    
+    
+        <span>기여자
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/ko-kr/bluexp-setup-admin/images/discuss-sm.svg" alt="" class="github-icon" />변경 제안</span>
+        <img src="/ko-kr/bluexp-setup-admin/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/ko-kr/bluexp-setup-admin/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-setup-admin.ko-kr/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ko-kr/bluexp-setup-admin/concept-connectors.html&page-title=커넥터에 대해 자세히 알아보십시오" class="page-nav-contribute-link" role="button">문서 변경사항 요청</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/bluexp-setup-admin/blob/main/concept-connectors.adoc" class="page-nav-contribute-link" role="button">이 페이지 편집</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >기여하는 방법 알아보기</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>PDF<img src="/ko-kr/bluexp-setup-admin/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/ko-kr/bluexp-setup-admin/pdfs/fullsite-sidebar/BlueXP_설치_및_관리_문서.pdf" >
+                    <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>이 문서 사이트의 PDF</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/릴리스_정보.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            릴리스 정보
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/시작하십시오.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            시작하십시오
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/기본_사항_학습.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            기본 사항 학습
+          </a>
+          
+
+
+
+
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/표준_모드로_시작하십시오.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            표준 모드로 시작하십시오
+          </a>
+          
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/커넥터를_작성합니다.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            커넥터를 작성합니다
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/설치하고.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            설치하고
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/Azure를_지원합니다.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Azure를 지원합니다
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/Google_클라우드.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Google 클라우드
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/제한된_모드로_시작하십시오.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            제한된 모드로 시작하십시오
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/비공개_모드로_시작하십시오.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            비공개 모드로 시작하십시오
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/BlueXP_관리.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            BlueXP 관리
+          </a>
+          
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/BlueXP_계정.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            BlueXP 계정
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/커넥터.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            커넥터
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/자격_증명_및_구독.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            자격 증명 및 구독
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/설치하고.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            설치하고
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/Azure를_지원합니다.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Azure를 지원합니다
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/Google_클라우드.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Google 클라우드
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/참조하십시오.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            참조하십시오
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/권한.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            권한
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/포트.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            포트
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/ko-kr/bluexp-setup-admin/pdfs/sidebar/지식_및_지원.pdf" 
+            
+          >
+            <img src="/ko-kr/bluexp-setup-admin/images/pdf-icon.png" alt="" width="16" height="16"/>
+            지식 및 지원
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/ko-kr/bluexp-setup-admin/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>별도의 PDF 문서 모음<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>A_Connector _ 는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. 데이터 인프라를 관리하기 위해 BlueXP에서 수행해야 하는 작업을 실행합니다. Connector는 수행해야 하는 작업에 대해 BlueXP SaaS 레이어를 지속적으로 폴링합니다. BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="커넥터-없이-수행할-수-있는-작업">커넥터 없이 수행할 수 있는 작업</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>BlueXP를 시작하기 위해 커넥터가 필요하지 않습니다. Connector를 만들지 않고도 BlueXP 내에서 여러 기능 및 서비스를 사용할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p>커넥터 없이 다음 BlueXP 기능 및 서비스를 사용할 수 있습니다.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>NetApp ONTAP 작업 환경 생성을 위한 Amazon FSx</p>
+<div class="paragraph">
+<p>Connector는 작업 환경을 만드는 데 필요하지 않지만 볼륨 생성 및 관리, 데이터 복제, ONTAP용 FSx를 BlueXP 분류 및 BlueXP 복사 및 동기화 등의 서비스와 통합해야 합니다.</p>
+</div>
+</li>
+<li>
+<p>자동화 카탈로그</p>
+</li>
+<li>
+<p>Azure NetApp Files</p>
+<div class="paragraph">
+<p>Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 않지만 Azure NetApp Files 데이터를 스캔하기 위해 BlueXP 분류를 사용하려면 커넥터가 필요합니다.</p>
+</div>
+</li>
+<li>
+<p>Google Cloud용 Cloud Volumes Service</p>
+</li>
+<li>
+<p>복사 및 동기화</p>
+</li>
+<li>
+<p>디지털 자문업체</p>
+</li>
+<li>
+<p>디지털 지갑</p>
+<div class="paragraph">
+<p>거의 모든 경우 커넥터 없이 디지털 지갑에 라이센스를 추가할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p>디지털 지갑에 라이센스를 추가하는 데 Connector가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. 이 경우 Cloud Volumes ONTAP 시스템에 설치된 라이센스에서 데이터를 가져왔기 때문에 커넥터가 필요합니다.</p>
+</div>
+</li>
+<li>
+<p>사내 ONTAP 클러스터를 직접 검색</p>
+<div class="paragraph">
+<p>사내 ONTAP 클러스터를 직접 검색하는 데는 커넥터가 필요하지 않지만 추가 BlueXP 기능을 사용하려면 커넥터가 필요합니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html" target="_blank" rel="noopener">"온프레미스 ONTAP 클러스터를 위한 검색 및 관리 옵션에 대해 자세히 알아보십시오"</a></p>
+</div>
+</li>
+<li>
+<p>지속 가능성</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="커넥터가-필요한-경우">커넥터가 필요한 경우</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>표준 모드에서 BlueXP를 사용하는 경우 BlueXP의 다음 기능 및 서비스에 커넥터가 필요합니다.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ONTAP용 Amazon FSx 관리 기능</p>
+</li>
+<li>
+<p>Amazon S3 스토리지</p>
+</li>
+<li>
+<p>Azure Blob 저장소</p>
+</li>
+<li>
+<p>백업 및 복구</p>
+</li>
+<li>
+<p>분류</p>
+</li>
+<li>
+<p>Cloud Volumes ONTAP</p>
+</li>
+<li>
+<p>재해 복구</p>
+</li>
+<li>
+<p>E-Series 시스템</p>
+</li>
+<li>
+<p>경제 효율성 <sup>1</sup></p>
+</li>
+<li>
+<p>에지 캐싱</p>
+</li>
+<li>
+<p>Google Cloud Storage 버킷</p>
+</li>
+<li>
+<p>Kubernetes 클러스터</p>
+</li>
+<li>
+<p>마이그레이션 보고서</p>
+</li>
+<li>
+<p>BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합</p>
+</li>
+<li>
+<p>작업 복구 <sup>1</sup></p>
+</li>
+<li>
+<p>랜섬웨어 보호</p>
+</li>
+<li>
+<p>StorageGRID 시스템</p>
+</li>
+<li>
+<p>계층화</p>
+</li>
+<li>
+<p>볼륨 캐싱</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><sup>1</sup> 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.</p>
+</div>
+<div class="paragraph">
+<p>BlueXP가 제한된 모드 또는 프라이빗 모드로 사용하려면 커넥터가 필요합니다.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="커넥터는-항상-작동해야-합니다">커넥터는 항상 작동해야 합니다</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>커넥터는 BlueXP 서비스 아키텍처의 기본 부분입니다. 관련 커넥터가 항상 가동, 작동 및 액세스 가능한지 확인하는 것은 귀하의 책임입니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.</p>
+</div>
+<div class="paragraph">
+<p>이 문서는 EULA의 적용을 받습니다. 문서에 따라 제품을 작동하지 않는 경우 제품의 기능 및 작동, EULA에 따른 사용자의 권리에 부정적인 영향을 미칠 수 있습니다.</p>
+</div>
+<div class="sect2">
+<h3 id="cloud-volumes-ontap에-미치는-영향">Cloud Volumes ONTAP에 미치는 영향</h3>
+<div class="paragraph">
+<p>커넥터는 Cloud Volumes ONTAP의 상태 및 작동에 있어 중요한 구성요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.</p>
+</div>
+<div class="paragraph">
+<p>Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="지원되는-위치">지원되는 위치</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>커넥터는 다음 위치에서 지원됩니다.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Amazon Web Services에서 직접 지원합니다</p>
+</li>
+<li>
+<p>Microsoft Azure를 참조하십시오</p>
+<div class="paragraph">
+<p>Azure의 커넥터는 해당 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포하거나 에 배포되어야 합니다 <a href="https://docs.microsoft.com/en-us/azure/availability-zones/cross-region-replication-azure#azure-cross-region-replication-pairings-for-all-geographies" target="_blank" rel="noopener">"Azure 지역 쌍"</a> Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다. <a href="https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-enabling-private-link.html" target="_blank" rel="noopener">"Cloud Volumes ONTAP에서 Azure 프라이빗 링크를 사용하는 방법에 대해 알아보십시오"</a></p>
+</div>
+</li>
+<li>
+<p>Google 클라우드</p>
+<div class="paragraph">
+<p>Google Cloud에서 BlueXP 서비스를 사용하려면 Google Cloud에서 실행되는 Connector를 사용해야 합니다.</p>
+</div>
+</li>
+<li>
+<p>온프레미스</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="제한된-모드-및-비공개-모드">제한된 모드 및 비공개 모드</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>제한된 모드 또는 비공개 모드에서 BlueXP를 사용하려면 Connector를 설치한 다음 Connector에서 로컬로 실행되는 사용자 인터페이스에 액세스하여 BlueXP를 시작합니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="concept-modes.html">"BlueXP 배포 모드에 대해 알아보십시오"</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="커넥터-작성-방법">커넥터 작성 방법</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>BlueXP 계정 관리자는 BlueXP, 클라우드 공급자의 마켓플레이스에서 직접 커넥터를 만들거나, 자체 Linux 호스트에 소프트웨어를 수동으로 설치할 수 있습니다. 표준 모드, 제한 모드 또는 비공개 모드에서 BlueXP를 사용하고 있는지 여부에 따라 시작 방법이 달라집니다.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="concept-modes.html">"BlueXP 배포 모드에 대해 알아보십시오"</a></p>
+</li>
+<li>
+<p><a href="task-quick-start-standard-mode.html">"표준 모드에서 BlueXP를 시작하십시오"</a></p>
+</li>
+<li>
+<p><a href="task-quick-start-restricted-mode.html">"제한된 모드에서 BlueXP를 시작하십시오"</a></p>
+</li>
+<li>
+<p><a href="task-quick-start-private-mode.html">"프라이빗 모드에서 BlueXP를 시작하십시오"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="권한">권한</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>BlueXP에서 직접 Connector를 만들려면 특정 권한이 필요하며 Connector 인스턴스 자체에 다른 권한 집합이 필요합니다. BlueXP에서 직접 AWS 또는 Azure에서 커넥터를 생성하는 경우 BlueXP는 필요한 권한으로 Connector를 생성합니다.</p>
+</div>
+<div class="paragraph">
+<p>표준 모드에서 BlueXP를 사용할 때 사용 권한을 제공하는 방법은 Connector를 생성하는 계획에 따라 다릅니다.</p>
+</div>
+<div class="paragraph">
+<p>사용 권한을 설정하는 방법에 대한 자세한 내용은 다음을 참조하십시오.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>표준 모드</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="concept-install-options-aws.html">"AWS의 커넥터 설치 옵션"</a></p>
+</li>
+<li>
+<p><a href="concept-install-options-azure.html">"Azure의 커넥터 설치 옵션"</a></p>
+</li>
+<li>
+<p><a href="concept-install-options-google.html">"Google Cloud의 커넥터 설치 옵션"</a></p>
+</li>
+<li>
+<p><a href="task-install-connector-on-prem.html#step-3-set-up-cloud-permissions">"온프레미스 구축을 위한 클라우드 권한 설정"</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions">"제한된 모드에 대한 권한을 설정합니다"</a></p>
+</li>
+<li>
+<p><a href="task-prepare-private-mode.html#step-5-prepare-cloud-permissions">"비공개 모드에 대한 권한을 설정합니다"</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Connector에 일상적인 작업에 필요한 정확한 사용 권한을 보려면 다음 페이지를 참조하십시오.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="reference-permissions-aws.html">"Connector에서 AWS 권한을 사용하는 방법에 대해 알아보십시오"</a></p>
+</li>
+<li>
+<p><a href="reference-permissions-azure.html">"Connector에서 Azure 권한을 사용하는 방법에 대해 알아봅니다"</a></p>
+</li>
+<li>
+<p><a href="reference-permissions-gcp.html">"Connector가 Google Cloud 권한을 사용하는 방법에 대해 알아보십시오"</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="커넥터-업그레이드">커넥터 업그레이드</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. BlueXP 플랫폼의 서비스 및 기능은 대부분 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</p>
+</div>
+<div class="paragraph">
+<p>표준 모드 또는 제한된 모드에서 BlueXP를 사용할 경우, 소프트웨어 업데이트를 받을 수 있도록 아웃바운드 인터넷에 액세스할 수 있는 경우 Connector에서 소프트웨어를 자동으로 최신 버전으로 업데이트합니다. 비공개 모드에서 BlueXP를 사용하는 경우 커넥터를 수동으로 업그레이드해야 합니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-connectors.html">"Connector 소프트웨어를 수동으로 업그레이드하는 방법에 대해 알아보십시오"</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="운영-체제-및-vm-유지-보수">운영 체제 및 VM 유지 보수</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>커넥터 호스트에서 운영 체제를 유지 관리하는 것은 사용자의 책임입니다. 예를 들어, 회사의 운영 체제 배포 표준 절차에 따라 Connector 호스트의 운영 체제에 보안 업데이트를 적용해야 합니다.</p>
+</div>
+<div class="paragraph">
+<p>OS 업데이트를 실행할 때 커넥터 호스트에서 서비스를 중지할 필요가 없습니다.</p>
+</div>
+<div class="paragraph">
+<p>Connector VM을 중지한 다음 시작해야 하는 경우, 클라우드 공급자의 콘솔에서 또는 온프레미스 관리를 위한 표준 절차를 사용하여 시작해야 합니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="#커넥터는-항상-작동해야-합니다">커넥터는 항상 작동해야 합니다</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="다양한-작업-환경">다양한 작업 환경</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>커넥터는 BlueXP에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.</p>
+</div>
+<div class="paragraph">
+<p>대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다. 도중에 문제가 발생하는 경우 제품 내 채팅을 통해 문의해 주십시오.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="다중-커넥터">다중 커넥터</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>경우에 따라 하나의 커넥터만 필요할 수 있지만 둘 이상의 커넥터가 필요할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p>다음은 몇 가지 예입니다.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>다중 클라우드 환경(예: AWS 및 Azure)이 있고 AWS에 커넥터 1개와 Azure에 커넥터 1개가 있는 것을 선호합니다. 각 는 이러한 환경에서 실행되는 Cloud Volumes ONTAP 시스템을 관리합니다.</p>
+</li>
+<li>
+<p>서비스 제공업체는 하나의 BlueXP 계정을 사용하여 고객에게 서비스를 제공하는 한편 다른 계정을 사용하여 사업부 중 하나의 재해 복구를 제공할 수 있습니다. 각 계정에는 별도의 커넥터가 있습니다.</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="전환-시기">전환 시기</h3>
+<div class="paragraph">
+<p>첫 번째 커넥터를 만들면 BlueXP는 사용자가 추가로 만든 각 작업 환경에 대해 해당 커넥터를 자동으로 사용합니다. 추가 커넥터를 만든 후에는 각 Connector에 해당하는 작업 환경을 보기 위해 커넥터 사이를 전환해야 합니다.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-managing-connectors.html">"커넥터 간 전환 방법에 대해 알아보십시오"</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="재해-복구">재해 복구</h3>
+<div class="paragraph">
+<p>재해 복구를 위해 여러 커넥터가 있는 작업 환경을 동시에 관리할 수 있습니다. 하나의 커넥터가 다운되면 다른 커넥터로 전환하여 작업 환경을 즉시 관리할 수 있습니다.</p>
+</div>
+<div class="paragraph">
+<p>이 구성을 설정하려면 다음을 수행하십시오.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="task-managing-connectors.html">"다른 커넥터로 전환합니다"</a>.</p>
+</li>
+<li>
+<p>기존 작업 환경을 파악합니다.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html" target="_blank" rel="noopener">"기존 Cloud Volumes ONTAP 시스템을 BlueXP에 추가합니다"</a></p>
+</li>
+<li>
+<p><a href="https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html" target="_blank" rel="noopener">"ONTAP 클러스터에 대해 알아보십시오"</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>를 설정합니다 <a href="https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-storage-management.html" target="_blank" rel="noopener">"용량 관리 모드"</a></p>
+<div class="paragraph">
+<p>주 커넥터만 * 자동 모드 * 로 설정해야 합니다. DR 목적으로 다른 커넥터로 전환하면 필요에 따라 용량 관리 모드를 변경할 수 있습니다.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/ko-kr/bluexp-setup-admin/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/ko-kr/bluexp-setup-admin/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">이 페이지에서</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">이용 약관</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">개인 정보 보호 정책</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">쿠키 정책</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">쿠키 설정</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">이 페이지에 대한 피드백 보내기</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/ko-kr/bluexp-setup-admin/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/ko-kr/bluexp-setup-admin/js/prism.js'></script>
+      <script type="text/javascript" src='/ko-kr/bluexp-setup-admin/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/ko-kr/bluexp-setup-admin/js/ie-tabbed-blocks.js'></script>
+    <script src='/ko-kr/bluexp-setup-admin/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
