@@ -4000,4 +4000,8 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="7d207720727cb20f87ab53c6a1b2514b" category="list-text">BlueXP는 HTTP 및 HTTPS를 지원합니다.</block>
   <block id="add3a67a28c550a2cc27b87a5a61ea8e" category="list-text">프록시 서버는 클라우드 또는 네트워크에 있을 수 있습니다.</block>
   <block id="8ddee083db5cf3707b8335f563d2c755" category="list-text">BlueXP는 투명한 프록시 서버를 지원하지 않습니다.</block>
+  <block id="116ea46795790eba5c14aa5d5c67dd04" category="list-text">Cloud Volumes ONTAP에서 다음 버전 중 하나를 실행해야 합니다.</block>
+  <block id="9ddb47b49482c226b2e422f267668544" category="list-text">9.12.1 P2(또는 후속 패치)</block>
+  <block id="53f1b4752b0f2d48c0953219295e0a2b" category="list-text">9.13.0 P4(또는 후속 패치)</block>
+  <block id="c2eb567355a3050dee61ad28cde98255" category="list-text">9.13.1 또는 이 릴리스 이후의 모든 버전</block>
 </blocks>
