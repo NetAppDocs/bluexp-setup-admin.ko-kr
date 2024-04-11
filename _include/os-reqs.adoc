@@ -55,5 +55,15 @@ Connector는 를 지원하는 OS가 있는 VM 인스턴스의 Google Cloud에서
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
 
 
-Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19.3.1 이상이 필요합니다. https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
+Docker 엔진:: Connector를 설치하기 전에 Docker 엔진이 호스트에 필요합니다.
++
+--
+* 지원되는 최소 버전은 19.3.1입니다.
+* 지원되는 최대 버전은 25.0.5입니다.
++
+https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
+
+
+
+--
 

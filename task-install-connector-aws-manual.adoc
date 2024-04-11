@@ -53,7 +53,17 @@ AWS EC2 인스턴스 유형:: 위의 CPU 및 RAM 요구 사항을 충족하는 �
 키 쌍:: Connector를 생성할 때 인스턴스와 함께 사용할 EC2 키 쌍을 선택해야 합니다.
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
-Docker 엔진:: 커넥터를 설치하기 전에 호스트에 Docker Engine 버전 19.3.1 이상이 필요합니다. https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
+Docker 엔진:: Connector를 설치하기 전에 Docker 엔진이 호스트에 필요합니다.
++
+--
+* 지원되는 최소 버전은 19.3.1입니다.
+* 지원되는 최대 버전은 25.0.5입니다.
++
+https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
+
+
+
+--
 
 
 

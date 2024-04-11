@@ -18,6 +18,18 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
+== 2024년 4월 11일
+
+
+
+=== Docker 엔진 업데이트
+
+Connector에서 지원되는 최대 버전(25.0.5)을 지정하기 위해 Docker Engine 요구 사항을 업데이트했습니다. 지원되는 최소 버전은 여전히 19.3.1입니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html#step-1-review-host-requirements["커넥터 호스트 요구 사항을 확인합니다"].
+
+
+
 == 2024년 3월 26일
 
 
@@ -78,7 +90,7 @@ https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-pr
 
 EC2 인스턴스에 대해 IMDS(인스턴스 메타데이터 서비스)가 다음과 같이 활성화됩니다.
 
-* BlueXP, AWS Marketplace 또는 를 사용하여 새로운 Connector를 구축하는 경우 https://docs.netapp.com/us-en/bluexp-automation/automate/overview.html["Terraform 스크립트"^], IMDSv2는 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다.
+* BlueXP에서 또는 를 사용하여 새로운 Connector를 구축하는 경우 https://docs.netapp.com/us-en/bluexp-automation/automate/overview.html["Terraform 스크립트"^], IMDSv2는 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다.
 * AWS에서 새 EC2 인스턴스를 시작한 다음 Connector 소프트웨어를 수동으로 설치하면 IMDSv2도 기본적으로 사용하도록 설정됩니다.
 * 기존 커넥터의 경우 IMDSv1은 계속 지원되지만 원하는 경우 EC2 인스턴스에서 IMDSv2를 수동으로 구성할 수 있습니다.
 * Cloud Volumes ONTAP의 경우 새 인스턴스와 기존 인스턴스에서 IMDSv1이 기본적으로 사용됩니다. 원하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.
