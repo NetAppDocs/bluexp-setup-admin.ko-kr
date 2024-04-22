@@ -731,20 +731,6 @@ Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 �
 
 
 
-=== 해결
-
-Connector는 BlueXP 개선 기능을 사용할 때 Azure 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.
-
-* Microsoft.Resources/resources/read
-* Microsoft.Resources/서브스크립션/운영 결과/읽기
-* Microsoft.Resources/Subscriptions/resourceGroups/read
-* Microsoft.Resources/Subscriptions/resourcegroups/resources/read
-* Microsoft.Resources/tags/read
-* Microsoft.Resources/tags/write(Microsoft.리소스/태그/쓰기
-
-
-
-
 === 계층화
 
 Connector는 BlueXP 계층화를 설정할 때 다음과 같은 API 요청을 수행합니다.

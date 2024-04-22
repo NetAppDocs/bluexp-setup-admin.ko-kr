@@ -59,7 +59,6 @@ BlueXP가 AWS에서 Connector 인스턴스를 시작하면 Connector에 해당 A
 
 * 에지 캐싱
 * 쿠버네티스
-* 해결
 
 
 [role="tabbed-block"]
@@ -1279,22 +1278,6 @@ Connector는 다음과 같은 API 요청을 수행하여 Amazon EKS 클러스터
 * EKS: ListClusters
 * EKS: DescribeCluster
 * IAM:GetInstanceProfile 을 참조하십시오
-
-
-
-
-=== 해결
-
-Connector는 BlueXP 치료 시 AWS 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.
-
-* EC2: CreateTags(태그 생성)
-* EC2: 삭제 태그
-* EC2: DescribeTags(설명 태그)
-* 태그: getResources
-* 태그: getTagKeys
-* 태그: getTagValues
-* 태그: 태그 리소스
-* 태그: UntagResources
 
 
 
