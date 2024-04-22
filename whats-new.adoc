@@ -18,6 +18,38 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
+== 2024년 4월 22일
+
+
+
+=== 커넥터 3.9.39
+
+이번 BlueXP Connector 릴리즈에는 사소한 보안 개선사항과 버그 수정이 포함되어 있습니다.
+
+현재 3.9.39 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
+
+
+
+=== Connector를 생성하기 위한 AWS 권한
+
+이제 BlueXP를 통해 AWS에서 Connector를 생성하려면 2가지 추가 권한이 필요합니다.
+
+[source, json]
+----
+"ec2:DescribeLaunchTemplates",
+"ec2:CreateLaunchTemplate",
+----
+이 권한은 Connector에 대한 EC2 인스턴스에서 IMDSv2를 사용하도록 설정하는 데 필요합니다.
+
+Connector를 생성할 때 BlueXP 사용자 인터페이스에 표시되는 정책과 설명서에 제공된 것과 동일한 정책에 이러한 권한이 포함되어 있습니다.
+
+
+NOTE: 이 정책에는 BlueXP에서 AWS에서 Connector 인스턴스를 시작하는 데 필요한 권한만 포함되어 있습니다. Connector 인스턴스에 할당되는 것과 동일한 정책이 아닙니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-aws-bluexp.html#step-2-set-up-aws-permissions["AWS에서 커넥터를 생성하기 위해 AWS 권한을 설정하는 방법에 대해 알아봅니다"].
+
+
+
 == 2024년 4월 11일
 
 
@@ -92,6 +124,7 @@ EC2 인스턴스에 대해 IMDS(인스턴스 메타데이터 서비스)가 다�
 
 * BlueXP에서 또는 를 사용하여 새로운 Connector를 구축하는 경우 https://docs.netapp.com/us-en/bluexp-automation/automate/overview.html["Terraform 스크립트"^], IMDSv2는 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다.
 * AWS에서 새 EC2 인스턴스를 시작한 다음 Connector 소프트웨어를 수동으로 설치하면 IMDSv2도 기본적으로 사용하도록 설정됩니다.
+* AWS Marketplace에서 Connector를 실행하면 IMDSv1이 기본적으로 활성화됩니다. EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.
 * 기존 커넥터의 경우 IMDSv1은 계속 지원되지만 원하는 경우 EC2 인스턴스에서 IMDSv2를 수동으로 구성할 수 있습니다.
 * Cloud Volumes ONTAP의 경우 새 인스턴스와 기존 인스턴스에서 IMDSv1이 기본적으로 사용됩니다. 원하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.
 

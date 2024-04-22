@@ -139,13 +139,19 @@ https://cloud.google.com/compute/docs/instances/connecting-to-instance["Google C
 
 == Amazon EC2 인스턴스에서 IMDSv2를 사용해야 합니다
 
-2024년부터 BlueXP는 이제 커넥터 및 Cloud Volumes ONTAP(HA 구축을 위한 중재자 포함)를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다. https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/["IMDSv2에 대한 자세한 내용은 AWS 보안 블로그 를 참조하십시오"^]
+2024년부터 BlueXP는 이제 커넥터 및 Cloud Volumes ONTAP(HA 구축을 위한 중재자 포함)를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. 대부분의 경우 IMDSv2는 새 EC2 인스턴스에 자동으로 구성됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다. 보안 정책에서 요구하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성해야 할 수 있습니다.
 
-* IMDSv2는 모든 새 커넥터 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다.
-* IMDSv1은 모든 신규 및 기존 Cloud Volumes ONTAP EC2 인스턴스에 대해 기본적으로 활성화됩니다.
+.이 작업에 대해
+IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다. https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/["IMDSv2에 대한 자세한 내용은 AWS 보안 블로그 를 참조하십시오"^]
 
+EC2 인스턴스에 대해 IMDS(인스턴스 메타데이터 서비스)가 다음과 같이 활성화됩니다.
 
-보안 정책에서 요구하는 경우 IMDSv2를 사용하도록 EC2 인스턴스를 구성할 수 있습니다.
+* BlueXP에서 또는 를 사용하여 새로운 Connector를 구축하는 경우 https://docs.netapp.com/us-en/bluexp-automation/automate/overview.html["Terraform 스크립트"^], IMDSv2는 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다.
+* AWS에서 새 EC2 인스턴스를 시작한 다음 Connector 소프트웨어를 수동으로 설치하면 IMDSv2도 기본적으로 사용하도록 설정됩니다.
+* AWS Marketplace에서 Connector를 실행하면 IMDSv1이 기본적으로 활성화됩니다. EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.
+* 기존 커넥터의 경우 IMDSv1은 계속 지원되지만 원하는 경우 EC2 인스턴스에서 IMDSv2를 수동으로 구성할 수 있습니다.
+* Cloud Volumes ONTAP의 경우 새 인스턴스와 기존 인스턴스에서 IMDSv1이 기본적으로 사용됩니다. 원하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.
+
 
 .시작하기 전에
 * Connector 버전은 3.9.38 이상이어야 합니다.

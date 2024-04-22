@@ -3860,10 +3860,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="84fc34721c0c912a148a70d22ac7cd5a" category="paragraph"><block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
   <block id="98dddf7eafbbdfa88756d62945237473" category="section-title">Amazon EC2 인스턴스에서 IMDSv2를 사용해야 합니다</block>
   <block id="824e7fae55f361d08bb9bd5bdf494ff0" category="inline-link">IMDSv2에 대한 자세한 내용은 AWS 보안 블로그 를 참조하십시오</block>
-  <block id="c49009b6f155acc311d4014abe19ec98" category="paragraph">2024년부터 BlueXP는 이제 커넥터 및 Cloud Volumes ONTAP(HA 구축을 위한 중재자 포함)를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다.<block ref="cb4336eb4a08d88f663206e070c9e1af" category="inline-link-rx"></block></block>
-  <block id="4166379ba80de4be17a81c04ec7819c4" category="list-text">IMDSv2는 모든 새 커넥터 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다.</block>
-  <block id="6f218fd0d06a9a2564453a73bc05ee13" category="list-text">IMDSv1은 모든 신규 및 기존 Cloud Volumes ONTAP EC2 인스턴스에 대해 기본적으로 활성화됩니다.</block>
-  <block id="7e6c98db93605459a9b69da423ef4684" category="paragraph">보안 정책에서 요구하는 경우 IMDSv2를 사용하도록 EC2 인스턴스를 구성할 수 있습니다.</block>
   <block id="b2f60e6f194d16e1bf9deaa367cd9eae" category="list-text">Connector 버전은 3.9.38 이상이어야 합니다.</block>
   <block id="177aac65c5f4518e1a35eb1479fac1a1" category="list-text">이 변경 사항을 적용하려면 Cloud Volumes ONTAP 인스턴스를 다시 시작해야 합니다.</block>
   <block id="5024434a1308ae5aff26ba15a55bce13" category="paragraph">응답 홉 제한을 3으로 변경해야 하므로 다음 단계를 수행하려면 AWS CLI를 사용해야 합니다.</block>
@@ -4013,4 +4009,17 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="a7d713b0c0233ee2a3bbb328d82ba606" category="inline-link">커넥터 호스트 요구 사항을 확인합니다</block>
   <block id="10f6464912ab27695ba4f7df57c14783" category="paragraph"><block ref="19b43e2419dde639b2fba3d57b5bca52" category="inline-link-rx"></block>.</block>
   <block id="91c7ed7e9c640df79f6bf153c6642ae5" category="list-text">BlueXP에서 또는 를 사용하여 새로운 Connector를 구축하는 경우<block ref="d5789cbcfe02eb67db017173bcddbe49" category="inline-link-rx"></block>, IMDSv2는 EC2 인스턴스에서 기본적으로 사용하도록 설정됩니다.</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024년 4월 22일</block>
+  <block id="1389c5e279a667948337a56d97caf570" category="section-title">커넥터 3.9.39</block>
+  <block id="103f00dbabbbaa84ff4ad44e1ae8f0e0" category="paragraph">현재 3.9.39 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="dcaa3e92176845b160207f9f0d80aef3" category="section-title">Connector를 생성하기 위한 AWS 권한</block>
+  <block id="492d5f07c90a7db03029f9a6c5532ce3" category="paragraph">이제 BlueXP를 통해 AWS에서 Connector를 생성하려면 2가지 추가 권한이 필요합니다.</block>
+  <block id="d563c67cb5d34e4276aadadd838867f8" category="paragraph">이 권한은 Connector에 대한 EC2 인스턴스에서 IMDSv2를 사용하도록 설정하는 데 필요합니다.</block>
+  <block id="99c957a89e85bd737f02914924c399b3" category="paragraph">Connector를 생성할 때 BlueXP 사용자 인터페이스에 표시되는 정책과 설명서에 제공된 것과 동일한 정책에 이러한 권한이 포함되어 있습니다.</block>
+  <block id="679562c52996a8e2a4db9524251394f4" category="admonition">이 정책에는 BlueXP에서 AWS에서 Connector 인스턴스를 시작하는 데 필요한 권한만 포함되어 있습니다. Connector 인스턴스에 할당되는 것과 동일한 정책이 아닙니다.</block>
+  <block id="1c51e24c3b44b362001f3c1a6c51b065" category="inline-link">AWS에서 커넥터를 생성하기 위해 AWS 권한을 설정하는 방법에 대해 알아봅니다</block>
+  <block id="16a785388c44f1116fdb34f01d8816bb" category="paragraph"><block ref="53bbefe6872cea40f97befa74964b71d" category="inline-link-rx"></block>.</block>
+  <block id="946e79c4f58ab5a0a68d36b7ccc89998" category="list-text">AWS Marketplace에서 Connector를 실행하면 IMDSv1이 기본적으로 활성화됩니다. EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.</block>
+  <block id="f2e7cda30b20334f5432b14d41028597" category="paragraph">2024년부터 BlueXP는 이제 커넥터 및 Cloud Volumes ONTAP(HA 구축을 위한 중재자 포함)를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. 대부분의 경우 IMDSv2는 새 EC2 인스턴스에 자동으로 구성됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다. 보안 정책에서 요구하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성해야 할 수 있습니다.</block>
+  <block id="3c27ef222c1ee58d80a2a938ecc7eab9" category="paragraph">IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다.<block ref="cb4336eb4a08d88f663206e070c9e1af" category="inline-link-rx"></block></block>
 </blocks>
