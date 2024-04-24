@@ -854,8 +854,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="0987e5bde139c54427573b7afe1d9422" category="paragraph">Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 검색하고 관리하기 위해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="42f3fa961e42affb80862a782c9341af" category="list-text">Microsoft.ContainerService/managedClusters/read</block>
   <block id="317850f59220c738a6550c8cc0fbd9c5" category="list-text">Microsoft.ContainerService/managedClusters/listClusterUserCredential/action입니다</block>
-  <block id="282baca6aef56652f503adce6afa9f07" category="section-title">해결</block>
-  <block id="92b5575604daffe3be8d9be7e9eea83d" category="paragraph">Connector는 BlueXP 개선 기능을 사용할 때 Azure 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="826e9938777ea2a0280d06c76218f7c7" category="paragraph">Connector는 BlueXP 계층화를 설정할 때 다음과 같은 API 요청을 수행합니다.</block>
   <block id="f786a140deb938ac21ab095b7c402176" category="paragraph">Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행합니다.</block>
   <block id="47ddffc293a6a5748897c2f965fa7212" category="list-text">Microsoft.Storage/storageAccounts/managementPolicies/read를 참조하십시오</block>
@@ -1392,12 +1390,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="b272876bb8d27e636bb70f2dce15cb34" category="list-text">EKS: ListClusters</block>
   <block id="457a1b6178515d282232753f808e8cf5" category="list-text">EKS: DescribeCluster</block>
   <block id="53ac904630fdbb4d62f208e001934c7c" category="list-text">IAM:GetInstanceProfile 을 참조하십시오</block>
-  <block id="c8a11657cad4105099bd9eb0d4bdbaec" category="paragraph">Connector는 BlueXP 치료 시 AWS 리소스의 태그를 관리하기 위해 다음과 같은 API 요청을 수행합니다.</block>
-  <block id="4c62ed8ff3597b57ab26a72e8f7294b7" category="list-text">태그: getResources</block>
-  <block id="b2ca34a52079f0ba5f066943f1dd2482" category="list-text">태그: getTagKeys</block>
-  <block id="f624e5f75138eb92caddd44e1bc7342e" category="list-text">태그: getTagValues</block>
-  <block id="5e665d8f5cf0c341dce9f3bd5e7f4cc0" category="list-text">태그: 태그 리소스</block>
-  <block id="5e10058ad3f07bfeca3eef81de09ce28" category="list-text">태그: UntagResources</block>
   <block id="14cbfe27bd7092d1b2ab4502adbdd584" category="paragraph">이제 Cloud Volumes ONTAP에 대해 다음 권한이 필요합니다.</block>
   <block id="bf9c7c9727a11f040da47cdd589f7ea6" category="paragraph">이제 BlueXP 계층화에 대해 다음 권한이 필요합니다.</block>
   <block id="b2cc56e18c7250863c6c74a223137e16" category="summary">BlueXP SaaS 계층에 대한 아웃바운드 연결 없이 BlueXP를 사용할 수 있도록 커넥터를 비공개 모드로 배포합니다. 시작하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 이전에 설정한 클라우드 권한을 제공합니다.</block>
@@ -3198,7 +3190,6 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="ba192d211ab8fe6aceb98f59e685d1bb" category="list-text">아직 구독이 없는 경우 * 구독 추가 &gt; 계속 * 을 선택하고 Google Cloud Marketplace의 단계를 따릅니다.</block>
   <block id="375b5c037ddde62b74d4b30381271828" category="list-text">팝업 대화 상자에서 * Register with NetApp, Inc. * 를 선택합니다</block>
   <block id="dcb058618377cff08193ee6990096f07" category="list-text">IAM(액세스 제어) * &gt; * 추가 * &gt; * 역할 할당 추가 * 를 선택합니다.</block>
-  <block id="51c9db5527a197748c924f3777b04b5d" category="list-text">구성원 선택 * 을 선택하고 Connector 가상 머신이 생성된 구독을 선택한 다음 * 가상 머신 * 을 선택하고 Connector 가상 머신을 선택합니다.</block>
   <block id="a907c3ee93defa4e7eb326edec72fa3d" category="list-text">선택 * 을 선택합니다.</block>
   <block id="6d2d5c49a26a8339a26911674ee69f80" category="list-text">자격 증명을 새 구독과 연결하려면 * 구독 추가 &gt; 계속 * 을 선택하고 AWS 마켓플레이스의 단계를 따릅니다.</block>
   <block id="cc5b03fa4f937c63363767c812feeb34" category="list-text">구매 옵션 보기 * 를 선택합니다.</block>
@@ -4022,4 +4013,8 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="946e79c4f58ab5a0a68d36b7ccc89998" category="list-text">AWS Marketplace에서 Connector를 실행하면 IMDSv1이 기본적으로 활성화됩니다. EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.</block>
   <block id="f2e7cda30b20334f5432b14d41028597" category="paragraph">2024년부터 BlueXP는 이제 커넥터 및 Cloud Volumes ONTAP(HA 구축을 위한 중재자 포함)를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. 대부분의 경우 IMDSv2는 새 EC2 인스턴스에 자동으로 구성됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다. 보안 정책에서 요구하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성해야 할 수 있습니다.</block>
   <block id="3c27ef222c1ee58d80a2a938ecc7eab9" category="paragraph">IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다.<block ref="cb4336eb4a08d88f663206e070c9e1af" category="inline-link-rx"></block></block>
+  <block id="8cdfbe4b35f3f9abb80295a7c104865a" category="paragraph">구독 수준에서의 역할 할당 범위를 지정하므로 * 구독 * 서비스에서 역할을 할당하는 것이 중요합니다. scope _ 는 액세스가 적용되는 리소스 집합을 정의합니다. 범위를 다른 수준(예: 가상 머신 레벨)으로 지정하면 BlueXP 내에서 작업을 완료하는 데 영향을 줍니다.</block>
+  <block id="0fde3f77d505a0a1192041da57a5754b" category="inline-link">Microsoft Azure 설명서: Azure RBAC의 범위를 이해합니다</block>
+  <block id="7ec9f2759e8cd477327da5c994d69fd0" category="paragraph"><block ref="7ec9f2759e8cd477327da5c994d69fd0" category="inline-link-rx"></block></block>
+  <block id="fae4c7bdd396cfb82d86677f8bc6f763" category="list-text">구성원 선택 * 을 선택하고 커넥터 가상 시스템이 생성된 구독을 선택한 다음 * 관리 ID * 에서 * 가상 머신 * 을 선택한 다음 커넥터 가상 머신을 선택합니다.</block>
 </blocks>
