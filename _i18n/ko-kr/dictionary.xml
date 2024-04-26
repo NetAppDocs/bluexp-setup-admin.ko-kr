@@ -2800,15 +2800,12 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="b55621a1719dba9e40d841c865c267ac" category="inline-link-macro">비공개 모드의 작동 방식에 대해 알아보십시오</block>
   <block id="e7e043e1590b443c8520402279e7ac44" category="paragraph"><block ref="7d2115a84914cfa6792d7d3921dc8e33" category="inline-link-macro-rx"></block>.</block>
   <block id="ba7c13ef3e78a348949ddfd6f17e4f18" category="paragraph">비공개 모드에서 Connector를 자체 Linux 호스트에 수동으로 설치하여 온프레미스 또는 클라우드에 설치할 수 있습니다.</block>
-  <block id="fb04864667c4668b6288df7ac7f6f40b" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP 시스템을 만들려면 Connector가 Google Cloud에서 실행 중이어야 합니다. 이는 사내에서 실행할 수 없습니다.</block>
   <block id="c3d3f783d267d1bd41b2e7f8639a5865" category="section-title">일상적 작업의 엔드포인트</block>
   <block id="b2723147717f1c60a42e0b1cbdb0ad6c" category="cell">\https://management.azure.microsoft.scloud
 \https://login.microsoftonline.microsoft.scloud
 \https://blob.core.microsoft.scloud
 \https://core.microsoft.scloud</block>
   <block id="8ec83edee8d0c8a3dd001c3d7e558479" category="cell">Azure IL6 영역의 리소스를 관리합니다.</block>
-  <block id="41d07a4a0a908721d3dbbf8c6e1a98a4" category="paragraph">Cloud Volumes ONTAP 시스템을 생성할 계획이라면 BlueXP에 클라우드 공급업체의 권한이 필요합니다. 클라우드 공급자에서 사용 권한을 설정한 다음 설치한 후 해당 권한을 Connector 인스턴스에 연결해야 합니다.</block>
-  <block id="3d715e57805c2356f84c41d139ed45c5" category="paragraph">온-프레미스에 Connector를 설치하려면 AWS 액세스 키 또는 Azure 서비스 보안 주체를 사용하여 권한을 제공해야 합니다. 다른 옵션은 지원되지 않습니다.</block>
   <block id="68f824a5014b20fc98aea0beb5945581" category="paragraph">IAM 역할을 사용하여 Connector에 권한을 제공합니다. Connector의 EC2 인스턴스에 역할을 수동으로 연결해야 합니다.</block>
   <block id="862b0c0ff0da2b02588d845f4c6d6d34" category="list-text">Connector를 설치할 VM에서 시스템 할당 관리 ID를 활성화하여 사용자 지정 역할을 통해 필요한 Azure 권한을 제공할 수 있습니다.</block>
   <block id="81b303f46dd1d85b6f031bc99d8e87a6" category="summary">BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있는 다양한 배포 모드를 제공합니다. 표준 모드는 BlueXP SaaS 계층을 활용하여 모든 기능을 제공하는 반면, 제한된 모드 및 비공개 모드는 연결 제한이 있는 조직에서 사용할 수 있습니다.</block>
@@ -4017,4 +4014,7 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="0fde3f77d505a0a1192041da57a5754b" category="inline-link">Microsoft Azure 설명서: Azure RBAC의 범위를 이해합니다</block>
   <block id="7ec9f2759e8cd477327da5c994d69fd0" category="paragraph"><block ref="7ec9f2759e8cd477327da5c994d69fd0" category="inline-link-rx"></block></block>
   <block id="fae4c7bdd396cfb82d86677f8bc6f763" category="list-text">구성원 선택 * 을 선택하고 커넥터 가상 시스템이 생성된 구독을 선택한 다음 * 관리 ID * 에서 * 가상 머신 * 을 선택한 다음 커넥터 가상 머신을 선택합니다.</block>
+  <block id="437c802c34c0b8670d61901c4e05641e" category="inline-link-macro">비공개 모드에 대해 자세히 알아보십시오</block>
+  <block id="d05ac7ff6398ff4f2b0bd26105dd1697" category="paragraph">커넥터를 설치할 때 프라이빗 모드를 사용할 때 사용할 수 있는 BlueXP 서비스와 기능이 결정됩니다. 예를 들어, Cloud Volumes ONTAP를 배포하고 관리하려면 Connector가 클라우드에 설치되어 있어야 합니다. <block ref="11a7253f43076934a5664eb6b2874efc" category="inline-link-macro-rx"></block>.</block>
+  <block id="60a1a3ba0b214492b5ab5c5bd4a52eb0" category="paragraph">커넥터가 클라우드에 설치되어 있고 Cloud Volumes ONTAP 시스템을 생성하려는 경우 BlueXP를 사용하려면 클라우드 공급자의 권한이 필요합니다. 클라우드 공급자에서 사용 권한을 설정한 다음 설치한 후 해당 권한을 Connector 인스턴스에 연결해야 합니다.</block>
 </blocks>
