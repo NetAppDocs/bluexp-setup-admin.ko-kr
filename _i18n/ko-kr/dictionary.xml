@@ -105,7 +105,6 @@
   <block id="dee4b7ff8cb24e70b467d45ba4ac55c6" category="paragraph"><block ref="dee4b7ff8cb24e70b467d45ba4ac55c6" category="inline-link-rx"></block></block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 대해</block>
   <block id="aad3dfdc62f79a4c10e86004046d9509" category="paragraph">NetApp Support 사이트에서 제공되는 설치 프로그램은 이전 버전일 수 있습니다. 새 버전이 있는 경우 설치 후 커넥터가 자동으로 업데이트됩니다.</block>
-  <block id="9764d03a6c521ac6bf9cc6db107b8351" category="list-text">Docker가 설정 및 실행 중인지 확인합니다.</block>
   <block id="16c184ab0a5376cef0ecef7f0da93ac2" category="list-text">_http_proxy_or_https_proxy_system 변수가 호스트에 설정되어 있으면 이를 제거합니다.</block>
   <block id="15c8f910fc596ecb4a8b91027b56de66" category="paragraph">이러한 시스템 변수를 제거하지 않으면 설치가 실패합니다.</block>
   <block id="7e64bcd49d202a618920fe22d66f21ac" category="list-text">에서 Connector 소프트웨어를 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block>를 선택한 다음 Linux 호스트에 복사합니다.</block>
@@ -490,7 +489,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="1b21b0d71706897b69f108572c444d40" category="list-text">하이퍼바이저</block>
   <block id="0791add814d036f56d1303750c34ee31" category="list-text">Ubuntu, CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.</block>
   <block id="fb2321bb5267696f60c7247224e6d35f" category="inline-link">Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?</block>
-  <block id="394349da65ddd77a10f3cdb6426b7439" category="paragraph"><block ref="394349da65ddd77a10f3cdb6426b7439" category="inline-link-rx"></block></block>
   <block id="2b55387dd066c5bac646ac61543d152d" category="list-text">CPU</block>
   <block id="379f39ccee41ac65b6cdfb0734a7098c" category="list-text">코어 4개 또는 vCPU 4개</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="list-text">RAM</block>
@@ -1608,8 +1606,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="75327cdc175eca204abf0a4aa66413b3" category="paragraph">시작하려면 커넥터 소프트웨어를 수동으로 설치하고, 커넥터에서 실행되는 BlueXP 콘솔에 로그인하고, BlueXP 디지털 지갑에 BYOL 라이센스를 추가한 다음 Cloud Volumes ONTAP를 구축하십시오.</block>
   <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">인터넷에 연결되지 않은 위치에 커넥터를 설치합니다</block>
   <block id="148472786b9015b5f19ac843e8bc0f31" category="list-text"><block ref="148472786b9015b5f19ac843e8bc0f31" category="inline-link-rx"></block></block>
-  <block id="cbea6f8d2cd687c094438e0a7a38fedf" category="inline-link">커넥터의 BlueXP 콘솔에 액세스합니다</block>
-  <block id="c90756fe60d5b7e957a6726a33ac7a77" category="list-text"><block ref="c90756fe60d5b7e957a6726a33ac7a77" category="inline-link-rx"></block></block>
   <block id="c09d91817b6017a3572898b867b22e36" category="inline-link">할당되지 않은 라이센스를 추가합니다</block>
   <block id="94fe554eb0f60c68e4d46024baeef975" category="list-text"><block ref="94fe554eb0f60c68e4d46024baeef975" category="inline-link-rx"></block></block>
   <block id="a8ed015209d62d3ffd9042f8a01b9725" category="inline-link">Cloud Volumes ONTAP를 시작하십시오</block>
@@ -1930,7 +1926,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="ff6e28c8eaa73c74f132f30b8a504071" category="list-text">/opt/application/netapp/cloudmanager/log입니다
 또는</block>
   <block id="f41aa0898b72dcd91cd63bd3d33d4258" category="list-text">/opt/application/netapp/service-manager-2/로그(새로운 3.9.23 설치부터 시작)</block>
-  <block id="ca20316f548fc97a4d2a061c877b1956" category="paragraph">이러한 폴더의 로그에는 Connector 및 Docker 이미지에 대한 세부 정보가 나와 있습니다.</block>
   <block id="b7fb1cb20b803995e802d3588f424efa" category="list-text">/opt/application/netapp/cloudmanager/docker/데이터/로그</block>
   <block id="117c785e61d16618a1202c0ae6cf754a" category="paragraph">이 폴더의 로그에는 Connector에서 실행되는 클라우드 서비스 및 BlueXP 서비스에 대한 세부 정보가 나와 있습니다.</block>
   <block id="7ab07ea46199c644dddf2520b843394b" category="section-title">커넥터 서비스</block>
@@ -1958,13 +1953,8 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e6db33ee282f55f359f9274b3cb1f285" category="list-text">프로젝트에서 다음 Google Cloud API를 활성화합니다.</block>
   <block id="8626ee05ff51b6a467bb5d1ee81047b8" category="inline-link">Google Cloud 설명서: API 활성화</block>
   <block id="738140038c4506b7e29508b58d682758" category="paragraph"><block ref="738140038c4506b7e29508b58d682758" category="inline-link-rx"></block></block>
-  <block id="7e9844445f6b28199c6de55c6014f78c" category="summary">Connector를 만든 후에는 항상 관리해야 할 수 있습니다. 예를 들어, 둘 이상의 커넥터가 있는 경우 커넥터 사이를 전환할 수 있습니다. 또는 비공개 모드에서 BlueXP를 사용할 때 커넥터를 수동으로 업그레이드해야 할 수도 있습니다.</block>
-  <block id="dd6f576fe34949ea5c3d4b196b2c626d" category="doc">기존 커넥터 관리</block>
-  <block id="7367c923fb2d3c31abc663e6f8c00fbb" category="inline-link-macro">커넥터 작동 방식에 대해 알아보십시오</block>
-  <block id="691fd1f586b51358d2cf39056265bf93" category="paragraph"><block ref="c6cd765e97b37938d467fcf7100fd8e8" category="inline-link-macro-rx"></block>.</block>
   <block id="28d40d49edc5d8557dfa8624f4921f55" category="section-title">운영 체제 및 VM 유지 보수</block>
   <block id="19584c42f9ee050980069e98aba18776" category="paragraph">커넥터 호스트에서 운영 체제를 유지 관리하는 것은 사용자의 책임입니다. 예를 들어, 회사의 운영 체제 배포 표준 절차에 따라 Connector 호스트의 운영 체제에 보안 업데이트를 적용해야 합니다.</block>
-  <block id="f54ceb27aeb3593e19341732f24d3f61" category="paragraph">OS 업데이트를 실행할 때 커넥터 호스트에서 서비스를 중지할 필요가 없습니다.</block>
   <block id="58eaadf4bb73c6121323ec8ad981c1bf" category="paragraph">Connector VM을 중지한 다음 시작해야 하는 경우, 클라우드 공급자의 콘솔에서 또는 온프레미스 관리를 위한 표준 절차를 사용하여 시작해야 합니다.</block>
   <block id="56f7fa1ed2a5960645c3e1c3f3521ac4" category="inline-link-macro">커넥터는 항상 작동해야 합니다</block>
   <block id="50f74838f982f7a3b705af170ddd7da4" category="paragraph"><block ref="c94a7910d5b535a9c639377af3b5e75b" category="inline-link-macro-rx"></block>.</block>
@@ -1993,7 +1983,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="fa25ff644bc82c03a613715d969f788d" category="list-text">Google Cloud에서 Connector를 만들 때는 인증 방법을 지정할 수 없습니다. 그러나 Google Cloud Console 또는 Google Cloud CLI(gcloud)를 사용하여 Linux VM 인스턴스에 연결할 수 있습니다.</block>
   <block id="b60097f9f3ac90a5ce4fd69c66be0717" category="inline-link">Google Cloud Docs: Linux VM에 연결합니다</block>
   <block id="b80f2820ec689140e03615f3240fde24" category="paragraph"><block ref="b80f2820ec689140e03615f3240fde24" category="inline-link-rx"></block></block>
-  <block id="c1c864c3ccb60090d311d4a9c4abf990" category="section-title">비공개 모드를 사용할 경우 커넥터를 업그레이드합니다</block>
   <block id="bdfe8a8b0f5b6a0b4242be2e550dff4a" category="paragraph">비공개 모드에서 BlueXP를 사용하는 경우 NetApp Support 사이트에서 최신 버전을 사용할 수 있는 경우 커넥터를 업그레이드할 수 있습니다.</block>
   <block id="84692ef80d23d7ba11b5ce40223e1af5" category="paragraph">업그레이드 프로세스 중에 Connector를 다시 시작해야 업그레이드 중에 웹 기반 콘솔을 사용할 수 없게 됩니다.</block>
   <block id="d651da37c0942c2e8d61b167e835ec80" category="list-text">에서 Connector 소프트웨어를 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block>.</block>
@@ -2026,7 +2015,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="2edb4e92b7a9da8aeba40d13e6c35982" category="paragraph"><block ref="2edb4e92b7a9da8aeba40d13e6c35982" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ec2047192779921dd8c042d6555c8cd8" category="list-text">확인할 커넥터 이름을 입력한 다음 * 제거 * 를 선택합니다.</block>
   <block id="7c42efcb94d7f8204bfb69f49301938f" category="paragraph">BlueXP는 커넥터에서 커넥터를 제거합니다.</block>
-  <block id="1e5422449b0eb99ea40cb7fe70879cc1" category="section-title">Connector 소프트웨어를 제거합니다</block>
   <block id="6a5be3e06b444aea04beccda3bc9e1d6" category="list-text">Linux 호스트에서 제거 스크립트를 실행합니다.</block>
   <block id="0bb43692ecd0352eecc69c235e34d6f0" category="paragraph">_silent_는 확인 메시지를 표시하지 않고 스크립트를 실행합니다.</block>
   <block id="c89064bda3f1ae133a231f5b1f44c3b0" category="list-text">Linux 호스트에서 다음 명령을 실행합니다.</block>
@@ -2686,33 +2674,19 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="538fc0c04ce8a0ef5cf78a12dbe8f68a" category="section-title">커넥터 업그레이드</block>
   <block id="c568c61bf8e9e5a305fc06655cdac862" category="paragraph">일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. BlueXP 플랫폼의 서비스 및 기능은 대부분 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
   <block id="ed0b87049db36af81b1e2989ce889651" category="inline-link-macro">Connector 소프트웨어를 수동으로 업그레이드하는 방법에 대해 알아보십시오</block>
-  <block id="c6793bcdb1eae6a26c6e9cb42e6b2f31" category="paragraph"><block ref="079398d71b1e343d69f7a6ed5f005eb2" category="inline-link-macro-rx"></block>.</block>
   <block id="2162bc1fbb13d2539c146b3472921eb5" category="paragraph"><block ref="7270aabdb0c26b6b937d76a49fcda623" category="inline-xref-macro-rx"></block>.</block>
-  <block id="3feb0795a14e1cc974940057fc75d0e7" category="section-title">다양한 작업 환경</block>
   <block id="4102d173f8e2253a011fe9286a6db2a3" category="paragraph">커넥터는 BlueXP에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.</block>
   <block id="63e8317d7c5806dc1cb56752525c4d52" category="paragraph">대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다. 도중에 문제가 발생하는 경우 제품 내 채팅을 통해 문의해 주십시오.</block>
-  <block id="c6d129878583320db44cb10e4daa0ffc" category="section-title">다중 커넥터</block>
   <block id="18d5aadda239c924412f84368e73290b" category="paragraph">경우에 따라 하나의 커넥터만 필요할 수 있지만 둘 이상의 커넥터가 필요할 수 있습니다.</block>
   <block id="c270270ae413e473bd85d972dfddb840" category="paragraph">다음은 몇 가지 예입니다.</block>
   <block id="aa043b4c9a6fa32b0f3811520156579a" category="list-text">다중 클라우드 환경(예: AWS 및 Azure)이 있고 AWS에 커넥터 1개와 Azure에 커넥터 1개가 있는 것을 선호합니다. 각 는 이러한 환경에서 실행되는 Cloud Volumes ONTAP 시스템을 관리합니다.</block>
   <block id="c76efa6c691a8c8806671433356c1493" category="list-text">서비스 제공업체는 하나의 BlueXP 계정을 사용하여 고객에게 서비스를 제공하는 한편 다른 계정을 사용하여 사업부 중 하나의 재해 복구를 제공할 수 있습니다. 각 계정에는 별도의 커넥터가 있습니다.</block>
-  <block id="b7baf76babc410282d303dd810fc0a0e" category="section-title">전환 시기</block>
-  <block id="ff0cce8c3f3c48a3ff695c2c92a5b053" category="paragraph">첫 번째 커넥터를 만들면 BlueXP는 사용자가 추가로 만든 각 작업 환경에 대해 해당 커넥터를 자동으로 사용합니다. 추가 커넥터를 만든 후에는 각 Connector에 해당하는 작업 환경을 보기 위해 커넥터 사이를 전환해야 합니다.</block>
-  <block id="b42a4e8606c4d9b6c9a1f695e362a72a" category="inline-link-macro">커넥터 간 전환 방법에 대해 알아보십시오</block>
-  <block id="8cace447f88df36aff1b15d754f25f8b" category="paragraph"><block ref="34c92eb0b80eb3e0fe9fb66053c42d9e" category="inline-link-macro-rx"></block>.</block>
   <block id="645a84975202e30700b572b49a5ee29d" category="section-title">재해 복구</block>
   <block id="9702ba80b5da1f1cf46d6eb4c043a20a" category="paragraph">재해 복구를 위해 여러 커넥터가 있는 작업 환경을 동시에 관리할 수 있습니다. 하나의 커넥터가 다운되면 다른 커넥터로 전환하여 작업 환경을 즉시 관리할 수 있습니다.</block>
-  <block id="1dd9ce9d137f2fa61020574f1082c6d0" category="paragraph">이 구성을 설정하려면 다음을 수행하십시오.</block>
-  <block id="61f2b058abe88a54489dc8da55cb7b80" category="inline-link-macro">다른 커넥터로 전환합니다</block>
-  <block id="91a0239f3f1ce02c785205d5c052b6de" category="list-text"><block ref="75e6defc2f0cdee5909b5313e077e378" category="inline-link-macro-rx"></block>.</block>
   <block id="fc08f20f6fe5ef74616fbc4c310758ef" category="list-text">기존 작업 환경을 파악합니다.</block>
   <block id="11eeac25dab3c53540d3f299755ecf62" category="inline-link">기존 Cloud Volumes ONTAP 시스템을 BlueXP에 추가합니다</block>
   <block id="16d095355b2a308649665d5768df8693" category="list-text"><block ref="16d095355b2a308649665d5768df8693" category="inline-link-rx"></block></block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">ONTAP 클러스터에 대해 알아보십시오</block>
-  <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
-  <block id="35e1526d677f2c5c412538ff39eaacd5" category="inline-link">용량 관리 모드</block>
-  <block id="e735c0a7fc94ed3c915640c39daf9299" category="list-text">를 설정합니다<block ref="dc37ab94c751c0e5b427451fa56e921c" category="inline-link-rx"></block></block>
-  <block id="7e869bece5c75f9fb7d53abbc36e200f" category="paragraph">주 커넥터만 * 자동 모드 * 로 설정해야 합니다. DR 목적으로 다른 커넥터로 전환하면 필요에 따라 용량 관리 모드를 변경할 수 있습니다.</block>
   <block id="dd62e3749858cdd06ba5e069b42df256" category="summary">BlueXP에서 AWS 계정에 클라우드 리소스를 배포하고 관리하는 데 필요한 권한을 갖도록 AWS 자격 증명을 추가 및 관리합니다. 여러 AWS 구독을 관리하는 경우 자격 증명 페이지에서 각 AWS 자격 증명을 서로 다른 AWS 자격 증명에 할당할 수 있습니다.</block>
   <block id="ad600f8720689154e64338aee6489d7f" category="doc">BlueXP에 대한 AWS 자격 증명 및 구독을 관리합니다</block>
   <block id="8ecc2cdde03387c9e59ffefef164f1e8" category="paragraph">BlueXP에서 AWS 계정에 클라우드 리소스를 배포하고 관리하는 데 필요한 권한을 갖도록 AWS 자격 증명을 추가 및 관리합니다. 여러 AWS Marketplace 구독을 관리하는 경우 자격 증명 페이지에서 각 구독을 서로 다른 AWS 자격 증명에 할당할 수 있습니다.</block>
@@ -3048,7 +3022,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="297a49f6150dc8dc8d45620c0f09f393" category="list-text">다른 Google Cloud 프로젝트의 리소스를 관리하려면 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.</block>
   <block id="1f7d098197ba2def0ffc66c388b2aa6c" category="paragraph">Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음 AWS 자격 증명을 선택합니다.</block>
   <block id="1c16bd0b2377f4460ae56ecb40a419ae" category="paragraph">이 역할과 연결된 Azure 구독을 선택할 수 있습니다. 선택한 각 구독은 해당 구독의 리소스를 관리하는 커넥터 권한을 제공합니다(예: Cloud Volumes ONTAP).</block>
-  <block id="d90aceadc99dce46d7d593ee18ab0d90" category="paragraph">Connector는 다음 엔드포인트를 접촉하여 퍼블릭 클라우드 환경 내의 리소스와 프로세스를 관리합니다.</block>
   <block id="91499b479a6f9fe14de575cded8e2ab6" category="paragraph">여러 Azure 구독에서 리소스를 관리하려면 각 구독에 서비스 보안 주체를 바인딩해야 합니다. 예를 들어, BlueXP에서는 Cloud Volumes ONTAP를 배포할 때 사용할 구독을 선택할 수 있습니다.</block>
   <block id="6258a889f12d08d6da95cf4059f67498" category="paragraph">BlueXP에서 사용할 각 Azure 구독에 대한 ID를 추가해야 합니다.</block>
   <block id="4f700fdc55105ee1225978e0ecbf1046" category="paragraph">Cloud Volumes ONTAP를 사용하는 경우 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포되거나 에 배포되어야 합니다<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다.</block>
@@ -3242,7 +3215,6 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="22cb2add8f3bffef4e749ab0af395ded" category="list-text">* 검토 *: 세부 정보를 검토하고 사용권 계약에 동의한 다음 * 설정 * 을 선택합니다.</block>
   <block id="451c5548be4e9e7bdee0e30d3122050a" category="paragraph"><block ref="5df7abb03e9cd39c0665b677aaa45ef4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6a60f29cdbb848f0645646b0cceee422" category="paragraph">현재 Connector가 "cloudmanager.cloud.netapp.com" 에 문의하고 있지만 곧 출시될 릴리스에서 "api.bluexp.netapp.com" 에 연락하기 시작합니다.</block>
-  <block id="2da6f1af030756bb235fd83baa6abd7b" category="paragraph">조직에서 모든 나가는 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다. 설치하는 동안 이 정보를 제공해야 합니다.</block>
   <block id="f68132eadaa2c37170b842a86fa6955d" category="paragraph">Cloud Volumes ONTAP 시스템에 AutoSupport 메시지를 보내기 위한 아웃바운드 인터넷 연결이 없는 경우 BlueXP는 자동으로 해당 시스템이 커넥터에 포함된 프록시 서버를 사용하도록 구성합니다. 유일한 요구 사항은 커넥터 보안 그룹이 포트 3128을 통한 인바운드 연결을 허용하는지 확인하는 것입니다. Connector를 배포한 후 이 포트를 열어야 합니다.</block>
   <block id="e12fb4f30abef516bf6f5e0e9a5b72b7" category="doc">BlueXP에서 Azure에 커넥터를 만듭니다</block>
   <block id="864fadbab69859b77befd9c5a1c37c61" category="paragraph">BlueXP에서 커넥터를 생성할 때 BlueXP가 Azure에서 인증되고 VM을 배포할 수 있도록 로그인을 제공해야 합니다. 두 가지 옵션이 있습니다.</block>
@@ -3298,7 +3270,6 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
-  <block id="2274fc3b815748857736944118caafcb" category="paragraph">Connector 소프트웨어의 새 버전을 사용할 수 있으면 NetApp Support 사이트에 게시됩니다. <block ref="6573e3614f2b2c9574b675c6e2dabc80" category="inline-link-macro-rx"></block>.</block>
   <block id="ea472a728fa8ea8a9d957dafbf3b3c56" category="paragraph"><block ref="4bafa1fce0633bbc25f458d6925369da" category="inline-link-macro-rx"></block>.</block>
   <block id="880b965f9cabc8a09dc307835b0c1c44" category="paragraph">회사에 이미 계정이 있는 경우 가입하려면 BlueXP를 종료하고 소유자에게 계정을 연계하도록 요청해야 합니다. 소유자가 사용자를 추가한 후 로그인하면 해당 계정에 액세스할 수 있습니다. <block ref="221ad62081662624d5ad46e4eb019f63" category="inline-link-macro-rx"></block>.</block>
   <block id="51a7ac19cbf0f9d074132cf117ad2e0c" category="paragraph">기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다. <block ref="c25c39db29c727f1578fc8385e3c589b" category="inline-xref-macro-rx"></block>.</block>
@@ -3372,27 +3343,21 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="33df6c8bf79bb883818929fadd08fde2" category="paragraph"><block ref="c830bbf16033728edff10270fb2e90fe" category="inline-link-macro-rx"></block>.</block>
   <block id="895abbd8e532d17f2ca587c540bce83a" category="list-text"><block ref="895abbd8e532d17f2ca587c540bce83a" category="inline-link-macro-rx"></block></block>
   <block id="72323525d86fb9af6692c45c5d227ba4" category="list-text"><block ref="72323525d86fb9af6692c45c5d227ba4" category="inline-link-macro-rx"></block></block>
-  <block id="6aae497466fed2612ac006372d018332" category="list-text"><block ref="6aae497466fed2612ac006372d018332" category="inline-link-macro-rx"></block></block>
   <block id="9a1ba924530ef064e3af892730568dd2" category="list-text"><block ref="9a1ba924530ef064e3af892730568dd2" category="inline-link-macro-rx"></block></block>
   <block id="dcaf9d9995c1cce5dfb4399e2434754e" category="summary">자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 Azure 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="4a121ca6348602c8e2772e9488d338a9" category="doc">Azure에서 커넥터를 수동으로 설치합니다</block>
   <block id="38c977ce808382575da9f341bee1d199" category="paragraph">을(를) 검토해야 합니다 <block ref="a2e83c328c5fe53a1b055bac582f41f6" category="inline-link-macro-rx"></block>.</block>
   <block id="5b6c8baef296a0ee0c5ff5b25d3b43fd" category="section-title">1단계: 호스트 요구 사항을 검토합니다</block>
-  <block id="50368de37e44f114e14bdf383d655041" category="section-title">2단계: 네트워킹을 설정한다</block>
   <block id="777217f0ae54cd380d40c78b43240a00" category="paragraph">커넥터를 설치할 네트워크 위치가 다음 요구 사항을 지원하는지 확인합니다. 이러한 요구사항을 충족하면 Connector가 하이브리드 클라우드 환경 내에서 리소스와 프로세스를 관리할 수 있습니다.</block>
   <block id="7f18b4acc8a5bd4dc5f43cf0deb8c2d8" category="list-text">Connector를 사용하려면 작업 환경을 만들고 관리할 위치에 대한 네트워크 연결이 필요합니다. 예를 들어, 온프레미스 환경에서 Cloud Volumes ONTAP 시스템 또는 스토리지 시스템을 생성할 네트워크를 예로 들 수 있습니다.</block>
   <block id="3551629b0e37f203b25270d0dfdc1f39" category="list-text">커넥터를 배포하는 네트워크 위치에 특정 끝점에 연결하려면 아웃바운드 인터넷 연결이 있어야 합니다.</block>
   <block id="5761fa91677853434e4537aeda21de63" category="section-title">3단계: 사용 권한 설정</block>
   <block id="98fbfc7b90b1537be74af9a49772f49a" category="paragraph">다음 옵션 중 하나를 사용하여 BlueXP에 Azure 권한을 제공해야 합니다.</block>
   <block id="477e9f08d03102e04ead3de4b2f8b69e" category="paragraph">단계에 따라 BlueXP 권한을 준비합니다.</block>
-  <block id="d10eb1d2e85fdd829a66c3fc142d80ad" category="section-title">4단계: 커넥터를 설치합니다</block>
   <block id="f20df450b1161c347a5e7eba9538eeb3" category="paragraph">필수 구성 요소를 완료한 후 자신의 Linux 호스트에 소프트웨어를 수동으로 설치할 수 있습니다.</block>
   <block id="15daaea4d03b83616f3ad0b69cf782d4" category="section-title">5단계: BlueXP에 권한 제공</block>
   <block id="d0fb5ed733cfc3e5faf9cd5d96f676a9" category="paragraph">이제 커넥터를 설치했으므로 이전에 설정한 Azure 권한을 BlueXP에 제공해야 합니다. 권한을 제공하면 BlueXP가 Azure에서 데이터 및 스토리지 인프라를 관리할 수 있습니다.</block>
-  <block id="72a8b95c961c5befe0da974b494bd112" category="paragraph"><block ref="72a8b95c961c5befe0da974b494bd112" category="inline-link-macro-rx"></block></block>
   <block id="3841f44681bf2f357b9d0af73693bfe7" category="paragraph"><block ref="fd1bb5492ba75369497408ab8d3a2621" category="inline-link-macro-rx"></block>.</block>
-  <block id="36e6f8681cc34503cfb0480443d76ab6" category="paragraph"><block ref="36e6f8681cc34503cfb0480443d76ab6" category="inline-link-macro-rx"></block></block>
-  <block id="04db9667b9afd4fbbbb994922ad2f7c1" category="paragraph"><block ref="f578423c9de0a6574109b1d8ac8175ae" category="inline-link-macro-rx"></block>.</block>
   <block id="d03606e722be163f18ffb05fb7f6b8ad" category="summary">BlueXP 콘솔을 위한 네트워킹을 준비하고, 계정을 등록 및 생성하고, 선택적으로 Connector를 생성하고, BlueXP를 구독하여 BlueXP를 표준 모드로 시작하십시오.</block>
   <block id="2c4bc70d5e888213a3bca35048028c96" category="doc">워크플로 시작(표준 모드)</block>
   <block id="c31816e89acef282910453c5620f26f4" category="inline-link-macro">배포 모드</block>
@@ -3413,7 +3378,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="0754f1969636526eac38034bd1419234" category="list-text"><block ref="0754f1969636526eac38034bd1419234" category="inline-link-macro-rx"></block></block>
   <block id="2c23813ca1d467902b4a5cbc8a878232" category="list-text"><block ref="2c23813ca1d467902b4a5cbc8a878232" category="inline-link-macro-rx"></block></block>
   <block id="f0c3f7365e880532f402961957bd549e" category="list-text"><block ref="f0c3f7365e880532f402961957bd549e" category="inline-link-macro-rx"></block></block>
-  <block id="8f62fdc4eba7cbec71350a9ad0375485" category="list-text"><block ref="8f62fdc4eba7cbec71350a9ad0375485" category="inline-link-macro-rx"></block></block>
   <block id="e076f6c74577c43033001756a3886ddc" category="paragraph">각 BlueXP 서비스에 대한 문서를 참조하십시오.</block>
   <block id="0b849731882fd6505b78e31e7c6793e0" category="doc">워크플로 시작(비공개 모드)</block>
   <block id="86324dc19986cf024d27996fe0699e06" category="list-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="0be36da6d7a1ea4d94468b72475c7e35" category="inline-link-macro-rx"></block></block>
@@ -3422,7 +3386,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="f4426e4062930abb33465fb5b79b35dc" category="inline-link-macro">Azure Marketplace 배포에 대한 사용 권한을 설정합니다</block>
   <block id="d16dc391acdc52d611958fdd5ca48d52" category="list-text"><block ref="d16dc391acdc52d611958fdd5ca48d52" category="inline-link-macro-rx"></block></block>
   <block id="8790c01539f52b3b7d7f0f32b6631813" category="inline-link-macro">온프레미스 배포에 대한 권한을 설정합니다</block>
-  <block id="88a6f26465fef463007526defecd01d8" category="list-text"><block ref="88a6f26465fef463007526defecd01d8" category="inline-link-macro-rx"></block></block>
   <block id="643063b79f29bba54b69c5a3d47a8da5" category="summary">BlueXP에서 AWS에 Connector를 생성하려면 네트워킹을 설정하고 AWS 권한을 준비한 다음 Connector를 생성해야 합니다.</block>
   <block id="a9b34414733cf4871ed4d1f23b7438dd" category="doc">BlueXP에서 AWS에 커넥터를 생성합니다</block>
   <block id="70d8bd725ea77c6a4b800edb3d5b9f5f" category="section-title">단계 1: 네트워킹을 설정한다</block>
@@ -3459,9 +3422,7 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="4a34940e5f45b6eb76dabb3e23de10f0" category="section-title">5단계: 클라우드 권한 준비</block>
   <block id="ed699bb1e56dba725718c6f093e80619" category="section-title">6단계: Google Cloud API를 활성화합니다</block>
   <block id="755bdc98f2ba455bba23e5d86a671294" category="section-title">1단계: 제한 모드의 작동 방식을 이해합니다</block>
-  <block id="b5437b8a5eafec074529299c6dc47771" category="section-title">4단계: 네트워킹을 준비합니다</block>
   <block id="62e5d1121361ae6a6b8f2f35c9e1b534" category="list-text">제한된 모드에서는 커넥터에서 BlueXP 사용자 인터페이스에 액세스할 수 있습니다. BlueXP 사용자 인터페이스를 사용할 때 데이터 관리 작업을 완료하기 위해 몇 개의 엔드포인트에 연결합니다. 이러한 엔드포인트는 BlueXP 콘솔에서 특정 작업을 완료할 때 사용자 컴퓨터에서 연결됩니다.</block>
-  <block id="d9d13e4310493bbbe9137b8f0bff73c0" category="section-title">단계: 5 클라우드 사용 권한을 준비합니다</block>
   <block id="d33385b3989ad7c0d0d5068246d54b96" category="summary">Google Cloud에서 Connector를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다.</block>
   <block id="01936da377bd77271790dab55ad9996f" category="inline-link-macro">BlueXP에서 직접 Connector를 생성합니다</block>
   <block id="81bfdce77d2f02aa0110ac77ab7d117d" category="list-text"><block ref="4e9cbb4f1c74952959ded57fc23d598b" category="inline-link-macro-rx"></block> (표준 옵션)</block>
@@ -3486,7 +3447,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="2309e95f128f15afe4bdf21a377f9d87" category="list-text"><block ref="2309e95f128f15afe4bdf21a377f9d87" category="inline-link-macro-rx"></block></block>
   <block id="c53f978d2c0ef8c78c62cdf0fc803526" category="list-text"><block ref="c53f978d2c0ef8c78c62cdf0fc803526" category="inline-link-macro-rx"></block></block>
   <block id="412d134b731f1d8c5a5b0a427966703d" category="list-text"><block ref="412d134b731f1d8c5a5b0a427966703d" category="inline-link-macro-rx"></block></block>
-  <block id="ed3271e15717ab8332c1de24eba514e0" category="list-text"><block ref="ed3271e15717ab8332c1de24eba514e0" category="inline-link-macro-rx"></block></block>
   <block id="2b27af8d5932753265ba5607c4aca373" category="summary">Azure 마켓플레이스에서 Connector를 만들려면 네트워킹을 설정하고 Azure 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
   <block id="08162f5d2875618589001f4ce951b82d" category="section-title">2단계: VM 요구 사항 검토</block>
   <block id="67e296817a0a6c22fc1ef6d510785c4d" category="paragraph">Connector를 생성할 때 다음 요구 사항을 충족하는 가상 머신 유형을 선택해야 합니다.</block>
@@ -3501,7 +3461,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="47c702e5703c00c15a7f10ffe5bb3fdd" category="section-title">4단계: 공유 VPC 권한 설정</block>
   <block id="fa48079a29f8b87d7d08f79f359feb76" category="section-title">5단계: Google Cloud API를 활성화합니다</block>
   <block id="69f380f2398b7565bd53d007caa73472" category="paragraph">Google Cloud에 Cloud Volumes ONTAP 시스템을 배포하기 전에 여러 Google Cloud API를 활성화해야 합니다.</block>
-  <block id="da93ca4b1142128f1472b9a3e7c7548c" category="section-title">6단계: 커넥터를 설치합니다</block>
   <block id="23f1991165d981fbfc14ff4a1b567d22" category="section-title">7단계: BlueXP에 권한 제공</block>
   <block id="77c49575039cf84b53e2e3bf39a8a007" category="paragraph">이전에 설정한 Google Cloud 권한을 BlueXP에 제공해야 합니다. 권한을 제공하면 BlueXP가 Google Cloud에서 데이터 및 스토리지 인프라를 관리할 수 있습니다.</block>
   <block id="af2c4df7e8660cdabd8fc59a2aa0aaf1" category="doc">워크플로 시작(제한된 모드)</block>
@@ -3528,9 +3487,7 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="f620c8829c45a571ef79c7113979e722" category="list-text"><block ref="f620c8829c45a571ef79c7113979e722" category="inline-link-macro-rx"></block></block>
   <block id="5d2f88742fa055307c09a80d0773bb7f" category="paragraph">이 동작은 Linux 및 Connector 소프트웨어를 실행하는 VM도 시작하지만 BlueXP가 아닌 Azure 마켓플레이스에서 직접 배포가 시작됩니다.</block>
   <block id="152e6840a2911cc120f143ff657bdc7e" category="list-text"><block ref="152e6840a2911cc120f143ff657bdc7e" category="inline-link-macro-rx"></block></block>
-  <block id="6a47e87d123961d13235f32c19e7042d" category="section-title">3단계: 클라우드 사용 권한 설정</block>
   <block id="b393abc2831fb45cf9e5b73489057bcc" category="admonition">Google Cloud가 적합하지 않은 이유 Connector가 구내에 설치되어 있으면 Google Cloud에서 리소스를 관리할 수 없습니다. Google Cloud에 Connector를 설치하여 해당 위치에 있는 모든 리소스를 관리해야 합니다.</block>
-  <block id="7380491555cdaf40fdcbfe5baeb961c4" category="section-title">5단계: 커넥터를 설정합니다</block>
   <block id="b8312cd81869d608f8aa6c172b1efa56" category="paragraph">등록 또는 로그인한 다음 Connector를 BlueXP 계정과 연동하도록 설정합니다.</block>
   <block id="63833bed9bf25b857c994cd51a878896" category="section-title">6단계: BlueXP에 권한 제공</block>
   <block id="ccbf44ea31f64041eb3e02bf2d4f1003" category="paragraph">커넥터를 설치하고 설정한 후에 BlueXP가 AWS 또는 Azure에서 작업을 수행하는 데 필요한 권한을 갖도록 클라우드 자격 증명을 추가합니다.</block>
@@ -3598,7 +3555,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="0c41c26ede4faf2f62d330df516b6e2c" category="list-text">\https://user-name:password@address:port</block>
   <block id="84d3a6cbeb010ca14b892dcb244ad6c5" category="list-text">\https://domain-name%92user-name:password@address:port</block>
   <block id="9c959780e1c60d211b8e7acdef1e4650" category="list-text">사용자는 로컬 사용자 또는 도메인 사용자일 수 있습니다.</block>
-  <block id="288412232e1a46f03f9c36a0d0f3b5c0" category="list-text">도메인 사용자의 경우 위에 표시된 \ 에 ASCII 코드를 사용해야 합니다.</block>
   <block id="2fc62556a3d8d2f1a8b9dc5e4e4ba9ca" category="list-text">서버에 대한 기본 인증이 필요한 경우 사용자 이름과 암호를 지정합니다.</block>
   <block id="80bba58d673fb4fcbcf926f928bf80c7" category="list-text">도메인 사용자의 경우 도메인-이름 %92user-name과 같이 \에 대한 ASCII 코드를 입력해야 합니다</block>
   <block id="5596775e1e7017bff2ae389af56efd57" category="paragraph">예: NetApp%92proxy</block>
@@ -3616,7 +3572,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="1fd4a2295cad602ba9d73683db88e799" category="doc">Google Cloud 프로젝트 및 권한에 대해 자세히 알아보십시오</block>
   <block id="2182d12983be8c797d228ee21c2b02b0" category="inline-link">BlueXP SaaS 콘솔</block>
   <block id="17b675be82d235246bdf979500c94ab2" category="paragraph">Connector에는 커넥터 호스트에서 액세스할 수 있는 로컬 UI가 포함되어 있습니다. 이 UI는 제한된 모드 또는 프라이빗 모드에서 BlueXP를 사용하는 고객을 위해 제공됩니다. 표준 모드에서 BlueXP를 사용하는 경우 에서 사용자 인터페이스에 액세스해야 합니다<block ref="6548feb79c59958b036d822d57f02759" category="inline-link-rx"></block></block>
-  <block id="f04fb35532e1f63b23af3f141e062ccb" category="admonition">표준 모드 또는 제한된 모드에서 BlueXP를 사용할 경우, 소프트웨어 업데이트를 받을 수 있도록 아웃바운드 인터넷에 액세스할 수 있는 경우 Connector에서 소프트웨어를 자동으로 최신 버전으로 업데이트합니다.</block>
   <block id="3268a52d584d54a973d1b4473e7ef96b" category="doc">Google Cloud의 커넥터 방화벽 규칙</block>
   <block id="2a503072b9710cfa223e43ffc3e2205d" category="inline-link">BlueXP에서 Google Cloud 스토리지를 관리하는 방법에 관해 알아보십시오</block>
   <block id="bd41cc82cd5b7d398db648a7e5e5c451" category="paragraph">Connector를 생성한 동일한 Google Cloud 계정에 Google Cloud Storage 버킷이 있는 경우 BlueXP 캔버스에 Google Cloud 스토리지 작업 환경이 자동으로 표시됩니다.<block ref="7f24473f521905a69e81b318fe43926f" category="inline-link-rx"></block></block>
@@ -3683,13 +3638,8 @@ https://support.netapp.com 으로 문의하십시오
   <block id="0b3b411ceb545e69a73eeeea9e0f4812" category="doc">BlueXP의 Azure 자격 증명 및 마켓플레이스 가입을 관리합니다</block>
   <block id="f2427bd8db58aeac7d862aab97ae63df" category="list-text">Azure 자격 증명과 연결된 Azure Marketplace 구독을 변경하려고 합니다.</block>
   <block id="183f3a1e578d0dce86eeb393edf40a5d" category="list-text">우분투 22.04 LTS</block>
-  <block id="7f9b20909dd63d1bee579fee63d32a4a" category="paragraph">커넥터 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거합니다. 사용해야 하는 단계는 인터넷 액세스(표준 모드 또는 제한된 모드)가 있는 호스트에 커넥터를 설치했는지, 인터넷 액세스가 없는 네트워크에 있는 호스트(개인 모드)에 커넥터를 설치했는지에 따라 다릅니다.</block>
-  <block id="704318f2299bbf226c9c1348790ad16a" category="section-title">표준 모드 또는 제한 모드를 사용하는 경우 를 제거합니다</block>
-  <block id="cb4aad09336fbc7a1b8ecf07e5495e18" category="paragraph">아래 단계를 사용하여 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때 Connector 소프트웨어를 제거할 수 있습니다.</block>
   <block id="fd1e4807d8caf9eb7b22acef39d3e5ce" category="list-text">커넥터용 Linux VM에 연결합니다.</block>
   <block id="e1b145fbf942267f38a8e6f0928d8629" category="paragraph"><block ref="9ff6aead716ef57f3a1e9e40a858062f" prefix="" category="inline-code"></block></block>
-  <block id="e62b509228c00429c0a06d3fd75b6e6e" category="section-title">비공개 모드를 사용하는 경우 를 제거합니다</block>
-  <block id="56772d07c7720c5dc4391eea138265a3" category="paragraph">아래 단계를 수행하여 인터넷에 액세스할 수 없는 비공개 모드에서 BlueXP를 사용할 때 Connector 소프트웨어를 제거할 수 있습니다.</block>
   <block id="72b013396e56865d3673702aa9bcc731" category="paragraph"><block ref="53c9ecf44ffc5c93a5a42f4cda983463" prefix="" category="inline-code"></block><block ref="3be06caa62382aade39cdb5bcb105da0" prefix=" " category="inline-code"></block></block>
   <block id="6ae4e7f185de6791c9b45f3d273959f9" category="cell">\https://aiq.netapp.com</block>
   <block id="034ade3fc7b98591feafb7b0039b2724" category="cell">BlueXP 디지털 어드바이저에 액세스하기 위해 필요합니다.</block>
@@ -3705,7 +3655,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오</block>
   <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
   <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다</block>
-  <block id="4e208e7f54024bf731fae02025ce34d9" category="list-text"><block ref="4e208e7f54024bf731fae02025ce34d9" category="inline-link-rx"></block></block>
   <block id="a6c2003199e95310a83aa40a67058bd8" category="paragraph">인터넷 액세스 없이 개인 네트워크용 오프라인 설치 프로그램을 다운로드해야 합니다.</block>
   <block id="d22d5d645d5b80561936fd406bec2118" category="section-title">2023년 12월 5일</block>
   <block id="f729237ece11d2ac3f651452a87ead32" category="paragraph">볼륨 데이터를 Azure Blob 스토리지에 백업할 때 BlueXP 백업 및 복구에 더 이상 다음 권한이 필요하지 않습니다.</block>
@@ -3836,9 +3785,7 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="bbd3f8aeec942b5e418da40a3101ed3e" category="paragraph"><block ref="bbd3f8aeec942b5e418da40a3101ed3e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="list-text">랜섬웨어 보호</block>
   <block id="4a1a05ee22994e328d9ec0402052b926" category="section-title">2024년 3월 8일</block>
-  <block id="e95eef6ba2551f885847cc2b51459994" category="paragraph">이제 커넥터 정책에 다음 권한이 포함됩니다.</block>
   <block id="33e595f0fd43192e3f1d28a291860881" category="paragraph">EC2:가용성 영역 설명</block>
-  <block id="b12f2c2fee8ccdb3cad2171b53ed3cfd" category="paragraph">이 권한은 다음 릴리스에 필요합니다. 해당 릴리스가 출시되면 릴리스 노트를 더 자세히 업데이트하겠습니다.</block>
   <block id="6a7140fd5370f297d9a834d30e26ffde" category="section-title">2023년 6월 6일</block>
   <block id="5fc531b28735a6e141b39c2b5e2f1dcc" category="section-title">2023년 2월 14일</block>
   <block id="d1b9e6a9e660eac14ba251761cf89e4b" category="paragraph">BlueXP에서 Connector를 생성하면 기본 구성을 사용하여 Azure에서 가상 머신을 구축할 수 있습니다. Connector를 생성한 후에는 CPU 또는 RAM이 적은 더 작은 VM 유형으로 변경하지 마십시오. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
@@ -3908,7 +3855,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="f5d22e387d3dd91dbc45f16de7949a06" category="list-text">Support Direct API Traffic * 을 선택합니다.</block>
   <block id="0515ac140ab701cd78614b76c8296d4f" category="paragraph">BlueXP에서 Connector를 생성하면 기본 구성을 사용하여 AWS에서 EC2 인스턴스를 배포합니다. 커넥터를 생성한 후에는 CPU 또는 RAM이 더 적은 더 작은 EC2 인스턴스 유형으로 변경하지 마십시오. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
   <block id="b1f8391bb8c209468262aa239bef0d41" category="paragraph">Connector를 생성하면 기본 구성을 사용하여 Google Cloud에 가상 머신 인스턴스를 배포합니다. Connector를 생성한 후에는 CPU 또는 RAM이 적은 더 작은 VM 인스턴스로 변경하지 마십시오. <block ref="2e3b01a9181b70ea3432226bf12e488f" category="inline-link-macro-rx"></block>.</block>
-  <block id="7c3d026f5f0bf0d01848d386f69159eb" category="paragraph"><block ref="7295f02a3c546b103864aa8261ac9cab" category="inline-link-rx"></block>.</block>
   <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">2021년 3월 8일</block>
   <block id="7b2a09e0d726d9a52333a0ecb6df6812" category="paragraph">이 업데이트에는 몇 가지 기능 및 서비스의 향상된 기능이 포함되어 있습니다.</block>
   <block id="f4eb7f69c035214da13ca0f958ab2c5a" category="section-title">Cloud Volumes ONTAP의 향상된 기능</block>
@@ -3972,8 +3918,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
   <block id="de945439c2ef8db914ae9a056d6763b1" category="section-title">비공개 모드 해제(3.9.35)</block>
   <block id="63d6aff1d21e14755a0a0cd9fcdbe7fc" category="paragraph">BlueXP는 투명한 프록시 서버를 지원하지 않습니다.</block>
-  <block id="a8080c542b2627e36657b832e30937bf" category="paragraph">를 누릅니다
-비공개 모드에서 BlueXP가 아웃바운드 트래픽을 전송하는 유일한 시간은 클라우드 공급자에게 Cloud Volumes ONTAP 시스템을 생성하는 것입니다.</block>
   <block id="79911dec911bf03733bda7065e7e3964" category="section-title">투명 프록시 서버는 지원되지 않습니다</block>
   <block id="d0da98586108cb1be969ff43380eee45" category="paragraph">BlueXP는 Connector를 통해 투명한 프록시 서버를 지원하지 않습니다.</block>
   <block id="eb38246be0b09c0a9d91cb2085b20b5d" category="inline-link-macro">커넥터를 사용하여 프록시 서버를 사용하는 방법에 대해 자세히 알아보십시오</block>
@@ -4008,7 +3952,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="1c51e24c3b44b362001f3c1a6c51b065" category="inline-link">AWS에서 커넥터를 생성하기 위해 AWS 권한을 설정하는 방법에 대해 알아봅니다</block>
   <block id="16a785388c44f1116fdb34f01d8816bb" category="paragraph"><block ref="53bbefe6872cea40f97befa74964b71d" category="inline-link-rx"></block>.</block>
   <block id="946e79c4f58ab5a0a68d36b7ccc89998" category="list-text">AWS Marketplace에서 Connector를 실행하면 IMDSv1이 기본적으로 활성화됩니다. EC2 인스턴스에 IMDSv2를 수동으로 구성할 수 있습니다.</block>
-  <block id="f2e7cda30b20334f5432b14d41028597" category="paragraph">2024년부터 BlueXP는 이제 커넥터 및 Cloud Volumes ONTAP(HA 구축을 위한 중재자 포함)를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. 대부분의 경우 IMDSv2는 새 EC2 인스턴스에 자동으로 구성됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다. 보안 정책에서 요구하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성해야 할 수 있습니다.</block>
   <block id="3c27ef222c1ee58d80a2a938ecc7eab9" category="paragraph">IMDSv2는 취약성에 대한 향상된 보호 기능을 제공합니다.<block ref="cb4336eb4a08d88f663206e070c9e1af" category="inline-link-rx"></block></block>
   <block id="8cdfbe4b35f3f9abb80295a7c104865a" category="paragraph">구독 수준에서의 역할 할당 범위를 지정하므로 * 구독 * 서비스에서 역할을 할당하는 것이 중요합니다. scope _ 는 액세스가 적용되는 리소스 집합을 정의합니다. 범위를 다른 수준(예: 가상 머신 레벨)으로 지정하면 BlueXP 내에서 작업을 완료하는 데 영향을 줍니다.</block>
   <block id="0fde3f77d505a0a1192041da57a5754b" category="inline-link">Microsoft Azure 설명서: Azure RBAC의 범위를 이해합니다</block>
@@ -4017,4 +3960,223 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="437c802c34c0b8670d61901c4e05641e" category="inline-link-macro">비공개 모드에 대해 자세히 알아보십시오</block>
   <block id="d05ac7ff6398ff4f2b0bd26105dd1697" category="paragraph">커넥터를 설치할 때 프라이빗 모드를 사용할 때 사용할 수 있는 BlueXP 서비스와 기능이 결정됩니다. 예를 들어, Cloud Volumes ONTAP를 배포하고 관리하려면 Connector가 클라우드에 설치되어 있어야 합니다. <block ref="11a7253f43076934a5664eb6b2874efc" category="inline-link-macro-rx"></block>.</block>
   <block id="60a1a3ba0b214492b5ab5c5bd4a52eb0" category="paragraph">커넥터가 클라우드에 설치되어 있고 Cloud Volumes ONTAP 시스템을 생성하려는 경우 BlueXP를 사용하려면 클라우드 공급자의 권한이 필요합니다. 클라우드 공급자에서 사용 권한을 설정한 다음 설치한 후 해당 권한을 Connector 인스턴스에 연결해야 합니다.</block>
+  <block id="8ce622f98b54d3dfec80e0d09aa4e0b3" category="list-text">조직에서 모든 나가는 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다. 설치하는 동안 이 정보를 제공해야 합니다. BlueXP는 투명한 프록시 서버를 지원하지 않습니다.</block>
+  <block id="939d44d1e911e1f0f7039e74b3562137" category="list-text"><block ref="939d44d1e911e1f0f7039e74b3562137" category="inline-link-macro-rx"></block></block>
+  <block id="9bf0216383a3ff083b86cdd433d2e65e" category="list-text"><block ref="9bf0216383a3ff083b86cdd433d2e65e" category="inline-link-macro-rx"></block></block>
+  <block id="26553f927e14d69ad84c658048155fb4" category="summary">여러 커넥터를 사용하는 경우 BlueXP를 사용하면 콘솔에서 직접 해당 커넥터 간에 전환할 수 있습니다. 여러 커넥터를 사용하여 단일 작업 환경을 관리할 수도 있습니다.</block>
+  <block id="7473cbb9b768b471bd45e7579b544a3a" category="doc">여러 개의 커넥터로 작업합니다</block>
+  <block id="5cb02414ba99e03fa83bad53db22c1e4" category="section-title">재해 복구 구성 설정</block>
+  <block id="314f7bfaf4b0cf51e70ed4b138c2f348" category="list-text">작업 환경에서 관리하려는 다른 커넥터로 전환합니다.</block>
+  <block id="c80bec846d41a65d3d86eae721cef56b" category="list-text"><block ref="c80bec846d41a65d3d86eae721cef56b" category="inline-link-rx"></block></block>
+  <block id="49aaf65c31a811a37b2627a951f6f6d2" category="list-text"><block ref="49aaf65c31a811a37b2627a951f6f6d2" category="inline-link-rx"></block></block>
+  <block id="be0d2952f811ceb1724a090c91262d2e" category="list-text">Cloud Volumes ONTAP 작업 환경을 관리하고 있는 경우 * 설정 &gt; 커넥터 설정 * 을 선택하고 용량 관리 모드를 * 수동 모드 * 로 설정합니다.</block>
+  <block id="4a789989adf3b86e195463499e01cf12" category="paragraph">경합 문제를 방지하려면 기본 커넥터만 * 자동 모드 * 로 설정해야 합니다.</block>
+  <block id="f05a0e154340f7c017b3a9bfa5a8bf05" category="inline-link">용량 관리 모드에 대해 자세히 알아보십시오</block>
+  <block id="e9ec7fb1196fea38d01bfb38780ff401" category="paragraph"><block ref="e9ec7fb1196fea38d01bfb38780ff401" category="inline-link-rx"></block></block>
+  <block id="14d1cdb0a2bd276d491de013f748f36f" category="list-text">CentOS 7.6 - 7.9</block>
+  <block id="039ad6159af7a5795d5ea8a67ed01be0" category="paragraph">NetApp는 2024년 6월 30일까지 CentOS 7과 함께 커넥터를 계속 지원할 예정입니다.</block>
+  <block id="c73bbd3786350b0a8d3577d82afdf489" category="list-text">Red Hat Enterprise Linux</block>
+  <block id="02fd8714cfc51e3b6db51cd61dd286c9" category="list-text">7.6 - 7.9</block>
+  <block id="733cf095adf4ff17305fe7425a0a7856" category="paragraph">NetApp는 2024년 6월 30일까지 RHEL 7과 함께 커넥터를 계속 지원할 예정입니다.</block>
+  <block id="f335f00e1188cffe57c3d9416ce23c84" category="list-text">8.6 - 8.9</block>
+  <block id="d80ef147e70626ef64e723b33860d715" category="list-text">9.1에서 9.3까지</block>
+  <block id="820947c99e79ec5219502b83f9727a99" category="paragraph"><block ref="820947c99e79ec5219502b83f9727a99" category="inline-link-rx"></block></block>
+  <block id="bd3df16097ce93a7398107a82c38c714" category="list-text">컨테이너 오케스트레이션 툴</block>
+  <block id="58ee14553c5227edc98c5edc7c7652e1" category="list-text">운영 체제에 따라 Connector를 설치하기 전에 Podman 또는 Docker Engine이 필요합니다.</block>
+  <block id="d6b3d211666107f9448c07f59d0ea45a" category="list-text">Red Hat Enterprise Linux 8 및 9에는 Podman 버전 4.6.1이 필요합니다.</block>
+  <block id="c8637173b45452de8b06d3e105facbfb" category="paragraph">Podman의 경우 다음 전제 조건을 충족해야 합니다.</block>
+  <block id="6c92d07ad47ca46a1d54c06516989463" category="list-text">podman.socket 서비스를 활성화하고 시작해야 합니다</block>
+  <block id="a9beaf3f1f76b7989733494d5f0683c6" category="list-text">python3을 설치해야 합니다</block>
+  <block id="43868fbb689a64ee607e9c7e12ad974b" category="list-text">podman-comp 패키지 버전 1.0.6이 설치되어 있어야 합니다</block>
+  <block id="52b91e466535d0b3aeeecf2ff692015c" category="list-text">podman-composition을 PATH 환경 변수에 추가해야 합니다</block>
+  <block id="d5edf3bedcb983d3a4430b0315f6ddfc" category="list-text">Ubuntu, CentOS 및 Red Hat Enterprise Linux 7에는 Docker 엔진이 필요합니다.</block>
+  <block id="105ab5fc478f234922108aa9df08a4ee" category="section-title">4단계: Podman 또는 Docker Engine을 설치합니다</block>
+  <block id="539f3f37fd39a23eafb39c20263238f1" category="paragraph">Connector 소프트웨어를 수동으로 설치하려면 Podman 또는 Docker Engine을 설치하여 호스트를 준비해야 합니다.</block>
+  <block id="c124e878249e7549657a0f175026b2f9" category="list-text">Red Hat Enterprise Linux 8 및 9에는 Podman이 필요합니다.</block>
+  <block id="455cbd59356abfa16dcf7666d4ae6c2b" category="open-title">팟맨</block>
+  <block id="c03528deae4bb700fb6c68eb0ff73760" category="paragraph">Podman 4.6.1을 설치합니다.</block>
+  <block id="b7f382be5c79895b47058d13f21b554a" category="list-text">podman-docker 패키지가 호스트에 설치되어 있는 경우 이를 제거합니다.</block>
+  <block id="3c7e0e0689042d7582c0880e1b998f2c" category="list-text">Podman을 설치합니다.</block>
+  <block id="a578f779177074f6631c251c0e25728c" category="paragraph">Podman은 공식 Red Hat Enterprise Linux 저장소에서 구할 수 있습니다.</block>
+  <block id="d85624226a34d354eb24bd9f58803ee7" category="list-text">podman.socket 서비스를 활성화하고 시작합니다.</block>
+  <block id="c258dc586685c07a851bfdce98251de9" category="list-text">python3 을 장착합니다.</block>
+  <block id="97c0d440ee76e86ece38ee9da4a462cb" category="list-text">EPEL 리포지토리 패키지를 시스템에 사용할 수 없는 경우 설치합니다.</block>
+  <block id="93052470e7c6a20358c8d89c161e4880" category="paragraph">EPEL(Extra Packages for Enterprise Linux) 리포지토리에서 podman-composition을 사용할 수 있기 때문에 이 단계가 필요합니다.</block>
+  <block id="29c15383bb54e5c0c3bfba429503d481" category="paragraph">Red Hat Enterprise Linux 9의 경우:</block>
+  <block id="084cfc903eb108eb15642e42f36348f9" category="paragraph">Red Hat Enterprise Linux 8의 경우:</block>
+  <block id="6f3a42415c589950b9ae4d3fe1f87dc7" category="list-text">podman-comp 패키지 1.0.6을 설치합니다.</block>
+  <block id="ec7c87651a5ede2a98ad4091fe48b517" category="admonition">를 사용합니다<block ref="02c7499137a5d8d10292d68634eb22a0" prefix=" " category="inline-code"></block> 명령은 PATH 환경 변수에 podman-composition을 추가하기 위한 요구 사항을 충족합니다. 설치 명령은 podman-composition을 이미 에 포함되어 있는 /usr/bin에 추가합니다<block ref="c9bac30d1d0554c0790285219e5ad518" prefix=" " category="inline-code"></block> 호스트 옵션.</block>
+  <block id="2cb776f499f1161a0b5361cda7d46e37" category="paragraph">19.3.1과 25.0.5 사이에 Docker 엔진 버전을 설치합니다.</block>
+  <block id="d96a084915e5de032105988cddcc2bc5" category="list-text">Docker Engine을 설치합니다.</block>
+  <block id="08a382dc3dd0f48c28f89b74f8bac2a4" category="inline-link">Docker의 설치 지침을 봅니다</block>
+  <block id="3907e04a67ccb717783cc69d280aaa41" category="paragraph"><block ref="3907e04a67ccb717783cc69d280aaa41" category="inline-link-rx"></block></block>
+  <block id="66f67385f809b0a8d74f0496acc75c90" category="paragraph">특정 버전의 Docker Engine을 설치하려면 다음 단계를 따르십시오. 최신 버전을 설치하면 BlueXP가 지원하지 않는 Docker 버전이 설치됩니다.</block>
+  <block id="2e022b32dcdcb9f0b048e90340feb44b" category="list-text">Docker가 활성화되어 실행 중인지 확인합니다.</block>
+  <block id="788ad005554c124586a11cee3346ac9b" category="section-title">5단계: 네트워킹을 준비합니다</block>
+  <block id="7685c318ab5f247165ff19b3bbc79372" category="section-title">6단계: 클라우드 권한 준비</block>
+  <block id="769b13043a57f26d2165556dec478ca0" category="section-title">7단계: Google Cloud API를 활성화합니다</block>
+  <block id="895e31e93bd7a23981cc0cbeb5581840" category="summary">특정 Linux 운영 체제에서 커넥터에 대한 지원을 추가 및 제거함에 따라 이러한 지원이 기존 Connector 배포에 미치는 영향에 대해 의문이 생길 수 있습니다.</block>
+  <block id="06e657c37e762cbeb9edc676ff32181d" category="doc">지원되는 Linux 운영 체제 변경 사항</block>
+  <block id="a5dacfcdb1adb3167b081f091b368732" category="section-title">RHEL 8 및 9 지원</block>
+  <block id="931c37d7beb414a58946263b8614e645" category="paragraph">BlueXP는 3.9.40 릴리즈부터 다음과 같은 버전의 Red Hat Enterprise Linux(RHEL) Connector를 지원합니다.</block>
+  <block id="6472d01a592db1ad2bf4a2c914623f1e" category="paragraph">이러한 RHEL 버전에 대한 지원에 대해서는 다음 사항에 유의하십시오.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="list-text">제한 사항</block>
+  <block id="12cde487ed6dcd882cede6dc73a2a96f" category="inline-link">BlueXP 백업 및 복구에 대한 알려진 제한 사항</block>
+  <block id="7dffd01ec33485e74fcb637e0b8fe15a" category="list-text">Connector를 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 백업 및 복구에 단일 파일 복원 및 랜섬웨어 검사와 관련된 제한 사항이 있습니다. 자세한 내용은 을 참조하십시오<block ref="a84971be17ca73ce2bed9722547a4b2a" category="inline-link-rx"></block></block>
+  <block id="b6417b62aacc6d16c1ae7a79d851d413" category="list-text">Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.</block>
+  <block id="b71010c70a84a098ff97c54119ce9797" category="list-text">RHEL 8 또는 9 호스트에 Connector를 설치할 경우 컨테이너 오케스트레이션 툴로 Podman이 필요합니다. Docker Engine은 RHEL 8 및 9에서 지원되지 않습니다.</block>
+  <block id="b20f6232e01f99983ab6adfc3cb4648e" category="inline-link-macro">Podman의 요구 사항을 봅니다</block>
+  <block id="5965bb30c82006f547e51cea08649d28" category="paragraph"><block ref="b6742b68d5770c57e621fe89da84d99c" category="inline-link-macro-rx"></block>.</block>
+  <block id="6949300ff5b5cf6bb192114a06c923bb" category="list-text">배포 모드</block>
+  <block id="f6b985bf429f605650402152a53dd500" category="list-text">표준 모드 또는 제한된 모드에서 BlueXP를 사용하는 경우 RHEL 8 및 9가 지원됩니다.</block>
+  <block id="62ee52388b4c1539a4b357c9c16e57c6" category="list-text">새로운 수동 설치에만 해당됩니다</block>
+  <block id="362134ff254c022479b85d3cb9afd90c" category="list-text">사내 또는 클라우드에서 실행되는 호스트에 Connector를 수동으로 설치할 때 RHEL 8 및 9를 _NEW_Connector 설치로 지원합니다.</block>
+  <block id="ba657bf59cdaa129ee6a10872f7d63cf" category="list-text">RHEL 업그레이드</block>
+  <block id="0cfa4395111b233336d8ffefa6b1d800" category="inline-xref">RHEL 7 또는 CentOS 7의 기존 커넥터에 대해 자세히 알아보십시오</block>
+  <block id="62ff3ea7851f2f84caf44f1e20fe3b5a" category="list-text">RHEL 7 호스트에서 실행 중인 기존 Connector가 있는 경우 RHEL 7 운영 체제를 RHEL 8 또는 9로 업그레이드할 수 없습니다. <block ref="1f01b626a2e1f14f910a4c0ca7c14719" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d9fb1337dfb6a869dd0a2630e14b4543" category="section-title">RHEL 7 및 CentOS 7에 대한 지원 종료</block>
+  <block id="16051bd228f38a4877773f8f795d59a9" category="paragraph">2024년 6월 30일에 RHEL 7은 EOM(End of Maintenance)에 도달하고 CentOS 7은 EOL(End of Life)에 도달할 것입니다. NetApp는 2024년 6월 30일까지 이러한 Linux 배포판에서 커넥터를 계속 지원할 예정입니다.</block>
+  <block id="7eba69a7025f97bec42a74bd138b395e" category="inline-link">Red Hat: Red Hat Enterprise Linux 7 End of Maintenance에 대해 알아야 할 사항</block>
+  <block id="ebc4aba90c33f7558582b9bbf738fdd9" category="paragraph"><block ref="ebc4aba90c33f7558582b9bbf738fdd9" category="inline-link-rx"></block></block>
+  <block id="673678917598778ddca4521cd7c53d87" category="section-title">RHEL 7 또는 CentOS 7의 기존 커넥터</block>
+  <block id="431ca930d765a9710ef05b1ce095bc0e" category="paragraph">RHEL 7 또는 CentOS 7에서 실행되는 기존 Connector가 있는 경우 운영 체제를 RHEL 8 또는 9로 업그레이드 또는 변환하는 기능은 지원하지 않습니다. RHEL 8 또는 9 호스트에서 Connector를 실행하려면 다음을 수행해야 합니다.</block>
+  <block id="0f50cd1079cb24de2b4571c09546a2e1" category="list-text">RHEL 8 또는 9 호스트를 설정합니다.</block>
+  <block id="5122aad3fbc28bb77264e99f11033279" category="list-text">NEW_Connector 설치를 수행합니다.</block>
+  <block id="a9d10a06adb23581dce371f468ea4904" category="list-text">커넥터를 구성하여 이전 커넥터가 관리하던 작업 환경을 검색합니다.</block>
+  <block id="6fdeb52b60ec4b9c7e60078047c5ce34" category="section-title">Ubuntu 22.04 LTS에 대한 지속적인 지원</block>
+  <block id="a9aa1d1b3ffccec7f032ad3fee0e91b8" category="paragraph">커넥터는 Ubuntu 22.04 LTS에서 계속 지원되며 BlueXP와 시장에서 구축하기 위한 기본 운영 체제입니다.</block>
+  <block id="cadd936a18695c0f75406a35d18725ee" category="paragraph">이 운영 체제에는 Docker 엔진이 필요합니다. Podman은 지원되지 않습니다.</block>
+  <block id="42d12ee6ea3719c1f52fd78afdba631f" category="section-title">지원되는 운영 체제 요약</block>
+  <block id="4dd65f46069a455736b8e8c7d3fed71f" category="paragraph">다음은 이전 섹션에서 설명한 운영 체제 지원에 대한 요약입니다.</block>
+  <block id="4fd86dfd467b8b3461b84edce26c3f3f" category="admonition">NetApp는 2024년 6월 30일까지 RHEL 7 및 CentOS 7에서 커넥터를 계속 지원할 예정입니다.</block>
+  <block id="d20756c02f9913587a3e83e30f0e10d3" category="list-text">수동 설치</block>
+  <block id="0809934ab73994b74ff0369462a31319" category="list-text">BlueXP에서 구축</block>
+  <block id="12a87db5b86462e9bd05a612793965de" category="list-text">AWS Marketplace에서 직접 구축</block>
+  <block id="21b3bbb098ff9926f5de185468b47efd" category="list-text">Azure Marketplace에서 구축</block>
+  <block id="9e9b2b37314c458b11ce81a5a7428ce9" category="list-text">Red Hat Enterprise Linux 7.6 - 7.9</block>
+  <block id="fd976d7410ccbb05f33da778aade918e" category="section-title">RHEL 8 및 9를 시작하는 방법</block>
+  <block id="19fbd5208079427f7255588fa19e6216" category="paragraph">호스트 요구 사항, Podman 요구 사항 및 Podman 및 Connector 설치 단계에 대한 자세한 내용은 다음 페이지를 참조하십시오.</block>
+  <block id="c7ebd4cc461f15f97b0c6bb4d8aa138a" category="list-text"><block ref="f3e58ec45f13e79fe493e5ac40efdaef" category="inline-link-rx"></block> (표준 모드)</block>
+  <block id="0a33569de64145f5ddb030c5c68f0e2f" category="list-text"><block ref="ce02a119fe20803f37d74f2f696ae608" category="inline-link-rx"></block> (표준 모드)</block>
+  <block id="b9ab4eedcc76eaef5111c38dd7cf6955" category="list-text"><block ref="adf5c1237bee96f4b87ff5eb3fd3c25b" category="inline-link-rx"></block> (표준 모드)</block>
+  <block id="1d054abd9ef4fcc0992047bc974a0ca7" category="list-text"><block ref="5f47d3df7f8a6f7d2b2dc0a0630af052" category="inline-link-rx"></block> (표준 모드)</block>
+  <block id="9f1e71ff4946538e6e8d4160102056bb" category="list-text"><block ref="9f1e71ff4946538e6e8d4160102056bb" category="inline-link-rx"></block></block>
+  <block id="cd4dc0cbdf60f743093e390cb5077d8b" category="section-title">작업 환경을 재검색하는 방법</block>
+  <block id="8c3d753bf73570be606a9b0e412a89ca" category="paragraph">새 Connector 배포 후 작업 환경을 다시 검색하려면 다음 페이지를 참조하십시오.</block>
+  <block id="c6a562375e4b0fa48049f61f2822d10a" category="list-text"><block ref="c6a562375e4b0fa48049f61f2822d10a" category="inline-link-rx"></block></block>
+  <block id="52634ffbb1b3f2242477128412921d76" category="inline-link">FSx for ONTAP 작업 환경을 만들거나 검색합니다</block>
+  <block id="95d0f191b4d79557e09489ccecab7761" category="list-text"><block ref="95d0f191b4d79557e09489ccecab7761" category="inline-link-rx"></block></block>
+  <block id="c5c12e22be965b4ae0e9fc5e1618bdbe" category="inline-link">Azure NetApp Files 작업 환경을 만듭니다</block>
+  <block id="caf073322971d4e6cbcb6df23cb81470" category="list-text"><block ref="caf073322971d4e6cbcb6df23cb81470" category="inline-link-rx"></block></block>
+  <block id="e4a9dd1c7d750241fad0d52a3bc7903b" category="inline-link">E-Series 시스템에 대해 알아보십시오</block>
+  <block id="90a582acc370affa7fa401384859e582" category="list-text"><block ref="90a582acc370affa7fa401384859e582" category="inline-link-rx"></block></block>
+  <block id="d85b01f001ee16ebd8eb1917c739d824" category="inline-link">StorageGRID 시스템에 대해 알아보십시오</block>
+  <block id="49193f8c0c9f916e42ecd0ff6595ef39" category="list-text"><block ref="49193f8c0c9f916e42ecd0ff6595ef39" category="inline-link-rx"></block></block>
+  <block id="29eef78ab52bc074b0642baafaa44a77" category="inline-link">Amazon Kubernetes 클러스터를 추가합니다</block>
+  <block id="2afa5bfababb7240c7ecb360518a2cea" category="list-text"><block ref="2afa5bfababb7240c7ecb360518a2cea" category="inline-link-rx"></block></block>
+  <block id="8cae45546ea6e7035e9b798f709fc911" category="inline-link">Azure Kubernetes 클러스터를 추가합니다</block>
+  <block id="a8c7ee49512f707b31b6b959a438f7ad" category="list-text"><block ref="a8c7ee49512f707b31b6b959a438f7ad" category="inline-link-rx"></block></block>
+  <block id="2872769900c1ca485d1628b4eefde308" category="inline-link">Google Cloud Kubernetes 클러스터를 추가합니다</block>
+  <block id="aa7a37aa9bcd687f934565cd13aefe20" category="list-text"><block ref="aa7a37aa9bcd687f934565cd13aefe20" category="inline-link-rx"></block></block>
+  <block id="24e61fea41861d29656588dd6c8ad263" category="inline-link">OpenShift 클러스터를 가져옵니다</block>
+  <block id="4fc44e3aff437ef0c290689bf2e88325" category="list-text"><block ref="4fc44e3aff437ef0c290689bf2e88325" category="inline-link-rx"></block></block>
+  <block id="7a0d21aaa1ef78351243ec252286827a" category="summary">BlueXP는 커넥터와 Cloud Volumes ONTAP를 통해 IMDSv2를 지원합니다. 대부분의 경우 IMDSv2는 새 EC2 인스턴스에 자동으로 구성됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다. 보안 정책에서 요구하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성해야 할 수 있습니다.</block>
+  <block id="7ff8d7153d4eb208dbc1a561fd9985a9" category="paragraph">BlueXP는 커넥터와 Cloud Volumes ONTAP(HA 구축을 위한 중재자 포함)를 통해 Amazon EC2 인스턴스 메타데이터 서비스 버전 2(IMDSv2)를 지원합니다. 대부분의 경우 IMDSv2는 새 EC2 인스턴스에 자동으로 구성됩니다. IMDSv1은 2024년 3월 이전에 활성화되었습니다. 보안 정책에서 요구하는 경우 EC2 인스턴스에 IMDSv2를 수동으로 구성해야 할 수 있습니다.</block>
+  <block id="ed2660e5566ea9acdabcea9d70f95553" category="section-title">2단계: Podman 또는 Docker Engine을 설치합니다</block>
+  <block id="80308b1bd5b2d563350bbb74c701710f" category="section-title">3단계: 네트워킹을 설정한다</block>
+  <block id="1ec27c1bf36f0b2ca3bf06d87015ee63" category="section-title">4단계: 커넥터에 대한 사용 권한을 설정합니다</block>
+  <block id="a0e4b6848b26b9f671f19438b07d341b" category="section-title">5단계: 공유 VPC 권한 설정</block>
+  <block id="e8a3e3734581839fa19bc3d00353a26d" category="section-title">7단계: 커넥터를 설치합니다</block>
+  <block id="f4eaf8d1522d08453ae8e8cb159f7355" category="list-text">도메인 사용자의 경우 위에 표시된 \ 에 대해 ASCII 코드를 사용해야 합니다.</block>
+  <block id="89c2d7744c53f0bf3fde0710283c534b" category="list-text">BlueXP는 @ 문자가 포함된 사용자 이름 또는 암호를 지원하지 않습니다.</block>
+  <block id="e115a77efdd4b6a7256261431461cb96" category="list-text">암호에 다음과 같은 특수 문자가 포함된 경우 백슬래시(&amp; or!)를 사용하여 해당 특수 문자를 이스케이프해야 합니다.</block>
+  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">예를 들면 다음과 같습니다.</block>
+  <block id="9a8e93f292200e4d86cfd716262b53cc" category="paragraph">\http://bxpproxyuser:netapp1\!@address:3128</block>
+  <block id="b47596b2df9e477c6203e15d91a678ba" category="section-title">8단계: BlueXP에 권한 제공</block>
+  <block id="1963a5845bb573651eecf0188b584456" category="summary">BlueXP는 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때 커넥터를 최신 릴리즈로 자동으로 업그레이드합니다. 새 버전은 일반적으로 새로운 기능을 소개하고 안정성을 개선하기 위해 매월 릴리스됩니다. 원하는 경우 대신 커넥터를 구성하여 로컬 리포지토리에서 이미지 업데이트를 가져올 수 있습니다. 비공개 모드 배포의 경우 항상 수동으로 커넥터를 업그레이드해야 합니다.</block>
+  <block id="d6b403d1857ecb824db228cac4a628ae" category="doc">비공개 모드를 사용하는 경우 커넥터를 업그레이드합니다</block>
+  <block id="eb775c24a0b347148812da8a6496489b" category="admonition">표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때는 커넥터를 수동으로 업그레이드할 필요가 없습니다. Connector가 소프트웨어 업데이트를 받을 수 있도록 아웃바운드 인터넷에 액세스할 수 있다면 BlueXP는 커넥터를 최신 릴리즈로 자동으로 업그레이드합니다.</block>
+  <block id="eb762959fcc0cce31949abce6f8eb1c1" category="list-text">CPU, RAM, 디스크 공간, 컨테이너 조정 툴 등의 요구 사항을 충족하는 전용 Linux 호스트를 준비합니다.</block>
+  <block id="99ca40e706695ba7607287669fab39f3" category="cell">가용 영역이 AWS 로컬 영역인지 확인하고 모든 배포 매개 변수가 호환되는지 확인합니다</block>
+  <block id="0683995d371439e19d907680da921ba9" category="section-title">2024년 5월 9일</block>
+  <block id="376a26b461e6c64a1c38b284dbc9703f" category="paragraph">이제 Cloud Volumes ONTAP에 다음 권한이 필요합니다.</block>
+  <block id="caf547270bba046bebc03d7ccf4b0203" category="paragraph">보조 보안 업데이트를 적용할 때 Connector 호스트의 서비스를 중지할 필요가 없습니다.</block>
+  <block id="ebb952d62c1eec36921c93691e959c82" category="paragraph"><block ref="ebb952d62c1eec36921c93691e959c82" category="inline-link-macro-rx"></block></block>
+  <block id="25ed61080ee73d701a5ba6feef931050" category="paragraph"><block ref="25ed61080ee73d701a5ba6feef931050" category="inline-link-macro-rx"></block></block>
+  <block id="1b9eb4a1347f52519d9e7d0e26300a53" category="paragraph"><block ref="01cf67ff20127008355664826b726767" category="inline-link-macro-rx"></block>.</block>
+  <block id="ae205f602e7bb700e8f3f1c9a194a3e4" category="section-title">4단계: 클라우드 사용 권한을 설정합니다</block>
+  <block id="b94d9194c0f0e59de690d8a088d1601b" category="section-title">5단계: 커넥터를 설치합니다</block>
+  <block id="d918fe97b966ce7fb324a30c883b1d7f" category="section-title">6단계: 커넥터를 설정합니다</block>
+  <block id="76eda41f130889296c61f521e20a1006" category="list-text"><block ref="76eda41f130889296c61f521e20a1006" category="inline-link-macro-rx"></block></block>
+  <block id="08055c0ef3321805b25b3e15ed3038b0" category="paragraph"><block ref="f342de123680c8538c1dec74025adf7a" category="inline-link-macro-rx"></block>.</block>
+  <block id="166140f584d4544702260c25a6b8eab6" category="section-title">다중 작업 환경 및 커넥터</block>
+  <block id="7a5c1d5a09d9f5a762327becef29fd1a" category="list-text"><block ref="7a5c1d5a09d9f5a762327becef29fd1a" category="inline-link-macro-rx"></block></block>
+  <block id="188fd7f75e50a8a882a75c15dcb630a1" category="section-title">2024년 5월 17일</block>
+  <block id="81f58b484d838909a5fedb3486f3a8e2" category="section-title">커넥터 3.9.40</block>
+  <block id="32d1e3d3ebe78d37dbdfcf9933b0cf90" category="paragraph">이 BlueXP Connector 릴리즈에는 추가 운영 체제, 사소한 보안 개선 사항 및 버그 수정 사항이 포함되어 있습니다.</block>
+  <block id="94f95548313e6f5528b5011a7d10e19f" category="paragraph">현재 3.9.40 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="9788cee19c4b5d5971c7a99e340846e8" category="paragraph">Connector는 현재 _NEW_Connector가 설치된 다음 버전의 Red Hat Enterprise Linux를 실행하는 호스트에서 지원됩니다.</block>
+  <block id="00ed051332ed28fe5b1ab0a4ae7aa4f6" category="paragraph">Podman은 이러한 운영 체제의 컨테이너 오케스트레이션 툴로 필요합니다.</block>
+  <block id="3d007e1710eb9efcb8c51296efc8eb4f" category="paragraph">Podman 요구 사항, 알려진 제한 사항, 운영 체제 지원 요약, RHEL 7 호스트가 있는 경우 수행할 작업, 시작 방법 등을 숙지해야 합니다.</block>
+  <block id="4d3035dcb7b114e2c87c82e5ae7e626c" category="inline-link">Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오</block>
+  <block id="5fb3739fbc4ea4c4f6ecf12db77ae604" category="paragraph"><block ref="a34a36a25f711a4d3e7acd813af66ea1" category="inline-link-rx"></block>.</block>
+  <block id="cc33fea72b72b4631424774600dd1785" category="inline-link">RHEL 7 또는 CentOS 7에서 실행되는 기존 커넥터가 있는 경우 수행할 작업에 대해 알아봅니다</block>
+  <block id="ab95c14710d4a4d5d91375c4a1b3315b" category="paragraph"><block ref="079fd36262e0750841aa2ea8902cdc7a" category="inline-link-rx"></block>.</block>
+  <block id="2f4b86d46e79a7a3f22d1c784c12799e" category="paragraph">3.9.38 릴리스에서 AWS에 대한 커넥터 정책이 "EC2:DescripbeAvailabilityZones" 권한을 포함하도록 업데이트되었습니다. 이 권한은 이제 Cloud Volumes ONTAP에서 AWS 로컬 영역을 지원하는 데 필요합니다.</block>
+  <block id="364a4ff52cd92f16374019cdedf6b91c" category="inline-link">AWS Local Zones 지원에 대해 자세히 알아보십시오</block>
+  <block id="3b1699510f585646e0c8a73fa1b820ae" category="list-text"><block ref="3b1699510f585646e0c8a73fa1b820ae" category="inline-link-rx"></block></block>
+  <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
+  <block id="bac0b5f0ce34c6e2b396323f31301d29" category="paragraph"><block ref="c76726faac091108ba3ec0f1466b791f" category="inline-link-rx"></block>.</block>
+  <block id="688aea6136f160e02c8d5bbec6894343" category="list-text">설치 과정에는 필요한 컨테이너 오케스트레이션 툴인 Docker Engine이 포함됩니다.</block>
+  <block id="c4dc961d5316a59ada13d5c96c1a11fa" category="paragraph">이러한 폴더의 로그는 커넥터에 대한 세부 정보를 제공합니다.</block>
+  <block id="686b3d5992961d588971df7de7cda8a9" category="section-title">4단계: 사용 권한을 설정합니다</block>
+  <block id="0aeaa2be4667f54cf3aa1aaeae390ca4" category="list-text">Cloud Volumes ONTAP 시스템을 생성할 계획이라면 커넥터를 클라우드 공급자의 공개된 리소스에 있는 엔드포인트에 연결해야 합니다.</block>
+  <block id="5b9a9863d7ad33310f21a8e9b1c1d682" category="paragraph">비공개 모드에서 BlueXP가 아웃바운드 트래픽을 전송하는 유일한 시간은 클라우드 공급자에게 Cloud Volumes ONTAP 시스템을 생성하는 것입니다.</block>
+  <block id="6159d7975454b75f156a90167d520646" category="paragraph">Connector 소프트웨어의 새 버전을 사용할 수 있으면 NetApp Support 사이트에 게시됩니다. <block ref="bab251f8a57b7a2a667c9e7c0790a54f" category="inline-link-macro-rx"></block>.</block>
+  <block id="f3421174c8a7936975afd8a13d00f015" category="summary">커넥터 문제를 해결하려면 NetApp 지원 부서에 문의하여 시스템 ID 또는 최신 AutoSupport 메시지를 요청할 수 있습니다. NetApp 기술 문서를 참조하여 직접 문제를 해결할 수도 있습니다.</block>
+  <block id="2151729e1f825181e54cccae3ee038a3" category="doc">커넥터 문제를 해결합니다</block>
+  <block id="9144537792cab654081f969e873391d8" category="paragraph">커넥터 관련 문제를 해결하려면 NetApp 지원에 문의하여 시스템 ID, 커넥터 버전 또는 최신 AutoSupport 메시지를 요청할 수 있습니다. NetApp 기술 문서를 참조하여 직접 문제를 해결할 수도 있습니다.</block>
+  <block id="79f28d7e488ecdc021a6b4339d105950" category="inline-link-macro">NetApp 지원 팀에서 도움을 받으십시오</block>
+  <block id="6176917e424edae60986aa87e2f272a0" category="paragraph"><block ref="9f87f7ac12f12d6e64b11ace2d534ca8" category="inline-link-macro-rx"></block>.</block>
+  <block id="784d74ec26e151955a4c9657042f8469" category="section-title">NetApp 기술 자료에서 도움을 받으십시오</block>
+  <block id="d22ff119563c0ee5fe8dab4228074cee" category="inline-link">NetApp 지원 팀에서 생성한 문제 해결 정보를 봅니다</block>
+  <block id="50442864bbf7126b7b62b75cde676ded" category="paragraph"><block ref="bb2a765d0923866ecd647a5c8b0cc5e9" category="inline-link-rx"></block>.</block>
+  <block id="2ee382a52587bc0e5804f83b40fb1ebd" category="summary">커넥터 소프트웨어를 제거하여 문제를 해결하거나 호스트에서 소프트웨어를 영구적으로 제거합니다. 사용해야 하는 단계는 사용 중인 배포 모드에 따라 다릅니다. Connector가 환경에서 제거되면 BlueXP에서 제거할 수 있습니다.</block>
+  <block id="716e455593e3f61d09e3bf6cbb30d375" category="doc">커넥터를 제거하고 분리합니다</block>
+  <block id="0ca48b615c940d64cdde98b76cdee8b3" category="section-title">표준 또는 제한 모드를 사용할 경우 커넥터를 제거합니다</block>
+  <block id="da529abe542a53761e1008dc23815cf7" category="paragraph">표준 모드 또는 제한된 모드에서 BlueXP를 사용 중인 경우(즉, 커넥터 호스트에 아웃바운드 연결이 있음), 다음 단계에 따라 Connector 소프트웨어를 제거해야 합니다.</block>
+  <block id="0f915c6b577573f25e2e8bfac8c2aacb" category="paragraph">이제 Connector 소프트웨어가 Linux 호스트에서 제거됩니다.</block>
+  <block id="32b4ba2ff55d15357ed5b70aeb566059" category="section-title">비공개 모드를 사용하는 경우 커넥터를 제거합니다</block>
+  <block id="34a2bd34ae23cc65060f62957132c0eb" category="paragraph">비공개 모드(즉, 커넥터 호스트에 _NO_아웃바운드 연결이 있음)에서 BlueXP를 사용하는 경우 다음 단계에 따라 Connector 소프트웨어를 제거해야 합니다.</block>
+  <block id="a1fd436d8cb76b77def4aeb2d8bba352" category="doc">Connector VM 및 운영 체제를 유지 관리합니다</block>
+  <block id="32ecd7116f82d32fc86313604d074f12" category="inline-link-macro">지원되는 Linux 운영 체제 변경 사항</block>
+  <block id="6f16d8c603420093f0274e54a03d0a2f" category="admonition">기존 커넥터가 있는 경우 에 유의하십시오 <block ref="bd6e461b9eed09ced9eb75610086f8d1" category="inline-link-macro-rx"></block>.</block>
+  <block id="6a8efb58df7d7b111b6073b7ce536fe1" category="section-title">운영 체제 패치 및 커넥터</block>
+  <block id="5c6b62893e9b8753b16ce8db64ae077c" category="paragraph">OS 보안 패치를 적용할 때 Connector 호스트의 서비스를 중지할 필요가 없습니다.</block>
+  <block id="d4c7d564cf9384303b11292ec4d09bf7" category="section-title">Connector VM 시작 중지</block>
+  <block id="f65f967e9525533fe9edbca2e40db32f" category="paragraph">Connector VM을 중지했다가 시작해야 하는 경우에는 클라우드 공급자의 콘솔에서 또는 온-프레미스 관리를 위한 표준 절차를 사용해야 합니다.</block>
+  <block id="bd684dd31e369444b29047e57d56ff19" category="sidebar">배포 모드에 대해 알아봅니다</block>
+  <block id="a620abb16506a8da5f6b8dcbc0073466" category="sidebar">AWS 권한 보기</block>
+  <block id="b7053c5f835c45d38cf071449c74fd56" category="sidebar">Azure 권한을 봅니다</block>
+  <block id="7050d365baa220c42a688cbf36a7e997" category="sidebar">Google Cloud 권한 보기</block>
+  <block id="891c5b2cea54480f0e1abb74959457a6" category="sidebar">표준 AWS 지역에서 시작하십시오</block>
+  <block id="e766f31fe70a68c11b8631144211d0f7" category="sidebar">AWS GovCloud 지역에서 시작하십시오</block>
+  <block id="9722aa95875a94430d4569d2e8bd2382" category="sidebar">AWS Secret 또는 Top Secret Cloud에서 시작해 보십시오</block>
+  <block id="e55aba8c57180a56450db886ecd8232e" category="sidebar">커넥터에 대한 IAM 정책을 봅니다</block>
+  <block id="27c705176bc1f05cf50771b1f8fe182a" category="sidebar">표준 Azure 지역에서 시작하십시오</block>
+  <block id="60563f8b2620e88ac71d1a98ee73e2e5" category="sidebar">Azure Government 지역에서 시작하십시오</block>
+  <block id="31b63be41ae4657f9e340188aa268589" category="sidebar">Azure IL6에서 시작하십시오</block>
+  <block id="3dbdf7d7951b212ca0000f0027184bb8" category="sidebar">Connector의 사용자 지정 역할을 봅니다</block>
+  <block id="6c3328ab0a2ccaa273efaec9a88e2751" category="sidebar">표준 Google Cloud 지역에서 시작하십시오</block>
+  <block id="6844a754c2b209da7ac4949824ac467d" category="sidebar">커넥터의 서비스 계정을 봅니다</block>
+  <block id="917f62b5224eebe3d212f654f1273e57" category="sidebar">표준 모드로 커넥터를 설치하고 설정합니다</block>
+  <block id="f6bf5d3da1d67288a149ab832d6401d0" category="sidebar">커넥터를 비공개 모드로 설치 및 설정합니다</block>
+  <block id="6596e863cf1d0baa0dbccff0e9088e4a" category="sidebar">로그인 중입니다</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+  <block id="a2e2f8288038950766d9cd088e4d892d" category="sidebar">VM 및 OS를 유지 관리합니다</block>
+  <block id="417a7f2f69f19fbcd309a4694944397e" category="sidebar">EC2 인스턴스에서 IMDSv2를 사용해야 합니다</block>
+  <block id="7c584a16cbf4210dc0a344179e274e09" category="sidebar">기본 구성</block>
 </blocks>

@@ -153,10 +153,10 @@ BlueXP에서 직접 Connector를 만들려면 특정 권한이 필요하며 Conn
 ** link:concept-install-options-aws.html["AWS의 커넥터 설치 옵션"]
 ** link:concept-install-options-azure.html["Azure의 커넥터 설치 옵션"]
 ** link:concept-install-options-google.html["Google Cloud의 커넥터 설치 옵션"]
-** link:task-install-connector-on-prem.html#step-3-set-up-cloud-permissions["온프레미스 구축을 위한 클라우드 권한 설정"]
+** link:task-install-connector-on-prem.html#step-4-set-up-cloud-permissions["온프레미스 구축을 위한 클라우드 권한 설정"]
 
 
-* link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-restricted-mode.html#step-6-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
 * link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
@@ -175,7 +175,7 @@ Connector에 일상적인 작업에 필요한 정확한 사용 권한을 보려�
 
 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 경우, 소프트웨어 업데이트를 받을 수 있도록 아웃바운드 인터넷에 액세스할 수 있는 경우 Connector에서 소프트웨어를 자동으로 최신 버전으로 업데이트합니다. 비공개 모드에서 BlueXP를 사용하는 경우 커넥터를 수동으로 업그레이드해야 합니다.
 
-link:task-managing-connectors.html["Connector 소프트웨어를 수동으로 업그레이드하는 방법에 대해 알아보십시오"].
+link:task-upgrade-connector.html["Connector 소프트웨어를 수동으로 업그레이드하는 방법에 대해 알아보십시오"].
 
 
 
@@ -183,7 +183,7 @@ link:task-managing-connectors.html["Connector 소프트웨어를 수동으로 �
 
 커넥터 호스트에서 운영 체제를 유지 관리하는 것은 사용자의 책임입니다. 예를 들어, 회사의 운영 체제 배포 표준 절차에 따라 Connector 호스트의 운영 체제에 보안 업데이트를 적용해야 합니다.
 
-OS 업데이트를 실행할 때 커넥터 호스트에서 서비스를 중지할 필요가 없습니다.
+보조 보안 업데이트를 적용할 때 Connector 호스트의 서비스를 중지할 필요가 없습니다.
 
 Connector VM을 중지한 다음 시작해야 하는 경우, 클라우드 공급자의 콘솔에서 또는 온프레미스 관리를 위한 표준 절차를 사용하여 시작해야 합니다.
 
@@ -191,15 +191,11 @@ Connector VM을 중지한 다음 시작해야 하는 경우, 클라우드 공급
 
 
 
-== 다양한 작업 환경
+== 다중 작업 환경 및 커넥터
 
 커넥터는 BlueXP에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.
 
 대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다. 도중에 문제가 발생하는 경우 제품 내 채팅을 통해 문의해 주십시오.
-
-
-
-== 다중 커넥터
 
 경우에 따라 하나의 커넥터만 필요할 수 있지만 둘 이상의 커넥터가 필요할 수 있습니다.
 
@@ -207,33 +203,4 @@ Connector VM을 중지한 다음 시작해야 하는 경우, 클라우드 공급
 
 * 다중 클라우드 환경(예: AWS 및 Azure)이 있고 AWS에 커넥터 1개와 Azure에 커넥터 1개가 있는 것을 선호합니다. 각 는 이러한 환경에서 실행되는 Cloud Volumes ONTAP 시스템을 관리합니다.
 * 서비스 제공업체는 하나의 BlueXP 계정을 사용하여 고객에게 서비스를 제공하는 한편 다른 계정을 사용하여 사업부 중 하나의 재해 복구를 제공할 수 있습니다. 각 계정에는 별도의 커넥터가 있습니다.
-
-
-
-
-=== 전환 시기
-
-첫 번째 커넥터를 만들면 BlueXP는 사용자가 추가로 만든 각 작업 환경에 대해 해당 커넥터를 자동으로 사용합니다. 추가 커넥터를 만든 후에는 각 Connector에 해당하는 작업 환경을 보기 위해 커넥터 사이를 전환해야 합니다.
-
-link:task-managing-connectors.html["커넥터 간 전환 방법에 대해 알아보십시오"].
-
-
-
-=== 재해 복구
-
-재해 복구를 위해 여러 커넥터가 있는 작업 환경을 동시에 관리할 수 있습니다. 하나의 커넥터가 다운되면 다른 커넥터로 전환하여 작업 환경을 즉시 관리할 수 있습니다.
-
-이 구성을 설정하려면 다음을 수행하십시오.
-
-. link:task-managing-connectors.html["다른 커넥터로 전환합니다"].
-. 기존 작업 환경을 파악합니다.
-+
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["기존 Cloud Volumes ONTAP 시스템을 BlueXP에 추가합니다"^]
-** https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["ONTAP 클러스터에 대해 알아보십시오"^]
-
-
-. 를 설정합니다 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-storage-management.html["용량 관리 모드"^]
-+
-주 커넥터만 * 자동 모드 * 로 설정해야 합니다. DR 목적으로 다른 커넥터로 전환하면 필요에 따라 용량 관리 모드를 변경할 수 있습니다.
-
 

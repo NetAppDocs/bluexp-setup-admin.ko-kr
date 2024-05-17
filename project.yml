@@ -19,6 +19,8 @@ sidebar:
       url: "/whats-new.html"
     - title: 알려진 제한 사항
       url: "/reference-limitations.html"
+    - title: 지원되는 Linux 운영 체제 변경 사항
+      url: "/reference-connector-operating-system-changes.html"
   - title: 시작하십시오
     entries:
     - title: 기본 사항 학습
@@ -115,15 +117,23 @@ sidebar:
         url: "/reference-user-roles.html"
     - title: 커넥터
       entries:
-      - title: 커넥터의 시스템 ID를 찾습니다
-        url: "/task-finding-system-id.html"
-      - title: 기존 커넥터 관리
-        url: "/task-managing-connectors.html"
+      - title: VM 및 OS를 유지 관리합니다
+        url: "/task-maintain-connectors.html"
       - title: 보안 액세스를 위해 HTTPS 인증서를 설치합니다
         url: "/task-installing-https-cert.html"
       - title: 프록시 서버를 사용하도록 Connector를 구성합니다
         url: "/task-configuring-proxy.html"
-      - title: Connector의 기본 설정
+      - title: EC2 인스턴스에서 IMDSv2를 사용해야 합니다
+        url: "/task-require-imdsv2.html"
+      - title: 비공개 모드를 사용하는 경우 커넥터를 업그레이드합니다
+        url: "/task-upgrade-connector.html"
+      - title: 여러 개의 커넥터로 작업합니다
+        url: "/task-manage-multiple-connectors.html"
+      - title: 커넥터 문제를 해결합니다
+        url: "/task-troubleshoot-connector.html"
+      - title: 커넥터를 제거하고 분리합니다
+        url: "/task-uninstall-connector.html"
+      - title: 기본 구성
         url: "/reference-connector-default-config.html"
     - title: 자격 증명 및 구독
       entries:

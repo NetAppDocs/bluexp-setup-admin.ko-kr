@@ -25,7 +25,7 @@ BlueXP는 Google Cloud에서 작업을 수행할 수 있는 권한이 필요합�
 Connector VM에 연결되는 서비스 계정에 이 사용자 지정 역할을 적용해야 합니다.
 
 * link:task-install-connector-google-bluexp-gcloud.html#step-2-set-up-permissions-to-create-the-connector["표준 모드에 대한 Google Cloud 권한을 설정합니다"]
-* link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-restricted-mode.html#step-6-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
 * link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 

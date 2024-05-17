@@ -80,7 +80,7 @@ AWS 서비스(amazonaws.com):
 ** link:task-install-connector-aws-bluexp.html#step-1-set-up-networking["AWS 네트워킹 설정"]
 ** link:task-install-connector-azure-bluexp.html#step-1-set-up-networking["Azure 네트워킹을 설정합니다"]
 ** link:task-install-connector-google-bluexp-gcloud.html#step-1-set-up-networking["Google Cloud 네트워킹을 설정합니다"]
-** link:task-install-connector-on-prem.html#step-2-set-up-networking["사내 네트워킹을 설정합니다"]
+** link:task-install-connector-on-prem.html#step-3-set-up-networking["사내 네트워킹을 설정합니다"]
 
 
 * BlueXP 서비스를 위한 네트워킹을 준비합니다

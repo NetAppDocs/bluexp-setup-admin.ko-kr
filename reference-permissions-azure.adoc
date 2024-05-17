@@ -29,8 +29,8 @@ Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connecto
 이러한 정책 사용에 대한 단계별 지침을 보려면 다음 페이지를 참조하십시오.
 
 * link:task-install-connector-azure-marketplace.html#step-3-set-up-permissions["Azure Marketplace 배포에 대한 사용 권한을 설정합니다"]
-* link:task-install-connector-on-prem.html#step-3-set-up-cloud-permissions["온프레미스 배포에 대한 권한을 설정합니다"]
-* link:task-prepare-restricted-mode.html#step-5-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
+* link:task-install-connector-on-prem.html#step-4-set-up-cloud-permissions["온프레미스 배포에 대한 권한을 설정합니다"]
+* link:task-prepare-restricted-mode.html#step-6-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
 * link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 

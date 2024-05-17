@@ -20,12 +20,6 @@ BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
 NetApp Support 사이트에서 제공되는 설치 프로그램은 이전 버전일 수 있습니다. 새 버전이 있는 경우 설치 후 커넥터가 자동으로 업데이트됩니다.
 
 .단계
-. Docker가 설정 및 실행 중인지 확인합니다.
-+
-[source, cli]
-----
-sudo systemctl enable docker && sudo systemctl start docker
-----
 . _http_proxy_or_https_proxy_system 변수가 호스트에 설정되어 있으면 이를 제거합니다.
 +
 [source, cli]
@@ -64,7 +58,7 @@ proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가
 +
 [source, cli]
 ----
- ./BlueXP-Connector-Cloud-v3.9.38 --proxy https://user:password@10.0.0.30:8080/ --cacert /tmp/cacert/certificate.cer
+ ./BlueXP-Connector-Cloud-v3.9.40--proxy https://user:password@10.0.0.30:8080/ --cacert /tmp/cacert/certificate.cer
 ----
 +
 -- 프록시는 다음 형식 중 하나를 사용하여 커넥터가 HTTP 또는 HTTPS 프록시 서버를 사용하도록 구성합니다.
@@ -81,8 +75,15 @@ proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가
 
 +
 *** 사용자는 로컬 사용자 또는 도메인 사용자일 수 있습니다.
-*** 도메인 사용자의 경우 위에 표시된 \ 에 ASCII 코드를 사용해야 합니다.
-*** BlueXP는 @ 문자를 포함하는 암호를 지원하지 않습니다.
+*** 도메인 사용자의 경우 위에 표시된 \ 에 대해 ASCII 코드를 사용해야 합니다.
+*** BlueXP는 @ 문자가 포함된 사용자 이름 또는 암호를 지원하지 않습니다.
+*** 암호에 다음과 같은 특수 문자가 포함된 경우 백슬래시(& or!)를 사용하여 해당 특수 문자를 이스케이프해야 합니다.
++
+예를 들면 다음과 같습니다.
+
++
+\http://bxpproxyuser:netapp1\!@address:3128
+
 
 
 

@@ -1,0 +1,111 @@
+---
+sidebar: sidebar 
+permalink: task-troubleshoot-connector.html 
+keywords: troubleshoot, system id, system ID, autosupport, asup, troubleshoot connector, download failure, cloud volumes ontap download failure 
+summary: 커넥터 문제를 해결하려면 NetApp 지원 부서에 문의하여 시스템 ID 또는 최신 AutoSupport 메시지를 요청할 수 있습니다. NetApp 기술 문서를 참조하여 직접 문제를 해결할 수도 있습니다. 
+---
+= 커넥터 문제를 해결합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+커넥터 관련 문제를 해결하려면 NetApp 지원에 문의하여 시스템 ID, 커넥터 버전 또는 최신 AutoSupport 메시지를 요청할 수 있습니다. NetApp 기술 문서를 참조하여 직접 문제를 해결할 수도 있습니다.
+
+.관련 링크
+link:task-get-help.html["NetApp 지원 팀에서 도움을 받으십시오"].
+
+
+
+== 커넥터의 시스템 ID를 찾습니다
+
+시작하려면 NetApp 담당자가 Connector의 시스템 ID를 물어 볼 수 있습니다. ID는 일반적으로 라이센스 및 문제 해결 목적으로 사용됩니다.
+
+.단계
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택합니다.
+. Support > BlueXP Connector * 를 선택합니다.
++
+시스템 ID가 페이지 상단에 나타납니다.
+
++
+* 예 *
+
++
+image:screenshot-system-id.png["지원 대시보드에 표시되는 BlueXP의 시스템 ID를 보여 주는 스크린샷"]
+
+
+
+
+
+== Connector 버전 보기
+
+Connector 버전을 확인하여 커넥터가 최신 릴리즈로 자동 업그레이드되었는지 또는 NetApp 담당자와 공유해야 하는지 확인할 수 있습니다.
+
+.단계
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택합니다.
+. Support > BlueXP Connector * 를 선택합니다.
++
+버전이 페이지 상단에 표시됩니다.
+
++
+image:screenshot-connector-version.png["지원 대시보드에 커넥터 버전을 보여 주는 스크린샷"]
+
+
+
+
+
+== AutoSupport 메시지를 다운로드하거나 보냅니다
+
+문제가 있는 경우 NetApp 직원이 문제 해결을 위해 NetApp 지원에 AutoSupport 메시지를 보내도록 요청할 수 있습니다.
+
+.단계
+. BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.
++
+image:screenshot-help-support.png["도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다"]
+
+. BlueXP 커넥터 * 를 선택합니다.
+. NetApp 지원에 정보를 보내는 방법에 따라 다음 옵션 중 하나를 선택합니다.
++
+.. 로컬 컴퓨터에 AutoSupport 메시지를 다운로드하는 옵션을 선택합니다. 그런 다음 원하는 방법을 사용하여 NetApp Support로 보낼 수 있습니다.
+.. 메시지를 NetApp 지원으로 직접 보내려면 * Send AutoSupport * 를 선택합니다.
+
+
++
+image:screenshot-connector-autosupport.png["사용자가 AutoSupport 메시지를 다운로드하고 보낼 수 있는 위치를 보여 주는 지원 대시보드 스크린샷"]
+
+
+
+
+
+== Google Cloud NAT 게이트웨이를 사용할 때 다운로드 오류를 수정합니다
+
+커넥터는 Cloud Volumes ONTAP용 소프트웨어 업데이트를 자동으로 다운로드합니다. 구성에서 Google Cloud NAT 게이트웨이를 사용하는 경우 다운로드가 실패할 수 있습니다. 소프트웨어 이미지를 분할하는 부품 수를 제한하여 이 문제를 해결할 수 있습니다. 이 단계는 BlueXP API를 사용하여 완료해야 합니다.
+
+.단계
+. 다음과 같은 JSON을 본문으로 /occm/config에 PUT 요청을 제출합니다.
++
+[source]
+----
+{
+  "maxDownloadSessions": 32
+}
+----
++
+maxDownloadSessions_ 값은 1이거나 1보다 큰 정수일 수 있습니다. 값이 1이면 다운로드한 이미지는 분할되지 않습니다.
+
++
+32는 예제 값입니다. 사용할 값은 NAT 구성과 동시에 사용할 수 있는 세션 수에 따라 다릅니다.
+
+
+
+https://docs.netapp.com/us-en/bluexp-automation/cm/api_ref_resources.html#occmconfig["/occm/config API 호출에 대해 자세히 알아보십시오"^]
+
+
+
+== NetApp 기술 자료에서 도움을 받으십시오
+
+https://kb.netapp.com/Special:Search?path=Cloud%2FBlueXP&query=connector&type=wiki["NetApp 지원 팀에서 생성한 문제 해결 정보를 봅니다"].
