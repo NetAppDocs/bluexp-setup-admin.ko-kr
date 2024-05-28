@@ -239,6 +239,8 @@ https://cloud.google.com/iam/docs/granting-changing-revoking-access#grant-single
 
 BlueXP에 Google Cloud의 리소스를 관리하는 데 필요한 권한을 Connector에 제공하려면 Google Cloud 서비스 계정이 필요합니다. Connector를 생성할 때 이 서비스 계정을 Connector VM에 연결해야 합니다.
 
+후속 릴리스에서 새 권한이 추가되면 사용자 지정 역할을 업데이트할 책임은 사용자에게 있습니다. 새 권한이 필요한 경우 릴리스 노트에 해당 권한이 나열됩니다.
+
 .단계
 . Google Cloud에서 사용자 지정 역할 생성:
 +
