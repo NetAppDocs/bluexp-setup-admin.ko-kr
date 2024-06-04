@@ -4185,4 +4185,17 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="df6a3e698694ef43588c621a4f033d31" category="inline-link-macro">커넥터의 IAM 정책에 대해 자세히 알아보십시오</block>
   <block id="1fb320e90a252e8c1b4c19e3cbd46329" category="list-text">BlueXP가 Connector를 생성할 때 인스턴스의 IAM 역할과 인스턴스 프로필이 생성됩니다. 이 역할에는 Connector에서 AWS 리소스를 관리할 수 있도록 하는 권한이 포함됩니다. 이후 릴리스에서 새 권한이 추가됨에 따라 역할이 최신 상태로 유지되도록 해야 합니다. <block ref="7c04064b609d1f2f70bc0b0dc253bdfa" category="inline-link-macro-rx"></block>.</block>
   <block id="4560d9b851db1f575c8bd1ba53369c0a" category="paragraph">또한 후속 릴리스에 새 권한이 추가되므로 역할이 최신 상태인지 확인해야 합니다. 새 권한이 필요한 경우 릴리스 노트에 해당 권한이 나열됩니다.</block>
+  <block id="74ee4e65950c57ed59a7a33de5a179e6" category="section-title">2024년 6월 4일</block>
+  <block id="87174c130fb334601e88a5630bf24478" category="section-title">비공개 모드 해제(3.9.40)</block>
+  <block id="3a88f5b91fe23c6da00e330b440f9fd7" category="paragraph">이제 NetApp Support 사이트에서 새로운 비공개 모드 릴리스를 다운로드할 수 있습니다. 이 릴리즈에는 프라이빗 모드에서 지원되는 다음과 같은 BlueXP 서비스 버전이 포함됩니다.</block>
+  <block id="4f56b8c7a0f62edc59659cfaecc68958" category="paragraph">이 비공개 모드 릴리스에는 Red Hat Enterprise Linux 8 및 9의 Connector에 대한 지원이 _NOT_포함되어 있습니다.</block>
+  <block id="f691a3ef752f6e51a74183a6b7b1c432" category="cell">3.9.40</block>
+  <block id="918de91f5332dad6620331712ef5c21d" category="cell">2024년 5월 15일(버전 1.31)</block>
+  <block id="64cc8195fcb01e582343c910736d1abd" category="paragraph">BlueXP 서비스 버전에 포함된 기능에 대해 자세히 알아보려면 각 BlueXP 서비스의 릴리즈 노트를 참조하십시오.</block>
+  <block id="451cc12943297b25b1cf250cc5d0e60a" category="inline-link">BlueXP 백업 및 복구의 새로운 기능에 대해 알아보십시오</block>
+  <block id="d846859679a4eca86e97e1887623b347" category="list-text"><block ref="d846859679a4eca86e97e1887623b347" category="inline-link-rx"></block></block>
+  <block id="dd890c1f1f06a084e8274154f3f07ebe" category="inline-link">BlueXP 분류의 새로운 기능에 대해 알아보십시오</block>
+  <block id="0dcda936d538d36f9e02f54b88ffefca" category="list-text"><block ref="0dcda936d538d36f9e02f54b88ffefca" category="inline-link-rx"></block></block>
+  <block id="d06e6f96135d8cd2fa9fea9a4d9de16b" category="inline-link">BlueXP에서 Cloud Volumes ONTAP 관리의 새로운 기능에 대해 알아보십시오</block>
+  <block id="29e66847d781138b54aa8aa55b70fb20" category="list-text"><block ref="29e66847d781138b54aa8aa55b70fb20" category="inline-link-rx"></block></block>
 </blocks>

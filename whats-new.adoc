@@ -18,6 +18,53 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
+== 2024년 6월 4일
+
+
+
+=== 비공개 모드 해제(3.9.40)
+
+이제 NetApp Support 사이트에서 새로운 비공개 모드 릴리스를 다운로드할 수 있습니다. 이 릴리즈에는 프라이빗 모드에서 지원되는 다음과 같은 BlueXP 서비스 버전이 포함됩니다.
+
+이 비공개 모드 릴리스에는 Red Hat Enterprise Linux 8 및 9의 Connector에 대한 지원이 _NOT_포함되어 있습니다.
+
+[cols="2*"]
+|===
+| 서비스 | 버전이 포함됩니다 
+
+
+| 커넥터 | 3.9.40 
+
+
+| 백업 및 복구 | 2024년 5월 17일 
+
+
+| 분류 | 2024년 5월 15일(버전 1.31) 
+
+
+| Cloud Volumes ONTAP 관리 | 2024년 5월 17일 
+
+
+| 디지털 지갑 | 2023년 7월 30일 
+
+
+| 온프레미스 ONTAP 클러스터 관리 | 2023년 7월 30일 
+
+
+| 복제 | 2022년 9월 18일 
+|===
+BlueXP 서비스 버전에 포함된 기능에 대해 자세히 알아보려면 각 BlueXP 서비스의 릴리즈 노트를 참조하십시오.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["비공개 모드에 대해 알아봅니다"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다"]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP 백업 및 복구의 새로운 기능에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP 분류의 새로운 기능에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP에서 Cloud Volumes ONTAP 관리의 새로운 기능에 대해 알아보십시오"^]
+
+
+
+
 == 2024년 5월 17일
 
 
