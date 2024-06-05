@@ -165,12 +165,6 @@ API 종점:: API 호출은 Connector 가상 시스템으로 이루어집니다.
 | 분류  a| 
 제한 모드가 있는 정부 지역에서 지원됩니다. 상용 지역 또는 제한된 모드의 주권 지역에서는 지원되지 않습니다.
 
-다음과 같은 제한 사항이 적용됩니다.
-
-* OneDrive 계정, SharePoint 계정 및 Google Drive 계정을 검색할 수 없습니다.
-* Microsoft Azure 정보 보호(AIP) 레이블 기능은 통합할 수 없습니다.
-
-
 
 
 | Cloud Volumes ONTAP | 완벽한 지원 
