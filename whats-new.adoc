@@ -79,7 +79,7 @@ BlueXP 서비스 버전에 포함된 기능에 대해 자세히 알아보려면 
 
 ==== RHEL 8 및 9 지원
 
-Connector는 현재 _NEW_Connector가 설치된 다음 버전의 Red Hat Enterprise Linux를 실행하는 호스트에서 지원됩니다.
+이제 커넥터는 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때 _NEW_Connector 설치와 함께 다음 버전의 Red Hat Enterprise Linux를 실행하는 호스트에서 지원됩니다.
 
 * 8.6 - 8.9
 * 9.1에서 9.3까지

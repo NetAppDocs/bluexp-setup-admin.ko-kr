@@ -2861,9 +2861,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="f4c6f851b00d5518bf888815de279aba" category="cell">참고</block>
   <block id="34678ee868eeabce720fc4a0fd60c17a" category="cell">완벽한 지원</block>
   <block id="0a44fe605745a017fde35750e5fae36a" category="paragraph">제한 모드가 있는 정부 지역에서 지원됩니다. 상용 지역 또는 제한된 모드의 주권 지역에서는 지원되지 않습니다.</block>
-  <block id="9bff93d1123789b473f27a881c3e00c6" category="paragraph">다음과 같은 제한 사항이 적용됩니다.</block>
-  <block id="b3478a494adde25715314b14559dd6a4" category="list-text">OneDrive 계정, SharePoint 계정 및 Google Drive 계정을 검색할 수 없습니다.</block>
-  <block id="d1f03114b8fef49b0f0cb0a28049ecdf" category="list-text">Microsoft Azure 정보 보호(AIP) 레이블 기능은 통합할 수 없습니다.</block>
   <block id="8adfa152daa2970174717fd5e24151b2" category="cell">제한된 모드에 대해 아래 나열된 지원되는 라이센스 옵션과 함께 디지털 지갑을 사용할 수 있습니다.</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="cell">온프레미스 ONTAP 클러스터</block>
   <block id="2bd6e3220a2a60e7217c63bc76d9f73c" category="cell">Connector를 사용하는 검색과 Connector를 사용하지 않는 검색(직접 검색) 모두 지원됩니다.
@@ -4109,7 +4106,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="81f58b484d838909a5fedb3486f3a8e2" category="section-title">커넥터 3.9.40</block>
   <block id="32d1e3d3ebe78d37dbdfcf9933b0cf90" category="paragraph">이 BlueXP Connector 릴리즈에는 추가 운영 체제, 사소한 보안 개선 사항 및 버그 수정 사항이 포함되어 있습니다.</block>
   <block id="94f95548313e6f5528b5011a7d10e19f" category="paragraph">현재 3.9.40 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
-  <block id="9788cee19c4b5d5971c7a99e340846e8" category="paragraph">Connector는 현재 _NEW_Connector가 설치된 다음 버전의 Red Hat Enterprise Linux를 실행하는 호스트에서 지원됩니다.</block>
   <block id="00ed051332ed28fe5b1ab0a4ae7aa4f6" category="paragraph">Podman은 이러한 운영 체제의 컨테이너 오케스트레이션 툴로 필요합니다.</block>
   <block id="3d007e1710eb9efcb8c51296efc8eb4f" category="paragraph">Podman 요구 사항, 알려진 제한 사항, 운영 체제 지원 요약, RHEL 7 호스트가 있는 경우 수행할 작업, 시작 방법 등을 숙지해야 합니다.</block>
   <block id="4d3035dcb7b114e2c87c82e5ae7e626c" category="inline-link">Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오</block>
@@ -4198,4 +4194,5 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="0dcda936d538d36f9e02f54b88ffefca" category="list-text"><block ref="0dcda936d538d36f9e02f54b88ffefca" category="inline-link-rx"></block></block>
   <block id="d06e6f96135d8cd2fa9fea9a4d9de16b" category="inline-link">BlueXP에서 Cloud Volumes ONTAP 관리의 새로운 기능에 대해 알아보십시오</block>
   <block id="29e66847d781138b54aa8aa55b70fb20" category="list-text"><block ref="29e66847d781138b54aa8aa55b70fb20" category="inline-link-rx"></block></block>
+  <block id="3eb0b1a8f5c259c6baffd4acbc27dc9b" category="paragraph">이제 커넥터는 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때 _NEW_Connector 설치와 함께 다음 버전의 Red Hat Enterprise Linux를 실행하는 호스트에서 지원됩니다.</block>
 </blocks>
