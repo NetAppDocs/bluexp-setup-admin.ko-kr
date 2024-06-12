@@ -525,7 +525,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e216b7a924341f796bca310d1d812baf" category="inline-link">복사 및 동기화</block>
   <block id="f74f0f0050569783e8c306d738c4d91e" category="list-text"><block ref="f74f0f0050569783e8c306d738c4d91e" category="inline-link-rx"></block></block>
   <block id="ba695b3cf8b635f89946173735838948" category="inline-link">에지 캐싱</block>
-  <block id="a062a07503c91ac212c0a374cd04a732" category="list-text"><block ref="a062a07503c91ac212c0a374cd04a732" category="inline-link-rx"></block></block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="inline-link">계층화</block>
   <block id="81bcb3e3c1a8f797192f8c3c33e62033" category="list-text"><block ref="81bcb3e3c1a8f797192f8c3c33e62033" category="inline-link-rx"></block></block>
   <block id="83f1d9ca1a0c4c2fc51a371c0d773f76" category="list-text">보호</block>
@@ -4195,4 +4194,7 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="d06e6f96135d8cd2fa9fea9a4d9de16b" category="inline-link">BlueXP에서 Cloud Volumes ONTAP 관리의 새로운 기능에 대해 알아보십시오</block>
   <block id="29e66847d781138b54aa8aa55b70fb20" category="list-text"><block ref="29e66847d781138b54aa8aa55b70fb20" category="inline-link-rx"></block></block>
   <block id="3eb0b1a8f5c259c6baffd4acbc27dc9b" category="paragraph">이제 커넥터는 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때 _NEW_Connector 설치와 함께 다음 버전의 Red Hat Enterprise Linux를 실행하는 호스트에서 지원됩니다.</block>
+  <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">2024년 6월 12일</block>
+  <block id="e7a68d45477c484e2ef45d11f3cea8f8" category="section-title">커넥터 3.9.41</block>
+  <block id="deb2d604498906b6056e668d8a921bc6" category="paragraph">3.9.41 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
 </blocks>

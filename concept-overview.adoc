@@ -47,7 +47,6 @@ BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네
 +
 --
 * https://bluexp.netapp.com/cloud-sync-service["복사 및 동기화"^]
-* https://bluexp.netapp.com/global-file-cache["에지 캐싱"^]
 * https://bluexp.netapp.com/cloud-tiering["계층화"^]
 
 
