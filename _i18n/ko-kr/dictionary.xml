@@ -4197,4 +4197,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">2024년 6월 12일</block>
   <block id="e7a68d45477c484e2ef45d11f3cea8f8" category="section-title">커넥터 3.9.41</block>
   <block id="deb2d604498906b6056e668d8a921bc6" category="paragraph">3.9.41 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="4fe47b0a38e9cc2f08e1ebd6f66fc340" category="paragraph">BlueXP 사용<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 를 설치합니다<block ref="a23365e1ae67810a7446b65d3be9a5d0" prefix=" " category="inline-code"></block> 디렉토리 및 컨텐츠입니다.</block>
+  <block id="6625b96831c913865dcc04d700d00a02" category="paragraph">BlueXP를 사용하려면 이 공간이 필요합니다<block ref="ca905eb4a00d34150573153a09e2e79b" prefix=" " category="inline-code"></block> Docker 또는 Podman은 이 디렉토리 내에 컨테이너를 생성하도록 설계되었기 때문입니다. 특히 에서 컨테이너를 만듭니다<block ref="af5045a6e72956f67984a97cd3e8b9da" prefix=" " category="inline-code"></block> 디렉토리. 이 공간에서는 외부 마운트 또는 심링크가 작동하지 않습니다.</block>
 </blocks>

@@ -63,7 +63,17 @@ CPU:: 코어 4개 또는 vCPU 4개
 RAM:: 14GB
 Azure VM 크기입니다:: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. DS3 v2를 권장합니다.
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
++
+--
+BlueXP 사용 `/opt` 를 설치합니다 `/opt/application/netapp` 디렉토리 및 컨텐츠입니다.
+
+--
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
++
+--
+BlueXP를 사용하려면 이 공간이 필요합니다 `/var` Docker 또는 Podman은 이 디렉토리 내에 컨테이너를 생성하도록 설계되었기 때문입니다. 특히 에서 컨테이너를 만듭니다 `/var/lib/containers/storage` 디렉토리. 이 공간에서는 외부 마운트 또는 심링크가 작동하지 않습니다.
+
+--
 컨테이너 오케스트레이션 툴:: 운영 체제에 따라 Connector를 설치하기 전에 Podman 또는 Docker Engine이 필요합니다.
 +
 --
