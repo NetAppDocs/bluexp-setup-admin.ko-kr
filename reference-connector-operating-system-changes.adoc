@@ -51,7 +51,7 @@ RHEL 업그레이드:: RHEL 7 호스트에서 실행 중인 기존 Connector가 
 
 == RHEL 7 및 CentOS 7에 대한 지원 종료
 
-2024년 6월 30일에 RHEL 7은 EOM(End of Maintenance)에 도달하고 CentOS 7은 EOL(End of Life)에 도달할 것입니다. NetApp는 2024년 6월 30일까지 이러한 Linux 배포판에서 커넥터를 계속 지원할 예정입니다.
+2024년 6월 30일에 RHEL 7은 EOM(유지 관리 종료)에 도달했으며 CentOS 7은 EOL(수명 종료)에 도달했습니다. NetApp는 2024년 6월 30일에 이들 Linux 배포판에서 커넥터 지원을 중단했습니다.
 
 https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/rhel-7-end-of-maintenance["Red Hat: Red Hat Enterprise Linux 7 End of Maintenance에 대해 알아야 할 사항"^]
 
@@ -81,9 +81,6 @@ RHEL 7 또는 CentOS 7에서 실행되는 기존 Connector가 있는 경우 운�
 
 다음은 이전 섹션에서 설명한 운영 체제 지원에 대한 요약입니다.
 
-
-NOTE: NetApp는 2024년 6월 30일까지 RHEL 7 및 CentOS 7에서 커넥터를 계속 지원할 예정입니다.
-
 [role="tabbed-block"]
 ====
 .표준 모드
@@ -92,10 +89,8 @@ NOTE: NetApp는 2024년 6월 30일까지 RHEL 7 및 CentOS 7에서 커넥터를 
 +
 --
 * 우분투 22.04 LTS
-* CentOS 7.6 - 7.9
 * Red Hat Enterprise Linux
 +
-** 7.6 - 7.9
 ** 8.6 - 8.9
 ** 9.1에서 9.3까지
 
@@ -115,10 +110,8 @@ Azure Marketplace에서 구축:: 우분투 22.04 LTS
 +
 --
 * 우분투 22.04 LTS
-* CentOS 7.6 - 7.9
 * Red Hat Enterprise Linux
 +
-** 7.6 - 7.9
 ** 8.6 - 8.9
 ** 9.1에서 9.3까지
 
@@ -133,15 +126,7 @@ Azure Marketplace에서 구축:: 우분투 22.04 LTS
 --
 .비공개 모드
 --
-수동 설치::
-+
---
-* 우분투 22.04 LTS
-* CentOS 7.6 - 7.9
-* Red Hat Enterprise Linux 7.6 - 7.9
-
-
---
+수동 설치:: 우분투 22.04 LTS
 
 
 --

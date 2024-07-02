@@ -30,16 +30,8 @@ Connector 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사�
 +
 --
 * 우분투 22.04 LTS
-* CentOS 7.6 - 7.9
-+
-NetApp는 2024년 6월 30일까지 CentOS 7과 함께 커넥터를 계속 지원할 예정입니다.
-
 * Red Hat Enterprise Linux
 +
-** 7.6 - 7.9
-+
-NetApp는 2024년 6월 30일까지 RHEL 7과 함께 커넥터를 계속 지원할 예정입니다.
-
 ** 8.6 - 8.9
 ** 9.1에서 9.3까지
 +
@@ -53,12 +45,7 @@ Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.
 
 
 --
-하이퍼바이저:: Ubuntu, CentOS 또는 Red Hat Enterprise Linux 실행 인증을 받은 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.
-+
---
-https://access.redhat.com/articles/973163["Red Hat 솔루션: Red Hat Enterprise Linux 실행 인증을 받은 하이퍼바이저는 무엇입니까?"^]
-
---
+하이퍼바이저:: 지원되는 운영 체제를 실행하도록 인증된 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.
 CPU:: 코어 4개 또는 vCPU 4개
 RAM:: 14GB
 AWS EC2 인스턴스 유형:: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. T3.xLarge를 권장합니다.
@@ -89,7 +76,7 @@ Podman의 경우 다음 전제 조건을 충족해야 합니다.
 ** podman-composition을 PATH 환경 변수에 추가해야 합니다
 
 
-* Ubuntu, CentOS 및 Red Hat Enterprise Linux 7에는 Docker 엔진이 필요합니다.
+* Ubuntu에는 Docker 엔진이 필요합니다.
 +
 ** 지원되는 최소 버전은 19.3.1입니다.
 ** 지원되는 최대 버전은 25.0.5입니다.
@@ -107,7 +94,7 @@ Podman의 경우 다음 전제 조건을 충족해야 합니다.
 운영 체제에 따라 Connector를 설치하기 전에 Podman 또는 Docker Engine이 필요합니다.
 
 * Red Hat Enterprise Linux 8 및 9에는 Podman이 필요합니다.
-* Ubuntu, CentOS 및 Red Hat Enterprise Linux 7에는 Docker 엔진이 필요합니다.
+* Ubuntu에는 Docker 엔진이 필요합니다.
 
 
 .단계

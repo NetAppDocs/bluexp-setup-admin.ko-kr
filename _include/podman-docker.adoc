@@ -5,7 +5,7 @@
 운영 체제에 따라 Connector를 설치하기 전에 Podman 또는 Docker Engine이 필요합니다.
 
 * Red Hat Enterprise Linux 8 및 9에는 Podman이 필요합니다.
-* Ubuntu, CentOS 및 Red Hat Enterprise Linux 7에는 Docker 엔진이 필요합니다.
+* Ubuntu에는 Docker 엔진이 필요합니다.
 
 
 .단계
