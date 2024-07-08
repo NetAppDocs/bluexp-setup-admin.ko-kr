@@ -78,7 +78,7 @@ BlueXP를 사용하려면 이 공간이 필요합니다 `/var` Docker 또는 Pod
 Docker 엔진:: Connector를 설치하기 전에 Docker 엔진이 호스트에 필요합니다.
 +
 --
-* 지원되는 최소 버전은 19.3.1입니다.
+* 지원되는 최소 버전은 23.0.6입니다.
 * 지원되는 최대 버전은 25.0.5입니다.
 +
 https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]

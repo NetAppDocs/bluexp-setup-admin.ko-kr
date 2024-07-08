@@ -90,7 +90,7 @@ NOTE: 를 사용합니다 `dnf install` 명령은 PATH 환경 변수에 podman-c
 --
 .Docker 엔진
 --
-19.3.1과 25.0.5 사이에 Docker 엔진 버전을 설치합니다.
+23.0.6과 25.0.5 사이에 Docker 엔진 버전을 설치합니다.
 
 .단계
 . Docker Engine을 설치합니다.

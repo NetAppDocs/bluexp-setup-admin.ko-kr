@@ -661,18 +661,11 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="a6daae7da601d04e5cdb89d612a8d9b1" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. DS3 v2를 권장합니다.</block>
   <block id="ae140c7a1104ac99f1a01b18e5dc3ed8" category="summary">BlueXP는 웹 기반 콘솔에서 액세스할 수 있습니다. BlueXP를 시작할 때 첫 번째 단계는 기존 NetApp Support 사이트 자격 증명을 사용하거나 NetApp 클라우드 로그인을 생성하여 등록하는 것입니다.</block>
   <block id="156c302d186fc36d9d944c5d74b971af" category="doc">BlueXP에 등록하십시오</block>
-  <block id="4c6d74757138aa41d2d5f2b14bb05ad1" category="paragraph">다음 옵션 중 하나를 사용하여 BlueXP에 등록할 수 있습니다.</block>
   <block id="19df8bb4b5a805b23aeac731605bdf21" category="list-text">기존 NetApp Support 사이트(NSS) 자격 증명</block>
-  <block id="d7330e52ac45b9d5a769aa9a5c244319" category="list-text">이메일 주소와 암호를 지정하여 NetApp 클라우드 로그인입니다</block>
   <block id="4cd9dd3aeeaff4f9e2ee0a8b309b6856" category="inline-link-macro">BlueXP에서 ID 페더레이션을 사용하는 방법에 대해 알아봅니다</block>
-  <block id="66721b55faa00316d484082879eed67d" category="paragraph">두 옵션 모두 통합 연결을 지원하므로 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 단일 사인온이 가능합니다. 가입 후 페더레이션 연결을 설정할 수 있습니다. <block ref="428e058a0b96c0f6b163e3a51b92bb16" category="inline-link-macro-rx"></block>.</block>
   <block id="3a9d5bd356ec8e4fc31c11150128b7ac" category="list-text">웹 브라우저를 열고 로 이동합니다<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block></block>
-  <block id="3587d9f2b48c4f0c9c40433731329a21" category="list-text">NetApp Support 사이트 계정이 있는 경우 NSS 계정과 연결된 이메일 주소를 * 로그인 * 페이지에 직접 입력합니다.</block>
   <block id="61bd9c463723beb495c6ca6a1a35e0eb" category="paragraph">NSS 계정이 있는 경우 등록 페이지를 건너뛸 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.</block>
-  <block id="7c74a9177ae92ae3e635c6ec91ce1d71" category="list-text">NSS 계정이 없는 경우 NetApp 클라우드 로그인을 생성하여 등록하려면 * 등록 * 을 선택하십시오.</block>
-  <block id="9c27b53d053eec29dd123f70f05c5d03" category="list-text">등록 * 페이지에서 NetApp 클라우드 로그인을 생성하는 데 필요한 정보를 입력합니다.</block>
   <block id="9998984c95caccce61e49ca25de1c99f" category="paragraph">등록 양식에는 영어 문자만 사용할 수 있습니다.</block>
-  <block id="b0844d01c75bb6b60219ee536f20aa15" category="list-text">메시지가 표시되면 최종 사용자 사용권 계약을 검토하고 약관에 동의합니다.</block>
   <block id="a2d1bd30e95a89c4ecb9d6a39da84e3a" category="list-text">시작 * 페이지에서 계정 이름을 입력합니다.</block>
   <block id="efb45899558a953ff7d6578e89aa2c1c" category="inline-link-macro">기존 계정에 구성원을 추가하는 방법에 대해 알아봅니다</block>
   <block id="ecbca8245155432067c380b55b5146bb" category="paragraph">계정은 NetApp의 ID 플랫폼에서 최상위 요소입니다. 사용자, 역할, 사용 권한 및 작업 환경을 추가하고 관리할 수 있습니다.</block>
@@ -3918,7 +3911,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="c2eb567355a3050dee61ad28cde98255" category="list-text">9.13.1 또는 이 릴리스 이후의 모든 버전</block>
   <block id="7e0ccd7729abca8ae58e9ceff3fd0b87" category="list-text">Cloud Volumes ONTAP 업그레이드 프로세스 중에 사용됩니다</block>
   <block id="970c4756c8fc49a0c32d6a5b32d6d6f5" category="list-text">Connector를 설치하기 전에 Docker 엔진이 호스트에 필요합니다.</block>
-  <block id="66a843cd9e2f1ff37fec4c91275dc9a7" category="list-text">지원되는 최소 버전은 19.3.1입니다.</block>
   <block id="3d0dee7040af4a3fedb8d1c83abf5f56" category="list-text">지원되는 최대 버전은 25.0.5입니다.</block>
   <block id="3e291cd3cf657cb754d907986c7587ed" category="paragraph"><block ref="3e291cd3cf657cb754d907986c7587ed" category="inline-link-rx"></block></block>
   <block id="779956d8a8a5dbf08bbf655892abfefb" category="section-title">2024년 4월 11일</block>
@@ -3986,7 +3978,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="084cfc903eb108eb15642e42f36348f9" category="paragraph">Red Hat Enterprise Linux 8의 경우:</block>
   <block id="6f3a42415c589950b9ae4d3fe1f87dc7" category="list-text">podman-comp 패키지 1.0.6을 설치합니다.</block>
   <block id="ec7c87651a5ede2a98ad4091fe48b517" category="admonition">를 사용합니다<block ref="02c7499137a5d8d10292d68634eb22a0" prefix=" " category="inline-code"></block> 명령은 PATH 환경 변수에 podman-composition을 추가하기 위한 요구 사항을 충족합니다. 설치 명령은 podman-composition을 이미 에 포함되어 있는 /usr/bin에 추가합니다<block ref="c9bac30d1d0554c0790285219e5ad518" prefix=" " category="inline-code"></block> 호스트 옵션.</block>
-  <block id="2cb776f499f1161a0b5361cda7d46e37" category="paragraph">19.3.1과 25.0.5 사이에 Docker 엔진 버전을 설치합니다.</block>
   <block id="d96a084915e5de032105988cddcc2bc5" category="list-text">Docker Engine을 설치합니다.</block>
   <block id="08a382dc3dd0f48c28f89b74f8bac2a4" category="inline-link">Docker의 설치 지침을 봅니다</block>
   <block id="3907e04a67ccb717783cc69d280aaa41" category="paragraph"><block ref="3907e04a67ccb717783cc69d280aaa41" category="inline-link-rx"></block></block>
@@ -4192,4 +4183,30 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="06cfdcafd69514150ade31a714fa78db" category="list-text">지원되는 운영 체제를 실행하도록 인증된 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.</block>
   <block id="1c0a2f304cb94000fe79271bae1284df" category="list-text">Ubuntu에는 Docker 엔진이 필요합니다.</block>
   <block id="eb79e7adcda869f967a810da89679252" category="paragraph">2024년 6월 30일에 RHEL 7은 EOM(유지 관리 종료)에 도달했으며 CentOS 7은 EOL(수명 종료)에 도달했습니다. NetApp는 2024년 6월 30일에 이들 Linux 배포판에서 커넥터 지원을 중단했습니다.</block>
+  <block id="547a1a61c710e2dc947389da0967d175" category="list-text">지원되는 최소 버전은 23.0.6입니다.</block>
+  <block id="7a96db7c574c0cfb888eceb8119d9bac" category="paragraph">23.0.6과 25.0.5 사이에 Docker 엔진 버전을 설치합니다.</block>
+  <block id="13265d5e2f2489e0351d3bae9dc7d923" category="doc">BlueXP에 등록하거나 로그인합니다</block>
+  <block id="400356f2a752e6926bd99ce1db45ee8c" category="paragraph">BlueXP는 웹 기반 콘솔에서 액세스할 수 있습니다. BlueXP를 시작할 때 첫 번째 단계는 회사 디렉토리에서 NetApp Support 사이트 자격 증명 또는 SSO 자격 증명을 사용하여 등록하거나 로그인하는 것입니다.</block>
+  <block id="71bf124b6b9da30db8c000241ce01691" category="paragraph">BlueXP를 처음으로 액세스할 때 BlueXP를 사용하면 다음 옵션 중 하나를 사용하여 등록하거나 로그인할 수 있습니다.</block>
+  <block id="79160996ed8489a5cf6613551aa653a7" category="list-text">BlueXP 로그인</block>
+  <block id="097da8092c10ffe933148ded03ffa5e7" category="list-text">BlueXP 로그인을 생성하여 등록할 수 있습니다. 이 인증 방법을 사용하려면 전자 메일 주소와 암호를 지정해야 합니다. 이메일 주소를 확인한 후 로그인한 다음, 아직 BlueXP 계정을 생성하지 않은 경우 생성할 수 있습니다.</block>
+  <block id="4e509fcd83df29eba4ce6711d142163b" category="list-text">NetApp 지원 사이트(NSS) 자격 증명입니다</block>
+  <block id="820249dfc3701fd3b37984191fcdfd5c" category="list-text">기존 NetApp Support 사이트 자격 증명이 있는 경우에는 BlueXP에 등록할 필요가 없습니다. NSS 자격 증명을 사용하여 로그인한 다음, BlueXP에 아직 가입하지 않은 경우 BlueXP 계정을 생성하라는 메시지가 표시됩니다.</block>
+  <block id="9cb17ba10a86a6d673f250ed811a88c2" category="list-text">페더레이션 연결</block>
+  <block id="b9d11f4546264baa9dae3dabfb844735" category="list-text">Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 로그인할 수 있습니다. 조직 계정의 첫 번째 사용자는 BlueXP에 등록하거나 NSS 자격 증명을 사용하여 로그인한 다음 ID 통합을 설정해야 합니다. 이후 각 사용자는 SSO 자격 증명을 사용하여 로그인할 수 있습니다.</block>
+  <block id="a3343822f7753a8d8b67395fe90b10ba" category="paragraph"><block ref="428e058a0b96c0f6b163e3a51b92bb16" category="inline-link-macro-rx"></block>..</block>
+  <block id="631a9d1918b756ca1857359538227c2a" category="list-text">NetApp 지원 사이트 계정이 있거나 이미 ID 페더레이션을 설정한 경우 * 로그인 * 페이지에서 계정에 연결된 이메일 주소를 직접 입력합니다.</block>
+  <block id="e2a4611e209f9dc6217229cb9441c087" category="list-text">BlueXP 로그인을 생성하여 등록하려면 * 등록 * 을 선택하십시오.</block>
+  <block id="dafbc60d299b7ecf7d1bf490a178f77f" category="list-text">등록 * 페이지에서 필요한 정보를 입력하고 * 다음 * 을 선택합니다.</block>
+  <block id="422588021a93cfdaa26ce8d7d46dfeda" category="list-text">받은 편지함에서 이메일 주소 확인에 대한 지침이 포함된 NetApp의 이메일을 확인합니다.</block>
+  <block id="6a453053d8be9574b7b5d32eb1d51842" category="paragraph">이 단계는 BlueXP에 로그인하기 전에 필요합니다.</block>
+  <block id="a0e12b903763894b05053f1758f87c86" category="list-text">로그인한 후 최종 사용자 사용권 계약을 검토하고 약관에 동의합니다.</block>
+  <block id="8d330209f05c51bacefbee76e24d82e9" category="section-title">2024년 7월 8일</block>
+  <block id="cfcc30e7f5ca49191957ff6a4f02c34d" category="section-title">커넥터 3.9.42</block>
+  <block id="b1360a775c6891602e0321f2a2a1aa2b" category="paragraph">이 릴리스에는 AWS 캐나다 서부(캘거리) 지역의 커넥터에 대한 사소한 개선 사항, 버그 수정 및 지원이 포함되어 있습니다.</block>
+  <block id="2a63395e5cc23edb6ca284fd55193c26" category="section-title">Docker 엔진 요구 사항이 업데이트되었습니다</block>
+  <block id="a8b199c601f75b6af66327457070a9f8" category="paragraph">Connector가 Ubuntu 호스트에 설치되면 지원되는 최소 Docker Engine 버전은 이제 23.0.6입니다. 예전에는 19.3.1이었습니다.</block>
+  <block id="a0171ad16b4ca1d03af998be3b923d6f" category="paragraph">지원되는 최대 버전은 여전히 25.0.5입니다.</block>
+  <block id="0d04c8a15444402f3438c6a0e19e7890" category="section-title">이제 이메일 확인이 필요합니다</block>
+  <block id="d2fc5d70b0b08157a615d70d77cb96c2" category="paragraph">이제 BlueXP에 등록하는 신규 사용자는 로그인하기 전에 이메일 주소를 확인해야 합니다.</block>
 </blocks>
