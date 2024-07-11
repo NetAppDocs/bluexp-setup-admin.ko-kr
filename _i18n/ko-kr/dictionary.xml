@@ -4209,4 +4209,5 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="a0171ad16b4ca1d03af998be3b923d6f" category="paragraph">지원되는 최대 버전은 여전히 25.0.5입니다.</block>
   <block id="0d04c8a15444402f3438c6a0e19e7890" category="section-title">이제 이메일 확인이 필요합니다</block>
   <block id="d2fc5d70b0b08157a615d70d77cb96c2" category="paragraph">이제 BlueXP에 등록하는 신규 사용자는 로그인하기 전에 이메일 주소를 확인해야 합니다.</block>
+  <block id="096051910b67309e40aa0d0e1d279007" category="paragraph">3.9.42 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
 </blocks>
