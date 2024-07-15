@@ -18,15 +18,65 @@ summary: 특정 Linux 운영 체제에서 커넥터에 대한 지원을 추가 �
 
 
 
+== 지원되는 운영 체제
+
+BlueXP Connector는 다음 Linux 운영 체제에서 지원됩니다.
+
+[role="tabbed-block"]
+====
+.표준 모드
+--
+수동 설치::
++
+--
+* 우분투 22.04 LTS
+* Red Hat Enterprise Linux
++
+** 8.6 - 8.10
+** 9.1에서 9.3까지
+
+
+
+
+--
+BlueXP에서 구축:: 우분투 22.04 LTS
+AWS Marketplace에서 직접 구축:: 우분투 22.04 LTS
+Azure Marketplace에서 구축:: 우분투 22.04 LTS
+
+
+--
+.제한된 모드
+--
+수동 설치::
++
+--
+* 우분투 22.04 LTS
+* Red Hat Enterprise Linux
++
+** 8.6 - 8.10
+** 9.1에서 9.3까지
+
+
+
+
+--
+AWS Marketplace에서 직접 구축:: 우분투 22.04 LTS
+Azure Marketplace에서 구축:: 우분투 22.04 LTS
+
+
+--
+.비공개 모드
+--
+수동 설치:: 우분투 22.04 LTS
+
+
+--
+====
+
+
 == RHEL 8 및 9 지원
 
-BlueXP는 3.9.40 릴리즈부터 다음과 같은 버전의 Red Hat Enterprise Linux(RHEL) Connector를 지원합니다.
-
-* 8.6 - 8.9
-* 9.1에서 9.3까지
-
-
-이러한 RHEL 버전에 대한 지원에 대해서는 다음 사항에 유의하십시오.
+RHEL 8 및 9에 대한 지원에 대해서는 다음을 참조하십시오.
 
 제한 사항::
 +
@@ -77,62 +127,6 @@ RHEL 7 또는 CentOS 7에서 실행되는 기존 Connector가 있는 경우 운�
 
 
 
-== 지원되는 운영 체제 요약
-
-다음은 이전 섹션에서 설명한 운영 체제 지원에 대한 요약입니다.
-
-[role="tabbed-block"]
-====
-.표준 모드
---
-수동 설치::
-+
---
-* 우분투 22.04 LTS
-* Red Hat Enterprise Linux
-+
-** 8.6 - 8.9
-** 9.1에서 9.3까지
-
-
-
-
---
-BlueXP에서 구축:: 우분투 22.04 LTS
-AWS Marketplace에서 직접 구축:: 우분투 22.04 LTS
-Azure Marketplace에서 구축:: 우분투 22.04 LTS
-
-
---
-.제한된 모드
---
-수동 설치::
-+
---
-* 우분투 22.04 LTS
-* Red Hat Enterprise Linux
-+
-** 8.6 - 8.9
-** 9.1에서 9.3까지
-
-
-
-
---
-AWS Marketplace에서 직접 구축:: 우분투 22.04 LTS
-Azure Marketplace에서 구축:: 우분투 22.04 LTS
-
-
---
-.비공개 모드
---
-수동 설치:: 우분투 22.04 LTS
-
-
---
-====
-
-
 == 관련 링크
 
 
@@ -160,8 +154,4 @@ Azure Marketplace에서 구축:: 우분투 22.04 LTS
 * https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-working-env.html["Azure NetApp Files 작업 환경을 만듭니다"^]
 * https://docs.netapp.com/us-en/bluexp-e-series/task-discover-e-series.html["E-Series 시스템에 대해 알아보십시오"^]
 * https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["StorageGRID 시스템에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-aws.html["Amazon Kubernetes 클러스터를 추가합니다"^]
-* https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-azure.html["Azure Kubernetes 클러스터를 추가합니다"^]
-* https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-gke.html["Google Cloud Kubernetes 클러스터를 추가합니다"^]
-* https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-openshift.html["OpenShift 클러스터를 가져옵니다"^]
 
