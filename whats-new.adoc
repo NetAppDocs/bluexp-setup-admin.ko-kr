@@ -26,6 +26,8 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 BlueXP는 이제 표준 모드 또는 제한된 모드를 사용할 때 Red Hat Enterprise Linux 8.10 호스트에 Connector 설치를 지원합니다.
 
+RHEL 8.10에 대한 지원은 Connector의 3.9.40 릴리스에서 시작합니다.
+
 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오"].
 
 
