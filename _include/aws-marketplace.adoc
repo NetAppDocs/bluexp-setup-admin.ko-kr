@@ -3,7 +3,7 @@
 
 
 .단계
-. 로 이동합니다 https://aws.amazon.com/marketplace/pp/B018REK8QG["AWS 마켓플레이스의 BlueXP 페이지"^]
+. Go to the https://aws.amazon.com/marketplace/pp/prodview-jbay5iyfmu6ui["BlueXP Connector listing on the AWS Marketplace"^]
 . Marketplace 페이지에서 * Continue to Subscribe * 를 선택한 다음 * Continue to Configuration * 을 선택합니다.
 +
 image:screenshot-subscribe-aws.png["AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷"]

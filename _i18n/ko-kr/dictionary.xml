@@ -2120,8 +2120,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="801fb8cfbc6e3ffd99fcb50ae87133bd" category="paragraph"><block ref="cd13f88aaa57bb10606ac0df26b2eb23" category="inline-link-macro-rx"></block>.</block>
   <block id="b5599f9f352b1fa4cb2153ba99bdb13c" category="list-text">Connector에 필요한 권한을 포함하는 정책이 첨부된 IAM 역할</block>
   <block id="dfcbfa4ce7dbf520f2b737359dfbc591" category="list-text">IAM 사용자에 대한 AWS 마켓플레이스의 구독 및 구독 취소 권한</block>
-  <block id="7c9b14f6116e140202c359bff8bc86c2" category="inline-link">AWS 마켓플레이스의 BlueXP 페이지</block>
-  <block id="3a1757ca714434ada3988895ed0a0fab" category="list-text">로 이동합니다<block ref="aa1bf3a3349706e28315b07c47668a91" category="inline-link-rx"></block></block>
   <block id="648fca9db3d7e8e554a59d3519d8b0f6" category="inline-image-macro">AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷</block>
   <block id="973e3a2a390bb57ce9d9e16ac0145023" category="paragraph"><block ref="973e3a2a390bb57ce9d9e16ac0145023" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7c36ac5a8d104c08bd1c9905b4e5d437" category="paragraph">다음 단계에서는 콘솔에서 IAM 역할을 Connector 인스턴스에 연결할 수 있으므로 EC2 콘솔에서 인스턴스를 실행하는 방법을 설명합니다. 웹 사이트에서 시작 * 작업을 사용하면 이 작업을 수행할 수 없습니다.</block>
@@ -4205,4 +4203,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="415b27bc5d78b639dc8c74a6e8f93e19" category="section-title">RHEL 8.10 지원</block>
   <block id="562442342bba071ba7f2e5fa834d4464" category="paragraph">BlueXP는 이제 표준 모드 또는 제한된 모드를 사용할 때 Red Hat Enterprise Linux 8.10 호스트에 Connector 설치를 지원합니다.</block>
   <block id="01a9b44907bcb1139b6868b9fe7073d0" category="paragraph">RHEL 8.10에 대한 지원은 Connector의 3.9.40 릴리스에서 시작합니다.</block>
+  <block id="95dfe7c62c6772d34f6255b3027f736d" category="inline-link">BlueXP Connector listing on the AWS Marketplace</block>
+  <block id="0017322d56b9d155b01ac8380335c15b" category="list-text">Go to the<block ref="00e748787e3cd0352ad19292d67af7aa" category="inline-link-rx"></block></block>
 </blocks>
