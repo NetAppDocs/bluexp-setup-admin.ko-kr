@@ -32,7 +32,7 @@ BlueXP가 Azure에서 Connector VM을 시작하면 Connector에 Azure 구독 내
 ** link:task-install-connector-azure-marketplace.html#step-3-set-up-permissions["Azure Marketplace 배포에 대한 사용 권한을 설정합니다"]
 ** link:task-install-connector-on-prem.html#step-4-set-up-cloud-permissions["온프레미스 배포에 대한 권한을 설정합니다"]
 ** link:task-prepare-restricted-mode.html#step-6-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
-** link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
+** link:task-prepare-private-mode.html#step-6-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
 

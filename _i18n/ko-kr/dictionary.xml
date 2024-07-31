@@ -132,7 +132,6 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link-macro">BlueXP에 대한 고지 사항</block>
   <block id="98a041bbcf45b807a22068084127e26d" category="paragraph"><block ref="98a041bbcf45b807a22068084127e26d" category="inline-link-macro-rx"></block></block>
   <block id="077d70acc6fcd0e9c32a626a8ef8e416" category="paragraph">환경을 준비하고 Connector를 배포하여 BlueXP를 개인 모드로 시작하십시오.</block>
-  <block id="19b89452bb4e16dbfc6dc9d3fbbf8fc1" category="list-text">CPU, RAM, 디스크 공간, Docker Engine 등에 대한 요구사항을 충족하는 전용 Linux 호스트를 준비합니다.</block>
   <block id="8cb1247d6f1cd796c983b5b1cfbbd285" category="list-text">대상 네트워크에 대한 액세스를 제공하는 네트워킹을 설정합니다.</block>
   <block id="31b22ac218f817003d8419ad3518a02a" category="list-text">클라우드 배포의 경우 소프트웨어를 설치한 후 해당 권한을 Connector에 연결할 수 있도록 클라우드 공급자에 권한을 설정합니다.</block>
   <block id="817e58b984e5e3e7eeaf7dcb9b540fed" category="list-text">자신의 Linux 호스트에 Connector 소프트웨어를 설치합니다.</block>
@@ -3317,10 +3316,8 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="9f1bd247464191c700cb44116139a226" category="section-title">1단계: 커넥터를 설치합니다</block>
   <block id="0c636bde157e77551496ec8461e40dcc" category="section-title">2단계: BlueXP 설정</block>
   <block id="60a2819d83a7d683770230c16623234f" category="section-title">3단계: BlueXP에 권한 제공</block>
-  <block id="33df6c8bf79bb883818929fadd08fde2" category="paragraph"><block ref="c830bbf16033728edff10270fb2e90fe" category="inline-link-macro-rx"></block>.</block>
   <block id="895abbd8e532d17f2ca587c540bce83a" category="list-text"><block ref="895abbd8e532d17f2ca587c540bce83a" category="inline-link-macro-rx"></block></block>
   <block id="72323525d86fb9af6692c45c5d227ba4" category="list-text"><block ref="72323525d86fb9af6692c45c5d227ba4" category="inline-link-macro-rx"></block></block>
-  <block id="9a1ba924530ef064e3af892730568dd2" category="list-text"><block ref="9a1ba924530ef064e3af892730568dd2" category="inline-link-macro-rx"></block></block>
   <block id="dcaf9d9995c1cce5dfb4399e2434754e" category="summary">자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 Azure 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="4a121ca6348602c8e2772e9488d338a9" category="doc">Azure에서 커넥터를 수동으로 설치합니다</block>
   <block id="38c977ce808382575da9f341bee1d199" category="paragraph">을(를) 검토해야 합니다 <block ref="a2e83c328c5fe53a1b055bac582f41f6" category="inline-link-macro-rx"></block>.</block>
@@ -3395,8 +3392,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="7670b3e7fd0d9b5404a8ab86daf87444" category="section-title">1단계: 비공개 모드의 작동 방식을 이해합니다</block>
   <block id="6a0acc770010231bcc42930780e10a7e" category="section-title">단계 2: 설치 옵션을 검토합니다</block>
   <block id="50c4903873872ea1d14776db2fb74652" category="section-title">3단계: 호스트 요구 사항을 검토합니다</block>
-  <block id="ba9523b755dd436b9804d56f2425702a" category="section-title">4단계: 커넥터의 네트워킹을 준비합니다</block>
-  <block id="4a34940e5f45b6eb76dabb3e23de10f0" category="section-title">5단계: 클라우드 권한 준비</block>
   <block id="ed699bb1e56dba725718c6f093e80619" category="section-title">6단계: Google Cloud API를 활성화합니다</block>
   <block id="755bdc98f2ba455bba23e5d86a671294" category="section-title">1단계: 제한 모드의 작동 방식을 이해합니다</block>
   <block id="62e5d1121361ae6a6b8f2f35c9e1b534" category="list-text">제한된 모드에서는 커넥터에서 BlueXP 사용자 인터페이스에 액세스할 수 있습니다. BlueXP 사용자 인터페이스를 사용할 때 데이터 관리 작업을 완료하기 위해 몇 개의 엔드포인트에 연결합니다. 이러한 엔드포인트는 BlueXP 콘솔에서 특정 작업을 완료할 때 사용자 컴퓨터에서 연결됩니다.</block>
@@ -3992,10 +3987,7 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="7dffd01ec33485e74fcb637e0b8fe15a" category="list-text">Connector를 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 백업 및 복구에 단일 파일 복원 및 랜섬웨어 검사와 관련된 제한 사항이 있습니다. 자세한 내용은 을 참조하십시오<block ref="a84971be17ca73ce2bed9722547a4b2a" category="inline-link-rx"></block></block>
   <block id="b6417b62aacc6d16c1ae7a79d851d413" category="list-text">Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.</block>
   <block id="b71010c70a84a098ff97c54119ce9797" category="list-text">RHEL 8 또는 9 호스트에 Connector를 설치할 경우 컨테이너 오케스트레이션 툴로 Podman이 필요합니다. Docker Engine은 RHEL 8 및 9에서 지원되지 않습니다.</block>
-  <block id="b20f6232e01f99983ab6adfc3cb4648e" category="inline-link-macro">Podman의 요구 사항을 봅니다</block>
-  <block id="5965bb30c82006f547e51cea08649d28" category="paragraph"><block ref="b6742b68d5770c57e621fe89da84d99c" category="inline-link-macro-rx"></block>.</block>
   <block id="6949300ff5b5cf6bb192114a06c923bb" category="list-text">배포 모드</block>
-  <block id="f6b985bf429f605650402152a53dd500" category="list-text">표준 모드 또는 제한된 모드에서 BlueXP를 사용하는 경우 RHEL 8 및 9가 지원됩니다.</block>
   <block id="62ee52388b4c1539a4b357c9c16e57c6" category="list-text">새로운 수동 설치에만 해당됩니다</block>
   <block id="362134ff254c022479b85d3cb9afd90c" category="list-text">사내 또는 클라우드에서 실행되는 호스트에 Connector를 수동으로 설치할 때 RHEL 8 및 9를 _NEW_Connector 설치로 지원합니다.</block>
   <block id="ba657bf59cdaa129ee6a10872f7d63cf" category="list-text">RHEL 업그레이드</block>
@@ -4019,10 +4011,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="21b3bbb098ff9926f5de185468b47efd" category="list-text">Azure Marketplace에서 구축</block>
   <block id="fd976d7410ccbb05f33da778aade918e" category="section-title">RHEL 8 및 9를 시작하는 방법</block>
   <block id="19fbd5208079427f7255588fa19e6216" category="paragraph">호스트 요구 사항, Podman 요구 사항 및 Podman 및 Connector 설치 단계에 대한 자세한 내용은 다음 페이지를 참조하십시오.</block>
-  <block id="c7ebd4cc461f15f97b0c6bb4d8aa138a" category="list-text"><block ref="f3e58ec45f13e79fe493e5ac40efdaef" category="inline-link-rx"></block> (표준 모드)</block>
-  <block id="0a33569de64145f5ddb030c5c68f0e2f" category="list-text"><block ref="ce02a119fe20803f37d74f2f696ae608" category="inline-link-rx"></block> (표준 모드)</block>
-  <block id="b9ab4eedcc76eaef5111c38dd7cf6955" category="list-text"><block ref="adf5c1237bee96f4b87ff5eb3fd3c25b" category="inline-link-rx"></block> (표준 모드)</block>
-  <block id="1d054abd9ef4fcc0992047bc974a0ca7" category="list-text"><block ref="5f47d3df7f8a6f7d2b2dc0a0630af052" category="inline-link-rx"></block> (표준 모드)</block>
   <block id="9f1e71ff4946538e6e8d4160102056bb" category="list-text"><block ref="9f1e71ff4946538e6e8d4160102056bb" category="inline-link-rx"></block></block>
   <block id="cd4dc0cbdf60f743093e390cb5077d8b" category="section-title">작업 환경을 재검색하는 방법</block>
   <block id="8c3d753bf73570be606a9b0e412a89ca" category="paragraph">새 Connector 배포 후 작업 환경을 다시 검색하려면 다음 페이지를 참조하십시오.</block>
@@ -4165,7 +4153,6 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="4fe47b0a38e9cc2f08e1ebd6f66fc340" category="paragraph">BlueXP 사용<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 를 설치합니다<block ref="a23365e1ae67810a7446b65d3be9a5d0" prefix=" " category="inline-code"></block> 디렉토리 및 컨텐츠입니다.</block>
   <block id="6625b96831c913865dcc04d700d00a02" category="paragraph">BlueXP를 사용하려면 이 공간이 필요합니다<block ref="ca905eb4a00d34150573153a09e2e79b" prefix=" " category="inline-code"></block> Docker 또는 Podman은 이 디렉토리 내에 컨테이너를 생성하도록 설계되었기 때문입니다. 특히 에서 컨테이너를 만듭니다<block ref="af5045a6e72956f67984a97cd3e8b9da" prefix=" " category="inline-code"></block> 디렉토리. 이 공간에서는 외부 마운트 또는 심링크가 작동하지 않습니다.</block>
   <block id="2e71b3fb71d89f18906d4807a6011e20" category="list-text">지원되는 운영 체제</block>
-  <block id="16affed9b9386a1e06dfd59de9b05f10" category="paragraph">커넥터는 이 운영 체제의 영어 버전에서 지원됩니다.</block>
   <block id="06cfdcafd69514150ade31a714fa78db" category="list-text">지원되는 운영 체제를 실행하도록 인증된 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.</block>
   <block id="1c0a2f304cb94000fe79271bae1284df" category="list-text">Ubuntu에는 Docker 엔진이 필요합니다.</block>
   <block id="eb79e7adcda869f967a810da89679252" category="paragraph">2024년 6월 30일에 RHEL 7은 EOM(유지 관리 종료)에 도달했으며 CentOS 7은 EOL(수명 종료)에 도달했습니다. NetApp는 2024년 6월 30일에 이들 Linux 배포판에서 커넥터 지원을 중단했습니다.</block>
@@ -4205,4 +4192,23 @@ Google Cloud 또는 에서는 지원되지 않습니다<block ref="da2732e6e9a1b
   <block id="01a9b44907bcb1139b6868b9fe7073d0" category="paragraph">RHEL 8.10에 대한 지원은 Connector의 3.9.40 릴리스에서 시작합니다.</block>
   <block id="95dfe7c62c6772d34f6255b3027f736d" category="inline-link">BlueXP Connector listing on the AWS Marketplace</block>
   <block id="0017322d56b9d155b01ac8380335c15b" category="list-text">Go to the<block ref="00e748787e3cd0352ad19292d67af7aa" category="inline-link-rx"></block></block>
+  <block id="6c3a57872e006099844f13049e7b1891" category="list-text"><block ref="6c3a57872e006099844f13049e7b1891" category="inline-link-macro-rx"></block></block>
+  <block id="00e6604adbc44c85a390ab929076d0bb" category="list-text">표준 모드, 제한된 모드 및 프라이빗 모드에서 BlueXP를 사용하는 경우 RHEL 8 및 9가 지원됩니다.</block>
+  <block id="f3e58ec45f13e79fe493e5ac40efdaef" category="list-text"><block ref="f3e58ec45f13e79fe493e5ac40efdaef" category="inline-link-rx"></block></block>
+  <block id="ce02a119fe20803f37d74f2f696ae608" category="list-text"><block ref="ce02a119fe20803f37d74f2f696ae608" category="inline-link-rx"></block></block>
+  <block id="adf5c1237bee96f4b87ff5eb3fd3c25b" category="list-text"><block ref="adf5c1237bee96f4b87ff5eb3fd3c25b" category="inline-link-rx"></block></block>
+  <block id="5f47d3df7f8a6f7d2b2dc0a0630af052" category="list-text"><block ref="5f47d3df7f8a6f7d2b2dc0a0630af052" category="inline-link-rx"></block></block>
+  <block id="f19b5217f0e887d7e5547d736ab648ff" category="paragraph"><block ref="f19b5217f0e887d7e5547d736ab648ff" category="inline-link-rx"></block></block>
+  <block id="bce5cf056b28239df2bdb7b2083217ac" category="paragraph"><block ref="242e7f2f46e42a12308aa354a9159aef" category="inline-link-macro-rx"></block>..</block>
+  <block id="b25308e5b7cefc33ec331b935d12e84d" category="paragraph">Podman 또는 Docker Engine을 설치하여 Connector용 호스트를 준비해야 합니다.</block>
+  <block id="4f11400d5bfc49418f8fe9e78ffbc58c" category="section-title">2024년 7월 31일</block>
+  <block id="b9cf377931ad2ee7b1d42618c6c12fa5" category="section-title">비공개 모드 해제(3.9.42)</block>
+  <block id="5d515ef1c3774ed67ad6115621a1ca59" category="paragraph">이제 NetApp Support 사이트에서 새로운 비공개 모드 릴리스를 다운로드할 수 있습니다.</block>
+  <block id="de4d4b8489d091cd028889fa8739a4a3" category="paragraph">이 릴리즈에는 BlueXP를 프라이빗 모드로 사용할 때 Red Hat Enterprise Linux 8 또는 9 호스트에 Connector를 설치하는 지원이 포함되어 있습니다. 지원되는 RHEL 버전은 다음과 같습니다.</block>
+  <block id="2791ae5af0f1b2a708aaa92b1fddb49e" category="section-title">이 릴리스에 포함된 버전입니다</block>
+  <block id="ee91704d04c9c24001ba7aa413122767" category="paragraph">이 릴리즈에는 프라이빗 모드에서 지원되는 다음과 같은 BlueXP 서비스 버전이 포함됩니다.</block>
+  <block id="58660abbd738b63f91f751c0fcd3787d" category="cell">3.9.42</block>
+  <block id="09fcc3c3a46a63684b907c89bb2e4b7b" category="cell">2024년 7월 18일</block>
+  <block id="4736cb006ef02fa673f618379e2106bd" category="cell">2024년 7월 1일(버전 1.33)</block>
+  <block id="8009eebf05fd33b87750f8b4048986f7" category="cell">2024년 6월 10일</block>
 </blocks>

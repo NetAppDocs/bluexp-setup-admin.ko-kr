@@ -67,7 +67,19 @@ Azure Marketplace에서 구축:: 우분투 22.04 LTS
 --
 .비공개 모드
 --
-수동 설치:: 우분투 22.04 LTS
+수동 설치::
++
+--
+* 우분투 22.04 LTS
+* Red Hat Enterprise Linux
++
+** 8.6 - 8.10
+** 9.1에서 9.3까지
+
+
+
+
+--
 
 
 --
@@ -87,12 +99,7 @@ RHEL 8 및 9에 대한 지원에 대해서는 다음을 참조하십시오.
 
 --
 컨테이너 오케스트레이션 툴:: RHEL 8 또는 9 호스트에 Connector를 설치할 경우 컨테이너 오케스트레이션 툴로 Podman이 필요합니다. Docker Engine은 RHEL 8 및 9에서 지원되지 않습니다.
-+
---
-link:task-install-connector-on-prem.html#step-1-review-host-requirements["Podman의 요구 사항을 봅니다"].
-
---
-배포 모드:: 표준 모드 또는 제한된 모드에서 BlueXP를 사용하는 경우 RHEL 8 및 9가 지원됩니다.
+배포 모드:: 표준 모드, 제한된 모드 및 프라이빗 모드에서 BlueXP를 사용하는 경우 RHEL 8 및 9가 지원됩니다.
 새로운 수동 설치에만 해당됩니다:: 사내 또는 클라우드에서 실행되는 호스트에 Connector를 수동으로 설치할 때 RHEL 8 및 9를 _NEW_Connector 설치로 지원합니다.
 RHEL 업그레이드:: RHEL 7 호스트에서 실행 중인 기존 Connector가 있는 경우 RHEL 7 운영 체제를 RHEL 8 또는 9로 업그레이드할 수 없습니다. <<RHEL 7 또는 CentOS 7의 기존 커넥터,RHEL 7 또는 CentOS 7의 기존 커넥터에 대해 자세히 알아보십시오>>.
 
@@ -135,13 +142,28 @@ RHEL 7 또는 CentOS 7에서 실행되는 기존 Connector가 있는 경우 운�
 
 호스트 요구 사항, Podman 요구 사항 및 Podman 및 Connector 설치 단계에 대한 자세한 내용은 다음 페이지를 참조하십시오.
 
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["온-프레미스에 커넥터를 설치하고 설정합니다"] (표준 모드)
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-aws-manual.html["Connector를 AWS에 수동으로 설치합니다"] (표준 모드)
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-azure-manual.html["Azure에서 커넥터를 수동으로 설치합니다"] (표준 모드)
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-google-manual.html["Google Cloud에 Connector를 수동으로 설치합니다"] (표준 모드)
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-prepare-restricted-mode.html["제한된 모드에서 배포를 준비합니다"]
+[role="tabbed-block"]
+====
+.표준 모드
+--
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["온-프레미스에 커넥터를 설치하고 설정합니다"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-aws-manual.html["Connector를 AWS에 수동으로 설치합니다"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-azure-manual.html["Azure에서 커넥터를 수동으로 설치합니다"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-google-manual.html["Google Cloud에 Connector를 수동으로 설치합니다"]
 
 
+--
+.제한된 모드
+--
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-prepare-restricted-mode.html["제한된 모드에서 배포를 준비합니다"]
+
+--
+.비공개 모드
+--
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-prepare-private-mode.html["프라이빗 모드로 구축을 준비합니다"]
+
+--
+====
 
 
 === 작업 환경을 재검색하는 방법

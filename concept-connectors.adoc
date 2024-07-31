@@ -157,7 +157,7 @@ BlueXP에서 직접 Connector를 만들려면 특정 권한이 필요하며 Conn
 
 
 * link:task-prepare-restricted-mode.html#step-6-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
-* link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-private-mode.html#step-6-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
 
 Connector에 일상적인 작업에 필요한 정확한 사용 권한을 보려면 다음 페이지를 참조하십시오.

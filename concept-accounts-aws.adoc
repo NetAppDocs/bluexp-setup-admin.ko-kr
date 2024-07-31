@@ -141,5 +141,5 @@ Marketplace를 사용하는 경우 사용 권한이 동일한 방식으로 제�
 
 
 * link:task-prepare-restricted-mode.html#step-6-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
-* link:task-prepare-private-mode.html#step-5-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
+* link:task-prepare-private-mode.html#step-6-prepare-cloud-permissions["비공개 모드에 대한 권한을 설정합니다"]
 
