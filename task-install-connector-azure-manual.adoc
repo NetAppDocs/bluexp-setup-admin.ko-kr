@@ -46,9 +46,9 @@ Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.
 
 --
 하이퍼바이저:: 지원되는 운영 체제를 실행하도록 인증된 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.
-CPU:: 코어 4개 또는 vCPU 4개
-RAM:: 14GB
-Azure VM 크기입니다:: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. DS3 v2를 권장합니다.
+CPU:: 코어 8개 또는 vCPU 8개
+RAM:: 32GB
+Azure VM 크기입니다:: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. Standard_D8s_v3을 권장합니다.
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 +
 --
@@ -61,10 +61,39 @@ BlueXP 사용 `/opt` 를 설치합니다 `/opt/application/netapp` 디렉토리 
 BlueXP를 사용하려면 이 공간이 필요합니다 `/var` Docker 또는 Podman은 이 디렉토리 내에 컨테이너를 생성하도록 설계되었기 때문입니다. 특히 에서 컨테이너를 만듭니다 `/var/lib/containers/storage` 디렉토리. 이 공간에서는 외부 마운트 또는 심링크가 작동하지 않습니다.
 
 --
+
+
+[[podman-versions]]
 컨테이너 오케스트레이션 툴:: 운영 체제에 따라 Connector를 설치하기 전에 Podman 또는 Docker Engine이 필요합니다.
 +
 --
-* Red Hat Enterprise Linux 8 및 9에는 Podman 버전 4.6.1이 필요합니다.
+* Red Hat Enterprise Linux 8 및 9에는 Podman이 필요합니다.
++
+[cols="50a,50a"]
+|===
+| RHEL 버전 | 지원되는 Podman 버전입니다 
+
+
+ a| 
+RHEL 8.6 ~ 8.9
+ a| 
+포드먼 4.6.1
+
+
+
+ a| 
+RHEL 8.10 를 참조하십시오
+ a| 
+Podman 4.6.1 및 4.9.4
+
+
+
+ a| 
+RHEL 9.1 ~ 9.3
+ a| 
+포드먼 4.6.1
+
+|===
 +
 Podman의 경우 다음 전제 조건을 충족해야 합니다.
 
@@ -101,7 +130,7 @@ Podman의 경우 다음 전제 조건을 충족해야 합니다.
 ====
 .팟맨
 --
-Podman 4.6.1을 설치합니다.
+지원되는 버전의 Podman을 설치합니다. <<podman-versions,BlueXP 가 지원하는 Podman 버전을 봅니다>>..
 
 .단계
 . podman-docker 패키지가 호스트에 설치되어 있는 경우 이를 제거합니다.
@@ -121,16 +150,22 @@ Red Hat Enterprise Linux 9의 경우:
 +
 [source, cli]
 ----
-sudo dnf install podman-2:4.6.1
+sudo dnf install podman-2:<version>
 ----
++
+여기서 <version>는 설치 중인 Podman의 지원되는 버전입니다. <<podman-versions,BlueXP 가 지원하는 Podman 버전을 봅니다>>..
+
 +
 Red Hat Enterprise Linux 8의 경우:
 
 +
 [source, cli]
 ----
-sudo dnf install podman-3:4.6.1
+sudo dnf install podman-3:<version>
 ----
++
+여기서 <version>는 설치 중인 Podman의 지원되는 버전입니다. <<podman-versions,BlueXP 가 지원하는 Podman 버전을 봅니다>>..
+
 . podman.socket 서비스를 활성화하고 시작합니다.
 +
 [source, cli]

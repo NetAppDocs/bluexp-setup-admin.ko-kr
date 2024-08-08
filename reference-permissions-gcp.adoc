@@ -296,10 +296,6 @@ compute.subnetworks.useExternalIp 으로 문의하십시오
 compute.instances.addAccessConfig 으로 문의하십시오 | BlueXP 분류를 사용하도록 설정합니다. 
 
 
-| container.clusters.get을 선택합니다
--container.clusters.list 를 선택합니다 | Google Kubernetes Engine에서 실행 중인 Kubernetes 클러스터를 검색할 수 있습니다. 
-
-
 | compute.instanceGroups.get 으로 문의하십시오
 -compute.addresses.get
 compute.instances.updateNetworkInterface 으로 문의하십시오 | Cloud Volumes ONTAP HA 쌍에서 스토리지 VM을 생성하고 관리합니다. 

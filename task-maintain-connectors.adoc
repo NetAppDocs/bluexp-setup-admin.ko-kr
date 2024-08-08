@@ -33,8 +33,8 @@ BlueXP에서 Connector를 직접 생성한 경우 BlueXP는 기본 구성을 사
 
 CPU 및 RAM 요구 사항은 다음과 같습니다.
 
-CPU:: 코어 4개 또는 vCPU 4개
-RAM:: 14GB
+CPU:: 코어 8개 또는 vCPU 8개
+RAM:: 32GB
 
 
 link:reference-connector-default-config.html["Connector의 기본 설정에 대해 알아봅니다"].

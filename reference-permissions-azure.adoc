@@ -166,7 +166,10 @@ BlueXP가 Azure에서 Connector VM을 시작하면 Connector에 Azure 구독 내
                     "Microsoft.Synapse/workspaces/privateEndpointConnectionsApproval/action",
                     "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action",
                     "Microsoft.Compute/images/write",
-                    "Microsoft.Network/loadBalancers/frontendIPConfigurations/read"
+                    "Microsoft.Network/loadBalancers/frontendIPConfigurations/read",
+                    "Microsoft.Compute/virtualMachineScaleSets/write",
+                    "Microsoft.Compute/virtualMachineScaleSets/read",
+                    "Microsoft.Compute/virtualMachineScaleSets/delete"
     ],
     "NotActions": [],
     "AssignableScopes": [],
@@ -698,38 +701,16 @@ Connector는 Azure에서 Cloud Volumes ONTAP를 배포 및 관리하기 위해 �
 
 
 | 생성 중에 스토리지 계정을 암호화합니다 | Microsoft.ManagedIdentity/userAssignedIdentities/assign/action 을 참조하십시오 | 예 | 예 | 아니요 
+
+
+.3+| Cloud Volumes ONTAP의 특정 영역을 지정하려면 유연한 조정 모드에서 가상 머신 확장 집합을 사용합니다 | Microsoft를 선택합니다. Compute/virtualMachineScaleSets/write | 예 | 아니요 | 아니요 
+
+
+| Microsoft를 선택합니다. Compute/virtualMachineScaleSets/read | 예 | 아니요 | 아니요 
+
+
+| Microsoft를 선택합니다. 계산/virtualMachineScaleSets/delete | 아니요 | 아니요 | 예 
 |===
-
-
-=== 에지 캐싱
-
-Connector는 BlueXP 에지 캐싱을 사용할 때 다음과 같은 API 요청을 수행합니다.
-
-* Microsoft.Insights/메트릭/읽기
-* Microsoft.Compute/virtualMachines/extensions/write
-* Microsoft.Compute/virtualMachines/extensions/read
-* Microsoft.Compute/virtualMachines/extensions/delete
-* Microsoft.Compute/virtualMachines/delete
-* Microsoft.Network/networkInterfaces/delete
-* Microsoft.Network/networkSecurityGroups/delete
-* Microsoft.Resources/Deployments/Delete 를 참조하십시오
-
-
-
-
-=== 쿠버네티스
-
-Connector는 Azure Kubernetes Service(AKS)에서 실행 중인 클러스터를 검색하고 관리하기 위해 다음과 같은 API 요청을 수행합니다.
-
-* Microsoft.Compute/virtualMachines/read
-* Microsoft.Resources/서브스크립션/위치/읽기
-* Microsoft.Resources/서브스크립션/운영 결과/읽기
-* Microsoft.Resources/Subscriptions/resourceGroups/read
-* Microsoft.Resources/Subscriptions/resourcegroups/resources/read
-* Microsoft.ContainerService/managedClusters/read
-* Microsoft.ContainerService/managedClusters/listClusterUserCredential/action입니다
-
-
 
 
 === 계층화
@@ -754,6 +735,17 @@ Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2024년 08월 07일
+
+가상 머신 스케일 세트의 Cloud Volumes ONTAP 지원에 필요한 다음 권한이 JSON 정책에 추가되었습니다.
+
+* Microsoft를 선택합니다. Compute/virtualMachineScaleSets/write
+* Microsoft를 선택합니다. Compute/virtualMachineScaleSets/read
+* Microsoft를 선택합니다. 계산/virtualMachineScaleSets/delete
+
 
 
 

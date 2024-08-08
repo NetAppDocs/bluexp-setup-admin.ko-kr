@@ -443,9 +443,9 @@ Connector를 생성한 동일한 Google Cloud 계정에 Google Cloud Storage 버
 * 네트워킹 요구사항을 충족하는 VPC 및 서브넷
 * VM 인스턴스 요구 사항 이해
 +
-** * CPU *: 4코어 또는 4개의 vCPU
-** * RAM *: 14GB
-** * 기계 유형 * : 우리는 n2-standard-4를 권장합니다.
+** * CPU *: 8코어 또는 8개의 vCPU
+** * RAM *: 32GB
+** * 기계 유형 * : 우리는 n2-standard-8를 권장합니다.
 +
 Connector는 Shield로 보호된 VM 기능을 지원하는 OS가 있는 VM 인스턴스에서 Google Cloud에서 지원됩니다.
 
@@ -488,7 +488,7 @@ $ gcloud components update
 [source, bash]
 ----
 gcloud compute instances create <instance-name>
-  --machine-type=n2-standard-4
+  --machine-type=n2-standard-8
   --image-project=netapp-cloudmanager
   --image-family=cloudmanager
   --scopes=cloud-platform

@@ -68,10 +68,7 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 * 재해 복구
 * E-Series 시스템
 * 경제 효율성 ^1^
-* 에지 캐싱
 * Google Cloud Storage 버킷
-* Kubernetes 클러스터
-* 마이그레이션 보고서
 * BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합
 * 작업 복구 ^1^
 * 랜섬웨어 보호

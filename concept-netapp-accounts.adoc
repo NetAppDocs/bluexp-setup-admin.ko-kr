@@ -59,7 +59,7 @@ BlueXP에서 작업 영역은 계정의 다른 사용자와 모든 _ 작업 환�
 
 * Cloud Volumes ONTAP 시스템
 * 사내 ONTAP 클러스터
-* Kubernetes 클러스터
+* StorageGRID 시스템
 
 
 link:task-setting-up-netapp-accounts.html["작업 영역을 추가하는 방법에 대해 알아봅니다"].

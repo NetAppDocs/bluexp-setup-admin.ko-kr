@@ -56,7 +56,6 @@ BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네
 --
 * https://bluexp.netapp.com/cloud-backup["백업 및 복구"^]
 * https://bluexp.netapp.com/replication["복제"^]
-* https://bluexp.netapp.com/solutions/kubernetes["Kubernetes 워크로드의 데이터 보호"^]
 
 
 --

@@ -13,7 +13,7 @@
 ====
 .팟맨
 --
-Podman 4.6.1을 설치합니다.
+지원되는 버전의 Podman을 설치합니다. <<podman-versions,BlueXP 가 지원하는 Podman 버전을 봅니다>>..
 
 .단계
 . podman-docker 패키지가 호스트에 설치되어 있는 경우 이를 제거합니다.
@@ -33,16 +33,22 @@ Red Hat Enterprise Linux 9의 경우:
 +
 [source, cli]
 ----
-sudo dnf install podman-2:4.6.1
+sudo dnf install podman-2:<version>
 ----
++
+여기서 <version>는 설치 중인 Podman의 지원되는 버전입니다. <<podman-versions,BlueXP 가 지원하는 Podman 버전을 봅니다>>..
+
 +
 Red Hat Enterprise Linux 8의 경우:
 
 +
 [source, cli]
 ----
-sudo dnf install podman-3:4.6.1
+sudo dnf install podman-3:<version>
 ----
++
+여기서 <version>는 설치 중인 Podman의 지원되는 버전입니다. <<podman-versions,BlueXP 가 지원하는 Podman 버전을 봅니다>>..
+
 . podman.socket 서비스를 활성화하고 시작합니다.
 +
 [source, cli]
