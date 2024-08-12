@@ -50,6 +50,7 @@ Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 �
 +
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터를 위한 검색 및 관리 옵션에 대해 자세히 알아보십시오"^]
 
+* 소프트웨어 업데이트
 * 지속 가능성
 
 

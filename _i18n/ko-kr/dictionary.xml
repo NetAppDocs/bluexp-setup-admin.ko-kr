@@ -4199,4 +4199,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="094be1dbadd11ed5e81a249dfb9a643a" category="section-title">지원 대시보드 개선 사항</block>
   <block id="a0b762f6b2d72a69263357ecbb8decbc" category="paragraph">에 액세스하면<block ref="7967ef3136667db18d7f95e4158dddb2" category="inline-link-rx"></block>BlueXP 는 HTTPS 액세스에 자체 서명된 인증서를 사용합니다. 회사에서 요구하는 경우 CA(인증 기관)에서 서명한 인증서를 설치할 수 있으므로 자체 서명된 인증서보다 보안 보호가 향상됩니다. 인증서를 설치한 후 BlueXP 는 사용자가 웹 기반 콘솔에 액세스할 때 CA 서명 인증서를 사용합니다.</block>
   <block id="9cc3df8e0a65f95d62b0d0dc557d0fa9" category="section-title">2024년 8월 8일</block>
+  <block id="5009e1070e5138d1308165bc75e5706b" category="list-text">소프트웨어 업데이트</block>
 </blocks>
