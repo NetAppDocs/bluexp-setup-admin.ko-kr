@@ -30,24 +30,6 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
-==== Azure 권한 업데이트
-
-다음 권한을 포함하도록 Azure에 대한 커넥터 정책을 업데이트했습니다.
-
-[source, json]
-----
-"Microsoft.Compute/virtualMachineScaleSets/write",
-"Microsoft.Compute/virtualMachineScaleSets/read",
-"Microsoft.Compute/virtualMachineScaleSets/delete"
-----
-이러한 권한은 Cloud Volumes ONTAP의 가상 머신 확장 세트 지원에 필요합니다. 기존 연결선이 있고 이 새 기능을 사용하려면 Azure 자격 증명과 연결된 사용자 지정 역할에 이러한 권한을 추가해야 합니다.
-
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["가상 머신 확장 세트에 대한 Cloud Volumes ONTAP 지원에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-azure.html["Connector에 대한 Azure 권한을 봅니다"]..
-
-
-
-
 === CPU 및 RAM 요구 사항이 업데이트되었습니다
 
 BlueXP  및 Connector의 안정성을 높이고 성능을 개선하기 위해 이제 커넥터 가상 머신에 다음과 같은 추가 CPU 및 RAM이 필요합니다.
