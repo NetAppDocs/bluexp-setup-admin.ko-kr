@@ -4197,7 +4197,13 @@ https://support.netapp.com 으로 문의하십시오
   <block id="86a6fd8c0323b87db34eb287a461c194" category="section-title">Azure NetApp Files의 향상된 기능</block>
   <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021년 2월 9일</block>
   <block id="094be1dbadd11ed5e81a249dfb9a643a" category="section-title">지원 대시보드 개선 사항</block>
-  <block id="a0b762f6b2d72a69263357ecbb8decbc" category="paragraph">에 액세스하면<block ref="7967ef3136667db18d7f95e4158dddb2" category="inline-link-rx"></block>BlueXP 는 HTTPS 액세스에 자체 서명된 인증서를 사용합니다. 회사에서 요구하는 경우 CA(인증 기관)에서 서명한 인증서를 설치할 수 있으므로 자체 서명된 인증서보다 보안 보호가 향상됩니다. 인증서를 설치한 후 BlueXP 는 사용자가 웹 기반 콘솔에 액세스할 때 CA 서명 인증서를 사용합니다.</block>
   <block id="9cc3df8e0a65f95d62b0d0dc557d0fa9" category="section-title">2024년 8월 8일</block>
   <block id="5009e1070e5138d1308165bc75e5706b" category="list-text">소프트웨어 업데이트</block>
+  <block id="66c9d0cfd45dc71069845154fb72a8b8" category="list-text">지원되는 커넥터 버전</block>
+  <block id="4dc9e2f6078fbeb26bbafe7461aa7ecf" category="list-text">RHEL 8 및 9는 다음 버전의 Connector부터 지원됩니다.</block>
+  <block id="1316cb3dbdfa1d8facde6d30372df833" category="list-text">3.9.40 표준 모드 또는 제한 모드에서 BlueXP  사용 시</block>
+  <block id="c8fff1f28296d1ce9e5b594252b146c8" category="list-text">3.9.42 개인 모드에서 BlueXP  사용 시</block>
+  <block id="70328d3965555bdfe7c71386e9e25887" category="doc">웹 콘솔 액세스를 위한 CA 서명 인증서를 설치합니다</block>
+  <block id="2f23236775b31842c7a88b27c4b2fd2d" category="paragraph">기본적으로 BlueXP 는 자체 서명된 SSL 인증서를 사용하여 HTTPS 연결을 사용하여 에 대한 보안 액세스를<block ref="7967ef3136667db18d7f95e4158dddb2" category="inline-link-rx"></block> 제공합니다. 회사에서 요구하는 경우 CA(인증 기관)에서 서명한 인증서를 설치할 수 있으므로 자체 서명된 인증서보다 보안 보호가 향상됩니다. 인증서를 설치한 후 BlueXP 는 사용자가 웹 기반 콘솔에 액세스할 때 CA 서명 인증서를 사용합니다.</block>
+  <block id="dee6ffcadeee95a4920b20e3dff92f16" category="paragraph">기본 암호 환경은 등록된 이메일 주소에 대한 OTP(일회성 암호)입니다. 로그인할 때마다 새 OTP가 생성됩니다.</block>
 </blocks>
