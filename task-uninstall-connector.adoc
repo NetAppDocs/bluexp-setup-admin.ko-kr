@@ -48,7 +48,7 @@ _silent_는 확인 메시지를 표시하지 않고 스크립트를 실행합니
 . 커넥터용 Linux VM에 연결합니다.
 . Linux 호스트에서 다음 명령을 실행합니다.
 +
-`./opt/application/netapp/ds/cleanup.sh`
+`/opt/application/netapp/ds/cleanup.sh`
 `rm -rf /opt/application/netapp/ds`
 
 

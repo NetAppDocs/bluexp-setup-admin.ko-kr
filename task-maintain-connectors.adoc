@@ -87,11 +87,17 @@ https://cloud.google.com/compute/docs/instances/connecting-to-instance["Google C
 각 Cloud Volumes ONTAP 시스템의 백업 위치를 업데이트해야 합니다.
 
 +
-.. Cloud Volumes ONTAP CLI에서 다음 명령을 실행하여 현재 백업 타겟을 표시합니다.
+.. Cloud Volumes ONTAP CLI에서 권한 수준을 advanced로 설정합니다.
 +
 [source, cli]
 ----
-system configuration backup show
+set -privilege advanced
+----
+.. 다음 명령을 실행하여 현재 백업 타겟을 표시합니다.
++
+[source, cli]
+----
+system configuration backup settings show
 ----
 .. 다음 명령을 실행하여 백업 대상의 IP 주소를 업데이트합니다.
 +

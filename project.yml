@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Setup and administration
+  name: BlueXP setup and administration
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,7 +11,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: 설치 및 관리 문서
+  - title: BlueXP  설정 및 관리 문서
     url: "/index.html"
   - title: 릴리스 정보
     entries:
@@ -119,7 +119,7 @@ sidebar:
       entries:
       - title: VM 및 OS를 유지 관리합니다
         url: "/task-maintain-connectors.html"
-      - title: 보안 액세스를 위해 HTTPS 인증서를 설치합니다
+      - title: 웹 콘솔 액세스를 위한 CA 서명 인증서를 설치합니다
         url: "/task-installing-https-cert.html"
       - title: 프록시 서버를 사용하도록 Connector를 구성합니다
         url: "/task-configuring-proxy.html"

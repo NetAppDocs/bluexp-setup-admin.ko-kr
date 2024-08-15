@@ -185,7 +185,6 @@
   <block id="b68600c18c6dd9598d4518bc4a3f2c90" category="list-text">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.</block>
   <block id="a72a43431413f493c5087ab72327a680" category="list-text">SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
   <block id="288bb352dffecbb16aa463067359ba15" category="summary">기본적으로 BlueXP는 웹 콘솔에 대한 HTTPS 액세스를 위해 자체 서명된 인증서를 사용합니다. CA(인증 기관)에서 서명한 인증서를 설치하면 자체 서명된 인증서보다 보안 보호가 향상됩니다.</block>
-  <block id="5df0e72b51c6390f3f3b21f402ba3612" category="doc">보안 액세스를 위해 HTTPS 인증서를 설치합니다</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="section-title">시작하기 전에</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">자세히 알아보기</block>
   <block id="4a126f1568270f6124f9c053bf5a5b02" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="9cb3f4e3b2f30b874e967976f1105dcc" category="inline-link-macro-rx"></block>.</block>
@@ -2857,7 +2856,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="0d1f9ac2ac0f76a6809ba58855ffa7f5" category="list-text">옵션 1: 시스템에서 할당한 관리 ID를 사용하여 Azure VM에 사용자 지정 역할을 할당합니다.</block>
   <block id="d31f2fb13b2fed83440a04d526a6ca7d" category="list-text">옵션 2: 필요한 권한이 있는 Azure 서비스 보안 주체에 대한 자격 증명을 BlueXP에 제공합니다.</block>
   <block id="c4da032e0a3943e2f3a51ca860a71925" category="list-text">소프트웨어를 자체 호스트에 수동으로 설치하려는 경우 사용자 지정 역할을 통해 필요한 Azure 권한을 제공할 수 있도록 VM에서 시스템에서 할당한 관리 ID를 사용하도록 설정합니다.</block>
-  <block id="f53835e0f369158c476f99fda577e700" category="sidebar">설치 및 관리 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -3493,7 +3491,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="183f3a1e578d0dce86eeb393edf40a5d" category="list-text">우분투 22.04 LTS</block>
   <block id="fd1e4807d8caf9eb7b22acef39d3e5ce" category="list-text">커넥터용 Linux VM에 연결합니다.</block>
   <block id="e1b145fbf942267f38a8e6f0928d8629" category="paragraph"><block ref="9ff6aead716ef57f3a1e9e40a858062f" prefix="" category="inline-code"></block></block>
-  <block id="72b013396e56865d3673702aa9bcc731" category="paragraph"><block ref="53c9ecf44ffc5c93a5a42f4cda983463" prefix="" category="inline-code"></block><block ref="3be06caa62382aade39cdb5bcb105da0" prefix=" " category="inline-code"></block></block>
   <block id="6ae4e7f185de6791c9b45f3d273959f9" category="cell">\https://aiq.netapp.com</block>
   <block id="034ade3fc7b98591feafb7b0039b2724" category="cell">BlueXP 디지털 어드바이저에 액세스하기 위해 필요합니다.</block>
   <block id="345dbd48a6c734a7dc3b743f014493be" category="paragraph">서비스 계정은 자동화를 위해 BlueXP에 인증된 API 호출을 수행할 수 있는 "사용자" 역할을 합니다. 따라서 언제든지 퇴사할 수 있는 실제 사용자의 계정을 기반으로 자동화 스크립트를 작성할 필요가 없으므로 자동화를 더욱 쉽게 관리할 수 있습니다.</block>
@@ -3611,7 +3608,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="ab15c21485050b3b0c09a3b7b31d97d7" category="inline-image-macro">사용자 설정에서 사용자 이름을 편집하는 기능을 보여 주는 스크린샷.</block>
   <block id="4a784443543a41df794122c52fae1df7" category="paragraph">페더레이션 연결 또는 NetApp Support 사이트 계정으로 로그인한 경우에는 사용자 이름 편집이 지원되지 않습니다.</block>
   <block id="bf032cb5bcb45fec81b7b5b993ebabe4" category="paragraph">각 Cloud Volumes ONTAP 시스템의 백업 위치를 업데이트해야 합니다.</block>
-  <block id="2a066cad1fef063fff0ca56b5d416b10" category="list-text">Cloud Volumes ONTAP CLI에서 다음 명령을 실행하여 현재 백업 타겟을 표시합니다.</block>
   <block id="78cae36205d703274f695ea4e85f6ffe" category="list-text">다음 명령을 실행하여 백업 대상의 IP 주소를 업데이트합니다.</block>
   <block id="daf15a33710ed6188d035a01c084bee9" category="paragraph"><block ref="daf15a33710ed6188d035a01c084bee9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bbd3f8aeec942b5e418da40a3101ed3e" category="paragraph"><block ref="bbd3f8aeec942b5e418da40a3101ed3e" category="inline-image-macro-rx" type="image"></block></block>
@@ -4206,4 +4202,8 @@ https://support.netapp.com 으로 문의하십시오
   <block id="70328d3965555bdfe7c71386e9e25887" category="doc">웹 콘솔 액세스를 위한 CA 서명 인증서를 설치합니다</block>
   <block id="2f23236775b31842c7a88b27c4b2fd2d" category="paragraph">기본적으로 BlueXP 는 자체 서명된 SSL 인증서를 사용하여 HTTPS 연결을 사용하여 에 대한 보안 액세스를<block ref="7967ef3136667db18d7f95e4158dddb2" category="inline-link-rx"></block> 제공합니다. 회사에서 요구하는 경우 CA(인증 기관)에서 서명한 인증서를 설치할 수 있으므로 자체 서명된 인증서보다 보안 보호가 향상됩니다. 인증서를 설치한 후 BlueXP 는 사용자가 웹 기반 콘솔에 액세스할 때 CA 서명 인증서를 사용합니다.</block>
   <block id="dee6ffcadeee95a4920b20e3dff92f16" category="paragraph">기본 암호 환경은 등록된 이메일 주소에 대한 OTP(일회성 암호)입니다. 로그인할 때마다 새 OTP가 생성됩니다.</block>
+  <block id="3216eccdc5ba0609640cf6e084e8b99b" category="list-text">Cloud Volumes ONTAP CLI에서 권한 수준을 advanced로 설정합니다.</block>
+  <block id="12cf6b8337c04d4e7e622d1c39b40efe" category="list-text">다음 명령을 실행하여 현재 백업 타겟을 표시합니다.</block>
+  <block id="eb34b10d2fd231974ff6010bc6aa4d4b" category="paragraph"><block ref="5b014535a251b1d5d0c9044a548a8e20" prefix="" category="inline-code"></block><block ref="3be06caa62382aade39cdb5bcb105da0" prefix=" " category="inline-code"></block></block>
+  <block id="60b81afd9ad770d185b5a9b9f08f9809" category="sidebar">BlueXP  설정 및 관리 문서</block>
 </blocks>
