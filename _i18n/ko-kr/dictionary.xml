@@ -184,7 +184,6 @@
   <block id="407c4e9fac86b98147da49acd4fa0d01" category="section-title">포트</block>
   <block id="b68600c18c6dd9598d4518bc4a3f2c90" category="list-text">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.</block>
   <block id="a72a43431413f493c5087ab72327a680" category="list-text">SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
-  <block id="288bb352dffecbb16aa463067359ba15" category="summary">기본적으로 BlueXP는 웹 콘솔에 대한 HTTPS 액세스를 위해 자체 서명된 인증서를 사용합니다. CA(인증 기관)에서 서명한 인증서를 설치하면 자체 서명된 인증서보다 보안 보호가 향상됩니다.</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="section-title">시작하기 전에</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">자세히 알아보기</block>
   <block id="4a126f1568270f6124f9c053bf5a5b02" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="9cb3f4e3b2f30b874e967976f1105dcc" category="inline-link-macro-rx"></block>.</block>
@@ -203,7 +202,6 @@
   <block id="dfcb11207afc726eac079165a5f0eceb" category="cell">고유한 CA 서명 인증서를 설치합니다</block>
   <block id="7ed9585d1e9f5512ccb2cfc8bd359ad0" category="list-text">CA 서명 인증서 설치 * 를 선택합니다.</block>
   <block id="b554e76151718540fd187e6430e1ffd7" category="list-text">인증서 파일과 개인 키를 모두 로드한 다음 * 설치 * 를 선택합니다.</block>
-  <block id="6ff27fa7db63494c1f82ca8c8064562f" category="paragraph">BlueXP는 이제 CA 서명 인증서를 사용하여 안전한 HTTPS 액세스를 제공합니다. 다음 이미지는 보안 액세스를 위해 구성된 BlueXP 계정을 보여줍니다.</block>
   <block id="1f2fc480562990aa572340adbb999816" category="inline-image-macro">스크린샷: 서명된 인증서를 설치한 후 HTTPS 설정 페이지를 표시합니다. 이 페이지에는 인증서 속성과 인증서를 갱신할 수 있는 옵션이 표시됩니다.</block>
   <block id="ef9bdb2657b8a54fd5e6d5f9b03516c0" category="paragraph"><block ref="ef9bdb2657b8a54fd5e6d5f9b03516c0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c817de507a4c172290a84aec3100fc8a" category="section-title">BlueXP HTTPS 인증서를 갱신합니다</block>
@@ -4196,7 +4194,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="1316cb3dbdfa1d8facde6d30372df833" category="list-text">3.9.40 표준 모드 또는 제한 모드에서 BlueXP  사용 시</block>
   <block id="c8fff1f28296d1ce9e5b594252b146c8" category="list-text">3.9.42 개인 모드에서 BlueXP  사용 시</block>
   <block id="70328d3965555bdfe7c71386e9e25887" category="doc">웹 콘솔 액세스를 위한 CA 서명 인증서를 설치합니다</block>
-  <block id="2f23236775b31842c7a88b27c4b2fd2d" category="paragraph">기본적으로 BlueXP 는 자체 서명된 SSL 인증서를 사용하여 HTTPS 연결을 사용하여 에 대한 보안 액세스를<block ref="7967ef3136667db18d7f95e4158dddb2" category="inline-link-rx"></block> 제공합니다. 회사에서 요구하는 경우 CA(인증 기관)에서 서명한 인증서를 설치할 수 있으므로 자체 서명된 인증서보다 보안 보호가 향상됩니다. 인증서를 설치한 후 BlueXP 는 사용자가 웹 기반 콘솔에 액세스할 때 CA 서명 인증서를 사용합니다.</block>
   <block id="dee6ffcadeee95a4920b20e3dff92f16" category="paragraph">기본 암호 환경은 등록된 이메일 주소에 대한 OTP(일회성 암호)입니다. 로그인할 때마다 새 OTP가 생성됩니다.</block>
   <block id="3216eccdc5ba0609640cf6e084e8b99b" category="list-text">Cloud Volumes ONTAP CLI에서 권한 수준을 advanced로 설정합니다.</block>
   <block id="12cf6b8337c04d4e7e622d1c39b40efe" category="list-text">다음 명령을 실행하여 현재 백업 타겟을 표시합니다.</block>
@@ -4216,8 +4213,12 @@ https://support.netapp.com 으로 문의하십시오
   <block id="262115d0d4a65fe9bcd074ab5666018a" category="paragraph">Cloud Volumes ONTAP 9.15.1 릴리스를 지원하도록 커넥터를 업데이트했습니다.</block>
   <block id="ede74fed38968a6f0c0dcebc3102b859" category="paragraph">이 릴리스에 대한 지원에는 Azure용 커넥터 정책에 대한 업데이트가 포함되어 있습니다. 이제 정책에 다음 권한이 포함됩니다.</block>
   <block id="c78a856f5972910d86f9b588fe9783e6" category="paragraph">이러한 권한은 Cloud Volumes ONTAP의 가상 머신 확장 세트 지원에 필요합니다. 기존 연결선이 있고 이 새 기능을 사용하려면 Azure 자격 증명과 연결된 사용자 지정 역할에 이러한 권한을 추가해야 합니다.</block>
-  <block id="33deee49118b5c8f42cddf68ea82eb12" category="inline-link">가상 머신 확장 세트에 대한 Cloud Volumes ONTAP 지원에 대해 알아보십시오</block>
-  <block id="d68b9311c71dab46bbfe2456fb69212b" category="list-text"><block ref="d68b9311c71dab46bbfe2456fb69212b" category="inline-link-rx"></block></block>
   <block id="21952e368aec0a06297b408b56d39588" category="inline-link">Connector에 대한 Azure 권한을 봅니다</block>
   <block id="aee78f717e27d8af727663a423980af9" category="list-text"><block ref="30ea7e04713feb92caddbe86eeb922d8" category="inline-link-rx"></block>..</block>
+  <block id="649038b676315e0ebdd7132fcd5362c2" category="summary">제한된 모드 또는 개인 모드에서 BlueXP 를 사용하는 경우 웹 기반 콘솔에 대한 사용자 액세스를 위해 CA 서명 인증서를 설치합니다.</block>
+  <block id="76b215b1722d5e63e6379d518b352edf" category="doc">웹 기반 콘솔 액세스를 위한 CA 서명 인증서를 설치합니다</block>
+  <block id="40e7815d87fea23da90e3571602f7f78" category="paragraph">제한된 모드 또는 비공개 모드에서 BlueXP 를 사용하는 경우 클라우드 지역 또는 온프레미스에 배포된 커넥터 가상 머신에서 사용자 인터페이스에 액세스할 수 있습니다. 기본적으로 BlueXP 는 자체 서명된 SSL 인증서를 사용하여 커넥터에서 실행되는 웹 기반 콘솔에 대한 보안 HTTPS 액세스를 제공합니다. 회사에서 요구하는 경우 CA(인증 기관)에서 서명한 인증서를 설치할 수 있으므로 자체 서명된 인증서보다 보안 보호가 향상됩니다. 인증서를 설치한 후 BlueXP 는 사용자가 웹 기반 콘솔에 액세스할 때 CA 서명 인증서를 사용합니다.</block>
+  <block id="e7b76852295808494e2734a85e108067" category="paragraph">BlueXP는 이제 CA 서명 인증서를 사용하여 안전한 HTTPS 액세스를 제공합니다. 다음 이미지는 보안 액세스를 위해 구성된 커넥터를 보여 줍니다.</block>
+  <block id="1b41af4e937fd3b48c53451988ba06b5" category="inline-link">Cloud Volumes ONTAP 9.15.1 릴리스에 대해 알아봅니다</block>
+  <block id="dcc26903c10160517882b9dad3e9f26f" category="list-text"><block ref="dcc26903c10160517882b9dad3e9f26f" category="inline-link-rx"></block></block>
 </blocks>

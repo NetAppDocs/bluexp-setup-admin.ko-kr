@@ -36,7 +36,7 @@ Cloud Volumes ONTAP 9.15.1 릴리스를 지원하도록 커넥터를 업데이�
 ----
 이러한 권한은 Cloud Volumes ONTAP의 가상 머신 확장 세트 지원에 필요합니다. 기존 연결선이 있고 이 새 기능을 사용하려면 Azure 자격 증명과 연결된 사용자 지정 역할에 이러한 권한을 추가해야 합니다.
 
-* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["가상 머신 확장 세트에 대한 Cloud Volumes ONTAP 지원에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["Cloud Volumes ONTAP 9.15.1 릴리스에 대해 알아봅니다"^]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-azure.html["Connector에 대한 Azure 권한을 봅니다"]..
 
 
