@@ -4063,7 +4063,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="43a4336ace07071a0817d23211d30402" category="list-text">AWS: t3.2xlarge</block>
   <block id="70e7db9a896d903493a8716aa3885ee7" category="list-text">Azure: Standard_D8s_v3</block>
   <block id="1a0e003291457a847a85677ad5244c4e" category="list-text">Google Cloud: n2-standard-8</block>
-  <block id="7ef0b49c93a0c955c309b5fea693d698" category="paragraph">이 요구 사항은 새 커넥터와 기존 커넥터에 적용됩니다.</block>
   <block id="fecbdb7e41beb7c2b4125b62d71b116d" category="section-title">RHEL 8.10에서 Podman 4.9.4 지원</block>
   <block id="601e92646453def880eec16da18e4390" category="paragraph">이제 Red Hat Enterprise Linux 8.10 호스트에 Connector를 설치할 때 Podman 버전 4.3.4가 지원됩니다.</block>
   <block id="18ecc589a4f329e3ba95ac4e285b4504" category="section-title">ID 페더레이션에 대한 사용자 유효성 검사</block>
@@ -4221,4 +4220,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="e7b76852295808494e2734a85e108067" category="paragraph">BlueXP는 이제 CA 서명 인증서를 사용하여 안전한 HTTPS 액세스를 제공합니다. 다음 이미지는 보안 액세스를 위해 구성된 커넥터를 보여 줍니다.</block>
   <block id="1b41af4e937fd3b48c53451988ba06b5" category="inline-link">Cloud Volumes ONTAP 9.15.1 릴리스에 대해 알아봅니다</block>
   <block id="dcc26903c10160517882b9dad3e9f26f" category="list-text"><block ref="dcc26903c10160517882b9dad3e9f26f" category="inline-link-rx"></block></block>
+  <block id="9d97f1d57b6500707266656cdf2bf526" category="paragraph">업데이트된 CPU 및 RAM 요구 사항은 모든 새 커넥터에 적용됩니다. 기존 커넥터의 경우 향상된 성능과 안정성을 제공하기 위해 CPU 및 RAM을 늘리는 것이 좋습니다.</block>
 </blocks>
