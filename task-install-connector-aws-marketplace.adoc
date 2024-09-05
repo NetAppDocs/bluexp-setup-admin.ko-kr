@@ -193,7 +193,7 @@ AWS Marketplace에서 Connector를 생성하면 기본 구성을 사용하여 AW
 . Go to the https://aws.amazon.com/marketplace/pp/prodview-jbay5iyfmu6ui["BlueXP Connector listing on the AWS Marketplace"^]
 . 마켓플레이스 페이지에서 * 구독 계속 * 을 선택합니다.
 +
-image:screenshot-subscribe-aws.png["AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷"]
+image:screenshot-subscribe-aws-continue.png["AWS Marketplace에서 Continue to Subscribe and Continue to Configuration 버튼을 표시하는 스크린샷"]
 
 . 소프트웨어를 구독하려면 * 약관 동의 * 를 선택합니다.
 +
