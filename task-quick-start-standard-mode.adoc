@@ -41,7 +41,7 @@ BlueXP 계정 관리자는 클라우드 또는 온프레미스 네트워크에 �
 * link:concept-install-options-aws.html["AWS에서 커넥터를 생성하는 방법에 대해 알아보십시오"]
 * link:concept-install-options-azure.html["Azure에서 커넥터를 만드는 방법에 대해 알아봅니다"]
 * link:concept-install-options-google.html["Google Cloud에서 Connector를 만드는 방법을 알아보십시오"]
-* link:task-install-connector-on-prem.html["온-프레미스에서 커넥터를 만드는 방법에 대해 알아봅니다"]
+* link:task-install-connector-on-prem.html["온-프레미스로 커넥터를 만드는 방법에 대해 알아봅니다"]
 
 
 [role="quick-margin-para"]

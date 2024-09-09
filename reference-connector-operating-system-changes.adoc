@@ -33,7 +33,7 @@ BlueXP Connector는 다음 Linux 운영 체제에서 지원됩니다.
 * Red Hat Enterprise Linux
 +
 ** 8.6 - 8.10
-** 9.1에서 9.3까지
+** 9.1 - 9.4
 
 
 
@@ -54,7 +54,7 @@ Azure Marketplace에서 구축:: 우분투 22.04 LTS
 * Red Hat Enterprise Linux
 +
 ** 8.6 - 8.10
-** 9.1에서 9.3까지
+** 9.1 - 9.4
 
 
 
@@ -154,7 +154,7 @@ RHEL 7 또는 CentOS 7에서 실행되는 기존 Connector가 있는 경우 운�
 ====
 .표준 모드
 --
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["온-프레미스에 커넥터를 설치하고 설정합니다"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["Connector 온-프레미스를 설치하고 설정합니다"]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-aws-manual.html["Connector를 AWS에 수동으로 설치합니다"]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-azure-manual.html["Azure에서 커넥터를 수동으로 설치합니다"]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-google-manual.html["Google Cloud에 Connector를 수동으로 설치합니다"]

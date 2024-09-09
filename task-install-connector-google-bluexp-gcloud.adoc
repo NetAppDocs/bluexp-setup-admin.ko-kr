@@ -14,10 +14,12 @@ summary: BlueXP에서 또는 gcloud를 사용하여 Google Cloud에 Connector를
 
 
 [role="lead"]
-BlueXP에서 또는 gcloud를 사용하여 Google Cloud에 Connector를 생성하려면 네트워킹을 설정하고 Google Cloud 권한을 준비하고 Google Cloud API를 활성화한 다음 Connector를 생성해야 합니다.
+커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션에는 BlueXP 에서 직접 또는 gcloud를 사용하여 AWS에서 커넥터를 생성하는 것이 포함됩니다. BlueXP에서 또는 gcloud를 사용하여 Google Cloud에 Connector를 생성하려면 네트워킹을 설정하고 Google Cloud 권한을 준비하고 Google Cloud API를 활성화한 다음 Connector를 생성해야 합니다.
 
 .시작하기 전에
-을(를) 검토해야 합니다 link:reference-limitations.html["커넥터 제한"].
+* 가 있어야 link:concept-connectors.html["커넥터 이해"]합니다.
+* 을(를) 검토해야 합니다 link:reference-limitations.html["커넥터 제한"].
+
 
 
 

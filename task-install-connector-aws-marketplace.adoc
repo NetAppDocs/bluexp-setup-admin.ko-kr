@@ -14,10 +14,12 @@ summary: AWS Marketplace에서 Connector를 만들려면 네트워킹을 설정�
 
 
 [role="lead"]
-AWS Marketplace에서 Connector를 만들려면 네트워킹을 설정하고 AWS 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.
+커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 AWS Marketplace에서 직접 Connector를 만드는 것입니다. AWS Marketplace에서 Connector를 만들려면 네트워킹을 설정하고 AWS 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.
 
 .시작하기 전에
-을(를) 검토해야 합니다 link:reference-limitations.html["커넥터 제한"].
+* 가 있어야 link:concept-connectors.html["커넥터 이해"]합니다.
+* 을(를) 검토해야 합니다 link:reference-limitations.html["커넥터 제한"].
+
 
 
 

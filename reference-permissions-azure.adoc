@@ -152,8 +152,6 @@ BlueXP가 Azure에서 Connector VM을 시작하면 Connector에 Azure 구독 내
                     "Microsoft.Network/networkSecurityGroups/securityRules/write",
                     "Microsoft.Network/applicationSecurityGroups/delete",
                     "Microsoft.Network/networkSecurityGroups/securityRules/delete",
-                    "Microsoft.ContainerService/managedClusters/listClusterUserCredential/action",
-                    "Microsoft.ContainerService/managedClusters/read",
                     "Microsoft.Synapse/workspaces/write",
                     "Microsoft.Synapse/workspaces/read",
                     "Microsoft.Synapse/workspaces/delete",
@@ -735,6 +733,16 @@ Connector는 일상적인 작업에 대해 다음과 같은 API 요청을 수행
 == 변경 로그
 
 권한이 추가되고 제거됨에 따라 아래 섹션에 해당 권한이 표시됩니다.
+
+
+
+=== 2024년 9월 9일
+
+BlueXP 에서 Kubernetes 클러스터의 검색 및 관리를 더 이상 지원하지 않으므로 JSON 정책에서 다음 권한이 제거되었습니다.
+
+* Microsoft.ContainerService/managedClusters/listClusterUserCredential/action입니다
+* Microsoft.ContainerService/managedClusters/read
+
 
 
 

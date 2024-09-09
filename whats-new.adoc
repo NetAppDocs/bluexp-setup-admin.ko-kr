@@ -18,6 +18,82 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
+== 2024년 9월 9일
+
+
+
+=== 커넥터 3.9.44
+
+이 릴리스에는 Docker Engine 26에 대한 지원, SSL 인증서에 대한 향상된 기능 및 버그 수정이 포함됩니다.
+
+3.9.44 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
+
+
+
+==== Docker Engine 26 지원
+
+Docker Engine은 Ubuntu 22.04 LTS에 커넥터를 설치할 때 필요한 컨테이너 오케스트레이션 도구입니다.
+
+Connector의 3.9.44 릴리즈부터 Docker Engine 26이 _NEW_Connector 설치와 함께 지원됩니다.
+
+지원되는 Docker Engine 버전의 업데이트된 목록은 다음과 같습니다.
+
+* 지원되는 최소 버전은 23.0.6입니다.
+* 지원되는 최대 버전은 26.0.0입니다.
+
+
+
+
+==== 로컬 UI 액세스를 위한 SSL 인증서가 업데이트되었습니다
+
+제한된 모드 또는 비공개 모드에서 BlueXP 를 사용하는 경우 클라우드 지역 또는 온-프레미스에 배포된 커넥터 가상 머신에서 사용자 인터페이스에 액세스할 수 있습니다. 기본적으로 BlueXP 는 자체 서명된 SSL 인증서를 사용하여 커넥터에서 실행되는 웹 기반 콘솔에 대한 보안 HTTPS 액세스를 제공합니다.
+
+이번 릴리스에서는 신규 및 기존 커넥터에 대한 SSL 인증서를 변경했습니다.
+
+* 이제 인증서의 공통 이름이 짧은 호스트 이름과 일치합니다
+* 인증서 주체 대체 이름은 호스트 시스템의 FQDN(정규화된 도메인 이름)입니다
+
+
+
+
+=== RHEL 9.4 지원
+
+이제 BlueXP 는 표준 모드 또는 제한 모드에서 BlueXP 를 사용할 때 Red Hat Enterprise Linux 9.4 호스트에 커넥터 설치를 지원합니다.
+
+RHEL 9.4에 대한 지원은 Connector의 3.9.40 릴리스에서 시작합니다.
+
+표준 모드 및 제한 모드에 대해 지원되는 RHEL 버전의 업데이트된 목록에는 다음이 포함됩니다.
+
+* 8.6 - 8.10
+* 9.1 - 9.4
+
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오"].
+
+
+
+=== 모든 RHEL 버전에서 Podman 4.9.4 지원
+
+이제 지원되는 모든 버전의 Red Hat Enterprise Linux에서 Podman 4.5.4가 지원됩니다. 버전 4.3.4는 이전에 RHEL 8.10에서만 지원되었습니다.
+
+업데이트된 Podman 버전 목록에는 Red Hat Enterprise Linux 호스트가 포함된 4.6.1 및 4.9.4 버전이 포함되어 있습니다.
+
+Podman은 Connector 3.9.40 릴리즈부터 RHEL 호스트에 필요합니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오"].
+
+
+
+=== AWS 및 Azure 권한이 업데이트되었습니다
+
+더 이상 필요하지 않은 사용 권한을 제거하도록 Connector에 대한 AWS 및 Azure 정책을 업데이트했습니다. 이 권한은 2024년 8월부터 더 이상 지원되지 않는 BlueXP  에지 캐싱 및 Kubernetes 클러스터의 검색 및 관리와 관련이 있습니다.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html#change-log["AWS 정책의 변경 사항에 대해 알아봅니다"]..
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-azure.html#change-log["Azure 정책의 변경된 사항에 대해 알아봅니다"]..
+
+
+
+
 == 2024년 8월 22일
 
 
@@ -48,7 +124,7 @@ Cloud Volumes ONTAP 9.15.1 릴리스를 지원하도록 커넥터를 업데이�
 
 === 커넥터 3.9.43
 
-이 릴리스에는 사소한 개선 사항, 버그 수정 및 새로운 Azure 권한 요구 사항이 포함되어 있습니다.
+이 릴리스에는 사소한 개선 사항 및 버그 수정이 포함되어 있습니다.
 
 3.9.43 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
 

@@ -22,7 +22,7 @@ NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터를 구축
 
 BlueXP 플랫폼은 스토리지, 이동성, 보호, 분석 및 제어라는 네 가지 주요 데이터 관리 기능을 제공합니다.
 
-스토리지:: AWS, Azure, Google Cloud 또는 온프레미스에 상관없이 스토리지를 검색, 구축, 관리할 수 있습니다.
+스토리지:: AWS, Azure, Google Cloud 또는 온프레미스 등 어디서든 스토리지를 검색, 배포, 관리할 수 있습니다.
 +
 --
 * 설정 및 사용 https://bluexp.netapp.com/ontap-cloud["Cloud Volumes ONTAP"^] 클라우드 전반에서 효율적인 멀티 프로토콜 데이터 관리
