@@ -3709,7 +3709,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="53f1b4752b0f2d48c0953219295e0a2b" category="list-text">9.13.0 P4(또는 후속 패치)</block>
   <block id="c2eb567355a3050dee61ad28cde98255" category="list-text">9.13.1 또는 이 릴리스 이후의 모든 버전</block>
   <block id="7e0ccd7729abca8ae58e9ceff3fd0b87" category="list-text">Cloud Volumes ONTAP 업그레이드 프로세스 중에 사용됩니다</block>
-  <block id="970c4756c8fc49a0c32d6a5b32d6d6f5" category="list-text">Connector를 설치하기 전에 Docker 엔진이 호스트에 필요합니다.</block>
   <block id="3e291cd3cf657cb754d907986c7587ed" category="paragraph"><block ref="3e291cd3cf657cb754d907986c7587ed" category="inline-link-rx"></block></block>
   <block id="0427fd4cf4edaa5749da5792252fcd70" category="paragraph">Connector에서 지원되는 최대 버전(25.0.5)을 지정하기 위해 Docker Engine 요구 사항을 업데이트했습니다. 지원되는 최소 버전은 여전히 19.3.1입니다.</block>
   <block id="a7d713b0c0233ee2a3bbb328d82ba606" category="inline-link">커넥터 호스트 요구 사항을 확인합니다</block>
@@ -4192,8 +4191,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="2ff5664491ece284c069195a204d44c0" category="list-text">커넥터 인스턴스에 필요한 연결 방법을 사용하도록 설정하는 보안 그룹 설정(SSH, HTTP 및 HTTPS)을 지정합니다.</block>
   <block id="f04e7bde7d47a749e6ba7643ae027953" category="paragraph"><block ref="f04e7bde7d47a749e6ba7643ae027953" category="inline-image-macro-rx" type="image"></block></block>
   <block id="94d03d842e38bfc8ebeb1cd5999b1321" category="list-text">9.1 - 9.4</block>
-  <block id="3b1bfd730b4217c8855d7ce0b155acdc" category="list-text">지원되는 최대 버전은 26.0.0입니다.</block>
-  <block id="c4924fa73c6ac3240841a8329a4a87a2" category="paragraph">Docker Engine 26은 Connector 3.9.44 릴리즈부터 _NEW_Connector 설치가 지원됩니다.</block>
   <block id="c71ee68b655a1c2de6162e6ea2837535" category="list-text">Red Hat Enterprise Linux의 경우 Podman이 필요합니다.</block>
   <block id="3ee8b338aa466b632e26ed7928d4b063" category="list-text">Podman 버전 4.6.1 또는 4.9.4가 필요합니다</block>
   <block id="f99019d3e8e3a4daa34cad5d0e1cccc2" category="inline-xref">BlueXP 가 지원하는 Docker Engine 버전을 확인합니다</block>
@@ -4239,10 +4236,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="2e5948b55d019081bde9b17268d72c2c" category="section-title">커넥터 3.9.44</block>
   <block id="eef503d0bc4de5d76d47f4691b412e15" category="paragraph">이 릴리스에는 Docker Engine 26에 대한 지원, SSL 인증서에 대한 향상된 기능 및 버그 수정이 포함됩니다.</block>
   <block id="8e05f2728c2c4042bd5165b33b122aa7" category="paragraph">3.9.44 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
-  <block id="000a9ac711d57d6c617331857e9c3100" category="section-title">Docker Engine 26 지원</block>
-  <block id="849eb58f322918eda95ee3acd8e4497d" category="paragraph">Docker Engine은 Ubuntu 22.04 LTS에 커넥터를 설치할 때 필요한 컨테이너 오케스트레이션 도구입니다.</block>
-  <block id="4391ac6ef3fe7c6a1cb6b50f0df238d3" category="paragraph">Connector의 3.9.44 릴리즈부터 Docker Engine 26이 _NEW_Connector 설치와 함께 지원됩니다.</block>
-  <block id="ff42db58a1b88b5b9aedbcedc8daa613" category="paragraph">지원되는 Docker Engine 버전의 업데이트된 목록은 다음과 같습니다.</block>
   <block id="15ba9bb026c53a148756b12826c46f8b" category="section-title">로컬 UI 액세스를 위한 SSL 인증서가 업데이트되었습니다</block>
   <block id="b96edd49155123375756b26e44b38121" category="paragraph">제한된 모드 또는 비공개 모드에서 BlueXP 를 사용하는 경우 클라우드 지역 또는 온-프레미스에 배포된 커넥터 가상 머신에서 사용자 인터페이스에 액세스할 수 있습니다. 기본적으로 BlueXP 는 자체 서명된 SSL 인증서를 사용하여 커넥터에서 실행되는 웹 기반 콘솔에 대한 보안 HTTPS 액세스를 제공합니다.</block>
   <block id="2737440e84d6c8a13a097fa583a6e67a" category="paragraph">이번 릴리스에서는 신규 및 기존 커넥터에 대한 SSL 인증서를 변경했습니다.</block>
@@ -4264,4 +4257,18 @@ https://support.netapp.com 으로 문의하십시오
   <block id="31fa3b726cc2ab8e192bc70a792168a7" category="list-text"><block ref="c65ef862e4776cf4a66f5e1d7163d89e" category="inline-link-rx"></block>..</block>
   <block id="d30916c53949113e97a8033f02e41364" category="paragraph">이 릴리스에는 사소한 개선 사항 및 버그 수정이 포함되어 있습니다.</block>
   <block id="f0e69ccbb7ad96f546f7924206944bfa" category="sidebar">온프레미스</block>
+  <block id="faa37a1c6dbb9f8ecd3c6fd701363f79" category="cell">커넥터 버전</block>
+  <block id="24f3b77dafe74fa61e4dac1fa28fd846" category="cell">최소 버전의 Docker Engine</block>
+  <block id="f78ed5876382c6c98cfe5372fcdf962a" category="cell">Docker Engine의 최대 버전입니다</block>
+  <block id="ca6fc29ee5b222437802127247ae33fd" category="cell">_새_커넥터 설치 3.9.44로 시작합니다</block>
+  <block id="15f1005256bbfb87197dfe3bfd5b588f" category="cell">23.0.6</block>
+  <block id="f2162c8532f84cb24bc54e30c4c0341c" category="cell">26.0.0</block>
+  <block id="4d2dd7c014e329b4fb387303e47f1d83" category="cell">3.9.44 릴리스 이전에 생성된 커넥터입니다</block>
+  <block id="9b8f09d8d408f824fbf8c4f7321295aa" category="cell">25.0.5</block>
+  <block id="3d0dee7040af4a3fedb8d1c83abf5f56" category="list-text">지원되는 최대 버전은 25.0.5입니다.</block>
+  <block id="f258c97f55e85bfbd607e70e86d840dc" category="section-title">새로 설치한 Docker Engine 26 지원</block>
+  <block id="5c968eab53d6065ccf63e9766935cb7b" category="paragraph">Connector의 3.9.44 릴리즈부터 이제 Ubuntu 호스트에 _NEW_Connector를 설치할 때 Docker Engine 26이 지원됩니다.</block>
+  <block id="0e80b6146d7736683cb1292a9c1ba4af" category="paragraph">3.9.44 릴리스 이전에 생성된 기존 Connector가 있는 경우 Ubuntu 호스트에서 지원되는 최대 버전은 Docker Engine 25.0.5입니다.</block>
+  <block id="c64c773fbe16e4df6ae417c106a467ef" category="inline-link">Docker Engine 요구사항에 대해 자세히 알아보십시오</block>
+  <block id="395f31b2f1bc9cb3993acbb14cf4fb1f" category="paragraph"><block ref="724b4d6e1bb3e6bea768572a2ce7c10e" category="inline-link-rx"></block>..</block>
 </blocks>

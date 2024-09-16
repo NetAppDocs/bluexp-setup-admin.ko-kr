@@ -62,12 +62,10 @@ BlueXP 사용 `/opt` 를 설치합니다 `/opt/application/netapp` 디렉토리 
 BlueXP를 사용하려면 이 공간이 필요합니다 `/var` Docker 또는 Podman은 이 디렉토리 내에 컨테이너를 생성하도록 설계되었기 때문입니다. 특히 에서 컨테이너를 만듭니다 `/var/lib/containers/storage` 디렉토리. 이 공간에서는 외부 마운트 또는 심링크가 작동하지 않습니다.
 
 --
-
-
-[[podman-versions]]
 컨테이너 오케스트레이션 툴:: 운영 체제에 따라 Connector를 설치하기 전에 Podman 또는 Docker Engine이 필요합니다.
 +
 --
+[[podman-versions]]
 * Red Hat Enterprise Linux의 경우 Podman이 필요합니다.
 +
 Podman의 경우 다음 전제 조건을 충족해야 합니다.
@@ -82,12 +80,18 @@ Podman의 경우 다음 전제 조건을 충족해야 합니다.
 
 * Ubuntu에는 Docker 엔진이 필요합니다.
 +
-** 지원되는 최소 버전은 23.0.6입니다.
-** 지원되는 최대 버전은 26.0.0입니다.
+[cols="3*"]
+|===
+| 커넥터 버전 | 최소 버전의 Docker Engine | Docker Engine의 최대 버전입니다 
+
+
+| _새_커넥터 설치 3.9.44로 시작합니다 | 23.0.6 | 26.0.0 
+
+
+| 3.9.44 릴리스 이전에 생성된 커넥터입니다 | 23.0.6 | 25.0.5 
+|===
 +
-Docker Engine 26은 Connector 3.9.44 릴리즈부터 _NEW_Connector 설치가 지원됩니다.
-
-
+https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
 
 
 

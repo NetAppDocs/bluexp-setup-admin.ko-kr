@@ -30,17 +30,13 @@ BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라�
 
 
 
-==== Docker Engine 26 지원
+==== 새로 설치한 Docker Engine 26 지원
 
-Docker Engine은 Ubuntu 22.04 LTS에 커넥터를 설치할 때 필요한 컨테이너 오케스트레이션 도구입니다.
+Connector의 3.9.44 릴리즈부터 이제 Ubuntu 호스트에 _NEW_Connector를 설치할 때 Docker Engine 26이 지원됩니다.
 
-Connector의 3.9.44 릴리즈부터 Docker Engine 26이 _NEW_Connector 설치와 함께 지원됩니다.
+3.9.44 릴리스 이전에 생성된 기존 Connector가 있는 경우 Ubuntu 호스트에서 지원되는 최대 버전은 Docker Engine 25.0.5입니다.
 
-지원되는 Docker Engine 버전의 업데이트된 목록은 다음과 같습니다.
-
-* 지원되는 최소 버전은 23.0.6입니다.
-* 지원되는 최대 버전은 26.0.0입니다.
-
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html#step-1-review-host-requirements["Docker Engine 요구사항에 대해 자세히 알아보십시오"]..
 
 
 
