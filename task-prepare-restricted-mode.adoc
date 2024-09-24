@@ -281,6 +281,7 @@ BlueXP 콘솔에 대한 사용자 액세스를 위한 네트워킹을 준비합�
 --
 * \https://support.netapp.com
 * \https://mysupport.netapp.com
+* \https://signin.b2c.NetApp.com(이 끝점은 \https://mysupport.NetApp.com의 CNAME URL)
 * \https://cloudmanager.cloud.netapp.com/tenancy
 * \https://stream.cloudmanager.cloud.netapp.com
 * \https://production-artifacts.cloudmanager.cloud.netapp.com

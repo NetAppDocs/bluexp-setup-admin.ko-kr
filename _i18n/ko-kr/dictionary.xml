@@ -188,7 +188,6 @@
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">자세히 알아보기</block>
   <block id="4a126f1568270f6124f9c053bf5a5b02" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="9cb3f4e3b2f30b874e967976f1105dcc" category="inline-link-macro-rx"></block>.</block>
   <block id="c49ff7d7009f9d4727b2b25afa496418" category="section-title">HTTPS 인증서를 설치합니다</block>
-  <block id="08547be5df7da5ef1e22244cbdbfd5d6" category="paragraph">보안 액세스를 위해 CA에서 서명한 인증서를 설치합니다.</block>
   <block id="bfad05e4d9a8b5fbc930a21d6b53cd7a" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * HTTPS 설정 * 을 선택합니다.</block>
   <block id="4d646a6e32f8084a095a674812f1fb31" category="list-text">HTTPS 설정 페이지에서 인증서 서명 요청(CSR)을 생성하거나 고유한 CA 서명 인증서를 설치하여 인증서를 설치합니다.</block>
   <block id="054b4f3ea543c990f6b125f41af6ebf7" category="cell">옵션을 선택합니다</block>
@@ -4271,4 +4270,11 @@ https://support.netapp.com 으로 문의하십시오
   <block id="0e80b6146d7736683cb1292a9c1ba4af" category="paragraph">3.9.44 릴리스 이전에 생성된 기존 Connector가 있는 경우 Ubuntu 호스트에서 지원되는 최대 버전은 Docker Engine 25.0.5입니다.</block>
   <block id="c64c773fbe16e4df6ae417c106a467ef" category="inline-link">Docker Engine 요구사항에 대해 자세히 알아보십시오</block>
   <block id="395f31b2f1bc9cb3993acbb14cf4fb1f" category="paragraph"><block ref="724b4d6e1bb3e6bea768572a2ce7c10e" category="inline-link-rx"></block>..</block>
+  <block id="346c9e732e7e7f6e38707ad310f548d0" category="list-text">\https://signin.b2c.NetApp.com(이 끝점은 \https://mysupport.NetApp.com의 CNAME URL)</block>
+  <block id="6f875ca46d399fa9c75701aab6b0e1eb" category="paragraph">커넥터에서 실행되는 웹 기반 콘솔에 안전하게 액세스할 수 있도록 CA에서 서명한 인증서를 설치합니다.</block>
+  <block id="00be756b024b45d0d82f8cb900cbeacb" category="paragraph">다음 옵션 중 하나를 사용하여 인증서를 설치할 수 있습니다.</block>
+  <block id="e832a3ac44d931a4b705999aa307cd09" category="list-text">BlueXP 에서 CSR(인증서 서명 요청)을 생성하고 인증서 요청을 CA에 제출한 다음 CA 서명 인증서를 커넥터에 설치합니다.</block>
+  <block id="f42f94dc205ad041c3d86658f703465e" category="paragraph">BlueXP 가 CSR을 생성하기 위해 사용하는 키 쌍은 내부적으로 커넥터에 저장됩니다. BlueXP 는 커넥터에 인증서를 설치할 때 동일한 키 쌍(개인 키)을 자동으로 검색합니다.</block>
+  <block id="fa7c85eec1cc76ccc0e893292ce638e4" category="list-text">이미 가지고 있는 CA 서명 인증서를 설치합니다.</block>
+  <block id="44f374dc4bb34314bb885e22229628b6" category="paragraph">이 옵션을 사용하면 BlueXP 를 통해 CSR이 생성되지 않습니다. CSR을 별도로 생성하고 개인 키를 외부에 저장합니다. 인증서를 설치할 때 BlueXP 에 개인 키를 제공합니다.</block>
 </blocks>
