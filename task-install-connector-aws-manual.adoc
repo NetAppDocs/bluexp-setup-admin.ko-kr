@@ -93,7 +93,7 @@ Podman의 경우 다음 전제 조건을 충족해야 합니다.
 | 3.9.44 릴리스 이전에 생성된 커넥터입니다 | 23.0.6 | 25.0.5 
 |===
 +
-https://docs.docker.com/engine/install/["설치 지침을 봅니다"^]
+https://docs.docker.com/engine/install/["Docker 설치 지침을 봅니다"^]
 
 
 
