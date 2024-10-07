@@ -60,6 +60,7 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 
 표준 모드에서 BlueXP를 사용하는 경우 BlueXP의 다음 기능 및 서비스에 커넥터가 필요합니다.
 
+* 경고
 * ONTAP용 Amazon FSx 관리 기능
 * Amazon S3 스토리지
 * Azure Blob 저장소
