@@ -1,0 +1,144 @@
+---
+sidebar: sidebar 
+permalink: task-iam-manage-resources.html 
+keywords: resource, hierarchy, association, access, resource permissions, resource hierarchy, iam, identity and access management 
+summary: 자원을 특정 프로젝트 및 폴더와 연결하여 조직의 자원 계층 구조를 관리합니다. 
+---
+= BlueXP  조직에서 리소스 계층 구조를 관리합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  IAM(ID 및 액세스 관리)을 사용하여 구성원을 조직과 연결하는 경우 조직, 폴더 또는 프로젝트 수준에서 사용 권한을 제공합니다. 이러한 구성원이 적절한 자원에 액세스할 수 있는 권한을 갖도록 하려면 자원을 특정 프로젝트 및 폴더와 연결하여 조직의 자원 계층 구조를 관리해야 합니다. a_resource_은(는) BlueXP 이 이미 관리하는 작업 환경입니다.
+
+
+
+== 조직의 리소스를 봅니다
+
+자원 계층 구조를 관리하려면 조직과 연결된 자원을 알고 있어야 합니다.
+
+.단계
+. BlueXP  콘솔의 오른쪽 위에서> * ID 및 액세스 관리 * 를 선택합니다image:icon-settings-option.png["BlueXP  웹 콘솔의 오른쪽 상단에 표시되는 설정 아이콘입니다."].
+. 리소스 * 를 선택합니다.
+
+
+.결과
+조직과 연결된 자원이 * 리소스 * 테이블에 표시됩니다.
+
+.다음 단계
+특정 리소스를 찾으려면 다음을 <<find-resources,표의 내용을 검색하고 필터링합니다>>수행합니다.
+
+찾고 있는 리소스를 찾은 후에는 다음 작업 중 하나를 수행할 수 있습니다.
+
+* <<view-folders-and-projects,자원과 연결된 폴더 및 프로젝트를 봅니다>>
+* <<associate-resource,자원을 추가 폴더 및 프로젝트와 연결합니다>>
+* <<remove-resource,폴더 또는 프로젝트에서 자원을 제거합니다>>
+
+
+
+
+== 조직의 특정 리소스를 찾습니다
+
+조직에 많은 자원이 있는 경우 검색 및 필터 옵션을 사용하여 특정 자원을 찾을 수 있습니다.
+
+.단계
+. 리소스 * 페이지에서 * 고급 검색 및 필터링 * 을 선택합니다.
+. 사용 가능한 옵션을 사용하여 원하는 리소스를 찾습니다.
++
+** * 리소스 이름으로 검색 *: 텍스트 문자열을 입력하고 * 추가 * 를 선택합니다.
+** * 플랫폼 *: Amazon Web Services와 같은 하나 이상의 플랫폼을 선택합니다.
+** * 리소스 *: Cloud Volumes ONTAP와 같은 하나 이상의 리소스를 선택합니다.
+** * 조직, 폴더 또는 프로젝트 *: 전체 조직, 특정 폴더 또는 특정 프로젝트를 선택합니다.
+
+
+. 검색 * 을 선택합니다.
+
+
+.결과
+리소스 테이블의 내용이 새로 고쳐져 검색 및 필터 선택 항목과 일치하는 리소스가 표시됩니다.
+
+
+
+== 자원을 폴더 및 프로젝트와 연결합니다
+
+조직의 다른 폴더나 프로젝트에서 자원을 사용할 수 있도록 하려면 폴더 또는 프로젝트와 자원 간에 연결을 만들어야 합니다.
+
+.시작하기 전에
+리소스 연결이 작동하는 방식을 이해해야 합니다. link:concept-identity-and-access-management.html#resources["자원을 폴더와 연결하는 시기를 비롯한 자원에 대해 알아봅니다"]..
+
+.단계
+. Resources * 페이지에서 테이블의 자원으로 이동한 후 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"]* Associate to folders or projects * 를 선택합니다.
+. 폴더 또는 프로젝트를 선택한 다음 * 수락 * 을 선택합니다.
+. 추가 폴더 또는 프로젝트를 연결하려면 * 폴더 또는 프로젝트 추가 * 를 선택한 다음 폴더 또는 프로젝트를 선택합니다.
++
+관리자 권한이 있는 폴더와 프로젝트에서만 선택할 수 있습니다.
+
+. 리소스 연결 * 을 선택합니다.
+
+
+.결과
+BlueXP 는 자원을 선택한 폴더 및 프로젝트에 연결합니다.
+
+* 자원을 프로젝트와 연결한 경우 해당 프로젝트에 대한 권한이 있는 구성원은 이제 BlueXP 에서 해당 자원에 액세스할 수 있습니다.
+* 리소스를 폴더와 연결한 경우, 폴더 또는 프로젝트 admin_은 이제 BlueXP  IAM 내에서 리소스에 액세스할 수 있습니다. link:concept-identity-and-access-management.html#resources["리소스를 폴더와 연결하는 방법에 대해 알아봅니다"]..
+
+
+.작업을 마친 후
+연결된 자원이 BlueXP  커넥터를 사용하여 검색되고 조직에 다른 구성원이 있는 경우 해당 자원이 연결된 프로젝트에도 연결선을 연결해야 합니다. 그렇지 않으면 _Organization admin_역할이 없는 구성원이 BlueXP  캔버스에서 커넥터 및 관련 리소스에 액세스할 수 없습니다.
+
+link:task-iam-associate-connectors.html["Connector를 폴더 또는 프로젝트에 연결하는 방법에 대해 알아봅니다"]..
+
+
+
+== 자원과 관련된 폴더 및 프로젝트를 봅니다
+
+조직의 계층 구조에서 자원을 사용할 수 있는 위치를 식별하려면 해당 자원과 연결된 폴더와 프로젝트를 볼 수 있습니다.
+
+.단계
+. Resources * 페이지에서 테이블의 자원으로 이동한 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"]다음 * View details * 를 선택합니다.
+
+
+.결과
+BlueXP  자원에 연결된 폴더와 프로젝트를 표시합니다.
+
+다음 예제에서는 한 프로젝트와 연결된 자원을 보여 줍니다.
+
+image:screenshot-iam-resource-details.png["조직 바로 아래에 있는 프로젝트와 연결된 자원을 보여 주는 자원 세부 정보 페이지 스크린샷"]
+
+.다음 단계
+* 할 수 <<associate-resource,자원을 추가 프로젝트나 폴더에 연결합니다>>있습니다.
+* 할 수 <<remove-resource,특정 폴더 또는 프로젝트에서 자원을 제거합니다>>있습니다.
+* 자원에 액세스할 수 있는 조직 구성원을 확인해야 하는 경우 다음을 수행할 수 link:task-iam-manage-folders-projects.html#view-associated-resources-members["자원과 연결된 폴더 및 프로젝트에 액세스할 수 있는 구성원을 봅니다"]있습니다.
+
+
+
+
+== 폴더 또는 프로젝트에서 자원을 제거합니다
+
+폴더 또는 프로젝트에서 자원을 제거하려면 폴더나 프로젝트와 자원 간의 연결을 제거해야 합니다. 연결을 제거한 후에는 조직 구성원이 폴더 또는 프로젝트에서 자원을 더 이상 관리할 수 없습니다.
+
+.이 작업에 대해
+전체 조직에서 검색된 리소스를 제거하려면 BlueXP  캔버스에서 작업 환경을 제거해야 합니다.
+
+.단계
+. Resources * 페이지에서 테이블의 자원으로 이동한 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"]다음 * View details * 를 선택합니다.
+. 자원을 제거할 폴더나 프로젝트의 경우 을 선택합니다 image:icon-delete.png["가비지 수집기의 아이콘입니다"]
+. 삭제 * 를 선택하여 연결을 제거할지 확인합니다.
+
+
+.결과
+BlueXP 에서 연결을 제거합니다. 구성원은 더 이상 해당 폴더나 프로젝트의 리소스에 액세스할 수 없습니다.
+
+
+
+== 관련 정보
+
+* link:concept-identity-and-access-management.html["BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오"]
+* link:task-iam-get-started.html["BlueXP  IAM을 시작하십시오"]
+* https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/overview.html["BlueXP  IAM용 API에 대해 알아보십시오"^]
+

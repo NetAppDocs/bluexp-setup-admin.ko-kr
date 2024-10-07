@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-adding-nss-accounts.html 
 keywords: adding, creating, netapp support site account, nss, update account, update nss account, update nss credentials, delete nss account, remove nss account, change working environment, working environment nss 
-summary: NetApp Support 사이트 계정을 BlueXP 계정과 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다. 이러한 NSS 자격 증명은 전체 BlueXP 계정과 연결되어 있습니다. 
+summary: NetApp 지원 사이트 계정을 BlueXP  조직 또는 계정에 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 사용하도록 설정합니다. 이러한 NSS 자격 증명은 전체 BlueXP  조직 또는 계정과 연결됩니다. 
 ---
-= BlueXP 계정과 연결된 NSS 자격 증명을 관리합니다
+= BlueXP  조직 또는 계정과 연결된 NSS 자격 증명을 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,16 +14,23 @@ summary: NetApp Support 사이트 계정을 BlueXP 계정과 연결하여 Cloud 
 
 
 [role="lead"]
-NetApp Support 사이트 계정을 BlueXP 계정과 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다. 이러한 NSS 자격 증명은 전체 BlueXP 계정과 연결되어 있습니다.
+NetApp 지원 사이트 계정을 BlueXP  조직 또는 계정에 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 사용하도록 설정합니다. 이러한 NSS 자격 증명은 전체 BlueXP  조직 또는 계정과 연결됩니다.
+
+BlueXP 에서는 BlueXP  사용자 계정당 하나의 NSS 계정을 연결할 수도 있습니다. link:task-manage-user-credentials.html["사용자 수준 자격 증명을 관리하는 방법에 대해 알아봅니다"]..
 
 
-NOTE: 또한 BlueXP에서는 BlueXP 사용자당 하나의 NSS 계정을 연결할 수 있습니다. link:task-manage-user-credentials.html["사용자 수준 자격 증명을 관리하는 방법에 대해 알아봅니다"].
+TIP: 표준 모드에서 BlueXP 를 사용하는 경우 BlueXP  IAM(Identity and Access Management)을 사용하여 관리하는 _BlueXP  조직_ 이 있습니다. 하지만 제한된 모드나 비공개 모드에서 BlueXP 를 사용하고 있다면 _ BlueXP  계정이 _ 됩니다.
+
+* link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"]
+* link:concept-identity-and-access-management.html["BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오"]
+* link:concept-netapp-accounts.html["BlueXP 계정에 대해 알아보십시오"]
+
 
 
 
 == 개요
 
-BlueXP에서 다음 작업을 사용하려면 특정 BlueXP 계정 ID와 NetApp Support 사이트 자격 증명을 연결해야 합니다.
+BlueXP 에서 다음 작업을 수행하려면 NetApp 지원 사이트 자격 증명을 특정 BlueXP  계정 일련 번호와 연결해야 합니다.
 
 * BYOL(Bring Your Own License) 방식으로 Cloud Volumes ONTAP 구축
 +
@@ -36,13 +43,13 @@ NSS 계정을 제공하면 시스템에 대한 지원을 활성화하고 NetApp 
 * Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드하는 중입니다
 
 
-이러한 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 > NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.
+이러한 자격 증명은 특정 BlueXP  계정의 일련 번호와 연관됩니다. BlueXP  조직 또는 계정에 속한 사용자는 * 지원 > NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.
 
 
 
 == NSS 계정을 추가합니다
 
-지원 대시보드를 사용하면 BlueXP 계정 수준에서 BlueXP에 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.
+지원 대시보드를 사용하면 BlueXP  조직 또는 계정 수준에서 BlueXP 과 함께 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.
 
 * 고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.
 * 파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.

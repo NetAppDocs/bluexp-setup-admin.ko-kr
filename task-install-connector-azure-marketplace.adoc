@@ -110,7 +110,7 @@ Connector 및 해당 Docker 구성 요소를 업그레이드합니다.
 --
 
 
-프록시 서버:: 조직에서 모든 나가는 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다. 설치하는 동안 이 정보를 제공해야 합니다. BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
+프록시 서버:: 회사에서 보내는 모든 인터넷 트래픽에 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 얻습니다. 설치하는 동안 이 정보를 제공해야 합니다. BlueXP는 투명한 프록시 서버를 지원하지 않습니다.
 +
 --
 * IP 주소입니다
@@ -433,7 +433,7 @@ https://_ipaddress_[]
 
 . 로그인한 후 Connector를 설정합니다.
 +
-.. Connector와 연결할 BlueXP 계정을 지정합니다.
+.. 커넥터와 연결할 BlueXP  조직을 지정합니다.
 .. 시스템의 이름을 입력합니다.
 .. 에서 * 보안 환경에서 실행 중입니까? * 제한된 모드를 사용하지 않도록 설정합니다.
 +
@@ -445,7 +445,7 @@ https://_ipaddress_[]
 
 
 .결과
-이제 커넥터가 설치되어 BlueXP 계정으로 설정됩니다.
+이제 커넥터가 설치되고 BlueXP  조직에서 설정됩니다.
 
 Connector를 생성한 동일한 Azure 구독에 Azure Blob 스토리지가 있는 경우 BlueXP 캔버스에 Azure Blob 스토리지 작업 환경이 자동으로 표시됩니다. https://docs.netapp.com/us-en/bluexp-blob-storage/index.html["BlueXP에서 Azure Blob 스토리지를 관리하는 방법에 관해 알아보십시오"^]
 
@@ -499,7 +499,7 @@ NOTE: BlueXP 오퍼레이터는 BlueXP 정책에 제공된 기본 이름입니�
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
 +
-image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
+image:screenshot-settings-icon-organization.png["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
 
 . 자격 증명 추가 * 를 선택하고 마법사의 단계를 따릅니다.
 +

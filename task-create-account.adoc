@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-account.html 
 keywords: create account, account, create, create another account, tenancy account, tenancy, tenancy account creation 
-summary: BlueXP에 등록하면 조직의 계정을 만들라는 메시지가 표시됩니다. 이 계정만 필요한 경우 여러 계정이 필요한 경우에는 Tenancy API를 사용하여 추가 계정을 만들어야 합니다. 
+summary: BlueXP 를 제한 모드 또는 비공개 모드로 설정하면 계정을 만들라는 메시지가 표시됩니다. 계정이 여러 개 필요한 경우 Tenancy API를 사용하여 계정을 생성해야 합니다. 
 ---
 = 다른 BlueXP 계정을 만듭니다
 :hardbreaks:
@@ -14,14 +14,19 @@ summary: BlueXP에 등록하면 조직의 계정을 만들라는 메시지가 �
 
 
 [role="lead"]
-BlueXP에 등록하면 조직의 계정을 만들라는 메시지가 표시됩니다. 이 계정만 필요한 경우 여러 계정이 필요한 경우에는 Tenancy API를 사용하여 추가 계정을 만들어야 합니다.
+제한 모드 또는 비공개 모드로 BlueXP 를 설정하면 사용자를 관리하고 리소스를 구성할 수 있는 _BlueXP  계정_ 을(를) 만들라는 메시지가 표시됩니다. 이 계정만 필요한 경우 여러 계정이 필요한 경우에는 Tenancy API를 사용하여 추가 계정을 만들어야 합니다.
 
-다음 API 호출을 사용하여 BlueXP 계정을 추가로 생성합니다.
+표준 모드에서 BlueXP 를 사용하는 경우 BlueXP  계정이 없습니다. 대신 BlueXP  IAM(Identity and Access Management)을 사용하여 관리하는 조직이 있습니다. link:concept-identity-and-access-management.html["BlueXP  IAM에 대해 알아보십시오"]..
 
+.단계
+. 다음 API 호출을 사용하여 BlueXP 계정을 추가로 생성합니다.
++
 게시 `/tenancy/account/{accountName}`
 
++
 제한된 모드를 활성화하려면 요청 본문에 다음을 포함해야 합니다.
 
++
 [source, JSON]
 ----
 {
@@ -29,11 +34,13 @@ BlueXP에 등록하면 조직의 계정을 만들라는 메시지가 표시됩�
 }
 ----
 
+
+
 NOTE: BlueXP에서 계정을 만든 후에는 제한된 모드 설정을 변경할 수 없습니다. 나중에 제한 모드를 활성화할 수 없으며 나중에 비활성화할 수 없습니다. 계정을 생성할 때 설정해야 합니다.
 
 https://docs.netapp.com/us-en/bluexp-automation/tenancy/post-tenancy-account-id.html["이 API 호출을 사용하는 방법에 대해 알아보십시오"^]
 
-.관련 링크
+.관련 정보
 * link:concept-netapp-accounts.html["BlueXP 계정에 대해 알아보십시오"]
 * link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"]
 

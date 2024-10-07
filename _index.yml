@@ -1,12 +1,14 @@
 ---
 indexpage:
   title: BlueXP 설치 및 관리 문서
-  summary: 온프레미스 및 클라우드 환경 전반에서 데이터를 구축, 보호, 규제할 수 있도록 NetApp BlueXP를 시작하십시오. 설치가
-    완료되면 BlueXP 계정, 커넥터, 클라우드 공급자 계정 등을 관리할 수 있습니다.
+  summary: 온프레미스 및 클라우드 환경 전반에서 데이터를 구축, 보호, 규제할 수 있도록 NetApp BlueXP를 시작하십시오. 설정이
+    완료되면 BlueXP  IAM(Identity and Access Management)을 사용하여 리소스에 대한 액세스를 제어하고 커넥터,
+    클라우드 공급자 계정 등을 관리할 수 있습니다.
   keywords: bluexp, connector, accounts, get started, setup, administration, sign
     up, log in, login, permissions
-  lead: 온프레미스 및 클라우드 환경 전반에서 데이터를 구축, 보호, 규제할 수 있도록 NetApp BlueXP를 시작하십시오. 설치가 완료되면
-    BlueXP 계정, 커넥터, 클라우드 공급자 계정 등을 관리할 수 있습니다.
+  lead: 온프레미스 및 클라우드 환경 전반에서 데이터를 구축, 보호, 규제할 수 있도록 NetApp BlueXP를 시작하십시오. 설정이 완료되면
+    BlueXP  IAM(Identity and Access Management)을 사용하여 리소스에 대한 액세스를 제어하고 커넥터, 클라우드
+    공급자 계정 등을 관리할 수 있습니다.
   tiles:
   - title: 시작하십시오
     links:
@@ -20,14 +22,18 @@ indexpage:
       url: "/task-quick-start-restricted-mode.html"
     - title: 비공개 모드로 시작하십시오
       url: "/task-quick-start-private-mode.html"
-  - title: BlueXP 계정
+  - title: BlueXP IAM
     links:
-    - title: BlueXP 계정에 대해 알아보십시오
-      url: concept-netapp-accounts.html
-    - title: BlueXP 계정을 관리합니다
-      url: task-managing-netapp-accounts.html
-    - title: 계정의 작업을 모니터링합니다
-      url: task-monitor-cm-operations.html
+    - title: BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오
+      url: concept-identity-and-access-management.html
+    - title: BlueXP  IAM을 시작하십시오
+      url: task-iam-get-started.html
+    - title: 폴더와 프로젝트를 사용하여 자원을 구성합니다
+      url: task-iam-manage-folders-projects.html
+    - title: 구성원 및 해당 사용 권한을 관리합니다
+      url: task-iam-manage-members-permissions.html
+    - title: 자원 계층 구조를 관리합니다
+      url: task-iam-manage-resources.html
   - title: 커넥터
     links:
     - title: 커넥터에 대해 자세히 알아보십시오
@@ -80,7 +86,7 @@ indexpage:
     links:
     - title: BlueXP에 로그인합니다
       url: task-logging-in.html
-    - title: BlueXP에서 ID 페더레이션 사용
+    - title: BlueXP 와 ID 페더레이션을 사용합니다
       url: concept-federation.html
   - title: 블로그 및 커뮤니티
     links:

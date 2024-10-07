@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: task-iam-associate-connectors.html 
+keywords: connector, associate connector, folder, project, associate folder with connector, associate project with connector, associate connector with project, associate connector with resource 
+summary: 조직의 구성원이 다른 프로젝트에서 커넥터를 사용해야 하는 경우 BlueXP  IAM에서 연결을 만들어야 합니다. 
+---
+= BlueXP  커넥터를 다른 폴더 및 프로젝트에 연결합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP 에서 여러 유형의 작업 환경을 관리하려면 커넥터가 필요합니다. 조직 관리자 _ 가 커넥터를 만들면 BlueXP 가 해당 커넥터를 조직 및 현재 선택한 프로젝트에 자동으로 연결합니다. 조직 관리자 _ 는 조직의 모든 위치에서 해당 커넥터에 자동으로 액세스할 수 있습니다. 조직의 다른 구성원은 BlueXP  IAM(ID 및 액세스 관리)의 다른 프로젝트와 해당 Connector를 연결하지 않는 한 해당 Connector를 만든 프로젝트에서만 해당 Connector에 액세스할 수 있습니다.
+
+.시작하기 전에
+커넥터 연결이 작동하는 방식을 이해해야 합니다. link:concept-identity-and-access-management.html#associate-connectors["BlueXP  IAM에서 커넥터를 사용하는 방법에 대해 알아봅니다"]..
+
+.이 작업에 대해
+* 폴더 또는 프로젝트 admin_이 * 커넥터 * 페이지를 볼 때 페이지에 조직의 모든 연결선이 표시됩니다. 그러나 이 역할을 가진 구성원은 사용 권한이 있는 폴더 및 프로젝트에만 커넥터를 보고 연결할 수 있습니다. link:reference-iam-predefined-roles.html["폴더 또는 프로젝트 관리자 _ 가 수행할 수 있는 작업에 대해 자세히 알아봅니다"]..
+* 알려진 문제로 인해 BlueXP  IAM의 커넥터 페이지에 이전에 BlueXP 에서 제거했던 모든 이전 커넥터가 표시됩니다.
+
+
+.단계
+. BlueXP  콘솔의 오른쪽 위에서> * ID 및 액세스 관리 * 를 선택합니다image:icon-settings-option.png["BlueXP  웹 콘솔의 오른쪽 상단에 표시되는 설정 아이콘입니다."].
+. 커넥터 * 를 선택합니다.
+. 테이블에서 연결할 연결선을 찾습니다.
++
+특정 연결선을 찾으려면 테이블 위에 있는 검색을 사용하고 자원 계층의 특정 부분을 선택하여 테이블 내용을 필터링할 수 있습니다.
+
+. 커넥터가 연결된 폴더 및 프로젝트를 먼저 보려면 을 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"] 선택한 다음 * 세부 정보 보기 * 를 선택합니다.
++
+BlueXP  커넥터가 연결된 폴더 및 프로젝트에 대한 세부 정보를 표시합니다.
+
+. 폴더 또는 프로젝트에 연결 * 을 선택합니다.
+. 폴더 또는 프로젝트를 선택한 다음 * 수락 * 을 선택합니다.
+. 커넥터를 추가 폴더 또는 프로젝트와 연결하려면 * 폴더 또는 프로젝트 추가 * 를 선택한 다음 폴더 또는 프로젝트를 선택합니다.
+. 커넥터 연결 * 을 선택합니다.
+
+
+.결과
+BlueXP 는 커넥터를 선택한 폴더 및 프로젝트에 연결합니다. 이러한 폴더 및 프로젝트에 대한 사용 권한이 있는 구성원은 이제 해당 커넥터를 선택할 수 있습니다.
+
+.작업을 마친 후
+Connector에서 관리하는 자원을 동일한 폴더 및 프로젝트에 연결하려면 자원 페이지에서 수행합니다.
+
+link:task-iam-manage-resources.html#associate-resource["자원을 폴더 및 프로젝트와 연결하는 방법에 대해 알아봅니다"]..
+
+.관련 정보
+* link:concept-connectors.html["BlueXP  커넥터에 대해 알아봅니다"]
+* link:concept-identity-and-access-management.html["BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오"]
+* link:task-iam-get-started.html["BlueXP  IAM을 시작하십시오"]
+* https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/overview.html["BlueXP  IAM용 API에 대해 알아보십시오"^]
+

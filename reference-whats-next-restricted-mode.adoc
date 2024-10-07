@@ -23,6 +23,7 @@ summary: 제한된 모드에서 BlueXP를 시작하고 실행한 후 제한된 �
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["백업 및 복구 문서"^]
 * https://docs.netapp.com/us-en/bluexp-classification/index.html["분류 문서"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP 문서"^]
+* https://docs.netapp.com/us-en/bluexp-digital-wallet/index.html["디지털 지갑 문서"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["사내 ONTAP 클러스터 문서"^]
 * https://docs.netapp.com/us-en/bluexp-replication/index.html["복제 문서"^]
 

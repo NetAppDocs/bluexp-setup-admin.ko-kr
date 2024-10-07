@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, connectors' 
-summary: BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라우드 공급자 자격 증명 등에 대해 알아보십시오. 
+summary: BlueXP  IAM, 커넥터, 클라우드 공급자 자격 증명 등 BlueXP  관리 기능의 새로운 기능에 대해 알아보십시오. 
 ---
 = 새로운 기능
 :hardbreaks:
@@ -14,7 +14,106 @@ summary: BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터,
 
 
 [role="lead"]
-BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라우드 공급자 자격 증명 등에 대해 알아보십시오.
+ID 및 액세스 관리(IAM), 커넥터, 클라우드 공급자 자격 증명 등 BlueXP  관리 기능의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2024년 10월 7일
+
+
+
+=== BlueXP  ID 및 액세스 관리
+
+BlueXP  IAM(Identity and Access Management)은 표준 모드에서 BlueXP 를 사용할 때 BlueXP  계정에서 제공하는 이전 기능을 대체 및 향상시키는 새로운 리소스 및 액세스 관리 모델입니다.
+
+BlueXP  IAM은 리소스 및 사용 권한을 보다 세밀하게 관리합니다.
+
+* 최상위 _organization_은(는) 다양한_프로젝트_에 대한 액세스를 관리할 수 있게 해줍니다.
+* _Folders_관련된 프로젝트를 함께 그룹화할 수 있습니다.
+* 향상된 자원 관리를 사용하면 자원을 하나 이상의 폴더 또는 프로젝트에 연결할 수 있습니다.
++
+예를 들어, Cloud Volumes ONTAP 시스템을 여러 프로젝트에 연결할 수 있습니다.
+
+* 향상된 액세스 관리를 통해 조직 계층 구조의 다양한 수준에 있는 구성원에게 역할을 할당할 수 있습니다.
+
+
+이러한 향상된 기능을 통해 사용자가 수행할 수 있는 작업과 액세스할 수 있는 리소스를 보다 효율적으로 제어할 수 있습니다.
+
+
+
+==== BlueXP  IAM이 기존 계정에 미치는 영향
+
+BlueXP 에 로그인하면 다음과 같은 변경 사항이 나타납니다.
+
+* 귀하의 계정 _ 은(는) 이제 _ 조직 _ 이라고 합니다
+* 작업 공간 _ 은(는) 이제 _ projects _(으)로 불립니다
+* 사용자 역할의 이름이 변경되었습니다.
++
+** _ 계정 관리자 _ 는(는) 현재 _ 조직 관리자 _ 입니다
+** _Workspace admin_은(는) 현재 _ 폴더 또는 프로젝트 관리자 _ 입니다
+** _규정 준수 뷰어_는 현재_분류 뷰어_입니다
+
+
+* 설정에서 BlueXP  ID 및 액세스 관리에 액세스하여 이러한 향상된 기능을 활용할 수 있습니다
+
+
+image:screenshot-iam-introduction.png["인터페이스 맨 위에서 선택 가능한 조직 및 프로젝트, 설정 메뉴에서 사용 가능한 ID 및 액세스 관리를 보여 주는 BlueXP  스크린샷."]
+
+다음 사항에 유의하십시오.
+
+* 기존 사용자 또는 작업 환경에는 아무런 변화가 없습니다.
+* 역할 이름은 변경되었지만 사용 권한 관점에서는 차이가 없습니다. 사용자는 이전과 동일한 작업 환경에 계속 액세스할 수 있습니다.
+* BlueXP  로그인 방법은 변경되지 않습니다. BlueXP  IAM은 NetApp 클라우드 로그인, NetApp Support 사이트 자격 증명 및 BlueXP  계정과 같은 통합 연결과 연동됩니다.
+* BlueXP  계정이 여러 개 있는 경우 여러 BlueXP  조직이 있는 것입니다.
+
+
+
+
+==== BlueXP  IAM용 API
+
+이러한 변경으로 BlueXP  IAM용 새로운 API가 도입되지만 이전 테넌시 API와 역호환됩니다. https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/overview.html["BlueXP  IAM용 API에 대해 알아보십시오"^]
+
+
+
+==== 지원되는 배포 모드
+
+BlueXP  IAM은 표준 모드에서 BlueXP 를 사용할 때 지원됩니다. 제한된 모드 또는 비공개 모드로 BlueXP 를 사용 중인 경우 BlueXP _ACCOUNT_를 사용하여 작업 영역, 사용자 및 리소스를 계속 관리할 수 있습니다.
+
+
+
+==== 다음 단계로 넘어갑니다
+
+* link:concept-identity-and-access-management.html["BlueXP  IAM에 대해 알아보십시오"]
+* link:task-iam-get-started.html["BlueXP  IAM을 시작하십시오"]
+
+
+
+
+=== 커넥터 3.9.45
+
+이 릴리스에는 확장된 운영 체제 지원 및 버그 수정이 포함되어 있습니다.
+
+3.9.45 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
+
+
+
+==== Ubuntu 24.04 LTS 지원
+
+BlueXP 는 3.9.45 릴리스부터 표준 모드 또는 제한 모드에서 BlueXP 를 사용할 때 Ubuntu 24.04 LTS 호스트에 커넥터의 새 설치를 지원합니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html#step-1-review-host-requirements["커넥터 호스트 요구 사항을 확인합니다"].
+
+
+
+=== RHEL 호스트에서 SELinux 지원
+
+BlueXP 는 이제 SELinux가 Enforcing 모드 또는 Permissive 모드로 활성화된 Red Hat Enterprise Linux 호스트와 커넥터를 지원합니다.
+
+SELinux에 대한 지원은 표준 모드 및 제한 모드에 대한 3.9.40 릴리스와 개인 모드에 대한 3.9.42 릴리스에서 시작됩니다.
+
+BlueXP 는 Ubuntu 호스트가 있는 SELinux를 지원하지 않습니다.
+
+https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/getting-started-with-selinux_using-selinux["SELinux에 대해 자세히 알아보십시오"^]
 
 
 
@@ -1391,7 +1490,7 @@ image:screenshot_nss_management.png["NSS 계정을 추가할 수 있는 지원 �
 
 이제 Cloud Manager의 타임라인에 계정 관리와 관련된 작업 및 이벤트가 표시됩니다. 이러한 동작에는 사용자 연결, 작업 영역 만들기, 커넥터 만들기 등이 있습니다. 특정 작업을 수행한 사람을 확인해야 하거나 작업의 상태를 확인해야 하는 경우 시간 표시 막대를 확인하는 것이 도움이 됩니다.
 
-link:task-monitor-cm-operations.html#audit-user-activity-in-your-account["타임라인을 Tenancy 서비스로 필터링하는 방법에 대해 알아보십시오"].
+link:task-monitor-cm-operations.html["타임라인을 Tenancy 서비스로 필터링하는 방법에 대해 알아보십시오"]..
 
 
 

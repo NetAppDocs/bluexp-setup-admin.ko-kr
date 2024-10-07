@@ -4,7 +4,7 @@ permalink: concept-federation.html
 keywords: identity federation, federation, federated identity, set up identity federation, set up federated connection, federated connection 
 summary: ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. 시작하려면 ID 페더레이션이 BlueXP와 작동하는 방식에 대해 알아보고 설치 프로세스의 개요를 검토하십시오. 
 ---
-= BlueXP에서 ID 페더레이션 사용
+= BlueXP 와 ID 페더레이션을 사용하여 Single Sign-On을 활성화합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

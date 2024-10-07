@@ -27,7 +27,7 @@ summary: 여러 커넥터를 사용하는 경우 BlueXP를 사용하면 콘솔�
 .단계
 . 커넥터 * 드롭다운을 선택하고 다른 커넥터를 선택한 다음 * 스위치 * 를 선택합니다.
 +
-image:screenshot_connector_switch.gif["머리글의 커넥터 아이콘 및 스위치 동작을 보여 주는 스크린샷"]
+image:screenshot-connector-switch.png["머리글의 커넥터 아이콘 및 스위치 동작을 보여 주는 스크린샷"]
 
 
 

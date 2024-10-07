@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-iam-switch-organizations-projects.html 
+keywords: switch organizations, switch projects, projects, organizations, change, switch, change organizations, change projects, iam, identity and access management, switch connectors 
+summary: 조직, 프로젝트 및 연결선 간에 전환하여 연결된 리소스에 액세스합니다. 
+---
+= BlueXP  조직, 프로젝트 및 커넥터 간 전환
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+여러 BlueXP  조직에 속하거나 BlueXP  조직 내의 여러 프로젝트 또는 연결선에 액세스할 수 있는 권한이 있을 수 있습니다. 필요한 경우 조직, 프로젝트 및 연결선 간에 쉽게 전환하여 해당 조직, 프로젝트 또는 연결선과 관련된 리소스에 액세스할 수 있습니다.
+
+
+TIP: 다른 조직에 가입하도록 초대받았거나 직접 추가 조직을 만든 경우 여러 조직에 속할 수 있습니다. API를 사용하여 추가 조직을 생성할 수 있습니다. https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/post-organizations.html["새 조직을 만드는 방법에 대해 알아봅니다"^]
+
+
+
+== 조직 간 전환
+
+여러 조직의 구성원인 경우 언제든지 조직 간에 전환할 수 있습니다.
+
+.단계
+. BlueXP  상단에서 * Organization * 을 선택합니다.
++
+image:screenshot-iam-switch-organizations.png["조직 드롭다운을 선택한 다음 다른 조직을 선택할 수 있는 BlueXP  상단 배너 스크린샷"]
+
+. 다른 조직을 선택한 다음 * Switch * 를 선택합니다.
+
+
+.결과
+BlueXP 가 선택한 조직으로 전환되고 해당 조직과 연결된 자원이 표시됩니다.
+
+
+
+== 프로젝트 간 전환
+
+조직에 여러 프로젝트가 포함되어 있고 해당 프로젝트에 액세스할 수 있는 경우 언제든지 다른 프로젝트로 전환할 수 있습니다.
+
+.시작하기 전에
+BlueXP  콘솔의 BlueXP  ID 및 액세스 관리(IAM) 페이지 이외의 모든 페이지에 있어야 합니다. IAM 페이지를 볼 때는 다른 프로젝트로 전환할 수 없습니다.
+
+.단계
+. BlueXP  상단에서 * 프로젝트 * 를 선택합니다.
++
+image:screenshot-iam-switch-projects.png["범위 드롭다운을 선택한 다음 다른 프로젝트를 선택할 수 있는 BlueXP  상단 배너 스크린샷"]
+
+. 조직의 폴더 및 프로젝트를 탐색하고 원하는 프로젝트를 선택한 다음 * Switch * 를 선택합니다.
++
+image:screenshot-iam-switch-projects-select.png["새 프로젝트를 선택할 수 있는 범위 메뉴 스크린샷"]
+
+
+
+.결과
+BlueXP 가 선택한 프로젝트로 전환되고 해당 프로젝트와 관련된 자원이 표시됩니다.
+
+
+
+== 커넥터 사이를 전환합니다
+
+여러 개의 커넥터가 있는 경우 다른 커넥터를 전환하여 특정 커넥터와 연결된 작업 환경을 볼 수 있습니다.
+
+.단계
+. BlueXP  상단에서 * 커넥터 * 를 선택합니다.
+. 다른 커넥터를 선택한 다음 * Switch * 를 선택합니다.
+
+
+.결과
+BlueXP 가 새로 고쳐지고 선택한 커넥터와 연결된 작업 환경이 표시됩니다.
+
+.관련 링크
+link:task-iam-associate-connectors.html["커넥터를 폴더 및 프로젝트와 연결합니다"]..
+
+
+
+== 관련 정보
+
+* link:concept-identity-and-access-management.html["BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오"]
+* link:task-iam-get-started.html["BlueXP  IAM을 시작하십시오"]
+* https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/overview.html["BlueXP  IAM용 API에 대해 알아보십시오"^]
+

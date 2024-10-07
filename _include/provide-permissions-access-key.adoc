@@ -4,7 +4,7 @@
 
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
 +
-image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
+image:screenshot-settings-icon-organization.png["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
 
 . 자격 증명 추가 * 를 선택하고 마법사의 단계를 따릅니다.
 +

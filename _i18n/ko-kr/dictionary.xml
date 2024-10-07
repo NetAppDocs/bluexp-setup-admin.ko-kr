@@ -88,12 +88,10 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
   <block id="0594b17c3f6f94eb28b63eec7d7d3841" category="paragraph"><block ref="0594b17c3f6f94eb28b63eec7d7d3841" category="inline-link-rx"></block></block>
   <block id="a00513d5f518d02aa962d5bbb308cdfb" category="list-text">로그인한 후 Connector를 설정합니다.</block>
-  <block id="6cd4de3181724fe8671196328738695f" category="list-text">Connector와 연결할 BlueXP 계정을 지정합니다.</block>
   <block id="d80e79c3d96dec3b7d4daf9305412777" category="list-text">시스템의 이름을 입력합니다.</block>
   <block id="bc2db05002588dce0afea6db153376bc" category="list-text">에서 * 보안 환경에서 실행 중입니까? * 제한된 모드를 사용하지 않도록 설정합니다.</block>
   <block id="443d63c9ee87e9dac12aa2216b54f52d" category="inline-link-macro">제한된 모드에서 BlueXP를 시작하려면 다음 단계를 따르십시오</block>
   <block id="47b475ce8fffd929f1fc89967e693fe0" category="paragraph">이 단계에서는 표준 모드에서 BlueXP를 사용하는 방법을 설명하므로 제한된 모드를 사용하지 않도록 설정해야 합니다. 보안 환경이 있고 BlueXP 백엔드 서비스에서 이 계정의 연결을 끊으려면 제한된 모드만 활성화해야 합니다. 그렇다면 <block ref="d4230e2957fd67694fbeb2d4cebbd012" category="inline-link-macro-rx"></block>.</block>
-  <block id="e48cc2b8b425580d8ee1508fd8a29ab2" category="paragraph">이제 커넥터가 설치되어 BlueXP 계정으로 설정됩니다.</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
   <block id="8f40f6b9cda905fc9a83217435e6b940" category="open-title">수동 설치</block>
   <block id="4212008c2b937ee581ff9e530b8440f8" category="list-text">커넥터를 설치할 수 있는 루트 권한</block>
@@ -396,7 +394,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="cd68fc4363142093bc10a45e34942eaa" category="inline-link-macro">BlueXP 계정 관리 방법에 대해 알아보십시오</block>
   <block id="c8f0d3e379c2e301e09afc86904572dc" category="paragraph"><block ref="7a9b57c0ab89dbd9a6ef3dc53e324a44" category="inline-link-macro-rx"></block>.</block>
   <block id="05cb21b1c0958252effc11eb9d437f38" category="section-title">배포 모드</block>
-  <block id="9283e632dad76d027422fa3e7c96d56b" category="paragraph">BlueXP는 표준 모드, 제한된 모드 및 비공개 모드 등 계정에 대해 다음과 같은 배포 모드를 제공합니다. 이러한 모드는 다양한 수준의 보안 및 연결 제한을 가진 환경을 지원합니다.</block>
   <block id="42d7d856cc8f6a2f82ed10cd8356e7d2" category="inline-link-macro">BlueXP 배포 모드에 대해 자세히 알아보십시오</block>
   <block id="1df8907309ce450576ac5f9690e79be6" category="paragraph"><block ref="fc99fd3d00f85ca19dd4470da06057e4" category="inline-link-macro-rx"></block>.</block>
   <block id="ef53538ae41a651c7f72ab6cb1135d8c" category="section-title">구성원</block>
@@ -471,7 +468,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="9cf68904e16d6d689d242f4868ec6c3f" category="list-text">전용 호스트</block>
   <block id="3e54bf758f50b15d709edd166d8bf82b" category="list-text">다른 애플리케이션과 공유되는 호스트에서는 Connector가 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.</block>
   <block id="bbf3330385f894cd7bd34b34e4c36d6c" category="list-text">지원되는 운영 체제</block>
-  <block id="24dfedb0d4bd46f0cd823d4e245f7642" category="paragraph">호스트는 Red Hat Subscription Management에 등록되어 있어야 합니다. 등록되지 않은 경우 호스트는 Connector 설치 중에 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.</block>
   <block id="1aa77ca522dde8d598ae9c2372a7494b" category="paragraph">Connector는 이러한 운영 체제의 영어 버전에서 지원됩니다.</block>
   <block id="1b21b0d71706897b69f108572c444d40" category="list-text">하이퍼바이저</block>
   <block id="2b55387dd066c5bac646ac61543d152d" category="list-text">CPU</block>
@@ -493,7 +489,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link">Azure NetApp Files</block>
   <block id="d03fba385c4e1320cb0846a9690ea3db" category="list-text"><block ref="d03fba385c4e1320cb0846a9690ea3db" category="inline-link-rx"></block></block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link">ONTAP용 Amazon FSx</block>
-  <block id="a24bba36cb4a314e2d49f3de7731e9af" category="list-text"><block ref="a24bba36cb4a314e2d49f3de7731e9af" category="inline-link-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link">Google Cloud용 Cloud Volumes Service</block>
   <block id="bb5abe8201599db6217db0b48efaaf5c" category="list-text"><block ref="bb5abe8201599db6217db0b48efaaf5c" category="inline-link-rx"></block></block>
   <block id="f06223f9afc23bac523c7b9854772040" category="inline-link">높지 않습니다</block>
@@ -502,7 +497,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="3404cce75db90acf6a9d52860721a139" category="list-text">ONTAP 클러스터</block>
   <block id="7fcb7f97cbc710b693fef37b5e86770f" category="list-text">StorageGRID 시스템</block>
   <block id="340a76e3aef8e862f5fd79411261b297" category="list-text">이동성</block>
-  <block id="55e7d878083c03ce4abbbc1175e10f41" category="list-text">데이터를 동기화, 복사, 계층화 및 캐싱하여 필요한 위치로 데이터를 이동합니다.</block>
   <block id="e216b7a924341f796bca310d1d812baf" category="inline-link">복사 및 동기화</block>
   <block id="f74f0f0050569783e8c306d738c4d91e" category="list-text"><block ref="f74f0f0050569783e8c306d738c4d91e" category="inline-link-rx"></block></block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="inline-link">계층화</block>
@@ -518,8 +512,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="3e347fe716ab17eefd02acef8c0347bf" category="list-text"><block ref="3e347fe716ab17eefd02acef8c0347bf" category="inline-link-rx"></block></block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="inline-link">디지털 자문업체</block>
   <block id="86d4d1274a29106954740fc239a0af79" category="list-text"><block ref="86d4d1274a29106954740fc239a0af79" category="inline-link-rx"></block></block>
-  <block id="e1d4fcf84146530af8da4a20a003710d" category="inline-link">BlueXP를 사용하여 조직에 도움을 주는 방법에 대해 자세히 알아보십시오</block>
-  <block id="b2be08edab4d3d89797b89ae19e20493" category="paragraph"><block ref="b2be08edab4d3d89797b89ae19e20493" category="inline-link-rx"></block></block>
   <block id="902e65d33784bd8924eb05e622aa2dda" category="section-title">지원되는 클라우드 공급자</block>
   <block id="0cf89ba9f6178dc91d18ec5c2aec1c61" category="paragraph">BlueXP를 사용하면 Amazon Web Services, Microsoft Azure 및 Google Cloud에서 클라우드 스토리지를 관리하고 클라우드 서비스를 사용할 수 있습니다.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
@@ -528,31 +520,19 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="a2513e72ab3ae9830fac174977d58572" category="section-title">BlueXP의 작동 방식</block>
   <block id="11cf550820ecd5e75ae1a9046f7f7f05" category="section-title">서비스형 소프트웨어</block>
   <block id="22412f0c62e1935807bc2c96a82d38cd" category="inline-link">웹 기반 콘솔</block>
-  <block id="1b0e5ba1a856c5bcdb8e3362b25e7bfb" category="paragraph">BlueXP는 을 통해 액세스할 수 있습니다<block ref="2f36e092fa6569e04c3ec0f6ff9041a3" category="inline-link-rx"></block> API를 사용해 보십시오. 이 SaaS 환경을 통해 최신 기능이 릴리스될 때 자동으로 액세스할 수 있으며 BlueXP 계정과 커넥터 간에 쉽게 전환할 수 있습니다.</block>
-  <block id="065c13346a6a1b4ec88ebda80e48a910" category="section-title">BlueXP 계정</block>
-  <block id="62acc1e12893f4b92864cd95803b816b" category="paragraph">BlueXP에 처음 로그인하면 _BlueXP 계정 _ 을(를) 생성하라는 메시지가 나타납니다. 이 계정은 다중 테넌시를 제공하며 사용자가 isolated_worksaces_에서 사용자 및 리소스를 구성할 수 있도록 합니다.</block>
-  <block id="129817058db903a45b87ffbf2c08a0d2" category="inline-link-macro">어카운트에 대해 자세히 알아보십시오</block>
-  <block id="74a4ede1451c1e5d5746c24e1fc77924" category="paragraph"><block ref="7a5209a3744a7cace63a040ed3f3ce07" category="inline-link-macro-rx"></block>.</block>
   <block id="b8af0c827fddecff5686f66caf50fc37" category="section-title">제한된 모드 및 비공개 모드</block>
-  <block id="0b2713c18a328b85808183d496d2d28c" category="paragraph">BlueXP는 보안 및 연결 제한이 있는 환경에서도 지원됩니다. _restricted mode_or_private mode_를 사용하여 BlueXP SaaS 계층에 대한 아웃바운드 연결을 제한할 수 있습니다.</block>
   <block id="0b43e955bb49e08923e9b43ee20ef2b3" category="section-title">SOC 2 Type 2 인증</block>
   <block id="7f275ad0568e7861b2f443f918043809" category="paragraph">독립적인 공인회계사 및 서비스 감사원이 BlueXP를 조사하여 해당 신뢰 서비스 기준에 따라 SOC 2 Type 2 보고서를 획득하였다는 것을 확인했습니다.</block>
   <block id="582a36961cbdd6ca90f6672041cdab83" category="inline-link">NetApp의 SOC 2 보고서 보기</block>
   <block id="958c315a8c40765f65895091ecc83488" category="paragraph"><block ref="958c315a8c40765f65895091ecc83488" category="inline-link-rx"></block></block>
-  <block id="8b2f4a40ac1aa19f2dc2b3da3efe4ffc" category="summary">NetApp Support 사이트 계정을 BlueXP 계정과 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 활성화합니다. 이러한 NSS 자격 증명은 전체 BlueXP 계정과 연결되어 있습니다.</block>
-  <block id="8c79ce7ab82c8c7e3fb9c6e8a73f8960" category="doc">BlueXP 계정과 연결된 NSS 자격 증명을 관리합니다</block>
   <block id="3d41446101a1daf0639146f4555b623b" category="inline-link-macro">사용자 수준 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
-  <block id="45b496845c319f5bc16fa44745aea5f0" category="admonition">또한 BlueXP에서는 BlueXP 사용자당 하나의 NSS 계정을 연결할 수 있습니다. <block ref="92ab4e1c25ae34810f6c6d2ede81f4ab" category="inline-link-macro-rx"></block>.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">개요</block>
-  <block id="4a2f661974665defd7d188133a1ab48b" category="paragraph">BlueXP에서 다음 작업을 사용하려면 특정 BlueXP 계정 ID와 NetApp Support 사이트 자격 증명을 연결해야 합니다.</block>
   <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL(Bring Your Own License) 방식으로 Cloud Volumes ONTAP 구축</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">BlueXP에서 사용권 키를 업로드하고 구입한 용어에 대한 구독을 활성화하려면 NSS 계정을 제공해야 합니다. 여기에는 기간 갱신을 위한 자동 업데이트가 포함됩니다.</block>
   <block id="a3b3ed2f72536d95b268a4a67722c55d" category="list-text">선불 종량제 Cloud Volumes ONTAP 시스템을 등록합니다</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">NSS 계정을 제공하면 시스템에 대한 지원을 활성화하고 NetApp 기술 지원 리소스에 액세스할 수 있습니다.</block>
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드하는 중입니다</block>
-  <block id="a86ad85ddb4228477c624e47ab659180" category="paragraph">이러한 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS 계정을 추가합니다</block>
-  <block id="9a030ad8abbc9b1e402feade38bdec50" category="paragraph">지원 대시보드를 사용하면 BlueXP 계정 수준에서 BlueXP에 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
@@ -620,7 +600,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="4cdcf6b8fd95bbaa7cf27e4443c7681b" category="section-title">NSS 자격 증명</block>
   <block id="9b7ea233ab4085c74e7506949f6c1a49" category="paragraph">BlueXP 로그인과 관련된 NSS 자격 증명을 통해 등록, 케이스 관리 및 Digital Advisor에 액세스할 수 있습니다.</block>
   <block id="f57a365a74c463e64fe68cc99fbed5f5" category="list-text">지원 &gt; 리소스 * 에 액세스하여 지원을 등록하면 NSS 자격 증명을 BlueXP 로그인에 연결하라는 메시지가 표시됩니다.</block>
-  <block id="b5d4819a4e8d73d085630d52e025ce10" category="paragraph">그러면 지원을 위해 BlueXP 계정이 등록되고 지원 권한이 활성화됩니다. BlueXP 계정에 있는 한 명의 사용자만 NetApp Support 사이트 계정을 BlueXP 로그인에 연결하여 지원을 등록하고 지원 권한을 활성화해야 합니다. 이 작업이 완료되면 * 리소스 * 페이지에 계정이 지원을 위해 등록되었다는 내용이 표시됩니다.</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link">지원 등록 방법을 알아보십시오</block>
   <block id="aefc4dbe9b72d17b676f3fa6cb3d70e1" category="paragraph"><block ref="aefc4dbe9b72d17b676f3fa6cb3d70e1" category="inline-link-rx"></block></block>
   <block id="1f41c927d23b7f472c07e8cefaaa4155" category="list-text">지원 &gt; 케이스 관리 * 에 액세스하면 NSS 자격 증명을 입력하라는 메시지가 표시됩니다(아직 입력하지 않은 경우). 이 페이지에서는 NSS 계정 및 회사와 관련된 지원 사례를 만들고 관리할 수 있습니다.</block>
@@ -628,10 +607,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="bff35f79163f07f1c3724cc46b19c1f3" category="paragraph">BlueXP 로그인과 관련된 NSS 계정은 다음과 같습니다.</block>
   <block id="37cb0cdf24a1597d838bc5f1699b9e5a" category="list-text">계정은 사용자 수준에서 관리되므로 로그인한 다른 사용자가 볼 수 없습니다.</block>
   <block id="fcaf3921e62bfc728003fed248ffa3f9" category="list-text">사용자당 Digital Advisor 및 지원 케이스 관리와 연결된 NSS 계정은 하나만 있을 수 있습니다.</block>
-  <block id="7919f3886eb3f79725465a41663fb32e" category="list-text">NetApp Support 사이트 계정을 Cloud Volumes ONTAP 작업 환경과 연결하려는 경우, BlueXP 계정에 추가한 NSS 계정에서만 사용자가 구성원으로 속해 있는 계정을 선택할 수 있습니다.</block>
   <block id="a91658662405c5ec223c95cc1036afce" category="paragraph">NSS 계정 수준 자격 증명은 BlueXP 로그인과 연결된 NSS 계정과 다릅니다. NSS 계정 수준 자격 증명을 사용하면 BYOL(Bring Your Own License), PAYGO 시스템 등록 및 Cloud Volumes ONTAP 소프트웨어 업그레이드 시 Cloud Volumes ONTAP를 구축할 수 있습니다.</block>
-  <block id="db0f1f3e531a1a1c690b42c9a6daae35" category="inline-link-macro">BlueXP 계정에서 NSS 자격 증명을 사용하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="dacf2f246c2efb276c3709c141985f7c" category="paragraph"><block ref="4734e8f3bab5a9c00aebb286a2f16deb" category="inline-link-macro-rx"></block>.</block>
   <block id="cc96a4cc30e50577aa6671b076af72e1" category="section-title">사용자 자격 증명을 관리합니다</block>
   <block id="fa6e9e9d0c238d856c9d80111986b0b1" category="paragraph">사용자 이름과 암호를 업데이트하거나 자격 증명을 삭제하여 사용자 자격 증명을 관리합니다.</block>
   <block id="9afc8b6b41174c0836030fc8ac89ce5a" category="list-text">아직 사용자 자격 증명이 없는 경우 * NSS 자격 증명 추가 * 를 선택하여 NetApp Support 사이트 계정을 추가할 수 있습니다.</block>
@@ -647,15 +623,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="19df8bb4b5a805b23aeac731605bdf21" category="list-text">기존 NetApp Support 사이트(NSS) 자격 증명</block>
   <block id="4cd9dd3aeeaff4f9e2ee0a8b309b6856" category="inline-link-macro">BlueXP에서 ID 페더레이션을 사용하는 방법에 대해 알아봅니다</block>
   <block id="3a9d5bd356ec8e4fc31c11150128b7ac" category="list-text">웹 브라우저를 열고 로 이동합니다<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block></block>
-  <block id="61bd9c463723beb495c6ca6a1a35e0eb" category="paragraph">NSS 계정이 있는 경우 등록 페이지를 건너뛸 수 있습니다. BlueXP가 이 초기 로그인의 일부로 등록하게 됩니다.</block>
   <block id="9998984c95caccce61e49ca25de1c99f" category="paragraph">등록 양식에는 영어 문자만 사용할 수 있습니다.</block>
-  <block id="a2d1bd30e95a89c4ecb9d6a39da84e3a" category="list-text">시작 * 페이지에서 계정 이름을 입력합니다.</block>
-  <block id="efb45899558a953ff7d6578e89aa2c1c" category="inline-link-macro">기존 계정에 구성원을 추가하는 방법에 대해 알아봅니다</block>
-  <block id="ecbca8245155432067c380b55b5146bb" category="paragraph">계정은 NetApp의 ID 플랫폼에서 최상위 요소입니다. 사용자, 역할, 사용 권한 및 작업 환경을 추가하고 관리할 수 있습니다.</block>
-  <block id="a860f226d10bcd54ab238e5189d94747" category="inline-image-macro">계정에 속하지 않는 새 계정으로 로그인할 때 나타나는 시작 페이지의 스크린 샷</block>
-  <block id="e079acaa326ddf3b1cb6ee167cce08f4" category="paragraph"><block ref="e079acaa326ddf3b1cb6ee167cce08f4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="20653d224bca9fb40181f3916e4f643d" category="list-text">계정 만들기 * 를 선택합니다.</block>
-  <block id="2f0488f8a3ca91699637c323ed3b7ae7" category="paragraph">이제 BlueXP 로그인 및 계정이 있습니다. 대부분의 경우 다음 단계는 BlueXP의 서비스를 하이브리드 클라우드 환경에 연결하는 Connector를 만드는 것입니다.</block>
   <block id="082338dd3697084a7af4c20fcdf81e82" category="summary">BlueXP가 Azure에서 Connector VM을 시작하면 Connector에 Azure 구독 내의 리소스 및 프로세스를 관리할 수 있는 권한을 제공하는 사용자 지정 역할을 VM에 연결합니다. Connector는 사용 권한을 사용하여 여러 Azure 서비스에 대한 API 호출을 수행합니다.</block>
   <block id="94864bc66faf9702eb87f3ddb6665c2c" category="doc">Connector에 대한 Azure 권한</block>
   <block id="9fbcb95374723e2f8d5b7c17a2ece586" category="section-title">사용자 지정 역할 권한</block>
@@ -871,10 +839,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="3725c308cfc8c643d641a79a6973de6a" category="paragraph">이러한 플래그에 대한 자세한 내용은 를 참조하십시오 <block ref="da0fbb66abe85889cc98553ca2ce188d" category="inline-link-macro-rx"></block>.</block>
   <block id="6e73017040e152e8818eb7f83bc493fc" category="paragraph">명령을 실행하면 NetApp 골드 이미지를 사용하여 Connector가 구축됩니다. Connector 인스턴스 및 소프트웨어는 약 5분 내에 실행되어야 합니다.</block>
   <block id="bd9691461cb90d45ce8386aaf15e21a6" category="list-text">Connector 인스턴스에 연결된 호스트에서 웹 브라우저를 열고 다음 URL을 입력합니다.</block>
-  <block id="4d342acc2474b2bd9afcbf4cc2be732e" category="paragraph"><block ref="07999df8a3fec91dcf6daa7e52777cc7" category="inline-link-macro-rx"></block>.</block>
-  <block id="aeb47633d22edfd2e068571b631d2d5e" category="paragraph">이제 커넥터가 설치되어 BlueXP 계정으로 설정됩니다.</block>
   <block id="31b69cff9901ca80c50a1d680a9b258a" category="paragraph">웹 브라우저를 열고 로 이동합니다<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block> 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.</block>
-  <block id="b630649167e22ae03b6b2263ca0a2200" category="summary">온프레미스 및 클라우드 환경 전반에서 데이터를 구축, 보호, 규제할 수 있도록 NetApp BlueXP를 시작하십시오. 설치가 완료되면 BlueXP 계정, 커넥터, 클라우드 공급자 계정 등을 관리할 수 있습니다.</block>
   <block id="7390f55a27add10ddc1a6c765b8a67c7" category="doc">BlueXP 설치 및 관리 문서</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
@@ -897,7 +862,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">리소스 * 페이지의 기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 BlueXP 계정, 작업 영역 및 커넥터의 범위 내에 있습니다.</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선 순위에 대한 자세한 내용을 보려면 필드 이름 옆에 있는 정보 아이콘 위로 마우스를 가져갑니다.</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">* 문제 설명 * : 해당 오류 메시지 또는 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공합니다.</block>
@@ -966,7 +930,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="53c512e9599c71e1a585d636a5229820" category="list-text">표준 모드</block>
   <block id="4275ae61422c34253a59329bd20a0449" category="inline-link-macro">Azure 권한을 설정합니다</block>
   <block id="12f7970cff397ea2f0846f3904f8e00f" category="inline-link-macro">온프레미스 구축을 위한 클라우드 권한 설정</block>
-  <block id="b3a595111956cd206b5fcd5e77bee895" category="summary">BlueXP에 등록하면 조직의 계정을 만들라는 메시지가 표시됩니다. 이 계정만 필요한 경우 여러 계정이 필요한 경우에는 Tenancy API를 사용하여 추가 계정을 만들어야 합니다.</block>
   <block id="6c45b1e5876b4865e0208a9ade3da041" category="doc">다른 BlueXP 계정을 만듭니다</block>
   <block id="6eb6b03d63d198bc73be4828f333e30e" category="paragraph">다음 API 호출을 사용하여 BlueXP 계정을 추가로 생성합니다.</block>
   <block id="ffa4f1b743e7c72a7bca2233b70cf51d" category="paragraph">게시<block ref="9e456101e3e272027aab89f5f360d6be" prefix=" " category="inline-code"></block></block>
@@ -1014,7 +977,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="7c04a15d03a827f3e932f6ea885fb875" category="list-text"><block ref="7c04a15d03a827f3e932f6ea885fb875" category="inline-link-rx"></block></block>
   <block id="59c8a7b2e005ee251a6301c0ca1f23b3" category="list-text">커넥터를 설치한 후 BlueXP에 추가할 수 있는 액세스 키가 사용자에게 있는지 확인합니다.</block>
   <block id="9370643895ad52c4da3ddf50c1e24a82" category="summary">계정 관리자, 작업 영역 관리자, 규정 준수 뷰어 및 SnapCenter 관리자 역할은 사용자에게 특정 권한을 제공합니다. 새 사용자를 BlueXP 계정에 연결할 때 이러한 역할 중 하나를 할당할 수 있습니다.</block>
-  <block id="706c30f817a6d965f23bc2798759eb15" category="paragraph">Compliance Viewer 역할은 읽기 전용 BlueXP 분류 액세스를 위한 것입니다.</block>
   <block id="eaeb30f9f18e0c50b178676f3eaef45f" category="cell">작업</block>
   <block id="023bddc1580239bc605771883a09c8ff" category="cell">계정 관리자</block>
   <block id="7088282dd5defa41ae1744ff713534b6" category="cell">작업 영역 관리자</block>
@@ -1033,10 +995,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="1eda8b1f4dfa35b119f2a579170d4546" category="cell">자격 증명 관리</block>
   <block id="d7cea5f953c31662cd13f98b3b7d8608" category="cell">BlueXP 설정을 수정합니다</block>
   <block id="59d212e47ec92d175a35d52f6c448d89" category="cell">지원 대시보드 보기 및 관리</block>
-  <block id="768acef28167e99aae88f7c6d5d9322a" category="inline-link-macro">BlueXP 계정에서 작업 영역 및 사용자를 설정합니다</block>
-  <block id="efb23fed841e93229b5eba2d12143dd0" category="list-text"><block ref="efb23fed841e93229b5eba2d12143dd0" category="inline-link-macro-rx"></block></block>
-  <block id="5cc33db7bd831802e558ae70eb573d98" category="inline-link-macro">BlueXP 계정에서 작업 영역 및 사용자 관리</block>
-  <block id="9eda901ca4a8d939f48fdc3e1139b8d2" category="list-text"><block ref="9eda901ca4a8d939f48fdc3e1139b8d2" category="inline-link-macro-rx"></block></block>
   <block id="45f5c7b6248438f849cf619c647c63e4" category="paragraph">온-프레미스 커넥터가 있는 AWS 또는 Azure에서 BlueXP 서비스를 사용하려면 클라우드 공급자에 권한을 설정해야 자격 증명을 설치한 후 Connector에 추가할 수 있습니다.</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="open-title">설치하고</block>
   <block id="c6a2a62c2d06a1633aadd355cae5e2d6" category="paragraph">이제 필요한 권한이 있는 IAM 사용자를 위한 액세스 키가 있어야 합니다. Connector를 설치한 후 이러한 자격 증명을 BlueXP의 커넥터와 연결해야 합니다.</block>
@@ -1131,16 +1089,11 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="f59e6f594c03905c8d1965c57967806e" category="paragraph"><block ref="f59e6f594c03905c8d1965c57967806e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="861c99531853674511342d75aef34187" category="list-text">적절한 청구 계정을 선택하고 이용 약관에 동의합니다.</block>
   <block id="ca4f48bdc60c2a16dd59109486af30ee" category="paragraph">이 단계에서는 전송 요청을 NetApp에 전송합니다.</block>
-  <block id="9b3006787e316852bcbc8a44b5e05f58" category="paragraph">Google Cloud 구독을 BlueXP 계정에 연결하려면 이 단계를 완료해야 합니다. 이 페이지에서 리디렉션된 다음 BlueXP에 로그인할 때까지 가입 연결 프로세스가 완료되지 않습니다.</block>
   <block id="e3d03a33db92a9024d72af3cae4684fd" category="inline-image-macro">등록 팝업 스크린샷.</block>
   <block id="6373a7d66fb33193565645f81635ec0c" category="paragraph"><block ref="6373a7d66fb33193565645f81635ec0c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="825c72d4114a9a71a355213f6b79c642" category="list-text">구독 할당 * 페이지의 단계를 완료합니다.</block>
   <block id="4314e9e91f1c1e76df01e49490b3367e" category="inline-link">BlueXP 웹 사이트의 Cloud Volumes ONTAP 페이지</block>
   <block id="e5d34a7be7e3c957d955b41f31cc1b6b" category="admonition">조직의 누군가가 청구 계정에서 NetApp BlueXP 구독을 이미 구독한 경우 으로 리디렉션됩니다<block ref="35e104e3e4686d9ee172091b57b45bc0" category="inline-link-rx"></block> 대신 예기치 않은 상황인 경우 NetApp 세일즈 팀에 문의하십시오. Google은 Google 청구 계정당 하나의 가입만 활성화합니다.</block>
-  <block id="cbc7214c5ebe550a0789b5bc029f0a62" category="list-text">이 구독을 연결할 BlueXP 계정을 선택합니다.</block>
-  <block id="e0c62276bada3b5536cceb070664c871" category="list-text">기존 구독 바꾸기 * 필드에서 하나의 계정에 대한 기존 구독을 이 새 구독으로 자동 대체할지 여부를 선택합니다.</block>
-  <block id="23d838dbd51becc56367e6d9358b446e" category="paragraph">BlueXP는 계정의 모든 자격 증명에 대한 기존 구독을 이 새 구독으로 대체합니다. 자격 증명 집합이 구독과 연결되지 않은 경우 이 새 구독은 해당 자격 증명과 연결되지 않습니다.</block>
-  <block id="b4676b03cb1388f474b207b449af0dc2" category="paragraph">다른 모든 계정의 경우 이 단계를 반복하여 구독을 수동으로 연결해야 합니다.</block>
   <block id="10492389e94efdebbb66f7b0cd8a1324" category="list-text">저장 * 을 선택합니다.</block>
   <block id="5894b1931d65e9796cc25db1bb6fd566" category="list-text">이 프로세스가 완료되면 BlueXP의 자격 증명 페이지로 돌아가서 이 새 구독을 선택합니다.</block>
   <block id="467e5d6bbcd0ea531c8f7285b69e29ee" category="inline-image-macro">구독 할당 페이지의 스크린샷.</block>
@@ -1463,7 +1416,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="d3889a6ed22a99a11226c6b554539fa1" category="paragraph">Connector는 다른 애플리케이션과 공유되는 VM에서 지원되지 않습니다. VM은 Connector 소프트웨어 전용이어야 합니다.</block>
   <block id="39c131bd8f90ef7749228972a6486162" category="section-title">타사 에이전트 및 내선 번호</block>
   <block id="c305e694f602a4913fd20d15e3508fcc" category="paragraph">타사 에이전트 또는 VM 확장은 커넥터 VM에서 지원되지 않습니다.</block>
-  <block id="682e5294ff498e0a4acb9473b61e773c" category="summary">BlueXP 관리 기능의 새로운 기능, 즉 BlueXP 계정, 커넥터, 클라우드 공급자 자격 증명 등에 대해 알아보십시오.</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
   <block id="390bbe3d279d4d842ce6e1afdbef9cac" category="list-text">지원 대시보드에서 NetApp 지원 케이스를 열면 BlueXP에서 BlueXP 로그인과 연결된 NetApp Support 사이트 계정을 사용하여 케이스를 엽니다. BlueXP는 이전에 전체 BlueXP 계정과 연결된 NetApp Support 사이트 계정을 사용했습니다.</block>
   <block id="cf4de1590dec786ba89a784b76abf972" category="paragraph">이 변경 사항의 일환으로 BlueXP 계정에 대한 지원 등록은 사용자의 BlueXP 로그인과 연결된 NetApp Support 사이트 계정을 통해 수행됩니다. 이전에는 전체 BlueXP 계정과 연결된 NSS 계정을 통해 지원 등록을 수행했습니다. 따라서 다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 이전에 BlueXP 계정을 등록한 경우 등록 상태는 여전히 유효합니다. 상태를 보려면 사용자 수준 NSS 계정만 추가하면 됩니다.</block>
@@ -1832,7 +1784,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e6e914a08e5df82283d333cae53c631e" category="paragraph">예를 들어, 멀티클라우드 환경에서 일하고 있다고 가정해 보겠습니다. AWS에 Connector가 있고 Google Cloud에 Connector가 있을 수 있습니다. 이러한 클라우드에서 실행되는 Cloud Volumes ONTAP 시스템을 관리하려면 이러한 커넥터 사이를 전환해야 합니다.</block>
   <block id="843554000b6859445ec670b86fe1a3dc" category="list-text">커넥터 * 드롭다운을 선택하고 다른 커넥터를 선택한 다음 * 스위치 * 를 선택합니다.</block>
   <block id="3ade9e51cb5ecb8e80f63de9dffe90bd" category="inline-image-macro">머리글의 커넥터 아이콘 및 스위치 동작을 보여 주는 스크린샷</block>
-  <block id="4b8bff03335e3b9e10cd47a213ff79e2" category="paragraph"><block ref="4b8bff03335e3b9e10cd47a213ff79e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9e454ea444248fbc35956644d9980ab" category="paragraph">BlueXP는 선택한 커넥터와 연결된 작업 환경을 새로 고치고 표시합니다.</block>
   <block id="a37f4dabe9cfbc81f6c1fb589f9a8944" category="section-title">AutoSupport 메시지를 다운로드하거나 보냅니다</block>
   <block id="f7cf26738e01a9e2fd6edaaed1bee6cd" category="paragraph">문제가 있는 경우 NetApp 직원이 문제 해결을 위해 NetApp 지원에 AutoSupport 메시지를 보내도록 요청할 수 있습니다.</block>
@@ -1975,11 +1926,9 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="ffb0fc074900d8a4132e4776f5a4f956" category="paragraph">이제 BlueXP는 Azure에서 사용자를 대신하여 작업을 수행하는 데 필요한 권한을 가지고 있습니다. 이제 로 이동할 수 있습니다<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block> 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.</block>
   <block id="b7afeec70319496f1e3eb3a317ae30c3" category="doc">Google Cloud 네트워킹을 설정합니다</block>
   <block id="b48e4ef862d4262f2d1bbbde89d8e48c" category="doc">표준 모드에서 BlueXP를 빠르게 시작합니다</block>
-  <block id="d592a53baa7083e5ab7b0bc72eee19ef" category="paragraph">로 이동합니다<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block> 을 클릭합니다. 계정을 만들 수 있는 옵션이 제공되지만 기존 계정에 초대되는 경우 이 단계를 건너뛸 수 있습니다.</block>
   <block id="885c0a0c266c904878925a2adb8ad8e3" category="inline-link-macro">커넥터 없이 수행할 수 있는 작업을 알아보십시오</block>
   <block id="6c8debb34ebc3c407a812ccc72251f69" category="paragraph">이 시점에서 로그인하면 디지털 어드바이저, ONTAP용 Amazon FSx, Azure NetApp Files 등과 같은 여러 BlueXP 서비스를 사용할 수 있습니다. <block ref="8851d71f122770c4a322caec0247d10a" category="inline-link-macro-rx"></block>.</block>
   <block id="82c153b2414dc18b6be5abc5e6109200" category="paragraph">BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 커넥터를 만들어 모든 BlueXP 기능 및 서비스를 잠금 해제할 수 있습니다. Connector는 BlueXP에서 하이브리드 클라우드 환경 내의 리소스 및 프로세스를 관리할 수 있도록 지원하는 NetApp 소프트웨어입니다.</block>
-  <block id="8b4a0a506b72094247801bd21678206e" category="paragraph">BlueXP 계정 관리자는 클라우드 또는 온프레미스 네트워크에 커넥터를 생성할 수 있습니다.</block>
   <block id="249345af661bafcf4f8bd3a0b9d6e949" category="inline-link-macro">커넥터가 필요한 시기와 작동 방식에 대해 자세히 알아보십시오</block>
   <block id="850c1601f372329538aba5fe3f86430c" category="list-text"><block ref="850c1601f372329538aba5fe3f86430c" category="inline-link-macro-rx"></block></block>
   <block id="74d2f2a8ee613c321072e364f7ed33b2" category="inline-link-macro">AWS에서 커넥터를 생성하는 방법에 대해 알아보십시오</block>
@@ -2016,7 +1965,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="752330cdb2fab31ec29aaa286269a882" category="list-text">* 고급 세부 정보 *: * IAM 인스턴스 프로파일 * 에서 Connector에 필요한 권한이 포함된 IAM 역할을 선택합니다.</block>
   <block id="10a3df02c55e733eca6fef076545645a" category="paragraph">AWS가 지정된 설정으로 소프트웨어를 시작합니다. Connector 인스턴스 및 소프트웨어는 약 5분 내에 실행되어야 합니다.</block>
   <block id="a187fbf78abfcf26b0ccf604029629e6" category="summary">ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. 시작하려면 ID 페더레이션이 BlueXP와 작동하는 방식에 대해 알아보고 설치 프로세스의 개요를 검토하십시오.</block>
-  <block id="5a94ee93b1a4f42d5f889b53b576b4f0" category="doc">BlueXP에서 ID 페더레이션 사용</block>
   <block id="dca3cd1676cfe384fbb50f39c2e26eb4" category="paragraph">_ID 페더레이션_ 사용자가 회사 ID의 자격 증명을 사용하여 로그인할 수 있도록 BlueXP에서 단일 로그온을 활성화합니다. 시작하려면 ID 페더레이션이 BlueXP와 작동하는 방식에 대해 알아보고 설치 프로세스의 개요를 검토하십시오.</block>
   <block id="f570b8386694ba0d5563a8784f3135e5" category="section-title">NSS 자격 증명을 사용한 ID 페더레이션</block>
   <block id="e906028a6376600a0f505777b7c3af9f" category="paragraph">NetApp Support 사이트(NSS) 자격 증명을 사용하여 BlueXP에 로그인하는 경우 이 페이지의 지침에 따라 ID 페더레이션을 설정해서는 안 됩니다. 대신 다음을 수행해야 합니다.</block>
@@ -2109,7 +2057,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXP 계정 ID 지원 가입 등록(BlueXP의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">이는 BlueXP 내의 모든 서비스에 대한 단일 지원 가입 ID의 역할을 합니다. 각 BlueXP 계정 수준 지원 구독을 등록해야 합니다.</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 BlueXP에서 생성됩니다.</block>
@@ -2117,15 +2064,11 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
   <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
-  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetApp 지원을 위해 BlueXP 계정을 등록합니다</block>
-  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">지원을 등록하고 지원 권한을 활성화하려면 BlueXP 계정의 한 사용자가 NetApp Support 사이트 계정을 BlueXP 로그인에 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSS 계정을 가지고 있는 NetApp 고객은 BlueXP를 통해 지원을 받기 위해 등록하기만 하면 됩니다.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
-  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">리소스 * 페이지에 계정이 지원을 위해 등록되었다는 내용이 표시됩니다.</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 그러나 BlueXP 계정이 지원을 위해 등록되지 않은 것은 아닙니다. 계정에 있는 한 사용자가 이 단계를 따랐을 경우 계정이 등록되었습니다.</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">기존 사용권 및 제품 번호가 _NO_NSS인 기존 NetApp 고객인 경우 NSS 계정을 만들어 BlueXP 로그인과 연결해야 합니다.</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
@@ -2145,14 +2088,10 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 보안 트랜잭션을 완료하기 위해 제공된 사서함으로 즉시 이메일이 전송됩니다. 몇 분 내에 확인 이메일이 도착하지 않으면 스팸 폴더를 확인해야 합니다.</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">일련 번호 필드에 위에서 사용된 계정 일련 번호(960xxxx)를 복사해 주십시오. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">NetApp Support 사이트 계정이 있으면 의 단계를 완료하여 계정을 BlueXP 로그인에 연결합니다 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAP 지원을 위해 NSS 자격 증명을 연결합니다</block>
-  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">Cloud Volumes ONTAP에 대해 다음 주요 워크플로를 사용하려면 NetApp Support 사이트 자격 증명을 BlueXP 계정과 연결해야 합니다.</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">지원을 위해 선불 종량제 Cloud Volumes ONTAP 시스템을 등록합니다</block>
-  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
-  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="a046fbde0a8e04968445555624e37a69" category="summary">회사 정책에 따라 인터넷에 대한 모든 통신에 프록시 서버를 사용해야 하는 경우 해당 프록시 서버를 사용하도록 커넥터를 구성해야 합니다. 설치하는 동안 프록시 서버를 사용하도록 Connector를 구성하지 않은 경우 언제든지 해당 프록시 서버를 사용하도록 Connector를 구성할 수 있습니다.</block>
   <block id="146adb7944757e88795676b780c31811" category="doc">프록시 서버를 사용하도록 Connector를 구성합니다</block>
   <block id="30d7902c191c571f1aa091af3df65f3d" category="paragraph">프록시 서버를 사용하도록 Connector를 구성하면 공용 IP 주소 또는 NAT 게이트웨이를 사용할 수 없는 경우 아웃바운드 인터넷 액세스를 제공합니다. 이 프록시 서버는 아웃바운드 연결이 있는 커넥터만 제공합니다. Cloud Volumes ONTAP 시스템에 대한 연결은 제공하지 않습니다.</block>
@@ -2170,10 +2109,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="ac10c9401f16ed5ff0a029bce2712adc" category="inline-link">Cloud Volumes ONTAP에서 Azure 전용 링크 또는 서비스 끝점을 사용하는 방법에 대해 자세히 알아보십시오</block>
   <block id="6143580a5ae490efe32d3c566650ad6c" category="paragraph"><block ref="6143580a5ae490efe32d3c566650ad6c" category="inline-link-rx"></block></block>
   <block id="c569dd49f93a05d537d61130ed43e6e9" category="list-text">확인란을 선택하여 옵션을 활성화한 다음 * Save * 를 선택합니다.</block>
-  <block id="9345f603d48306b04203c8a77bc1ec43" category="summary">BlueXP 계정을 만들면 단일 관리자 사용자와 작업 영역만 포함됩니다. 사용자를 추가하고, 자동화를 위해 서비스 계정을 만들고, 작업 영역을 추가하는 등의 방법으로 조직의 요구에 맞게 계정을 관리할 수 있습니다.</block>
   <block id="f2b686d839a94b2d7f1e0a55d1c7c302" category="doc">BlueXP 계정을 관리합니다</block>
-  <block id="c695b69dfd48e2e642e9cf48a8d3e483" category="inline-link-macro">BlueXP 계정의 작동 방식에 대해 알아보십시오</block>
-  <block id="401598fa995f1173bd8b6d805a3761d0" category="paragraph"><block ref="5fbf8d815c8a85b58ff259c4d5123e15" category="inline-link-macro-rx"></block>.</block>
   <block id="315b1bcfec7b067d1365b30389121dcb" category="section-title">Tenancy API로 계정을 관리합니다</block>
   <block id="ab92d1e2231079f7f278e33e63f88ee9" category="paragraph">API 요청을 전송하여 계정 설정을 관리하려면 _Tenancy_API를 사용해야 합니다. 이 API는 Cloud Volumes ONTAP 작업 환경을 만들고 관리하는 데 사용하는 BlueXP API와 다릅니다.</block>
   <block id="1dc658529d6408dff5a6f0516b76a420" category="inline-link">Tenancy API에 대한 끝점을 봅니다</block>
@@ -2187,7 +2123,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="aeb8221008e9f6c1ef2c8833cef411ed" category="list-text">BlueXP 상단에서 * 계정 * 드롭다운을 선택합니다.</block>
   <block id="81da0bcfa753963ae97ffa63aa2045d3" category="inline-image-macro">BlueXP의 상단 배너에 계정 설정 옵션이 표시된 스크린샷.</block>
   <block id="0fad82c7de53b27425f25cc82c5a54c6" category="paragraph"><block ref="0fad82c7de53b27425f25cc82c5a54c6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2d35c008b6d8ec0a2c130c99f891d04a" category="list-text">현재 선택한 계정 옆에 있는 * 계정 관리 * 를 선택합니다.</block>
   <block id="155907ffed37b938531a447277cae166" category="inline-image-macro">계정 드롭다운에서 사용할 수 있는 계정 설정 관리 옵션을 보여 주는 스크린샷</block>
   <block id="c04c08fe80b97e132e0d3900955bcba0" category="paragraph"><block ref="c04c08fe80b97e132e0d3900955bcba0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a4f6d118b5dde10993a1937e971e7afb" category="list-text">구성원 탭에서 * 사용자 연결 * 을 선택합니다.</block>
@@ -2287,9 +2222,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="dd5f2c116815cb1eac2ffe4f6e18517f" category="open-title">사용자 지정 역할</block>
   <block id="ec09b900c630334c74f96f6faf3eee8e" category="paragraph">로 이동합니다<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block> 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.</block>
   <block id="6019d7a828098995320847394d1a9a09" category="open-title">서비스 책임자</block>
-  <block id="fa63e1e893cffd937dfc1bfa0546daf3" category="summary">BlueXP가 수행하는 작업의 상태를 모니터링하여 해결해야 할 문제가 있는지 확인할 수 있습니다. 알림 센터, 시각표에서 상태를 보거나 이메일로 알림을 보낼 수 있습니다.</block>
-  <block id="1016d21e7c7301d878d5d5b3e38eabe0" category="doc">계정의 작업을 모니터링합니다</block>
-  <block id="01fd2503a6dcf5702d25f8877eaa869e" category="paragraph">다음 표에서는 Notification Center와 시간 표시 막대를 비교하여 각 기능이 제공해야 하는 사항을 설명합니다.</block>
   <block id="9085e5686dfeb6405cc2917702710ed3" category="cell">알림 센터</block>
   <block id="3d1f92a565d3b1a61880236e33c49bf3" category="cell">타임라인</block>
   <block id="0486b07a3d352a89611f0005bff8bbd3" category="cell">이벤트 및 작업에 대한 상위 상태를 표시합니다</block>
@@ -2302,7 +2234,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="ccd4bc4aaf0a115f3a6bbe1e30e9ef4c" category="cell">사용자가 시작했는지 또는 시스템이 시작되었는지에 관계없이 모든 작업을 표시합니다</block>
   <block id="d040772afd73d06726db90efc0407647" category="cell">중요도에 따라 결과를 필터링합니다</block>
   <block id="29ab04719210957e371eb573f91dbb73" category="cell">서비스, 작업, 사용자, 상태 등을 기준으로 필터링합니다</block>
-  <block id="5c61dbbb22810fcf5149eb1192885607" category="cell">계정 사용자 및 다른 사용자에게 알림을 이메일로 보낼 수 있는 기능을 제공합니다</block>
   <block id="e92861fef775acb8c5a64f8d282a8b80" category="cell">이메일 기능이 없습니다</block>
   <block id="d1e2d8530c09fe28c2a817289491bd01" category="section-title">알림 센터를 사용하여 활동을 모니터링합니다</block>
   <block id="40da6f1400e45d080a97992a6a539894" category="inline-image-macro">알림 벨</block>
@@ -2328,19 +2259,15 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="86a2197cbddea56be1e7cc24be3d4916" category="paragraph"><block ref="86a2197cbddea56be1e7cc24be3d4916" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4815e02c8d3314e19dd0c9f88070f95e" category="paragraph">예를 들어, BlueXP 작업에 대한 "오류" 및 "경고" 알림만 표시하려면 해당 항목을 선택하면 해당 유형의 알림만 표시됩니다.</block>
   <block id="def7f3eac7eed1dada5cdcd2951ede36" category="section-title">이메일 알림 설정을 지정합니다</block>
-  <block id="f8e2d638417ba643bd67781e67c8ff5f" category="paragraph">이메일을 통해 특정 유형의 알림을 전송할 수 있으므로 BlueXP에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있습니다. 이메일은 BlueXP 계정에 속한 모든 사용자 또는 특정 유형의 시스템 작업을 알고 있어야 하는 다른 수신자에게 보낼 수 있습니다.</block>
   <block id="5fd245f2aeee830efb92d081af6a0e22" category="list-text">Connector가 인터넷에 연결되지 않은 사이트에 설치되어 있으면 이메일 알림 전송이 지원되지 않습니다.</block>
-  <block id="f6cf378d25bc2bcaeedbdbd322fec41b" category="paragraph">알림 설정을 사용자 지정하려면 계정 관리자여야 합니다.</block>
   <block id="8d7a9434573819ca2918a0be28a97671" category="list-text">BlueXP 메뉴 표시줄에서 * 설정 &gt; 경고 및 알림 설정 * 을 선택합니다.</block>
   <block id="dffb0ae952f619b638efb5dbc37b121a" category="inline-image-macro">경고 및 알림 설정 페이지를 표시하는 방법을 보여 주는 스크린샷</block>
   <block id="7d1b8c811a59859856f7d6e326206f8e" category="paragraph"><block ref="7d1b8c811a59859856f7d6e326206f8e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1574c3b98d877a336e31fff7f6edacbc" category="list-text">계정 사용자_탭 또는 _Additional Recipients_tab에서 사용자 또는 여러 사용자를 선택하고 보낼 알림 유형을 선택합니다.</block>
   <block id="be1ff5702d71bdbcc574f8915f637eb0" category="list-text">단일 사용자를 변경하려면 해당 사용자의 알림 열에서 메뉴를 선택하고 전송할 알림 유형을 선택한 다음 * 적용 * 을 선택합니다.</block>
   <block id="37b2c580532c6ea9ad4686cadcb2a292" category="list-text">여러 사용자를 변경하려면 각 사용자에 대한 확인란을 선택하고 * 이메일 알림 관리 * 를 선택한 후 전송할 알림 유형을 선택하고 * 적용 * 을 선택합니다.</block>
   <block id="c620f9967c3de275d7f81b04c1220bbb" category="inline-image-macro">여러 사용자에 대한 알림을 변경하는 방법을 보여 주는 스크린샷</block>
   <block id="ba47221b59f846f383b80e1123a79d45" category="paragraph"><block ref="ba47221b59f846f383b80e1123a79d45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4420a19e2fb911632ceb20db9bff5d6a" category="section-title">추가 이메일 수신자를 추가합니다</block>
-  <block id="da69d368769f4f71d80717684f0fae51" category="inline-link-macro">계정 관리 페이지</block>
   <block id="9c3d653ca7995e59299fb7641e61895f" category="list-text">알림 및 알림 설정 페이지에서 * 새 수신자 추가 * 를 선택합니다.</block>
   <block id="acd827f1422fd31386324c56e2be6d81" category="inline-image-macro">경고와 알림에 대한 새 전자 메일 수신자를 추가하는 방법을 보여 주는 스크린샷</block>
   <block id="5e56842d0cfbf695522e945a01570eba" category="paragraph"><block ref="5e56842d0cfbf695522e945a01570eba" category="inline-image-macro-rx" type="image"></block></block>
@@ -2354,12 +2281,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="8e94ce578d759d7ee56ab163db1168d4" category="inline-image-macro">단일 알림을 닫는 방법을 보여 주는 스크린샷</block>
   <block id="f0347b571f6b77eac494a6f04226e225" category="paragraph">개별 알림을 해제하려면 알림 위에 커서를 놓고 * Dismiss * 를 선택합니다.
 <block ref="1932261efa358e221b5ec460a7384dc2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c7301535b34ac7c53c3f13cbe4a60d35" category="section-title">계정의 사용자 활동을 감사합니다</block>
-  <block id="0563c947402024d2534f6ea4df2cd5e1" category="paragraph">BlueXP의 시간 표시 막대에는 사용자가 계정 관리를 위해 수행한 작업이 표시됩니다. 여기에는 사용자 연결, 작업 영역 만들기, 커넥터 만들기 등의 관리 작업이 포함됩니다.</block>
   <block id="322812be635bbd80fb94dbae450a00b4" category="paragraph">특정 작업을 수행한 사람을 확인해야 하거나 작업의 상태를 확인해야 하는 경우 시간 표시 막대를 확인하는 것이 도움이 됩니다.</block>
-  <block id="43593eb2406816ddc01b85763cd6eb9e" category="list-text">BlueXP 메뉴 모음에서 * 설정 &gt; 타임라인 * 을 선택합니다.</block>
-  <block id="dd42672b01336bb8efdd0fffbb622877" category="list-text">필터 아래에서 * Service * 를 선택하고 * Tenancy * 를 활성화하고 * Apply * 를 선택합니다.</block>
-  <block id="7aa6a4ffdbdc6eccd7f131257c7de6a8" category="paragraph">계정 관리 작업이 표시되도록 타임라인이 업데이트됩니다.</block>
   <block id="1c03861f288d9b723fd929e611a6e8fd" category="summary">Azure 자격 증명을 추가 및 관리하여 BlueXP가 Azure 구독에서 클라우드 리소스를 배포하고 관리하는 데 필요한 권한을 갖도록 합니다. 여러 Azure Marketplace 구독을 관리하는 경우 자격 증명 페이지에서 각 구독을 서로 다른 Azure 자격 증명에 할당할 수 있습니다.</block>
   <block id="3cae1bb62504fde722824fee95046472" category="doc">BlueXP용 Azure 자격 증명 및 구독을 관리합니다</block>
   <block id="92a9c164b3357bd8694c8be608dc3d23" category="paragraph">Cloud Volumes ONTAP에 대해 여러 Azure 자격 증명 또는 여러 Azure 마켓플레이스 구독을 사용해야 하는 경우 이 페이지의 단계를 따릅니다.</block>
@@ -2400,7 +2322,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="6186e185b0ea9b1c5909f6190ea935aa" category="section-title">BlueXP에 자격 증명을 추가합니다</block>
   <block id="897558c0bcdd42cd68064bdca7591b82" category="paragraph">필요한 권한이 있는 Azure 계정을 제공한 후 해당 계정에 대한 자격 증명을 BlueXP에 추가할 수 있습니다. 이 단계를 완료하면 다른 Azure 자격 증명을 사용하여 Cloud Volumes ONTAP를 시작할 수 있습니다.</block>
   <block id="15bb02041f104dbc655746382fa7ea1c" category="paragraph">클라우드 공급자에서 이러한 자격 증명을 만든 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.</block>
-  <block id="c70e0a237dbda00edf1f26ee4ad8e9da" category="list-text">계정 자격 증명 * 페이지에서 * 자격 증명 추가 * 를 선택하고 마법사의 단계를 따릅니다.</block>
   <block id="7113a4a81ece56ecd0ba9c041db4bc9b" category="list-text">* 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 선택합니다.</block>
   <block id="f9e1290b868bffdf198b52e0ebc715f0" category="inline-link">새 작업 환경을 만들 때</block>
   <block id="73d53f23610cc3c7f3876a7e295ff03f" category="paragraph">이제 세부 정보 및 자격 증명 페이지에서 다른 자격 증명 집합으로 전환할 수 있습니다<block ref="b755550aa4c4ad31a42757f4fc357592" category="inline-link-rx"></block></block>
@@ -2418,11 +2339,9 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="cb735ebf950ed5c7902b507f70582bd3" category="list-text">[구독 할당 *] 페이지에서:</block>
   <block id="c98f8dfd7e317cb87d057d9e065d71d4" category="section-title">자격 증명을 편집합니다</block>
   <block id="bf6a5b9863bb599dd7d76e43de882036" category="paragraph">Azure 서비스 자격 증명에 대한 세부 정보를 수정하여 BlueXP에서 Azure 자격 증명을 편집합니다. 예를 들어, 서비스 보안 주체 응용 프로그램에 대해 새 암호가 만들어진 경우 클라이언트 암호를 업데이트해야 할 수 있습니다.</block>
-  <block id="c042156941649b9112145dc552484165" category="list-text">계정 자격 증명 * 페이지에서 자격 증명 세트의 작업 메뉴를 선택한 다음 * 자격 증명 편집 * 을 선택합니다.</block>
   <block id="d7ef0bce115005fa2c5e3accd5b74cc5" category="list-text">필요한 내용을 변경한 다음 * Apply * 를 선택합니다.</block>
   <block id="7132b07cc411f1ad7091b34cfe32d739" category="section-title">자격 증명을 삭제합니다</block>
   <block id="a16b0bbea9ed6a7a22d41efc21ec1cef" category="paragraph">더 이상 자격 증명 세트가 필요하지 않으면 BlueXP에서 삭제할 수 있습니다. 작업 환경과 연결되지 않은 자격 증명만 삭제할 수 있습니다.</block>
-  <block id="79c33710e10337a79e50227860ebf59a" category="list-text">계정 자격 증명 * 페이지에서 자격 증명 세트의 작업 메뉴를 선택한 다음 * 자격 증명 삭제 * 를 선택합니다.</block>
   <block id="08533087d95fb07c92ed0773080a65d4" category="doc">Azure 네트워킹을 설정합니다</block>
   <block id="1387f52f9e1a700036780a5bf567fab3" category="section-title">VNET 및 서브넷</block>
   <block id="b26bf0de9fb68038a5f4e2e2a13c5811" category="paragraph">Connector를 생성할 때 Connector가 상주할 VNET와 서브넷을 지정해야 합니다.</block>
@@ -2520,7 +2439,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="11cac4cf4114aafe53015559291d52ce" category="paragraph">제한된 모드 또는 비공개 모드에서 BlueXP를 사용하려면 Connector를 설치한 다음 Connector에서 로컬로 실행되는 사용자 인터페이스에 액세스하여 BlueXP를 시작합니다.</block>
   <block id="31f2b2cbba0d986ad6ce5bec030a9de1" category="paragraph"><block ref="d8c1ee023ea7a4705048e3464cfcb854" category="inline-link-macro-rx"></block>.</block>
   <block id="fa1f9e92f4f0aa51cba859b2dbc37a02" category="section-title">커넥터 작성 방법</block>
-  <block id="e4e0875eedbe591adccfba1b76d09729" category="paragraph">BlueXP 계정 관리자는 BlueXP, 클라우드 공급자의 마켓플레이스에서 직접 커넥터를 만들거나, 자체 Linux 호스트에 소프트웨어를 수동으로 설치할 수 있습니다. 표준 모드, 제한 모드 또는 비공개 모드에서 BlueXP를 사용하고 있는지 여부에 따라 시작 방법이 달라집니다.</block>
   <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="section-title">권한</block>
   <block id="11fde693c59aa81cdd27bb562b84f44b" category="paragraph">BlueXP에서 직접 Connector를 만들려면 특정 권한이 필요하며 Connector 인스턴스 자체에 다른 권한 집합이 필요합니다. BlueXP에서 직접 AWS 또는 Azure에서 커넥터를 생성하는 경우 BlueXP는 필요한 권한으로 Connector를 생성합니다.</block>
   <block id="338a6f193e9988b8f40b3128d5e4ffb7" category="inline-link-macro">Connector에서 AWS 권한을 사용하는 방법에 대해 알아보십시오</block>
@@ -2530,15 +2448,12 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="c642d46c647eb91ef90ede639948cb4e" category="inline-link-macro">Connector가 Google Cloud 권한을 사용하는 방법에 대해 알아보십시오</block>
   <block id="e3ab4c013397e346e8f211ff03ac44b2" category="list-text"><block ref="e3ab4c013397e346e8f211ff03ac44b2" category="inline-link-macro-rx"></block></block>
   <block id="538fc0c04ce8a0ef5cf78a12dbe8f68a" category="section-title">커넥터 업그레이드</block>
-  <block id="c568c61bf8e9e5a305fc06655cdac862" category="paragraph">일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. BlueXP 플랫폼의 서비스 및 기능은 대부분 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
-  <block id="ed0b87049db36af81b1e2989ce889651" category="inline-link-macro">Connector 소프트웨어를 수동으로 업그레이드하는 방법에 대해 알아보십시오</block>
   <block id="2162bc1fbb13d2539c146b3472921eb5" category="paragraph"><block ref="7270aabdb0c26b6b937d76a49fcda623" category="inline-xref-macro-rx"></block>.</block>
   <block id="4102d173f8e2253a011fe9286a6db2a3" category="paragraph">커넥터는 BlueXP에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.</block>
   <block id="63e8317d7c5806dc1cb56752525c4d52" category="paragraph">대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다. 도중에 문제가 발생하는 경우 제품 내 채팅을 통해 문의해 주십시오.</block>
   <block id="18d5aadda239c924412f84368e73290b" category="paragraph">경우에 따라 하나의 커넥터만 필요할 수 있지만 둘 이상의 커넥터가 필요할 수 있습니다.</block>
   <block id="c270270ae413e473bd85d972dfddb840" category="paragraph">다음은 몇 가지 예입니다.</block>
   <block id="aa043b4c9a6fa32b0f3811520156579a" category="list-text">다중 클라우드 환경(예: AWS 및 Azure)이 있고 AWS에 커넥터 1개와 Azure에 커넥터 1개가 있는 것을 선호합니다. 각 는 이러한 환경에서 실행되는 Cloud Volumes ONTAP 시스템을 관리합니다.</block>
-  <block id="c76efa6c691a8c8806671433356c1493" category="list-text">서비스 제공업체는 하나의 BlueXP 계정을 사용하여 고객에게 서비스를 제공하는 한편 다른 계정을 사용하여 사업부 중 하나의 재해 복구를 제공할 수 있습니다. 각 계정에는 별도의 커넥터가 있습니다.</block>
   <block id="645a84975202e30700b572b49a5ee29d" category="section-title">재해 복구</block>
   <block id="9702ba80b5da1f1cf46d6eb4c043a20a" category="paragraph">재해 복구를 위해 여러 커넥터가 있는 작업 환경을 동시에 관리할 수 있습니다. 하나의 커넥터가 다운되면 다른 커넥터로 전환하여 작업 환경을 즉시 관리할 수 있습니다.</block>
   <block id="fc08f20f6fe5ef74616fbc4c310758ef" category="list-text">기존 작업 환경을 파악합니다.</block>
@@ -2640,7 +2555,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="862b0c0ff0da2b02588d845f4c6d6d34" category="list-text">Connector를 설치할 VM에서 시스템 할당 관리 ID를 활성화하여 사용자 지정 역할을 통해 필요한 Azure 권한을 제공할 수 있습니다.</block>
   <block id="81b303f46dd1d85b6f031bc99d8e87a6" category="summary">BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있는 다양한 배포 모드를 제공합니다. 표준 모드는 BlueXP SaaS 계층을 활용하여 모든 기능을 제공하는 반면, 제한된 모드 및 비공개 모드는 연결 제한이 있는 조직에서 사용할 수 있습니다.</block>
   <block id="534fd3c26a29e770ad82ea272b33fadf" category="paragraph">BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있는 다중 배포 모드 _ 를 제공합니다. _표준 모드_ 는 BlueXP SaaS 계층을 활용하여 모든 기능을 제공하며, 연결 제한이 있는 조직에서는 _restricted mode_ 및 _private mode_를 사용할 수 있습니다.</block>
-  <block id="3003441b99515b8ab9a5d515870819a4" category="paragraph">BlueXP는 계정에 다음과 같은 배포 모드를 제공합니다. 각 모드는 아웃바운드 연결 요구 사항, 배포 위치, 설치 프로세스, 인증 방법, 사용 가능한 데이터 및 스토리지 서비스, 충전 방법 측면에서 다릅니다.</block>
   <block id="e3795acf5a54c95b1889f3c7c929ab50" category="list-text">BlueXP는 웹 기반 콘솔에서 클라우드 서비스로 액세스할 수 있습니다. 사용할 BlueXP 서비스에 따라 BlueXP 관리자는 하나 이상의 커넥터를 만들어 하이브리드 클라우드 환경 내에서 데이터를 관리합니다.</block>
   <block id="299192dda00d9cbb51cb176b72e6f464" category="paragraph">이 모드는 공용 인터넷을 통한 암호화된 데이터 전송을 사용합니다.</block>
   <block id="d8e9ba71b83a249480013323ae38e56a" category="list-text">BlueXP Connector는 정부 지역, 주권 클라우드 지역 또는 상업 지역의 클라우드에 설치되며 BlueXP SaaS 계층에 대한 아웃바운드 연결이 제한됩니다. 사용자는 SaaS 계층이 아닌 Connector에서 사용할 수 있는 웹 기반 콘솔에서 로컬로 BlueXP에 액세스합니다.</block>
@@ -2832,7 +2746,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="e4c53684ddd66ee4898db459d57514e8" category="sidebar">기본 사항 학습</block>
-  <block id="9b945efebb006547a94415eadaa12921" category="sidebar">계정</block>
   <block id="7e99ea34b714387479c29a20b4a89752" category="sidebar">표준 모드로 시작하십시오</block>
   <block id="55553d1b65f45713caedcf9f0b1a6042" category="sidebar">BlueXP에 로그인합니다</block>
   <block id="94ee7072c2750da1997438a715efb7d4" category="sidebar">커넥터를 작성합니다</block>
@@ -2874,9 +2787,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="4196d70b52fef46e6943a70842908897" category="paragraph">Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.</block>
   <block id="9704e328148ed91b7f98eb143244edd7" category="paragraph">알림은 BlueXP에서 시작한 작업의 진행 상황을 추적하므로 작업의 성공 여부를 확인할 수 있습니다. 이 기능을 사용하면 현재 로그인 세션 중에 시작한 여러 BlueXP 작업의 상태를 볼 수 있습니다. 현재 모든 BlueXP 서비스가 알림 센터에 정보를 보고하는 것은 아닙니다.</block>
   <block id="8efb4a247c34c0ca71ba217009352182" category="inline-xref">이메일 알림 설정을 지정합니다</block>
-  <block id="5e703ffd4a02b69f95fc98818e5f3919" category="paragraph">또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일을 통해 특정 유형의 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이메일은 BlueXP 계정에 속한 모든 사용자 또는 특정 유형의 시스템 작업을 알고 있어야 하는 다른 수신자에게 보낼 수 있습니다. 자세한 내용은 를 참조하십시오 <block ref="a148e670707e0255b9681ed2a38729bc" category="inline-xref-macro-rx"></block>.</block>
   <block id="b0689737e83154357ff9ef36053bda4f" category="paragraph">기본적으로 알림 센터에는 모든 활성 알림이 표시됩니다. 표시되는 알림을 필터링하여 중요한 알림만 표시할 수 있습니다. BlueXP "서비스" 및 "유형" 알림별로 필터링할 수 있습니다.</block>
-  <block id="2ad68125d72949aee5ac56974ac53849" category="paragraph">알림 센터에서 설정한 필터에 따라 전자 메일로 받을 알림 유형이 결정되지는 않습니다. 기본적으로 BlueXP 계정 관리자는 모든 "중요" 및 "권장 사항" 알림에 대한 이메일을 받게 됩니다. 이러한 알림은 모든 서비스에 걸쳐 제공됩니다. 커넥터 또는 BlueXP 백업 및 복구와 같은 특정 서비스에 대해서만 알림을 받도록 선택할 수는 없습니다.</block>
   <block id="7fcffcce675dad706dbf53d68f1f86f2" category="paragraph">다른 모든 사용자와 수신자는 알림 이메일을 수신하지 않도록 구성되어 있으므로 추가 사용자에 대한 알림 설정을 구성해야 합니다.</block>
   <block id="161fbe930f63fa83671b46be2b2b3d58" category="paragraph">다음과 같은 항목이 있어야 합니다.</block>
   <block id="7e0b6f72a006c5db4d352632364cae2a" category="paragraph">자세한 내용은 을 참조하십시오<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block></block>
@@ -2928,8 +2839,6 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="b8173d0c4669ed6158a49dda320b1515" category="paragraph">사용할 BlueXP 서비스에 따라 두 번째 정책을 만들어야 할 수도 있습니다. 표준 영역의 경우 권한이 두 정책에 분산됩니다. AWS에서 관리되는 정책의 최대 문자 크기 제한으로 인해 두 개의 정책이 필요합니다. <block ref="60507836418f54f0b2b646fcefa2cf2c" category="inline-link-macro-rx"></block>.</block>
   <block id="ad76b7ae56285d87ab9015cde946bbf4" category="list-text"><block ref="ad76b7ae56285d87ab9015cde946bbf4" category="inline-link-rx"></block></block>
   <block id="89db269549ff807cf08533caabe7fa9b" category="list-text"><block ref="89db269549ff807cf08533caabe7fa9b" category="inline-link-rx"></block></block>
-  <block id="c1278cf8c27b19d3b52a16894e40dc28" category="paragraph">BlueXP에는 SaaS 계층을 통해 제공되는 웹 기반 콘솔, 멀티 테넌시를 제공하는 계정 및 작업 환경을 관리하고 BlueXP 클라우드 서비스를 지원하는 커넥터가 포함되어 있습니다.</block>
-  <block id="d9e04d29678e517946d6cb6e93b9d025" category="paragraph">BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다. Connector를 사용하면 사내 환경과 클라우드 환경 전반에서 리소스와 프로세스를 관리할 수 있습니다. 작업 환경(예: Cloud Volumes ONTAP 및 온프레미스 ONTAP 클러스터)을 관리하고 여러 BlueXP 데이터 서비스를 사용해야 합니다.</block>
   <block id="64f210f4d96dcba2f41cec7b537055f7" category="list-text">인스턴스의 CPU 및 RAM 요구 사항 이해</block>
   <block id="fbeff5cf304fefe21e93306905a53be6" category="inline-link-macro">인스턴스 요구 사항 검토</block>
   <block id="faa2f324a4d310b356e12aa82056254e" category="paragraph"><block ref="c95ec05c4ecf0f3a1ae9ac9ed3381eba" prefix="" category="inline-code"></block></block>
@@ -3067,14 +2976,10 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="16d491a352eff99aff3a3090f243e9a7" category="paragraph">BlueXP 웹 기반 콘솔에서 직접 커넥터를 생성합니다.</block>
   <block id="38c0deaf9ce4435ad8d471fc04a21ac0" category="paragraph">이러한 권한은 Connector 인스턴스 자체에 대한 것입니다. Connector VM을 배포하기 위해 이전에 설정한 것과 다른 권한 집합입니다.</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
-  <block id="6f634a99f964ad704af4d4f3aaf6d261" category="section-title">기존 구독을 계정에 연결합니다</block>
-  <block id="18fdf9616b567e691b5890f032e3bba7" category="paragraph">AWS 마켓플레이스에서 BlueXP를 구독하는 경우 프로세스의 마지막 단계는 BlueXP 웹 사이트의 구독과 BlueXP 계정을 연결하는 것입니다. 이 단계를 완료하지 않은 경우 BlueXP 계정에 가입을 사용할 수 없습니다.</block>
   <block id="6fb458ce426e7a3b13d1d111785c2d01" category="paragraph">AWS 마켓플레이스에서 BlueXP를 구독했지만 구독과 계정을 연결하는 단계를 놓친 경우 아래 단계를 따르십시오.</block>
-  <block id="bb2c89244641e4e9b00203476e12f0fa" category="list-text">BlueXP 디지털 지갑으로 이동하여 구독 요금과 BlueXP 계정의 연결이 아닌지 확인합니다.</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">BlueXP 탐색 메뉴에서 * Governance &gt; Digital Wallet * 을 선택합니다.</block>
   <block id="8c3682e85d7f4dbe8a46485082335dec" category="list-text">구독 * 을 선택합니다.</block>
   <block id="ed6b397e0118acc4ce6973d71f8bf52b" category="list-text">BlueXP 구독이 나타나지 않는지 확인합니다.</block>
-  <block id="0b63efe724268bea77154f68b732287f" category="paragraph">현재 보고 있는 계정과 연결된 구독만 표시됩니다. 구독이 표시되지 않으면 다음 단계를 진행합니다.</block>
   <block id="f059d36774fc7cb0f68cf549634c6649" category="list-text">AWS 콘솔에 로그인하고 * AWS Marketplace 구독 * 으로 이동합니다.</block>
   <block id="f8c6f0be8abb9f25513e90fc59a8022a" category="list-text">NetApp BlueXP 구독을 찾을 수 있습니다.</block>
   <block id="a33c6ab064752da11797cc3fcb72c16c" category="inline-image-macro">NetApp BlueXP 가입이 표시된 AWS 마켓플레이스의 스크린샷</block>
@@ -3087,10 +2992,8 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="2bd91e2097a924ebf8ed96f27e0e014b" category="paragraph">먼저 BlueXP에 로그인하라는 메시지가 표시될 수 있습니다.</block>
   <block id="ad06dac7d3f75caabc6bbf1ee222b5b1" category="inline-image-macro">이 구독과 연결할 BlueXP 계정을 정확히 선택할 수 있는 구독 할당 페이지 스크린샷</block>
   <block id="f08dbbf2dcc1aaacd389964d9e1720e9" category="paragraph"><block ref="f08dbbf2dcc1aaacd389964d9e1720e9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ab7f683bf33e15557d8b8c755ab6925d" category="list-text">BlueXP 디지털 지갑으로 이동하여 구독이 BlueXP 계정과 연결되어 있는지 확인합니다.</block>
   <block id="3d202823d7d9b23ecb538a9e600a47f9" category="list-text">BlueXP 구독이 나타나는지 확인합니다.</block>
   <block id="b37f51b57881b03b6c52e06acb6edd87" category="list-text">구독이 AWS 자격 증명과 연결되어 있는지 확인합니다.</block>
-  <block id="be7152363bc92639c82fcab79b823266" category="list-text">계정 자격 증명 * 페이지에서 구독이 AWS 자격 증명과 연결되어 있는지 확인합니다.</block>
   <block id="ff61d6606967c3f8b0dfa41b1fd7bfa0" category="paragraph">예를 들어,</block>
   <block id="91bff69789722fff2c4a5649d3493da5" category="inline-image-macro">자격 증명과 연결된 구독 이름을 식별하는 구독 필드가 포함된 AWS 자격 증명을 보여 주는 BlueXP 계정 자격 증명 페이지의 스크린샷</block>
   <block id="57ed1d98795cc2b599a80064fd2b2bbf" category="paragraph"><block ref="57ed1d98795cc2b599a80064fd2b2bbf" category="inline-image-macro-rx" type="image"></block></block>
@@ -3106,11 +3009,8 @@ Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="ea472a728fa8ea8a9d957dafbf3b3c56" category="paragraph"><block ref="4bafa1fce0633bbc25f458d6925369da" category="inline-link-macro-rx"></block>.</block>
-  <block id="880b965f9cabc8a09dc307835b0c1c44" category="paragraph">회사에 이미 계정이 있는 경우 가입하려면 BlueXP를 종료하고 소유자에게 계정을 연계하도록 요청해야 합니다. 소유자가 사용자를 추가한 후 로그인하면 해당 계정에 액세스할 수 있습니다. <block ref="221ad62081662624d5ad46e4eb019f63" category="inline-link-macro-rx"></block>.</block>
   <block id="51a7ac19cbf0f9d074132cf117ad2e0c" category="paragraph">기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다. <block ref="c25c39db29c727f1578fc8385e3c589b" category="inline-xref-macro-rx"></block>.</block>
-  <block id="e5858eca10506e717b009052b0640e5d" category="paragraph">계정 사용자_탭에 나타나는 사용자는 에서 BlueXP 계정의 사용자로부터 자동으로 채워집니다 <block ref="bce79e838594aa867c34fc02622c1a7f" category="inline-link-macro-rx"></block>)를 클릭합니다. BlueXP에 액세스할 수 없지만 특정 유형의 경고 및 알림에 대해 알림을 받아야 하는 다른 사람 또는 그룹에 대해서는 _Additional Recipients_tab에서 전자 메일 주소를 추가할 수 있습니다.</block>
   <block id="fb2327495633231db53b83b63281ec59" category="paragraph"><block ref="ba792a8f94fc4fa1d6890491a6d3ca88" category="inline-link-macro-rx"></block>.</block>
-  <block id="546da6116b7feb3e2f6bc76e15679ce5" category="paragraph"><block ref="b046bb32939806f90ece83bf6f045fc2" category="inline-link-macro-rx"></block>.</block>
   <block id="785c09ae237878056a26f76d752f9655" category="paragraph"><block ref="d681f410de8bf56d0591b119af19b91f" category="inline-link-macro-rx"></block>.</block>
   <block id="819bbc17eab62ac696bc204d9864298c" category="paragraph"><block ref="317e81beacf8b3184ba06b75c8cba7f0" category="inline-link-macro-rx"></block>.</block>
   <block id="d5a6b4dc8861625dfe113504ac0e255e" category="paragraph"><block ref="fdc7ca711ae67c971d281a756b555324" category="inline-link-macro-rx"></block>.</block>
@@ -3198,8 +3098,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="13ba2efb4fd4a349dae9e57188cc7124" category="inline-link-macro">BlueXP 콘솔을 사용하기 위한 네트워킹을 준비합니다</block>
   <block id="d8d95c6e255d7fd2ce0e575678de25b2" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="1bc96baa170355729e3a1a71e3c69ee7" category="inline-link-macro-rx"></block></block>
   <block id="5e9f2d9ffcf828e9073641fd51d9dd96" category="paragraph">BlueXP 콘솔에 액세스하는 컴퓨터는 몇 가지 관리 작업을 완료할 수 있도록 특정 엔드포인트에 연결해야 합니다. 네트워크에서 아웃바운드 액세스를 제한하는 경우 이러한 엔드포인트가 허용되는지 확인해야 합니다.</block>
-  <block id="666211ddfad69f0316f1b85953aa081f" category="inline-link-macro">등록하고 계정을 만듭니다</block>
-  <block id="e8ae36985bee1decac54881ccee2fd0b" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="5b9edf9589bc47960079bd9eebd68511" category="inline-link-macro-rx"></block></block>
   <block id="825dba606043da7ef954a9b12c9f7d3b" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 커넥터를 작성합니다</block>
   <block id="df29cf5b19d5f16c92a7f553f92e9d4a" category="list-text"><block ref="df29cf5b19d5f16c92a7f553f92e9d4a" category="inline-link-macro-rx"></block></block>
   <block id="57e58ed1cb42b3b5aaba112bc48563a6" category="list-text"><block ref="57e58ed1cb42b3b5aaba112bc48563a6" category="inline-link-macro-rx"></block></block>
@@ -3315,7 +3213,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="5d2f88742fa055307c09a80d0773bb7f" category="paragraph">이 동작은 Linux 및 Connector 소프트웨어를 실행하는 VM도 시작하지만 BlueXP가 아닌 Azure 마켓플레이스에서 직접 배포가 시작됩니다.</block>
   <block id="152e6840a2911cc120f143ff657bdc7e" category="list-text"><block ref="152e6840a2911cc120f143ff657bdc7e" category="inline-link-macro-rx"></block></block>
   <block id="b393abc2831fb45cf9e5b73489057bcc" category="admonition">Google Cloud가 적합하지 않은 이유 Connector가 구내에 설치되어 있으면 Google Cloud에서 리소스를 관리할 수 없습니다. Google Cloud에 Connector를 설치하여 해당 위치에 있는 모든 리소스를 관리해야 합니다.</block>
-  <block id="b8312cd81869d608f8aa6c172b1efa56" category="paragraph">등록 또는 로그인한 다음 Connector를 BlueXP 계정과 연동하도록 설정합니다.</block>
   <block id="63833bed9bf25b857c994cd51a878896" category="section-title">6단계: BlueXP에 권한 제공</block>
   <block id="ccbf44ea31f64041eb3e02bf2d4f1003" category="paragraph">커넥터를 설치하고 설정한 후에 BlueXP가 AWS 또는 Azure에서 작업을 수행하는 데 필요한 권한을 갖도록 클라우드 자격 증명을 추가합니다.</block>
   <block id="1afdeeb91955c8912691275e3b9c68c4" category="paragraph">BlueXP에서 커넥터를 배포할 때는 IAM 사용자의 ARN 또는 액세스 키를 제공해야 합니다. 사용하는 인증 방법에는 Connector 인스턴스를 AWS에 구축하는 데 필요한 권한이 있어야 합니다. 필요한 권한이 에 나열됩니다 <block ref="c368ad024408b872d841d80ba747ea9c" category="inline-link-macro-rx"></block>.</block>
@@ -3367,8 +3264,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="08e6464d98921d4b239eda70bb4b04b2" category="inline-link-macro">프라이빗 모드에서 BlueXP를 시작하십시오</block>
   <block id="484cc15e142fd16556c500975b95d031" category="list-text"><block ref="484cc15e142fd16556c500975b95d031" category="inline-link-macro-rx"></block></block>
   <block id="a6500600136e87d0f971781229e9f9ab" category="paragraph">Connector에 일상적인 작업에 필요한 정확한 사용 권한을 보려면 다음 페이지를 참조하십시오.</block>
-  <block id="b3686cfa126ecda3f385bc3c05a38641" category="summary">BlueXP 계정은 조직에 멀티 테넌시를 제공하므로 사용자와 리소스를 격리된 작업 영역에서 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 작업 영역에서 작업 환경을 관리하는 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 작업 환경을 배포하고 관리할 수 있습니다.</block>
-  <block id="59a7c4ef8ec683b4486222e8f42e56e6" category="paragraph">BlueXP 계정 _ 은(는) 조직에 멀티 테넌시를 제공하므로 사용자는 이를 통해 격리된_작업 공간 _ 에서 사용자와 리소스를 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 작업 영역에서 작업 환경을 관리하는 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 작업 환경을 배포하고 관리할 수 있습니다.</block>
   <block id="68d3d8808dd0c97d733b830adcc3ce04" category="paragraph">proxy 및 -- cacert 매개 변수는 선택 사항입니다. 프록시 서버가 있는 경우 그림과 같이 매개 변수를 입력해야 합니다. 설치 프로그램에서 프록시에 대한 정보를 제공하라는 메시지를 표시하지 않습니다.</block>
   <block id="5c19a40334d46880274be75a5173b4c4" category="list-text">\http://user-name:password@address:port</block>
   <block id="33dbf59ca7c7ba76bec757cd7f795ed4" category="list-text">\http://domain-name%92user-name:password@address:port</block>
@@ -3409,7 +3304,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="77fe99ef9ead4490d30142892f6b5fec" category="paragraph">이 릴리스에는 사소한 보안 개선 사항 및 버그 픽스가 포함되어 있습니다.</block>
   <block id="ee06369b39630f4fbf14829266d40a91" category="paragraph">프라이빗 모드는 일반적으로 인터넷에 연결되지 않고 을 포함하는 보안 클라우드 지역에서 사용되는 온프레미스 환경에서 사용됩니다<block ref="da2732e6e9a1be4ab82a1194533aac59" category="inline-link-rx"></block>,<block ref="6f5217ea8a3f93cd9532863eb844647b" category="inline-link-rx"></block>, 및<block ref="360910fe60b5d1cf9b7056b9b6f46685" category="inline-link-rx"></block></block>
   <block id="a95e947d8a886ad72a7cea0e895006fd" category="paragraph">제한 모드는 일반적으로 AWS GovCloud 및 Azure Government 지역의 구축을 비롯하여 주 정부 및 지방 정부 및 규제 회사에서 사용합니다. 시작하기 전에 에 대한 이해가 있어야 합니다 <block ref="ad4b275d9dc1eba2c344335cef84161e" category="inline-link-macro-rx"></block>, <block ref="939be5a52f87f3be4e9cee0e0efdb78e" category="inline-link-macro-rx"></block>, 및 <block ref="dd9572e43b86cdf1b1d508e121fd732e" category="inline-link-macro-rx"></block>.</block>
-  <block id="c2a3212cb98f382140fb5a23af1c6063" category="paragraph">표준 모드에서 BlueXP는 웹 기반 콘솔에서 클라우드 서비스로 사용자에게 액세스할 수 있습니다. 시작하기 전에 에 대한 이해가 있어야 합니다 <block ref="ad4b275d9dc1eba2c344335cef84161e" category="inline-link-macro-rx"></block>, <block ref="939be5a52f87f3be4e9cee0e0efdb78e" category="inline-link-macro-rx"></block>, 및 <block ref="dd9572e43b86cdf1b1d508e121fd732e" category="inline-link-macro-rx"></block>.</block>
   <block id="337e8febb8ac96133c86a51cd7bc0240" category="summary">BlueXP가 Azure 자격 증명을 사용하여 사용자를 대신하여 작업을 수행하는 방법과 해당 자격 증명이 마켓플레이스 구독과 어떻게 연관되는지 알아보십시오. 이러한 세부 정보를 이해하면 하나 이상의 Azure 구독에 대한 자격 증명을 관리하는 데 도움이 됩니다. 예를 들어, BlueXP에 Azure 자격 증명을 추가해야 하는 시기를 알 수 있습니다.</block>
   <block id="3bf21bdc87a8f6ebde5b75e8cb0d5138" category="section-title">자격 증명 및 마켓플레이스 구독</block>
   <block id="b1e32c999d336fb505915de8a8ffca55" category="paragraph">커넥터에 추가하는 자격 증명은 Azure Marketplace 구독과 연결되어 시간 단위(PAYGO) 또는 연간 계약을 통해 Cloud Volumes ONTAP에 대한 비용을 지불하고 다른 BlueXP 서비스를 사용할 수 있어야 합니다.</block>
@@ -3727,7 +3621,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="437c802c34c0b8670d61901c4e05641e" category="inline-link-macro">비공개 모드에 대해 자세히 알아보십시오</block>
   <block id="d05ac7ff6398ff4f2b0bd26105dd1697" category="paragraph">커넥터를 설치할 때 프라이빗 모드를 사용할 때 사용할 수 있는 BlueXP 서비스와 기능이 결정됩니다. 예를 들어, Cloud Volumes ONTAP를 배포하고 관리하려면 Connector가 클라우드에 설치되어 있어야 합니다. <block ref="11a7253f43076934a5664eb6b2874efc" category="inline-link-macro-rx"></block>.</block>
   <block id="60a1a3ba0b214492b5ab5c5bd4a52eb0" category="paragraph">커넥터가 클라우드에 설치되어 있고 Cloud Volumes ONTAP 시스템을 생성하려는 경우 BlueXP를 사용하려면 클라우드 공급자의 권한이 필요합니다. 클라우드 공급자에서 사용 권한을 설정한 다음 설치한 후 해당 권한을 Connector 인스턴스에 연결해야 합니다.</block>
-  <block id="8ce622f98b54d3dfec80e0d09aa4e0b3" category="list-text">조직에서 모든 나가는 인터넷 트래픽에 대해 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 가져옵니다. 설치하는 동안 이 정보를 제공해야 합니다. BlueXP는 투명한 프록시 서버를 지원하지 않습니다.</block>
   <block id="939d44d1e911e1f0f7039e74b3562137" category="list-text"><block ref="939d44d1e911e1f0f7039e74b3562137" category="inline-link-macro-rx"></block></block>
   <block id="9bf0216383a3ff083b86cdd433d2e65e" category="list-text"><block ref="9bf0216383a3ff083b86cdd433d2e65e" category="inline-link-macro-rx"></block></block>
   <block id="26553f927e14d69ad84c658048155fb4" category="summary">여러 커넥터를 사용하는 경우 BlueXP를 사용하면 콘솔에서 직접 해당 커넥터 간에 전환할 수 있습니다. 여러 커넥터를 사용하여 단일 작업 환경을 관리할 수도 있습니다.</block>
@@ -3745,7 +3638,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="d80ef147e70626ef64e723b33860d715" category="list-text">9.1에서 9.3까지</block>
   <block id="bd3df16097ce93a7398107a82c38c714" category="list-text">컨테이너 오케스트레이션 툴</block>
   <block id="58ee14553c5227edc98c5edc7c7652e1" category="list-text">운영 체제에 따라 Connector를 설치하기 전에 Podman 또는 Docker Engine이 필요합니다.</block>
-  <block id="c8637173b45452de8b06d3e105facbfb" category="paragraph">Podman의 경우 다음 전제 조건을 충족해야 합니다.</block>
   <block id="6c92d07ad47ca46a1d54c06516989463" category="list-text">podman.socket 서비스를 활성화하고 시작해야 합니다</block>
   <block id="a9beaf3f1f76b7989733494d5f0683c6" category="list-text">python3을 설치해야 합니다</block>
   <block id="43868fbb689a64ee607e9c7e12ad974b" category="list-text">podman-comp 패키지 버전 1.0.6이 설치되어 있어야 합니다</block>
@@ -3765,7 +3657,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="084cfc903eb108eb15642e42f36348f9" category="paragraph">Red Hat Enterprise Linux 8의 경우:</block>
   <block id="6f3a42415c589950b9ae4d3fe1f87dc7" category="list-text">podman-comp 패키지 1.0.6을 설치합니다.</block>
   <block id="ec7c87651a5ede2a98ad4091fe48b517" category="admonition">를 사용합니다<block ref="02c7499137a5d8d10292d68634eb22a0" prefix=" " category="inline-code"></block> 명령은 PATH 환경 변수에 podman-composition을 추가하기 위한 요구 사항을 충족합니다. 설치 명령은 podman-composition을 이미 에 포함되어 있는 /usr/bin에 추가합니다<block ref="c9bac30d1d0554c0790285219e5ad518" prefix=" " category="inline-code"></block> 호스트 옵션.</block>
-  <block id="d96a084915e5de032105988cddcc2bc5" category="list-text">Docker Engine을 설치합니다.</block>
   <block id="08a382dc3dd0f48c28f89b74f8bac2a4" category="inline-link">Docker의 설치 지침을 봅니다</block>
   <block id="3907e04a67ccb717783cc69d280aaa41" category="paragraph"><block ref="3907e04a67ccb717783cc69d280aaa41" category="inline-link-rx"></block></block>
   <block id="66f67385f809b0a8d74f0496acc75c90" category="paragraph">특정 버전의 Docker Engine을 설치하려면 다음 단계를 따르십시오. 최신 버전을 설치하면 BlueXP가 지원하지 않는 Docker 버전이 설치됩니다.</block>
@@ -3796,9 +3687,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="0f50cd1079cb24de2b4571c09546a2e1" category="list-text">RHEL 8 또는 9 호스트를 설정합니다.</block>
   <block id="5122aad3fbc28bb77264e99f11033279" category="list-text">NEW_Connector 설치를 수행합니다.</block>
   <block id="a9d10a06adb23581dce371f468ea4904" category="list-text">커넥터를 구성하여 이전 커넥터가 관리하던 작업 환경을 검색합니다.</block>
-  <block id="6fdeb52b60ec4b9c7e60078047c5ce34" category="section-title">Ubuntu 22.04 LTS에 대한 지속적인 지원</block>
-  <block id="a9aa1d1b3ffccec7f032ad3fee0e91b8" category="paragraph">커넥터는 Ubuntu 22.04 LTS에서 계속 지원되며 BlueXP와 시장에서 구축하기 위한 기본 운영 체제입니다.</block>
-  <block id="cadd936a18695c0f75406a35d18725ee" category="paragraph">이 운영 체제에는 Docker 엔진이 필요합니다. Podman은 지원되지 않습니다.</block>
   <block id="d20756c02f9913587a3e83e30f0e10d3" category="list-text">수동 설치</block>
   <block id="0809934ab73994b74ff0369462a31319" category="list-text">BlueXP에서 구축</block>
   <block id="12a87db5b86462e9bd05a612793965de" category="list-text">AWS Marketplace에서 직접 구축</block>
@@ -3845,7 +3733,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="b94d9194c0f0e59de690d8a088d1601b" category="section-title">5단계: 커넥터를 설치합니다</block>
   <block id="d918fe97b966ce7fb324a30c883b1d7f" category="section-title">6단계: 커넥터를 설정합니다</block>
   <block id="76eda41f130889296c61f521e20a1006" category="list-text"><block ref="76eda41f130889296c61f521e20a1006" category="inline-link-macro-rx"></block></block>
-  <block id="08055c0ef3321805b25b3e15ed3038b0" category="paragraph"><block ref="f342de123680c8538c1dec74025adf7a" category="inline-link-macro-rx"></block>.</block>
   <block id="166140f584d4544702260c25a6b8eab6" category="section-title">다중 작업 환경 및 커넥터</block>
   <block id="7a5c1d5a09d9f5a762327becef29fd1a" category="list-text"><block ref="7a5c1d5a09d9f5a762327becef29fd1a" category="inline-link-macro-rx"></block></block>
   <block id="188fd7f75e50a8a882a75c15dcb630a1" category="section-title">2024년 5월 17일</block>
@@ -3941,7 +3828,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="deb2d604498906b6056e668d8a921bc6" category="paragraph">3.9.41 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="4fe47b0a38e9cc2f08e1ebd6f66fc340" category="paragraph">BlueXP 사용<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 를 설치합니다<block ref="a23365e1ae67810a7446b65d3be9a5d0" prefix=" " category="inline-code"></block> 디렉토리 및 컨텐츠입니다.</block>
   <block id="6625b96831c913865dcc04d700d00a02" category="paragraph">BlueXP를 사용하려면 이 공간이 필요합니다<block ref="ca905eb4a00d34150573153a09e2e79b" prefix=" " category="inline-code"></block> Docker 또는 Podman은 이 디렉토리 내에 컨테이너를 생성하도록 설계되었기 때문입니다. 특히 에서 컨테이너를 만듭니다<block ref="af5045a6e72956f67984a97cd3e8b9da" prefix=" " category="inline-code"></block> 디렉토리. 이 공간에서는 외부 마운트 또는 심링크가 작동하지 않습니다.</block>
-  <block id="2e71b3fb71d89f18906d4807a6011e20" category="list-text">지원되는 운영 체제</block>
   <block id="06cfdcafd69514150ade31a714fa78db" category="list-text">지원되는 운영 체제를 실행하도록 인증된 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.</block>
   <block id="1c0a2f304cb94000fe79271bae1284df" category="list-text">Ubuntu에는 Docker 엔진이 필요합니다.</block>
   <block id="eb79e7adcda869f967a810da89679252" category="paragraph">2024년 6월 30일에 RHEL 7은 EOM(유지 관리 종료)에 도달했으며 CentOS 7은 EOL(수명 종료)에 도달했습니다. NetApp는 2024년 6월 30일에 이들 Linux 배포판에서 커넥터 지원을 중단했습니다.</block>
@@ -3949,11 +3835,8 @@ https://support.netapp.com 으로 문의하십시오
   <block id="400356f2a752e6926bd99ce1db45ee8c" category="paragraph">BlueXP는 웹 기반 콘솔에서 액세스할 수 있습니다. BlueXP를 시작할 때 첫 번째 단계는 회사 디렉토리에서 NetApp Support 사이트 자격 증명 또는 SSO 자격 증명을 사용하여 등록하거나 로그인하는 것입니다.</block>
   <block id="71bf124b6b9da30db8c000241ce01691" category="paragraph">BlueXP를 처음으로 액세스할 때 BlueXP를 사용하면 다음 옵션 중 하나를 사용하여 등록하거나 로그인할 수 있습니다.</block>
   <block id="79160996ed8489a5cf6613551aa653a7" category="list-text">BlueXP 로그인</block>
-  <block id="097da8092c10ffe933148ded03ffa5e7" category="list-text">BlueXP 로그인을 생성하여 등록할 수 있습니다. 이 인증 방법을 사용하려면 전자 메일 주소와 암호를 지정해야 합니다. 이메일 주소를 확인한 후 로그인한 다음, 아직 BlueXP 계정을 생성하지 않은 경우 생성할 수 있습니다.</block>
   <block id="4e509fcd83df29eba4ce6711d142163b" category="list-text">NetApp 지원 사이트(NSS) 자격 증명입니다</block>
-  <block id="820249dfc3701fd3b37984191fcdfd5c" category="list-text">기존 NetApp Support 사이트 자격 증명이 있는 경우에는 BlueXP에 등록할 필요가 없습니다. NSS 자격 증명을 사용하여 로그인한 다음, BlueXP에 아직 가입하지 않은 경우 BlueXP 계정을 생성하라는 메시지가 표시됩니다.</block>
   <block id="9cb17ba10a86a6d673f250ed811a88c2" category="list-text">페더레이션 연결</block>
-  <block id="b9d11f4546264baa9dae3dabfb844735" category="list-text">Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 로그인할 수 있습니다. 조직 계정의 첫 번째 사용자는 BlueXP에 등록하거나 NSS 자격 증명을 사용하여 로그인한 다음 ID 통합을 설정해야 합니다. 이후 각 사용자는 SSO 자격 증명을 사용하여 로그인할 수 있습니다.</block>
   <block id="a3343822f7753a8d8b67395fe90b10ba" category="paragraph"><block ref="428e058a0b96c0f6b163e3a51b92bb16" category="inline-link-macro-rx"></block>..</block>
   <block id="631a9d1918b756ca1857359538227c2a" category="list-text">NetApp 지원 사이트 계정이 있거나 이미 ID 페더레이션을 설정한 경우 * 로그인 * 페이지에서 계정에 연결된 이메일 주소를 직접 입력합니다.</block>
   <block id="e2a4611e209f9dc6217229cb9441c087" category="list-text">BlueXP 로그인을 생성하여 등록하려면 * 등록 * 을 선택하십시오.</block>
@@ -3994,7 +3877,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="021caa7094e7de94c50c2e35da292351" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. Standard_D8s_v3을 권장합니다.</block>
   <block id="bff17a7a57b9d5cdc97a4f823a72230f" category="list-text">위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. n2-standard-8를 추천합니다.</block>
   <block id="91a03852a4fcc00d6d0d7b56befab967" category="inline-xref">BlueXP 가 지원하는 Podman 버전을 봅니다</block>
-  <block id="ab8cca64c499d5f050e52a06f69e6322" category="paragraph">지원되는 버전의 Podman을 설치합니다. <block ref="3c15003d1ebf129cb6cebdaf6ae30fe9" category="inline-xref-macro-rx"></block>..</block>
   <block id="37ec26cfa2b5ba215786c921633974f0" category="paragraph">여기서 &lt;version&gt;는 설치 중인 Podman의 지원되는 버전입니다. <block ref="3c15003d1ebf129cb6cebdaf6ae30fe9" category="inline-xref-macro-rx"></block>..</block>
   <block id="ebf399faefe8b72bdfba77e608b5c6b1" category="cell">제한 모드가 있는 정부 지역 및 상업 지역에서 지원됩니다. 제한된 모드의 주권 지역에서는 지원되지 않습니다. 제한된 모드에서 BlueXP  백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다.<block ref="db0a18d2a99588054f71bf6c0bd14abb" category="inline-link-rx"></block> 애플리케이션 데이터 및 가상 머신 데이터의 백업 및 복구는 지원되지 않습니다.</block>
   <block id="207db32d1fe68c1dcdb493d5ea79d77f" category="cell">AWS 및 Azure 상용 지역에서 지원됩니다. Google Cloud, 또는 프라이빗 모드에서 지원되지 않음<block ref="da2732e6e9a1be4ab82a1194533aac59" category="inline-link-rx"></block><block ref="6f5217ea8a3f93cd9532863eb844647b" category="inline-link-rx"></block><block ref="360910fe60b5d1cf9b7056b9b6f46685" category="inline-link-rx"></block> BlueXP  백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다.<block ref="178bedf5671592d86ab011b6af0333e7" category="inline-link-rx"></block> 애플리케이션 데이터 및 가상 머신 데이터의 백업 및 복구는 지원되지 않습니다.</block>
@@ -4187,10 +4069,7 @@ https://support.netapp.com 으로 문의하십시오
   <block id="2ff5664491ece284c069195a204d44c0" category="list-text">커넥터 인스턴스에 필요한 연결 방법을 사용하도록 설정하는 보안 그룹 설정(SSH, HTTP 및 HTTPS)을 지정합니다.</block>
   <block id="f04e7bde7d47a749e6ba7643ae027953" category="paragraph"><block ref="f04e7bde7d47a749e6ba7643ae027953" category="inline-image-macro-rx" type="image"></block></block>
   <block id="94d03d842e38bfc8ebeb1cd5999b1321" category="list-text">9.1 - 9.4</block>
-  <block id="c71ee68b655a1c2de6162e6ea2837535" category="list-text">Red Hat Enterprise Linux의 경우 Podman이 필요합니다.</block>
-  <block id="3ee8b338aa466b632e26ed7928d4b063" category="list-text">Podman 버전 4.6.1 또는 4.9.4가 필요합니다</block>
   <block id="f99019d3e8e3a4daa34cad5d0e1cccc2" category="inline-xref">BlueXP 가 지원하는 Docker Engine 버전을 확인합니다</block>
-  <block id="6abb84cd1ebbb51102cb3ca371b8a8ca" category="paragraph">지원되는 버전의 Docker Engine을 설치합니다. <block ref="2fdf32031e9fd2d8e629141f098d92fe" category="inline-xref-macro-rx"></block>..</block>
   <block id="b425a48ec3cd2a8cf0d731578b9ac8cb" category="paragraph">BlueXP 는 제한 모드 또는 비공개 모드를 사용할 때 트래픽, 통신 및 데이터의 흐름을 차단하지만, 환경(온프레미스 및 클라우드)이 필요한 규정을 준수하는지 확인하는 것은 사용자의 책임입니다.</block>
   <block id="ad8ea852a1d73dd8dbfac3b19dd09403" category="list-text">BlueXP  Connector는 사내 또는 클라우드(안전한 지역, 주권 클라우드 지역 또는 상업 지역)에 설치되며 BlueXP  SaaS 계층에 _ 연결되어 있지 않습니다. 사용자는 SaaS 계층이 아닌 Connector에서 사용할 수 있는 웹 기반 콘솔에서 로컬로 BlueXP에 액세스합니다.</block>
   <block id="95f7a3f8f1594da8c9dbd6c9cb3ee51e" category="paragraph">프라이빗 모드에서는 사내 또는 클라우드에 커넥터를 설치한 다음 BlueXP 를 사용하여 하이브리드 클라우드 전체의 데이터를 관리할 수 있습니다. BlueXP SaaS 계층에 연결할 수 없습니다.</block>
@@ -4219,7 +4098,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="1017ad8551dc7209fead1d996608e2b5" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Azure Marketplace에서 직접 Azure에 Connector를 만드는 것입니다. Azure 마켓플레이스에서 Connector를 만들려면 네트워킹을 설정하고 Azure 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
   <block id="9a63fba43be3e1df0de44c749000ffc5" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션에는 BlueXP 에서 직접 또는 gcloud를 사용하여 AWS에서 커넥터를 생성하는 것이 포함됩니다. BlueXP에서 또는 gcloud를 사용하여 Google Cloud에 Connector를 생성하려면 네트워킹을 설정하고 Google Cloud 권한을 준비하고 Google Cloud API를 활성화한 다음 Connector를 생성해야 합니다.</block>
   <block id="455e0d1571fc687b88776ecc58050d7b" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Google Cloud에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, Google Cloud 권한을 준비하고, API를 활성화하고, Connector를 설치한 다음 준비된 사용 권한을 제공해야 합니다.</block>
-  <block id="2645e78b8215441741aa8ea067e0db45" category="summary">Connector 온-프레미스를 설치한 다음 로그인하여 BlueXP  계정과 연동되도록 설정합니다.</block>
   <block id="e080a3173dc73a079c4fd120abb491e0" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. Connector 온-프레미스를 실행하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 클라우드 권한을 준비하고 커넥터를 설치하고 커넥터를 설정한 다음 준비된 사용 권한을 제공해야 합니다.</block>
   <block id="5ed8d571b208e6fe2728f122d3340d93" category="paragraph">커넥터가 사내에 설치된 경우 필요한 권한이 있는 IAM 사용자에 대한 액세스 키를 추가하여 BlueXP 에 AWS 권한을 제공해야 합니다.</block>
   <block id="7247a245f2594a184b7ed7669be8c32e" category="paragraph">Connector가 온-프레미스에 설치된 경우 Microsoft Entra ID에서 서비스 보안 주체를 설정하고 BlueXP 에 필요한 Azure 자격 증명을 획득하여 BlueXP 에 Azure 권한을 제공해야 합니다.</block>
@@ -4253,14 +4131,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="31fa3b726cc2ab8e192bc70a792168a7" category="list-text"><block ref="c65ef862e4776cf4a66f5e1d7163d89e" category="inline-link-rx"></block>..</block>
   <block id="d30916c53949113e97a8033f02e41364" category="paragraph">이 릴리스에는 사소한 개선 사항 및 버그 수정이 포함되어 있습니다.</block>
   <block id="f0e69ccbb7ad96f546f7924206944bfa" category="sidebar">온프레미스</block>
-  <block id="faa37a1c6dbb9f8ecd3c6fd701363f79" category="cell">커넥터 버전</block>
-  <block id="24f3b77dafe74fa61e4dac1fa28fd846" category="cell">최소 버전의 Docker Engine</block>
-  <block id="f78ed5876382c6c98cfe5372fcdf962a" category="cell">Docker Engine의 최대 버전입니다</block>
-  <block id="ca6fc29ee5b222437802127247ae33fd" category="cell">_새_커넥터 설치 3.9.44로 시작합니다</block>
-  <block id="15f1005256bbfb87197dfe3bfd5b588f" category="cell">23.0.6</block>
-  <block id="f2162c8532f84cb24bc54e30c4c0341c" category="cell">26.0.0</block>
-  <block id="4d2dd7c014e329b4fb387303e47f1d83" category="cell">3.9.44 릴리스 이전에 생성된 커넥터입니다</block>
-  <block id="9b8f09d8d408f824fbf8c4f7321295aa" category="cell">25.0.5</block>
   <block id="f258c97f55e85bfbd607e70e86d840dc" category="section-title">새로 설치한 Docker Engine 26 지원</block>
   <block id="5c968eab53d6065ccf63e9766935cb7b" category="paragraph">Connector의 3.9.44 릴리즈부터 이제 Ubuntu 호스트에 _NEW_Connector를 설치할 때 Docker Engine 26이 지원됩니다.</block>
   <block id="0e80b6146d7736683cb1292a9c1ba4af" category="paragraph">3.9.44 릴리스 이전에 생성된 기존 Connector가 있는 경우 Ubuntu 호스트에서 지원되는 최대 버전은 Docker Engine 25.0.5입니다.</block>
@@ -4273,8 +4143,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="f42f94dc205ad041c3d86658f703465e" category="paragraph">BlueXP 가 CSR을 생성하기 위해 사용하는 키 쌍은 내부적으로 커넥터에 저장됩니다. BlueXP 는 커넥터에 인증서를 설치할 때 동일한 키 쌍(개인 키)을 자동으로 검색합니다.</block>
   <block id="fa7c85eec1cc76ccc0e893292ce638e4" category="list-text">이미 가지고 있는 CA 서명 인증서를 설치합니다.</block>
   <block id="44f374dc4bb34314bb885e22229628b6" category="paragraph">이 옵션을 사용하면 BlueXP 를 통해 CSR이 생성되지 않습니다. CSR을 별도로 생성하고 개인 키를 외부에 저장합니다. 인증서를 설치할 때 BlueXP 에 개인 키를 제공합니다.</block>
-  <block id="cce7af47240992bbe7e732a4ed33061c" category="inline-link">Docker 설치 지침을 봅니다</block>
-  <block id="11f197927bd64550079e417137ab4ce2" category="paragraph"><block ref="11f197927bd64550079e417137ab4ce2" category="inline-link-rx"></block></block>
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024년 9월 30일</block>
   <block id="0beb94109608ff82d313b33947162f96" category="section-title">비공개 모드 해제(3.9.44)</block>
   <block id="f1fb6fd189345cf04ef77974b58bcbfc" category="paragraph">이 릴리스에는 전용 모드에서 지원되는 다음 버전의 BlueXP  구성 요소 및 서비스가 포함되어 있습니다.</block>
@@ -4293,4 +4161,692 @@ https://support.netapp.com 으로 문의하십시오
   <block id="00dc7f0b165829f9f81bfaf12a8db2e4" category="inline-link">BlueXP 의 Cloud Volumes ONTAP 관리 기능에 대한 새로운 기능</block>
   <block id="941cdb6d27c83c929d4abe28f2321665" category="list-text"><block ref="941cdb6d27c83c929d4abe28f2321665" category="inline-link-rx"></block></block>
   <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">업그레이드 방법을 포함하여 개인 모드에 대한 자세한 내용은 다음을 참조하십시오.</block>
+  <block id="fe70d00031e0c8027b968ff90a57ff67" category="paragraph"><block ref="fe70d00031e0c8027b968ff90a57ff67" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c223cc107d4b6a766458301b9e4ec659" category="list-text">커넥터와 연결할 BlueXP  조직을 지정합니다.</block>
+  <block id="dedba3bd94f6a10ada9755fca9221d1e" category="paragraph">이제 커넥터가 설치되고 BlueXP  조직에서 설정됩니다.</block>
+  <block id="5ef39814441210148af2a4089dd68a03" category="list-text">회사에서 보내는 모든 인터넷 트래픽에 프록시 서버를 배포해야 하는 경우 HTTP 또는 HTTPS 프록시에 대한 다음 정보를 얻습니다. 설치하는 동안 이 정보를 제공해야 합니다. BlueXP는 투명한 프록시 서버를 지원하지 않습니다.</block>
+  <block id="96c5b00de0b07499da2e803348fefa3a" category="list-text">[[podman-versions]] 운영 체제 및 컨테이너 요구 사항</block>
+  <block id="5b537a7bc807c86f4601476633c8751d" category="list-text">BlueXP 는 표준 모드 또는 제한 모드에서 BlueXP 를 사용할 때 다음 운영 체제의 커넥터를 지원합니다. 커넥터를 설치하기 전에 컨테이너 조정 도구가 필요합니다.</block>
+  <block id="696c660ff8d9323e55146a6dbd4e4088" category="cell">운영 체제</block>
+  <block id="7b948bab9b4003048f0e729d2dd1b238" category="cell">지원되는 OS 버전</block>
+  <block id="301e9d698830f505ef2566dfc5a26274" category="cell">필수 컨테이너 도구</block>
+  <block id="1a3d8802d280d4ec910f54042cd62998" category="cell">SELinux</block>
+  <block id="b11607e817d8dd4e7a61b5be6e2adcae" category="paragraph">표준 모드 또는 제한 모드에서 BlueXP  사용 시 3.9.40 이상</block>
+  <block id="4a7c3449c74a5d09f39518a207c28558" category="paragraph">Podman 버전 4.6.1 또는 4.9.4</block>
+  <block id="98119697a8c596d6a586655f867a2cda" category="inline-xref">Podman 구성 요구사항을 봅니다</block>
+  <block id="a4facfb2d16d1ed97d33467440808582" category="paragraph"><block ref="70e106a4b5e10c3f8e254a047f7ddb34" category="inline-xref-macro-rx"></block>..</block>
+  <block id="80626b31c22fa123b11c56011b1f23b6" category="paragraph">강제 적용 모드 또는 허용 모드에서 지원됩니다</block>
+  <block id="3d945423f8e9496c429a5d8c65b4604f" category="paragraph">우분투</block>
+  <block id="4cb2cce5e859bbc5a24d65a5385fba47" category="paragraph">24.04 LTS입니다</block>
+  <block id="8be08c10396c9c621de2a80e7ee83e4b" category="paragraph">표준 모드 또는 제한 모드에서 BlueXP  사용 시 3.9.45 이상</block>
+  <block id="e8ad09ce82a676af682d64048bfaccdf" category="paragraph">Docker 엔진 26.0.0</block>
+  <block id="aa7f77e663b832d5b0e544c5511e680c" category="paragraph">지원되지 않습니다</block>
+  <block id="2464b5a925b66efe79da228156bcf8ec" category="paragraph">22.04 LTS입니다</block>
+  <block id="607262a04e5c4340fc8d641e874a5695" category="paragraph">3.9.29 이상</block>
+  <block id="a3336db0e9f7b6341a12794c144076b6" category="paragraph">Docker 엔진 23.0.6 - 26.0.0</block>
+  <block id="d17c1c5df1d66cd867cac0be74a24b2f" category="paragraph">26.0.0은 _NEW_Connector 3.9.44 이상 설치에서 지원됩니다</block>
+  <block id="85597176185e09b87b7f61d19fbf15f4" category="list-text">RHEL의 경우 호스트를 Red Hat 서브스크립션 관리에 등록해야 합니다. 등록되지 않은 경우 호스트는 Connector 설치 중에 필요한 타사 소프트웨어를 업데이트하기 위해 리포지토리에 액세스할 수 없습니다.</block>
+  <block id="cfa3c2ed59f5807a5da4f70f9fd2a75a" category="list-text">BlueXP 는 BlueXP 를 개인 모드로 사용할 때 다음 운영 체제의 커넥터를 지원합니다. 커넥터를 설치하기 전에 컨테이너 조정 도구가 필요합니다.</block>
+  <block id="4cfbb74ea0a7f288bc508af725ee0f34" category="paragraph">3.9.42 이상(BlueXP 가 비공개 모드로 설정된 경우</block>
+  <block id="136da095d8c6e083ed13dec8dadaffe5" category="paragraph"><block ref="3c15003d1ebf129cb6cebdaf6ae30fe9" category="inline-xref-macro-rx"></block>..</block>
+  <block id="cce355fe44a79b8d49cca2daa6500a25" category="paragraph"><block ref="2fdf32031e9fd2d8e629141f098d92fe" category="inline-xref-macro-rx"></block>..</block>
+  <block id="240737f585dc738aa03819a8404eec8f" category="paragraph">다음 단계에 따라 Podman을 설치하고 다음 요구 사항을 충족하도록 구성합니다.</block>
+  <block id="fd3ac4b8bdad6f16e9e6e20e98f8fd3b" category="paragraph">Docker의 설명서를 따라 Docker Engine을 설치합니다.</block>
+  <block id="967f6b685746fef3724d3494c1afc513" category="list-text">이 구독을 연결할 BlueXP  조직 또는 계정을 선택합니다.</block>
+  <block id="ef19fc2e03027a590127656e945205e1" category="list-text">기존 구독 바꾸기 * 필드에서 한 조직 또는 계정에 대한 기존 구독을 이 새 구독으로 자동 대체할지 여부를 선택합니다.</block>
+  <block id="c999131c88aa02b0f9b7250262aa1fa6" category="paragraph">BlueXP 는 조직 또는 계정의 모든 자격 증명에 대한 기존 구독을 이 새 구독으로 대체합니다. 자격 증명 집합이 구독과 연결되지 않은 경우 이 새 구독은 해당 자격 증명과 연결되지 않습니다.</block>
+  <block id="c64577fbea6506f38ae9b43ab46da844" category="paragraph">다른 모든 조직 또는 계정의 경우 이 단계를 반복하여 구독을 수동으로 연결해야 합니다.</block>
+  <block id="aed7c8a25120d41eacc3c97ed0b851e5" category="paragraph">Google Cloud 구독을 BlueXP  조직 또는 계정과 연결하려면 이 단계를 완료해야 합니다. 이 페이지에서 리디렉션된 다음 BlueXP에 로그인할 때까지 가입 연결 프로세스가 완료되지 않습니다.</block>
+  <block id="6c42d9d3f2de2ec585181e975309fcf0" category="section-title">클라우드 공급자와 커뮤니케이션</block>
+  <block id="f9a30311177259db80d6ef6b5bc77f80" category="paragraph">Connector는 AWS, Azure 및 Google Cloud와의 모든 통신에 TLS 1.2를 사용합니다.</block>
+  <block id="62e253e417ca4e6f13ae9fae3d41704e" category="paragraph">BlueXP 에서 직접 커넥터를 만들거나, 클라우드 공급자의 마켓플레이스에서 직접 만들거나, 자신의 Linux 호스트에 소프트웨어를 수동으로 설치할 수 있습니다. 표준 모드, 제한 모드 또는 비공개 모드에서 BlueXP를 사용하고 있는지 여부에 따라 시작 방법이 달라집니다.</block>
+  <block id="be6236f35c24aae3ee086b3f6ec01213" category="paragraph">일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. BlueXP  플랫폼의 대부분의 서비스와 기능은 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
+  <block id="429ef702d7e67a893ea297da8613a472" category="inline-link-macro">비공개 모드를 사용할 때 커넥터 소프트웨어를 수동으로 업그레이드하는 방법에 대해 알아봅니다</block>
+  <block id="1178d8df6f45ec63d153216266770ffa" category="paragraph"><block ref="8ab15d11feb9213cf5a6950e71fe0578" category="inline-link-macro-rx"></block>..</block>
+  <block id="8f65178ee55c2c64ee3bef58afe9c682" category="list-text">서비스 공급자는 하나의 BlueXP  조직을 사용하여 고객에게 서비스를 제공하고 다른 조직을 사용하여 하나의 사업부에 대한 재해 복구를 제공할 수 있습니다. 각 조직에는 별도의 커넥터가 있습니다.</block>
+  <block id="d2d6f4fd74e2ac2b843a4f202e5a89b6" category="doc">BlueXP 와 ID 페더레이션을 사용하여 Single Sign-On을 활성화합니다</block>
+  <block id="194f68541f58f6c331eacf4db74f4f78" category="summary">BlueXP  IAM(Identity and Access Management)을 사용하면 조직의 리소스에 대한 액세스를 제어할 수 있습니다.</block>
+  <block id="d135d1b6a10879ca27887c632f4576d7" category="doc">BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오</block>
+  <block id="4c68d7a9d2f72cab48af82d15bdd22b9" category="paragraph">BlueXP  IAM(Identity and Access Management)을 사용하면 NetApp 리소스에 대한 액세스를 구성하고 제어할 수 있습니다. 조직의 계층 구조에 따라 자원을 구성할 수 있습니다. 예를 들어 지리적 위치, 사이트 또는 사업부별로 자원을 구성할 수 있습니다. 그런 다음 계층 구조의 특정 부분에 있는 구성원에게 사용 권한을 할당하면 계층 구조의 다른 부분에 있는 리소스에 액세스할 수 없습니다.</block>
+  <block id="81ac1402c03d0a47ef27fe0243ef45dc" category="inline-link-macro">BlueXP  IAM 도입에 대해 자세히 알아보십시오</block>
+  <block id="5fdbce3d2319aac7495f83deb2cfb4ec" category="paragraph">BlueXP  IAM은 BlueXP  계정에서 제공하는 이전 기능을 대체하고 개선합니다. <block ref="05afd8790c123b20ba2a3355efdad456" category="inline-link-macro-rx"></block>..</block>
+  <block id="35a6ef4b2983f2c48bb7abdcd826e67f" category="paragraph">BlueXP  IAM은 표준 모드에서 BlueXP 를 사용할 때 지원됩니다. 제한된 모드 또는 비공개 모드에서 BlueXP 를 사용하는 경우 BlueXP _ACCOUNT_를 사용하여 사용자와 리소스를 관리합니다.</block>
+  <block id="03dc9106de5affc832d68c188393146d" category="section-title">BlueXP  IAM 작동 방법</block>
+  <block id="c070b3ed0873722a725505fd8f648c60" category="paragraph">BlueXP  IAM을 사용하면 조직 계층 구조의 특정 부분에 대한 사용 권한을 가진 구성원을 정의하여 조직의 리소스에 대한 액세스 권한을 부여할 수 있습니다. 예를 들어 5개의 관련 자원이 있는 프로젝트에 대해 구성원에게는 프로젝트 관리자 권한이 있을 수 있습니다.</block>
+  <block id="7d5499ec968e6c97c7264ba95116b2d6" category="paragraph">BlueXP  IAM을 사용하면 다음 구성 요소를 관리할 수 있습니다.</block>
+  <block id="ba49e39a2ccedcfe8d31a1eb6440393b" category="list-text">조직</block>
+  <block id="60c7502b5c40479908aed919a94c1786" category="list-text">폴더</block>
+  <block id="54e1d44609e3abed11f6e1eb6ae54988" category="list-text">프로젝트</block>
+  <block id="ddcf50c29294d4414f3f7c1bbc892cb5" category="list-text">리소스</block>
+  <block id="cc3fc292512275828d3e52e16ae33c1e" category="list-text">역할 및 권한</block>
+  <block id="63d750f29eced0ef6f1a75aa4da71fd5" category="paragraph">BlueXP  리소스는 계층적으로 구성됩니다.</block>
+  <block id="790fa8644dbcadf85fb5b45d7fca979d" category="list-text">조직이 계층 구조의 맨 위에 있습니다.</block>
+  <block id="2ede3ee5af948d52fa8b02b8b724edbc" category="list-text">폴더는 조직의 하위 폴더이거나 다른 폴더의 하위 폴더입니다.</block>
+  <block id="c6d4d895d45b22ea5448413edb3695fb" category="list-text">프로젝트는 조직의 하위 또는 폴더의 하위 항목입니다.</block>
+  <block id="d328918eb0bde8153b59b715b29dab04" category="list-text">자원은 하나 이상의 폴더 또는 프로젝트와 연결되어 있습니다.</block>
+  <block id="c811c1fbfa4dd81873bbea559d575b16" category="paragraph">다음 이미지는 기본 수준에서 이 계층을 보여 줍니다.</block>
+  <block id="10119787527a31da075fede0d76f0203" category="inline-image-macro">BlueXP  IAM의 리소스 계층 구조(조직, 폴더, 프로젝트 및 리소스)를 보여 주는 개념도</block>
+  <block id="7e775be1764f78009e9846f9006651fa" category="paragraph"><block ref="7e775be1764f78009e9846f9006651fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d6b258792ff06f82933c74eeb8aef591" category="section-title">조직</block>
+  <block id="31e872437335d3d81483e87525b418b2" category="paragraph">조직 _ 은(는) BlueXP  IAM 시스템의 최상위 수준이며 일반적으로 회사를 나타냅니다. 조직은 폴더, 프로젝트, 구성원, 역할 및 리소스로 구성됩니다. 커넥터는 조직의 특정 프로젝트와 연결됩니다.</block>
+  <block id="2514dc2ef1e14f7696838f5cc8280315" category="paragraph">BlueXP 에 등록하면 새 조직을 만들라는 메시지가 나타납니다.</block>
+  <block id="ee07c487a7e0b5c18c94b4bded207535" category="paragraph">_folder_를 사용하면 관련된 프로젝트를 그룹화하고 조직의 다른 프로젝트와 분리할 수 있습니다. 예를 들어 폴더는 지리적 위치(EU 또는 미국 동부), 사이트(런던 또는 토론토) 또는 사업부(엔지니어링 또는 마케팅)를 나타낼 수 있습니다.</block>
+  <block id="4f4b6c71ed586432b1f40e519b555023" category="paragraph">폴더에는 프로젝트, 다른 폴더 또는 이 둘의 조합이 포함될 수 있습니다.</block>
+  <block id="229579d2bfa52f21a46468d1600ae5db" category="paragraph">폴더를 만들 필요가 없습니다. 선택 사항입니다.</block>
+  <block id="073b4a34202498afcb0022a2400e1b32" category="paragraph">project_는 조직 구성원이 리소스를 관리하기 위해 BlueXP  캔버스에서 액세스하는 BlueXP 의 작업 영역을 나타냅니다. 예를 들어, 프로젝트에 Cloud Volumes ONTAP 시스템, 온프레미스 ONTAP 클러스터 또는 FSx for ONTAP 파일 시스템이 포함될 수 있습니다.</block>
+  <block id="420332558cea2f6b48a90723f1ba988b" category="paragraph">한 조직에 하나 이상의 프로젝트가 있을 수 있습니다. 프로젝트는 조직 바로 아래에 있거나 폴더 안에 있을 수 있습니다.</block>
+  <block id="6df9abd9c7b51bbfb5b24919ebf7a0d9" category="paragraph">a_resource_은(는) BlueXP 에서 생성하거나 검색한 작업 환경입니다.</block>
+  <block id="4bcb4158bb794b5f6897b12a3d885700" category="paragraph">자원을 만들거나 검색할 때 해당 자원은 현재 선택한 프로젝트와 연결됩니다. 이 프로젝트만 이 자원을 연결할 수 있습니다. 그러나 자원을 조직의 추가 프로젝트와 연결하도록 선택할 수 있습니다.</block>
+  <block id="448d5e2671e1140d3206b53b2cd8fcb3" category="paragraph">예를 들어 Cloud Volumes ONTAP 시스템을 하나의 추가 프로젝트 또는 조직의 모든 프로젝트에 연결할 수 있습니다. 자원을 연결하는 방법은 조직의 요구 사항에 따라 달라집니다.</block>
+  <block id="168c1dcd033cefa7491c208fa91302b0" category="inline-xref">BlueXP  IAM에서 커넥터를 사용하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="41b86f6155d6363543815bac5dea73ad" category="admonition">조직의 다른 폴더나 프로젝트에 Connector를 연결할 수도 있습니다. <block ref="9e7f5047feaf45527e5897b8e3a9f3c3" category="inline-xref-macro-rx"></block>..</block>
+  <block id="45fe20b7675ad9a40c796bc19a899151" category="section-title">자원을 폴더와 연결하는 경우</block>
+  <block id="fc684e5246159b2c02963d967d21fdff" category="paragraph">또한 리소스를 폴더와 연결할 수도 있지만 이 옵션은 선택 사항이며 특정 활용 사례의 요구 사항을 충족합니다.</block>
+  <block id="c2b6281f68ca211ace1d3b7217d3af91" category="paragraph">조직 관리 _ 는(는) 폴더와 자원을 연결하여 _Folder 또는 프로젝트 관리자 _ 가 해당 자원을 폴더에 있는 적절한 프로젝트와 연결할 수 있습니다.</block>
+  <block id="1058f4a748781e5148a8a3c55abb0aab" category="paragraph">예를 들어 두 프로젝트가 포함된 폴더가 있다고 가정해 보겠습니다.</block>
+  <block id="6ca67105e5f9ace975f61928538c4611" category="inline-image-macro">폴더 하나와 폴더에 있는 두 프로젝트(프로젝트 A 및 프로젝트 B)를 보여 주는 다이어그램</block>
+  <block id="754e6597ff2f536e3e344211df138650" category="paragraph"><block ref="754e6597ff2f536e3e344211df138650" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f7b8351932b4b34ebd9a3c35f609142" category="paragraph">조직 관리자 _ 는(는) 다음 폴더와 리소스를 연결할 수 있습니다.</block>
+  <block id="13d52e7b25d0d3a36ee2a18423d7e3fc" category="inline-image-macro">폴더, 폴더와 연결된 자원, 폴더에 있는 두 프로젝트(프로젝트 A 및 프로젝트 B)를 보여 주는 다이어그램</block>
+  <block id="a762f5e5e726c59b96c9704f6690afd5" category="paragraph"><block ref="a762f5e5e726c59b96c9704f6690afd5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="abcb4f764f4be71c7de8f1f00d041876" category="paragraph">자원을 폴더와 연결한다고 해서 폴더의 모든 프로젝트에서 해당 리소스에 자동으로 액세스할 수 있는 것은 아닙니다. 그러나 _Folder 또는 프로젝트 admin_은 자원을 사용할 수 있는 프로젝트를 결정할 수 있습니다. 이렇게 결정한 후에는 관리자가 리소스를 올바른 프로젝트에 연결할 수 있습니다.</block>
+  <block id="390c53a5725b855c6866ac325cec9ffc" category="paragraph">이 예제에서 관리자는 자원을 프로젝트 A에 연결합니다.</block>
+  <block id="a6359392d37b223c34ad47dc59840824" category="inline-image-macro">폴더, 폴더에 있는 두 프로젝트, 즉 프로젝트 A와 프로젝트 B와 프로젝트 A와 연결된 자원을 보여 주는 다이어그램</block>
+  <block id="033735cdc14884b812013b44ececf16d" category="paragraph"><block ref="033735cdc14884b812013b44ececf16d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7daf841f0e77802f670d882e89b2933a" category="paragraph">프로젝트 A에 대한 권한이 있는 구성원은 이제 자원에 액세스할 수 있습니다.</block>
+  <block id="edd719acf18ba2b24326bae940c8d405" category="paragraph">조직의 구성원은 사용자 계정 또는 서비스 계정입니다. 서비스 계정은 일반적으로 응용 프로그램에서 사람의 개입 없이 지정된 작업을 완료하는 데 사용됩니다.</block>
+  <block id="1e600081d8c3ddee81a1c4fde234a8ea" category="paragraph">조직에 _Organization admin_role을 가진 사용자가 하나 이상 있습니다(조직을 만드는 사용자에게 자동으로 이 역할이 할당됨). 조직에 다른 구성원을 추가하고 자원 계층 구조의 여러 수준에 서로 다른 사용 권한을 할당할 수 있습니다.</block>
+  <block id="f7498a2b1cad9068d22c6cae249fa86a" category="paragraph">BlueXP  IAM에서는 조직 구성원에게 권한을 직접 부여하지 않습니다. 대신 각 구성원에게 역할을 부여합니다. 역할에는 구성원이 리소스 계층의 특정 수준에서 특정 작업을 수행할 수 있도록 하는 권한 집합이 포함됩니다.</block>
+  <block id="113f89b00e292b60a3abd42cf2ae334d" category="paragraph">자원 계층의 특정 부분에 사용 권한을 부여하면 구성원이 작업을 완료하는 데 필요한 자원에만 액세스 권한을 제한할 수 있습니다.</block>
+  <block id="805218308fdc32b426f980b2af2fc1bb" category="section-title">계층 구조에서 역할을 할당할 수 있습니다</block>
+  <block id="3b9526de74c9dc5ffc9af4580bef6209" category="paragraph">구성원을 역할에 연결할 때는 전체 조직, 특정 폴더 또는 특정 프로젝트를 선택해야 합니다. 선택한 역할은 계층 구조의 선택한 부분에 있는 리소스에 대한 구성원 권한을 부여합니다.</block>
+  <block id="3a3412900d3c19fdb5732fe4f6694e1d" category="section-title">역할 상속</block>
+  <block id="1dbcc05186db9ce123a5c671a4b5512c" category="paragraph">역할을 할당하면 역할이 조직 계층 구조로 상속됩니다.</block>
+  <block id="54e4ca1414109471d3f30c5ad4a0e082" category="list-text">조직 수준에서 부여한 역할은 조직의 모든 폴더, 프로젝트 및 리소스에 상속됩니다. 즉, 구성원에게는 조직의 모든 항목에 대한 사용 권한이 있습니다.</block>
+  <block id="352f1c445e075db00bbcab968cda6823" category="list-text">폴더 수준에서 부여한 역할은 폴더의 모든 폴더, 프로젝트 및 리소스에 상속됩니다.</block>
+  <block id="5ac64a6676e634fcfd02895729d7efc4" category="paragraph">예를 들어 폴더 수준에서 역할을 할당하고 해당 폴더에 세 개의 프로젝트가 있는 경우 구성원은 해당 세 개의 프로젝트와 모든 관련 리소스에 대한 사용 권한을 갖게 됩니다.</block>
+  <block id="f7cc750b6297ad0e9c4ddc933def018d" category="list-text">프로젝트 수준에서 부여한 역할은 해당 프로젝트와 관련된 모든 자원에 상속됩니다.</block>
+  <block id="d91e4a7f7d3d057f2ceb3bf51ca4b809" category="section-title">여러 역할</block>
+  <block id="3a6537a8a84cacd748ff26028e103b68" category="paragraph">각 조직 구성원에게 조직 계층 구조의 다양한 수준에서 역할을 할당할 수 있습니다. 동일한 역할이거나 다른 역할일 수 있습니다. 예를 들어 프로젝트 1과 프로젝트 2에 대해 구성원 역할 A를 할당할 수 있습니다. 또는 프로젝트 1에는 구성원 역할 A, 프로젝트 2에는 역할 B를 할당할 수 있습니다.</block>
+  <block id="778cae7482baa87153f906bf3473adc3" category="section-title">미리 정의된 역할</block>
+  <block id="befeea17a6d7eca164cf128f9bffe000" category="paragraph">BlueXP 에서는 조직의 구성원에게 할당할 수 있는 몇 가지 미리 정의된 역할을 지원합니다.</block>
+  <block id="2b01a456faf456f22f55be4aabe17b53" category="inline-link-macro">사전 정의된 IAM 역할에 대해 알아봅니다</block>
+  <block id="5939586d23777de38b1394aad3c31735" category="paragraph"><block ref="1d6a3b55f851d6a1155ab766483f6eac" category="inline-link-macro-rx"></block>..</block>
+  <block id="96798f05426bc55e0ae4e4719f68dc28" category="section-title">사용자 지정 역할</block>
+  <block id="a38d248b1e1740da2f4eccb2dc9492be" category="paragraph">현재 사용자 지정 역할은 지원되지 않습니다.</block>
+  <block id="1f2652079b5030c3e1f5c5b95701a71c" category="paragraph">조직 관리자 _ 가 커넥터를 만들면 BlueXP 가 해당 커넥터를 조직 및 현재 선택한 프로젝트에 자동으로 연결합니다. 조직 관리자 _ 는 조직의 모든 위치에서 해당 커넥터에 자동으로 액세스할 수 있습니다. 그러나 조직에 다른 역할을 가진 다른 구성원이 있는 경우 해당 구성원은 Connector를 만든 프로젝트에서만 해당 Connector에 액세스할 수 있습니다. 단, 다른 프로젝트와 이 Connector를 연결하지 않는 한 해당 구성원은 해당 Connector를 만든 프로젝트에서만 액세스할 수 있습니다.</block>
+  <block id="a84eaa1aafc5282e553ddc52e74d77b9" category="paragraph">다음과 같은 경우 다른 프로젝트에서 Connector를 사용할 수 있도록 설정할 수 있습니다.</block>
+  <block id="9ce6bd5f8ae0c74108c66519e8a1d5dd" category="list-text">조직의 구성원이 기존 Connector를 사용하여 다른 프로젝트에서 추가 작업 환경을 만들거나 검색할 수 있도록 허용하려는 경우</block>
+  <block id="1294a41af24549496295a289ef7392a4" category="list-text">기존 자원을 다른 프로젝트에 연결했는데 해당 자원이 Connector로 관리됩니다</block>
+  <block id="73cf487cae9590b5cffed6be5a610252" category="paragraph">추가 프로젝트에 연결된 자원이 BlueXP  커넥터를 사용하여 검색되면 해당 자원이 연결된 프로젝트에도 연결선을 연결해야 합니다. 그렇지 않으면 _Organization admin_역할이 없는 구성원이 BlueXP  캔버스에서 커넥터 및 관련 리소스에 액세스할 수 없습니다.</block>
+  <block id="6d257318c199abbb1afe6c1bda69ac59" category="paragraph">BlueXP  IAM의 * 커넥터 * 페이지에서 연결을 생성할 수 있습니다.</block>
+  <block id="878220f2fc28384f3ff6858db2ecdbb8" category="list-text">Connector를 프로젝트에 연결합니다</block>
+  <block id="840678c266fb13b1e6f3bb15d8389d12" category="paragraph">커넥터와 프로젝트를 연결하면 프로젝트를 볼 때 BlueXP  캔버스에서 해당 커넥터에 액세스할 수 있습니다.</block>
+  <block id="e85ac916ed94cb910b4635be78c76be1" category="list-text">Connector를 폴더에 연결합니다</block>
+  <block id="b586758af094fc2bd17d0a7998a3c157" category="paragraph">Connector를 폴더에 연결한다고 해서 폴더의 모든 프로젝트에서 해당 Connector에 자동으로 액세스할 수 있는 것은 아닙니다. Connector를 특정 프로젝트에 연결할 때까지 조직 구성원은 프로젝트에서 Connector에 액세스할 수 없습니다.</block>
+  <block id="201614334b2723fd3338cf698f37ecd4" category="paragraph">조직 관리 _ 는(는) 폴더 또는 프로젝트 관리자 _ 가 해당 Connector를 폴더에 있는 적절한 프로젝트와 연결하도록 결정할 수 있도록 커넥터를 폴더에 연결할 수 있습니다.</block>
+  <block id="0561b5e58584cfa2d9e645e47c0c3bb1" category="section-title">IAM의 예</block>
+  <block id="8ddebf391d7c6c8708071496ecce1bf7" category="paragraph">다음 예제에서는 조직을 설정하는 방법을 보여 줍니다.</block>
+  <block id="135b3c5ddb2b53a7189302bba4295fc6" category="section-title">단순한 조직</block>
+  <block id="bc43b12884b61655079a5a16d18ad9de" category="paragraph">다음 다이어그램에서는 폴더가 없는 기본 프로젝트를 사용하는 조직의 간단한 예를 보여 줍니다. 단일 구성원이 전체 조직을 관리합니다.</block>
+  <block id="a72765d3ccd5c52417f70bed4c7b5d10" category="inline-image-macro">프로젝트, 관련 리소스 및 조직 관리자 한 명이 있는 조직을 보여 주는 개념적 다이어그램</block>
+  <block id="face2518a7991fc077049ce88a451506" category="paragraph"><block ref="face2518a7991fc077049ce88a451506" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="59621237129094427f9a72a5abd1c4ab" category="section-title">고급 조직</block>
+  <block id="c6b77e1242f5c61d1b3a4fcc23ecbc5f" category="paragraph">다음 다이어그램은 폴더를 사용하여 비즈니스의 각 지리적 위치에 대한 프로젝트를 구성하는 조직을 보여 줍니다. 각 프로젝트에는 고유한 관련 자원 집합이 있습니다. 구성원에는 조직 관리자 및 조직의 각 폴더에 대한 관리자가 포함됩니다.</block>
+  <block id="c42c21a7b10f03efb2158ca490037fe6" category="inline-image-macro">세 개의 폴더가 있는 조직, 각각 세 개의 프로젝트 및 관련 자원을 보여 주는 개념도 다이어그램 4명의 구성원이 있습니다: 조직 관리자 한 명과 폴더 관리자 세 명.</block>
+  <block id="bf82c3800cfba815226d6198ee52f743" category="paragraph"><block ref="bf82c3800cfba815226d6198ee52f743" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9c71ad950b1446d547278af5c7147328" category="section-title">BlueXP  IAM으로 수행할 수 있는 작업</block>
+  <block id="97d3cbd51b6b8b0b3d639c943148a417" category="paragraph">다음 예에서는 IAM을 사용하여 BlueXP  조직을 관리하는 방법을 설명합니다.</block>
+  <block id="8ee1b3030cf2306807b2455986fcdbb7" category="list-text">특정 구성원에게 특정 역할을 부여하여 필요한 작업만 완료할 수 있도록 합니다.</block>
+  <block id="f91eea9f01a5fb5fa77a710b4ba9c3f8" category="list-text">부서를 이동했거나 추가 책임이 있기 때문에 구성원 권한을 수정합니다.</block>
+  <block id="ef27124892f4f09e9c2bb90c1203ff27" category="list-text">회사를 떠난 사용자를 제거합니다.</block>
+  <block id="e1f2316dbf17a6638de690d7aa30435a" category="list-text">새 사업부에서 NetApp 스토리지를 추가했으므로 계층 구조에 폴더 또는 프로젝트를 추가합니다.</block>
+  <block id="b2cc75cf0917e7a2e3b9e5436f277bca" category="list-text">다른 팀에서 활용할 수 있는 작업 시간이 자원에 있으므로 자원을 다른 프로젝트에 연결합니다.</block>
+  <block id="4d7877e30c207ca4005b216478fe60b7" category="list-text">구성원이 액세스할 수 있는 리소스를 봅니다.</block>
+  <block id="6cb05f8d1ecb6a2e9d2feda7fc446108" category="list-text">특정 프로젝트와 관련된 구성원 및 자원을 봅니다.</block>
+  <block id="3163b3d4dc92f42d04ad4c79906dcdc3" category="section-title">다음 단계로 넘어갑니다</block>
+  <block id="c12e8c3134a6d5ff2ec2657f6357e8ec" category="inline-link-macro">BlueXP  IAM을 시작하십시오</block>
+  <block id="8e537ea51347d673ce98d63017478ab1" category="list-text"><block ref="8e537ea51347d673ce98d63017478ab1" category="inline-link-macro-rx"></block></block>
+  <block id="83a9171f9d4625508b6cd8aa9047aa39" category="inline-link-macro">BlueXP 에서 폴더와 프로젝트를 사용하여 자원을 구성합니다</block>
+  <block id="4eaaa0d0b56259cfba7ab5107e3505cf" category="list-text"><block ref="4eaaa0d0b56259cfba7ab5107e3505cf" category="inline-link-macro-rx"></block></block>
+  <block id="3ae3f4ae96ab82480130c990fe8abb27" category="inline-link-macro">BlueXP  구성원 및 해당 사용 권한을 관리합니다</block>
+  <block id="bc11f089f08d4112745ef231e6bd76f5" category="list-text"><block ref="bc11f089f08d4112745ef231e6bd76f5" category="inline-link-macro-rx"></block></block>
+  <block id="56f0a9d778761ff673425068bcd1caca" category="inline-link-macro">BlueXP  조직에서 리소스 계층 구조를 관리합니다</block>
+  <block id="b4936fda3da18c6fa9192d0174c93248" category="list-text"><block ref="b4936fda3da18c6fa9192d0174c93248" category="inline-link-macro-rx"></block></block>
+  <block id="0ed1fa4dc958833aaa6c943368d9f610" category="inline-link-macro">커넥터를 폴더 및 프로젝트와 연결합니다</block>
+  <block id="9610f2c808689a17e58f0813034c0c28" category="list-text"><block ref="9610f2c808689a17e58f0813034c0c28" category="inline-link-macro-rx"></block></block>
+  <block id="aaf07b703d1ee5efd10dd75da6dea8fb" category="inline-link-macro">BlueXP  프로젝트와 조직 간 전환</block>
+  <block id="e1e7b5ea6c8560fc6815f1cf773f2f6f" category="list-text"><block ref="e1e7b5ea6c8560fc6815f1cf773f2f6f" category="inline-link-macro-rx"></block></block>
+  <block id="061653f8abbedd17bc4aa60588257e70" category="inline-link-macro">BlueXP  조직의 이름을 바꿉니다</block>
+  <block id="959b3d139f0ed348df82399415bdebd9" category="list-text"><block ref="959b3d139f0ed348df82399415bdebd9" category="inline-link-macro-rx"></block></block>
+  <block id="01e8a182567bd2c2dcbbff70cc3ab8df" category="inline-link-macro">IAM 활동 모니터링 또는 감사</block>
+  <block id="08f5de863be0cce720d83cf5f9e2325a" category="list-text"><block ref="08f5de863be0cce720d83cf5f9e2325a" category="inline-link-macro-rx"></block></block>
+  <block id="2ae9b8201c573eac585a948cb9830266" category="inline-link-macro">사전 정의된 BlueXP  IAM 역할</block>
+  <block id="3fb66cadb4027f2f57ca51f4b307b813" category="list-text"><block ref="3fb66cadb4027f2f57ca51f4b307b813" category="inline-link-macro-rx"></block></block>
+  <block id="2047b2bd03a68b861064ed837a1828ad" category="inline-link">BlueXP  IAM용 API에 대해 알아보십시오</block>
+  <block id="6eac0fe573d21cc295c6fb62b2ea661f" category="list-text"><block ref="6eac0fe573d21cc295c6fb62b2ea661f" category="inline-link-rx"></block></block>
+  <block id="352b89440d5beff7b1d3a05b715d29f3" category="paragraph">BlueXP 은 3가지 구축 모드를 제공합니다. 각 모드는 아웃바운드 연결 요구 사항, 배포 위치, 설치 프로세스, 인증 방법, 사용 가능한 데이터 및 스토리지 서비스, 충전 방법 측면에서 다릅니다.</block>
+  <block id="3d725c77d5fb40a1e06f0ec1f3adb6bf" category="cell">BlueXP  ID 및 액세스 관리</block>
+  <block id="f9fe38e333c2ca53b0f55bf1d77ff415" category="summary">BlueXP  계정을 사용하면 제한된 모드 또는 개인 모드를 사용할 때 격리된 작업 영역에서 사용자를 관리하고 리소스를 구성할 수 있습니다.</block>
+  <block id="da7e730676141f6182a7c02360c7231a" category="paragraph">제한 모드 또는 비공개 모드에서 BlueXP 를 사용하는 경우 _BlueXP  계정 _ 을(를) 사용하여 사용자를 관리하고 isolated_workspace_에서 리소스를 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 작업 영역에서 작업 환경을 관리하는 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 작업 환경을 배포하고 관리할 수 있습니다.</block>
+  <block id="4d5a6c38dc6ac6534bdcc6ab92e89432" category="paragraph">표준 모드에서 BlueXP 를 사용하는 경우 BlueXP  계정이 없습니다. 대신 BlueXP  ID 및 액세스 관리(IAM)를 사용하여 관리하는 _BlueXP  조직_ 이 있습니다.</block>
+  <block id="a5a81005322e1187e396e2f1252dca71" category="inline-link-macro">BlueXP  IAM에 대해 알아보십시오</block>
+  <block id="0a3f88a939958973fc19097a4507c320" category="list-text"><block ref="0a3f88a939958973fc19097a4507c320" category="inline-link-macro-rx"></block></block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link">NetApp ONTAP용 Amazon FSx</block>
+  <block id="9c4a7c12354adf4b9769466219528866" category="list-text"><block ref="9c4a7c12354adf4b9769466219528866" category="inline-link-rx"></block></block>
+  <block id="00838ef59a9253836a006f7f6c950540" category="list-text">데이터를 동기화, 복사 및 계층화하여 필요한 위치로 이동합니다.</block>
+  <block id="567df595b15ee514a60197cd2704d121" category="list-text"><block ref="567df595b15ee514a60197cd2704d121" category="inline-link-rx"></block></block>
+  <block id="ecbf594bb3a0b1f21d5ca3e417aec924" category="list-text"><block ref="ecbf594bb3a0b1f21d5ca3e417aec924" category="inline-link-rx"></block></block>
+  <block id="0e8ea8e34a0c202eee5118a2cb8b1245" category="inline-link">BlueXP 를 사용하여 하이브리드 멀티 클라우드 환경의 데이터를 관리하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="0db222e907cad49a37eadf66bb039f71" category="paragraph"><block ref="0db222e907cad49a37eadf66bb039f71" category="inline-link-rx"></block></block>
+  <block id="e941556cb9de65414ef1016588b14a16" category="paragraph">BlueXP 에는 SaaS 계층을 통해 제공되는 웹 기반 콘솔, 리소스 및 액세스 관리 시스템, 작업 환경을 관리하고 BlueXP  클라우드 서비스를 지원하는 커넥터가 포함되어 있습니다.</block>
+  <block id="b92add9eaaadea48e36392b833f28648" category="paragraph">BlueXP 는 및 API를 통해 액세스할 수<block ref="2f36e092fa6569e04c3ec0f6ff9041a3" category="inline-link-rx"></block> 있습니다. 이 SaaS 경험을 통해 최신 기능이 릴리스되면 자동으로 액세스하고 BlueXP  조직, 프로젝트 및 커넥터 간에 쉽게 전환할 수 있습니다.</block>
+  <block id="99acbaa3cb87e4fe6650072fa6b0a905" category="section-title">BlueXP  ID 및 액세스 관리(IAM)</block>
+  <block id="6634ed0b00a5c7441cfb3ec2c18b56d8" category="paragraph">BlueXP  IAM(Identity and Access Management)은 리소스 및 사용 권한을 세부적으로 관리하는 리소스 및 액세스 관리 모델입니다.</block>
+  <block id="54298776910b74abb9c78a3f449702b3" category="list-text">최상위 _organization_은(는) 다양한_프로젝트_에 대한 액세스를 관리할 수 있게 해줍니다</block>
+  <block id="29235ad952255adaa81cebf92ab3a0f0" category="list-text">_Folders_관련된 프로젝트를 함께 그룹화할 수 있습니다</block>
+  <block id="666d088bb19b110a528d20b21622daa9" category="list-text">자원 관리를 사용하면 자원을 하나 이상의 폴더 또는 프로젝트에 연결할 수 있습니다</block>
+  <block id="4c57f63e49ef8479b418a16f7d776ed6" category="list-text">액세스 관리를 사용하면 조직 계층 구조의 다양한 수준에 있는 구성원에게 역할을 할당할 수 있습니다</block>
+  <block id="8c898441028bb7b6b2d1f2270d148587" category="paragraph">BlueXP  IAM은 표준 모드에서 BlueXP 를 사용할 때 지원됩니다. 제한된 모드 또는 비공개 모드로 BlueXP 를 사용 중인 경우 BlueXP _ACCOUNT_를 사용하여 작업 영역, 사용자 및 리소스를 관리합니다.</block>
+  <block id="b2bb1015f4cde818ea1f13912e4e1755" category="inline-link-macro">BlueXP  IAM에 대해 자세히 알아보십시오</block>
+  <block id="1c675fd28ce69ed7126f32d646676158" category="list-text"><block ref="1c675fd28ce69ed7126f32d646676158" category="inline-link-macro-rx"></block></block>
+  <block id="8fbf37ccd9a099359c44e494e119477c" category="paragraph">BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다. Connector를 사용하면 사내 환경과 클라우드 환경 전반에서 리소스와 프로세스를 관리할 수 있습니다. 작업 환경(예: Cloud Volumes ONTAP)을 관리하고 여러 BlueXP  서비스를 사용해야 합니다.</block>
+  <block id="f2dac34fd4c65525dd66bb810768bb27" category="paragraph">BlueXP 는 보안 및 연결이 제한된 환경에서 지원됩니다. _restricted mode_or_private mode_를 사용하여 BlueXP SaaS 계층에 대한 아웃바운드 연결을 제한할 수 있습니다.</block>
+  <block id="cdf60a7d13d1d74e115661d87ae97a3f" category="list-text">우분투 24.04 LTS</block>
+  <block id="b6f945763d62ac8e8f24fb52111049ee" category="summary">BlueXP  ID 및 액세스 관리에는 조직의 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다.</block>
+  <block id="9a4737feea9b9d5b10fea0c8478ac45b" category="doc">사전 정의된 BlueXP  IAM 역할 및 권한</block>
+  <block id="58f6c76de5e396f2cb8175b3a9628439" category="paragraph">BlueXP  IAM(ID 및 액세스 관리)에는 리소스 계층 구조의 다양한 수준에서 조직 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다. 이러한 역할을 할당하기 전에 각 역할에 포함된 사용 권한을 이해해야 합니다.</block>
+  <block id="6a476d78ce3a8169d99c99c3285fa106" category="section-title">조직 관리자</block>
+  <block id="5ffa38d8daf12ac10d48a131c7cf1faa" category="list-text">전체 BlueXP  조직을 완벽하게 제어합니다.</block>
+  <block id="43e2aff42f40dd4820c2190845f92a29" category="list-text">이 역할을 가진 구성원은 BlueXP 의 모든 작업을 수행할 수 있습니다.</block>
+  <block id="08fe1197004da98b5b31b7f36eb2ecd2" category="section-title">폴더 또는 프로젝트 관리자</block>
+  <block id="f50c53d21cc12324f60732dc0bc33452" category="list-text">하나 이상의 프로젝트 및 폴더에 대한 모든 권한을 제공합니다.</block>
+  <block id="36ebb13cae90d210a33c907ce95b5dab" category="paragraph">폴더 수준에서 이 역할을 할당하면 구성원은 해당 폴더와 연결된 모든 프로젝트에 대한 사용 권한을 갖습니다.</block>
+  <block id="b35f7cd4ff8cf3b50f8a254ff8eaab4d" category="list-text">이 역할을 가진 구성원은 BlueXP 에서 다음 작업을 수행할 수 있습니다.</block>
+  <block id="b7468effacd77ea7140c661bd2dce11a" category="list-text">권한이 있는 프로젝트 및 폴더의 모든 작업 환경을 관리합니다</block>
+  <block id="b510afc7b0f705daf7ba3b0e6a9509ab" category="list-text">모든 BlueXP  서비스 사용</block>
+  <block id="19c38739f5aec88cec4d5ddfe95e4da5" category="list-text">BlueXP  IAM에서 폴더 관리자는 해당 폴더의 하위 폴더, 프로젝트 및 리소스를 관리할 수 있습니다.</block>
+  <block id="28283751df9965c22c056b9918a77bf8" category="list-text">폴더 내에 폴더 또는 프로젝트를 추가합니다</block>
+  <block id="e51470b514d7e8944c546a41c7f08927" category="list-text">폴더 및 프로젝트 편집: 이름, 관련 리소스 및 구성원 액세스</block>
+  <block id="7c45875dc8931622255e645bf97ee885" category="list-text">폴더와 프로젝트를 삭제합니다</block>
+  <block id="f9d9cf5a121b8d1ad96ee13010dde815" category="list-text">사용자 계정을 추가하고 폴더 또는 프로젝트 수준에서 역할을 연결합니다</block>
+  <block id="25955130d336f909d9a5c924bed6c39c" category="list-text">Connector를 폴더 또는 프로젝트에 연결합니다</block>
+  <block id="cf49f8905b1420831f6afdb9343ab19f" category="list-text">폴더 또는 프로젝트 수준의 구성원에 역할을 추가합니다</block>
+  <block id="010425dbecf395ac4e4dfe5c2d068de4" category="list-text">폴더 및 프로젝트와 관련된 자원을 봅니다</block>
+  <block id="5313ba4411cbe52945aadd516908bc49" category="list-text">볼 수 있는 자원을 추가 폴더 또는 프로젝트와 연결합니다</block>
+  <block id="8e832b96727752de00c9220cff5b65d7" category="list-text">폴더 또는 프로젝트에서 자원을 분리합니다</block>
+  <block id="1c675b61b8cdd67aee5e55f21e480a43" category="list-text">BlueXP  IAM에서 프로젝트 관리자는 프로젝트 및 관련 리소스를 다음과 같이 관리할 수 있습니다.</block>
+  <block id="764cb47403e778ea4e27ed7882b78c78" category="list-text">프로젝트 이름, 관련 리소스, 구성원 액세스 등 프로젝트를 편집합니다</block>
+  <block id="9eceb2ab0004faaee5b590af60ce69af" category="list-text">사용자 계정을 추가하고 프로젝트 수준에서 역할을 연결합니다</block>
+  <block id="bb7c6e636a38d6790d21106ca4e22741" category="list-text">다른 연결선이 연결된 다른 프로젝트에 대한 관리자 권한이 구성원에게 있는 경우 커넥터와 프로젝트를 연결합니다</block>
+  <block id="5e7c7a8ded45512d3c1312126add0472" category="list-text">프로젝트 수준의 구성원에 역할을 추가합니다</block>
+  <block id="8474cb230440aa90ac5d23b91c19cf06" category="list-text">프로젝트와 관련된 자원을 봅니다</block>
+  <block id="d18353fc23c06d0e557aed7f817ce4a9" category="list-text">구성원에게 다른 관련 자원이 있는 다른 프로젝트에 대한 관리자 권한이 있는 경우 자원을 프로젝트에 연결합니다</block>
+  <block id="9fd806de6c0f64675237b801a3b8765f" category="list-text">프로젝트에서 자원을 분리합니다</block>
+  <block id="8987cc0290d182f0256f6f0026257ea0" category="list-text">프로젝트를 삭제합니다</block>
+  <block id="379e8cc7b99cd4d7696788fde49a89de" category="list-text">설정 &gt; 자격 증명에서 자격 증명을 관리합니다</block>
+  <block id="5c2549b200adb54fcf4ab1fa173b79b7" category="list-text">BlueXP  타임라인을 봅니다</block>
+  <block id="ea6f3818343083288cee520c382ca65a" category="list-text">지원에 BlueXP 를 등록하고 사례를 제출합니다</block>
+  <block id="36910b765d93c29f4611f725c05faabe" category="section-title">SnapCenter 관리자</block>
+  <block id="9475c3d2084f0988bba4e27b2659a267" category="list-text">애플리케이션에 대한 BlueXP  백업 및 복구를 사용하여 온프레미스 ONTAP 클러스터의 스냅샷을 백업하는 기능을 제공합니다.</block>
+  <block id="b839a58c0750f04dc83675a2a8c1ba61" category="list-text">백업 및 복구 &gt; 애플리케이션에서 모든 작업을 완료합니다</block>
+  <block id="1393a4279651a3334e20f39925a139f5" category="section-title">분류 뷰어</block>
+  <block id="4a7c2bc5a034a095b9cd966aff4637c5" category="list-text">BlueXP  분류 스캔 결과를 볼 수 있는 기능을 제공합니다.</block>
+  <block id="84e4a7656b5466806bf9fbeda2eedd15" category="list-text">규정 준수 정보를 보고 액세스 권한이 있는 리소스에 대한 보고서를 생성합니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마의 스캔을 활성화하거나 비활성화할 수 없습니다.</block>
+  <block id="5f8c43dca47697fafd9a89eae3ea6f82" category="paragraph">이 역할을 가진 구성원은 다른 작업을 사용할 수 없습니다.</block>
+  <block id="ef8eb5bec0bebce3b4cac1797fe12831" category="list-text"><block ref="ef8eb5bec0bebce3b4cac1797fe12831" category="inline-link-macro-rx"></block></block>
+  <block id="24fff469b53b3c0caad8c3049aada3bc" category="doc">BlueXP  콘솔에 대한 네트워킹을 준비합니다</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="list-title">관련 정보</block>
+  <block id="d7d13641730495fed0b36f7a2cfb5657" category="paragraph">제한된 모드 또는 비공개 모드에서 BlueXP 를 사용하는 경우 _BlueXP  계정 _ 을(를) 사용하여 사용자를 관리합니다. 계정 관리자, 작업 영역 관리자, 규정 준수 뷰어 및 SnapCenter 관리자 역할 중에서 선택하여 계정의 사용자에게 특정 권한을 제공할 수 있습니다.</block>
+  <block id="1e3e0a42c3e9d5acf6234aecce4a2177" category="cell">BlueXP  서비스 사용</block>
+  <block id="e351b985910352ae6ebe3e03c618e2b9" category="paragraph"><block ref="e351b985910352ae6ebe3e03c618e2b9" category="inline-link-macro-rx"></block></block>
+  <block id="32bf39c0f4f8e0ff3b8343a1c55eccc0" category="inline-link">디지털 지갑 문서</block>
+  <block id="950b8d2ee51e322cd0332cda491f261e" category="list-text"><block ref="950b8d2ee51e322cd0332cda491f261e" category="inline-link-rx"></block></block>
+  <block id="7b0893f7350a7ce29533d2ee8bafbcea" category="list-text">조직 자격 증명 * 또는 * 계정 자격 증명 * 페이지에서 * 자격 증명 추가 * 를 선택하고 마법사의 단계를 따릅니다.</block>
+  <block id="d0ecf8e73b6ccfcf921b7f1d7a9f7aab" category="section-title">기존 구독을 조직 또는 계정에 연결합니다</block>
+  <block id="3584c068f7259e26bf2cc7a1ba9ea2d5" category="paragraph">AWS 마켓플레이스에서 BlueXP 을 구독하는 경우 프로세스의 마지막 단계는 구독을 BlueXP  웹 사이트의 BlueXP  조직 또는 BlueXP  계정에 연결하는 것입니다. 이 단계를 완료하지 않은 경우 BlueXP  조직이나 계정에 구독을 사용할 수 없습니다.</block>
+  <block id="8925ab51378f8cb5d967e8409c3769de" category="admonition">표준 모드에서 BlueXP 를 사용하는 경우 BlueXP  IAM(Identity and Access Management)을 사용하여 관리하는 _BlueXP  조직_ 이 있습니다. 하지만 제한된 모드나 비공개 모드에서 BlueXP 를 사용하고 있다면 _ BlueXP  계정이 _ 됩니다.</block>
+  <block id="fe37bae88294c4de2b5b7432ab7f2823" category="list-text">BlueXP  디지털 지갑으로 이동하여 구독을 BlueXP  조직 또는 계정과 연결하지 않았는지 확인합니다.</block>
+  <block id="0991a6d9711452708fd4f3ebf96049fc" category="paragraph">현재 보고 있는 조직 또는 계정과 연결된 구독만 표시됩니다. 구독이 표시되지 않으면 다음 단계를 진행합니다.</block>
+  <block id="f168d27fc2af576ba3133324e187f903" category="list-text">BlueXP  디지털 지갑으로 이동하여 구독이 BlueXP  조직 또는 계정과 연결되어 있는지 확인합니다.</block>
+  <block id="ccb2060a5fc8753c97b484d4f00cea35" category="list-text">조직 자격 증명 * 또는 * 계정 자격 증명 * 페이지에서 구독이 AWS 자격 증명과 연결되어 있는지 확인합니다.</block>
+  <block id="c04c991a23225733a46a58429473235a" category="list-text">조직 자격 증명 * 또는 * 계정 자격 증명 * 페이지에서 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 자격 증명 편집 * 을 선택합니다.</block>
+  <block id="b957a9b739887d11a774a7b99f5f474b" category="list-text">조직 자격 증명 * 또는 * 계정 자격 증명 * 페이지에서 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 자격 증명 삭제 * 를 선택합니다.</block>
+  <block id="3401377697acc9c98526396313cb476f" category="summary">NetApp 지원 사이트 계정을 BlueXP  조직 또는 계정에 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 사용하도록 설정합니다. 이러한 NSS 자격 증명은 전체 BlueXP  조직 또는 계정과 연결됩니다.</block>
+  <block id="8fc1b74aa1cb89da788e1a3b937438ab" category="doc">BlueXP  조직 또는 계정과 연결된 NSS 자격 증명을 관리합니다</block>
+  <block id="1ebe3d8a3d69a73646283d430c26a946" category="paragraph">BlueXP 에서는 BlueXP  사용자 계정당 하나의 NSS 계정을 연결할 수도 있습니다. <block ref="92ab4e1c25ae34810f6c6d2ede81f4ab" category="inline-link-macro-rx"></block>..</block>
+  <block id="e2ca9dfd816e611b53e740c0def06a75" category="paragraph">BlueXP 에서 다음 작업을 수행하려면 NetApp 지원 사이트 자격 증명을 특정 BlueXP  계정 일련 번호와 연결해야 합니다.</block>
+  <block id="acc5d74b9730b17cf679fd826310c607" category="paragraph">이러한 자격 증명은 특정 BlueXP  계정의 일련 번호와 연관됩니다. BlueXP  조직 또는 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="607d5f9332bf0fe8fef9f43fcf68c22e" category="paragraph">지원 대시보드를 사용하면 BlueXP  조직 또는 계정 수준에서 BlueXP 과 함께 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.</block>
+  <block id="72c38f83a9b4d27b609d1241238f7402" category="summary">BlueXP 를 제한 모드 또는 비공개 모드로 설정하면 계정을 만들라는 메시지가 표시됩니다. 계정이 여러 개 필요한 경우 Tenancy API를 사용하여 계정을 생성해야 합니다.</block>
+  <block id="6c51e0305a581ec236781db2baf30bac" category="paragraph">제한 모드 또는 비공개 모드로 BlueXP 를 설정하면 사용자를 관리하고 리소스를 구성할 수 있는 _BlueXP  계정_ 을(를) 만들라는 메시지가 표시됩니다. 이 계정만 필요한 경우 여러 계정이 필요한 경우에는 Tenancy API를 사용하여 추가 계정을 만들어야 합니다.</block>
+  <block id="770867b0b0a2458eaea7ebb70fd87cd2" category="paragraph">표준 모드에서 BlueXP 를 사용하는 경우 BlueXP  계정이 없습니다. 대신 BlueXP  IAM(Identity and Access Management)을 사용하여 관리하는 조직이 있습니다. <block ref="0a3f88a939958973fc19097a4507c320" category="inline-link-macro-rx"></block>..</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">작업 환경 목록은 서비스 상단 배너에서 선택한 BlueXP  조직(또는 계정), 프로젝트(또는 작업 영역) 및 커넥터 범위 내에 있습니다.</block>
+  <block id="aeaa07e62e0681df3c00b18be44e1799" category="summary">조직의 구성원이 다른 프로젝트에서 커넥터를 사용해야 하는 경우 BlueXP  IAM에서 연결을 만들어야 합니다.</block>
+  <block id="9c1561cceda808c78453a453f4175e14" category="doc">BlueXP  커넥터를 다른 폴더 및 프로젝트에 연결합니다</block>
+  <block id="f65c722b8c32b398b8803f08c37a6e61" category="paragraph">BlueXP 에서 여러 유형의 작업 환경을 관리하려면 커넥터가 필요합니다. 조직 관리자 _ 가 커넥터를 만들면 BlueXP 가 해당 커넥터를 조직 및 현재 선택한 프로젝트에 자동으로 연결합니다. 조직 관리자 _ 는 조직의 모든 위치에서 해당 커넥터에 자동으로 액세스할 수 있습니다. 조직의 다른 구성원은 BlueXP  IAM(ID 및 액세스 관리)의 다른 프로젝트와 해당 Connector를 연결하지 않는 한 해당 Connector를 만든 프로젝트에서만 해당 Connector에 액세스할 수 있습니다.</block>
+  <block id="c7a2ea5af88a07f2a9350a72ef1052ca" category="inline-link-macro">BlueXP  IAM에서 커넥터를 사용하는 방법에 대해 알아봅니다</block>
+  <block id="fa0b2ee8e271330f8acc8d4a5d3356ce" category="paragraph">커넥터 연결이 작동하는 방식을 이해해야 합니다. <block ref="0e59e07e63f66ad6442c68a3b1946546" category="inline-link-macro-rx"></block>..</block>
+  <block id="6955c430a5d86c9667f05d296c1693d4" category="inline-link-macro">폴더 또는 프로젝트 관리자 _ 가 수행할 수 있는 작업에 대해 자세히 알아봅니다</block>
+  <block id="8723b90b2839ad516c180ca7ded07e0e" category="list-text">폴더 또는 프로젝트 admin_이 * 커넥터 * 페이지를 볼 때 페이지에 조직의 모든 연결선이 표시됩니다. 그러나 이 역할을 가진 구성원은 사용 권한이 있는 폴더 및 프로젝트에만 커넥터를 보고 연결할 수 있습니다. <block ref="c691e2b9b4224ed90bb4f1f11059b372" category="inline-link-macro-rx"></block>..</block>
+  <block id="c8681ca380c36d5cecfb5edf90afb264" category="list-text">알려진 문제로 인해 BlueXP  IAM의 커넥터 페이지에 이전에 BlueXP 에서 제거했던 모든 이전 커넥터가 표시됩니다.</block>
+  <block id="e0e8a7d90375792efecad34c0c923e32" category="inline-image-macro">BlueXP  웹 콘솔의 오른쪽 상단에 표시되는 설정 아이콘입니다.</block>
+  <block id="cd42e1c1af0a908f68d68ae6103b5c30" category="list-text">BlueXP  콘솔의 오른쪽 위에서&gt; * ID 및 액세스 관리 * 를 선택합니다<block ref="32173ab85f1c68a28384d1a40cf387db" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="898a5f7650c6f7bf6a01efe09c881973" category="list-text">커넥터 * 를 선택합니다.</block>
+  <block id="efd7c600c956f9a4ecd581c9e8a5de04" category="list-text">테이블에서 연결할 연결선을 찾습니다.</block>
+  <block id="0e081d7aa898f932c4f244f1d41dd4df" category="paragraph">특정 연결선을 찾으려면 테이블 위에 있는 검색을 사용하고 자원 계층의 특정 부분을 선택하여 테이블 내용을 필터링할 수 있습니다.</block>
+  <block id="16b0f0c24bd4a14288344d064f0b09c2" category="list-text">커넥터가 연결된 폴더 및 프로젝트를 먼저 보려면 을 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 선택한 다음 * 세부 정보 보기 * 를 선택합니다.</block>
+  <block id="a2884a208c64d00906f60b988f29dfd3" category="paragraph">BlueXP  커넥터가 연결된 폴더 및 프로젝트에 대한 세부 정보를 표시합니다.</block>
+  <block id="7b0e84897f645e2241868699f64b6699" category="list-text">폴더 또는 프로젝트에 연결 * 을 선택합니다.</block>
+  <block id="3ecb65defa4c1a5901512a34a0590820" category="list-text">폴더 또는 프로젝트를 선택한 다음 * 수락 * 을 선택합니다.</block>
+  <block id="dcac22117f893250b0d0bb357e1c2bd1" category="list-text">커넥터를 추가 폴더 또는 프로젝트와 연결하려면 * 폴더 또는 프로젝트 추가 * 를 선택한 다음 폴더 또는 프로젝트를 선택합니다.</block>
+  <block id="6e6b98ef1e6b24eadb68f22591d228dc" category="list-text">커넥터 연결 * 을 선택합니다.</block>
+  <block id="b781e4992dbe981761c1038af733ca5e" category="paragraph">BlueXP 는 커넥터를 선택한 폴더 및 프로젝트에 연결합니다. 이러한 폴더 및 프로젝트에 대한 사용 권한이 있는 구성원은 이제 해당 커넥터를 선택할 수 있습니다.</block>
+  <block id="e5acafcfe25589f54d6beb75260dbc2b" category="paragraph">Connector에서 관리하는 자원을 동일한 폴더 및 프로젝트에 연결하려면 자원 페이지에서 수행합니다.</block>
+  <block id="b8b0c6cf6f3f89235f0deb7b0c6b01e0" category="inline-link-macro">자원을 폴더 및 프로젝트와 연결하는 방법에 대해 알아봅니다</block>
+  <block id="1d0aafa476757723426865415e3ee193" category="paragraph"><block ref="8a5d319849e62944ab4cf141ef41222a" category="inline-link-macro-rx"></block>..</block>
+  <block id="b7a601c5b33a5386ee0bb3aae898017b" category="inline-link-macro">BlueXP  커넥터에 대해 알아봅니다</block>
+  <block id="7afcdd5541489f3f579e29939a4f3b56" category="list-text"><block ref="7afcdd5541489f3f579e29939a4f3b56" category="inline-link-macro-rx"></block></block>
+  <block id="fee273709adaab981913a7abc57f5905" category="summary">타임라인에서 IAM(BlueXP  Identity and Access Management) 작업을 모니터링하거나 감사합니다.</block>
+  <block id="830b79fe3efeb384332dedb84d8ff767" category="doc">BlueXP  타임라인에서 IAM 활동을 모니터링하거나 감사합니다</block>
+  <block id="42e0a2c81a2cf7b37677d170bc85978f" category="paragraph">BlueXP  IAM(Identity and Access Management)에서 완료된 작업을 모니터링하거나 감사해야 하는 경우 BlueXP  타임라인에서 세부 정보를 볼 수 있습니다. 예를 들어 구성원을 조직에 추가한 사용자 또는 프로젝트가 성공적으로 삭제되었는지 확인할 수 있습니다.</block>
+  <block id="64e53abfa40854f36d6b4c6ad127aa3b" category="list-text">BlueXP  콘솔의 오른쪽 위에서&gt; * Timeline * 을 선택합니다<block ref="32173ab85f1c68a28384d1a40cf387db" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="8bafb57e517b9244bba809e5cab3a143" category="list-text">필터에서 * Service * 를 선택한 다음 * Tenancy * 를 선택합니다.</block>
+  <block id="b730e0eba0d08897f72ba09172648f87" category="list-text">다른 필터를 사용하여 테이블에 표시할 동작을 변경합니다.</block>
+  <block id="b8c1f56eee477fe8393d72e12e3bf35c" category="paragraph">예를 들어, * User * 필터를 사용하여 특정 사용자 계정과 관련된 작업을 표시할 수 있습니다.</block>
+  <block id="3d4851ba91765cc5d2d961318683249b" category="paragraph">타임라인이 업데이트되어 BlueXP  IAM과 관련된 완료된 관리 작업을 보여줍니다.</block>
+  <block id="45180db54349008d2b70b94ae6e3eabf" category="summary">IAM을 시작하려면 조직의 계층 구조를 사용자 지정하고, 구성원을 추가하고, 리소스를 추가 또는 검색하고, 해당 리소스를 프로젝트와 연결합니다.</block>
+  <block id="0a5dffcd5ad75df1361945677962baef" category="doc">BlueXP  ID 및 액세스 관리를 시작하십시오</block>
+  <block id="7ca27548881ca86ae44f89c1adadc84a" category="paragraph">BlueXP 에 등록하면 새 조직을 만들라는 메시지가 나타납니다. 조직에는 구성원(조직 관리자)과 기본 프로젝트 하나가 포함됩니다. 비즈니스 요구 사항에 맞게 BlueXP  IAM(ID 및 액세스 관리)을 설정하려면 조직의 계층 구조를 사용자 지정하고, 구성원을 추가하고, 리소스를 추가 또는 검색하고, 계층 전체에서 리소스를 연결해야 합니다.</block>
+  <block id="c26dde1bc65f85e1bbd53b2a0238e8f3" category="paragraph">BlueXP  IAM에서 전체 조직을 관리하려면 * 조직 관리자 * 권한이 있어야 합니다. 폴더 또는 프로젝트 관리자 * 권한이 있는 경우 권한이 있는 폴더와 프로젝트만 관리할 수 있습니다.</block>
+  <block id="7c991908d7b205aff93efb82993167ef" category="paragraph">다음 단계에 따라 새 BlueXP  조직을 설정합니다. 조직의 요구 사항에 따라 이러한 단계를 완료하는 순서가 다를 수 있습니다.</block>
+  <block id="4e7ef180350510bb1b5495edc59a540f" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 기본 프로젝트를 편집하거나 조직의 계층 구조에 추가합니다</block>
+  <block id="240c78500b3e0a067f95a31418fec6d3" category="paragraph">기본 프로젝트를 사용하거나 비즈니스 계층 구조와 일치하는 추가 프로젝트 및 폴더를 만들 수 있습니다.</block>
+  <block id="3a55ab4fb3114696e0b9c8d3786a3a95" category="inline-link-macro">폴더와 프로젝트를 사용하여 자원을 구성하는 방법에 대해 알아봅니다</block>
+  <block id="3d19bf548c854ffd6c0292d1875e0edd" category="paragraph"><block ref="968e8791737599307dd67fcbe92e9cbd" category="inline-link-macro-rx"></block>..</block>
+  <block id="9fea0b15c1b7bd94f7011cdc6e6829b3" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 구성원을 조직에 연결합니다</block>
+  <block id="98d55d6f71b537b94b2af136386a72fe" category="paragraph">비즈니스 내 여러 사용자가 BlueXP 의 리소스에 액세스하고 이를 관리해야 하는 경우 해당 사용자 계정을 조직에 연결하고 리소스 계층 구조 전반에 적절한 사용 권한을 제공해야 합니다. 조직에 서비스 계정을 추가할 수도 있습니다.</block>
+  <block id="9ec5c0ba9365bb27b016a700955f883d" category="inline-link-macro">구성원 및 해당 사용 권한을 관리하는 방법에 대해 알아봅니다</block>
+  <block id="2d9d027ed40d94b5797f8ff2eac12474" category="paragraph"><block ref="20fed5a6fd937b8ae02cbbc8c36e0fcb" category="inline-link-macro-rx"></block>..</block>
+  <block id="369419be6c2d63174cdf720283757d9b" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 리소스를 추가하거나 검색합니다</block>
+  <block id="11c2c8c4fe8439d67b7a0334f2f2da64" category="paragraph">BlueXP  AS_Working Environments_에서 리소스를 추가하거나 검색합니다. 작업 환경은 조직 구성원이 프로젝트 내에서 관리하는 스토리지 시스템을 나타냅니다. 예를 들어, Cloud Volumes ONTAP 시스템이나 온프레미스 ONTAP 클러스터가 있습니다.</block>
+  <block id="dc20f86d6867d18c7eb78f469ecd6b02" category="paragraph">BlueXP  캔버스에서 리소스를 만들거나 검색하는 방법에 대해 알아봅니다.</block>
+  <block id="8ed358b5f97ac929cbf55d77be2ae1c3" category="list-text"><block ref="8ed358b5f97ac929cbf55d77be2ae1c3" category="inline-link-rx"></block></block>
+  <block id="02a8d4819b5139097a91d9e8b93e0042" category="list-text"><block ref="02a8d4819b5139097a91d9e8b93e0042" category="inline-link-rx"></block></block>
+  <block id="99cd6bbb6bd6b4f32aaf030548bc8abb" category="list-text"><block ref="99cd6bbb6bd6b4f32aaf030548bc8abb" category="inline-link-rx"></block></block>
+  <block id="88b75fafcd5fe284804d4e4a240a0a52" category="list-text"><block ref="88b75fafcd5fe284804d4e4a240a0a52" category="inline-link-rx"></block></block>
+  <block id="8a92c7a06d8d0a82ae22fd0df9c480fc" category="list-text"><block ref="8a92c7a06d8d0a82ae22fd0df9c480fc" category="inline-link-rx"></block></block>
+  <block id="6d14225a666e4ce0c6e84d99c57c45f7" category="list-text"><block ref="6d14225a666e4ce0c6e84d99c57c45f7" category="inline-link-rx"></block></block>
+  <block id="2a3af81903d30050b417342ded50e5a3" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 추가 프로젝트에 자원을 연결합니다</block>
+  <block id="2b599d0dc63562c8d0584c7dd387af09" category="paragraph">BlueXP 에서 자원을 만들거나 검색할 때 해당 자원은 작업 환경을 만들거나 검색할 때 선택한 프로젝트와 자동으로 연결됩니다. 해당 자원을 조직의 다른 프로젝트에서 사용할 수 있도록 하려면 해당 자원 간에 연결을 만들어야 합니다. 자원이 Connector로 관리되는 경우 프로젝트와 연결된 Connector 간에도 연결을 만들어야 합니다.</block>
+  <block id="4430cefb38674d70ef9b7fe67aee23c8" category="inline-link-macro">조직의 자원 계층 구조를 관리하는 방법에 대해 알아봅니다</block>
+  <block id="8387c3b8e8cca04d38e2ed26ff0cf701" category="list-text"><block ref="c02aea27d6ba71f8c3e62cb351aaf61e" category="inline-link-macro-rx"></block>..</block>
+  <block id="103bfaceef56d275f5b3b197d4ee51fd" category="inline-link-macro">Connector를 폴더 또는 프로젝트에 연결하는 방법에 대해 알아봅니다</block>
+  <block id="b652fc70a3a390949b9f3f65f8af4a3e" category="list-text"><block ref="da17c06ade731a806b49952bbabf5b3a" category="inline-link-macro-rx"></block>..</block>
+  <block id="62aa62bf2f18202c0f101ef907e7a452" category="summary">BlueXP 의 ID 및 액세스 관리를 사용하면 폴더와 프로젝트를 사용하여 완전한 리소스 계층 구조를 나타낼 수 있습니다.</block>
+  <block id="204879f985900cde315e51eda56aa36d" category="doc">BlueXP  IAM에서 폴더와 프로젝트를 사용하여 리소스를 구성할 수 있습니다</block>
+  <block id="888af4d1c4f4f8cf5928fe9cc5ae80c1" category="paragraph">BlueXP  IAM(Identity and Access Management)을 사용하면 프로젝트와 폴더를 사용하여 NetApp 리소스를 구성할 수 있습니다. _PROJECT_는 조직 구성원이 manage_resources_에 액세스하는 BlueXP 의 작업 영역(예: Cloud Volumes ONTAP 시스템)을 나타냅니다. _folder_는 관련 프로젝트를 함께 그룹화합니다. 자원을 폴더 및 프로젝트로 구성한 후에는 조직 구성원에게 특정 폴더 및 프로젝트에 대한 사용 권한을 제공하여 자원에 대한 세분화된 액세스 권한을 부여할 수 있습니다.</block>
+  <block id="c08b7d4448e95633b73e2495389e853c" category="section-title">폴더 또는 프로젝트를 추가합니다</block>
+  <block id="9b72b5a70aa482b566f3aded23197da9" category="paragraph">BlueXP  조직을 만들면 단일 프로젝트가 포함됩니다. 조직의 자원을 관리하기 위해 프로젝트를 추가로 만들 수 있습니다. 필요한 경우 폴더를 만들어 관련 프로젝트를 함께 그룹화할 수 있습니다.</block>
+  <block id="b9b4d0d7c739aa9127b9919f23478743" category="paragraph">조직의 계층 구조 수준은 7단계로 내려갈 수 있습니다. 따라서 6단계까지 중첩된 폴더를 만들 수 있습니다. 마지막으로 중첩된 폴더에는 계층 구조의 일곱 번째 수준에 있는 프로젝트가 포함될 수 있습니다.</block>
+  <block id="5ed844477243e17219a5a1bb8244cb94" category="paragraph">다음 이미지는 조직의 계층 구조를 최대 수준으로 보여 줍니다.</block>
+  <block id="de599df9f91a76585a5d0e5049f80230" category="inline-image-macro">조직, 6개의 중첩된 폴더 및 마지막 중첩된 폴더의 프로젝트를 보여 주는 스크린샷</block>
+  <block id="140320cb76bc5580566bd6ef83ee9d69" category="paragraph"><block ref="140320cb76bc5580566bd6ef83ee9d69" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="54f6cd3aa5e387ea27f8d46fcd265b0f" category="list-text">조직 * 페이지에서 * 폴더 또는 프로젝트 추가 * 를 선택합니다.</block>
+  <block id="0bb9526fc793356f11cea651032b1b15" category="list-text">폴더 * 또는 * 프로젝트 * 를 선택합니다.</block>
+  <block id="5506a3204ff4171234856af0ca0d34fd" category="list-text">폴더 또는 프로젝트에 대한 세부 정보를 제공합니다.</block>
+  <block id="0ab63481584814b59197d796cfc5dc97" category="list-text">* 이름 및 위치 *: 이름을 입력하고 폴더 또는 프로젝트의 계층 구조에서 위치를 선택합니다. 폴더 또는 프로젝트는 조직 바로 아래 또는 폴더 내에 있을 수 있습니다.</block>
+  <block id="f46059ba82cb53e4af025ce918760999" category="list-text">* 리소스 *: 이 폴더나 프로젝트와 연결할 자원을 선택합니다.</block>
+  <block id="217f7358d2ee319a9c814b539574d78d" category="paragraph">폴더 또는 프로젝트의 모체와 연결된 자원에서만 선택할 수 있습니다. 상위 항목이 조직인 경우 조직의 모든 리소스에서 선택할 수 있습니다. 상위 항목이 폴더인 경우 폴더와 연결된 리소스에서만 선택할 수 있습니다.</block>
+  <block id="dc401be3adab60c813414832f0b97d88" category="inline-link-macro">자원을 폴더와 연결할 수 있는 경우에 대해 알아봅니다</block>
+  <block id="d706c5ded100123a86d8602a03703158" category="paragraph"><block ref="114ceb4aae340f51ba021c40f504c25f" category="inline-link-macro-rx"></block>..</block>
+  <block id="8bb3c5dc86a399d0babf2eb49831e5ec" category="list-text">* 액세스 *: 자원 계층에 이미 정의된 기존 권한을 기반으로 폴더 또는 프로젝트에 액세스할 수 있는 구성원을 봅니다.</block>
+  <block id="5924e866f66794971195c3e6a6aa8e84" category="paragraph">필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.</block>
+  <block id="23b701226cc247c8895ac46e9cd633ab" category="inline-link-macro">사전 정의된 IAM 역할에 대해 알아봅니다</block>
+  <block id="8d9ad9660b2859a6d51b88d7e31b54d2" category="paragraph"><block ref="ac90d6f587d2b5ff3fb7bb93da707f89" category="inline-link-macro-rx"></block>..</block>
+  <block id="13ea0232702fea363d7f4aaffe9ba8f1" category="paragraph">BlueXP 에서는 폴더나 프로젝트를 만들고 지정된 리소스와 멤버를 연결합니다.</block>
+  <block id="698adc884d432ec429a17995e5d34320" category="section-title">폴더 또는 프로젝트와 관련된 자원 및 구성원을 봅니다</block>
+  <block id="903a5130798fef050adcb933e11d9330" category="paragraph">자원이 적절하게 구성되어 있고 조직의 적절한 구성원이 액세스할 수 있는지 확인하려면 폴더 또는 프로젝트와 연결된 자원 및 구성원을 볼 수 있습니다.</block>
+  <block id="5d051468e96f24341fd4c6192e28f6e2" category="list-text">조직 * 페이지에서 테이블의 프로젝트 또는 폴더로 이동한 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>다음 * 폴더 편집 * 또는 * 프로젝트 편집 * 을 선택합니다.</block>
+  <block id="3f6ecf327501ffc3f265d065c39f55b6" category="inline-image-macro">테이블에서 프로젝트의 작업 메뉴를 선택할 때 프로젝트 편집 옵션을 보여 주는 조직 페이지의 스크린 샷</block>
+  <block id="f8731f9389f28c059bc2471d56363fcd" category="paragraph"><block ref="f8731f9389f28c059bc2471d56363fcd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="71aa242e147c147797dbd6f9f41b801c" category="list-text">편집 * 페이지에서 관련 리소스 및 구성원 액세스에 대한 세부 정보를 봅니다.</block>
+  <block id="a470fed0aa4603c3c8d460c4028252f1" category="list-text">관련 리소스를 보려면 * 리소스 * 를 선택하십시오. 테이블에서 * 상태 * 열은 폴더 또는 프로젝트와 관련된 자원을 식별합니다.</block>
+  <block id="c2fdbd86cd719dffbb80161af27b0ec9" category="inline-image-macro">프로젝트와 연결하거나 연결을 해제할 수 있는 사용 가능한 자원을 보여 주는 프로젝트 편집 페이지의 스크린 샷</block>
+  <block id="65381685a85e45e94ee53dbceff322ff" category="paragraph"><block ref="65381685a85e45e94ee53dbceff322ff" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6b1db5558a176057dbfc6d02d715d5ee" category="list-text">폴더 또는 프로젝트에 액세스할 수 있는 구성원을 보려면 * 액세스 * 를 선택하십시오.</block>
+  <block id="68f9e92246f3af16e2706083b8012f92" category="inline-image-macro">프로젝트에 액세스할 수 있는 구성원을 보여 주는 프로젝트 편집 페이지의 스크린샷</block>
+  <block id="e537768f43901c1791172250c6c08115" category="paragraph"><block ref="e537768f43901c1791172250c6c08115" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9e17333b6af28e20b12b88031ec846a2" category="inline-xref">연결된 리소스를 수정합니다</block>
+  <block id="d6b7bb304d4f265bbfd145a745c68eed" category="inline-xref">구성원 액세스 권한을 수정합니다</block>
+  <block id="ba165dec55dcb067d55d8a2bbb32e738" category="paragraph">필요한 경우 또는 을<block ref="50dc3585d06eec07143d3dfe141dd3c9" category="inline-xref-macro-rx"></block>(를) 사용할 수 <block ref="fa5515ea77ce1b6a8dbcd79e2fc3ca20" category="inline-xref-macro-rx"></block>있습니다.</block>
+  <block id="df3e2bd0fe2ced6b1bd1a55dad748146" category="section-title">폴더 또는 프로젝트와 관련된 자원을 수정합니다</block>
+  <block id="a6393b52680d3f8c4ed45e505093ff28" category="paragraph">자원을 연결 또는 연결 해제하여 폴더 또는 프로젝트와 연결된 자원을 수정할 수 있습니다. 예를 들어 다른 팀에서 활용할 수 있는 작업 시간이 있는 자원을 다른 프로젝트에 연결할 수 있습니다.</block>
+  <block id="0727cfa5c59f7b7114ac7246e406611c" category="list-text">편집 * 페이지에서 * 리소스 * 를 선택합니다.</block>
+  <block id="d66e1bd376f74d0703fc72b368b92cd7" category="paragraph">테이블에서 * 상태 * 열은 폴더 또는 프로젝트와 관련된 자원을 식별합니다.</block>
+  <block id="95e3e0534ba1d2354c42f80be5302007" category="list-text">연결하거나 연결을 해제할 리소스를 선택합니다.</block>
+  <block id="77132bcd63b33103ab4d954f60736e06" category="list-text">선택한 자원에 따라 * 프로젝트와 연결 * 또는 * 프로젝트에서 연결 해제 * 를 선택합니다.</block>
+  <block id="152ff89b1af4f8995e50a4b8f158db52" category="inline-image-macro">현재 연결되지 않은 자원을 선택한 후 사용할 수 있는 자원 연결 옵션을 보여 주는 프로젝트 편집 페이지의 스크린샷</block>
+  <block id="883f9a97670aa2ea1a29d0163ef97be1" category="paragraph"><block ref="883f9a97670aa2ea1a29d0163ef97be1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c16f1c2a54634bdad6dee177f8131ef5" category="list-text">적용 * 을 선택합니다</block>
+  <block id="2020ca2154e03d2358d7a18c7bd4e4ee" category="paragraph">BlueXP 에서는 자원을 폴더 또는 프로젝트에 연결합니다. 해당 폴더 또는 프로젝트에 대한 권한이 있는 조직 구성원은 이제 연결된 자원에 액세스할 수 있습니다.</block>
+  <block id="19df46354fac1ffd06065f8388377f84" category="section-title">폴더 또는 프로젝트에 대한 구성원 액세스 권한을 수정합니다</block>
+  <block id="710dfcb474fc8ee49343c58686c8aded" category="paragraph">폴더 또는 프로젝트에 대한 구성원 액세스 권한을 수정하여 권한 구성원이 폴더 또는 프로젝트와 관련된 리소스에 액세스할 수 있도록 합니다.</block>
+  <block id="91686a8345015e73c2baa91ffbe5ecd6" category="list-text">편집 * 페이지에서 * 액세스 * 를 선택합니다.</block>
+  <block id="a8781f46e241d03a4d2657a4d6f9a9b2" category="paragraph">BlueXP  폴더 또는 프로젝트에 액세스할 수 있는 구성원 목록을 표시합니다.</block>
+  <block id="904a2691210bbfe6dfc1b17db516d71c" category="list-text">구성원 액세스 수정:</block>
+  <block id="b49630790a232696bd0f62fa51014e55" category="list-text">* 구성원 추가 *: 폴더 또는 프로젝트에 추가할 구성원을 선택하고 역할을 할당합니다.</block>
+  <block id="a4f439c667db8a94e9e3159df300905d" category="list-text">* 구성원 역할 변경 *: 조직 관리자 이외의 역할을 가진 모든 구성원에 대해 기존 역할을 선택한 다음 새 역할을 선택합니다.</block>
+  <block id="ec947f15d50d5e45f56ce8c956d581f0" category="paragraph">역할이 계층 구조의 상위 수준(폴더 또는 조직 수준)에서 제공된 경우 하위 수준 또는 상위 수준에서 역할을 변경할 것인지 고려해야 합니다. 예를 들어 폴더 수준에서 _Folder 또는 프로젝트 admin_role을 할당한 경우 프로젝트 수준에서 역할을 하위 수준 권한으로 변경해도 구성원의 사용 권한은 변경되지 않습니다. 역할은 조직 계층 구조 아래로 상속되기 때문에 구성원은 프로젝트 수준에서 관리자 권한을 계속 갖게 됩니다.</block>
+  <block id="6774afc9942c8dcab2e06828e8f199cb" category="inline-link-macro">역할 상속에 대해 자세히 알아봅니다</block>
+  <block id="8945f05b50a19ebe83ee85e629a09120" category="paragraph"><block ref="e2e11ae218588663759cb10a40da4876" category="inline-link-macro-rx"></block>..</block>
+  <block id="961a7d705cef5925f92fdc2102dfe17d" category="list-text">* 회원 액세스 제거 *: 현재 보고 있는 폴더나 프로젝트에 역할이 정의된 회원의 경우 해당 회원의 액세스 권한을 제거할 수 있습니다.</block>
+  <block id="f676fbba085923546a37baf94ce6784b" category="inline-link-macro">구성원 페이지에서 사용 권한을 관리합니다</block>
+  <block id="e8600e476151636aa41417322bf8eecb" category="paragraph">상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스 권한이 제공된 경우 이 폴더 또는 프로젝트를 볼 때 구성원 액세스 권한을 제거할 수 없습니다. 계층 구조의 해당 부분으로 전환해야 합니다. 또는 다음을 수행할 수 <block ref="101f940efcb2d2a02ec2f0fe1cb20220" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">Apply * 를 선택합니다.</block>
+  <block id="d93816509ec30392c51369fac191445e" category="paragraph">BlueXP 는 폴더 또는 프로젝트에 대한 액세스 권한이 있는 구성원을 업데이트합니다.</block>
+  <block id="7f394af8afb3598061eec3ed6197180d" category="section-title">폴더 또는 프로젝트의 이름을 바꿉니다</block>
+  <block id="f8ca84129dded5d2d753c0d0cc1ddea1" category="paragraph">필요한 경우 폴더 및 프로젝트의 이름을 변경할 수 있습니다.</block>
+  <block id="ec4b36b02d2682a0624b6df463ee2789" category="list-text">편집 * 페이지에서 새 이름을 입력하고 * 적용 * 을 선택합니다.</block>
+  <block id="d8f0fb037537a867a046608fffa33518" category="paragraph">BlueXP 는 폴더 또는 프로젝트의 이름을 업데이트합니다.</block>
+  <block id="03b976867f3d4bd64ebf2dde3b296e4d" category="section-title">폴더 또는 프로젝트를 삭제합니다</block>
+  <block id="0a868630764e886d94bedbbfd727e6f4" category="paragraph">더 이상 필요하지 않은 폴더와 프로젝트를 삭제할 수 있습니다.</block>
+  <block id="11c35e27e51a047151d75fb0ede09570" category="inline-xref">리소스를 연결 해제하는 방법에 대해 알아봅니다</block>
+  <block id="9d50dafa8adc8d60b26fee65330e84c5" category="list-text">폴더 또는 프로젝트에 연결된 자원이 없어야 합니다. <block ref="802e9206ed2588cee6f64d588f1bc58d" category="inline-xref-macro-rx"></block>..</block>
+  <block id="aa028ced940586c19c0a4e4d80b01fd3" category="list-text">폴더에는 하위 폴더나 프로젝트가 없어야 합니다. 먼저 해당 폴더와 프로젝트를 삭제해야 합니다.</block>
+  <block id="fe7e8f43628806d12162357cbc6c575a" category="list-text">조직 * 페이지에서 테이블의 프로젝트 또는 폴더로 이동하여 를 선택한 다음 * 삭제 * 를 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>선택합니다.</block>
+  <block id="48a726f3d57687547ef8fb70fab0c713" category="list-text">폴더 또는 프로젝트를 삭제할 것인지 확인합니다.</block>
+  <block id="d8fe55db78c51b6f4ff410e959687f9f" category="paragraph">BlueXP  폴더 또는 프로젝트를 삭제합니다. 해당 폴더 또는 프로젝트는 더 이상 조직 구성원이 사용할 수 없습니다.</block>
+  <block id="0574e6792e501b2d7f486dd56c08812e" category="summary">조직의 구성원을 관리하여 조직의 리소스 계층 구조에 대한 다양한 수준의 사용 권한을 제공합니다.</block>
+  <block id="f9c68f2e2a54251bd4aa39562ccd5a0a" category="doc">BlueXP  IAM 구성원을 추가하고 권한을 관리합니다</block>
+  <block id="4e1b8aff40899e4c95a3c48a1d8be909" category="paragraph">BlueXP  IAM(Identity and Access Management)을 사용하면 조직에 구성원을 추가하고 리소스 계층 구조 전반에서 하나 이상의 역할을 할당할 수 있습니다. 역할 _ 은(는) 구성원이 리소스 계층의 특정 수준에서 특정 작업을 수행할 수 있도록 하는 권한 집합을 포함합니다. 새 사용자 계정 및 서비스 계정을 연결하고 구성원 역할을 관리하는 등 다양한 작업을 수행할 수 있습니다.</block>
+  <block id="5ab22546ed60fe10595d23125ed0b721" category="admonition">BlueXP  조직에 대한 액세스가 손실되지 않도록 하려면 조직 관리자 역할을 가진 구성원 두 명을 두는 것이 좋습니다.</block>
+  <block id="0c33a84e89f04d016e75e654ef3ce490" category="paragraph">폴더 또는 프로젝트 admin_이 * Members * 페이지를 볼 때 페이지에 조직의 모든 구성원이 표시됩니다. 그러나 이 역할을 가진 구성원은 권한이 있는 폴더와 프로젝트에 대한 구성원 권한을 보고 관리할 수만 있습니다. <block ref="c691e2b9b4224ed90bb4f1f11059b372" category="inline-link-macro-rx"></block>..</block>
+  <block id="e3a1bd8f43fc761424ef512d07c27a8b" category="section-title">조직에 구성원을 추가합니다</block>
+  <block id="488cf26f47d26088a59a4ac2eaef1a3e" category="paragraph">조직에 사용자 계정과 서비스 계정이라는 두 가지 유형의 구성원을 추가할 수 있습니다. 서비스 계정은 일반적으로 응용 프로그램에서 사람의 개입 없이 지정된 작업을 완료하는 데 사용됩니다.</block>
+  <block id="2fa104cdb397e386efece8c040a2e601" category="open-title">사용자 계정</block>
+  <block id="55116207f6aac3a1c7009f777207f1eb" category="list-text">사용자가 아직 그렇게 하지 않은 경우 로 이동하여 등록하도록<block ref="2fbfa33fd647f6f78a572269d50d0708" category="inline-link-rx"></block> 요청합니다.</block>
+  <block id="f535d18baa302d9949025f9cdeb6dae8" category="paragraph">사용자가 등록하면 * 등록 * 페이지를 완료하고 이메일 주소를 확인한 다음 로그인해야 합니다. 조직을 만들라는 메시지가 표시되면 사용자는 BlueXP 를 닫고 사용자 계정을 만들었음을 알려야 합니다. 그런 다음 기존 BlueXP  조직에 사용자를 추가할 수 있습니다.</block>
+  <block id="a03a7a8bd694ce33c9c0c2cfdb88ceeb" category="inline-link-macro">BlueXP 에 등록하는 방법을 알아보십시오</block>
+  <block id="cf2da96b6ab9e2a236b955bf0f10d6cf" category="paragraph"><block ref="0ad6f11c6cde9791902ac82d37c3487c" category="inline-link-macro-rx"></block>..</block>
+  <block id="ea06d0aa9a6946f5aa264a3c85890998" category="list-text">구성원 * 을 선택합니다.</block>
+  <block id="e85e93a55281258b0ff57a7eebf50647" category="list-text">구성원 추가 * 를 선택합니다.</block>
+  <block id="9b0488f4f0afa4377edfdf2fba2c409c" category="list-text">구성원을 추가하려면 대화 상자의 단계를 완료합니다.</block>
+  <block id="9bca2d1766cc11cdf4a33384724d680c" category="list-text">* 엔티티 유형 *: * 사용자 * 를 선택합니다.</block>
+  <block id="0da1f1328af785dc1b184f8cb9745b00" category="list-text">* 사용자의 이메일 *: 사용자가 만든 BlueXP  로그인과 연결된 사용자의 이메일 주소를 입력합니다.</block>
+  <block id="ef40c18024e43a3effd7c56a4ee5e3b8" category="list-text">* 조직, 폴더 또는 프로젝트를 선택하십시오. *: 구성원이 사용 권한을 가져야 하는 자원 계층 구조의 수준을 선택하십시오.</block>
+  <block id="6a4cc2830754c534e4d4ede0d53dd765" category="list-text">관리자 권한이 있는 폴더와 프로젝트에서만 선택할 수 있습니다.</block>
+  <block id="78693d86cfd1ee5b776ba655fad718c2" category="list-text">조직 또는 폴더를 선택하면 구성원에게 조직 또는 폴더 내에 있는 모든 항목에 대한 권한이 부여됩니다.</block>
+  <block id="cb604814075da4e4c030eb2c875d037c" category="list-text">* 역할 선택 *: 선택한 조직, 폴더 또는 프로젝트와 관련된 리소스에 대한 권한을 구성원에게 제공하는 역할을 선택합니다.</block>
+  <block id="edd875bb1109a9f8286024a3b4794e94" category="list-text">조직을 선택한 경우 * 폴더 또는 프로젝트 관리자 * 가 아닌 다른 역할에서 선택할 수 있습니다.</block>
+  <block id="4361a448252604e85e36e94b87d2292d" category="list-text">폴더 또는 프로젝트를 선택한 경우 * 조직 관리자 * 가 아닌 다른 역할에서 선택할 수 있습니다.</block>
+  <block id="6bf9e2157bec6406efede412c9a7f3d8" category="list-text">* 역할 추가 *: 조직 내의 추가 폴더 또는 프로젝트에 대한 액세스를 제공하려면 * 역할 추가 * 를 선택하고 다른 폴더 또는 프로젝트를 지정한 다음 역할을 선택합니다.</block>
+  <block id="e7cafc47c0f061eadce634a20633d476" category="paragraph">BlueXP 에서 사용자를 조직에 추가합니다.</block>
+  <block id="2c83e58d75bb3a8e196e882a13fad2b6" category="paragraph">사용자는 NetApp BlueXP 로부터 이메일을 받아야 합니다. 이메일에는 회원이 BlueXP 에 액세스하는 데 사용할 수 있는 정보가 포함되어 있습니다.</block>
+  <block id="18ceb42f6a360de22895a255078e9829" category="open-title">서비스 계정</block>
+  <block id="3cf18c3e40a1206110812c369cc39dee" category="list-text">* 엔티티 유형 *: * 서비스 계정 * 을 선택합니다.</block>
+  <block id="79cb42be7b748ee1bfa8b8bda6dcca1e" category="list-text">* 서비스 계정 이름 *: 서비스 계정의 이름을 입력합니다.</block>
+  <block id="f67f980ba471dba7c5f95c824dd43bf6" category="list-text">클라이언트 ID 및 클라이언트 암호를 다운로드하거나 복사합니다.</block>
+  <block id="8294c35652607973fb1c045f68ed7198" category="paragraph">클라이언트 암호는 한 번만 볼 수 있으며 BlueXP에서 저장할 수 없습니다. 암호를 복사하거나 다운로드한 후 안전하게 보관하십시오. 나중에 필요한 경우 클라이언트 ID 및 클라이언트 암호를 다시 만들 수 있습니다.</block>
+  <block id="7dd9ac3b82f77a633f44a54628281caa" category="paragraph">BlueXP 에서 조직에 서비스 계정을 추가합니다.</block>
+  <block id="043819e1bae944c0c66cfa39d92d377a" category="section-title">조직 구성원 보기</block>
+  <block id="85f7f0a38e4d8907b849af9be7f0523b" category="paragraph">BlueXP  조직의 모든 구성원 목록을 볼 수 있습니다. 구성원에게 사용할 수 있는 리소스와 사용 권한을 이해하려면 조직의 자원 계층 구조의 여러 수준에서 구성원에 할당된 역할을 볼 수 있습니다.</block>
+  <block id="4bd98620ebfd813b73be1bb04c31e63a" category="paragraph">Members * 페이지에는 사용자 계정과 서비스 계정 등 두 가지 유형의 멤버에 대한 세부 정보가 표시됩니다.</block>
+  <block id="ac926c3351f3a5bf1296ce5e7341b403" category="paragraph">조직의 구성원이 * Members * 테이블에 나타납니다.</block>
+  <block id="9c537de44875b062f96c3c19b5d405f8" category="list-text">Members * 페이지에서 테이블의 멤버로 이동한 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>다음 * View details * 를 선택합니다.</block>
+  <block id="dfd8d68ee86525e48890a53eb4a7ef69" category="paragraph">BlueXP 는 구성원에 대한 세부 정보를 표시합니다. 여기에는 구성원에게 조직의 자원 계층 구조 전체에서 사용 권한이 있는 폴더와 프로젝트가 포함됩니다.</block>
+  <block id="6f3b2d366fd74358540895c5d487f7fc" category="paragraph">다음은 폴더에 있는 세 프로젝트에 대한 사용 권한을 제공하는 폴더에 대해 _Folder 또는 프로젝트 admin_역할이 할당된 구성원의 예입니다.</block>
+  <block id="a6102229f11a975b96c232bac6fe4518" category="inline-image-macro">프로젝트 및 폴더에 대한 권한이 있는 구성원의 세부 정보 페이지 스크린샷</block>
+  <block id="77029620a91c1437c153c854b16400d8" category="paragraph"><block ref="77029620a91c1437c153c854b16400d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2ec798ce1d65b266be695e73de188467" category="paragraph">다음은 조직 관리자 역할을 가진 구성원을 보여 주는 또 다른 예입니다. 이 구성원은 조직 내 모든 리소스에 대한 액세스 권한을 사용자에게 부여합니다.</block>
+  <block id="8395f2651a81b25e9b7a23fbee8b9549" category="inline-image-macro">조직 관리자 권한이 있는 구성원의 세부 정보 페이지 스크린샷</block>
+  <block id="3d5d541246a5be6ff781d877024461b5" category="paragraph"><block ref="3d5d541246a5be6ff781d877024461b5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c2a2a4211749f24853726e3f3a3f7a50" category="inline-link-macro">특정 폴더 또는 프로젝트와 관련된 모든 구성원을 봅니다</block>
+  <block id="1b6d4c30361c139d898bdf90eabbe5db" category="paragraph"><block ref="f0a4010d1241fe1a26982be23d0ea714" category="inline-link-macro-rx"></block>..</block>
+  <block id="776acd2cbd38043ee8a559500a3c08b8" category="section-title">구성원의 사용 권한을 관리합니다</block>
+  <block id="33c733a7c79ecaf94ff72d68d1380f99" category="paragraph">역할은 조직, 폴더 또는 프로젝트 수준에서 구성원에게 할당된 사용 권한을 정의합니다. 각 조직 구성원은 조직 계층의 서로 다른 수준에서 역할이 할당될 수 있습니다. 동일한 역할이거나 다른 역할일 수 있습니다. 예를 들어 프로젝트 1에는 구성원 역할 A, 프로젝트 2에는 역할 B를 할당할 수 있습니다.</block>
+  <block id="07e7a075870b5fd1a97b81d0f2032e95" category="admonition">조직 관리자 역할이 할당된 구성원에게 추가 역할을 할당할 수 없습니다. 이미 조직 전체에 대한 사용 권한이 있습니다.</block>
+  <block id="1d54adc5a01cf744fbd32cf11ffe9bb7" category="section-title">구성원에 역할을 추가합니다</block>
+  <block id="ffb0fd8d3db2f95c2bb0961f852f2b9f" category="paragraph">조직, 폴더 또는 프로젝트 수준에 적용되는 역할을 추가하여 구성원에게 조직의 추가 사용 권한을 제공합니다.</block>
+  <block id="276d24e9485b31bc0a3bf0758ebc947d" category="list-text">Members * 페이지에서 테이블의 구성원을 찾은 다음 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>* Add a role * 을 선택합니다.</block>
+  <block id="5f4f2140800f25dcab7691933bfbdbdb" category="list-text">역할을 추가하려면 대화 상자의 단계를 완료합니다.</block>
+  <block id="a09853f10b1e18c9e2f541f7e1763305" category="list-text">Add new roles * 를 선택합니다.</block>
+  <block id="f79c177f403a3ca6381c6f78b9609b80" category="paragraph">BlueXP 에서 역할을 추가합니다. 이제 구성원에게는 선택한 조직, 폴더 또는 프로젝트의 자원에 대한 권한이 부여됩니다.</block>
+  <block id="5d4215cb3f8195257d8c88bf98595abe" category="section-title">한 역할에서 다른 역할로 변경합니다</block>
+  <block id="e771bf7ac33be61bdf00c2ea7fc03998" category="paragraph">구성원의 사용 권한을 수정해야 하는 경우 조직, 폴더 또는 프로젝트 수준에서 해당 구성원과 연결된 역할을 변경할 수 있습니다.</block>
+  <block id="d89b2042f4ce3e364f18c0eb45c99356" category="paragraph">조직의 여러 구성원에 대한 역할을 변경해야 하는 경우 일괄 작업을 사용하여 모든 변경 내용을 한 번에 완료할 수 있습니다.</block>
+  <block id="a18b11a5572ce31c0b380d71d8df5bb9" category="open-title">구성원 1명</block>
+  <block id="845e17597d8d3da152c11dabc243f4e4" category="list-text">테이블에서 조직, 폴더 또는 프로젝트로 이동한 다음 새 역할을 선택합니다.</block>
+  <block id="c4550179ec4d126514726a79ad76c8a1" category="paragraph">BlueXP 는 조직, 폴더 및 프로젝트 수준에서 해당 구성원과 연결된 역할을 업데이트합니다.</block>
+  <block id="5394f1457d9d63e0201a5fd504346f00" category="open-title">여러 구성원</block>
+  <block id="e399336058a14bf4ff08ec67a09ed7a3" category="list-text">조직 * 페이지에서 테이블의 프로젝트 또는 폴더로 이동한 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>후 * 조직 편집 *, * 폴더 편집 * 또는 * 프로젝트 편집 * 을 선택합니다.</block>
+  <block id="215b65c0c6b889c16ead175b98f917d5" category="list-text">모든 구성원을 선택하거나 둘 이상의 구성원을 개별적으로 선택합니다.</block>
+  <block id="dad55b15ee639e06e0f30982722e1635" category="list-text">역할 정의 * 를 선택합니다.</block>
+  <block id="69cc5b0ed95d422ff6c1d3d52de8c785" category="inline-image-macro">둘 이상의 구성원을 선택한 후 역할 정의 작업을 선택할 수 있는 편집 대화 상자의 액세스 부분 스크린샷.</block>
+  <block id="7cf468e24cab5bc3e7517a362545f945" category="paragraph"><block ref="7cf468e24cab5bc3e7517a362545f945" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9288e22101210bbf855b72095560a27c" category="list-text">구성원에게 할당할 역할을 선택한 다음 * 정의 * 를 선택합니다.</block>
+  <block id="27e7adcace4a5cbdc1da6d0d229248d7" category="paragraph">BlueXP 는 선택한 모든 구성원의 역할을 업데이트합니다.</block>
+  <block id="528a4b75a900c412adab255cf7a4df50" category="section-title">폴더 또는 프로젝트에 대한 사용 권한을 제거합니다</block>
+  <block id="dc291d6979f5152f329545d84fe8f44e" category="paragraph">특정 폴더 또는 프로젝트에 대한 구성원의 역할을 제거하여 해당 권한을 제거할 수 있습니다.</block>
+  <block id="4038b7041781142ee383a5f32eb9a5ad" category="paragraph">구성원에게 조직에서 폴더 또는 프로젝트에 대한 권한이 있는 경우 해당 역할을 제거할 수 없습니다. 두 가지 선택 사항:</block>
+  <block id="46008f3c0187ee8bc97921f4799f037a" category="list-text">구성원에게 리소스 계층의 다른 부분에 대한 사용 권한을 부여하려면 먼저 해당 역할을 추가한 다음 기존 역할을 삭제해야 합니다.</block>
+  <block id="c5a9e7f2d1f93fabc381b65634e94749" category="list-text">구성원에게 사용 권한을 부여하지 않으려면 해당 구성원을 조직에서 제거하면 됩니다.</block>
+  <block id="a55ecc4bf928da93f86f41bb1fa482cc" category="inline-image-macro">가비지 수집기의 아이콘입니다</block>
+  <block id="776326a0ac90b669316cb0e9cbab55c0" category="list-text">테이블에서 폴더 또는 프로젝트 수준으로 이동한 다음 을 선택합니다 <block ref="5aa3fbfa4a030d3d0fb7677a91fd2eba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fbfd5aa47697579a000ac3aa3884cd1a" category="paragraph">BlueXP 는 폴더 또는 프로젝트 수준에서 해당 구성원의 사용 권한을 제거합니다.</block>
+  <block id="a657b530c9804722859fcb4792bf4466" category="section-title">서비스 계정에 대한 자격 증명을 다시 만듭니다</block>
+  <block id="4e62056c599bc8dfbb5e6f1f5a707256" category="paragraph">언제든지 서비스 계정에 대한 자격 증명(클라이언트 ID 및 클라이언트 암호)을 다시 만들 수 있습니다. 자격 증명을 분실한 경우 또는 회사에서 일정 시간이 지난 후 보안 자격 증명을 순환하도록 요구하는 경우 자격 증명을 다시 만들 수 있습니다.</block>
+  <block id="0bf91f2741972566e7b71facbe211ab9" category="paragraph">자격 증명을 다시 만들면 서비스 계정에 대한 기존 자격 증명이 삭제되고 새 자격 증명이 생성됩니다. 이전 자격 증명을 사용할 수 없습니다.</block>
+  <block id="bb0f4333667b84217bd737a0e3fc6024" category="list-text">구성원 * 테이블에서 서비스 계정으로 이동하여 를 선택한 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>다음 * 암호 다시 만들기 * 를 선택합니다.</block>
+  <block id="8de213850e1e3dc79a14014382d25163" category="list-text">recreate * 를 선택합니다.</block>
+  <block id="fef720cdea9308393ab25d3fcc148e17" category="paragraph">이제 새 클라이언트 ID 및 클라이언트 암호가 서비스 계정과 연결됩니다.</block>
+  <block id="4137654b2b560bb6af478553cbc120b2" category="section-title">조직에서 구성원을 제거합니다</block>
+  <block id="05dc5a4527f82cde43f14fa38fb2640e" category="paragraph">예를 들어, 구성원이 회사를 떠난 경우 조직에서 구성원을 제거해야 할 수 있습니다.</block>
+  <block id="5e7aeb8cbe9cdc031d92f74ef4d40fd0" category="paragraph">이 작업은 회원의 BlueXP  계정이나 NetApp 지원 사이트 계정을 삭제하지 않습니다. 조직에서 구성원 및 관련 사용 권한을 제거하기만 하면 됩니다.</block>
+  <block id="0479745abf593369ddbda5e8df849e57" category="list-text">Members * 페이지에서 테이블의 멤버로 이동하여 를 선택한 다음 * Delete user * 를 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>선택합니다.</block>
+  <block id="6e49938f1c5b86ad879eeaf086442b08" category="list-text">조직에서 구성원을 제거할 것인지 확인합니다.</block>
+  <block id="75e73ef4d25f9f9ea49c38a3bcb941e4" category="paragraph">BlueXP 에서 구성원을 제거합니다. 해당 구성원이 BlueXP 에 다시 로그인하면 BlueXP  조직에 더 이상 액세스할 수 없습니다.</block>
+  <block id="2fe6c9d572351b2d4e0b387a62bdf1e2" category="summary">자원을 특정 프로젝트 및 폴더와 연결하여 조직의 자원 계층 구조를 관리합니다.</block>
+  <block id="dacc6cf59d7e0f66f697ef48b807951c" category="paragraph">BlueXP  IAM(ID 및 액세스 관리)을 사용하여 구성원을 조직과 연결하는 경우 조직, 폴더 또는 프로젝트 수준에서 사용 권한을 제공합니다. 이러한 구성원이 적절한 자원에 액세스할 수 있는 권한을 갖도록 하려면 자원을 특정 프로젝트 및 폴더와 연결하여 조직의 자원 계층 구조를 관리해야 합니다. a_resource_은(는) BlueXP 이 이미 관리하는 작업 환경입니다.</block>
+  <block id="98ca801aa8933a24531043c30c475e2e" category="section-title">조직의 리소스를 봅니다</block>
+  <block id="8271e2759587670b87881a1e083e0a52" category="paragraph">자원 계층 구조를 관리하려면 조직과 연결된 자원을 알고 있어야 합니다.</block>
+  <block id="95c9ea5440ca8b54a3d3dae8e1d1f492" category="list-text">리소스 * 를 선택합니다.</block>
+  <block id="90eb4a50a957d74015adf452111a7dd5" category="paragraph">조직과 연결된 자원이 * 리소스 * 테이블에 표시됩니다.</block>
+  <block id="573f6fc7f3c18fb7721ddccfe2520412" category="inline-xref">표의 내용을 검색하고 필터링합니다</block>
+  <block id="74a216516ae6f979fa921c96dd5057a8" category="paragraph">특정 리소스를 찾으려면 다음을 <block ref="2fd3d11c7689796e93f3888013589416" category="inline-xref-macro-rx"></block>수행합니다.</block>
+  <block id="7e2927a58abcc62c9eb5c28962dc9573" category="paragraph">찾고 있는 리소스를 찾은 후에는 다음 작업 중 하나를 수행할 수 있습니다.</block>
+  <block id="d488db7f816284f6712caf2d76eb5169" category="inline-xref">자원과 연결된 폴더 및 프로젝트를 봅니다</block>
+  <block id="ea450edd18061a7cc42c1dc5a73807e9" category="list-text"><block ref="725a161a6f11aca02e0e25e2ae9628c0" category="inline-xref-macro-rx"></block></block>
+  <block id="6a9d36cda6e7da452a233dae9f9b821c" category="inline-xref">자원을 추가 폴더 및 프로젝트와 연결합니다</block>
+  <block id="e43736ff73ca6844bfafd7ef8dc58bad" category="list-text"><block ref="7d9c5683f2b3adedfbcf34a695515c4d" category="inline-xref-macro-rx"></block></block>
+  <block id="b6af3f20458abefb8743e926f21c0677" category="inline-xref">폴더 또는 프로젝트에서 자원을 제거합니다</block>
+  <block id="1797f1c38c97687b6136c8e69786e0a2" category="list-text"><block ref="bb02d809bee1364f03f71b60d989a04d" category="inline-xref-macro-rx"></block></block>
+  <block id="a29510a9013088f354480f508c907c2e" category="section-title">조직의 특정 리소스를 찾습니다</block>
+  <block id="1acca7d7f6a7f4515e946bae053cbc27" category="paragraph">조직에 많은 자원이 있는 경우 검색 및 필터 옵션을 사용하여 특정 자원을 찾을 수 있습니다.</block>
+  <block id="a89524edc025c255e3e415e871e88e5d" category="list-text">리소스 * 페이지에서 * 고급 검색 및 필터링 * 을 선택합니다.</block>
+  <block id="3d1bc41342a56d581edf9d1765f01a0b" category="list-text">사용 가능한 옵션을 사용하여 원하는 리소스를 찾습니다.</block>
+  <block id="48ca2619b5dca392dc3969df94469cf3" category="list-text">* 리소스 이름으로 검색 *: 텍스트 문자열을 입력하고 * 추가 * 를 선택합니다.</block>
+  <block id="b2efca9e0863336ee0d7aa6af1771c24" category="list-text">* 플랫폼 *: Amazon Web Services와 같은 하나 이상의 플랫폼을 선택합니다.</block>
+  <block id="e6d1209910233e075e359b7fdb3892a8" category="list-text">* 리소스 *: Cloud Volumes ONTAP와 같은 하나 이상의 리소스를 선택합니다.</block>
+  <block id="4a42d7a28e04f8a9b2270b8906ae904c" category="list-text">* 조직, 폴더 또는 프로젝트 *: 전체 조직, 특정 폴더 또는 특정 프로젝트를 선택합니다.</block>
+  <block id="fb3b214ed2681d71df95f0a2e1ad7ee8" category="list-text">검색 * 을 선택합니다.</block>
+  <block id="de1dcc903e0def1031803a58221b8303" category="paragraph">리소스 테이블의 내용이 새로 고쳐져 검색 및 필터 선택 항목과 일치하는 리소스가 표시됩니다.</block>
+  <block id="6b979ebd5780c7df2c462682bbe1749e" category="section-title">자원을 폴더 및 프로젝트와 연결합니다</block>
+  <block id="6f4141394827d668d7827055e97c0bb9" category="paragraph">조직의 다른 폴더나 프로젝트에서 자원을 사용할 수 있도록 하려면 폴더 또는 프로젝트와 자원 간에 연결을 만들어야 합니다.</block>
+  <block id="123b63ad16a2eb2123e4d954ed9b410d" category="inline-link-macro">자원을 폴더와 연결하는 시기를 비롯한 자원에 대해 알아봅니다</block>
+  <block id="aa17a9cf1b2a8bd01a901a0eb2e99eee" category="paragraph">리소스 연결이 작동하는 방식을 이해해야 합니다. <block ref="a1afb03a32649c13d619ffef925eefd6" category="inline-link-macro-rx"></block>..</block>
+  <block id="0ba76e0dec90ea0767d0bea623254565" category="list-text">Resources * 페이지에서 테이블의 자원으로 이동한 후 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>* Associate to folders or projects * 를 선택합니다.</block>
+  <block id="40604a706a532d51e9c0e2942f20bbbd" category="list-text">추가 폴더 또는 프로젝트를 연결하려면 * 폴더 또는 프로젝트 추가 * 를 선택한 다음 폴더 또는 프로젝트를 선택합니다.</block>
+  <block id="227d0042933a910c506c0345c27ef64f" category="paragraph">관리자 권한이 있는 폴더와 프로젝트에서만 선택할 수 있습니다.</block>
+  <block id="5c4e241b983cce10c131e9a51dc2f2e5" category="list-text">리소스 연결 * 을 선택합니다.</block>
+  <block id="71e4a1d057d7694dd5ea8710ca5d07a9" category="paragraph">BlueXP 는 자원을 선택한 폴더 및 프로젝트에 연결합니다.</block>
+  <block id="f487d6f4a22314a7fc4b480b252f4981" category="list-text">자원을 프로젝트와 연결한 경우 해당 프로젝트에 대한 권한이 있는 구성원은 이제 BlueXP 에서 해당 자원에 액세스할 수 있습니다.</block>
+  <block id="6330741dc930a8e0cff70d2bbd0c2a2d" category="inline-link-macro">리소스를 폴더와 연결하는 방법에 대해 알아봅니다</block>
+  <block id="0764009847ea7e98389494f95f4d739e" category="list-text">리소스를 폴더와 연결한 경우, 폴더 또는 프로젝트 admin_은 이제 BlueXP  IAM 내에서 리소스에 액세스할 수 있습니다. <block ref="a53b921d2a913725c8b4e28a24824743" category="inline-link-macro-rx"></block>..</block>
+  <block id="9b3a53db52bc1f1723b9689c9020a57f" category="paragraph">연결된 자원이 BlueXP  커넥터를 사용하여 검색되고 조직에 다른 구성원이 있는 경우 해당 자원이 연결된 프로젝트에도 연결선을 연결해야 합니다. 그렇지 않으면 _Organization admin_역할이 없는 구성원이 BlueXP  캔버스에서 커넥터 및 관련 리소스에 액세스할 수 없습니다.</block>
+  <block id="3a04b19767b9262d748f5bc93b4d433d" category="section-title">자원과 관련된 폴더 및 프로젝트를 봅니다</block>
+  <block id="012ed1b51c49e99d9e7c8472bbf96c42" category="paragraph">조직의 계층 구조에서 자원을 사용할 수 있는 위치를 식별하려면 해당 자원과 연결된 폴더와 프로젝트를 볼 수 있습니다.</block>
+  <block id="ae35c12a9d0798db618751302c4603bd" category="list-text">Resources * 페이지에서 테이블의 자원으로 이동한 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>다음 * View details * 를 선택합니다.</block>
+  <block id="147b2b655dda25ecac27a2d7381599e4" category="paragraph">BlueXP  자원에 연결된 폴더와 프로젝트를 표시합니다.</block>
+  <block id="0d8f80667cd7bc86a6f6ea26c12d18b9" category="paragraph">다음 예제에서는 한 프로젝트와 연결된 자원을 보여 줍니다.</block>
+  <block id="a46cbe82e9adff7ecc82d6eadb58aa97" category="inline-image-macro">조직 바로 아래에 있는 프로젝트와 연결된 자원을 보여 주는 자원 세부 정보 페이지 스크린샷</block>
+  <block id="7cadbb5f400f149f938a910df5c5cb0d" category="paragraph"><block ref="7cadbb5f400f149f938a910df5c5cb0d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e4975c67206b991961fd4bcafcfdcb06" category="inline-xref">자원을 추가 프로젝트나 폴더에 연결합니다</block>
+  <block id="b2b8405c251505e73b6f299e51537cde" category="list-text">할 수 <block ref="a442a7300de9bd550df7e0b303674dfb" category="inline-xref-macro-rx"></block>있습니다.</block>
+  <block id="50a6a7359fd63777aaa93f91ca89a8bf" category="inline-xref">특정 폴더 또는 프로젝트에서 자원을 제거합니다</block>
+  <block id="7c3a34fff9d504a76d85b9789ba5cda9" category="list-text">할 수 <block ref="3afb050ceb060bcbe4b73cf3bf59470f" category="inline-xref-macro-rx"></block>있습니다.</block>
+  <block id="69f07c715f27603d2e0d422829ad4190" category="inline-link-macro">자원과 연결된 폴더 및 프로젝트에 액세스할 수 있는 구성원을 봅니다</block>
+  <block id="7e77a0d272b850a5b082c2fed060594a" category="list-text">자원에 액세스할 수 있는 조직 구성원을 확인해야 하는 경우 다음을 수행할 수 <block ref="7b75e3c2af3e500cfb657c057dbc7c5e" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="02daa88c7c6888cad8b055624d764072" category="section-title">폴더 또는 프로젝트에서 자원을 제거합니다</block>
+  <block id="450758fc7e96c44f96d41df9c819588d" category="paragraph">폴더 또는 프로젝트에서 자원을 제거하려면 폴더나 프로젝트와 자원 간의 연결을 제거해야 합니다. 연결을 제거한 후에는 조직 구성원이 폴더 또는 프로젝트에서 자원을 더 이상 관리할 수 없습니다.</block>
+  <block id="7f6be6d71b75090da3f7888443a6d4f8" category="paragraph">전체 조직에서 검색된 리소스를 제거하려면 BlueXP  캔버스에서 작업 환경을 제거해야 합니다.</block>
+  <block id="4fc3c6ef596dbec8a3af38f79c84cf02" category="list-text">자원을 제거할 폴더나 프로젝트의 경우 을 선택합니다 <block ref="5aa3fbfa4a030d3d0fb7677a91fd2eba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ece216a1c354b015ef19084b08f5e92f" category="list-text">삭제 * 를 선택하여 연결을 제거할지 확인합니다.</block>
+  <block id="4cc93df03851cba78d596a3fa944ce1a" category="paragraph">BlueXP 에서 연결을 제거합니다. 구성원은 더 이상 해당 폴더나 프로젝트의 리소스에 액세스할 수 없습니다.</block>
+  <block id="08599f4c51d7b3ffe063f2612e7c4f5e" category="summary">필요한 경우 BlueXP  조직의 이름을 변경할 수 있습니다.</block>
+  <block id="3b2af1e86badf70e10ee3dd7bd601881" category="paragraph">필요한 경우 BlueXP  조직의 이름을 BlueXP  ID 및 액세스 관리(IAM)에서 변경할 수 있습니다. 조직 이름은 BlueXP  웹 기반 콘솔의 상단과 IAM 페이지에 표시됩니다.</block>
+  <block id="8bf336ab115156eac88db2970ab0e70d" category="list-text">조직 * 페이지에서 테이블의 첫 번째 행으로 이동한 다음 * 조직 편집 * 을 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>선택합니다.</block>
+  <block id="bd0f6a5b8c74b52e8b6d378a779a799b" category="inline-image-macro">작업 아이콘과 조직 편집 옵션을 보여 주는 개요 페이지의 스크린샷</block>
+  <block id="f891b6d41b0ea20e756113027427df78" category="paragraph"><block ref="f891b6d41b0ea20e756113027427df78" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b9669849e9961b7f3f4dc1a2f6787c34" category="list-text">새 조직 이름을 입력하고 * 적용 * 을 선택합니다.</block>
+  <block id="814a9fcdd4787ffa2a66999138964d04" category="paragraph">BlueXP 에서 조직의 이름을 업데이트합니다. BlueXP  콘솔 상단에 업데이트된 이름이 즉시 표시됩니다.</block>
+  <block id="23a90e2bf1cd3468b9e164d1e2b979f6" category="summary">조직, 프로젝트 및 연결선 간에 전환하여 연결된 리소스에 액세스합니다.</block>
+  <block id="112749b02c84e8790747c190f1f78319" category="doc">BlueXP  조직, 프로젝트 및 커넥터 간 전환</block>
+  <block id="c4a2bf83344fa23edffba2df8fadd3a5" category="paragraph">여러 BlueXP  조직에 속하거나 BlueXP  조직 내의 여러 프로젝트 또는 연결선에 액세스할 수 있는 권한이 있을 수 있습니다. 필요한 경우 조직, 프로젝트 및 연결선 간에 쉽게 전환하여 해당 조직, 프로젝트 또는 연결선과 관련된 리소스에 액세스할 수 있습니다.</block>
+  <block id="99b40e7c0a7b505819ce6f7bdb86dc3a" category="inline-link">새 조직을 만드는 방법에 대해 알아봅니다</block>
+  <block id="67c0ba42d2edbdb3628b5f8b75884a26" category="admonition">다른 조직에 가입하도록 초대받았거나 직접 추가 조직을 만든 경우 여러 조직에 속할 수 있습니다. API를 사용하여 추가 조직을 생성할 수 있습니다.<block ref="a875b8dda0804745acf04cfe74e1bbff" category="inline-link-rx"></block></block>
+  <block id="f2fd478a05acdd29af1bbc7530937c70" category="section-title">조직 간 전환</block>
+  <block id="9f3d2a13f08b19e773a3807a2007b683" category="paragraph">여러 조직의 구성원인 경우 언제든지 조직 간에 전환할 수 있습니다.</block>
+  <block id="1cc7a4e76aef7a38eaee419a488e7c0b" category="list-text">BlueXP  상단에서 * Organization * 을 선택합니다.</block>
+  <block id="51c1ea8dbf8cc257133b6fbd26bb77fe" category="inline-image-macro">조직 드롭다운을 선택한 다음 다른 조직을 선택할 수 있는 BlueXP  상단 배너 스크린샷</block>
+  <block id="84aa41f8fcc7bb3a0989b54e1445fc22" category="paragraph"><block ref="84aa41f8fcc7bb3a0989b54e1445fc22" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb5df30f07def91b4af8259255a5d626" category="list-text">다른 조직을 선택한 다음 * Switch * 를 선택합니다.</block>
+  <block id="8e792761ad5404a9bbafa558b481c90f" category="paragraph">BlueXP 가 선택한 조직으로 전환되고 해당 조직과 연결된 자원이 표시됩니다.</block>
+  <block id="94b85a1c5a643296b6d5ecd3976a9159" category="section-title">프로젝트 간 전환</block>
+  <block id="6346841107e9c8e2be1fd621b47ca24c" category="paragraph">조직에 여러 프로젝트가 포함되어 있고 해당 프로젝트에 액세스할 수 있는 경우 언제든지 다른 프로젝트로 전환할 수 있습니다.</block>
+  <block id="4fb5e918d2565d827a07366454853825" category="paragraph">BlueXP  콘솔의 BlueXP  ID 및 액세스 관리(IAM) 페이지 이외의 모든 페이지에 있어야 합니다. IAM 페이지를 볼 때는 다른 프로젝트로 전환할 수 없습니다.</block>
+  <block id="9a39538808712c101b88a2d16c068ef1" category="list-text">BlueXP  상단에서 * 프로젝트 * 를 선택합니다.</block>
+  <block id="515fad600bb7a84f5b18f86d614aca7c" category="inline-image-macro">범위 드롭다운을 선택한 다음 다른 프로젝트를 선택할 수 있는 BlueXP  상단 배너 스크린샷</block>
+  <block id="b10df0e8c9bf04b4af0a4ff317576dab" category="paragraph"><block ref="b10df0e8c9bf04b4af0a4ff317576dab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="04e3e1dc51bdbf8faf8baa18c2cecf11" category="list-text">조직의 폴더 및 프로젝트를 탐색하고 원하는 프로젝트를 선택한 다음 * Switch * 를 선택합니다.</block>
+  <block id="93bf37cc5484ee619db47305a40ce2f4" category="inline-image-macro">새 프로젝트를 선택할 수 있는 범위 메뉴 스크린샷</block>
+  <block id="745a5d8d04742a2ce72cd1001baa8841" category="paragraph"><block ref="745a5d8d04742a2ce72cd1001baa8841" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="458574863afcc205fb9e6a9992e02f63" category="paragraph">BlueXP 가 선택한 프로젝트로 전환되고 해당 프로젝트와 관련된 자원이 표시됩니다.</block>
+  <block id="6edfdffe4b7cbe1dd342f4aaf96e6de7" category="paragraph">여러 개의 커넥터가 있는 경우 다른 커넥터를 전환하여 특정 커넥터와 연결된 작업 환경을 볼 수 있습니다.</block>
+  <block id="c405d9f25f2c99a3e11e886c535874f2" category="list-text">BlueXP  상단에서 * 커넥터 * 를 선택합니다.</block>
+  <block id="15b260aa6b6cde375bbce1f83fa17635" category="list-text">다른 커넥터를 선택한 다음 * Switch * 를 선택합니다.</block>
+  <block id="23421f80aa52f230e7cf8f934bb44ae7" category="paragraph">BlueXP 가 새로 고쳐지고 선택한 커넥터와 연결된 작업 환경이 표시됩니다.</block>
+  <block id="b514c4fa3590ffc8031c7ef2c4ca7858" category="paragraph"><block ref="9610f2c808689a17e58f0813034c0c28" category="inline-link-macro-rx"></block>..</block>
+  <block id="7d87b506e5a380e1e5e110d45d9ae17f" category="paragraph">이제 커넥터가 BlueXP  조직에 설치되고 설정됩니다.</block>
+  <block id="a3b4e3e0d02c612244623948f90dff8b" category="paragraph"><block ref="ef8eb5bec0bebce3b4cac1797fe12831" category="inline-link-macro-rx"></block>..</block>
+  <block id="fab63ec17826b4300a69309b2a08f4b8" category="summary">Connector 온-프레미스를 설치한 다음 로그인하여 BlueXP  조직과 연동되도록 설정합니다.</block>
+  <block id="ceaa02a134108c72eab7591fa047092b" category="paragraph">가입하거나 로그인한 다음 BlueXP  조직과 연동되도록 Connector를 설정합니다.</block>
+  <block id="5522cc29285c5053f2d7ae2fc44cdb1a" category="paragraph"><block ref="5522cc29285c5053f2d7ae2fc44cdb1a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9c6d10f2338ffdd5aaeb9aa90bca7f2b" category="paragraph">그러면 지원을 위해 BlueXP  조직 또는 계정이 등록되고 지원 권한이 활성화됩니다. 지원을 등록하고 지원 권한을 활성화하려면 BlueXP  조직 또는 계정에서 한 명의 사용자만 NetApp 지원 사이트 계정을 BlueXP  로그인과 연결해야 합니다. 이 작업이 완료되면 * 리소스 * 페이지에 계정이 지원을 위해 등록되었다는 내용이 표시됩니다.</block>
+  <block id="bd2b5934f02071712345ec747847599c" category="list-text">NetApp 지원 사이트 계정을 Cloud Volumes ONTAP 작업 환경에 연결하려는 경우 BlueXP  조직에 추가된 NSS 계정 또는 사용자가 속한 계정에서만 선택할 수 있습니다.</block>
+  <block id="3079cacc26f7b40554d23e060596a405" category="inline-link-macro">BlueXP  조직 또는 계정에서 NSS 자격 증명을 사용하는 방법에 대해 자세히 알아보십시오</block>
+  <block id="a24a552d29f91b8982fae044dc32dff5" category="paragraph"><block ref="fb2c227ba20c316c7f097a2784c0c843" category="inline-link-macro-rx"></block>..</block>
+  <block id="a15dab64157b0024121a37b3726311bd" category="summary">사용자를 추가하고, 자동화를 위해 서비스 계정을 만들고, 작업 영역을 추가하는 등의 방법으로 BlueXP  계정을 관리합니다.</block>
+  <block id="ad91be9e96aa62a4fcd46230362092d6" category="paragraph">제한 모드 또는 비공개 모드에서 BlueXP 를 사용하는 경우 _BlueXP  계정 _ 을(를) 사용하여 사용자를 관리하고 리소스를 구성합니다. 계정을 만들 때는 관리자 한 명과 작업 영역만 포함됩니다. 사용자 추가, 자동화 목적으로 서비스 계정 생성, 작업 영역 추가 등을 통해 필요에 맞게 계정을 관리할 수 있습니다.</block>
+  <block id="b89af40709c02abb8e0b01ae305dfd7f" category="summary">BlueXP가 수행하는 작업의 상태를 모니터링하여 해결해야 할 문제가 있는지 확인할 수 있습니다. 타임라인, 알림 센터에서 상태를 보거나 이메일로 알림을 보낼 수 있습니다.</block>
+  <block id="57bee919903f0c92a41c5582519db779" category="doc">BlueXP  작업 모니터링</block>
+  <block id="5d4df6d8936b94b888789b2712dcb953" category="paragraph">다음 표에서는 각 타임라인과 알림 센터를 비교하여 각 타임라인이 제공하는 기능을 이해할 수 있습니다.</block>
+  <block id="a7eb158a02fb55f7c66bb86081e76732" category="cell">사용자 및 다른 사람에게 알림을 전자 메일로 보내는 기능을 제공합니다</block>
+  <block id="5059f2db2465d7555c44d131a23b2fdb" category="section-title">BlueXP  타임라인에서 사용자 활동 감사</block>
+  <block id="0e0586268b26baaed6af2b48cd7b1e87" category="paragraph">BlueXP 의 시간 표시 막대에는 사용자가 조직 또는 계정을 관리하기 위해 완료한 작업이 표시됩니다. 여기에는 사용자 연결, 작업 환경 만들기, 커넥터 만들기 등과 같은 관리 작업이 포함됩니다.</block>
+  <block id="e8bcacc75837d7d116d27b0912ef8827" category="list-text">테이블 위에 있는 필터를 사용하여 테이블에 표시할 작업을 변경합니다.</block>
+  <block id="76bf1023f56feea71963b97c682ddeec" category="paragraph">예를 들어 * 서비스 * 필터를 사용하여 특정 BlueXP  서비스와 관련된 작업을 표시하거나 * 사용자 * 필터를 사용하여 특정 사용자 계정과 관련된 작업을 표시할 수 있습니다.</block>
+  <block id="706ba753310eea4d62504cab3d622cb4" category="paragraph">타임라인이 업데이트되어 완료된 관리 작업을 표시합니다.</block>
+  <block id="d9e60fcce9ab0af5d2ac79ed5bd1726a" category="paragraph">또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일을 통해 특정 유형의 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이메일은 BlueXP  조직 또는 계정에 속한 모든 사용자 또는 특정 유형의 시스템 활동을 알고 있어야 하는 다른 수신자에게 보낼 수 있습니다. 방법 보기<block ref="a148e670707e0255b9681ed2a38729bc" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d7070a88c379ebcd8e00bafb5d6aaffa" category="section-title">알림 센터와 BlueXP  알림 비교</block>
+  <block id="9e449a0ea34e3a3f3848e51e4cec5859" category="paragraph">알림 센터를 사용하면 BlueXP 에서 시작한 작업의 상태를 확인하고 특정 유형의 시스템 작업에 대한 알림 알림을 설정할 수 있습니다. 한편, BlueXP  경고를 사용하면 ONTAP 스토리지 환경의 용량, 가용성, 성능, 보호 및 보안과 관련된 문제 또는 잠재적 위험을 볼 수 있습니다.</block>
+  <block id="ccb5b6f0987c177f05a95659600aac02" category="inline-link">BlueXP  알림에 대해 자세히 알아보십시오</block>
+  <block id="14b4187954e8d9dac531afa88b0f92d1" category="paragraph"><block ref="14b4187954e8d9dac531afa88b0f92d1" category="inline-link-rx"></block></block>
+  <block id="27ee311a33d114b49d51a6048b3ca8fe" category="paragraph">이메일을 통해 특정 유형의 알림을 전송할 수 있으므로 BlueXP에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있습니다. 이메일은 BlueXP  조직 또는 계정에 속한 모든 사용자 또는 특정 유형의 시스템 활동을 알고 있어야 하는 다른 수신자에게 보낼 수 있습니다.</block>
+  <block id="e2f97c84ba5b4b79392ed9991dd71605" category="paragraph">알림 센터에서 설정한 필터에 따라 전자 메일로 받을 알림 유형이 결정되지는 않습니다. 기본적으로 모든 BlueXP  관리자는 모든 "중요" 및 "권장" 알림에 대한 이메일을 받게 됩니다. 이러한 알림은 모든 서비스에 걸쳐 제공됩니다. 커넥터 또는 BlueXP 백업 및 복구와 같은 특정 서비스에 대해서만 알림을 받도록 선택할 수는 없습니다.</block>
+  <block id="52c0fdc2660014d03f8cc842e5b10087" category="paragraph">알림 설정을 사용자 지정하려면 BlueXP  관리자여야 합니다.</block>
+  <block id="6a98cd9027ca16566b190ea864dda349" category="list-text">사용자_탭 또는 _추가 수신자_탭에서 사용자 또는 여러 사용자를 선택하고 보낼 알림 유형을 선택합니다.</block>
+  <block id="ec7fb9c8b57ef53007e8124891d2af4e" category="paragraph">사용자_탭에 나타나는 사용자는 BlueXP  조직 또는 계정의 사용자로부터 자동으로 채워집니다. BlueXP에 액세스할 수 없지만 특정 유형의 경고 및 알림에 대해 알림을 받아야 하는 다른 사람 또는 그룹에 대해서는 _Additional Recipients_tab에서 전자 메일 주소를 추가할 수 있습니다.</block>
+  <block id="7072fa670cf6990f3acf5d82ed1edcd8" category="paragraph">표준 모드에서 BlueXP는 웹 기반 콘솔에서 클라우드 서비스로 사용자에게 액세스할 수 있습니다. 시작하기 전에 및 에 대해 이해하고 있어야 <block ref="dd9572e43b86cdf1b1d508e121fd732e" category="inline-link-macro-rx"></block> <block ref="939be5a52f87f3be4e9cee0e0efdb78e" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="0f29bdee858adb6d973cf8db83b0a896" category="inline-link-macro">등록하고 조직을 만드십시오</block>
+  <block id="a31431c54e189487cfd625eb4abd12c5" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="10b13e3a86d0fb043f42c593114c5f97" category="inline-link-macro-rx"></block></block>
+  <block id="3efd790b3a726ae76674acce6a9fc96d" category="paragraph">로<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block> 이동하여 가입합니다. BlueXP  조직을 만들 수 있는 옵션이 제공되지만 기존 조직에 초대된 경우에는 이 단계를 건너뛸 수 있습니다.</block>
+  <block id="47ca696b2679c30e6c526ff87569ce72" category="paragraph">클라우드 또는 온-프레미스 네트워크에서 커넥터를 만들 수 있습니다.</block>
+  <block id="c85f343e000bce5e73bdf5f442b4c748" category="list-text">BlueXP 로그인을 생성하여 등록할 수 있습니다. 이 인증 방법을 사용하려면 전자 메일 주소와 암호를 지정해야 합니다. 전자 메일 주소를 확인한 후 로그인한 다음 BlueXP  조직을 만들 수 있습니다(아직 조직에 속해 있지 않은 경우).</block>
+  <block id="e13da662e0d647f445c2a7541d592af8" category="list-text">기존 NetApp Support 사이트 자격 증명이 있는 경우에는 BlueXP에 등록할 필요가 없습니다. NSS 자격 증명을 사용하여 로그인한 다음 아직 BlueXP  조직에 속해 있지 않은 경우 BlueXP 에서 조직을 생성하라는 메시지를 표시합니다.</block>
+  <block id="4a4cdfd6819e8aac167fde110ae0e5d5" category="list-text">Single Sign-On을 사용하여 회사 디렉터리(통합 ID)의 자격 증명을 사용하여 로그인할 수 있습니다. 조직 계정의 첫 번째 사용자는 BlueXP에 등록하거나 NSS 자격 증명을 사용하여 로그인한 다음 ID 통합을 설정해야 합니다. 그런 다음 회사 ID의 구성원을 조직에 추가할 수 있습니다. 그런 다음 SSO 자격 증명을 사용하여 로그인할 수 있습니다.</block>
+  <block id="0f137dcb20726f124032b79988ca3398" category="paragraph">이 두 경우 모두 BlueXP 에서 이 초기 로그인의 일부로 사용자를 등록합니다.</block>
+  <block id="fa57d9a1390b0562bbdc780f06c45dde" category="paragraph">사용자 계정이 아직 BlueXP  조직에 속해 있지 않은 경우 계정을 만들라는 메시지가 표시됩니다.</block>
+  <block id="6b84cc2fb300d5fdb785e38d7064e1b5" category="list-text">시작 * 페이지에서 BlueXP  조직의 이름을 입력합니다.</block>
+  <block id="cae5740250fa8eb75c48815594885aa1" category="paragraph">조직은 BlueXP  IAM(Identity and Access Management)에서 최상위 요소입니다. <block ref="0a3f88a939958973fc19097a4507c320" category="inline-link-macro-rx"></block>..</block>
+  <block id="b2b8934645fc8cde08a5e11b20c23996" category="inline-link-macro">기존 조직에 구성원을 추가하는 방법에 대해 알아봅니다</block>
+  <block id="1dc7c066b4e587a2dfdccb9028a4920b" category="paragraph">비즈니스에 이미 BlueXP  조직이 있는 경우 이 조직에 참여하려면 BlueXP 를 종료하고 소유자에게 조직을 연결하도록 요청해야 합니다. 소유자가 사용자를 추가한 후 로그인하면 해당 계정에 액세스할 수 있습니다. <block ref="59dea8bb85edd16986d40f5a52513b8b" category="inline-link-macro-rx"></block>..</block>
+  <block id="e89994c10c3affe5d20566f88f1fdd67" category="inline-image-macro">조직에 속하지 않은 새 사용자 계정으로 로그인할 때 나타나는 시작 페이지의 스크린샷.</block>
+  <block id="7e7119674ffe88d5f2b612d7689a7f7b" category="paragraph"><block ref="7e7119674ffe88d5f2b612d7689a7f7b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16a6acfaa9478d613f4568fcc7f798b9" category="list-text">시작 * 을 선택합니다.</block>
+  <block id="6d6f5d53daa874150fc5adbc7e3b9f49" category="paragraph">이제 BlueXP  로그인과 조직이 있습니다. 대부분의 경우 다음 단계는 BlueXP의 서비스를 하이브리드 클라우드 환경에 연결하는 Connector를 만드는 것입니다.</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">BlueXP  계정 일련 번호(BlueXP 의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)를 등록하는 중입니다.</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">NetApp 지원을 받으려면 BlueXP 를 등록 하십시오</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">지원을 등록하고 지원 권한을 활성화하려면 BlueXP  조직(또는 계정)의 사용자 한 명이 NetApp 지원 사이트 계정을 BlueXP  로그인과 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">리소스 * 페이지에 귀하의 BlueXP  조직이 지원을 위해 등록되었다는 메시지가 표시됩니다.</block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 하지만 그렇다고 BlueXP  조직이 지원에 등록되어 있지 않다는 뜻은 아닙니다. 조직 내 한 명의 사용자가 이 단계를 수행하면 조직이 등록됩니다.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">일련 번호 필드에 위에서 사용된 계정 일련 번호(960xxxx)를 복사해 주십시오. 그러면 처리 속도가 빨라집니다.</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAP에서 다음과 같은 주요 워크플로우를 사용하려면 NetApp 지원 사이트 자격 증명을 BlueXP  조직과 연결해야 합니다.</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 자격 증명을 BlueXP  조직과 연결하는 것은 BlueXP  사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="4a3d304c0a44921333425fa75ae2ca14" category="summary">BlueXP  IAM, 커넥터, 클라우드 공급자 자격 증명 등 BlueXP  관리 기능의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="3659e0ccde34b7f8fd95294187ed03d5" category="paragraph">ID 및 액세스 관리(IAM), 커넥터, 클라우드 공급자 자격 증명 등 BlueXP  관리 기능의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024년 10월 7일</block>
+  <block id="cfb96b15394efa48725d4b6de4d3529b" category="paragraph">BlueXP  IAM(Identity and Access Management)은 표준 모드에서 BlueXP 를 사용할 때 BlueXP  계정에서 제공하는 이전 기능을 대체 및 향상시키는 새로운 리소스 및 액세스 관리 모델입니다.</block>
+  <block id="3a3009b65a0b76e5f313a7be507a533e" category="paragraph">BlueXP  IAM은 리소스 및 사용 권한을 보다 세밀하게 관리합니다.</block>
+  <block id="97bcbb158b23b5f59aa77340528d8c84" category="list-text">최상위 _organization_은(는) 다양한_프로젝트_에 대한 액세스를 관리할 수 있게 해줍니다.</block>
+  <block id="9b574c17fafa6f5e59e653eedc50bdfa" category="list-text">_Folders_관련된 프로젝트를 함께 그룹화할 수 있습니다.</block>
+  <block id="0c2ed2a0d470adb6e0ba50cfe426d09a" category="list-text">향상된 자원 관리를 사용하면 자원을 하나 이상의 폴더 또는 프로젝트에 연결할 수 있습니다.</block>
+  <block id="5b61ed8de2f8ed0eccd9e6f8653cc6aa" category="paragraph">예를 들어, Cloud Volumes ONTAP 시스템을 여러 프로젝트에 연결할 수 있습니다.</block>
+  <block id="8113bddacffcd2a7f7d52f8c0403f7fc" category="list-text">향상된 액세스 관리를 통해 조직 계층 구조의 다양한 수준에 있는 구성원에게 역할을 할당할 수 있습니다.</block>
+  <block id="a1bd1f0136afa3d8ee4ccdec799667f8" category="paragraph">이러한 향상된 기능을 통해 사용자가 수행할 수 있는 작업과 액세스할 수 있는 리소스를 보다 효율적으로 제어할 수 있습니다.</block>
+  <block id="32fe53941bc1e6c5b14aa6ac28b141f9" category="section-title">BlueXP  IAM이 기존 계정에 미치는 영향</block>
+  <block id="18b2a40b23f88190866bbbf028cac95c" category="paragraph">BlueXP 에 로그인하면 다음과 같은 변경 사항이 나타납니다.</block>
+  <block id="33d31192b5c1247904766afc81b1ef60" category="list-text">귀하의 계정 _ 은(는) 이제 _ 조직 _ 이라고 합니다</block>
+  <block id="2a235898ea8ace7ac6030edb3a2e88de" category="list-text">작업 공간 _ 은(는) 이제 _ projects _(으)로 불립니다</block>
+  <block id="ba6e308134546bb71f87228ecaaef82c" category="list-text">사용자 역할의 이름이 변경되었습니다.</block>
+  <block id="b8c7132579d69d219fb874942670a635" category="list-text">_ 계정 관리자 _ 는(는) 현재 _ 조직 관리자 _ 입니다</block>
+  <block id="27fd174b0e5c48a667a61eb059ff2ad8" category="list-text">_Workspace admin_은(는) 현재 _ 폴더 또는 프로젝트 관리자 _ 입니다</block>
+  <block id="402601978c4c05e28bf41ea74b2c118a" category="list-text">_규정 준수 뷰어_는 현재_분류 뷰어_입니다</block>
+  <block id="396758cef44fe7d4ebed2010a8ee7761" category="list-text">설정에서 BlueXP  ID 및 액세스 관리에 액세스하여 이러한 향상된 기능을 활용할 수 있습니다</block>
+  <block id="0909fc2dd5049052e70dfa0e18f7fbcf" category="inline-image-macro">인터페이스 맨 위에서 선택 가능한 조직 및 프로젝트, 설정 메뉴에서 사용 가능한 ID 및 액세스 관리를 보여 주는 BlueXP  스크린샷.</block>
+  <block id="bc9b550d1734b431c662a14aa92c06df" category="paragraph"><block ref="bc9b550d1734b431c662a14aa92c06df" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d9c4ef914f4f136c37c3df051aaedb70" category="list-text">기존 사용자 또는 작업 환경에는 아무런 변화가 없습니다.</block>
+  <block id="31243c2d285073a1e31df388c65d726f" category="list-text">역할 이름은 변경되었지만 사용 권한 관점에서는 차이가 없습니다. 사용자는 이전과 동일한 작업 환경에 계속 액세스할 수 있습니다.</block>
+  <block id="694ce83c478c161c3ac05490450e107e" category="list-text">BlueXP  로그인 방법은 변경되지 않습니다. BlueXP  IAM은 NetApp 클라우드 로그인, NetApp Support 사이트 자격 증명 및 BlueXP  계정과 같은 통합 연결과 연동됩니다.</block>
+  <block id="dfc4954338c7ff2d3998dbe991b1e115" category="list-text">BlueXP  계정이 여러 개 있는 경우 여러 BlueXP  조직이 있는 것입니다.</block>
+  <block id="733cd47965367380792385cdc0bf4492" category="section-title">BlueXP  IAM용 API</block>
+  <block id="ed819704d51143ca1736581a234a1365" category="paragraph">이러한 변경으로 BlueXP  IAM용 새로운 API가 도입되지만 이전 테넌시 API와 역호환됩니다.<block ref="100827e03f9a10b65527b59fa5323ff6" category="inline-link-rx"></block></block>
+  <block id="8e3876adf8f21b1509ebcb0486d5bc9c" category="section-title">지원되는 배포 모드</block>
+  <block id="a737f6ac26156f3770a49e30a21f7d73" category="paragraph">BlueXP  IAM은 표준 모드에서 BlueXP 를 사용할 때 지원됩니다. 제한된 모드 또는 비공개 모드로 BlueXP 를 사용 중인 경우 BlueXP _ACCOUNT_를 사용하여 작업 영역, 사용자 및 리소스를 계속 관리할 수 있습니다.</block>
+  <block id="52b3f16d7e534fa9f1eb5be8603ccd2e" category="section-title">커넥터 3.9.45</block>
+  <block id="7cecac935b533838cda5bd0fc68012c1" category="paragraph">이 릴리스에는 확장된 운영 체제 지원 및 버그 수정이 포함되어 있습니다.</block>
+  <block id="5a45d9d610a1bb698a260ef7f9494081" category="paragraph">3.9.45 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="6c2d90476cc3623edfaa0c9e3a4266e2" category="section-title">Ubuntu 24.04 LTS 지원</block>
+  <block id="1c774c8907085ea9b2475fb3bce13a77" category="paragraph">BlueXP 는 3.9.45 릴리스부터 표준 모드 또는 제한 모드에서 BlueXP 를 사용할 때 Ubuntu 24.04 LTS 호스트에 커넥터의 새 설치를 지원합니다.</block>
+  <block id="f560a10aaa5bd96f550a8cbc7a892bc0" category="section-title">RHEL 호스트에서 SELinux 지원</block>
+  <block id="7fba1f5b73846f256d223e6eac8ba54d" category="paragraph">BlueXP 는 이제 SELinux가 Enforcing 모드 또는 Permissive 모드로 활성화된 Red Hat Enterprise Linux 호스트와 커넥터를 지원합니다.</block>
+  <block id="dcfe6274f3d2ae157aaa8d48b7f48951" category="paragraph">SELinux에 대한 지원은 표준 모드 및 제한 모드에 대한 3.9.40 릴리스와 개인 모드에 대한 3.9.42 릴리스에서 시작됩니다.</block>
+  <block id="69613b7c17d10062f3fcc9393553d449" category="paragraph">BlueXP 는 Ubuntu 호스트가 있는 SELinux를 지원하지 않습니다.</block>
+  <block id="a86bab47fe0d1d4772388e14bf7532a0" category="inline-link">SELinux에 대해 자세히 알아보십시오</block>
+  <block id="612eef26819f532944539f99d535f8c6" category="paragraph"><block ref="612eef26819f532944539f99d535f8c6" category="inline-link-rx"></block></block>
+  <block id="46764118606f1e8527ee8d7c6a3005a3" category="paragraph"><block ref="5741665325bf1620748daff7a5523b04" category="inline-link-macro-rx"></block>..</block>
+  <block id="2cc038b51982044440dd65fe627f5133" category="sidebar">온프레미스 및 클라우드 환경 전반에서 데이터를 구축, 보호, 규제할 수 있도록 NetApp BlueXP를 시작하십시오. 설정이 완료되면 BlueXP  IAM(Identity and Access Management)을 사용하여 리소스에 대한 액세스를 제어하고 커넥터, 클라우드 공급자 계정 등을 관리할 수 있습니다.</block>
+  <block id="d7818a3dcaa08963a99fa80d50e4d009" category="sidebar">BlueXP IAM</block>
+  <block id="f9979c483e6c4c3e0bb110084e2529e7" category="sidebar">폴더와 프로젝트를 사용하여 자원을 구성합니다</block>
+  <block id="ff72511bc39f980fe978f1f136d5b661" category="sidebar">구성원 및 해당 사용 권한을 관리합니다</block>
+  <block id="e824a4cdd52665a1b8f0bccc58724034" category="sidebar">자원 계층 구조를 관리합니다</block>
+  <block id="0baaa5b5cebd5e340294b6393a2b73f4" category="sidebar">BlueXP 와 ID 페더레이션을 사용합니다</block>
+  <block id="22bdd8c71cc34511ea88881e20f7ca21" category="sidebar">ID 및 액세스 관리</block>
+  <block id="739addbbddeacc0bb15e86502b6685e9" category="sidebar">구성원을 추가하고 권한을 관리합니다</block>
+  <block id="2ee77c8821c341ed628d409d85faa73c" category="sidebar">Connector를 다른 폴더 및 프로젝트에 연결합니다</block>
+  <block id="0074076abc48f077b5f84eb71e8dee87" category="sidebar">조직, 프로젝트 및 커넥터 간 전환</block>
+  <block id="902a8ce7390bb726da2910b3ec25aae6" category="sidebar">조직 이름을 바꿉니다</block>
+  <block id="4e9a240c5fb31e56c6b0ab71a915953f" category="sidebar">사전 정의된 IAM 역할</block>
+  <block id="1326a41ad4b26f3395b0f54dd9172b2b" category="sidebar">어카운트에 대해 알아보십시오</block>
 </blocks>

@@ -27,8 +27,6 @@ sidebar:
       entries:
       - title: BlueXP
         url: "/concept-overview.html"
-      - title: 계정
-        url: "/concept-netapp-accounts.html"
       - title: 커넥터
         url: "/concept-connectors.html"
       - title: 배포 모드
@@ -37,7 +35,7 @@ sidebar:
       entries:
       - title: 워크플로를 시작합니다
         url: "/task-quick-start-standard-mode.html"
-      - title: BlueXP 콘솔을 사용하기 위한 네트워킹을 준비합니다
+      - title: BlueXP  콘솔에 대한 네트워킹을 준비합니다
         url: "/reference-networking-saas-console.html"
       - title: BlueXP에 등록하십시오
         url: "/task-sign-up-saas.html"
@@ -103,18 +101,40 @@ sidebar:
       url: "/task-logging-in.html"
   - title: BlueXP 관리
     entries:
-    - title: ID 제휴
-      url: "/concept-federation.html"
+    - title: ID 및 액세스 관리
+      entries:
+      - title: BlueXP  IAM에 대해 알아보십시오
+        url: "/concept-identity-and-access-management.html"
+      - title: BlueXP  IAM을 시작하십시오
+        url: "/task-iam-get-started.html"
+      - title: 폴더와 프로젝트를 사용하여 자원을 구성합니다
+        url: "/task-iam-manage-folders-projects.html"
+      - title: 구성원을 추가하고 권한을 관리합니다
+        url: "/task-iam-manage-members-permissions.html"
+      - title: 자원 계층 구조를 관리합니다
+        url: "/task-iam-manage-resources.html"
+      - title: Connector를 다른 폴더 및 프로젝트에 연결합니다
+        url: "/task-iam-associate-connectors.html"
+      - title: 조직, 프로젝트 및 커넥터 간 전환
+        url: "/task-iam-switch-organizations-projects.html"
+      - title: 조직 이름을 바꿉니다
+        url: "/task-iam-rename-organization.html"
+      - title: IAM 활동 모니터링 또는 감사
+        url: "/task-iam-audit-actions-timeline.html"
+      - title: 사전 정의된 IAM 역할
+        url: "/reference-iam-predefined-roles.html"
     - title: BlueXP 계정
       entries:
+      - title: 어카운트에 대해 알아보십시오
+        url: "/concept-netapp-accounts.html"
       - title: BlueXP 계정을 관리합니다
         url: "/task-managing-netapp-accounts.html"
-      - title: 계정의 작업을 모니터링합니다
-        url: "/task-monitor-cm-operations.html"
       - title: 다른 BlueXP 계정을 만듭니다
         url: "/task-create-account.html"
       - title: 사용자 역할
         url: "/reference-user-roles.html"
+    - title: ID 제휴
+      url: "/concept-federation.html"
     - title: 커넥터
       entries:
       - title: VM 및 OS를 유지 관리합니다
@@ -155,10 +175,12 @@ sidebar:
           url: "/concept-accounts-gcp.html"
         - title: 자격 증명 및 구독을 관리합니다
           url: "/task-adding-gcp-accounts.html"
-      - title: BlueXP 계정과 연결된 NSS 자격 증명을 관리합니다
+      - title: BlueXP  조직 또는 계정과 연결된 NSS 자격 증명을 관리합니다
         url: "/task-adding-nss-accounts.html"
       - title: BlueXP 로그인과 관련된 자격 증명을 관리합니다
         url: "/task-manage-user-credentials.html"
+    - title: BlueXP  작업 모니터링
+      url: "/task-monitor-cm-operations.html"
   - title: 참조하십시오
     entries:
     - title: 권한

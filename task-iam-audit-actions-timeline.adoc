@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task-iam-audit-actions-timeline.html 
+keywords: iam, audit, monitor, audit iam actions, monitor iam actions 
+summary: '타임라인에서 IAM(BlueXP  Identity and Access Management) 작업을 모니터링하거나 감사합니다.' 
+---
+= BlueXP  타임라인에서 IAM 활동을 모니터링하거나 감사합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  IAM(Identity and Access Management)에서 완료된 작업을 모니터링하거나 감사해야 하는 경우 BlueXP  타임라인에서 세부 정보를 볼 수 있습니다. 예를 들어 구성원을 조직에 추가한 사용자 또는 프로젝트가 성공적으로 삭제되었는지 확인할 수 있습니다.
+
+.단계
+. BlueXP  콘솔의 오른쪽 위에서> * Timeline * 을 선택합니다image:icon-settings-option.png["BlueXP  웹 콘솔의 오른쪽 상단에 표시되는 설정 아이콘입니다."].
+. 필터에서 * Service * 를 선택한 다음 * Tenancy * 를 선택합니다.
+. 다른 필터를 사용하여 테이블에 표시할 동작을 변경합니다.
++
+예를 들어, * User * 필터를 사용하여 특정 사용자 계정과 관련된 작업을 표시할 수 있습니다.
+
+
+
+.결과
+타임라인이 업데이트되어 BlueXP  IAM과 관련된 완료된 관리 작업을 보여줍니다.
