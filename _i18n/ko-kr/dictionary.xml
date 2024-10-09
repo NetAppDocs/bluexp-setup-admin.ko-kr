@@ -4815,7 +4815,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="402601978c4c05e28bf41ea74b2c118a" category="list-text">_규정 준수 뷰어_는 현재_분류 뷰어_입니다</block>
   <block id="396758cef44fe7d4ebed2010a8ee7761" category="list-text">설정에서 BlueXP  ID 및 액세스 관리에 액세스하여 이러한 향상된 기능을 활용할 수 있습니다</block>
   <block id="0909fc2dd5049052e70dfa0e18f7fbcf" category="inline-image-macro">인터페이스 맨 위에서 선택 가능한 조직 및 프로젝트, 설정 메뉴에서 사용 가능한 ID 및 액세스 관리를 보여 주는 BlueXP  스크린샷.</block>
-  <block id="bc9b550d1734b431c662a14aa92c06df" category="paragraph"><block ref="bc9b550d1734b431c662a14aa92c06df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d9c4ef914f4f136c37c3df051aaedb70" category="list-text">기존 사용자 또는 작업 환경에는 아무런 변화가 없습니다.</block>
   <block id="31243c2d285073a1e31df388c65d726f" category="list-text">역할 이름은 변경되었지만 사용 권한 관점에서는 차이가 없습니다. 사용자는 이전과 동일한 작업 환경에 계속 액세스할 수 있습니다.</block>
   <block id="694ce83c478c161c3ac05490450e107e" category="list-text">BlueXP  로그인 방법은 변경되지 않습니다. BlueXP  IAM은 NetApp 클라우드 로그인, NetApp Support 사이트 자격 증명 및 BlueXP  계정과 같은 통합 연결과 연동됩니다.</block>
@@ -4850,4 +4849,12 @@ https://support.netapp.com 으로 문의하십시오
   <block id="4e9a240c5fb31e56c6b0ab71a915953f" category="sidebar">사전 정의된 IAM 역할</block>
   <block id="1326a41ad4b26f3395b0f54dd9172b2b" category="sidebar">어카운트에 대해 알아보십시오</block>
   <block id="df583ae7ba964fd4806b55904da81813" category="list-text">경고</block>
+  <block id="c8e7383477673ee726b6ba29dc487444" category="list-text">IMDSv2 사용 시 응답 홉 제한을 입력합니다</block>
+  <block id="3e732c9d6276fdfd4d8499b951b6b262" category="list-text">EC2 인스턴스에서 IMDSv2가 활성화된 경우(새 EC2 인스턴스의 기본 설정) 인스턴스의 PUT 응답 홉 제한을 3으로 변경해야 합니다. EC2 인스턴스의 제한을 변경하지 않으면 Connector를 설정하려고 할 때 UI 초기화 오류가 발생합니다.</block>
+  <block id="8d8efedf65fe740dfe59c5779c9d745c" category="list-text"><block ref="8d8efedf65fe740dfe59c5779c9d745c" category="inline-link-macro-rx"></block></block>
+  <block id="75c0fbf84b1614b17a984df62bf849f6" category="inline-link">AWS 설명서: PUT 응답 홉 제한을 변경합니다</block>
+  <block id="ca7f44589a06d75665d92002d6148e98" category="list-text"><block ref="ca7f44589a06d75665d92002d6148e98" category="inline-link-rx"></block></block>
+  <block id="f08676e8a1e41f582ac0537747703230" category="paragraph"><block ref="f08676e8a1e41f582ac0537747703230" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d3e366c7ef57f5c2037203fa77c103c" category="list-text"><block ref="4d3e366c7ef57f5c2037203fa77c103c" category="inline-link-rx"></block></block>
+  <block id="6b7b64b4bdd6080baf05e2c37372258a" category="list-text"><block ref="6b7b64b4bdd6080baf05e2c37372258a" category="inline-link-rx"></block></block>
 </blocks>

@@ -57,7 +57,7 @@ BlueXP 에 로그인하면 다음과 같은 변경 사항이 나타납니다.
 * 설정에서 BlueXP  ID 및 액세스 관리에 액세스하여 이러한 향상된 기능을 활용할 수 있습니다
 
 
-image:screenshot-iam-introduction.png["인터페이스 맨 위에서 선택 가능한 조직 및 프로젝트, 설정 메뉴에서 사용 가능한 ID 및 액세스 관리를 보여 주는 BlueXP  스크린샷."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-iam-introduction.png["인터페이스 맨 위에서 선택 가능한 조직 및 프로젝트, 설정 메뉴에서 사용 가능한 ID 및 액세스 관리를 보여 주는 BlueXP  스크린샷."]
 
 다음 사항에 유의하십시오.
 
@@ -83,8 +83,8 @@ BlueXP  IAM은 표준 모드에서 BlueXP 를 사용할 때 지원됩니다. �
 
 ==== 다음 단계로 넘어갑니다
 
-* link:concept-identity-and-access-management.html["BlueXP  IAM에 대해 알아보십시오"]
-* link:task-iam-get-started.html["BlueXP  IAM을 시작하십시오"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-identity-and-access-management.html["BlueXP  IAM에 대해 알아보십시오"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-get-started.html["BlueXP  IAM을 시작하십시오"]
 
 
 

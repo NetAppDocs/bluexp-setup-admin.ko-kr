@@ -90,6 +90,14 @@ CPU:: 코어 8개 또는 vCPU 8개
 RAM:: 32GB
 AWS EC2 인스턴스 유형:: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. t3.2xlarge를 추천합니다.
 키 쌍:: Connector를 생성할 때 인스턴스와 함께 사용할 EC2 키 쌍을 선택해야 합니다.
+IMDSv2 사용 시 응답 홉 제한을 입력합니다:: EC2 인스턴스에서 IMDSv2가 활성화된 경우(새 EC2 인스턴스의 기본 설정) 인스턴스의 PUT 응답 홉 제한을 3으로 변경해야 합니다. EC2 인스턴스의 제한을 변경하지 않으면 Connector를 설정하려고 할 때 UI 초기화 오류가 발생합니다.
++
+--
+* link:task-require-imdsv2.html["Amazon EC2 인스턴스에서 IMDSv2를 사용해야 합니다"]
+* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-IMDS-existing-instances.html#modify-PUT-response-hop-limit["AWS 설명서: PUT 응답 홉 제한을 변경합니다"^]
+
+
+--
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 +
 --
