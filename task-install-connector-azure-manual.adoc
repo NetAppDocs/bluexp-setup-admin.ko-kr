@@ -92,7 +92,7 @@ Azure VM 크기입니다:: 위의 CPU 및 RAM 요구 사항을 충족하는 인�
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 +
 --
-BlueXP 사용 `/opt` 를 설치합니다 `/opt/application/netapp` 디렉토리 및 컨텐츠입니다.
+BlueXP 는 를 사용하여 `/opt` `/opt/application/netapp` 디렉터리와 해당 내용을 설치합니다.
 
 --
 /var의 디스크 공간입니다:: 20GiB의 공간을 사용할 수 있어야 합니다
