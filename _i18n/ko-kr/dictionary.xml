@@ -3889,7 +3889,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="3baace5508f5436415356f7f1c718d50" category="list-text">* RAM *: 32GB</block>
   <block id="e5ee5282a10eef25059e919331c8ea5e" category="list-text">* 기계 유형 * : 우리는 n2-standard-8를 권장합니다.</block>
   <block id="4ea5b82f34f27448cadea5ae611c81ba" category="list-text">* 인스턴스 유형 선택 *: 지역 가용성에 따라 지원되는 인스턴스 유형 중 하나를 선택합니다(t3.2xlarge 권장).</block>
-  <block id="d44724be897a214586cbd2c8b32fb39d" category="list-text">현재 커넥터, BlueXP  디지털 지갑, BlueXP  복사 및 동기화, BlueXP  백업 및 복구, BlueXP  계층화 등의 BlueXP  기능 및 서비스에 대한 알림이 전자 메일로 전송됩니다. 추가 서비스는 향후 릴리즈에서 추가될 예정입니다.</block>
   <block id="34c56ac41d4e5a004cc5b7c87b0e2d87" category="section-title">커넥터 3.9.43</block>
   <block id="05797637e0cfec59d8a5478eba1acfdf" category="paragraph">3.9.43 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="45c4fb485dfa6a5d0af975aa668648a9" category="section-title">CPU 및 RAM 요구 사항이 업데이트되었습니다</block>
@@ -4858,4 +4857,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="a1fe52ea216874a5214f41ae7e5bbd63" category="section-title">2024년 10월 10일</block>
   <block id="9071c576479353103106b574601bd920" category="section-title">커넥터 3.9.45 패치</block>
   <block id="d8497d3046f15c93d3e5c40856129331" category="paragraph">이 패치에는 버그 수정이 포함되어 있습니다.</block>
+  <block id="ab99e6e0b893c9db1dce5c6dc26245bc" category="list-text">커넥터, BlueXP  디지털 지갑, BlueXP  복사 및 동기화, BlueXP  백업 및 복구와 같은 BlueXP  기능 및 서비스에 대한 알림이 전자 메일로 전송됩니다.</block>
 </blocks>
