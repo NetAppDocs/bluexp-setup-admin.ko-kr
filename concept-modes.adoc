@@ -14,7 +14,7 @@ summary: BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식�
 
 
 [role="lead"]
-BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있는 다중 배포 모드 _ 를 제공합니다. _표준 모드_ 는 BlueXP SaaS 계층을 활용하여 모든 기능을 제공하며, 연결 제한이 있는 조직에서는 _restricted mode_ 및 _private mode_를 사용할 수 있습니다.
+BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있는 다중 배포 모드 _ 를 제공합니다. _표준 모드_ 는 BlueXP  SaaS(Software as a Service) 계층을 활용하여 모든 기능을 제공하며, 연결 제한이 있는 조직에서는 _LIMITED MODE_ 및 _PRIVATE MODE_ 를 사용할 수 있습니다.
 
 BlueXP 는 제한 모드 또는 비공개 모드를 사용할 때 트래픽, 통신 및 데이터의 흐름을 차단하지만, 환경(온프레미스 및 클라우드)이 필요한 규정을 준수하는지 확인하는 것은 사용자의 책임입니다.
 

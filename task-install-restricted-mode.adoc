@@ -14,7 +14,7 @@ summary: BlueXP SaaS 계층에 대한 아웃바운드 연결이 제한된 BlueXP
 
 
 [role="lead"]
-BlueXP SaaS 계층에 대한 아웃바운드 연결이 제한된 BlueXP를 사용할 수 있도록 제한된 모드로 커넥터를 배포합니다. 시작하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 이전에 설정한 클라우드 권한을 제공합니다.
+BlueXP  SaaS(Software as a Service) 계층에 대한 아웃바운드 연결이 제한된 BlueXP 를 사용할 수 있도록 커넥터를 제한된 모드로 배포합니다. 시작하려면 Connector를 설치하고 Connector에서 실행 중인 사용자 인터페이스에 액세스하여 BlueXP를 설정한 다음 이전에 설정한 클라우드 권한을 제공합니다.
 
 
 

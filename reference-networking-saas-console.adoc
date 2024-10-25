@@ -14,9 +14,13 @@ summary: SaaS 계층을 통해 제공되는 BlueXP 웹 기반 콘솔을 사용�
 
 
 [role="lead"]
-SaaS 계층을 통해 제공되는 BlueXP 웹 기반 콘솔을 사용할 때 몇 가지 관리 작업을 완료하면 여러 개의 엔드포인트에 연결됩니다. BlueXP 콘솔에 액세스하는 컴퓨터는 이러한 엔드포인트에 연결해야 합니다.
+사용자가 로그인하여 BlueXP  웹 기반 콘솔을 사용할 때 BlueXP 는 여러 끝점에 연결하여 사용자가 시작한 작업을 완료합니다. BlueXP  콘솔에 액세스하는 컴퓨터에는 이러한 끝점에 대한 연결이 있어야 합니다.
 
-이러한 엔드포인트는 BlueXP 콘솔에서 특정 작업을 완료할 때 사용자 컴퓨터에서 연결됩니다. 커넥터 및 특정 BlueXP 서비스의 네트워킹 요구사항도 참조해야 합니다. 자세한 내용은 이 페이지 끝에 있는 관련 링크를 참조하십시오.
+이러한 끝점은 다음 두 가지 시나리오로 연결됩니다.
+
+* SaaS(Software as a Service)로 제공되는 에서 특정 작업을 완료할 때 사용자의 컴퓨터에서 https://console.bluexp.netapp.com["BlueXP 웹 기반 콘솔"^]
+* 사용자 컴퓨터에서 웹 브라우저를 열고 커넥터 호스트의 IP 주소를 입력한 다음 커넥터에 로그인하고 설정합니다. 커넥터를 수동으로 설치하는 경우 다음 단계를 수행해야 합니다.
+
 
 [cols="2*"]
 |===
@@ -24,7 +28,10 @@ SaaS 계층을 통해 제공되는 BlueXP 웹 기반 콘솔을 사용할 때 몇
 
 
 | \https://console.bluexp.netapp.com
-\https://*.console.bluexp.netapp.com | 웹 브라우저는 BlueXP 웹 기반 콘솔을 사용할 때 이러한 URL에 연락합니다. 
+\https://*.console.bluexp.netapp.com | BlueXP  웹 기반 콘솔을 사용하기 위해 웹 브라우저에 입력하는 끝점입니다. 
+
+
+| \https://api.bluexp.netapp.com | BlueXP  웹 기반 콘솔은 이 끝점에 연결하여 인증, 라이선스, 구독, 자격 증명, 알림 등과 관련된 작업을 BlueXP  API와 상호 작용합니다. 
 
 
 | \https://aiq.netapp.com | BlueXP 디지털 어드바이저에 액세스하기 위해 필요합니다. 

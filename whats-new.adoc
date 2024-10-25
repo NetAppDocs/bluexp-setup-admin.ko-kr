@@ -121,7 +121,11 @@ BlueXP 는 이제 SELinux가 Enforcing 모드 또는 Permissive 모드로 활�
 
 SELinux에 대한 지원은 표준 모드 및 제한 모드에 대한 3.9.40 릴리스와 개인 모드에 대한 3.9.42 릴리스에서 시작됩니다.
 
-BlueXP 는 Ubuntu 호스트가 있는 SELinux를 지원하지 않습니다.
+다음 제한 사항을 참고하십시오.
+
+* BlueXP 는 Ubuntu 호스트가 있는 SELinux를 지원하지 않습니다.
+* 운영 체제에서 SELinux가 활성화된 커넥터에서 지원되지 않는 Cloud Volumes ONTAP 시스템 관리.
+
 
 https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/getting-started-with-selinux_using-selinux["SELinux에 대해 자세히 알아보십시오"^]
 
