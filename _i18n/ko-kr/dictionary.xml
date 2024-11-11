@@ -4873,4 +4873,18 @@ https://support.netapp.com 으로 문의하십시오
   <block id="b761d39c43ee7b44b5589e7be65657ea" category="paragraph">일부 작업에는 커넥터 또는 BlueXP  워크로드 팩토리 링크가 필요합니다.<block ref="eab18bd75996775296aa94b3a12b305e" category="inline-link-rx"></block></block>
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="list-text">워크로드 공장</block>
   <block id="d5094f4772a2d747eb41596de33fc883" category="paragraph">커넥터는 Amazon FSx for ONTAP 파일 시스템 관리를 위해 다음과 같은 API 요청을 수행합니다.</block>
+  <block id="54eca49362b96a7e1899f1d9f7fbdeef" category="doc">커넥터 3.9.46</block>
+  <block id="5b7c2a7de0cce99684e946ddad5735bd" category="paragraph">현재 3.9.46 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="37e5831d4c68f17f87dd40b6ea95f2bc" category="section-title">IAM 프로젝트용 ID</block>
+  <block id="102aeb225438210afe20dc2776fb6870" category="paragraph">이제 BlueXP  ID 및 액세스 관리에서 프로젝트의 ID를 볼 수 있습니다. API 호출 시 ID를 사용해야 할 수 있습니다.</block>
+  <block id="5c8ebe245f66e84eaef1ca801f274ee3" category="inline-link-macro">프로젝트의 ID를 가져오는 방법에 대해 알아봅니다</block>
+  <block id="89d67911b68ccc5d2e1c1ba76f5d85d2" category="paragraph"><block ref="05b01cf8b541aa707e135b6ea0dd3477" category="inline-link-macro-rx"></block>..</block>
+  <block id="9c0c9fdc01dbde3e19b2b95d0ed36308" category="section-title">프로젝트의 ID를 가져옵니다</block>
+  <block id="b653cd33888ca8dc048a0fd0c8ce7280" category="paragraph">BlueXP  API를 사용하는 경우 프로젝트의 ID를 얻어야 할 수 있습니다. 예를 들어, Cloud Volumes ONTAP 작업 환경을 만들 때</block>
+  <block id="798eb88714cdc2034c3335c3a6c21193" category="list-text">조직 * 페이지에서 테이블의 프로젝트로 이동하고 을 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="efb318f1d905ec45c96414554f0f7c18" category="paragraph">프로젝트 ID가 표시됩니다.</block>
+  <block id="811c7706be3ba95d1d407ea18e420365" category="list-text">ID를 복사하려면 복사 버튼을 선택합니다.</block>
+  <block id="c5f7a94f7e361ce9dc993775dd14b3c1" category="inline-image-macro">프로젝트의 작업 메뉴를 선택하는 데 도움이 되는 프로젝트 ID를 보여 주는 폴더 및 프로젝트 테이블의 스크린샷</block>
+  <block id="c4c78a982626adb55fd316627b7b9909" category="paragraph"><block ref="c4c78a982626adb55fd316627b7b9909" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
 </blocks>
