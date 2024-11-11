@@ -149,9 +149,6 @@ API 종점:: API 호출은 Connector 가상 시스템으로 이루어집니다.
 | 지원되는 서비스 | 참고 
 
 
-| ONTAP용 Amazon FSx | 완벽한 지원 
-
-
 | Azure NetApp Files | 완벽한 지원 
 
 
@@ -328,7 +325,7 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 
 .10+| * 작업 환경 *
 
-표의 이 부분에는 BlueXP 캔버스에서 작업 환경 관리를 위한 지원이 나와 있습니다. BlueXP 백업 및 복구에 지원되는 백업 대상은 표시되지 않습니다. | ONTAP용 Amazon FSx | 예 | 아니요 
+표의 이 부분에는 BlueXP 캔버스에서 작업 환경 관리를 위한 지원이 나와 있습니다. BlueXP 백업 및 복구에 지원되는 백업 대상은 표시되지 않습니다. | ONTAP용 Amazon FSx | 아니요 | 아니요 
 
 
 | Amazon S3 | 아니요 | 아니요 
@@ -358,7 +355,7 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 | StorageGRID | 아니요 | 아니요 
 
 
-.16+| 서비스 * | 경고 | 아니요 | 아니요 
+.17+| 서비스 * | 경고 | 아니요 | 아니요 
 
 
 | 백업 및 복구 | 예
@@ -408,6 +405,9 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.
 
 
 | 볼륨 캐싱 | 아니요 | 아니요 
+
+
+| 워크로드 공장 | 아니요 | 아니요 
 
 
 .7+| * 기능 * | BlueXP  ID 및 액세스 관리 | 아니요 | 아니요 

@@ -24,9 +24,9 @@ BlueXP를 시작하기 위해 커넥터가 필요하지 않습니다. Connector�
 
 커넥터 없이 다음 BlueXP 기능 및 서비스를 사용할 수 있습니다.
 
-* NetApp ONTAP 작업 환경 생성을 위한 Amazon FSx
+* NetApp ONTAP용 Amazon FSx
 +
-Connector는 작업 환경을 만드는 데 필요하지 않지만 볼륨 생성 및 관리, 데이터 복제, ONTAP용 FSx를 BlueXP 분류 및 BlueXP 복사 및 동기화 등의 서비스와 통합해야 합니다.
+일부 작업에는 커넥터 또는 BlueXP  워크로드 팩토리 링크가 필요합니다. https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["커넥터 또는 링크가 필요한 작업에 대해 알아봅니다"^]
 
 * 자동화 카탈로그
 * Azure NetApp Files
@@ -52,6 +52,7 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 
 * 소프트웨어 업데이트
 * 지속 가능성
+* 워크로드 공장
 
 
 

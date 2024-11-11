@@ -764,7 +764,7 @@ BlueXP가 AWS에서 Connector 인스턴스를 시작하면 Connector에 해당 A
 
 === ONTAP용 Amazon FSx
 
-Connector는 ONTAP용 Amazon FSx를 관리하기 위해 다음과 같은 API 요청을 수행합니다.
+커넥터는 Amazon FSx for ONTAP 파일 시스템 관리를 위해 다음과 같은 API 요청을 수행합니다.
 
 * EC2: DescribeInstances(지시 인스턴스)
 * EC2: DescribeInstanceStatus
