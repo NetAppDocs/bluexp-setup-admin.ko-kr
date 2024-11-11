@@ -4878,7 +4878,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="37e5831d4c68f17f87dd40b6ea95f2bc" category="section-title">IAM 프로젝트용 ID</block>
   <block id="102aeb225438210afe20dc2776fb6870" category="paragraph">이제 BlueXP  ID 및 액세스 관리에서 프로젝트의 ID를 볼 수 있습니다. API 호출 시 ID를 사용해야 할 수 있습니다.</block>
   <block id="5c8ebe245f66e84eaef1ca801f274ee3" category="inline-link-macro">프로젝트의 ID를 가져오는 방법에 대해 알아봅니다</block>
-  <block id="89d67911b68ccc5d2e1c1ba76f5d85d2" category="paragraph"><block ref="05b01cf8b541aa707e135b6ea0dd3477" category="inline-link-macro-rx"></block>..</block>
   <block id="9c0c9fdc01dbde3e19b2b95d0ed36308" category="section-title">프로젝트의 ID를 가져옵니다</block>
   <block id="b653cd33888ca8dc048a0fd0c8ce7280" category="paragraph">BlueXP  API를 사용하는 경우 프로젝트의 ID를 얻어야 할 수 있습니다. 예를 들어, Cloud Volumes ONTAP 작업 환경을 만들 때</block>
   <block id="798eb88714cdc2034c3335c3a6c21193" category="list-text">조직 * 페이지에서 테이블의 프로젝트로 이동하고 을 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block></block>
@@ -4887,4 +4886,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="c5f7a94f7e361ce9dc993775dd14b3c1" category="inline-image-macro">프로젝트의 작업 메뉴를 선택하는 데 도움이 되는 프로젝트 ID를 보여 주는 폴더 및 프로젝트 테이블의 스크린샷</block>
   <block id="c4c78a982626adb55fd316627b7b9909" category="paragraph"><block ref="c4c78a982626adb55fd316627b7b9909" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
+  <block id="db31ae4dc32d9d514625710dfb24ee0a" category="paragraph"><block ref="52c305e9fd97fc371c1991c1470ed96b" category="inline-link-rx"></block>..</block>
 </blocks>

@@ -34,7 +34,7 @@ ID 및 액세스 관리(IAM), 커넥터, 클라우드 공급자 자격 증명 �
 
 이제 BlueXP  ID 및 액세스 관리에서 프로젝트의 ID를 볼 수 있습니다. API 호출 시 ID를 사용해야 할 수 있습니다.
 
-link:task-iam-manage-folders-projects.html#project-id["프로젝트의 ID를 가져오는 방법에 대해 알아봅니다"]..
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-folders-projects.html#project-id["프로젝트의 ID를 가져오는 방법에 대해 알아봅니다"]..
 
 
 
