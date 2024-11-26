@@ -4887,4 +4887,25 @@ https://support.netapp.com 으로 문의하십시오
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
   <block id="db31ae4dc32d9d514625710dfb24ee0a" category="paragraph"><block ref="52c305e9fd97fc371c1991c1470ed96b" category="inline-link-rx"></block>..</block>
   <block id="be6af94f792f554a6fe5be714926ba2a" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. Connector 온-프레미스를 실행하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, 클라우드 권한을 준비하고, Connector를 설치하고, Connector를 설정하고, 준비한 사용 권한을 제공해야 합니다.</block>
+  <block id="64a7a8a4f820d38dc5cedd70930717c0" category="doc">비공개 모드 해제(3.9.46)</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">이제 에서 새 비공개 모드 릴리스를 다운로드할 수 있습니다<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="579c9c5aad40c47e8203472b55439941" category="paragraph">3.9.46 릴리스에는 다음 BlueXP  구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">구성 요소 또는 서비스</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">이 릴리스에 포함된 버전입니다</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">이전 비공개 모드 릴리스 이후 변경된 사항입니다</block>
+  <block id="3d93fe525e5005a3aa89376ce36eaf7d" category="cell">3.9.46</block>
+  <block id="2e6f33758bf126679d5a0225c22673d3" category="cell">사소한 보안 개선 사항 및 버그 수정</block>
+  <block id="008c6d012aabba0e44e2b94f8259635c" category="cell">2024년 11월 22일</block>
+  <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">BlueXP  백업 및 복구 페이지의 새로운 기능</block>
+  <block id="cc73bd495467f0768e5ab6fbca8c9fc3" category="cell">로<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> 이동하여 2024년 11월 릴리즈에 포함된 변경 사항을 참조하십시오</block>
+  <block id="d9865720c88f775c3c7aa2407f42807e" category="cell">2024년 11월 4일(버전 1.37)</block>
+  <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">BlueXP  분류 페이지의 새로운 기능</block>
+  <block id="3634786b3e46e41488029a1f5adcfb51" category="cell">로<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> 이동하여 1.32 ~ 1.37 릴리스에 포함된 변경 사항을 참조하십시오</block>
+  <block id="5cee96e11788b0260fca227a2882f413" category="inline-link">Cloud Volumes ONTAP 관리 페이지의 새로운 기능</block>
+  <block id="2b06273c345679e8396f450bec75502c" category="cell">로<block ref="90e3b44730452fe495e75ab6e2b7eb58" category="inline-link-rx"></block> 이동하여 2024년 10월 및 2024년 11월 릴리즈에 포함된 변경 사항을 참조하십시오</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="cell">2024년 11월 26일</block>
+  <block id="4f2f9aa2e4b010fbcd8cded5bf523370" category="inline-link">온프레미스 ONTAP 클러스터 관리 페이지의 새로운 기능</block>
+  <block id="bad4efa38c7fe2023ac7a25606d5f186" category="cell">로<block ref="bb047968fd3a98ed3e45ad4e39500b8b" category="inline-link-rx"></block> 이동하여 2024년 11월 릴리즈에 포함된 변경 사항을 참조하십시오</block>
+  <block id="93c9916354f3f5fa45f4019fd081f12a" category="paragraph">BlueXP  디지털 지갑과 BlueXP  복제도 비공개 모드에 포함되지만 이전 비공개 모드 릴리스에서는 아무런 변화가 없습니다.</block>
+  <block id="cd33b497651f0d35a9b546fed113bac9" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block>s.(s</block>
 </blocks>
