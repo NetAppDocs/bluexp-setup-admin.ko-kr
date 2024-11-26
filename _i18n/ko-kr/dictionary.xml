@@ -2367,12 +2367,9 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="92fa0fc1299e55c066d0a19cd22b4e7b" category="list-text">* ID *: * Management * 에서 * 시스템에서 할당한 관리 ID 활성화 * 를 선택합니다.</block>
   <block id="2d3bb174766a8cbc78a4d5d0a2739c56" category="paragraph">BlueXP 콘솔에 처음 액세스할 때 Connector를 연결할 계정을 선택하라는 메시지가 표시되면 제한된 모드를 활성화해야 합니다.</block>
   <block id="b22816a3d20c18e89e4ef89984ca5df6" category="inline-link-macro">추가 BlueXP 계정을 만드는 방법에 대해 알아봅니다</block>
-  <block id="432f719258fc9e575a2982302eac9cdc" category="admonition">이미 계정이 있고 다른 계정을 만들려면 Tenancy API를 사용해야 합니다. <block ref="987610e2980e99ab837daf2502634d0e" category="inline-link-macro-rx"></block>.</block>
   <block id="d0afc367dac05a517daede09c87a1703" category="list-text">BlueXP에 가입하거나 로그인합니다.</block>
   <block id="31925d7c2cb5897bb831e016bf096aeb" category="list-text">로그인한 후 BlueXP를 설정합니다.</block>
   <block id="511a9fce084315d00b23c33c017b6f00" category="list-text">커넥터 이름을 입력합니다.</block>
-  <block id="b62bf1f79ab961793aac4650ff63f80e" category="list-text">새 BlueXP 계정의 이름을 입력하거나 기존 계정을 선택합니다.</block>
-  <block id="60bcc9cfb61752f7c83242e23b71c36a" category="paragraph">로그인이 이미 BlueXP 계정과 연결되어 있는 경우 기존 계정을 선택할 수 있습니다.</block>
   <block id="19219dd3059a0601db6b584237e0fa1f" category="list-text">보안 환경에서 실행 중입니까? * 를 선택합니다</block>
   <block id="fee876de3937b43909f6c74baf1cadb3" category="list-text">이 계정에서 제한 모드 사용 * 을 선택합니다.</block>
   <block id="6c1ad8d8a00d0b91aa909ccb6da52806" category="paragraph">BlueXP에서 계정을 만든 후에는 이 설정을 변경할 수 없습니다. 나중에 제한 모드를 활성화할 수 없으며 나중에 비활성화할 수 없습니다.</block>
@@ -4908,4 +4905,7 @@ https://support.netapp.com 으로 문의하십시오
   <block id="bad4efa38c7fe2023ac7a25606d5f186" category="cell">로<block ref="bb047968fd3a98ed3e45ad4e39500b8b" category="inline-link-rx"></block> 이동하여 2024년 11월 릴리즈에 포함된 변경 사항을 참조하십시오</block>
   <block id="93c9916354f3f5fa45f4019fd081f12a" category="paragraph">BlueXP  디지털 지갑과 BlueXP  복제도 비공개 모드에 포함되지만 이전 비공개 모드 릴리스에서는 아무런 변화가 없습니다.</block>
   <block id="cd33b497651f0d35a9b546fed113bac9" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block>s.(s</block>
+  <block id="d9e0b5302621c1c23c370143ae83f9e2" category="paragraph">BlueXP  커넥터를 설정하는 사용자는 표준 모드로 운영되는 BlueXP  조직에 속하지 않는 로그인을 사용하여 BlueXP 에 로그인해야 합니다.</block>
+  <block id="958a2cecb2c46938c95b34d62fe1951c" category="paragraph">BlueXP  로그인이 표준 모드로 운영되는 조직과 연결되어 있는 경우 조직에 속하지 않는 새 BlueXP  로그인 또는 NetApp 지원 사이트 자격 증명을 사용하여 등록해야 합니다. 그렇지 않으면 제한 모드를 활성화하는 옵션이 설정 화면에 표시되지 않습니다.</block>
+  <block id="fbb40b7689fb13eea9ed1fa8b7206a3b" category="list-text">새 BlueXP  계정의 이름을 입력합니다.</block>
 </blocks>
