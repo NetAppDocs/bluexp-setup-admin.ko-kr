@@ -35,5 +35,5 @@ BlueXP  디지털 지갑과 BlueXP  복제도 비공개 모드에 포함되지
 
 * https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["비공개 모드에 대해 알아봅니다"]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다"]s.(s
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다"]
 

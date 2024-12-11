@@ -296,7 +296,6 @@ BlueXP 콘솔에 대한 사용자 액세스를 위한 네트워킹을 준비합�
 수동 설치 중에 연결된 끝점입니다:: 자체 Linux 호스트에 커넥터를 수동으로 설치할 경우 Connector 설치 과정에서 다음 URL에 액세스해야 합니다.
 +
 --
-* \https://support.netapp.com
 * \https://mysupport.netapp.com
 * \https://signin.b2c.NetApp.com(이 끝점은 \https://mysupport.NetApp.com의 CNAME URL)
 * \https://cloudmanager.cloud.netapp.com/tenancy
