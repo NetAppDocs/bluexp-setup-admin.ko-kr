@@ -293,22 +293,54 @@ BlueXP 콘솔에 대한 사용자 액세스를 위한 네트워킹을 준비합�
 --
 
 
-수동 설치 중에 연결된 끝점입니다:: 자체 Linux 호스트에 커넥터를 수동으로 설치할 경우 Connector 설치 과정에서 다음 URL에 액세스해야 합니다.
+수동 설치 중에 연결된 끝점입니다:: 자신의 Linux 호스트에 Connector를 수동으로 설치할 경우 설치 프로세스 중에 Connector용 설치 프로그램에서 여러 URL에 액세스해야 합니다.
 +
 --
-* \https://mysupport.netapp.com
-* \https://signin.b2c.NetApp.com(이 끝점은 \https://mysupport.NetApp.com의 CNAME URL)
-* \https://cloudmanager.cloud.netapp.com/tenancy
-* \https://stream.cloudmanager.cloud.netapp.com
-* \https://production-artifacts.cloudmanager.cloud.netapp.com
-* \https://*.blob.core.windows.net
-* \https://cloudmanagerinfraprod.azurecr.io
+* Connector를 어디에 설치하든 다음 끝점은 항상 연결됩니다.
 +
-Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
+** \https://mysupport.netapp.com
+** \https://signin.b2c.NetApp.com(이 끝점은 \https://mysupport.NetApp.com의 CNAME URL)
+** \https://cloudmanager.cloud.netapp.com/tenancy
+** \https://stream.cloudmanager.cloud.netapp.com
+** \https://production-artifacts.cloudmanager.cloud.netapp.com
 
-* \https://occmclientinfragov.azurecr.us
+
+* AWS 정부 지역에 Connector를 설치하는 경우 설치 프로그램에서 다음 끝점에 액세스할 수도 있어야 합니다.
 +
-이 엔드포인트는 Azure Government 지역에서만 필요합니다.
+** \https://*.blob.core.windows.net
+** \https://cloudmanagerinfraprod.azurecr.io
+
+
+* Azure Government 지역에 Connector를 설치하는 경우 설치 프로그램에서 다음 끝점에 액세스해야 합니다.
++
+** \https://*.blob.core.windows.net
+** \https://occmclientinfragov.azurecr.us
+
+
+* 커넥터를 상업 지역 또는 주권 영역에 설치하는 경우 두 끝점 집합 중에서 선택할 수 있습니다.
++
+** 옵션 1(권장):
++
+*** \https://bluexpinfraprod.eastus2.data.azurecr.io
+*** \https://bluexpinfraprod.azurecr.io
+
+
+** 옵션 2:
++
+*** \https://*.blob.core.windows.net
+*** \https://cloudmanagerinfraprod.azurecr.io
+
+
+
+
++
+옵션 1에 나열된 끝점은 더 안전하므로 권장됩니다. 옵션 1에 나열된 끝점을 허용하고 옵션 2에 나열된 끝점을 허용하지 않도록 방화벽을 설정하는 것이 좋습니다. 이러한 끝점에 대해서는 다음 사항을 참고하십시오.
+
++
+** 옵션 1에 나열된 끝점은 커넥터의 3.9.47 릴리스부터 지원됩니다. 이전 버전의 Connector와 이전 버전과의 호환성은 없습니다.
+** 커넥터가 옵션 2에 나열된 끝점을 먼저 접촉합니다. 이러한 끝점에 액세스할 수 없으면 연결선이 옵션 1에 나열된 끝점에 자동으로 연결합니다.
+** Connector with BlueXP  백업 및 복구 또는 BlueXP  랜섬웨어 보호를 사용하는 경우 옵션 1의 엔드포인트가 지원되지 않습니다. 이 경우 옵션 1에 나열된 끝점을 허용하지 않고 옵션 2에 나열된 끝점을 허용할 수 있습니다.
+
 
 
 
@@ -392,15 +424,7 @@ https://mysupport.netapp.com 으로 문의하십시오
 
 
  a| 
-\https://*.api.bluexp.netapp.com
-
-\https://api.bluexp.netapp.com
-
-\https://*.cloudmanager.cloud.netapp.com
-
-\https://cloudmanager.cloud.netapp.com
-
-\https://netapp-cloud-account.auth0.com
+\https://\*.api.BlueXP .NetApp.com\https://api.BlueXP .NetApp.com\https://*.cloudmanager.cloud.NetApp.com\https://cloudmanager.cloud.NetApp.com\https://NetApp -cloud-account.auth0.com
  a| 
 BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.
 
@@ -409,17 +433,42 @@ BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.
 
 
  a| 
-\https://*.blob.core.windows.net
-
-\https://cloudmanagerinfraprod.azurecr.io
-Azure Government 지역에서는 이 끝점이 필요하지 않습니다.
-
-\https://occmclientinfragov.azurecr.us
-이 엔드포인트는 Azure Government 지역에서만 필요합니다.
+커넥터가 AWS 정부 지역에 있는 경우: \https://*.blob.core.windows.net \https://cloudmanagerinfraprod.azurecr.io
  a| 
-Connector 및 해당 Docker 구성 요소를 업그레이드합니다.
+커넥터가 AWS 정부 지역에 설치된 경우 Connector 업그레이드에 대한 이미지를 얻으려면
+
+
+
+ a| 
+커넥터가 Azure 정부 지역에 있는 경우: \https://*.blob.core.windows.net \https://occmclientinfragov.azurecr.us
+ a| 
+커넥터가 Azure 정부 지역에 설치된 경우 Connector 업그레이드에 대한 이미지를 얻으려면
+
+
+
+ a| 
+커넥터가 상업 지역 또는 주권 지역에 있는 경우 두 끝점 집합 중에서 선택할 수 있습니다.
+
+* 옵션 1(권장
++
+\https://bluexpinfraprod.eastus2.data.azurecr.io \https://bluexpinfraprod.azurecr.io
+
+* 옵션 2
++
+\https://*.blob.core.windows.net \https://cloudmanagerinfraprod.azurecr.io
+
+
+ a| 
+커넥터가 상업 지역 또는 주권 지역에 설치된 경우 커넥터 업그레이드에 대한 이미지를 얻기 위해
 
 |===
+옵션 1에 나열된 끝점은 더 안전하므로 권장됩니다. 옵션 1에 나열된 끝점을 허용하고 옵션 2에 나열된 끝점을 허용하지 않도록 방화벽을 설정하는 것이 좋습니다. 이러한 끝점에 대해서는 다음 사항을 참고하십시오.
+
+* 옵션 1에 나열된 끝점은 커넥터의 3.9.47 릴리스부터 지원됩니다. 이전 버전의 Connector와 이전 버전과의 호환성은 없습니다.
+* 커넥터가 옵션 2에 나열된 끝점을 먼저 접촉합니다. 이러한 끝점에 액세스할 수 없으면 연결선이 옵션 1에 나열된 끝점에 자동으로 연결합니다.
+* Connector with BlueXP  백업 및 복구 또는 BlueXP  랜섬웨어 보호를 사용하는 경우 옵션 1의 엔드포인트가 지원되지 않습니다. 이 경우 옵션 1에 나열된 끝점을 허용하지 않고 옵션 2에 나열된 끝점을 허용할 수 있습니다.
+
+
 --
 
 

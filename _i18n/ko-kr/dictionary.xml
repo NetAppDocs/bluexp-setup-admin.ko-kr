@@ -171,12 +171,8 @@
   <block id="ec646b7b2f70895a68ca206afb2d6108" category="list-text">S3(Simple Storage Service)</block>
   <block id="aec651d37f6f533a4066a1ac8774d6b0" category="inline-link">자세한 내용은 AWS 설명서를 참조하십시오</block>
   <block id="db9e137068a05efe5440105c2494b7f1" category="cell">라이센스 정보를 얻고 AutoSupport 메시지를 NetApp 지원 팀에 전송합니다.</block>
-  <block id="37ba276f010f4ea07f1196b487811443" category="paragraph">\https://*.api.bluexp.netapp.com</block>
   <block id="e1095ff19466581c5274f67123c95036" category="paragraph">\https://api.bluexp.netapp.com</block>
-  <block id="9e434ddc2ad4b9de005368b77254223d" category="paragraph">\https://*.cloudmanager.cloud.netapp.com</block>
-  <block id="115781a0043a85f8707c5c99fd02dc75" category="paragraph">\https://cloudmanager.cloud.netapp.com</block>
   <block id="23486ca53d499245ebae5460cf6d10ad" category="paragraph">BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.</block>
-  <block id="065880318484084e9bfe33ea9c6a8702" category="cell">Connector 및 해당 Docker 구성 요소를 업그레이드합니다.</block>
   <block id="824f455afa0ae197e5e7156988b6dc50" category="section-title">프록시 서버</block>
   <block id="407c4e9fac86b98147da49acd4fa0d01" category="section-title">포트</block>
   <block id="b68600c18c6dd9598d4518bc4a3f2c90" category="list-text">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.</block>
@@ -890,7 +886,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="25b6fc1a8ebb7aa3a82a611b3dc7cc8d" category="inline-link-macro">Azure용 커넥터 배포 정책</block>
   <block id="9cbe008fc71c240a16ab125b2873fe44" category="inline-link-macro">BlueXP에서 사용 권한을 사용하는 방법을 검토합니다</block>
   <block id="1985b326c07cdcb2a260ae0c0c6fde8d" category="inline-link">시스템에서 할당한 관리 ID입니다</block>
-  <block id="d47be244f383106c84a24b1e4ba4fea6" category="paragraph">BlueXP가 Azure에 Connector 가상 시스템을 배포하면 가 활성화됩니다<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block> 가상 머신에서 사용자 지정 역할을 생성하고 가상 머신에 할당합니다. BlueXP는 이 역할을 통해 Azure 가입 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 얻을 수 있습니다. <block ref="daf58003d5227a43b6fbea1d165f6f7b" category="inline-link-macro-rx"></block>.</block>
   <block id="825a028e49bfdd88d5c17500e011aaf5" category="inline-image-macro">Azure 계정 및 구독에 Connector를 배포하는 BlueXP를 보여 주는 개념 이미지입니다. 시스템에서 할당한 관리 ID가 활성화되고 사용자 지정 역할이 Connector 가상 머신에 할당됩니다.</block>
   <block id="4ba8970a06f2fd9f7ce2b5459745a3f0" category="paragraph"><block ref="4ba8970a06f2fd9f7ce2b5459745a3f0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="98c16c747c940667876d314b6eb47dba" category="inline-image-macro">세부 정보 및 amp;Credentials 페이지의 계정 전환 옵션을 보여 주는 스크린샷</block>
@@ -2732,8 +2727,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="7cbd2e15c5d25612181f48c177cab04b" category="paragraph">Connector를 수동으로 설치하고 Connector 및 해당 Docker 구성 요소를 업그레이드하려면 이 끝점이 필요합니다.</block>
   <block id="49145759efbc79c21fc5ba75bb2aaf72" category="paragraph">이러한 변경으로 인해 Azure Government 지역의 Connector는 더 이상 다음 끝점에 문의하지 않습니다.</block>
   <block id="979b0001d7bec41aff8509faf7b59bef" category="paragraph">이 엔드포인트는 다른 모든 제한된 모드 구성 및 표준 모드에 대해 여전히 필요합니다.</block>
-  <block id="b7e5db85ee5e5c349f5841d09bf19cbe" category="paragraph">Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block>
-  <block id="8e1098945acc0cdc1dade8505d9ce607" category="paragraph">이 엔드포인트는 Azure Government 지역에서만 필요합니다.</block>
   <block id="297a49f6150dc8dc8d45620c0f09f393" category="list-text">다른 Google Cloud 프로젝트의 리소스를 관리하려면 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.</block>
   <block id="1f7d098197ba2def0ffc66c388b2aa6c" category="paragraph">Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음 AWS 자격 증명을 선택합니다.</block>
   <block id="1c16bd0b2377f4460ae56ecb40a419ae" category="paragraph">이 역할과 연결된 Azure 구독을 선택할 수 있습니다. 선택한 각 구독은 해당 구독의 리소스를 관리하는 커넥터 권한을 제공합니다(예: Cloud Volumes ONTAP).</block>
@@ -2785,14 +2778,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
 \https://cloudkms.googleapis.com/v1
 \https://www.googleapis.com/deploymentmanager/v2/projects</block>
   <block id="641d1f191c2b819061a8e9b6046fdbeb" category="paragraph">Google Cloud에서 리소스를 관리합니다.</block>
-  <block id="cbb0e5cc736eaf87107f863bf695f576" category="paragraph">|\https://*.api.bluexp.netapp.com</block>
   <block id="6032f72586d36689e65d40f24d6a282a" category="paragraph">BlueXP 내에서 SaaS 기능 및 서비스를 제공합니다.</block>
-  <block id="315cc875789c13a43c4e0c550413aeb3" category="paragraph">|\https://*.blob.core.windows.net</block>
-  <block id="f921751bfd3f9ccb8d1939fdcf454c55" category="paragraph">Connector 및 해당 Docker 구성 요소를 업그레이드하려면 |를 수행합니다.</block>
-  <block id="8e999f16c9e1bf3513a187ca219b352d" category="paragraph">\https://cloudmanagerinfraprod.azurecr.io
-Azure Government 지역에서는 이 끝점이 필요하지 않습니다.</block>
-  <block id="badc30c7f0d12562a8053216959ee48c" category="paragraph">\https://occmclientinfragov.azurecr.us
-이 엔드포인트는 Azure Government 지역에서만 필요합니다.</block>
   <block id="d7a02621d52c29a3c5f7895e817cba5b" category="list-text">자동화 카탈로그</block>
   <block id="37b89c92faa8fead3ede2cb2c162ef52" category="inline-link-macro">Connector 인스턴스 자체에 필요한 권한을 봅니다</block>
   <block id="ee0f5d3d76febb57f0cd8c307401026c" category="paragraph">시장 구축을 준비하려면 AWS에서 IAM 정책을 생성하고 IAM 역할에 연결합니다. AWS Marketplace에서 Connector를 생성하면 해당 IAM 역할을 선택하라는 메시지가 표시됩니다.</block>
@@ -3026,7 +3012,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="60c6ee9a22a8a9d78e90e7b6417781b1" category="list-text">EC2 Linux 인스턴스의 사용자 이름은 Ubuntu입니다(2023년 5월 이전에 생성된 커넥터의 경우 사용자 이름은 EC2-user입니다).</block>
   <block id="2a3be610e29cddb2c56aa61b555b895a" category="list-text">AWS에서 Connector 인스턴스를 생성한 경우 AWS 액세스 키와 암호 키를 제공했습니다. 이 키 쌍을 사용하여 인스턴스에 SSH를 사용할 수 있습니다. EC2 Linux 인스턴스의 사용자 이름은 Ubuntu입니다(2023년 5월 이전에 생성된 커넥터의 경우 사용자 이름은 EC2-user입니다).</block>
   <block id="04e4cf5594e5bdae569d4fdcee8b46a6" category="list-text">Azure에서 Connector VM을 생성할 때 사용자 이름을 지정하고 암호 또는 SSH 공개 키로 인증하도록 선택했습니다. VM에 연결하도록 선택한 인증 방법을 사용합니다.</block>
-  <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\https://netapp-cloud-account.auth0.com</block>
   <block id="8ddd07f4c199accad92d619cc396eaef" category="video-title">AWS 마켓플레이스에서 BlueXP를 구독하십시오</block>
   <block id="040832c90148c5bba767901a4a55ebe4" category="video-title">Azure 마켓플레이스에서 BlueXP를 구독하십시오</block>
   <block id="c6e17aa071476599f5e5fc5b8bc42431" category="video-title">Google Cloud 마켓플레이스에서 BlueXP를 구독하십시오</block>
@@ -4927,4 +4912,57 @@ https://support.netapp.com 으로 문의하십시오
   <block id="1f86b1e4048d088ce153a6f451fb30d6" category="section-title">2024년 12월 9일</block>
   <block id="6dbd17d362d540a01bdcf61fb73192e3" category="paragraph"><block ref="6dbd17d362d540a01bdcf61fb73192e3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8aed33df97a7e5d16736c205973e6239" category="paragraph"><block ref="8aed33df97a7e5d16736c205973e6239" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="670c21c09cc12fa2b540e85129379b5e" category="paragraph">|\https://\*.api.BlueXP .NetApp.com\https://api.BlueXP .NetApp.com\https://*.cloudmanager.cloud.NetApp.com\https://cloudmanager.cloud.NetApp.com\https://NetApp -cloud-account.auth0.com</block>
+  <block id="1eda4150e04890cf41a6ea76d98f697a" category="paragraph">a | 두 끝점 세트 중에서 선택합니다.</block>
+  <block id="5f6428bd6c6248b828101aca600e81cd" category="list-text">옵션 1(권장</block>
+  <block id="7d9fb0da2a7d9c9f4e35c19e20d063fa" category="paragraph">\https://bluexpinfraprod.eastus2.data.azurecr.io \https://bluexpinfraprod.azurecr.io</block>
+  <block id="e24963e40778134b357f4a5eac58e1f5" category="list-text">옵션 2</block>
+  <block id="136fa3635085015cd64da15749cb05d3" category="paragraph">\https://*.blob.core.windows.net \https://cloudmanagerinfraprod.azurecr.io</block>
+  <block id="ba7444feff898fd31052b2c3d71eb3bc" category="paragraph">커넥터 업그레이드를 위한 이미지를 얻으려면 |을(를) 클릭하십시오.</block>
+  <block id="98514385a1eee063dc909984510770cc" category="paragraph">옵션 1에 나열된 끝점은 더 안전하므로 권장됩니다. 옵션 1에 나열된 끝점을 허용하고 옵션 2에 나열된 끝점을 허용하지 않도록 방화벽을 설정하는 것이 좋습니다. 이러한 끝점에 대해서는 다음 사항을 참고하십시오.</block>
+  <block id="730c1767bb447dca00c8c31982caa0e8" category="paragraph">+ * 옵션 1에 나열된 끝점은 커넥터의 3.9.47 릴리스부터 지원됩니다. 이전 버전의 Connector와 이전 버전과의 호환성은 없습니다. * 커넥터가 옵션 2에 나열된 끝점을 먼저 접촉합니다. 이러한 끝점에 액세스할 수 없으면 연결선이 옵션 1에 나열된 끝점에 자동으로 연결합니다. * Connector with BlueXP  백업 및 복구 또는 BlueXP  랜섬웨어 보호를 사용하는 경우 옵션 1의 엔드포인트가 지원되지 않습니다. 이 경우 옵션 1에 나열된 끝점을 허용하지 않고 옵션 2에 나열된 끝점을 허용할 수 있습니다.</block>
+  <block id="feba1f9c9ed23d57a6a6b22c3aee5bf0" category="paragraph">| 커넥터가 AWS 정부 지역에 있는 경우: \https://*.blob.core.windows.net \https://cloudmanagerinfraprod.azurecr.io</block>
+  <block id="e2fb4de75efd2de9f857c298fc2dedf1" category="paragraph">Connector가 AWS 정부 지역에 설치된 경우 Connector 업그레이드에 대한 이미지를 얻습니다.</block>
+  <block id="d6e105e0a43b0f59c5054550eb57e887" category="paragraph">| 커넥터가 Azure 정부 지역에 있는 경우: \https://*.blob.core.windows.net \https://occmclientinfragov.azurecr.us</block>
+  <block id="030609409e7ee56f73f54985a1ac8e7b" category="paragraph">커넥터가 Azure 정부 지역에 설치되어 있을 때 커넥터 업그레이드를 위한 이미지를 얻습니다.</block>
+  <block id="257dc55948667c2bded118f045b26704" category="paragraph">A | 커넥터가 상업 지역 또는 주권 지역에 있는 경우 두 끝점 집합 중에서 선택할 수 있습니다.</block>
+  <block id="2372eafae2ad885dc502beb3fb342503" category="paragraph">커넥터가 상업 지역 또는 주권 지역에 설치된 경우 커넥터 업그레이드에 대한 이미지를 얻기 위해</block>
+  <block id="938bc2259b1b16dfbf9d1ea13da23930" category="list-text">이미지를 얻으려면 설치 프로그램이 다음 두 끝점 세트 중 하나에 액세스해야 합니다.</block>
+  <block id="947479331852b9cc69da9bbd894654d1" category="list-text">옵션 1(권장):</block>
+  <block id="534d469c55031860cef85b868a9332d8" category="list-text">\https://bluexpinfraprod.eastus2.data.azurecr.io</block>
+  <block id="a86a33f4f6d9c203eb747987b6d104ca" category="list-text">\https://bluexpinfraprod.azurecr.io</block>
+  <block id="eb499f7aadd76ba50d5925ea6552dcff" category="list-text">옵션 2:</block>
+  <block id="61544f9ceda91554eec420c29453fe62" category="list-text">자신의 Linux 호스트에 Connector를 수동으로 설치할 경우 설치 프로세스 중에 Connector용 설치 프로그램에서 여러 URL에 액세스해야 합니다.</block>
+  <block id="a8565aa4839817f4f46d7e5c184c47e5" category="list-text">Connector를 어디에 설치하든 다음 끝점은 항상 연결됩니다.</block>
+  <block id="97f55477feef294b3e2c4fa6015719fa" category="list-text">AWS 정부 지역에 Connector를 설치하는 경우 설치 프로그램에서 다음 끝점에 액세스할 수도 있어야 합니다.</block>
+  <block id="13a671e048cea402a53e9e2f012a3ae5" category="list-text">Azure Government 지역에 Connector를 설치하는 경우 설치 프로그램에서 다음 끝점에 액세스해야 합니다.</block>
+  <block id="414389f3238c146f25f4038ff7741948" category="list-text">커넥터를 상업 지역 또는 주권 영역에 설치하는 경우 두 끝점 집합 중에서 선택할 수 있습니다.</block>
+  <block id="1c65ce30d8659b289e38be6782d58dd0" category="paragraph">옵션 1에 나열된 끝점은 더 안전하므로 권장됩니다. 옵션 1에 나열된 끝점을 허용하고 옵션 2에 나열된 끝점을 허용하지 않도록 방화벽을 설정하는 것이 좋습니다. 참고 이러한 끝점에 대한 다음 사항:** 옵션 1에 나열된 끝점은 Connector의 3.9.47 릴리스부터 지원됩니다. 이전 버전의 Connector와 이전 버전과의 호환성은 없습니다. ** 커넥터는 옵션 2에 나열된 끝점에 먼저 연결합니다. 이러한 끝점에 액세스할 수 없으면 연결선이 옵션 1에 나열된 끝점에 자동으로 연결합니다. ** Connector with BlueXP  백업 및 복구 또는 BlueXP  랜섬웨어 보호를 사용하는 경우에는 옵션 1의 엔드포인트가 지원되지 않습니다. 이 경우 옵션 1에 나열된 끝점을 허용하지 않고 옵션 2에 나열된 끝점을 허용할 수 있습니다.</block>
+  <block id="ab83866f9abfe93d14a14fa21b156b05" category="doc">커넥터 이미지를 얻기 위한 새로운 보안 끝점</block>
+  <block id="78efdac7339a3a2a767f54e63e415b79" category="paragraph">커넥터를 설치할 때 또는 자동 업그레이드가 발생하면 커넥터가 리포지토리에 연결하여 설치 또는 업그레이드를 위한 이미지를 다운로드합니다. 기본적으로 Connector는 항상 다음 끝점에 연결되었습니다.</block>
+  <block id="e5eb8016a9764345b2f3dd5672e2f245" category="paragraph">첫 번째 끝점에는 확실한 위치를 제공할 수 없기 때문에 와일드카드가 포함됩니다. 리포지토리의 로드 밸런싱은 서비스 공급자가 관리합니다. 즉, 여러 끝점에서 다운로드가 수행될 수 있습니다.</block>
+  <block id="5a04f5940b391aa471ffcf2f682f6390" category="paragraph">보안을 강화하기 위해 Connector는 전용 엔드포인트에서 설치 및 업그레이드 이미지를 다운로드할 수 있습니다.</block>
+  <block id="6265c6aedeb8e4c15d99cb681317d569" category="paragraph">방화벽 규칙에서 기존 끝점을 제거하고 새 끝점을 허용하여 이러한 새 끝점을 사용하는 것이 좋습니다.</block>
+  <block id="0569478319ea7c217c7aeaef42de04a2" category="paragraph">이러한 새 끝점은 Connector의 3.9.47 릴리스부터 지원됩니다. 이전 버전의 Connector와 이전 버전과의 호환성은 없습니다.</block>
+  <block id="b7045cdc7261ab3a7b9e78efb0461bfa" category="list-text">기존 끝점은 계속 지원됩니다. 새 끝점을 사용하지 않으려면 변경할 필요가 없습니다.</block>
+  <block id="4cd508d6b82e76524216714f78d79d2c" category="list-text">커넥터가 기존 끝점을 먼저 접촉합니다. 이러한 끝점에 액세스할 수 없는 경우 연결선이 자동으로 새 끝점에 연결합니다.</block>
+  <block id="a5f507c0714656865b1f8986b83613de" category="list-text">다음 시나리오에서는 새 끝점이 지원되지 않습니다.</block>
+  <block id="6b4d63c99144b38df035c167f8c99b23" category="list-text">커넥터가 정부 지역에 설치된 경우</block>
+  <block id="b90e6d21a82e89d9e93683b887fce78e" category="list-text">Connector with BlueXP  백업 및 복구 또는 BlueXP  랜섬웨어 보호를 사용하는 경우</block>
+  <block id="8ad91183ee4d83d215423d96651219b3" category="paragraph">이 두 시나리오 모두 기존 끝점을 계속 사용할 수 있습니다.</block>
+  <block id="f75f2bfc89f28bf6c3d0cd6ecc334d38" category="paragraph">BlueXP 가 Azure에서 커넥터 가상 머신을 배포하면 가상 머신에 가 활성화되고<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block> 사용자 지정 역할이 생성되며 가상 머신에 할당됩니다. BlueXP는 이 역할을 통해 Azure 가입 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 얻을 수 있습니다. <block ref="daf58003d5227a43b6fbea1d165f6f7b" category="inline-link-macro-rx"></block>..</block>
+  <block id="74f0517d27c893250b30440df50aedff" category="paragraph">\https://\*.api.BlueXP .NetApp.com\https://api.BlueXP .NetApp.com\https://*.cloudmanager.cloud.NetApp.com\https://cloudmanager.cloud.NetApp.com\https://NetApp -cloud-account.auth0.com</block>
+  <block id="929fbbf8aa4e2b9b9d79089f06f4a42b" category="paragraph">두 끝점 세트 중에서 선택합니다.</block>
+  <block id="aaecfad986484269a7c076712941aa35" category="paragraph">커넥터 업그레이드를 위한 이미지 얻기</block>
+  <block id="0e268539cbf07323a5b9a48997c1d209" category="list-text">옵션 1에 나열된 끝점은 커넥터의 3.9.47 릴리스부터 지원됩니다. 이전 버전의 Connector와 이전 버전과의 호환성은 없습니다.</block>
+  <block id="e8707387f125fbbc4fea2bcf7fb74c5c" category="list-text">커넥터가 옵션 2에 나열된 끝점을 먼저 접촉합니다. 이러한 끝점에 액세스할 수 없으면 연결선이 옵션 1에 나열된 끝점에 자동으로 연결합니다.</block>
+  <block id="4780ada9ee9a956e6ffeed073bbca78a" category="list-text">Connector with BlueXP  백업 및 복구 또는 BlueXP  랜섬웨어 보호를 사용하는 경우 옵션 1의 엔드포인트가 지원되지 않습니다. 이 경우 옵션 1에 나열된 끝점을 허용하지 않고 옵션 2에 나열된 끝점을 허용할 수 있습니다.</block>
+  <block id="f079ba6f508e4d8fffaecae1a59c5bf3" category="paragraph">옵션 1에 나열된 끝점은 더 안전하므로 권장됩니다. 옵션 1에 나열된 끝점을 허용하고 옵션 2에 나열된 끝점을 허용하지 않도록 방화벽을 설정하는 것이 좋습니다. 이러한 끝점에 대해서는 다음 사항을 참고하십시오.</block>
+  <block id="335c5fa07bab41313fe3574d00015e28" category="paragraph">커넥터가 AWS 정부 지역에 있는 경우: \https://*.blob.core.windows.net \https://cloudmanagerinfraprod.azurecr.io</block>
+  <block id="8f250cee3d9453c744424495f2571a74" category="paragraph">커넥터가 AWS 정부 지역에 설치된 경우 Connector 업그레이드에 대한 이미지를 얻으려면</block>
+  <block id="a082af315082759bee1f9bba491f14f8" category="paragraph">커넥터가 Azure 정부 지역에 있는 경우: \https://*.blob.core.windows.net \https://occmclientinfragov.azurecr.us</block>
+  <block id="cb6ffdd85c34b43b9e70c8dcf3c0e51c" category="paragraph">커넥터가 Azure 정부 지역에 설치된 경우 Connector 업그레이드에 대한 이미지를 얻으려면</block>
+  <block id="815ee4222e11b0d1d149ad24cabecc80" category="paragraph">커넥터가 상업 지역 또는 주권 지역에 있는 경우 두 끝점 집합 중에서 선택할 수 있습니다.</block>
+  <block id="ad262fe50d2ecf5a3aae7409b3eda8e2" category="paragraph">커넥터가 상업 지역 또는 주권 지역에 설치된 경우 커넥터 업그레이드에 대한 이미지를 얻기 위해</block>
+  <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024년 12월 16일</block>
 </blocks>

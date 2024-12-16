@@ -22,7 +22,7 @@ BlueXP가 Azure 자격 증명을 사용하여 사용자를 대신하여 작업�
 
 BlueXP에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 나열됩니다 link:task-install-connector-azure-bluexp.html#step-2-create-a-custom-role["Azure용 커넥터 배포 정책"].
 
-BlueXP가 Azure에 Connector 가상 시스템을 배포하면 가 활성화됩니다 https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["시스템에서 할당한 관리 ID입니다"^] 가상 머신에서 사용자 지정 역할을 생성하고 가상 머신에 할당합니다. BlueXP는 이 역할을 통해 Azure 가입 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 얻을 수 있습니다. link:reference-permissions-azure.html["BlueXP에서 사용 권한을 사용하는 방법을 검토합니다"].
+BlueXP 가 Azure에서 커넥터 가상 머신을 배포하면 가상 머신에 가 활성화되고 https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["시스템에서 할당한 관리 ID입니다"^] 사용자 지정 역할이 생성되며 가상 머신에 할당됩니다. BlueXP는 이 역할을 통해 Azure 가입 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 얻을 수 있습니다. link:reference-permissions-azure.html["BlueXP에서 사용 권한을 사용하는 방법을 검토합니다"]..
 
 image:diagram_permissions_initial_azure.png["Azure 계정 및 구독에 Connector를 배포하는 BlueXP를 보여 주는 개념 이미지입니다. 시스템에서 할당한 관리 ID가 활성화되고 사용자 지정 역할이 Connector 가상 머신에 할당됩니다."]
 

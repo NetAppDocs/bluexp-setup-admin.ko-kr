@@ -10,11 +10,72 @@
 * \https://cloudmanager.cloud.netapp.com/tenancy
 * \https://stream.cloudmanager.cloud.netapp.com
 * \https://production-artifacts.cloudmanager.cloud.netapp.com
-* \https://*.blob.core.windows.net
-* \https://cloudmanagerinfraprod.azurecr.io
+* 이미지를 얻으려면 설치 프로그램이 다음 두 끝점 세트 중 하나에 액세스해야 합니다.
++
+** 옵션 1(권장):
++
+*** \https://bluexpinfraprod.eastus2.data.azurecr.io
+*** \https://bluexpinfraprod.azurecr.io
+
+
+** 옵션 2:
++
+*** \https://*.blob.core.windows.net
+*** \https://cloudmanagerinfraprod.azurecr.io
+
+
+
+
 
 
 --
 
+
+수동 설치 중에 연결된 끝점입니다:: 자신의 Linux 호스트에 Connector를 수동으로 설치할 경우 설치 프로세스 중에 Connector용 설치 프로그램에서 여러 URL에 액세스해야 합니다.
++
+--
+* Connector를 어디에 설치하든 다음 끝점은 항상 연결됩니다.
++
+** \https://mysupport.netapp.com
+** \https://signin.b2c.NetApp.com(이 끝점은 \https://mysupport.NetApp.com의 CNAME URL)
+** \https://cloudmanager.cloud.netapp.com/tenancy
+** \https://stream.cloudmanager.cloud.netapp.com
+** \https://production-artifacts.cloudmanager.cloud.netapp.com
+
+
+* AWS 정부 지역에 Connector를 설치하는 경우 설치 프로그램에서 다음 끝점에 액세스할 수도 있어야 합니다.
++
+** \https://*.blob.core.windows.net
+** \https://cloudmanagerinfraprod.azurecr.io
+
+
+* Azure Government 지역에 Connector를 설치하는 경우 설치 프로그램에서 다음 끝점에 액세스해야 합니다.
++
+** \https://*.blob.core.windows.net
+** \https://occmclientinfragov.azurecr.us
+
+
+* 커넥터를 상업 지역 또는 주권 영역에 설치하는 경우 두 끝점 집합 중에서 선택할 수 있습니다.
++
+** 옵션 1(권장):
++
+*** \https://bluexpinfraprod.eastus2.data.azurecr.io
+*** \https://bluexpinfraprod.azurecr.io
+
+
+** 옵션 2:
++
+*** \https://*.blob.core.windows.net
+*** \https://cloudmanagerinfraprod.azurecr.io
+
+
+
+
+
+
+--
+
+
+옵션 1에 나열된 끝점은 더 안전하므로 권장됩니다. 옵션 1에 나열된 끝점을 허용하고 옵션 2에 나열된 끝점을 허용하지 않도록 방화벽을 설정하는 것이 좋습니다. 참고 이러한 끝점에 대한 다음 사항:** 옵션 1에 나열된 끝점은 Connector의 3.9.47 릴리스부터 지원됩니다. 이전 버전의 Connector와 이전 버전과의 호환성은 없습니다. ** 커넥터는 옵션 2에 나열된 끝점에 먼저 연결합니다. 이러한 끝점에 액세스할 수 없으면 연결선이 옵션 1에 나열된 끝점에 자동으로 연결합니다. ** Connector with BlueXP  백업 및 복구 또는 BlueXP  랜섬웨어 보호를 사용하는 경우에는 옵션 1의 엔드포인트가 지원되지 않습니다. 이 경우 옵션 1에 나열된 끝점을 허용하지 않고 옵션 2에 나열된 끝점을 허용할 수 있습니다.
 
 설치 중에 호스트가 운영 체제 패키지를 업데이트하려고 할 수 있습니다. 호스트는 이러한 OS 패키지의 서로 다른 미러링 사이트에 연결할 수 있습니다.
