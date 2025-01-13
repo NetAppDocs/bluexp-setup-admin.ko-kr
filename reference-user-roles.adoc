@@ -71,5 +71,5 @@ summary: 계정 관리자, 작업 영역 관리자, 규정 준수 뷰어 및 Sna
 
 | 지원 대시보드 보기 및 관리 | 예 | 예 | 아니요 | 아니요 
 |===
-.관련 링크
+.관련 정보
 link:task-managing-netapp-accounts.html["BlueXP 계정을 관리합니다"]

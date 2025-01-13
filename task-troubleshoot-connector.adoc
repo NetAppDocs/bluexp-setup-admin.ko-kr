@@ -16,7 +16,7 @@ summary: 커넥터 문제를 해결하려면 NetApp 지원 부서에 문의하�
 [role="lead"]
 커넥터 관련 문제를 해결하려면 NetApp 지원에 문의하여 시스템 ID, 커넥터 버전 또는 최신 AutoSupport 메시지를 요청할 수 있습니다. NetApp 기술 문서를 참조하여 직접 문제를 해결할 수도 있습니다.
 
-.관련 링크
+.관련 정보
 link:task-get-help.html["NetApp 지원 팀에서 도움을 받으십시오"].
 
 

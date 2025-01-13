@@ -25,5 +25,5 @@ summary: 비공개 모드에서 BlueXP를 시작하고 실행한 후 비공개 �
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["BlueXP 백업 및 복구를 사용하여 사내 ONTAP 볼륨 데이터를 StorageGRID에 백업합니다"^]
 
 
-.관련 링크
+.관련 정보
 link:concept-modes.html["BlueXP 배포 모드"]

@@ -27,5 +27,5 @@ summary: 제한된 모드에서 BlueXP를 시작하고 실행한 후 제한된 �
 * https://docs.netapp.com/us-en/bluexp-replication/index.html["복제 문서"^]
 
 
-.관련 링크
+.관련 정보
 link:concept-modes.html["BlueXP 배포 모드"]

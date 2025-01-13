@@ -221,14 +221,14 @@ image:screenshot-settings-icon-organization.png["BlueXP 콘솔의 오른쪽 위�
 
 
 
-== AWS 구독을 연결합니다
+== AWS 구독 구성
 
-BlueXP에 AWS 자격 증명을 추가한 후 AWS Marketplace 구독을 해당 자격 증명과 연결할 수 있습니다. 이 구독을 통해 PAYGO(hourly rate)로 Cloud Volumes ONTAP를 결제하거나 연간 계약을 통해 다른 BlueXP 서비스를 사용할 수 있습니다.
+AWS 자격 증명을 BlueXP 에 추가한 후에는 해당 자격 증명을 사용하여 AWS Marketplace 구독을 구성할 수 있습니다. 이 구독을 통해 PAYGO(hourly rate)로 Cloud Volumes ONTAP를 결제하거나 연간 계약을 통해 다른 BlueXP 서비스를 사용할 수 있습니다.
 
-BlueXP에 자격 증명을 추가한 후 AWS Marketplace 구독을 연결할 수 있는 두 가지 시나리오가 있습니다.
+BlueXP 에 자격 증명을 이미 추가한 후 AWS Marketplace 구독을 구성할 수 있는 두 가지 시나리오가 있습니다.
 
-* 처음에 BlueXP에 자격 증명을 추가할 때 구독을 연결하지 않았습니다.
-* AWS 자격 증명과 연결된 AWS Marketplace 구독을 변경하려고 합니다.
+* 처음에 BlueXP 에 자격 증명을 추가했을 때 구독을 구성하지 않았습니다.
+* AWS 자격 증명에 구성된 AWS Marketplace 구독을 변경하려고 합니다.
 +
 현재 마켓플레이스 구독을 새 구독으로 교체하면 기존 Cloud Volumes ONTAP 작업 환경과 모든 새로운 작업 환경에 대한 마켓플레이스 구독이 변경됩니다.
 
@@ -237,16 +237,20 @@ BlueXP에 자격 증명을 추가한 후 AWS Marketplace 구독을 연결할 수
 .시작하기 전에
 BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. link:concept-connectors.html#how-to-create-a-connector["커넥터를 만드는 방법에 대해 알아봅니다"].
 
+다음 비디오는 AWS 마켓플레이스에서 BlueXP 을 구독하는 단계를 보여줍니다.
+
+.AWS 마켓플레이스에서 BlueXP를 구독하십시오
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
-. 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 가입 연결 * 을 선택합니다.
+. 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 구독 구성 * 을 선택합니다.
 +
 Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.
 
 +
 image:screenshot_associate_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
-. 자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 구독을 선택하고 * Associate * 를 선택합니다.
+. 자격 증명을 기존 구독과 연결하려면 아래 목록에서 구독을 선택하고 * 구성 * 을 선택합니다.
 . 자격 증명을 새 구독과 연결하려면 * 구독 추가 > 계속 * 을 선택하고 AWS 마켓플레이스의 단계를 따릅니다.
 +
 .. 구매 옵션 보기 * 를 선택합니다.
@@ -266,12 +270,6 @@ BlueXP 는 조직 또는 계정의 모든 자격 증명에 대한 기존 구독
 다른 모든 조직 또는 계정의 경우 이 단계를 반복하여 구독을 수동으로 연결해야 합니다.
 
 *** 저장 * 을 선택합니다.
-+
-다음 비디오에서는 AWS 마켓플레이스를 구독하는 단계를 보여줍니다.
-
-+
-.AWS 마켓플레이스에서 BlueXP를 구독하십시오
-video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 
 
 
