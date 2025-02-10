@@ -14,9 +14,9 @@ summary: BlueXP 를 제한 모드 또는 비공개 모드로 설정하면 계�
 
 
 [role="lead"]
-제한 모드 또는 비공개 모드로 BlueXP 를 설정하면 사용자를 관리하고 리소스를 구성할 수 있는 _BlueXP  계정_ 을(를) 만들라는 메시지가 표시됩니다. 이 계정만 필요한 경우 여러 계정이 필요한 경우에는 Tenancy API를 사용하여 추가 계정을 만들어야 합니다.
+BlueXP 를 비공개 모드로 설정하면 사용자를 관리하고 리소스를 구성할 수 있는 _BlueXP  계정_ 을(를) 만들라는 메시지가 표시됩니다. 이 계정만 필요한 경우 여러 계정이 필요한 경우에는 Tenancy API를 사용하여 추가 계정을 만들어야 합니다.
 
-표준 모드에서 BlueXP 를 사용하는 경우 BlueXP  계정이 없습니다. 대신 BlueXP  IAM(Identity and Access Management)을 사용하여 관리하는 조직이 있습니다. link:concept-identity-and-access-management.html["BlueXP  IAM에 대해 알아보십시오"]..
+표준 모드 또는 제한 모드에서 BlueXP 를 사용 중인 경우 BlueXP  계정이 없습니다. 대신 BlueXP  IAM(Identity and Access Management)을 사용하여 관리하는 조직이 있습니다. link:concept-identity-and-access-management.html["BlueXP  IAM에 대해 알아보십시오"]..
 
 .단계
 . 다음 API 호출을 사용하여 BlueXP 계정을 추가로 생성합니다.

@@ -4,7 +4,7 @@ permalink: task-subscribe-standard-mode.html
 keywords: subscribe, subscription, marketplace subscription, paygo, contract, annual contract 
 summary: 클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간당 또는 연간 계약을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. NetApp에서 라이센스를 구매한 경우 해당 마켓플레이스 오퍼링에 가입해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다. 
 ---
-= BlueXP 구독(표준 모드)
+= BlueXP  데이터 서비스 구독(표준 모드)
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,16 +16,17 @@ summary: 클라우드 공급업체의 시장에서 BlueXP를 구독하면 시간
 [role="lead"]
 클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오. NetApp(BYOL)에서 라이센스를 구입한 경우에도 마켓플레이스 제품을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.
 
-마켓플레이스에 가입하면 다음 BlueXP 서비스에 대한 비용을 청구할 수 있습니다.
+마켓플레이스 가입에서는 다음 BlueXP  데이터 서비스에 대한 요금을 부과할 수 있습니다.
 
 * 백업 및 복구
-* 분류
 * Cloud Volumes ONTAP
 * 계층화
+* 랜섬웨어 보호
+* 재해 복구
 
 
 .시작하기 전에
-BlueXP를 구독하려면 Connector와 연결된 클라우드 자격 증명과 마켓플레이스 구독을 연결해야 합니다. "표준 모드 시작" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 참조하십시오 link:task-quick-start-standard-mode.html["표준 모드에서 BlueXP를 빠르게 시작합니다"].
+BlueXP  데이터 서비스를 구독하려면 마켓플레이스 가입을 Connector와 연결된 클라우드 자격 증명과 연결해야 합니다. "표준 모드 시작" 워크플로를 따랐다면 이미 Connector가 있는 것입니다. 자세한 내용은 를 link:task-quick-start-standard-mode.html["표준 모드에서 BlueXP를 빠르게 시작합니다"]참조하십시오.
 
 [role="tabbed-block"]
 ====
@@ -42,7 +43,7 @@ video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.
 
 +
-image:screenshot_associate_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
+image:screenshot_aws_configure_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
 . 자격 증명을 기존 구독과 연결하려면 아래 목록에서 구독을 선택하고 * 구성 * 을 선택합니다.
 . 자격 증명을 새 구독과 연결하려면 * 구독 추가 > 계속 * 을 선택하고 AWS 마켓플레이스의 단계를 따릅니다.
@@ -75,14 +76,14 @@ BlueXP 는 조직 또는 계정의 모든 자격 증명에 대한 기존 구독
 --
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
-. 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 가입 연결 * 을 선택합니다.
+. 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 구독 구성 * 을 선택합니다.
 +
 Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.
 
 +
 image:screenshot_azure_add_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
-. 자격 증명을 기존 구독과 연결하려면 드롭다운 목록에서 구독을 선택하고 * Associate * 를 선택합니다.
+. 자격 증명을 기존 구독과 연결하려면 아래 목록에서 구독을 선택하고 * 구성 * 을 선택합니다.
 . 자격 증명을 새 구독과 연결하려면 * 구독 추가 > 계속 * 을 선택하고 Azure 마켓플레이스의 단계를 따릅니다.
 +
 .. 메시지가 표시되면 Azure 계정에 로그인합니다.
@@ -120,11 +121,8 @@ video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
 --
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
-. 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 가입 연결 * 을 선택합니다.
-+
-image:screenshot_gcp_add_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
-
-. 자격 증명을 기존 구독과 연결하려면 아래 목록에서 Google Cloud 프로젝트 및 구독을 선택한 다음 * Associate * 를 선택합니다.
+. 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 구독 구성 * 을 선택합니다. + 새 스크린샷 필요(TS) image:screenshot_gcp_add_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
+. 선택한 자격 증명으로 기존 구독을 구성하려면 드롭다운 목록에서 Google Cloud 프로젝트 및 구독을 선택한 다음 * 구성 * 을 선택합니다.
 +
 image:screenshot_gcp_associate.gif["Google Cloud 자격 증명을 위해 선택한 Google Cloud 프로젝트 및 가입 스크린샷"]
 

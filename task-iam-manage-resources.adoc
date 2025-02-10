@@ -40,14 +40,6 @@ NOTE: Amazon FSx for NetApp ONTAP 리소스는 IAM 역할과 연결할 수 없�
 . 검색 * 을 선택합니다.
 
 
-.다음 단계
-찾고 있는 리소스를 찾은 후에는 다음 작업 중 하나를 수행할 수 있습니다.
-
-* <<associate-resource,자원을 추가 폴더 및 프로젝트와 연결합니다>>
-* <<view-folders-and-projects,자원과 연결된 폴더 및 프로젝트를 봅니다>>
-* <<remove-resource,폴더 또는 프로젝트에서 자원을 제거합니다>>
-
-
 
 
 == 자원을 폴더 및 프로젝트와 연결합니다
@@ -83,6 +75,9 @@ link:task-iam-associate-connectors.html["Connector를 폴더 또는 프로젝트
 
 조직의 계층 구조에서 자원을 사용할 수 있는 위치를 식별하려면 해당 자원과 연결된 폴더와 프로젝트를 볼 수 있습니다.
 
+
+NOTE: 자원에 액세스할 수 있는 조직 구성원을 확인해야 하는 경우 다음을 수행할 수 link:task-iam-manage-folders-projects.html#view-associated-resources-members["자원과 연결된 폴더 및 프로젝트에 액세스할 수 있는 구성원을 봅니다"]있습니다.
+
 .단계
 . Resources * 페이지에서 테이블의 자원으로 이동한 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"]다음 * View details * 를 선택합니다.
 
@@ -91,11 +86,8 @@ link:task-iam-associate-connectors.html["Connector를 폴더 또는 프로젝트
 
 image:screenshot-iam-resource-details.png["조직 바로 아래에 있는 프로젝트와 연결된 자원을 보여 주는 자원 세부 정보 페이지 스크린샷"]
 
-.다음 단계
-* 할 수 <<associate-resource,자원을 추가 프로젝트나 폴더에 연결합니다>>있습니다.
-* 할 수 <<remove-resource,특정 폴더 또는 프로젝트에서 자원을 제거합니다>>있습니다.
-* 자원에 액세스할 수 있는 조직 구성원을 확인해야 하는 경우 다음을 수행할 수 link:task-iam-manage-folders-projects.html#view-associated-resources-members["자원과 연결된 폴더 및 프로젝트에 액세스할 수 있는 구성원을 봅니다"]있습니다.
 
+NOTE: 자원에 액세스할 수 있는 조직 구성원을 확인해야 하는 경우 다음을 수행할 수 link:task-iam-manage-folders-projects.html#view-associated-resources-members["자원과 연결된 폴더 및 프로젝트에 액세스할 수 있는 구성원을 봅니다"]있습니다.
 
 
 
@@ -103,8 +95,8 @@ image:screenshot-iam-resource-details.png["조직 바로 아래에 있는 프로
 
 폴더 또는 프로젝트에서 자원을 제거하려면 폴더나 프로젝트와 자원 간의 연결을 제거해야 합니다. 연결을 제거한 후에는 조직 구성원이 폴더 또는 프로젝트에서 자원을 더 이상 관리할 수 없습니다.
 
-.이 작업에 대해
-전체 조직에서 검색된 리소스를 제거하려면 BlueXP  캔버스에서 작업 환경을 제거해야 합니다.
+
+NOTE: 전체 조직에서 검색된 리소스를 제거하려면 BlueXP  캔버스에서 작업 환경을 제거해야 합니다.
 
 .단계
 . Resources * 페이지에서 테이블의 자원으로 이동한 image:icon-action.png["세 개의 나란히 점이 있는 아이콘입니다"]다음 * View details * 를 선택합니다.

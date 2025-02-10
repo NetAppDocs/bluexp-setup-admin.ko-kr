@@ -248,7 +248,7 @@ video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 Connector와 연결된 자격 증명을 선택해야 합니다. BlueXP와 연결된 자격 증명과 마켓플레이스 구독을 연결할 수 없습니다.
 
 +
-image:screenshot_associate_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
+image:screenshot_aws_configure_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 
 . 자격 증명을 기존 구독과 연결하려면 아래 목록에서 구독을 선택하고 * 구성 * 을 선택합니다.
 . 자격 증명을 새 구독과 연결하려면 * 구독 추가 > 계속 * 을 선택하고 AWS 마켓플레이스의 단계를 따릅니다.

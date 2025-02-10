@@ -92,14 +92,7 @@ Azure Marketplace에서 구축:: 우분투 22.04 LTS
 
 RHEL 8 및 9에 대한 지원에 대해서는 다음을 참조하십시오.
 
-제한 사항::
-+
---
-* Connector를 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 백업 및 복구에 단일 파일 복원 및 랜섬웨어 검사와 관련된 제한 사항이 있습니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-backup-recovery/reference-limitations.html["BlueXP 백업 및 복구에 대한 알려진 제한 사항"^]
-* Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.
-
-
---
+제한 사항:: Connector를 사내에 상주하는 RHEL 8 또는 9 호스트에 설치하는 경우 BlueXP 분류가 지원됩니다. RHEL 8 또는 9 호스트가 AWS, Azure 또는 Google Cloud에 상주하는 경우에는 지원되지 않습니다.
 컨테이너 오케스트레이션 툴:: RHEL 8 또는 9 호스트에 Connector를 설치할 경우 컨테이너 오케스트레이션 툴로 Podman이 필요합니다. Docker Engine은 RHEL 8 및 9에서 지원되지 않습니다.
 배포 모드:: 표준 모드, 제한된 모드 및 프라이빗 모드에서 BlueXP를 사용하는 경우 RHEL 8 및 9가 지원됩니다.
 지원되는 커넥터 버전:: RHEL 8 및 9는 다음 버전의 Connector부터 지원됩니다.
