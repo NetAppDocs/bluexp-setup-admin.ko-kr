@@ -34,9 +34,6 @@ ID 및 액세스 관리(IAM), 커넥터, 클라우드 공급자 자격 증명 �
 
 * 사용자에게 둘 이상의 역할을 할당할 수 있습니다.
 * 이제 역할은 플랫폼과 데이터 서비스의 두 가지 범주 중 하나에 연결됩니다.
-* 이제 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 세 가지 범주 중 하나에 연결됩니다.
-* 애플리케이션 범주에는 스토리지 뷰어와 스토리지 관리자의 두 가지 새로운 역할이 연결됩니다. https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["IAM 역할에 대해 알아보십시오"]
-* 이제 IAM이 BlueXP  제한 모드에서 사용됩니다
 
 
 
@@ -95,6 +92,15 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media
 
 .지원되는 배포 모드
 BlueXP  IAM은 표준 및 제한 모드에서 BlueXP 를 사용할 때 지원됩니다. 비공개 모드로 BlueXP 를 사용 중인 경우 BlueXP _ACCOUNT_를 사용하여 작업 영역, 사용자 및 리소스를 계속 관리할 수 있습니다.
+
+.추가 IAM 개선 사항
+* 사용자에게 둘 이상의 역할을 할당할 수 있습니다.
+* 이제 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 세 가지 범주 중 하나에 연결됩니다.
+* 애플리케이션 범주에는 스토리지 뷰어와 스토리지 관리자의 두 가지 새로운 역할이 연결됩니다.
++
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["IAM 역할에 대해 알아보십시오"]
+
+
 
 
 

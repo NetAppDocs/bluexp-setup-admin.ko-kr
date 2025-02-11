@@ -28,15 +28,6 @@ summary: 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 
 Connector 소프트웨어는 특정 운영 체제 요구 사항, RAM 요구 사항, 포트 요구 사항 등을 충족하는 호스트에서 실행되어야 합니다.
 
 전용 호스트:: 다른 애플리케이션과 공유되는 호스트에서는 Connector가 지원되지 않습니다. 호스트는 전용 호스트여야 합니다.
-+
---
-호스트는 다음 크기 요구 사항을 충족하는 모든 아키텍처에 속할 수 있습니다.
-
-* * CPU: * 8코어 또는 8개의 vCPU
-* * RAM: * 32GB
-
-
---
 하이퍼바이저:: 지원되는 운영 체제를 실행하도록 인증된 베어 메탈 또는 호스팅된 하이퍼바이저가 필요합니다.
 [[podman-versions]] 운영 체제 및 컨테이너 요구 사항:: BlueXP 는 표준 모드 또는 제한 모드에서 BlueXP 를 사용할 때 다음 운영 체제의 커넥터를 지원합니다. 커넥터를 설치하기 전에 컨테이너 조정 도구가 필요합니다.
 +
@@ -96,21 +87,18 @@ Docker 엔진 23.0.6 - 26.0.0
 
 
 --
-
-
-호스트는 이러한 크기 요구 사항을 충족하는 모든 아키텍처에 속할 수 있습니다.
-
-* * CPU: * 8코어 또는 8개의 vCPU
-* * RAM: * 32GB
-+
+CPU:: 코어 8개 또는 vCPU 8개
+RAM:: 32GB
 AWS EC2 인스턴스 유형:: 위의 CPU 및 RAM 요구 사항을 충족하는 인스턴스 유형입니다. t3.2xlarge를 추천합니다.
 키 쌍:: Connector를 생성할 때 인스턴스와 함께 사용할 EC2 키 쌍을 선택해야 합니다.
 IMDSv2 사용 시 응답 홉 제한을 입력합니다:: EC2 인스턴스에서 IMDSv2가 활성화된 경우(새 EC2 인스턴스의 기본 설정) 인스턴스의 PUT 응답 홉 제한을 3으로 변경해야 합니다. EC2 인스턴스의 제한을 변경하지 않으면 Connector를 설정하려고 할 때 UI 초기화 오류가 발생합니다.
-
-
++
+--
 * link:task-require-imdsv2.html["Amazon EC2 인스턴스에서 IMDSv2를 사용해야 합니다"]
 * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-IMDS-existing-instances.html#modify-PUT-response-hop-limit["AWS 설명서: PUT 응답 홉 제한을 변경합니다"^]
-+
+
+
+--
 /opt의 디스크 공간입니다:: 100GiB의 공간을 사용할 수 있어야 합니다
 +
 --
@@ -123,8 +111,6 @@ BlueXP 는 를 사용하여 `/opt` `/opt/application/netapp` 디렉터리와 �
 BlueXP를 사용하려면 이 공간이 필요합니다 `/var` Docker 또는 Podman은 이 디렉토리 내에 컨테이너를 생성하도록 설계되었기 때문입니다. 특히 에서 컨테이너를 만듭니다 `/var/lib/containers/storage` 디렉토리. 이 공간에서는 외부 마운트 또는 심링크가 작동하지 않습니다.
 
 --
-
-
 
 
 
