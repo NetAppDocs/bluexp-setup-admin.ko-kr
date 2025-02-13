@@ -1405,8 +1405,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="0a6b76c04095167ad3b2e08901195ca3" category="list-text">Connector는 이제 다음 Google Cloud 영역에서 지원됩니다.</block>
   <block id="db760e7471192daa123eed31bfba312d" category="list-text">콜럼버스(us-east5)</block>
   <block id="ad6033c8e4eda00017eca167a149ced4" category="list-text">댈러스(us-south1)</block>
-  <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">지원되는 영역의 전체 목록을 봅니다</block>
-  <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
   <block id="05263fcc56b50972b2dfe4be20698328" category="list-text">Ubuntu 22.04는 BlueXP 또는 클라우드 공급자의 마켓플레이스에서 커넥터를 배포할 때 커넥터를 위한 새로운 운영 체제입니다.</block>
   <block id="9ab8f4fa1e0839b1101d04c9cd4e1bae" category="paragraph">Ubuntu 22.04를 실행하는 자체 Linux 호스트에 커넥터를 수동으로 설치할 수도 있습니다.</block>
   <block id="dfcaca26de191f6219819bb7091c9ebe" category="list-text">Red Hat Enterprise Linux 8.6 및 8.7은 새로운 Connector 배포에서 더 이상 지원되지 않습니다.</block>
@@ -1524,7 +1522,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="1a1145c860165dcd96b82eb7d32cd59f" category="list-text">파리(유럽 - west9)</block>
   <block id="eb4cae07e62b958e999eaa4c0d9b254b" category="list-text">바르샤바(유럽-중중심2)</block>
   <block id="05f08f9410eed79855c8ade92149a276" category="list-text">이제 커넥터는 Azure West US 3 지역에서 지원됩니다.</block>
-  <block id="075b5f25465b6b108fb916bce6a2219f" category="paragraph"><block ref="075b5f25465b6b108fb916bce6a2219f" category="inline-link-rx"></block></block>
   <block id="d9815601b56ec3084872748d000734dd" category="paragraph"><block ref="d9815601b56ec3084872748d000734dd" category="inline-link-rx"></block></block>
   <block id="f646305c890b8deec88379aeecbe56a5" category="paragraph">새로운 사용자가 Cloud Central에 등록하면 이제 NetApp * 옵션을 사용하여 로그인 * 을 선택하여 NetApp Support 사이트 자격 증명으로 로그인할 수 있습니다. 이 방법은 전자 메일 주소와 암호를 입력하는 대신 사용됩니다.</block>
   <block id="f27b2370dfece83354cbb560bf251abc" category="admonition">전자 메일 주소와 암호를 사용하는 기존 로그인은 해당 로그인 방법을 계속 사용해야 합니다. NetApp으로 로그인 옵션은 등록하는 새 사용자를 위해 사용할 수 있습니다.</block>
@@ -4982,4 +4979,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="69ac82a1779b2cc7d528017241f5324f" category="paragraph">호스트는 다음 크기 요구 사항을 충족하는 모든 아키텍처에 속할 수 있습니다.</block>
   <block id="df4af5ebfed55f726690fe09695fb1fa" category="list-text">CPU: 코어 8개 또는 vCPU 8개</block>
   <block id="357a496c919d7b340d6f4582397b89b5" category="list-text">RAM: 32GB</block>
+  <block id="0c257ecd276502d9a2d45fc70759eec6" category="admonition">2025년 2월부터 이러한 사용자 역할은 표준 및 제한된 배포 모드에 대해 더 이상 사용되지 않습니다. BlueXP  개인 모드는 모든 BlueXP  권한을 부여하는 Cloud Manager 관리자 역할인 사용자와 연결할 하나의 역할만 제공합니다.</block>
 </blocks>

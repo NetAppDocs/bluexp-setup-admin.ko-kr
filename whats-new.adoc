@@ -1069,9 +1069,6 @@ https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["Bl
 ** 댈러스(us-south1)
 
 
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
 
 
 
@@ -1095,9 +1092,6 @@ Red Hat 7.6, 7.7, 7.8 및 7.9는 신규 및 기존 커넥터에서 계속 지원
 
 * Connector는 이제 Google Cloud의 Qatar 지역에서 지원됩니다.
 * Connector는 Microsoft Azure의 스웨덴 중앙 지역에서도 지원됩니다.
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능이 포함되어 있습니다.
 +
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#7-may-2023["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
@@ -1140,9 +1134,6 @@ NOTE: 제한된 모드의 도입은 SaaS 플랫폼을 활성화 또는 비활성
 https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법에 대해 알아봅니다"].
 
 * Connector는 현재 Google Cloud Turin 지역에서 지원됩니다.
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
 * 이제 BlueXP 로그인과 연결된 사용자 자격 증명(ONTAP 자격 증명 및 NSS(NetApp Support 사이트) 자격 증명)을 관리할 수 있습니다.
 +
 설정 > 자격 증명 * 으로 이동하면 자격 증명을 보고, 자격 증명을 업데이트하고, 삭제할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.
@@ -1440,9 +1431,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media
 
 
 * 이제 커넥터는 Azure West US 3 지역에서 지원됩니다.
-+
-https://bluexp.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
 * 이 커넥터 릴리스에는 Cloud Volumes ONTAP의 향상된 기능도 포함되어 있습니다.
 +
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#2-july-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
@@ -1472,9 +1460,6 @@ NOTE: 전자 메일 주소와 암호를 사용하는 기존 로그인은 해당 
 
 * 커넥터는 현재 AWS 자카르타 지역(AP-동남동-3)에서 지원됩니다.
 * 이제 Connector는 Azure Brazil Southeast 지역에서 지원됩니다.
-+
-https://bluexp.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
-
 * 이번 커넥터 릴리즈에는 Cloud Volumes ONTAP의 향상된 기능과 사내 ONTAP 클러스터의 향상된 기능도 포함되어 있습니다.
 +
 ** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#7-june-2022["Cloud Volumes ONTAP의 향상된 기능에 대해 알아보십시오"^]
@@ -1508,9 +1493,6 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["지원되는 영역의 �
 ** 밀라노(유럽 - west8)
 ** 산티아고(사우스메리카 - 웨스투트어)
 
-
-+
-https://bluexp.netapp.com/cloud-volumes-global-regions["지원되는 영역의 전체 목록을 봅니다"^]
 
 * Connector에 사용할 Google Cloud 서비스 계정을 선택하면 Cloud Manager에 각 서비스 계정과 연결된 이메일 주소가 표시됩니다. 이메일 주소를 보면 동일한 이름을 공유하는 서비스 계정을 쉽게 구별할 수 있습니다.
 +
