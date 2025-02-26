@@ -4773,7 +4773,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="2f73a8cbcbf617bd5a78738929bbe5b3" category="paragraph">BlueXP  IAM(Identity and Access Management)은 표준 및 제한 모드에서 BlueXP 를 사용할 때 BlueXP  계정에서 제공하는 이전 기능을 대체 및 향상시키는 리소스 및 액세스 관리 모델입니다.</block>
   <block id="029ade287eade250f2c9612d148e1fad" category="paragraph-title">제한된 모드에서 BlueXP  IAM이 기존 계정에 미치는 영향</block>
   <block id="8f2f21c16dc203c77301e868fae6ff8c" category="paragraph">BlueXP  IAM은 표준 및 제한 모드에서 BlueXP 를 사용할 때 지원됩니다. 비공개 모드로 BlueXP 를 사용 중인 경우 BlueXP _ACCOUNT_를 사용하여 작업 영역, 사용자 및 리소스를 계속 관리할 수 있습니다.</block>
-  <block id="71d8d71c8cd5b49b9c78b0ae89ca1b5f" category="paragraph">BlueXP  IAM(Identity and Access Management)을 사용하면 NetApp 리소스에 대한 액세스를 구성하고 제어할 수 있습니다. 조직의 계층 구조에 따라 자원을 구성할 수 있습니다. 예를 들어 지리적 위치, 사이트 또는 사업부별로 자원을 구성할 수 있습니다. 그런 다음 계층의 특정 부분에 있는 구성원에게 pIAM 역할을 할당할 수 있으므로 계층의 다른 부분에 있는 리소스에 액세스할 수 없습니다.</block>
   <block id="492bd3385d9d03385f8098817a8d0196" category="paragraph">BlueXP  IAM은 표준 모드 및 제한 모드에서 BlueXP 를 사용할 때 지원됩니다. 비공개 모드에서 BlueXP 를 사용하는 경우 BlueXP _ACCOUNT_를 사용하여 사용자와 리소스를 관리합니다.</block>
   <block id="5d733a1853078585aec87e3ef2524bec" category="paragraph">비공개 모드에서 BlueXP 를 사용하는 경우 _BlueXP  계정_을 사용하여 사용자를 관리하고 리소스를 isolated_workspace_에서 구성할 수 있습니다. 예를 들어 사용자 그룹은 다른 작업 영역에서 작업 환경을 관리하는 사용자에게 표시되지 않는 작업 영역에서 Cloud Volumes ONTAP 작업 환경을 배포하고 관리할 수 있습니다.</block>
   <block id="73f420193f5136d2f1d09a09d6f9aabb" category="paragraph">표준 모드 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP  계정이 없습니다. 대신 BlueXP  ID 및 액세스 관리(IAM)를 사용하여 관리하는 _BlueXP  조직_ 이 있습니다.</block>
@@ -4980,4 +4979,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="df4af5ebfed55f726690fe09695fb1fa" category="list-text">CPU: 코어 8개 또는 vCPU 8개</block>
   <block id="357a496c919d7b340d6f4582397b89b5" category="list-text">RAM: 32GB</block>
   <block id="0c257ecd276502d9a2d45fc70759eec6" category="admonition">2025년 2월부터 이러한 사용자 역할은 표준 및 제한된 배포 모드에 대해 더 이상 사용되지 않습니다. BlueXP  개인 모드는 모든 BlueXP  권한을 부여하는 Cloud Manager 관리자 역할인 사용자와 연결할 하나의 역할만 제공합니다.</block>
+  <block id="e1625dbf565504d716b37b407e4f24a4" category="paragraph">BlueXP  IAM(Identity and Access Management)을 사용하면 NetApp 리소스에 대한 액세스를 구성하고 제어할 수 있습니다. 조직의 계층 구조에 따라 자원을 구성할 수 있습니다. 예를 들어 지리적 위치, 사이트 또는 사업부별로 자원을 구성할 수 있습니다. 그런 다음 계층의 특정 부분에 있는 구성원에게 IAM 역할을 할당할 수 있으므로 계층의 다른 부분에 있는 리소스에 액세스할 수 없습니다.</block>
 </blocks>
