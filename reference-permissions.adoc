@@ -116,7 +116,7 @@ BlueXP를 사용하려면 Connector 및 개별 서비스에 대한 Azure 권한�
 | 목표 | 설명 | 링크 
 
 
-| BlueXP에서 Connector를 구축합니다 | BlueXP에서 Connector를 배포하는 경우 Azure에 Connector VM을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. | link:task-install-connector-azure-bluexp.html#step-2-create-a-custom-role["Azure 권한을 설정합니다"] 
+| BlueXP에서 Connector를 구축합니다 | BlueXP에서 Connector를 배포하는 경우 Azure에 Connector VM을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. | link:task-install-connector-azure-bluexp.html#connector-custom-role["Azure 권한을 설정합니다"] 
 
 
 | 커넥터에 대한 사용 권한을 제공합니다  a| 

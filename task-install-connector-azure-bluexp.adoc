@@ -14,7 +14,7 @@ summary: BlueXP에서 Azure에서 Connector를 생성하려면 네트워킹을 �
 
 
 [role="lead"]
-커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 BlueXP 에서 직접 Azure에 커넥터를 만드는 것입니다. BlueXP에서 Azure에서 Connector를 생성하려면 네트워킹을 설정하고 Azure 권한을 준비한 다음 Connector를 생성해야 합니다.
+BlueXP 에서 직접 Azure에 커넥터를 만들 수 있습니다. BlueXP 에서 Azure에 커넥터를 만들려면 네트워킹을 설정하고 커넥터를 배포하는 데 사용할 Azure 역할을 준비한 다음 커넥터를 배포해야 합니다.
 
 .시작하기 전에
 * 가 있어야 link:concept-connectors.html["커넥터 이해"]합니다.
@@ -160,9 +160,13 @@ Connector를 만든 후 이 네트워킹 요구 사항을 구현해야 합니다
 
 
 
-== 2단계: 사용자 지정 역할을 만듭니다
+== 2단계: 커넥터 배포 정책 만들기(사용자 지정 역할)
+
+Azure에서 Connector를 배포할 수 있는 권한이 있는 사용자 지정 역할을 만들어야 합니다.
 
 Azure 계정 또는 Microsoft Entra 서비스 보안 주체에 할당할 수 있는 Azure 사용자 지정 역할을 만듭니다. BlueXP는 Azure를 사용하여 인증을 수행하고 이러한 권한을 사용하여 사용자를 대신하여 Connector 인스턴스를 만듭니다.
+
+BlueXP 가 Azure에서 커넥터 가상 머신을 배포하면 가상 머신에서 을 https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview["시스템에서 할당한 관리 ID입니다"^] 활성화하고 필요한 역할을 자동으로 생성하여 가상 머신에 할당합니다. 자동으로 생성된 역할은 BlueXP 에게 해당 Azure 구독 내의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다. link:reference-permissions-azure.html["BlueXP에서 사용 권한을 사용하는 방법을 검토합니다"]..
 
 Azure 포털, Azure PowerShell, Azure CLI 또는 REST API를 사용하여 Azure 사용자 지정 역할을 생성할 수 있습니다. 다음 단계에서는 Azure CLI를 사용하여 역할을 생성하는 방법을 보여 줍니다. 다른 방법을 사용하려면 을 참조하십시오 https://learn.microsoft.com/en-us/azure/role-based-access-control/custom-roles#steps-to-create-a-custom-role["Azure 문서"^]
 

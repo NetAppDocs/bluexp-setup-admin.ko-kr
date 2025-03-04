@@ -600,10 +600,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="9998984c95caccce61e49ca25de1c99f" category="paragraph">등록 양식에는 영어 문자만 사용할 수 있습니다.</block>
   <block id="082338dd3697084a7af4c20fcdf81e82" category="summary">BlueXP가 Azure에서 Connector VM을 시작하면 Connector에 Azure 구독 내의 리소스 및 프로세스를 관리할 수 있는 권한을 제공하는 사용자 지정 역할을 VM에 연결합니다. Connector는 사용 권한을 사용하여 여러 Azure 서비스에 대한 API 호출을 수행합니다.</block>
   <block id="94864bc66faf9702eb87f3ddb6665c2c" category="doc">Connector에 대한 Azure 권한</block>
-  <block id="9fbcb95374723e2f8d5b7c17a2ece586" category="section-title">사용자 지정 역할 권한</block>
-  <block id="35065a906fcb04c8b9fad94c74ed75b6" category="paragraph">아래 표시된 사용자 지정 역할은 Connector가 Azure 네트워크 내의 리소스 및 프로세스를 관리하는 데 필요한 권한을 제공합니다.</block>
-  <block id="770735bf1cfd4e882dd9ac93b90271d3" category="paragraph">BlueXP에서 직접 커넥터를 만들면 BlueXP에서 자동으로 이 사용자 정의 역할을 커넥터에 적용합니다.</block>
-  <block id="83b9ca4036ac15d5479b1b6947eb5d6b" category="paragraph">Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector를 수동으로 설치하는 경우 사용자 지정 역할을 직접 설정해야 합니다.</block>
   <block id="92ec95b8916ebc493b6546010073c81f" category="section-title">Azure 사용 권한 사용 방법</block>
   <block id="815957003313e5f9581718376c2c472f" category="paragraph">다음 섹션에서는 각 BlueXP 서비스에 대한 사용 권한이 어떻게 사용되는지 설명합니다. 이 정보는 기업 정책에 따라 사용 권한이 필요한 경우에만 제공된다는 내용이 지정되어 있는 경우에 유용합니다.</block>
   <block id="e400a17015f6033633700b6ba11625ba" category="list-text">Microsoft.NetApp/netAppAccounts/read</block>
@@ -3034,7 +3030,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="0b849731882fd6505b78e31e7c6793e0" category="doc">워크플로 시작(비공개 모드)</block>
   <block id="86324dc19986cf024d27996fe0699e06" category="list-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="0be36da6d7a1ea4d94468b72475c7e35" category="inline-link-macro-rx"></block></block>
   <block id="99b431ba0bae952794b186c1e8ca969f" category="list-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="f4c0bdac7b3aa5cf7bf7f433238f96a2" category="inline-link-macro-rx"></block></block>
-  <block id="e80d828d2459b04d1fa1c01c4becbe8b" category="paragraph">BlueXP에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 나열됩니다 <block ref="87670d19e81a277edefeb1f9eed2acf4" category="inline-link-macro-rx"></block>.</block>
   <block id="f4426e4062930abb33465fb5b79b35dc" category="inline-link-macro">Azure Marketplace 배포에 대한 사용 권한을 설정합니다</block>
   <block id="d16dc391acdc52d611958fdd5ca48d52" category="list-text"><block ref="d16dc391acdc52d611958fdd5ca48d52" category="inline-link-macro-rx"></block></block>
   <block id="8790c01539f52b3b7d7f0f32b6631813" category="inline-link-macro">온프레미스 배포에 대한 권한을 설정합니다</block>
@@ -3085,7 +3080,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="b4ddd02a1c9dee7fdc6802111fb3cc25" category="paragraph">이 작업으로 Linux와 Connector 소프트웨어를 실행하는 EC2 인스턴스도 시작하지만 BlueXP가 아닌 AWS 마켓플레이스에서 직접 구축이 시작됩니다.</block>
   <block id="a0d5fffa896034a79c127d53a34685b7" category="list-text"><block ref="a0d5fffa896034a79c127d53a34685b7" category="inline-link-macro-rx"></block></block>
   <block id="8ce9c61f5e14fb093fdb6cc132fb3103" category="summary">BlueXP에서 Azure에서 Connector를 생성하려면 네트워킹을 설정하고 Azure 권한을 준비한 다음 Connector를 생성해야 합니다.</block>
-  <block id="383a4f176227e611b43fffaef447cf94" category="section-title">2단계: 사용자 지정 역할을 만듭니다</block>
   <block id="93017c2ae371dc5a19be6e0cce08ab5a" category="section-title">단계 3: 인증을 설정합니다</block>
   <block id="a29efb5754bb36ee62d4a2e17c5e5717" category="list-text">메시지가 표시되면 Azure 계정으로 로그인합니다. 이 계정에는 특정 Azure 권한이 있어야 합니다. 이 옵션이 기본 옵션입니다.</block>
   <block id="fbb7d70eda793afc4159d1bd8f3c3814" category="paragraph">단계에 따라 BlueXP와 함께 사용할 인증 방법 중 하나를 준비합니다.</block>
@@ -3139,7 +3133,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="ccbf44ea31f64041eb3e02bf2d4f1003" category="paragraph">커넥터를 설치하고 설정한 후에 BlueXP가 AWS 또는 Azure에서 작업을 수행하는 데 필요한 권한을 갖도록 클라우드 자격 증명을 추가합니다.</block>
   <block id="1afdeeb91955c8912691275e3b9c68c4" category="paragraph">BlueXP에서 커넥터를 배포할 때는 IAM 사용자의 ARN 또는 액세스 키를 제공해야 합니다. 사용하는 인증 방법에는 Connector 인스턴스를 AWS에 구축하는 데 필요한 권한이 있어야 합니다. 필요한 권한이 에 나열됩니다 <block ref="c368ad024408b872d841d80ba747ea9c" category="inline-link-macro-rx"></block>.</block>
   <block id="22212781592f02202c8c844bb4a04932" category="cell"><block ref="22212781592f02202c8c844bb4a04932" category="inline-link-macro-rx"></block></block>
-  <block id="fce0a0b0a267cd8305c849b06f175b89" category="cell"><block ref="fce0a0b0a267cd8305c849b06f175b89" category="inline-link-macro-rx"></block></block>
   <block id="5a67de31666dbed1b084c8f0ca78f388" category="inline-link-macro">커넥터를 만들 수 있는 권한을 설정합니다</block>
   <block id="a0452faa68d5d4a71a8b9513c9b786dc" category="cell"><block ref="a0452faa68d5d4a71a8b9513c9b786dc" category="inline-link-macro-rx"></block></block>
   <block id="fad6ca384c3ce615d6e92009f691fe31" category="cell"><block ref="fad6ca384c3ce615d6e92009f691fe31" category="inline-link-macro-rx"></block></block>
@@ -3722,7 +3715,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="235877cfbecd45ab1b8e8ccb08915ab6" category="inline-link-macro">Connector의 사용자 지정 역할에 대해 자세히 알아보십시오</block>
   <block id="9c94f9d5dbcdb22d1966ac1fff333345" category="list-text">BlueXP가 Connector를 배포하면 맞춤형 역할을 생성하고 Connector VM에 할당합니다. 이 역할에는 Connector가 Azure 리소스를 관리할 수 있도록 하는 권한이 포함됩니다. 이후 릴리스에서 새 권한이 추가됨에 따라 역할이 최신 상태로 유지되도록 해야 합니다. <block ref="68dcfa6eadd8a48a8164adbbc9abc0e5" category="inline-link-macro-rx"></block>.</block>
   <block id="1f43b26ddf19b23cb5c358604ad9d1bb" category="paragraph">이후 릴리스에 새 권한이 추가되면 Connector 정책을 업데이트할 책임은 사용자에게 있습니다. 새 권한이 필요한 경우 릴리스 노트에 해당 권한이 나열됩니다.</block>
-  <block id="676f79631572648a20e41bdcef2aa88e" category="list-text">두 경우 모두 후속 릴리스에서 새 권한이 추가됨에 따라 역할이 최신 상태인지 확인해야 합니다. 새 권한이 필요한 경우 릴리스 노트에 해당 권한이 나열됩니다.</block>
   <block id="ced19d28868cf97a99ad66ab748a0458" category="list-text">BlueXP에서 직접 표준 AWS 영역에 커넥터를 생성하는 경우 BlueXP는 자동으로 Connector에 정책을 적용합니다.</block>
   <block id="27bfd6a18f38f12efb7983c46e54e86c" category="list-text">두 경우 모두 후속 릴리스에서 새 권한이 추가됨에 따라 정책이 최신 상태인지 확인해야 합니다. 새 권한이 필요한 경우 릴리스 노트에 해당 권한이 나열됩니다.</block>
   <block id="8ed564b3f4045fb1f8ddb641549ce096" category="paragraph">이 정책에는 BlueXP에서 AWS에서 Connector 인스턴스를 시작하는 데 필요한 권한만 포함되어 있습니다. BlueXP에서 Connector를 만들면 Connector가 AWS 리소스를 관리할 수 있도록 Connector 인스턴스에 새 권한 집합이 적용됩니다. <block ref="1803651c0d8d31da6be94aca23bd6fb9" category="inline-link-macro-rx"></block>.</block>
@@ -3888,7 +3880,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="a69707f32a14657a4148714e0858cc16" category="list-text">가 있어야 <block ref="265bf4041c284cedb5265913609f75cf" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="0f6f328a496422180419aea5d68c3d2b" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 AWS에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 AWS 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="bde99503b08825a9b6290c21b6ff2424" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 AWS Marketplace에서 직접 Connector를 만드는 것입니다. AWS Marketplace에서 Connector를 만들려면 네트워킹을 설정하고 AWS 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
-  <block id="f83b4f8c16705e26d282f2cb4ed19e78" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 BlueXP 에서 직접 Azure에 커넥터를 만드는 것입니다. BlueXP에서 Azure에서 Connector를 생성하려면 네트워킹을 설정하고 Azure 권한을 준비한 다음 Connector를 생성해야 합니다.</block>
   <block id="5cb6efc5332c23d8c22978f3559aa613" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Azure에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 Azure 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="1017ad8551dc7209fead1d996608e2b5" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Azure Marketplace에서 직접 Azure에 Connector를 만드는 것입니다. Azure 마켓플레이스에서 Connector를 만들려면 네트워킹을 설정하고 Azure 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
   <block id="9a63fba43be3e1df0de44c749000ffc5" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션에는 BlueXP 에서 직접 또는 gcloud를 사용하여 AWS에서 커넥터를 생성하는 것이 포함됩니다. BlueXP에서 또는 gcloud를 사용하여 Google Cloud에 Connector를 생성하려면 네트워킹을 설정하고 Google Cloud 권한을 준비하고 Google Cloud API를 활성화한 다음 Connector를 생성해야 합니다.</block>
@@ -4767,8 +4758,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="8e64dfb0168516c0e7f7880ae745072a" category="doc">커넥터 3.9.49</block>
   <block id="f5c64d3f640238b8d1e1ed7062c5561f" category="paragraph">현재 3.9.49 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="36cef198e9fac4b4a194f5e01017b8d1" category="list-text">사용자에게 둘 이상의 역할을 할당할 수 있습니다.</block>
-  <block id="6708a31732ccaf29d9ba72b524255e3e" category="list-text">이제 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 세 가지 범주 중 하나에 연결됩니다.</block>
-  <block id="035261365b324f2942fd56c2f10f6ed5" category="inline-link">IAM 역할에 대해 알아보십시오</block>
   <block id="4fafa85612a8b2fff96d593213d6a0ec" category="paragraph">BlueXP  IAM(Identity and Access Management)은 이제 제한된 모드에서 사용됩니다.</block>
   <block id="2f73a8cbcbf617bd5a78738929bbe5b3" category="paragraph">BlueXP  IAM(Identity and Access Management)은 표준 및 제한 모드에서 BlueXP 를 사용할 때 BlueXP  계정에서 제공하는 이전 기능을 대체 및 향상시키는 리소스 및 액세스 관리 모델입니다.</block>
   <block id="029ade287eade250f2c9612d148e1fad" category="paragraph-title">제한된 모드에서 BlueXP  IAM이 기존 계정에 미치는 영향</block>
@@ -4972,12 +4961,23 @@ https://support.netapp.com 으로 문의하십시오
   <block id="eefc3c2b6ca2400b2ae57e8da8247c03" category="list-text">코어 8개 또는 vCPU 8개</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="list-text">RAM</block>
   <block id="911ede8df5585598c294830dafe276fa" category="list-text">32GB</block>
-  <block id="3a85c700de68ae35770a964c115eb7cb" category="list-title">추가 IAM 개선 사항</block>
-  <block id="afa69926e5d0001214117331ecb2e622" category="list-text">애플리케이션 범주에는 스토리지 뷰어와 스토리지 관리자의 두 가지 새로운 역할이 연결됩니다.</block>
-  <block id="df90fe85a844ffa5c11d99e37754376f" category="paragraph"><block ref="df90fe85a844ffa5c11d99e37754376f" category="inline-link-rx"></block></block>
   <block id="69ac82a1779b2cc7d528017241f5324f" category="paragraph">호스트는 다음 크기 요구 사항을 충족하는 모든 아키텍처에 속할 수 있습니다.</block>
   <block id="df4af5ebfed55f726690fe09695fb1fa" category="list-text">CPU: 코어 8개 또는 vCPU 8개</block>
   <block id="357a496c919d7b340d6f4582397b89b5" category="list-text">RAM: 32GB</block>
   <block id="0c257ecd276502d9a2d45fc70759eec6" category="admonition">2025년 2월부터 이러한 사용자 역할은 표준 및 제한된 배포 모드에 대해 더 이상 사용되지 않습니다. BlueXP  개인 모드는 모든 BlueXP  권한을 부여하는 Cloud Manager 관리자 역할인 사용자와 연결할 하나의 역할만 제공합니다.</block>
   <block id="e1625dbf565504d716b37b407e4f24a4" category="paragraph">BlueXP  IAM(Identity and Access Management)을 사용하면 NetApp 리소스에 대한 액세스를 구성하고 제어할 수 있습니다. 조직의 계층 구조에 따라 자원을 구성할 수 있습니다. 예를 들어 지리적 위치, 사이트 또는 사업부별로 자원을 구성할 수 있습니다. 그런 다음 계층의 특정 부분에 있는 구성원에게 IAM 역할을 할당할 수 있으므로 계층의 다른 부분에 있는 리소스에 액세스할 수 없습니다.</block>
+  <block id="179864dbcf93f914bb2504e0d17f7afc" category="paragraph">BlueXP에서 Connector를 배포하는 경우 Connector 가상 시스템을 배포할 수 있는 권한이 있는 Azure 계정 또는 서비스 보안 주체를 사용해야 합니다. 필요한 권한이 에 <block ref="a3d6867da21f74b7e760876f5e090de9" category="inline-link-macro-rx"></block>나열됩니다.</block>
+  <block id="1f0c50a54c656fee9ca2814ffcfc5d68" category="paragraph">Connector에 대해 이 사용자 지정 역할을 만들어야 하는지 여부는 Connector를 배포한 방법에 따라 다릅니다.</block>
+  <block id="fa922c926b9bd1ffad4f5c26c082d203" category="paragraph-title">BlueXP 에서 배포</block>
+  <block id="657d65defc193e1f1ae69cc71d8dde9c" category="paragraph">BlueXP 를 사용하여 Azure에서 Connector 가상 머신을 구축하면 가상 머신에서 을<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block> 활성화하고 사용자 지정 역할을 생성하여 가상 머신에 할당합니다. BlueXP는 이 역할을 통해 Azure 가입 내에서 리소스와 프로세스를 관리하는 데 필요한 권한을 얻을 수 있습니다. Connector가 업그레이드되면 역할의 권한이 최신 상태로 유지됩니다. Connector에 대해 이 역할을 만들거나 업데이트를 관리할 필요가 없습니다.</block>
+  <block id="17187c9f3c6d4fe394ea1db0cb6f0b16" category="paragraph-title">수동으로 또는 Azure 마켓플레이스에서 배포</block>
+  <block id="a4d75af0169953eb40d887c4820fd6c1" category="paragraph">Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector를 수동으로 설치하는 경우 사용자 지정 역할을 직접 설정하고 변경 사항이 있을 경우 사용 권한을 유지해야 합니다.</block>
+  <block id="ad7d7ef56b8ff6022bbad683c5492270" category="paragraph">이후 릴리스에서 새 권한이 추가됨에 따라 역할이 최신 상태인지 확인해야 합니다. 새 권한이 필요한 경우 릴리스 노트에 해당 권한이 나열됩니다.</block>
+  <block id="97d45041217492c3fe9ac0d49a0674a5" category="cell"><block ref="97d45041217492c3fe9ac0d49a0674a5" category="inline-link-macro-rx"></block></block>
+  <block id="2ff6b1064f88d62b00c4062b5e82d23f" category="paragraph">BlueXP 에서 직접 Azure에 커넥터를 만들 수 있습니다. BlueXP 에서 Azure에 커넥터를 만들려면 네트워킹을 설정하고 커넥터를 배포하는 데 사용할 Azure 역할을 준비한 다음 커넥터를 배포해야 합니다.</block>
+  <block id="799e45e78d3615d4d8005dadaa50f617" category="section-title">2단계: 커넥터 배포 정책 만들기(사용자 지정 역할)</block>
+  <block id="7916ff578d0c4f1b6b2fb089e194887a" category="paragraph">Azure에서 Connector를 배포할 수 있는 권한이 있는 사용자 지정 역할을 만들어야 합니다.</block>
+  <block id="7fae3ca49e7c49f36f0627788bfa6e92" category="paragraph">BlueXP 가 Azure에서 커넥터 가상 머신을 배포하면 가상 머신에서 을<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block> 활성화하고 필요한 역할을 자동으로 생성하여 가상 머신에 할당합니다. 자동으로 생성된 역할은 BlueXP 에게 해당 Azure 구독 내의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다. <block ref="daf58003d5227a43b6fbea1d165f6f7b" category="inline-link-macro-rx"></block>..</block>
+  <block id="be77518281f390b896a01faba311cae7" category="section-title">4단계: 커넥터 배포 권한 설정</block>
+  <block id="d5c982d940dee7fa8f6664ea1ab252e6" category="open-title">Connector 배포를 위한 사용자 지정 역할을 만듭니다</block>
 </blocks>
