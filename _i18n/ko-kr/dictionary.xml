@@ -1768,7 +1768,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="c160cffd96a1bb98161a7add244e274f" category="paragraph">Connector 의 URI(Uniform Resource Identifier)를 추가하고 제거합니다.</block>
   <block id="f98b44043815b68b5ba8272fb252dafd" category="list-text">BlueXP 헤더에서 * 커넥터 * 드롭다운을 선택합니다.</block>
   <block id="9cf3804bed44acd4f31054cd5804edd6" category="list-text">커넥터 관리 * 를 선택합니다.</block>
-  <block id="330b38a06abadd478b0e03585b3789a5" category="list-text">Connector에 대한 작업 메뉴를 선택하고 * URI 편집 * 을 선택합니다.</block>
   <block id="fb9b59364e346ccfcbfc4636f13644b5" category="list-text">URI를 추가 및 제거한 다음 * 적용 * 을 선택합니다.</block>
   <block id="fb6890fd99d108eeb3627b961bdfb529" category="section-title">Google Cloud NAT 게이트웨이를 사용할 때 다운로드 오류를 수정합니다</block>
   <block id="2eac5df1bc108f46482e586570f46442" category="paragraph">커넥터는 Cloud Volumes ONTAP용 소프트웨어 업데이트를 자동으로 다운로드합니다. 구성에서 Google Cloud NAT 게이트웨이를 사용하는 경우 다운로드가 실패할 수 있습니다. 소프트웨어 이미지를 분할하는 부품 수를 제한하여 이 문제를 해결할 수 있습니다. 이 단계는 BlueXP API를 사용하여 완료해야 합니다.</block>
@@ -4980,4 +4979,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="7fae3ca49e7c49f36f0627788bfa6e92" category="paragraph">BlueXP 가 Azure에서 커넥터 가상 머신을 배포하면 가상 머신에서 을<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block> 활성화하고 필요한 역할을 자동으로 생성하여 가상 머신에 할당합니다. 자동으로 생성된 역할은 BlueXP 에게 해당 Azure 구독 내의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다. <block ref="daf58003d5227a43b6fbea1d165f6f7b" category="inline-link-macro-rx"></block>..</block>
   <block id="be77518281f390b896a01faba311cae7" category="section-title">4단계: 커넥터 배포 권한 설정</block>
   <block id="d5c982d940dee7fa8f6664ea1ab252e6" category="open-title">Connector 배포를 위한 사용자 지정 역할을 만듭니다</block>
+  <block id="87a06bc88e9a560195c606632e964e42" category="list-text">커넥터 URI * 를 선택합니다.</block>
 </blocks>
