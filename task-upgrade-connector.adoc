@@ -92,7 +92,6 @@ _com/opt/application/NetApp/service-manager-2/config.json_file에서 _isUpgradeD
   },
   "isUpgradeDisabled": true,
   "serviceAPIServerBaseUrl": "http://10.250.250.1:8890"
-}
 ----
 . 파일을 저장합니다.
 . 다음 명령을 실행하여 서비스 관리자 2 서비스를 다시 시작합니다.
