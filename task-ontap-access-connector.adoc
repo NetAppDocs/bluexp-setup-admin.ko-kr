@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task-ontap-access-connector.html 
+keywords: administer, credentials, ONTAP, connector, Cloud Volumes ONTAP, on-premises, roles, permissions 
+summary: 관리자는 사용자에게 ONTAP 자격 증명을 묻는 메시지를 표시하도록 BlueXP  커넥터를 구성할 수 있습니다. 
+---
+= ONTAP 고급 보기에 대한 ONTAP 권한 적용(ONTAP 시스템 관리자)
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+기본적으로 커넥터 자격 증명을 통해 BlueXP  사용자는 고급 보기(ONTAP 시스템 관리자)에 액세스할 수 있습니다. 대신 사용자에게 ONTAP 자격 증명을 묻는 메시지를 표시하도록 BlueXP 를 구성할 수 있습니다. 따라서 Cloud Volumes ONTAP 및 ONTAP 온프레미스 클러스터 모두에서 ONTAP 클러스터로 작업할 때 사용자의 ONTAP 권한이 적용됩니다.
+
+
+NOTE: 커넥터 설정을 편집하려면 조직 관리자 역할이 있어야 합니다.
+
+.단계
+. BlueXP 헤더에서 * 커넥터 * 드롭다운을 선택합니다.
+. 커넥터 관리 * 를 선택합니다.
+. 편집할 연결선에 해당하는 행에서 작업 메뉴를 선택합니다.
+. 자격 증명 강제 적용 * 옵션을 확장합니다.
+. 확인란을 선택하여 * 자격 증명 강제 적용 * 옵션을 활성화한 다음 * 저장 * 을 선택합니다.
+. Force Credentials * 옵션을 확인하여 옵션이 활성화되어 있는지 확인합니다.
++
+image:screenshot-force-credentials-on.png["강제 자격 증명이 켜져 있음을 보여 주는 스크린샷"]
+
+

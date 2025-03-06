@@ -1,0 +1,9 @@
+= 사용자가 ONTAP 자격 증명을 입력하여 고급 보기(ONTAP System Manager)에 액세스하도록 강제 적용
+:allow-uri-read: 
+
+
+
+
+=== 사용자가 ONTAP 자격 증명을 입력하여 고급 보기(ONTAP System Manager)에 액세스하도록 강제 적용
+
+이제 ONTAP System Manager에 액세스하기 위해 사용자가 ONTAP 자격 증명을 입력하도록 강제할 수 있습니다. 이 설정은 Cloud Volumes ONTAP 및 ONTAP 온-프레미스에 모두 적용됩니다. 조직 관리자 역할을 가진 사용자는 이 설정을 구성할 수 있습니다.

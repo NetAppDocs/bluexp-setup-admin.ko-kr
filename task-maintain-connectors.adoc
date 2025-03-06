@@ -41,7 +41,7 @@ link:reference-connector-default-config.html["Connector의 기본 설정에 대�
 
 
 
-== Connector VM 시작 중지
+== Connector VM 중지 및 시작
 
 Connector VM을 중지했다가 시작해야 하는 경우에는 클라우드 공급자의 콘솔에서 또는 온-프레미스 관리를 위한 표준 절차를 사용해야 합니다.
 
@@ -119,6 +119,6 @@ Connector 의 URI(Uniform Resource Identifier)를 추가하고 제거합니다.
 . BlueXP 헤더에서 * 커넥터 * 드롭다운을 선택합니다.
 . 커넥터 관리 * 를 선택합니다.
 . 커넥터의 작업 메뉴를 선택하고 * 커넥터 편집 * 을 선택합니다.
-. 커넥터 URI * 를 선택합니다.
+. 커넥터 URI * 표시줄을 확장하여 커넥터의 URI를 확인합니다.
 . URI를 추가 및 제거한 다음 * 적용 * 을 선택합니다.
 

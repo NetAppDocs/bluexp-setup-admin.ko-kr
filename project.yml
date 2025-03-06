@@ -145,7 +145,7 @@ sidebar:
         url: "/task-configuring-proxy.html"
       - title: EC2 인스턴스에서 IMDSv2를 사용해야 합니다
         url: "/task-require-imdsv2.html"
-      - title: 비공개 모드를 사용하는 경우 커넥터를 업그레이드합니다
+      - title: 커넥터 업그레이드를 관리합니다
         url: "/task-upgrade-connector.html"
       - title: 여러 개의 커넥터로 작업합니다
         url: "/task-manage-multiple-connectors.html"
@@ -155,6 +155,8 @@ sidebar:
         url: "/task-uninstall-connector.html"
       - title: 기본 구성
         url: "/reference-connector-default-config.html"
+      - title: BlueXP 에서 ONTAP 권한 적용
+        url: "/task-ontap-access-connector.html"
     - title: 자격 증명 및 구독
       entries:
       - title: 설치하고

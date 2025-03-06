@@ -570,7 +570,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e3884a4ce043ad31217e0098c7c0537f" category="doc">BlueXP 로그인과 관련된 자격 증명을 관리합니다</block>
   <block id="5a66a53c80f94aa60f854872b432d82d" category="paragraph">BlueXP에서 수행한 작업에 따라 ONTAP 자격 증명 및 NSS(NetApp Support 사이트) 자격 증명을 BlueXP 사용자 로그인에 연결할 수 있습니다. 연결한 후 BlueXP에서 이러한 자격 증명을 보고 관리할 수 있습니다. 예를 들어 이러한 자격 증명의 암호를 변경하는 경우 BlueXP에서 암호를 업데이트해야 합니다.</block>
   <block id="823a6e1d7fe661be55dd3af05f972b11" category="section-title">ONTAP 자격 증명</block>
-  <block id="b82af7a7b96d34942cadb7921514f408" category="paragraph">커넥터를 사용하지 않고 사내 ONTAP 클러스터를 직접 검색할 경우 클러스터에 대한 ONTAP 자격 증명을 입력하라는 메시지가 표시됩니다. 이러한 자격 증명은 사용자 수준에서 관리되므로 로그인하는 다른 사용자가 볼 수 없습니다.</block>
   <block id="4cdcf6b8fd95bbaa7cf27e4443c7681b" category="section-title">NSS 자격 증명</block>
   <block id="9b7ea233ab4085c74e7506949f6c1a49" category="paragraph">BlueXP 로그인과 관련된 NSS 자격 증명을 통해 등록, 케이스 관리 및 Digital Advisor에 액세스할 수 있습니다.</block>
   <block id="f57a365a74c463e64fe68cc99fbed5f5" category="list-text">지원 &gt; 리소스 * 에 액세스하여 지원을 등록하면 NSS 자격 증명을 BlueXP 로그인에 연결하라는 메시지가 표시됩니다.</block>
@@ -1755,7 +1754,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="fa25ff644bc82c03a613715d969f788d" category="list-text">Google Cloud에서 Connector를 만들 때는 인증 방법을 지정할 수 없습니다. 그러나 Google Cloud Console 또는 Google Cloud CLI(gcloud)를 사용하여 Linux VM 인스턴스에 연결할 수 있습니다.</block>
   <block id="b60097f9f3ac90a5ce4fd69c66be0717" category="inline-link">Google Cloud Docs: Linux VM에 연결합니다</block>
   <block id="b80f2820ec689140e03615f3240fde24" category="paragraph"><block ref="b80f2820ec689140e03615f3240fde24" category="inline-link-rx"></block></block>
-  <block id="bdfe8a8b0f5b6a0b4242be2e550dff4a" category="paragraph">비공개 모드에서 BlueXP를 사용하는 경우 NetApp Support 사이트에서 최신 버전을 사용할 수 있는 경우 커넥터를 업그레이드할 수 있습니다.</block>
   <block id="84692ef80d23d7ba11b5ce40223e1af5" category="paragraph">업그레이드 프로세스 중에 Connector를 다시 시작해야 업그레이드 중에 웹 기반 콘솔을 사용할 수 없게 됩니다.</block>
   <block id="d651da37c0942c2e8d61b167e835ec80" category="list-text">에서 Connector 소프트웨어를 다운로드합니다<block ref="99637e01fa8caa34a544049093cac68c" category="inline-link-rx"></block>.</block>
   <block id="29796d02ce8782cd7e5fc7ab3be29617" category="list-text">업그레이드가 완료되면 * 도움말 &gt; 지원 &gt; 커넥터 * 로 이동하여 커넥터 버전을 확인할 수 있습니다.</block>
@@ -3627,8 +3625,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="9a8e93f292200e4d86cfd716262b53cc" category="paragraph">\http://bxpproxyuser:netapp1\!@address:3128</block>
   <block id="b47596b2df9e477c6203e15d91a678ba" category="section-title">8단계: BlueXP에 권한 제공</block>
   <block id="1963a5845bb573651eecf0188b584456" category="summary">BlueXP는 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때 커넥터를 최신 릴리즈로 자동으로 업그레이드합니다. 새 버전은 일반적으로 새로운 기능을 소개하고 안정성을 개선하기 위해 매월 릴리스됩니다. 원하는 경우 대신 커넥터를 구성하여 로컬 리포지토리에서 이미지 업데이트를 가져올 수 있습니다. 비공개 모드 배포의 경우 항상 수동으로 커넥터를 업그레이드해야 합니다.</block>
-  <block id="d6b403d1857ecb824db228cac4a628ae" category="doc">비공개 모드를 사용하는 경우 커넥터를 업그레이드합니다</block>
-  <block id="eb775c24a0b347148812da8a6496489b" category="admonition">표준 모드 또는 제한된 모드에서 BlueXP를 사용할 때는 커넥터를 수동으로 업그레이드할 필요가 없습니다. Connector가 소프트웨어 업데이트를 받을 수 있도록 아웃바운드 인터넷에 액세스할 수 있다면 BlueXP는 커넥터를 최신 릴리즈로 자동으로 업그레이드합니다.</block>
   <block id="eb762959fcc0cce31949abce6f8eb1c1" category="list-text">CPU, RAM, 디스크 공간, 컨테이너 조정 툴 등의 요구 사항을 충족하는 전용 Linux 호스트를 준비합니다.</block>
   <block id="99ca40e706695ba7607287669fab39f3" category="cell">가용 영역이 AWS 로컬 영역인지 확인하고 모든 배포 매개 변수가 호환되는지 확인합니다</block>
   <block id="0683995d371439e19d907680da921ba9" category="section-title">2024년 5월 9일</block>
@@ -3683,7 +3679,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="6f16d8c603420093f0274e54a03d0a2f" category="admonition">기존 커넥터가 있는 경우 에 유의하십시오 <block ref="bd6e461b9eed09ced9eb75610086f8d1" category="inline-link-macro-rx"></block>.</block>
   <block id="6a8efb58df7d7b111b6073b7ce536fe1" category="section-title">운영 체제 패치 및 커넥터</block>
   <block id="5c6b62893e9b8753b16ce8db64ae077c" category="paragraph">OS 보안 패치를 적용할 때 Connector 호스트의 서비스를 중지할 필요가 없습니다.</block>
-  <block id="d4c7d564cf9384303b11292ec4d09bf7" category="section-title">Connector VM 시작 중지</block>
   <block id="f65f967e9525533fe9edbca2e40db32f" category="paragraph">Connector VM을 중지했다가 시작해야 하는 경우에는 클라우드 공급자의 콘솔에서 또는 온-프레미스 관리를 위한 표준 절차를 사용해야 합니다.</block>
   <block id="bd684dd31e369444b29047e57d56ff19" category="sidebar">배포 모드에 대해 알아봅니다</block>
   <block id="a620abb16506a8da5f6b8dcbc0073466" category="sidebar">AWS 권한 보기</block>
@@ -4979,5 +4974,48 @@ https://support.netapp.com 으로 문의하십시오
   <block id="7fae3ca49e7c49f36f0627788bfa6e92" category="paragraph">BlueXP 가 Azure에서 커넥터 가상 머신을 배포하면 가상 머신에서 을<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block> 활성화하고 필요한 역할을 자동으로 생성하여 가상 머신에 할당합니다. 자동으로 생성된 역할은 BlueXP 에게 해당 Azure 구독 내의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다. <block ref="daf58003d5227a43b6fbea1d165f6f7b" category="inline-link-macro-rx"></block>..</block>
   <block id="be77518281f390b896a01faba311cae7" category="section-title">4단계: 커넥터 배포 권한 설정</block>
   <block id="d5c982d940dee7fa8f6664ea1ab252e6" category="open-title">Connector 배포를 위한 사용자 지정 역할을 만듭니다</block>
-  <block id="87a06bc88e9a560195c606632e964e42" category="list-text">커넥터 URI * 를 선택합니다.</block>
+  <block id="68ea9cebb3c452c83085356b253868c5" category="paragraph">이제 커넥터의 자동 업그레이드를 비활성화할 수 있습니다. 이 기능은 업무상의 이유로 소프트웨어 업그레이드를 수동으로 처리해야 하는 경우에 유용합니다.</block>
+  <block id="3d4e00cd939cc5521989a751b4b1dbdb" category="paragraph">고객은 Connector 버전 3.9.48 이상에서 자동 업그레이드를 끌 수 있습니다.</block>
+  <block id="71ae02c171873e7af0f7b72300d1da9b" category="inline-link">커넥터 업그레이드를 관리합니다</block>
+  <block id="d8d6c527b108697862bc5a357c01048f" category="list-text"><block ref="d8d6c527b108697862bc5a357c01048f" category="inline-link-rx"></block></block>
+  <block id="56997c9a04ad826028323008fa4ae68f" category="doc">사용자가 ONTAP 자격 증명을 입력하여 고급 보기(ONTAP System Manager)에 액세스하도록 강제 적용</block>
+  <block id="7947a3598cd43dbb491dfbcdf1970bb1" category="paragraph">이제 ONTAP System Manager에 액세스하기 위해 사용자가 ONTAP 자격 증명을 입력하도록 강제할 수 있습니다. 이 설정은 Cloud Volumes ONTAP 및 ONTAP 온-프레미스에 모두 적용됩니다. 조직 관리자 역할을 가진 사용자는 이 설정을 구성할 수 있습니다.</block>
+  <block id="47c94941fabbd38f1b71c23663c608d6" category="section-title">Connector VM 중지 및 시작</block>
+  <block id="90754b70edd81e7b1f33fbe6f09ee188" category="list-text">커넥터 URI * 표시줄을 확장하여 커넥터의 URI를 확인합니다.</block>
+  <block id="fbd9d54f39ed5129df98414b561236de" category="paragraph">사용자가 BlueXP 에서 ONTAP 클러스터를 검색하려면 ONTAP 관리자 자격 증명이 필요합니다. 그러나 ONTAP 시스템 관리자 액세스는 커넥터 사용 여부에 따라 달라집니다.</block>
+  <block id="b2d980523e7f68a234b1bef9046bf610" category="paragraph-title">커넥터 없음</block>
+  <block id="dbe7e61b89ec728b027dc1237e881b38" category="paragraph">사용자가 클러스터의 ONTAP System Manager에 액세스할 때 ONTAP 자격 증명을 입력하라는 메시지가 표시됩니다. 사용자는 이러한 자격 증명을 BlueXP 에 저장하도록 선택할 수 있습니다. 즉, 매번 자격 증명을 입력하라는 메시지가 표시되지 않습니다. 사용자 자격 증명은 해당 사용자에게만 표시되며 사용자 자격 증명 페이지에서 관리할 수 있습니다.</block>
+  <block id="ebed6caedf3ce370608544cd61300fb9" category="paragraph-title">커넥터 포함</block>
+  <block id="e8cbfb0691fa9052d50053bb8d48f3ca" category="paragraph">기본적으로 사용자는 ONTAP System Manager에 액세스할 때 ONTAP 자격 증명을 입력하라는 메시지가 표시되지 않습니다. 그러나 조직 관리자 역할을 가진 BlueXP  관리자는 사용자에게 ONTAP 자격 증명을 입력하라는 메시지를 표시하도록 BlueXP 를 구성할 수 있습니다. 이 설정을 사용하는 경우 사용자는 ONTAP 자격 증명이 BlueXP 에 저장되지 않으므로 매번 해당 자격 증명을 입력해야 합니다.</block>
+  <block id="f990e553cdc4c29c2efffba33e08a8c7" category="inline-link-macro">자세한 정보.</block>
+  <block id="efd19a04c99c31329dfaad38a02c2181" category="paragraph"><block ref="efd19a04c99c31329dfaad38a02c2181" category="inline-link-macro-rx"></block></block>
+  <block id="034059bc028cfbb547d4683b2caff29f" category="summary">관리자는 사용자에게 ONTAP 자격 증명을 묻는 메시지를 표시하도록 BlueXP  커넥터를 구성할 수 있습니다.</block>
+  <block id="29f68982771966bddc72b7dbd3b2f3d3" category="doc">ONTAP 고급 보기에 대한 ONTAP 권한 적용(ONTAP 시스템 관리자)</block>
+  <block id="3b0e6670a76f82f4c760fe4ff152d8c0" category="paragraph">기본적으로 커넥터 자격 증명을 통해 BlueXP  사용자는 고급 보기(ONTAP 시스템 관리자)에 액세스할 수 있습니다. 대신 사용자에게 ONTAP 자격 증명을 묻는 메시지를 표시하도록 BlueXP 를 구성할 수 있습니다. 따라서 Cloud Volumes ONTAP 및 ONTAP 온프레미스 클러스터 모두에서 ONTAP 클러스터로 작업할 때 사용자의 ONTAP 권한이 적용됩니다.</block>
+  <block id="19c9798fb0fc2fbadcc32b5470960e0e" category="admonition">커넥터 설정을 편집하려면 조직 관리자 역할이 있어야 합니다.</block>
+  <block id="1d34d896e9246492a9cf64de3c5abb49" category="list-text">편집할 연결선에 해당하는 행에서 작업 메뉴를 선택합니다.</block>
+  <block id="79200641e6b3df738c3bda6a52fd51c1" category="list-text">자격 증명 강제 적용 * 옵션을 확장합니다.</block>
+  <block id="305fd31774e543ad8e03e87cad28ea54" category="list-text">확인란을 선택하여 * 자격 증명 강제 적용 * 옵션을 활성화한 다음 * 저장 * 을 선택합니다.</block>
+  <block id="09d01e9645cf22853822390959d6c792" category="list-text">Force Credentials * 옵션을 확인하여 옵션이 활성화되어 있는지 확인합니다.</block>
+  <block id="74b59d176e85a927c1b9ec89cd8847b2" category="inline-image-macro">강제 자격 증명이 켜져 있음을 보여 주는 스크린샷</block>
+  <block id="e47d9b41f27e043909b844e706663ff6" category="paragraph"><block ref="e47d9b41f27e043909b844e706663ff6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="651a32308986dea9de3797c8e0997c14" category="paragraph">표준 모드 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP 는 소프트웨어 업데이트를 얻기 위해 커넥터에 아웃바운드 인터넷 액세스가 있는 경우 커넥터를 자동으로 최신 릴리스로 업그레이드합니다. 커넥터를 업그레이드할 때 수동으로 관리해야 하는 경우 표준 모드 또는 제한된 모드에 대한 자동 업그레이드를 비활성화할 수 있습니다.</block>
+  <block id="a30a1e13c5419a2d602474533f69dcd1" category="admonition">BlueXP 를 비공개 모드로 실행할 때는 항상 커넥터를 직접 업그레이드해야 합니다.</block>
+  <block id="6c66e308926fc039cc9e20fe56d7abdf" category="section-title">자동 업그레이드를 비활성화합니다</block>
+  <block id="a1188a88192f3f804b6f1b62d79bcd67" category="paragraph">커넥터의 자동 업그레이드 비활성화는 두 단계로 구성됩니다. 먼저 현재 커넥터가 정상이고 최신 상태인지 확인해야 합니다. 그런 다음 구성 파일을 편집하여 자동 업그레이드 기능을 해제합니다.</block>
+  <block id="04b99f73471ca057d71f53c3f053b60e" category="admonition">커넥터 버전 3.9.48 이상이 있는 경우에만 자동 업그레이드를 비활성화할 수 있습니다.</block>
+  <block id="377245fa7e4be29c2941f9c3069eae57" category="section-title">커넥터의 상태를 확인합니다</block>
+  <block id="70a6926b672111815dfe273a0292468d" category="paragraph">커넥터가 안정적이며 커넥터 VM에서 실행 중인 모든 컨테이너가 정상이고 실행 중인지 확인해야 합니다. 자동 업그레이드를 비활성화하면 커넥터 VM이 새 서비스나 업그레이드 패키지 검사를 중지합니다.</block>
+  <block id="aca0bf9b192b34e35fb37ccbd9cd98be" category="paragraph">다음 명령 중 하나를 사용하여 커넥터를 확인합니다. 모든 서비스의 상태는 _running_이어야 합니다. 그렇지 않은 경우 자동 업그레이드를 비활성화하기 전에 NetApp 지원에 문의하십시오.</block>
+  <block id="c5fd214cdd0d2b3b4272e73b022ba5c2" category="list-text">Docker 를 참조하십시오</block>
+  <block id="21fa3d085631029b33cc6537b5b1a964" category="section-title">커넥터에 대한 자동 업그레이드를 비활성화합니다</block>
+  <block id="f1a415c9565a5203c9cab67d50062380" category="paragraph">_com/opt/application/NetApp/service-manager-2/config.json_file에서 _isUpgradeDisabled_flag를 설정하여 자동 업그레이드를 비활성화합니다. 기본적으로 이 플래그는 false로 설정되며 커넥터가 자동으로 업그레이드됩니다. 이 플래그를 true 로 설정하면 자동 업그레이드를 비활성화할 수 있습니다.</block>
+  <block id="fda5aa414d851bf8018163c5fe4acb1a" category="paragraph">자동 업그레이드를 다시 활성화하려면 다음 단계를 수행하고 _isUpgradeDisabled_flag를 false로 설정하십시오.</block>
+  <block id="942778941acc11e030b5e5615f2d8d41" category="list-text">커넥터가 최신 상태이고 정상 상태인지 확인하십시오.</block>
+  <block id="667f94e7aab832b818ed3d6710e2b890" category="list-text">이 예의 아래 그림과 같이 _/opt/application/NetApp/service-manager-2/config.json_file을 편집하고 _isUpgradeDisabled_flag 값을 true로 변경합니다.</block>
+  <block id="9e3e4c61d70076bf677edfc157a67761" category="list-text">파일을 저장합니다.</block>
+  <block id="92ae5258778c2fa8ece2b13c88ec0853" category="list-text">다음 명령을 실행하여 서비스 관리자 2 서비스를 다시 시작합니다.</block>
+  <block id="0a38f6fb9751bd939880be04152c67f3" category="section-title">커넥터를 업그레이드합니다</block>
+  <block id="084d853adc45dcd521da8dd702d68cc0" category="section-title">2025년 2월 15일</block>
+  <block id="ea807586843dea568060289fb3d6cc9a" category="sidebar">BlueXP 에서 ONTAP 권한 적용</block>
 </blocks>
