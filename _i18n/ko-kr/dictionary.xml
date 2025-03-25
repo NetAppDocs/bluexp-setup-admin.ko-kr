@@ -5034,4 +5034,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="d0ec983e93943635bce3349bbdcbf79e" category="list-text">변경 내용을 되돌릴 수 있도록 _/opt/application/NetApp/service-manager-2/config.json_file의 백업 복사본을 생성합니다.</block>
   <block id="b8000759daeb255b90b1845748aeb18e" category="list-text">//opt/application/NetApp/service-manager-2/config.json_file을 편집하고 _isUpgradeDisabled_flag 값을 true로 변경합니다.</block>
   <block id="bfd2bb89d8e4699a2a0ac8d2e111e1bb" category="list-text">다음 명령을 실행하여 커넥터 상태가 _ACTIVE(Running)_:_로 표시되는지 확인합니다</block>
+  <block id="973c3bcf96d6257755a3e8ee090eb5f1" category="list-text">디지털 지갑(라이센스만, 구독 모니터링에는 커넥터가 필요함)</block>
 </blocks>
