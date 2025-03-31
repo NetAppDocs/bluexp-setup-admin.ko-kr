@@ -95,6 +95,12 @@ sidebar:
         url: "/task-prepare-private-mode.html"
       - title: 커넥터를 배포합니다
         url: "/task-install-private-mode.html"
+      - title: BlueXP 계정
+        entries:
+        - title: 어카운트에 대해 알아보십시오
+          url: "/concept-netapp-accounts.html"
+        - title: BlueXP 계정을 관리합니다
+          url: "/task-managing-netapp-accounts.html"
       - title: 다음에 할 수 있는 일
         url: "/reference-whats-next-private-mode.html"
     - title: BlueXP에 로그인합니다
@@ -123,16 +129,12 @@ sidebar:
         url: "/task-iam-audit-actions-timeline.html"
       - title: 사전 정의된 IAM 역할
         url: "/reference-iam-predefined-roles.html"
-    - title: BlueXP 계정
+    - title: BlueXP  계정(비공개 모드만 해당)
       entries:
       - title: 어카운트에 대해 알아보십시오
         url: "/concept-netapp-accounts.html"
       - title: BlueXP 계정을 관리합니다
         url: "/task-managing-netapp-accounts.html"
-      - title: 다른 BlueXP 계정을 만듭니다
-        url: "/task-create-account.html"
-      - title: 사용자 역할
-        url: "/reference-user-roles.html"
     - title: ID 제휴
       url: "/concept-federation.html"
     - title: 커넥터
