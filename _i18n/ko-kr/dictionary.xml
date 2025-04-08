@@ -4246,12 +4246,10 @@ https://support.netapp.com 으로 문의하십시오
   <block id="4fc3c6ef596dbec8a3af38f79c84cf02" category="list-text">자원을 제거할 폴더나 프로젝트의 경우 을 선택합니다 <block ref="5aa3fbfa4a030d3d0fb7677a91fd2eba" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ece216a1c354b015ef19084b08f5e92f" category="list-text">삭제 * 를 선택하여 연결을 제거할지 확인합니다.</block>
   <block id="08599f4c51d7b3ffe063f2612e7c4f5e" category="summary">필요한 경우 BlueXP  조직의 이름을 변경할 수 있습니다.</block>
-  <block id="3b2af1e86badf70e10ee3dd7bd601881" category="paragraph">필요한 경우 BlueXP  조직의 이름을 BlueXP  ID 및 액세스 관리(IAM)에서 변경할 수 있습니다. 조직 이름은 BlueXP  웹 기반 콘솔의 상단과 IAM 페이지에 표시됩니다.</block>
   <block id="8bf336ab115156eac88db2970ab0e70d" category="list-text">조직 * 페이지에서 테이블의 첫 번째 행으로 이동한 다음 * 조직 편집 * 을 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block>선택합니다.</block>
   <block id="bd0f6a5b8c74b52e8b6d378a779a799b" category="inline-image-macro">작업 아이콘과 조직 편집 옵션을 보여 주는 개요 페이지의 스크린샷</block>
   <block id="f891b6d41b0ea20e756113027427df78" category="paragraph"><block ref="f891b6d41b0ea20e756113027427df78" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b9669849e9961b7f3f4dc1a2f6787c34" category="list-text">새 조직 이름을 입력하고 * 적용 * 을 선택합니다.</block>
-  <block id="814a9fcdd4787ffa2a66999138964d04" category="paragraph">BlueXP 에서 조직의 이름을 업데이트합니다. BlueXP  콘솔 상단에 업데이트된 이름이 즉시 표시됩니다.</block>
   <block id="23a90e2bf1cd3468b9e164d1e2b979f6" category="summary">조직, 프로젝트 및 연결선 간에 전환하여 연결된 리소스에 액세스합니다.</block>
   <block id="112749b02c84e8790747c190f1f78319" category="doc">BlueXP  조직, 프로젝트 및 커넥터 간 전환</block>
   <block id="c4a2bf83344fa23edffba2df8fadd3a5" category="paragraph">여러 BlueXP  조직에 속하거나 BlueXP  조직 내의 여러 프로젝트 또는 연결선에 액세스할 수 있는 권한이 있을 수 있습니다. 필요한 경우 조직, 프로젝트 및 연결선 간에 쉽게 전환하여 해당 조직, 프로젝트 또는 연결선과 관련된 리소스에 액세스할 수 있습니다.</block>
@@ -4448,7 +4446,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="c5f7a94f7e361ce9dc993775dd14b3c1" category="inline-image-macro">프로젝트의 작업 메뉴를 선택하는 데 도움이 되는 프로젝트 ID를 보여 주는 폴더 및 프로젝트 테이블의 스크린샷</block>
   <block id="c4c78a982626adb55fd316627b7b9909" category="paragraph"><block ref="c4c78a982626adb55fd316627b7b9909" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
-  <block id="db31ae4dc32d9d514625710dfb24ee0a" category="paragraph"><block ref="52c305e9fd97fc371c1991c1470ed96b" category="inline-link-rx"></block>..</block>
   <block id="be6af94f792f554a6fe5be714926ba2a" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. Connector 온-프레미스를 실행하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, 클라우드 권한을 준비하고, Connector를 설치하고, Connector를 설정하고, 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="64a7a8a4f820d38dc5cedd70930717c0" category="doc">비공개 모드 해제(3.9.46)</block>
   <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">이제 에서 새 비공개 모드 릴리스를 다운로드할 수 있습니다<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
@@ -4950,4 +4947,15 @@ https://support.netapp.com 으로 문의하십시오
   <block id="10c518409c3dfbdd5e9839d2076ed5da" category="cell">2025년 3월 10일(버전 1.41)</block>
   <block id="49e0c1b5be27dbeb84e3a7ca1d634276" category="cell">로<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> 이동하여 1.38 - 1.371.41 릴리스에 포함된 변경 사항을 참조하십시오.</block>
   <block id="5f2734b84896bdabcf7fd3574325d116" category="section-title">2025년 3월 28일</block>
+  <block id="cb3410a9bf17cf666d6a34ac1b7c6d6c" category="paragraph"><block ref="2416ec7d97fab7b3c3e0f434ea922dd9" category="inline-link-rx"></block>..</block>
+  <block id="1920da3586c2e2872f88b02997c971c3" category="doc">조직 및 프로젝트 ID</block>
+  <block id="106aaea1e5532e2978889c60809a6ba7" category="paragraph">BlueXP  조직에 이름과 ID가 있습니다. BlueXP  배포에서 조직의 이름을 쉽게 식별할 수 있습니다. 특정 통합을 위해 조직 ID를 검색해야 할 수도 있습니다.</block>
+  <block id="93ef23628d0f701bc432c95a0b1c2f79" category="paragraph">BlueXP  내에서 조직의 이름을 바꿀 수 있습니다. 이 기능은 BlueXP  배포 내에서 조직 이상을 지원하는 경우에 유용합니다.</block>
+  <block id="48aadcc35505b6db48ac02a9ec0cc774" category="section-title">조직 ID를 가져옵니다</block>
+  <block id="f16a668fcd5a3f02beed85650fcb3882" category="paragraph">조직 ID는 BlueXP 와의 특정 통합에 사용됩니다.</block>
+  <block id="07705e77e8129994d0ee9d1cbd506a7e" category="paragraph">조직 페이지에서 조직 ID를 보고 필요에 따라 클립보드에 복사할 수 있습니다.</block>
+  <block id="c8ac3017c892b58622f21f78871d1208" category="list-text">조직 * 페이지를 보려면 * 조직 * 탭을 선택하십시오.</block>
+  <block id="65684205c2c17c1079112735fcb6d59c" category="list-text">조직 * 페이지의 요약 표시줄에서 조직 ID를 찾아 클립보드에 복사합니다. 나중에 사용할 수 있도록 저장하거나, 사용해야 할 위치에 직접 복사할 수 있습니다.</block>
+  <block id="3b114d25af2bc979de4e8bf4773b092f" category="inline-image-macro">프로젝트의 작업 메뉴를 선택한 후 프로젝트 ID를 보여 주는 폴더 및 프로젝트 테이블 스크린샷</block>
+  <block id="03666f94d7af611921b392c3ee39f483" category="paragraph"><block ref="03666f94d7af611921b392c3ee39f483" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
