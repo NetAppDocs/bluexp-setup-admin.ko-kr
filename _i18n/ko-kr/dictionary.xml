@@ -4883,7 +4883,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="0a38f6fb9751bd939880be04152c67f3" category="section-title">커넥터를 업그레이드합니다</block>
   <block id="ea807586843dea568060289fb3d6cc9a" category="sidebar">BlueXP 에서 ONTAP 권한 적용</block>
   <block id="4bbf2de0e52eb20a42e04cf23bdb1683" category="list-text">BlueXP  사용자에게 여러 역할을 할당할 수 있습니다.</block>
-  <block id="0608305ed5721ad4a69c3643b176e371" category="list-text">BlueXP  조직의 여러 리소스에 대한 역할 할당 지원(조직/폴더/프로젝트)</block>
   <block id="66a5f69d070814deb69bf917dd07a6af" category="section-title">커넥터 3.9.49 업데이트</block>
   <block id="00d64ff7da906ec5530c4e990fb334cb" category="section-title">BlueXP 에서 커넥터를 사용할 때 ONTAP 시스템 관리자 액세스</block>
   <block id="b539e86fbaa7eae465366a0142624ec2" category="paragraph">BlueXP  관리자(조직 관리자 역할을 가진 사용자)는 ONTAP 시스템 관리자에 액세스하기 위해 사용자에게 ONTAP 자격 증명을 입력하라는 메시지를 표시하도록 BlueXP 를 구성할 수 있습니다. 이 설정을 사용하는 경우 사용자는 ONTAP 자격 증명이 BlueXP 에 저장되지 않으므로 매번 해당 자격 증명을 입력해야 합니다.</block>
@@ -4941,7 +4940,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="3ed9698e266f4060e99b8c0f2f38b027" category="paragraph">3.9.50 릴리스에는 다음 BlueXP  구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.</block>
   <block id="5820ebbb1da4e36bc0eb0db564450b99" category="cell">3.9.50, 3.9.49</block>
   <block id="03f247630aa241e4b15df35baf8f5fd1" category="inline-link">BlueXP  커넥터 페이지의 새로운 기능</block>
-  <block id="e411690e8dc95cbf79272f1e53cce845" category="cell">GTO 를<block ref="291fbb881b3918f162f476bad9d0c478" category="inline-link-rx"></block> 참조하고 버전 3.9.50 및 3.9.49에 포함된 변경 사항을 참조하십시오.</block>
   <block id="499d067ffbbd553e23809aa38aa67bfa" category="cell">2025년 3월 17일</block>
   <block id="0e231d3391a335865e696150143618bc" category="cell">로<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> 이동하여 2024년 3월 릴리즈에 포함된 변경 사항을 참조하십시오.</block>
   <block id="10c518409c3dfbdd5e9839d2076ed5da" category="cell">2025년 3월 10일(버전 1.41)</block>
@@ -4958,4 +4956,27 @@ https://support.netapp.com 으로 문의하십시오
   <block id="65684205c2c17c1079112735fcb6d59c" category="list-text">조직 * 페이지의 요약 표시줄에서 조직 ID를 찾아 클립보드에 복사합니다. 나중에 사용할 수 있도록 저장하거나, 사용해야 할 위치에 직접 복사할 수 있습니다.</block>
   <block id="3b114d25af2bc979de4e8bf4773b092f" category="inline-image-macro">프로젝트의 작업 메뉴를 선택한 후 프로젝트 ID를 보여 주는 폴더 및 프로젝트 테이블 스크린샷</block>
   <block id="03666f94d7af611921b392c3ee39f483" category="paragraph"><block ref="03666f94d7af611921b392c3ee39f483" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2139dd52a52b11dde53f2a9724789c73" category="list-text">BlueXP  조직의 여러 자원에 대한 역할 할당 지원(조직/폴더/프로젝트)</block>
+  <block id="f16867c24816cbe638e99bd00c5d371b" category="cell">로<block ref="291fbb881b3918f162f476bad9d0c478" category="inline-link-rx"></block> 이동하여 버전 3.9.50 및 3.9.49에 포함된 변경 사항을 참조하십시오.</block>
+  <block id="d05e8333cecdf836d5befa221763f3df" category="doc">역할을 사용하여 리소스에 대한 사용자 액세스를 관리합니다</block>
+  <block id="8d6e47c2cba8a87a34c20d42630d03de" category="paragraph">BlueXP 를 사용하면 사용자가 해야 할 일과 장소에 따라 역할을 할당할 수 있습니다.</block>
+  <block id="43f7ba5a95da6743e6d2a613c53f3979" category="paragraph">조직 관리자, 폴더 또는 프로젝트 관리자 역할을 가진 사용자는 다른 사용자에게 역할을 할당할 책임이 있습니다. 프로젝트 또는 폴더별로 액세스 역할을 할당할 수 있습니다. 예를 들어, 한 프로젝트에 대해 랜섬웨어 보호 관리자 역할을 할당하고 다른 프로젝트에 대해 SnapCenter 관리자 역할을 할당할 수 있습니다. 또는 사용자가 특정 폴더 내의 모든 프로젝트에 대해 분류 관리자 역할을 요구하는 경우 폴더 수준에서 이 액세스 역할을 부여할 수 있습니다.</block>
+  <block id="d4cee7f9299f715f35c592b05a90fcd5" category="paragraph">액세스 역할을 사용하여 사용자가 수행해야 하는 특정 BlueXP  작업을 기반으로 스토리지 리소스에 대한 액세스 권한을 할당합니다. 예를 들어 BlueXP  사용자가 랜섬웨어 보호 서비스와 상호 작용해야 하는 경우 액세스 역할이 부여된 프로젝트의 랜섬웨어 보호 서비스에 대한 보기 또는 관리 권한을 포함하는 액세스 역할을 부여해야 합니다.</block>
+  <block id="5bd93d2f07b4ba6321e2f33614c76585" category="paragraph">보안을 강화하기 위해 IAM 전략에 따라 사용자에게 역할을 할당합니다. BlueXP  IAM 역할은 사용자가 필요한 것만 액세스할 수 있도록 설계되었습니다.</block>
+  <block id="9088af3701d0cc1247f7ea61c2e8cc5f" category="inline-link-macro">BlueXP  IAM에서 폴더와 프로젝트를 사용하여 리소스를 구성하는 방법에 대해 알아봅니다.</block>
+  <block id="008c625fbd0c2108cc88a6317b2572a8" category="admonition">리소스에 직접 부여할 수는 없습니다. 먼저 자원을 프로젝트에 배정해야 합니다. 사용자에게 액세스 권한을 할당하기 전에 리소스 계층 구조를 설정하는 것이 좋습니다. <block ref="41b378741b8a64d0f324528fa1890b6f" category="inline-link-macro-rx"></block></block>
+  <block id="f178bfd6340a45b4202cfc2ad448263a" category="paragraph">BlueXP  조직에 구성원을 추가하면 해당 구성원에게 역할을 할당하라는 메시지가 표시됩니다. 구성원이 현재 할당된 역할을 확인할 수 있습니다.</block>
+  <block id="a0a87a9cfcb0287c5701c8fd542f95f5" category="paragraph">폴더 또는 프로젝트 admin_역할이 있는 경우 페이지에 조직의 모든 구성원이 표시됩니다. 그러나 권한이 있는 폴더와 프로젝트에 대한 구성원 권한만 보고 관리할 수 있습니다. <block ref="c691e2b9b4224ed90bb4f1f11059b372" category="inline-link-macro-rx"></block>..</block>
+  <block id="d63f1c66d83451eade374ce0e602a4b4" category="list-text">테이블에서 구성원의 할당된 역할을 보려는 조직, 폴더 또는 프로젝트의 각 행을 확장하고 * 역할 * 열에서 * 보기 * 를 선택합니다.</block>
+  <block id="58bd7e162d519a40f0d8ae550e293a4c" category="section-title">액세스 역할을 구성원에 추가합니다</block>
+  <block id="cfe68ea193af58b89bdd91bea4468531" category="paragraph">일반적으로 구성원을 조직에 추가할 때 구성원에게 역할을 할당합니다. 그러나 역할을 제거하거나 다른 역할을 추가하여 언제든지 구성원의 역할을 업데이트할 수 있습니다. 사용자의 역할을 제거하여 프로젝트에 대한 사용자의 액세스를 제거할 수 있습니다.</block>
+  <block id="ba364a79f6fbfab0c8591198ecfd87cc" category="paragraph">사용자에게 조직, 폴더 또는 프로젝트에 대한 액세스 역할을 할당할 수 있습니다.</block>
+  <block id="a9cc80dbcd1f48accd079ee5c494be43" category="paragraph">구성원은 동일한 프로젝트 내에서 서로 다른 프로젝트에 여러 역할을 가질 수 있습니다. 예를 들어, 규모가 작은 조직에서는 사용 가능한 모든 액세스 역할을 동일한 사용자에게 할당할 수 있고, 대규모 조직에서는 사용자가 BlueXP 에서 보다 전문적인 작업을 수행하도록 할 수 있습니다. 또는 한 사용자에게 조직의 랜섬웨어 예상 관리자 역할을 할당할 수도 있습니다. 이 예에서는 사용자가 조직 내의 모든 프로젝트에 대해 랜섬웨어 방지 작업을 수행할 수 있습니다.</block>
+  <block id="93bc4c31eeacd2985551a427d417a897" category="paragraph">액세스 역할 전략은 BlueXP 에서 NetApp 리소스를 구성한 방식에 부합해야 합니다.</block>
+  <block id="e3c810a55ea2c0b2958ee28af3cba2d1" category="admonition">조직 관리자 역할이 할당된 구성원에게 추가 역할을 할당할 수 없습니다. 이미 조직 전체에 대한 사용 권한이 있습니다. 폴더 또는 프로젝트 역할을 가진 구성원은 해당 역할이 이미 있는 폴더 또는 프로젝트 내의 다른 역할을 할당할 수 없습니다. 두 역할 모두 할당된 범위 내의 모든 BlueXP  서비스에 대한 액세스를 제공합니다.</block>
+  <block id="0e6e1e539b578c2b0388d566d8ae4e15" category="inline-link-macro">액세스 역할에 대해 알아봅니다</block>
+  <block id="66c24c7330d0db4acf1f42ab6074b3ca" category="list-text">* 범주 선택 *: BlueXP 는 플랫폼과 데이터 서비스의 두 가지 범주로 역할을 구분합니다. <block ref="a51247ccde87e175c686e81825c9f657" category="inline-link-macro-rx"></block>..</block>
+  <block id="e666f475ae71221ef0568980f94a0316" category="paragraph"><block ref="a51247ccde87e175c686e81825c9f657" category="inline-link-macro-rx"></block>.. * 역할 추가 *: 조직 내 추가 폴더 또는 프로젝트에 대한 액세스를 제공하려면 * 역할 추가 * 를 선택하고 다른 폴더 또는 프로젝트 또는 역할 범주를 지정한 다음 역할 범주와 해당 역할을 선택합니다.</block>
+  <block id="88ccee89efe2b556b8fcc7b01ae63c9f" category="paragraph">사용자에 대한 액세스를 조정해야 하는 경우 구성원에 대해 할당된 역할을 변경할 수 있습니다.</block>
+  <block id="bd572303cf9daecbf8e01f72f337d250" category="list-text">구성원의 기존 역할을 변경하거나 역할을 제거할 수 있습니다.</block>
 </blocks>
