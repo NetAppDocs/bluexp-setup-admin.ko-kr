@@ -4944,7 +4944,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="0e231d3391a335865e696150143618bc" category="cell">로<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> 이동하여 2024년 3월 릴리즈에 포함된 변경 사항을 참조하십시오.</block>
   <block id="10c518409c3dfbdd5e9839d2076ed5da" category="cell">2025년 3월 10일(버전 1.41)</block>
   <block id="49e0c1b5be27dbeb84e3a7ca1d634276" category="cell">로<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> 이동하여 1.38 - 1.371.41 릴리스에 포함된 변경 사항을 참조하십시오.</block>
-  <block id="5f2734b84896bdabcf7fd3574325d116" category="section-title">2025년 3월 28일</block>
   <block id="cb3410a9bf17cf666d6a34ac1b7c6d6c" category="paragraph"><block ref="2416ec7d97fab7b3c3e0f434ea922dd9" category="inline-link-rx"></block>..</block>
   <block id="1920da3586c2e2872f88b02997c971c3" category="doc">조직 및 프로젝트 ID</block>
   <block id="106aaea1e5532e2978889c60809a6ba7" category="paragraph">BlueXP  조직에 이름과 ID가 있습니다. BlueXP  배포에서 조직의 이름을 쉽게 식별할 수 있습니다. 특정 통합을 위해 조직 ID를 검색해야 할 수도 있습니다.</block>
@@ -4979,4 +4978,13 @@ https://support.netapp.com 으로 문의하십시오
   <block id="e666f475ae71221ef0568980f94a0316" category="paragraph"><block ref="a51247ccde87e175c686e81825c9f657" category="inline-link-macro-rx"></block>.. * 역할 추가 *: 조직 내 추가 폴더 또는 프로젝트에 대한 액세스를 제공하려면 * 역할 추가 * 를 선택하고 다른 폴더 또는 프로젝트 또는 역할 범주를 지정한 다음 역할 범주와 해당 역할을 선택합니다.</block>
   <block id="88ccee89efe2b556b8fcc7b01ae63c9f" category="paragraph">사용자에 대한 액세스를 조정해야 하는 경우 구성원에 대해 할당된 역할을 변경할 수 있습니다.</block>
   <block id="bd572303cf9daecbf8e01f72f337d250" category="list-text">구성원의 기존 역할을 변경하거나 역할을 제거할 수 있습니다.</block>
+  <block id="1fa6d342759ba5c5a8f23c210cac048c" category="doc">커넥터 3.9.51</block>
+  <block id="44cd288eedf76c78c5b3b26935538537" category="paragraph">현재 3.9.51 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">BlueXP  ID 및 액세스 관리(IAM)</block>
+  <block id="280cb81762489dce44889f9130b6e870" category="list-text">이제 사용자가 랜섬웨어 방어에 액세스할 수 있도록 역할을 할당해야 합니다. 사용자에게 랜섬웨어 차단 관리자 또는 랜섬웨어 차단 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.</block>
+  <block id="0fc0d7857aba2fcd01e923d9a32e9297" category="list-text">이제 사용자에게 역할을 할당해야 NetApp Keystone에 액세스할 수 있습니다. 사용자에게 Keystone admin 또는 Keystone 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.</block>
+  <block id="7fc94980a9075f2005ba4d674e6766ee" category="list-text">이제 Keystone 구독을 IAM 프로젝트에 연결할 수 있습니다. Keystone 구독과 IAM 프로젝트를 연결하면 BlueXP  내에서 Keystone에 대한 액세스를 제어할 수 있습니다.</block>
+  <block id="89e154403778feb30a369a4b9959d2e2" category="inline-link-macro">새로운 역할에 대해 알아보십시오.</block>
+  <block id="32943cfa903d06d5071cedc0af461130" category="paragraph"><block ref="7b86bd575ced3444e23389ac71f98a8f" category="inline-link-macro-rx"></block>..</block>
+  <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025년 4월 14일</block>
 </blocks>
