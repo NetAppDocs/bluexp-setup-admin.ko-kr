@@ -2242,39 +2242,29 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="bff15ca70c1ae31932f904ffda23250d" category="paragraph">다음 단계는 AWS에서 커넥터를 수동으로 설치한 경우에만 적용됩니다. AWS Marketplace 배포의 경우 필요한 권한이 포함된 IAM 역할과 Connector 인스턴스를 이미 연결한 것입니다.</block>
   <block id="cdc80f7691441e19b9937f7e3719514f" category="summary">Connector는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. 데이터 인프라를 관리하기 위해 BlueXP에서 수행해야 하는 작업을 실행합니다. Connector는 수행해야 하는 작업에 대해 BlueXP SaaS 레이어를 지속적으로 폴링합니다. BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다.</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="doc">커넥터에 대해 자세히 알아보십시오</block>
-  <block id="0c1ff69304e8a667d66b73796ae020d8" category="section-title">커넥터 없이 수행할 수 있는 작업</block>
-  <block id="4d3fca1d2cf37433752c20e52858221f" category="paragraph">BlueXP를 시작하기 위해 커넥터가 필요하지 않습니다. Connector를 만들지 않고도 BlueXP 내에서 여러 기능 및 서비스를 사용할 수 있습니다.</block>
   <block id="224dffcf542a8351c726ceb793464d58" category="paragraph">커넥터 없이 다음 BlueXP 기능 및 서비스를 사용할 수 있습니다.</block>
   <block id="60404bf35ed1506b74cc9cfac99f0818" category="paragraph">Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 않지만 Azure NetApp Files 데이터를 스캔하기 위해 BlueXP 분류를 사용하려면 커넥터가 필요합니다.</block>
   <block id="2049421a4e8e45e83cd7cf18ffc00a12" category="list-text">디지털 지갑</block>
   <block id="dd37176246e6abf3e559086afcadce82" category="paragraph">거의 모든 경우 커넥터 없이 디지털 지갑에 라이센스를 추가할 수 있습니다.</block>
-  <block id="da48a166a29b8e248a3113d9bd6cba04" category="paragraph">디지털 지갑에 라이센스를 추가하는 데 Connector가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. 이 경우 Cloud Volumes ONTAP 시스템에 설치된 라이센스에서 데이터를 가져왔기 때문에 커넥터가 필요합니다.</block>
   <block id="184e70c253a2ad370c338775e7482497" category="list-text">사내 ONTAP 클러스터를 직접 검색</block>
   <block id="ef67c5eab6f3bfee1596c3f8734a88c7" category="paragraph">사내 ONTAP 클러스터를 직접 검색하는 데는 커넥터가 필요하지 않지만 추가 BlueXP 기능을 사용하려면 커넥터가 필요합니다.</block>
   <block id="eec3baeb5aa60415324495790bc2f136" category="inline-link">온프레미스 ONTAP 클러스터를 위한 검색 및 관리 옵션에 대해 자세히 알아보십시오</block>
   <block id="dc4523bb6eb17a07ae9db37489829969" category="paragraph"><block ref="dc4523bb6eb17a07ae9db37489829969" category="inline-link-rx"></block></block>
   <block id="098ba24e143dd197f509e41083f0103e" category="section-title">커넥터가 필요한 경우</block>
-  <block id="bf2f35a1367a7ddb519a7dd3cedacfdd" category="paragraph">표준 모드에서 BlueXP를 사용하는 경우 BlueXP의 다음 기능 및 서비스에 커넥터가 필요합니다.</block>
   <block id="234eb6bb27d592cbf06aa6537a33a380" category="list-text">ONTAP용 Amazon FSx 관리 기능</block>
   <block id="d79294e72dc3584cc12c98a7a931315d" category="list-text">Amazon S3 스토리지</block>
   <block id="2b3e8f910d66604cd77f93b333670468" category="list-text">Azure Blob 저장소</block>
-  <block id="c7a576f5db262c0475afa4a53822979e" category="list-text">경제 효율성 ^1^</block>
   <block id="390e388eccc77b388b4d54d73b76f902" category="list-text">Google Cloud Storage 버킷</block>
   <block id="9fc1f8c97e791c3c5fa11f21f2c02740" category="list-text">BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합</block>
-  <block id="7713949d8f17ff00f9cdb21469da8a35" category="list-text">작업 복구 ^1^</block>
   <block id="ff45d71e69fb5930de79de7c94326d7b" category="list-text">볼륨 캐싱</block>
-  <block id="6d95cfc501ca88bca8a0045681608071" category="paragraph">^1^ 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.</block>
   <block id="5bf7ac4937c946ab4eedfb091ffa67ab" category="section-title">커넥터는 항상 작동해야 합니다</block>
-  <block id="dd42f0ca79b192af5e1f5734b490f194" category="paragraph">커넥터는 BlueXP 서비스 아키텍처의 기본 부분입니다. 관련 커넥터가 항상 가동, 작동 및 액세스 가능한지 확인하는 것은 귀하의 책임입니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.</block>
   <block id="5e546ca24430fc2b79e0e409176438c9" category="paragraph">이 문서는 EULA의 적용을 받습니다. 문서에 따라 제품을 작동하지 않는 경우 제품의 기능 및 작동, EULA에 따른 사용자의 권리에 부정적인 영향을 미칠 수 있습니다.</block>
   <block id="5d5a04495ebcd46b843dcafaea428460" category="section-title">Cloud Volumes ONTAP에 미치는 영향</block>
   <block id="65f052fa67c6645d7ad3edc14e47de13" category="paragraph">커넥터는 Cloud Volumes ONTAP의 상태 및 작동에 있어 중요한 구성요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.</block>
   <block id="b9c53fca7bb84d0455a2b4768b130e38" category="paragraph">Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.</block>
   <block id="ff0e00d64f60db5d99e55c6d706306cc" category="section-title">지원되는 위치</block>
-  <block id="a92005953b68970af3654f93b3a572c1" category="paragraph">커넥터는 다음 위치에서 지원됩니다.</block>
   <block id="6beccc67ff905f7da0b29dece26b0485" category="list-text">Amazon Web Services에서 직접 지원합니다</block>
   <block id="1668ca1bd914c1d847f23b491319ac91" category="list-text">Microsoft Azure를 참조하십시오</block>
-  <block id="c6c3b56410517700ef27e6cfa0cae38d" category="paragraph">Azure의 커넥터는 해당 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포하거나 에 배포되어야 합니다<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다.<block ref="ebdf8919a4d90c512f0e43f5b0739281" category="inline-link-rx"></block></block>
   <block id="51b7d7d3bc9e2a3d4986191018c447ab" category="paragraph">Google Cloud에서 BlueXP 서비스를 사용하려면 Google Cloud에서 실행되는 Connector를 사용해야 합니다.</block>
   <block id="695e0a47c56539eb9bcf6290d1c797d8" category="list-text">온프레미스</block>
   <block id="11cac4cf4114aafe53015559291d52ce" category="paragraph">제한된 모드 또는 비공개 모드에서 BlueXP를 사용하려면 Connector를 설치한 다음 Connector에서 로컬로 실행되는 사용자 인터페이스에 액세스하여 BlueXP를 시작합니다.</block>
@@ -2290,10 +2280,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e3ab4c013397e346e8f211ff03ac44b2" category="list-text"><block ref="e3ab4c013397e346e8f211ff03ac44b2" category="inline-link-macro-rx"></block></block>
   <block id="538fc0c04ce8a0ef5cf78a12dbe8f68a" category="section-title">커넥터 업그레이드</block>
   <block id="2162bc1fbb13d2539c146b3472921eb5" category="paragraph"><block ref="7270aabdb0c26b6b937d76a49fcda623" category="inline-xref-macro-rx"></block>.</block>
-  <block id="4102d173f8e2253a011fe9286a6db2a3" category="paragraph">커넥터는 BlueXP에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.</block>
-  <block id="63e8317d7c5806dc1cb56752525c4d52" category="paragraph">대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다. 도중에 문제가 발생하는 경우 제품 내 채팅을 통해 문의해 주십시오.</block>
-  <block id="18d5aadda239c924412f84368e73290b" category="paragraph">경우에 따라 하나의 커넥터만 필요할 수 있지만 둘 이상의 커넥터가 필요할 수 있습니다.</block>
-  <block id="c270270ae413e473bd85d972dfddb840" category="paragraph">다음은 몇 가지 예입니다.</block>
   <block id="aa043b4c9a6fa32b0f3811520156579a" category="list-text">다중 클라우드 환경(예: AWS 및 Azure)이 있고 AWS에 커넥터 1개와 Azure에 커넥터 1개가 있는 것을 선호합니다. 각 는 이러한 환경에서 실행되는 Cloud Volumes ONTAP 시스템을 관리합니다.</block>
   <block id="645a84975202e30700b572b49a5ee29d" category="section-title">재해 복구</block>
   <block id="9702ba80b5da1f1cf46d6eb4c043a20a" category="paragraph">재해 복구를 위해 여러 커넥터가 있는 작업 환경을 동시에 관리할 수 있습니다. 하나의 커넥터가 다운되면 다른 커넥터로 전환하여 작업 환경을 즉시 관리할 수 있습니다.</block>
@@ -3054,7 +3040,6 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
   <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">이 릴리스에는 사소한 개선 사항 및 버그 픽스가 포함되어 있습니다.</block>
-  <block id="ca61c00bb942882ff64e228d1e677f97" category="paragraph">BlueXP가 제한된 모드 또는 프라이빗 모드로 사용하려면 커넥터가 필요합니다.</block>
   <block id="25a9b1247ec1fd14b6ef367a6910af4a" category="inline-link-macro">표준 모드에서 BlueXP를 시작하십시오</block>
   <block id="53307bf922b08c003dac0571547a263c" category="list-text"><block ref="53307bf922b08c003dac0571547a263c" category="inline-link-macro-rx"></block></block>
   <block id="91f55c66e69b3b40e117fc5d123e8cd6" category="inline-link-macro">제한된 모드에서 BlueXP를 시작하십시오</block>
@@ -3759,7 +3744,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="a69707f32a14657a4148714e0858cc16" category="list-text">가 있어야 <block ref="265bf4041c284cedb5265913609f75cf" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="0f6f328a496422180419aea5d68c3d2b" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 AWS에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 AWS 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="bde99503b08825a9b6290c21b6ff2424" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 AWS Marketplace에서 직접 Connector를 만드는 것입니다. AWS Marketplace에서 Connector를 만들려면 네트워킹을 설정하고 AWS 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
-  <block id="5cb6efc5332c23d8c22978f3559aa613" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Azure에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 Azure 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="1017ad8551dc7209fead1d996608e2b5" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Azure Marketplace에서 직접 Azure에 Connector를 만드는 것입니다. Azure 마켓플레이스에서 Connector를 만들려면 네트워킹을 설정하고 Azure 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
   <block id="9a63fba43be3e1df0de44c749000ffc5" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션에는 BlueXP 에서 직접 또는 gcloud를 사용하여 AWS에서 커넥터를 생성하는 것이 포함됩니다. BlueXP에서 또는 gcloud를 사용하여 Google Cloud에 Connector를 생성하려면 네트워킹을 설정하고 Google Cloud 권한을 준비하고 Google Cloud API를 활성화한 다음 Connector를 생성해야 합니다.</block>
   <block id="455e0d1571fc687b88776ecc58050d7b" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Google Cloud에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, Google Cloud 권한을 준비하고, API를 활성화하고, Connector를 설치한 다음 준비된 사용 권한을 제공해야 합니다.</block>
@@ -3858,7 +3842,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="6c42d9d3f2de2ec585181e975309fcf0" category="section-title">클라우드 공급자와 커뮤니케이션</block>
   <block id="f9a30311177259db80d6ef6b5bc77f80" category="paragraph">Connector는 AWS, Azure 및 Google Cloud와의 모든 통신에 TLS 1.2를 사용합니다.</block>
   <block id="62e253e417ca4e6f13ae9fae3d41704e" category="paragraph">BlueXP 에서 직접 커넥터를 만들거나, 클라우드 공급자의 마켓플레이스에서 직접 만들거나, 자신의 Linux 호스트에 소프트웨어를 수동으로 설치할 수 있습니다. 표준 모드, 제한 모드 또는 비공개 모드에서 BlueXP를 사용하고 있는지 여부에 따라 시작 방법이 달라집니다.</block>
-  <block id="be6236f35c24aae3ee086b3f6ec01213" category="paragraph">일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. BlueXP  플랫폼의 대부분의 서비스와 기능은 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
   <block id="429ef702d7e67a893ea297da8613a472" category="inline-link-macro">비공개 모드를 사용할 때 커넥터 소프트웨어를 수동으로 업그레이드하는 방법에 대해 알아봅니다</block>
   <block id="1178d8df6f45ec63d153216266770ffa" category="paragraph"><block ref="8ab15d11feb9213cf5a6950e71fe0578" category="inline-link-macro-rx"></block>..</block>
   <block id="8f65178ee55c2c64ee3bef58afe9c682" category="list-text">서비스 공급자는 하나의 BlueXP  조직을 사용하여 고객에게 서비스를 제공하고 다른 조직을 사용하여 하나의 사업부에 대한 재해 복구를 제공할 수 있습니다. 각 조직에는 별도의 커넥터가 있습니다.</block>
@@ -4378,7 +4361,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="9b9f80f24ed0b93047113544607e2066" category="paragraph"><block ref="3a812ba80ae549f721789bceed3eb28a" category="inline-link-macro-rx"></block>..</block>
   <block id="7e4159d172a1854b6946f160a149d326" category="paragraph">강제 적용 모드 또는 허용 모드(1)에서 지원됩니다</block>
   <block id="3093ae1f44e0f8ba4d59f282f1fccf4d" category="list-text">Cloud Volumes ONTAP 시스템 관리는 운영 체제에서 SELinux가 활성화된 커넥터에서 지원되지 않습니다.</block>
-  <block id="2a1c6b0713eb3b0e8cc5584c21fe42b6" category="paragraph">A_Connector _ 는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. 데이터 인프라를 관리하기 위해 BlueXP에서 수행해야 하는 작업을 실행합니다. 커넥터는 필요한 작업을 위해 BlueXP  SaaS(서비스형 소프트웨어) 계층을 지속적으로 폴링합니다. BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다.</block>
   <block id="7dbbe2a034f912c5cb9e37aea8e9795a" category="paragraph">BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있는 다중 배포 모드 _ 를 제공합니다. _표준 모드_ 는 BlueXP  SaaS(Software as a Service) 계층을 활용하여 모든 기능을 제공하며, 연결 제한이 있는 조직에서는 _LIMITED MODE_ 및 _PRIVATE MODE_ 를 사용할 수 있습니다.</block>
   <block id="1503e47ef7de6f4f44b59422cf94ceec" category="paragraph">NetApp BlueXP는 사내 및 클라우드 환경 전반에서 데이터를 구축, 보호, 관리할 수 있는 단일 제어 계층을 제공합니다. BlueXP  SaaS(서비스형 소프트웨어) 플랫폼에는 스토리지 관리, 데이터 이동성, 데이터 보호, 데이터 분석 및 제어 기능을 제공하는 서비스가 포함됩니다. 관리 기능은 웹 기반 콘솔 및 API를 통해 제공됩니다.</block>
   <block id="9d110ddb304e37d908c266c47eeed9f9" category="paragraph">커넥터, SaaS(Software as a Service) 플랫폼 등 BlueXP  설정 및 관리에 따라 달라집니다.</block>
@@ -5025,4 +5007,47 @@ https://support.netapp.com 으로 문의하십시오
   <block id="9a95138b9cb83f59109eb15c038b1073" category="sidebar">구성원 및 서비스 계정을 추가합니다</block>
   <block id="7211199f77a8a73dc960b8a15a019199" category="sidebar">역할을 사용하여 리소스에 대한 구성원 액세스를 제어합니다</block>
   <block id="7b86bd575ced3444e23389ac71f98a8f" category="paragraph"><block ref="7b86bd575ced3444e23389ac71f98a8f" category="inline-link-macro-rx"></block></block>
+  <block id="e5a26c78a572123c5a5e442167efbf6e" category="paragraph">커넥터는 BlueXP 가 스토리지 인프라 관리를 위해 수행해야 하는 작업을 실행하는 NetApp 소프트웨어입니다. BlueXP 의 많은 기능을 위한 커넥터가 필요하지 않지만 그렇지 않은 경우에는 일부 기능을 사용할 수 없습니다.</block>
+  <block id="9097a69a8c3aa1836902abae4c2af6b5" category="paragraph">표준 모드에서 BlueXP 를 실행하는 경우 소프트웨어 업데이트 및 디지털 지갑과 같은 BlueXP 의 일부 서비스를 실행하기 위해 커넥터를 설치할 필요가 없습니다. 그러나 랜섬웨어 방지 또는 재해 복구와 같은 BlueXP 의 일부 프리미엄 서비스에는 커넥터를 설치해야 합니다. BlueXP 를 제한 또는 비공개 모드로 사용하는 경우 커넥터를 설치해야 합니다.</block>
+  <block id="c9ea5b101d4c3beb590e4912f1117899" category="section-title">표준 모드에서 커넥터 없이 수행할 수 있는 작업</block>
+  <block id="25ec9fbdb3e3fbeaa1a630feb04991b6" category="paragraph">BlueXP 의 가장 중요한 서비스 중 일부는 표준 모드로 실행 중인 경우 커넥터를 설치하지 않고도 사용할 수 있습니다.</block>
+  <block id="8d17fdbbeb88dfc223add1e324431fb7" category="paragraph">디지털 지갑에 라이센스를 추가하는 데 Connector가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. BlueXP 가 Cloud Volumes ONTAP 시스템에 설치된 사용권 데이터에 도달해야 하기 때문에 커넥터가 필요합니다.</block>
+  <block id="8cba62c58c5613090d8d857aa64a0495" category="paragraph">표준 모드에서 BlueXP 를 사용하는 경우 BlueXP 에서 다음 기능 및 서비스를 사용하려면 하나 이상의 커넥터를 설치해야 합니다.</block>
+  <block id="3dc40720b958919be726cd65a8331a73" category="list-text">경제적 효율성(보기 전용)</block>
+  <block id="79dbd2d28f5fa406ce0123e58631e94a" category="list-text">운영 복원력(보기 전용)</block>
+  <block id="3f5774e40931df608d3773b69b87ef4b" category="paragraph">커넥터는 BlueXP  서비스 아키텍처의 기본 부분이므로 관련 커넥터가 항상 작동 및 작동하고 액세스 가능한지 확인해야 합니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.</block>
+  <block id="6029872bf2fc642a049b16e0cc87fa62" category="paragraph">필요에 따라 지원되는 하이퍼스케일러 환경 또는 사내에 커넥터를 설치할 수 있습니다.</block>
+  <block id="71428b007b4ee7fbedd790d9e4085760" category="paragraph">Connector를 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 지역 또는 Cloud Volumes ONTAP 시스템용 에<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> 배포합니다. 이렇게 하면 Cloud Volumes ONTAP와 관련 저장소 계정 간에 Azure Private Link 연결이 사용됩니다.<block ref="ebdf8919a4d90c512f0e43f5b0739281" category="inline-link-rx"></block></block>
+  <block id="e8094f36d739ced855fc51d64c727572" category="paragraph">NetApp는 일반적으로 새로운 기능을 소개하고 안정성을 개선하기 위해 커넥터 소프트웨어를 매달 업데이트합니다. BlueXP  플랫폼의 대부분의 서비스와 기능은 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
+  <block id="3266a93708e14f8781ccf9c017419275" category="paragraph">동일한 커넥터를 사용하여 BlueXP 에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.</block>
+  <block id="48daeaff5628b782edf714a3920f97e6" category="paragraph">대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다.</block>
+  <block id="238a6a671596e52b58d129f978852aea" category="paragraph">필요한 커넥터 수를 결정할 때 고려해야 할 또 다른 사항은 스토리지가 있는 위치입니다. 예를 들어 Google Cloud와 Azure에 모두 Cloud Volumes ONTAP가 있는 경우 각 환경에 대한 커넥터가 필요합니다. 스토리지가 완전히 사내에 있는 경우 Connector를 모든 하이퍼스케일러 또는 온프레미스에서 실행할 수 있습니다.</block>
+  <block id="42e49d3f23439ff5f06a12f88d7a3c26" category="paragraph">다른 예는 다음과 같습니다.</block>
+  <block id="1d5ad44f665df12a6f6a58cc6fb9cf6a" category="doc">BlueXP  서비스에 관해 자세히 알아보십시오</block>
+  <block id="d0a6b7265534b9aa87f97edbb7ef469d" category="paragraph">BlueXP  SaaS 서비스(표준 모드), 제한된 클라우드 환경에서 BlueXP 를 실행할지(제한된 모드), 아니면 자체 온프레미스 데이터 센터(프라이빗 모드)에 설치할지를 선택할 수 있습니다. 어떤 환경에서든 중앙 집중식 관리 및 추가 데이터 서비스를 활용하여 스토리지 리소스의 상태를 유지하고 안전하게 보호할 수 있습니다.</block>
+  <block id="4a67cdf9663ed372213e941f6b1c835e" category="paragraph">선택한 모드에 따라 사용 가능한 서비스와 관리할 수 있는 스토리지 리소스가 결정됩니다.</block>
+  <block id="bd28522af899bdfb48bbdcbf50ce271e" category="paragraph">시작하기 전에 각 모드에서 지원하는 다양한 스토리지 리소스와 사용 가능한 데이터 서비스를 비교하여 회사의 요구 사항에 적합한 스토리지 리소스를 결정하십시오.</block>
+  <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">데이터 서비스</block>
+  <block id="af355bb6bfae3acf3e713a8c3d2a386f" category="paragraph">다음 표에서는 각 배포 모드에서 사용할 수 있는 데이터 서비스, 구독이 필요한지 여부 및 지원 계정이 필요한 시기를 보여 줍니다.</block>
+  <block id="d8f0364777231272b45dd87c1943194e" category="paragraph">* 커넥터 * 테이블의 커넥터 열은 표준 모드용 커넥터가 필요한 시기를 나타냅니다. BlueXP 를 제한 모드 또는 비공개 모드로 사용하는 경우 항상 커넥터가 있어야 합니다.</block>
+  <block id="adf5b3dacd7f6732c9acfae29de9cacd" category="cell">지원 계정이 필요합니다</block>
+  <block id="76d09e89f502dea59e4838b6958c8154" category="cell">커넥터가 필요합니다</block>
+  <block id="7f4170ba49bff091502ae17552e7bdf2" category="cell">구독이 필요합니다</block>
+  <block id="bfb78ce9833860669efdf093e894f0d5" category="cell">모드 가용성</block>
+  <block id="331dfa1e0a93d1ecb14265311c06848f" category="cell">표준, 제한</block>
+  <block id="b1b40427c8eb8d0a083ddb16e250325b" category="cell">아니요 *</block>
+  <block id="01a9a3b8d0fcae3055dc91935e8ec6c6" category="cell">예 *</block>
+  <block id="eb6d8ae6f20283755b339c0dc273988b" category="cell">표준</block>
+  <block id="305f778e06640140a90fcc1103d99f58" category="cell">지원 케이스 관리</block>
+  <block id="48c9d7749bddd450ac433b0db5269a96" category="section-title">NetApp 스토리지</block>
+  <block id="51a20565c05385787bec584ddd2bb7fc" category="paragraph">대부분의 NetApp 스토리지 리소스를 BlueXP 에서 직접 관리할 수 있으므로 동일한 애플리케이션에서 모든 리소스를 볼 수 있습니다.</block>
+  <block id="1a72ece311084649076a195de688d4b0" category="paragraph">다음 표에는 각 배포 모드에서 관리할 수 있는 스토리지 리소스 및 Connector 또는 구독이 필요한 경우에 대한 목록이 나와 있습니다.</block>
+  <block id="fec52cc0232a22ef4060c7b61d92c0a0" category="cell">없음 1</block>
+  <block id="107ca0e0ef4ce423ae66855ce620468c" category="cell">없음 2</block>
+  <block id="8ad971c5d8a76d2b69437c57eda95147" category="cell">예?</block>
+  <block id="c8ee5046cfa22e8d07f9b9c103372ad2" category="cell">없음 3</block>
+  <block id="2141549841410236509f332565c7d685" category="paragraph">일부 작업에는 커넥터 또는 BlueXP  워크로드 팩토리 링크가 필요합니다.<block ref="eab18bd75996775296aa94b3a12b305e" category="inline-link-rx"></block></block>
+  <block id="4304dbdc82316f438e38c644a361fd66" category="paragraph">BlueXP  분류를 사용하여 Azure NetApp Files 데이터를 스캔하려면 커넥터가 필요하지만 Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 않습니다.</block>
+  <block id="86429eb78c6bc64d5f1ce4125590fe22" category="paragraph">ONTAP 클러스터 직접 검색에 커넥터는 필요하지 않지만 추가 BlueXP  기능을 사용하려면 커넥터가 필요합니다.<block ref="04529f27c98d308747ea6be915c240c4" category="inline-link-rx"></block></block>
+  <block id="9c723fb8e231218b213744c9ee3160ca" category="paragraph">Azure에서 실행되는 Linux 호스트에 Connector를 수동으로 설치할 수 있습니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 Azure 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
 </blocks>

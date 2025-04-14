@@ -14,13 +14,15 @@ summary: Connector는 클라우드 네트워크 또는 사내 네트워크에서
 
 
 [role="lead"]
-A_Connector _ 는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. 데이터 인프라를 관리하기 위해 BlueXP에서 수행해야 하는 작업을 실행합니다. 커넥터는 필요한 작업을 위해 BlueXP  SaaS(서비스형 소프트웨어) 계층을 지속적으로 폴링합니다. BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다.
+커넥터는 BlueXP 가 스토리지 인프라 관리를 위해 수행해야 하는 작업을 실행하는 NetApp 소프트웨어입니다. BlueXP 의 많은 기능을 위한 커넥터가 필요하지 않지만 그렇지 않은 경우에는 일부 기능을 사용할 수 없습니다.
+
+표준 모드에서 BlueXP 를 실행하는 경우 소프트웨어 업데이트 및 디지털 지갑과 같은 BlueXP 의 일부 서비스를 실행하기 위해 커넥터를 설치할 필요가 없습니다. 그러나 랜섬웨어 방지 또는 재해 복구와 같은 BlueXP 의 일부 프리미엄 서비스에는 커넥터를 설치해야 합니다. BlueXP 를 제한 또는 비공개 모드로 사용하는 경우 커넥터를 설치해야 합니다.
 
 
 
-== 커넥터 없이 수행할 수 있는 작업
+== 표준 모드에서 커넥터 없이 수행할 수 있는 작업
 
-BlueXP를 시작하기 위해 커넥터가 필요하지 않습니다. Connector를 만들지 않고도 BlueXP 내에서 여러 기능 및 서비스를 사용할 수 있습니다.
+BlueXP 의 가장 중요한 서비스 중 일부는 표준 모드로 실행 중인 경우 커넥터를 설치하지 않고도 사용할 수 있습니다.
 
 커넥터 없이 다음 BlueXP 기능 및 서비스를 사용할 수 있습니다.
 
@@ -41,7 +43,7 @@ Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 �
 거의 모든 경우 커넥터 없이 디지털 지갑에 라이센스를 추가할 수 있습니다.
 
 +
-디지털 지갑에 라이센스를 추가하는 데 Connector가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. 이 경우 Cloud Volumes ONTAP 시스템에 설치된 라이센스에서 데이터를 가져왔기 때문에 커넥터가 필요합니다.
+디지털 지갑에 라이센스를 추가하는 데 Connector가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. BlueXP 가 Cloud Volumes ONTAP 시스템에 설치된 사용권 데이터에 도달해야 하기 때문에 커넥터가 필요합니다.
 
 * 사내 ONTAP 클러스터를 직접 검색
 +
@@ -59,7 +61,7 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 
 == 커넥터가 필요한 경우
 
-표준 모드에서 BlueXP를 사용하는 경우 BlueXP의 다음 기능 및 서비스에 커넥터가 필요합니다.
+표준 모드에서 BlueXP 를 사용하는 경우 BlueXP 에서 다음 기능 및 서비스를 사용하려면 하나 이상의 커넥터를 설치해야 합니다.
 
 * 경고
 * ONTAP용 Amazon FSx 관리 기능
@@ -70,25 +72,21 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 * Cloud Volumes ONTAP
 * 재해 복구
 * E-Series 시스템
-* 경제 효율성 ^1^
+* 경제적 효율성(보기 전용)
 * Google Cloud Storage 버킷
 * BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합
-* 작업 복구 ^1^
+* 운영 복원력(보기 전용)
 * 랜섬웨어 보호
 * StorageGRID 시스템
 * 계층화
 * 볼륨 캐싱
 
 
-^1^ 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.
-
-BlueXP가 제한된 모드 또는 프라이빗 모드로 사용하려면 커넥터가 필요합니다.
-
 
 
 == 커넥터는 항상 작동해야 합니다
 
-커넥터는 BlueXP 서비스 아키텍처의 기본 부분입니다. 관련 커넥터가 항상 가동, 작동 및 액세스 가능한지 확인하는 것은 귀하의 책임입니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.
+커넥터는 BlueXP  서비스 아키텍처의 기본 부분이므로 관련 커넥터가 항상 작동 및 작동하고 액세스 가능한지 확인해야 합니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.
 
 이 문서는 EULA의 적용을 받습니다. 문서에 따라 제품을 작동하지 않는 경우 제품의 기능 및 작동, EULA에 따른 사용자의 권리에 부정적인 영향을 미칠 수 있습니다.
 
@@ -104,12 +102,12 @@ Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경�
 
 == 지원되는 위치
 
-커넥터는 다음 위치에서 지원됩니다.
+필요에 따라 지원되는 하이퍼스케일러 환경 또는 사내에 커넥터를 설치할 수 있습니다.
 
 * Amazon Web Services에서 직접 지원합니다
 * Microsoft Azure를 참조하십시오
 +
-Azure의 커넥터는 해당 커넥터가 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 영역에 배포하거나 에 배포되어야 합니다 https://docs.microsoft.com/en-us/azure/availability-zones/cross-region-replication-azure#azure-cross-region-replication-pairings-for-all-geographies["Azure 지역 쌍"^] Cloud Volumes ONTAP 시스템의 경우 이 요구 사항은 Cloud Volumes ONTAP와 연결된 스토리지 계정 간에 Azure 전용 링크 연결이 사용되도록 합니다. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-enabling-private-link.html["Cloud Volumes ONTAP에서 Azure 프라이빗 링크를 사용하는 방법에 대해 알아보십시오"^]
+Connector를 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 지역 또는 Cloud Volumes ONTAP 시스템용 에 https://docs.microsoft.com/en-us/azure/availability-zones/cross-region-replication-azure#azure-cross-region-replication-pairings-for-all-geographies["Azure 지역 쌍"^] 배포합니다. 이렇게 하면 Cloud Volumes ONTAP와 관련 저장소 계정 간에 Azure Private Link 연결이 사용됩니다. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-enabling-private-link.html["Cloud Volumes ONTAP에서 Azure 프라이빗 링크를 사용하는 방법에 대해 알아보십시오"^]
 
 * Google 클라우드
 +
@@ -179,7 +177,7 @@ Connector에 일상적인 작업에 필요한 정확한 사용 권한을 보려�
 
 == 커넥터 업그레이드
 
-일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. BlueXP  플랫폼의 대부분의 서비스와 기능은 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.
+NetApp는 일반적으로 새로운 기능을 소개하고 안정성을 개선하기 위해 커넥터 소프트웨어를 매달 업데이트합니다. BlueXP  플랫폼의 대부분의 서비스와 기능은 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.
 
 표준 모드 또는 제한된 모드에서 BlueXP를 사용할 경우, 소프트웨어 업데이트를 받을 수 있도록 아웃바운드 인터넷에 액세스할 수 있는 경우 Connector에서 소프트웨어를 자동으로 최신 버전으로 업데이트합니다. 비공개 모드에서 BlueXP를 사용하는 경우 커넥터를 수동으로 업그레이드해야 합니다.
 
@@ -201,13 +199,13 @@ Connector VM을 중지한 다음 시작해야 하는 경우, 클라우드 공급
 
 == 다중 작업 환경 및 커넥터
 
-커넥터는 BlueXP에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.
+동일한 커넥터를 사용하여 BlueXP 에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.
 
-대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다. 도중에 문제가 발생하는 경우 제품 내 채팅을 통해 문의해 주십시오.
+대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다.
 
-경우에 따라 하나의 커넥터만 필요할 수 있지만 둘 이상의 커넥터가 필요할 수 있습니다.
+필요한 커넥터 수를 결정할 때 고려해야 할 또 다른 사항은 스토리지가 있는 위치입니다. 예를 들어 Google Cloud와 Azure에 모두 Cloud Volumes ONTAP가 있는 경우 각 환경에 대한 커넥터가 필요합니다. 스토리지가 완전히 사내에 있는 경우 Connector를 모든 하이퍼스케일러 또는 온프레미스에서 실행할 수 있습니다.
 
-다음은 몇 가지 예입니다.
+다른 예는 다음과 같습니다.
 
 * 다중 클라우드 환경(예: AWS 및 Azure)이 있고 AWS에 커넥터 1개와 Azure에 커넥터 1개가 있는 것을 선호합니다. 각 는 이러한 환경에서 실행되는 Cloud Volumes ONTAP 시스템을 관리합니다.
 * 서비스 공급자는 하나의 BlueXP  조직을 사용하여 고객에게 서비스를 제공하고 다른 조직을 사용하여 하나의 사업부에 대한 재해 복구를 제공할 수 있습니다. 각 조직에는 별도의 커넥터가 있습니다.
