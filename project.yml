@@ -11,7 +11,7 @@ settings:
   langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: BlueXP  설정 및 관리 문서
+  - title: BlueXP  설정 및 관리
     url: "/index.html"
   - title: 릴리스 정보
     entries:
@@ -115,8 +115,10 @@ sidebar:
         url: "/task-iam-get-started.html"
       - title: 폴더와 프로젝트를 사용하여 자원을 구성합니다
         url: "/task-iam-manage-folders-projects.html"
-      - title: 구성원을 추가하고 권한을 관리합니다
+      - title: 구성원 및 서비스 계정을 추가합니다
         url: "/task-iam-manage-members-permissions.html"
+      - title: 역할을 사용하여 리소스에 대한 구성원 액세스를 제어합니다
+        url: "/task-iam-manage-roles.html"
       - title: 자원 계층 구조를 관리합니다
         url: "/task-iam-manage-resources.html"
       - title: Connector를 다른 폴더 및 프로젝트에 연결합니다
@@ -127,7 +129,7 @@ sidebar:
         url: "/task-iam-rename-organization.html"
       - title: IAM 활동 모니터링 또는 감사
         url: "/task-iam-audit-actions-timeline.html"
-      - title: 사전 정의된 IAM 역할
+      - title: BlueXP  액세스 역할
         url: "/reference-iam-predefined-roles.html"
     - title: BlueXP  계정(비공개 모드만 해당)
       entries:

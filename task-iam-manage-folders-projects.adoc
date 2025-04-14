@@ -45,10 +45,10 @@ link:concept-identity-and-access-management.html#associate-resource-folder["자�
 
 ** * 액세스 *: 자원 계층에 이미 정의된 기존 권한을 기반으로 폴더 또는 프로젝트에 액세스할 수 있는 구성원을 봅니다.
 +
-필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.
+필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 액세스 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.
 
 +
-link:reference-iam-predefined-roles.html["사전 정의된 IAM 역할에 대해 알아봅니다"]..
+link:reference-iam-predefined-roles.html["액세스 역할에 대해 알아봅니다"]..
 
 
 
@@ -159,7 +159,7 @@ image:screenshot-iam-member-access.png["프로젝트에 액세스할 수 있는 
 
 폴더 또는 프로젝트에 대한 구성원 액세스 권한을 수정하여 권한 구성원이 폴더 또는 프로젝트와 관련된 리소스에 액세스할 수 있도록 합니다.
 
-상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스 권한이 제공된 경우 하위 수준 폴더 또는 프로젝트를 볼 때 구성원 액세스 권한을 제거하거나 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 사용 권한을 업데이트해야 합니다. 또는 다음을 수행할 수 link:task-iam-manage-members-permissions.html#manage-permissions["구성원 페이지에서 사용 권한을 관리합니다"]있습니다.
+상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스가 제공된 경우에는 하위 수준 폴더 또는 프로젝트를 볼 때 해당 역할을 제거하거나 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 역할을 업데이트해야 합니다. 또는 다음을 수행할 수 link:task-iam-manage-roles.html#manage-permissions["구성원 페이지에서 역할을 관리합니다"]있습니다.
 
 link:concept-identity-and-access-management.html#role-inheritance["역할 상속에 대해 자세히 알아봅니다"]..
 
