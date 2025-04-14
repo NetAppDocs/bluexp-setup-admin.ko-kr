@@ -5010,7 +5010,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="e5a26c78a572123c5a5e442167efbf6e" category="paragraph">커넥터는 BlueXP 가 스토리지 인프라 관리를 위해 수행해야 하는 작업을 실행하는 NetApp 소프트웨어입니다. BlueXP 의 많은 기능을 위한 커넥터가 필요하지 않지만 그렇지 않은 경우에는 일부 기능을 사용할 수 없습니다.</block>
   <block id="9097a69a8c3aa1836902abae4c2af6b5" category="paragraph">표준 모드에서 BlueXP 를 실행하는 경우 소프트웨어 업데이트 및 디지털 지갑과 같은 BlueXP 의 일부 서비스를 실행하기 위해 커넥터를 설치할 필요가 없습니다. 그러나 랜섬웨어 방지 또는 재해 복구와 같은 BlueXP 의 일부 프리미엄 서비스에는 커넥터를 설치해야 합니다. BlueXP 를 제한 또는 비공개 모드로 사용하는 경우 커넥터를 설치해야 합니다.</block>
   <block id="c9ea5b101d4c3beb590e4912f1117899" category="section-title">표준 모드에서 커넥터 없이 수행할 수 있는 작업</block>
-  <block id="25ec9fbdb3e3fbeaa1a630feb04991b6" category="paragraph">BlueXP 의 가장 중요한 서비스 중 일부는 표준 모드로 실행 중인 경우 커넥터를 설치하지 않고도 사용할 수 있습니다.</block>
   <block id="8d17fdbbeb88dfc223add1e324431fb7" category="paragraph">디지털 지갑에 라이센스를 추가하는 데 Connector가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. BlueXP 가 Cloud Volumes ONTAP 시스템에 설치된 사용권 데이터에 도달해야 하기 때문에 커넥터가 필요합니다.</block>
   <block id="8cba62c58c5613090d8d857aa64a0495" category="paragraph">표준 모드에서 BlueXP 를 사용하는 경우 BlueXP 에서 다음 기능 및 서비스를 사용하려면 하나 이상의 커넥터를 설치해야 합니다.</block>
   <block id="3dc40720b958919be726cd65a8331a73" category="list-text">경제적 효율성(보기 전용)</block>
@@ -5050,4 +5049,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="4304dbdc82316f438e38c644a361fd66" category="paragraph">BlueXP  분류를 사용하여 Azure NetApp Files 데이터를 스캔하려면 커넥터가 필요하지만 Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 않습니다.</block>
   <block id="86429eb78c6bc64d5f1ce4125590fe22" category="paragraph">ONTAP 클러스터 직접 검색에 커넥터는 필요하지 않지만 추가 BlueXP  기능을 사용하려면 커넥터가 필요합니다.<block ref="04529f27c98d308747ea6be915c240c4" category="inline-link-rx"></block></block>
   <block id="9c723fb8e231218b213744c9ee3160ca" category="paragraph">Azure에서 실행되는 Linux 호스트에 Connector를 수동으로 설치할 수 있습니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 Azure 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
+  <block id="e6ddd5a54a1d2f8ae254b9358dfed6b9" category="paragraph">표준 모드에서 실행 중인 경우 BlueXP 를 사용하여 커넥터를 설치하지 않고도 저장소 리소스를 중앙에서 관리할 수 있습니다.</block>
 </blocks>
