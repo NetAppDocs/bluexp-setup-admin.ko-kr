@@ -127,7 +127,7 @@ sidebar:
         url: "/task-iam-rename-organization.html"
       - title: IAM 활동 모니터링 또는 감사
         url: "/task-iam-audit-actions-timeline.html"
-      - title: 사전 정의된 IAM 역할
+      - title: BlueXP  액세스 역할
         url: "/reference-iam-predefined-roles.html"
     - title: BlueXP  계정(비공개 모드만 해당)
       entries:

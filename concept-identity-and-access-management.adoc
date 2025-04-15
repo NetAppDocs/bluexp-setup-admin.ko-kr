@@ -247,6 +247,6 @@ image:diagram-iam-example-hierarchy-advanced.png["세 개의 폴더가 있는 �
 * link:task-iam-switch-organizations-projects.html["BlueXP  프로젝트와 조직 간 전환"]
 * link:task-iam-rename-organization.html["BlueXP  조직의 이름을 바꿉니다"]
 * link:task-iam-audit-actions-timeline.html["IAM 활동 모니터링 또는 감사"]
-* link:reference-iam-predefined-roles.html["사전 정의된 BlueXP  IAM 역할"]
+* link:reference-iam-predefined-roles.html["BlueXP  액세스 역할"]
 * https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/overview.html["BlueXP  IAM용 API에 대해 알아보십시오"^]
 

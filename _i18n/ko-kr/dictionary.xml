@@ -4925,7 +4925,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="befeea17a6d7eca164cf128f9bffe000" category="paragraph">BlueXP 에서는 조직의 구성원에게 할당할 수 있는 몇 가지 미리 정의된 역할을 지원합니다.</block>
   <block id="2b01a456faf456f22f55be4aabe17b53" category="inline-link-macro">사전 정의된 IAM 역할에 대해 알아봅니다</block>
   <block id="5939586d23777de38b1394aad3c31735" category="paragraph"><block ref="1d6a3b55f851d6a1155ab766483f6eac" category="inline-link-macro-rx"></block>..</block>
-  <block id="9a4737feea9b9d5b10fea0c8478ac45b" category="doc">사전 정의된 BlueXP  IAM 역할 및 권한</block>
   <block id="94d01a25e8d719777d74e40fde0e74eb" category="paragraph">BlueXP  IAM(ID 및 액세스 관리)에는 리소스 계층 구조의 다양한 수준에서 조직 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다. 이러한 역할을 할당하기 전에 각 역할에 포함된 사용 권한을 이해해야 합니다. 역할은 플랫폼과 데이터 서비스의 두 가지 범주로 분류됩니다.</block>
   <block id="cb9e27422b343274f9974efbc9c3dbc1" category="section-title">플랫폼 역할</block>
   <block id="5e1d7b4c2de3509435462a15161a1c7f" category="paragraph">플랫폼 역할은 사용자에게 할당할 수 있는 가장 광범위한 역할이며 역할 할당 및 사용자 추가, 모든 BlueXP  기능 수행 등 BlueXP  관리에 대한 광범위한 권한을 허용합니다. BlueXP  IAM에는 조직 관리자 및 폴더 또는 프로젝트 관리자의 두 가지 플랫폼 역할이 포함되어 있습니다. 두 BlueXP  IAM 플랫폼 역할의 주된 차이점은 범위입니다.</block>
@@ -4934,7 +4933,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="6573eb5e7a9033869897566e8b1b5f6a" category="paragraph">폴더 또는 프로젝트 관리자 역할은 커넥터를 만들 수 없습니다.</block>
   <block id="11631a24c36e1c2153a968d2579a70d4" category="section-title">플랫폼 역할 비교 표</block>
   <block id="bc76903dd69fe38bc3b58cc4ef4a02c8" category="list-text">대규모 다국적 조직에 대한 BlueXP 의 조직 역할의 예</block>
-  <block id="09246652e91bee267cf93f6b3c2e9a32" category="paragraph">데이터 서비스 역할은 사용자에게 액세스 권한이 있는 조직, 프로젝트 또는 폴더 내의 데이터 서비스에 대한 사용 권한을 제공합니다.</block>
   <block id="5924e866f66794971195c3e6a6aa8e84" category="paragraph">필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.</block>
   <block id="f676fbba085923546a37baf94ce6784b" category="inline-link-macro">구성원 페이지에서 사용 권한을 관리합니다</block>
   <block id="5ca796b399d85f3455d2d1844012b11a" category="paragraph">상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스 권한이 제공된 경우 하위 수준 폴더 또는 프로젝트를 볼 때 구성원 액세스 권한을 제거하거나 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 사용 권한을 업데이트해야 합니다. 또는 다음을 수행할 수 <block ref="101f940efcb2d2a02ec2f0fe1cb20220" category="inline-link-macro-rx"></block>있습니다.</block>
@@ -4972,7 +4970,72 @@ https://support.netapp.com 으로 문의하십시오
   <block id="0d11271abad1cfef17e56e17367d09de" category="paragraph">온-프레미스 컴퓨터 중 하나에 커넥터를 설치할 수 있습니다. Connector 온-프레미스를 실행하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, 클라우드 권한을 준비하고, Connector를 설치하고, Connector를 설정하고, 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="60b81afd9ad770d185b5a9b9f08f9809" category="sidebar">BlueXP  설정 및 관리 문서</block>
   <block id="739addbbddeacc0bb15e86502b6685e9" category="sidebar">구성원을 추가하고 권한을 관리합니다</block>
-  <block id="4e9a240c5fb31e56c6b0ab71a915953f" category="sidebar">사전 정의된 IAM 역할</block>
   <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">액세스 역할에 대해 알아봅니다.</block>
   <block id="5a4d408bd57f7cf7efbd6cf878c737a7" category="paragraph"><block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
+  <block id="8c3d337cee5ab07c0918b1ab7f1db96a" category="inline-link-macro">BlueXP  액세스 역할</block>
+  <block id="a7d6279e87395342f6ca8ef1ab6ad3ca" category="list-text"><block ref="a7d6279e87395342f6ca8ef1ab6ad3ca" category="inline-link-macro-rx"></block></block>
+  <block id="3780f4c88e2a0b66a6db0bbed86d39da" category="section-title">응용 프로그램 역할</block>
+  <block id="d48140a7630d821243e3ac2204b3d871" category="paragraph">다음은 응용 프로그램 범주의 역할 목록입니다.</block>
+  <block id="a11961cab6627eac643ea36ae57ce8df" category="section-title">Keystone 역할</block>
+  <block id="2a04d5504b28b9efe0f0dfff02a03355" category="paragraph">다음 역할을 사용하여 Keystone에 대한 사용자 액세스 권한을 할당할 수 있습니다.</block>
+  <block id="78fdf101e42d4e276f66b98cdfe73866" category="admonition">BlueXP 를 통해 Keystone에 액세스하는 것은 현재 베타 버전입니다. Keystone 베타에 참여하려면 NetApp 담당자에게 문의하십시오.</block>
+  <block id="cdcfd0d4763f6f8983003ea128be38cf" category="list-text">* Keystone admin *: Keystone 구독을 관리하고 경고, 보고서, 구독에 대한 조치를 취하십시오.</block>
+  <block id="3275a956f3a80df98f4623ac3ac931a6" category="list-text">* Keystone 뷰어 *: Keystone 구독은 물론 보고서, 알림 및 자산을 볼 수 있습니다.</block>
+  <block id="147e83598b37ab6627136a0fbebd7717" category="paragraph">다음 표에는 각 Keystone 역할이 수행할 수 있는 작업이 나와 있습니다.</block>
+  <block id="4420e7353184ac575b539cdce1b991db" category="cell">기능 및 동작</block>
+  <block id="3522959e95c9f2aad088e504a7c016d0" category="cell">Keystone 관리자</block>
+  <block id="9d0ab4774b32ad710dbc8b73cdf29cce" category="cell">Keystone 뷰어</block>
+  <block id="3d96431c652abba07d810be9a4a3b187" category="cell">구독, 자산, 모니터 및 관리 탭을 봅니다</block>
+  <block id="04b2aaee865f1746c975de785d02e95f" category="cell">* Keystone 구독 페이지 *:</block>
+  <block id="96a37a10e0f320cc761610a86cf2637c" category="cell">구독을 볼 수 있습니다</block>
+  <block id="0c6e0cfae3b0f2712b3389db1db10e1b" category="cell">구독을 수정하거나 갱신할 수 있습니다</block>
+  <block id="86744a031b02e581d9a8908f0dbdc8c1" category="cell">* Keystone 자산 페이지 *:</block>
+  <block id="7c38a1a6d325208696c25a2b660d7c45" category="cell">자산을 봅니다</block>
+  <block id="bb295074f705be0407b1b743a2f6e967" category="cell">자산 관리</block>
+  <block id="f00f11f1b7ecc36f276ac4d83ea8ba95" category="cell">* Keystone 알림 페이지 *:</block>
+  <block id="428c58ec1c2902ea6bff31e38cae88ff" category="cell">알림을 봅니다</block>
+  <block id="685b0f2db45e4fc09a06ccb4695806de" category="cell">알림을 관리합니다</block>
+  <block id="683e7b4cc33c1c5bb12cefaa8e17c9da" category="cell">자신에 대한 알림을 생성합니다</block>
+  <block id="203311c515509be12349a4f1fc044cd7" category="cell">* 디지털 지갑 *:</block>
+  <block id="d7609c91ac60bd14d6f61465cd81ab5a" category="cell">디지털 지갑을 볼 수 있습니다</block>
+  <block id="605bf3e1f808ef9bc9fe99c9bf4cdf1f" category="cell">* Keystone 보고서 페이지 *:</block>
+  <block id="df6e3c89245cdc5bf0a7191c642d6997" category="cell">보고서 다운로드</block>
+  <block id="61b0e09fe12f82c766454563f7be036b" category="cell">보고서 관리</block>
+  <block id="4d1159457f35bcc3ef7ee5b2f65bc124" category="cell">자체 보고서를 생성합니다</block>
+  <block id="3b8988881170da948296006bcb3af098" category="cell">* 서비스 요청 *:</block>
+  <block id="c144ad302e0d51a72f17afbd09594ba8" category="cell">서비스 요청 작성</block>
+  <block id="3f07e6ff7933633c723d3474e50d9d65" category="cell">조직 내의 모든 사용자가 작성한 서비스 요청을 볼 수 있습니다</block>
+  <block id="aafdddc00f0073d6f8feca81436dbc0f" category="paragraph">아래는 데이터 서비스 범주의 역할 목록입니다.</block>
+  <block id="452c59bc627cf63c04afb8e67c894d8f" category="paragraph">분류에 관리자 역할이 없습니다.</block>
+  <block id="6e4131153ef85e6099f1a34150c48c4e" category="paragraph">다음 역할을 사용하여 사용자에게 랜섬웨어 보호에 대한 액세스 권한을 할당할 수 있습니다.</block>
+  <block id="bdcfe1c3dfeb861ab87e4cc4b8edc1fc" category="list-text">* 랜섬웨어 방어 관리자 * : 보호, 경고, 복구, 설정 및 보고서 탭에서 작업을 관리합니다.</block>
+  <block id="2342f940e11a97078a40faa46aad14e1" category="list-text">* 랜섬웨어 방어 뷰어 * : 워크로드 데이터를 보고, 경고 데이터를 보고, 복구 데이터를 다운로드하고 보고서를 다운로드합니다.</block>
+  <block id="38af51c4aaeb25c0489791e4bbad2347" category="paragraph">다음 표는 각 BlueXP  랜섬웨어 차단 역할이 수행할 수 있는 작업을 나타냅니다.</block>
+  <block id="a95fe9e5a7b678fa4abc81ea69f1e257" category="cell">랜섬웨어 차단 관리자</block>
+  <block id="6a05decc7d63f19c1d5812a3c728ce8a" category="cell">랜섬웨어 방어 뷰어</block>
+  <block id="b60c44c6bbbb3793d0c08c34cd6e2382" category="cell">대시보드 및 모든 탭을 봅니다</block>
+  <block id="78c7efbfa07116553a52f59800129dde" category="cell">무료 평가판을 시작하십시오</block>
+  <block id="42174d568723a8694dc7e6dfd143cb12" category="cell">워크로드 검색 시작</block>
+  <block id="26548eb85488e3cdc0f0b9b27802995f" category="cell">* 보호 탭 *:</block>
+  <block id="0ceaa792ae3f25d0f79dcd1125e9284e" category="cell">정책을 추가, 수정 또는 삭제합니다</block>
+  <block id="bf4011ddd9ae5a6521f75843972999ab" category="cell">워크로드 보호</block>
+  <block id="21a74bcaa4f6aef211c1ce1e13ed98fe" category="cell">중요 데이터를 식별합니다</block>
+  <block id="c102bfc829ed11fa589522aa305984a3" category="cell">워크로드 보호를 편집합니다</block>
+  <block id="d1e541a95d5060702dc6153a411c6c35" category="cell">워크로드 세부 정보를 봅니다</block>
+  <block id="4330b42a340140b836c42bbe9c7105be" category="cell">데이터 다운로드</block>
+  <block id="b1e60ac72e50f485ca0a5ea9c82143d2" category="cell">* 경고 탭 *:</block>
+  <block id="9f64c529078a13eebc43993d1ac578d4" category="cell">알림 세부 정보를 봅니다</block>
+  <block id="f700fad2259a25a87fbe56ba2810e8ff" category="cell">인시던트 상태를 편집합니다</block>
+  <block id="ef9988f85b068b8709daa3be2c31fca3" category="cell">인시던트 세부 정보를 봅니다</block>
+  <block id="38de1b212ca13fa4c230f4c20adbb48a" category="cell">영향을 받는 파일의 전체 목록을 가져옵니다</block>
+  <block id="4b1b2c63b979feafab4b35d6b2307876" category="cell">알림 데이터를 다운로드합니다</block>
+  <block id="b338bf8c8e0fbc61d8a0fad3b4a74e35" category="cell">* 복구 탭 *:</block>
+  <block id="f5f949f53a00b2da6ffa7a9f7a0fd0f8" category="cell">영향을 받는 파일을 다운로드합니다</block>
+  <block id="65ca8041cc328ebb64db5f8368a9101a" category="cell">워크로드를 복원합니다</block>
+  <block id="4ebc1406711ca6754873e22a81f31c6f" category="cell">복구 데이터를 다운로드합니다</block>
+  <block id="a4f2411faacb07693dd051a3d2d9f97e" category="cell">* 설정 탭 *:</block>
+  <block id="988c84a947938e98e39deda3665fae89" category="cell">백업 타겟을 추가하거나 수정합니다</block>
+  <block id="08fec10c338548595a28b0310a1c0600" category="cell">SIEM 타겟을 추가하거나 수정합니다</block>
+  <block id="1ed006cd78ff9bf590a02c6fc268141f" category="cell">* 보고서 탭 *:</block>
+  <block id="4d2ba7b1416b46d72e4a391ee901ec54" category="paragraph">SnapCenter에는 뷰어 역할이 없습니다.</block>
 </blocks>
