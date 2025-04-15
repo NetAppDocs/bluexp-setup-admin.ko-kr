@@ -3739,14 +3739,8 @@ https://support.netapp.com 으로 문의하십시오
   <block id="42f3fa961e42affb80862a782c9341af" category="list-text">Microsoft.ContainerService/managedClusters/read</block>
   <block id="db311ee703dc0562542410a07692686e" category="paragraph">Connector가 온-프레미스에 설치되어 있으면 이 인증 방법을 사용할 수 없습니다. AWS 키를 사용해야 합니다.</block>
   <block id="18eeee44961787b52080a2c714b406a6" category="paragraph">Connector가 온-프레미스에 설치된 경우 이 인증 방법을 사용해야 합니다. IAM 역할을 사용할 수 없습니다.</block>
-  <block id="0cd8313934e43905fe55906d112bfcba" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 BlueXP 에서 직접 AWS에 커넥터를 생성하는 것입니다. BlueXP에서 AWS에 Connector를 생성하려면 네트워킹을 설정하고 AWS 권한을 준비한 다음 Connector를 생성해야 합니다.</block>
   <block id="e74b1c05a68d1410f2fdc6be60f433dd" category="inline-link-macro">커넥터 이해</block>
   <block id="a69707f32a14657a4148714e0858cc16" category="list-text">가 있어야 <block ref="265bf4041c284cedb5265913609f75cf" category="inline-link-macro-rx"></block>합니다.</block>
-  <block id="0f6f328a496422180419aea5d68c3d2b" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 AWS에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 AWS 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
-  <block id="bde99503b08825a9b6290c21b6ff2424" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 AWS Marketplace에서 직접 Connector를 만드는 것입니다. AWS Marketplace에서 Connector를 만들려면 네트워킹을 설정하고 AWS 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
-  <block id="1017ad8551dc7209fead1d996608e2b5" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Azure Marketplace에서 직접 Azure에 Connector를 만드는 것입니다. Azure 마켓플레이스에서 Connector를 만들려면 네트워킹을 설정하고 Azure 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
-  <block id="9a63fba43be3e1df0de44c749000ffc5" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션에는 BlueXP 에서 직접 또는 gcloud를 사용하여 AWS에서 커넥터를 생성하는 것이 포함됩니다. BlueXP에서 또는 gcloud를 사용하여 Google Cloud에 Connector를 생성하려면 네트워킹을 설정하고 Google Cloud 권한을 준비하고 Google Cloud API를 활성화한 다음 Connector를 생성해야 합니다.</block>
-  <block id="455e0d1571fc687b88776ecc58050d7b" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Google Cloud에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, Google Cloud 권한을 준비하고, API를 활성화하고, Connector를 설치한 다음 준비된 사용 권한을 제공해야 합니다.</block>
   <block id="5ed8d571b208e6fe2728f122d3340d93" category="paragraph">커넥터가 사내에 설치된 경우 필요한 권한이 있는 IAM 사용자에 대한 액세스 키를 추가하여 BlueXP 에 AWS 권한을 제공해야 합니다.</block>
   <block id="7247a245f2594a184b7ed7669be8c32e" category="paragraph">Connector가 온-프레미스에 설치된 경우 Microsoft Entra ID에서 서비스 보안 주체를 설정하고 BlueXP 에 필요한 Azure 자격 증명을 획득하여 BlueXP 에 Azure 권한을 제공해야 합니다.</block>
   <block id="d73fea737459cd596b8a61a9c640bf6f" category="paragraph">Connector 소프트웨어를 다운로드하여 기존 Linux 호스트 온-프레미스에 설치합니다.</block>
@@ -4012,7 +4006,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">작업 환경 목록은 서비스 상단 배너에서 선택한 BlueXP  조직(또는 계정), 프로젝트(또는 작업 영역) 및 커넥터 범위 내에 있습니다.</block>
   <block id="aeaa07e62e0681df3c00b18be44e1799" category="summary">조직의 구성원이 다른 프로젝트에서 커넥터를 사용해야 하는 경우 BlueXP  IAM에서 연결을 만들어야 합니다.</block>
   <block id="9c1561cceda808c78453a453f4175e14" category="doc">BlueXP  커넥터를 다른 폴더 및 프로젝트에 연결합니다</block>
-  <block id="f65c722b8c32b398b8803f08c37a6e61" category="paragraph">BlueXP 에서 여러 유형의 작업 환경을 관리하려면 커넥터가 필요합니다. 조직 관리자 _ 가 커넥터를 만들면 BlueXP 가 해당 커넥터를 조직 및 현재 선택한 프로젝트에 자동으로 연결합니다. 조직 관리자 _ 는 조직의 모든 위치에서 해당 커넥터에 자동으로 액세스할 수 있습니다. 조직의 다른 구성원은 BlueXP  IAM(ID 및 액세스 관리)의 다른 프로젝트와 해당 Connector를 연결하지 않는 한 해당 Connector를 만든 프로젝트에서만 해당 Connector에 액세스할 수 있습니다.</block>
   <block id="c7a2ea5af88a07f2a9350a72ef1052ca" category="inline-link-macro">BlueXP  IAM에서 커넥터를 사용하는 방법에 대해 알아봅니다</block>
   <block id="fa0b2ee8e271330f8acc8d4a5d3356ce" category="paragraph">커넥터 연결이 작동하는 방식을 이해해야 합니다. <block ref="0e59e07e63f66ad6442c68a3b1946546" category="inline-link-macro-rx"></block>..</block>
   <block id="6955c430a5d86c9667f05d296c1693d4" category="inline-link-macro">폴더 또는 프로젝트 관리자 _ 가 수행할 수 있는 작업에 대해 자세히 알아봅니다</block>
@@ -4402,7 +4395,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="c5f7a94f7e361ce9dc993775dd14b3c1" category="inline-image-macro">프로젝트의 작업 메뉴를 선택하는 데 도움이 되는 프로젝트 ID를 보여 주는 폴더 및 프로젝트 테이블의 스크린샷</block>
   <block id="c4c78a982626adb55fd316627b7b9909" category="paragraph"><block ref="c4c78a982626adb55fd316627b7b9909" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
-  <block id="be6af94f792f554a6fe5be714926ba2a" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. Connector 온-프레미스를 실행하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, 클라우드 권한을 준비하고, Connector를 설치하고, Connector를 설정하고, 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="64a7a8a4f820d38dc5cedd70930717c0" category="doc">비공개 모드 해제(3.9.46)</block>
   <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">이제 에서 새 비공개 모드 릴리스를 다운로드할 수 있습니다<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
   <block id="579c9c5aad40c47e8203472b55439941" category="paragraph">3.9.46 릴리스에는 다음 BlueXP  구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.</block>
@@ -4597,7 +4589,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="894e6dbd6e66d6ab2ca99432100d70c4" category="cell">커넥터를 폴더 및 프로젝트에 연결합니다</block>
   <block id="aa3ec14d13bb1138309921733478241a" category="cell">폴더 및 프로젝트에서 커넥터를 제거합니다</block>
   <block id="a45abfc4b47949975fbb4a65b1c69386" category="cell">커넥터 관리(인증서, 설정 등 편집)</block>
-  <block id="3780f4c88e2a0b66a6db0bbed86d39da" category="section-title">응용 프로그램 역할</block>
   <block id="9c671793f6e87d755268257623fd8ca3" category="paragraph">사용자 및 해당 권한을 관리하려면 다음 역할 중 하나를 할당해야 합니다.</block>
   <block id="e315fd1b95b71681931eeb8955a37b50" category="paragraph">이 역할을 가진 사용자는 모든 구성원을 관리할 수 있습니다</block>
   <block id="c51c480c437b7c47a9f2adb67928e089" category="paragraph">이 역할을 가진 사용자는 지정된 폴더 또는 프로젝트의 구성원만 관리할 수 있습니다</block>
@@ -4765,7 +4756,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="a4d75af0169953eb40d887c4820fd6c1" category="paragraph">Azure Marketplace에서 Connector를 배포하거나 Linux 호스트에 Connector를 수동으로 설치하는 경우 사용자 지정 역할을 직접 설정하고 변경 사항이 있을 경우 사용 권한을 유지해야 합니다.</block>
   <block id="ad7d7ef56b8ff6022bbad683c5492270" category="paragraph">이후 릴리스에서 새 권한이 추가됨에 따라 역할이 최신 상태인지 확인해야 합니다. 새 권한이 필요한 경우 릴리스 노트에 해당 권한이 나열됩니다.</block>
   <block id="97d45041217492c3fe9ac0d49a0674a5" category="cell"><block ref="97d45041217492c3fe9ac0d49a0674a5" category="inline-link-macro-rx"></block></block>
-  <block id="2ff6b1064f88d62b00c4062b5e82d23f" category="paragraph">BlueXP 에서 직접 Azure에 커넥터를 만들 수 있습니다. BlueXP 에서 Azure에 커넥터를 만들려면 네트워킹을 설정하고 커넥터를 배포하는 데 사용할 Azure 역할을 준비한 다음 커넥터를 배포해야 합니다.</block>
   <block id="799e45e78d3615d4d8005dadaa50f617" category="section-title">2단계: 커넥터 배포 정책 만들기(사용자 지정 역할)</block>
   <block id="7916ff578d0c4f1b6b2fb089e194887a" category="paragraph">Azure에서 Connector를 배포할 수 있는 권한이 있는 사용자 지정 역할을 만들어야 합니다.</block>
   <block id="7fae3ca49e7c49f36f0627788bfa6e92" category="paragraph">BlueXP 가 Azure에서 커넥터 가상 머신을 배포하면 가상 머신에서 을<block ref="3b529d5441a4ea26741352247ca08bac" category="inline-link-rx"></block> 활성화하고 필요한 역할을 자동으로 생성하여 가상 머신에 할당합니다. 자동으로 생성된 역할은 BlueXP 에게 해당 Azure 구독 내의 리소스와 프로세스를 관리하는 데 필요한 권한을 제공합니다. <block ref="daf58003d5227a43b6fbea1d165f6f7b" category="inline-link-macro-rx"></block>..</block>
@@ -4810,7 +4800,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="00d64ff7da906ec5530c4e990fb334cb" category="section-title">BlueXP 에서 커넥터를 사용할 때 ONTAP 시스템 관리자 액세스</block>
   <block id="b539e86fbaa7eae465366a0142624ec2" category="paragraph">BlueXP  관리자(조직 관리자 역할을 가진 사용자)는 ONTAP 시스템 관리자에 액세스하기 위해 사용자에게 ONTAP 자격 증명을 입력하라는 메시지를 표시하도록 BlueXP 를 구성할 수 있습니다. 이 설정을 사용하는 경우 사용자는 ONTAP 자격 증명이 BlueXP 에 저장되지 않으므로 매번 해당 자격 증명을 입력해야 합니다.</block>
   <block id="990a2328425e217648ea5dd2ae370ffb" category="inline-link-macro">자격 증명 설정을 구성하는 방법에 대해 알아봅니다.</block>
-  <block id="65ac46c0fd2260c1febd841aed98d599" category="paragraph">이 기능은 커넥터 버전 3.9.49 이상에서 사용할 수 있습니다. <block ref="3a5e8b35a098e08d607fb27978dec106" category="inline-link-macro-rx"></block>..</block>
   <block id="a03c6dfbb1d64911f1090d54175ff8d3" category="section-title">커넥터 3.9.48 업데이트</block>
   <block id="1697b2b05dc5c7ad63e22e713e94ba7c" category="section-title">커넥터에 대한 자동 업그레이드 설정을 비활성화할 수 있습니다</block>
   <block id="91f4c340492e583f80db57f970516c1f" category="paragraph">커넥터의 자동 업그레이드 기능을 비활성화할 수 있습니다.</block>
@@ -4818,7 +4807,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="01d6125faf020265bf432216c335698c" category="admonition">이 변경 사항은 항상 커넥터를 직접 업그레이드해야 하는 BlueXP  개인 모드에 영향을 주지 않습니다.</block>
   <block id="0e9ee8d377b683ca8ac77de05c3539d9" category="paragraph">이 기능은 커넥터 버전 3.9.48 이상에서 사용할 수 있습니다.</block>
   <block id="355c51d49cd780f57fe417fdede5f61c" category="inline-link-macro">커넥터에 대한 자동 업그레이드를 비활성화하는 방법에 대해 알아봅니다.</block>
-  <block id="530a13d3dc2fccc16ebe8e25a47286a1" category="paragraph"><block ref="530a13d3dc2fccc16ebe8e25a47286a1" category="inline-link-macro-rx"></block></block>
   <block id="7c92902ee004926d50127061f6c6f6e3" category="paragraph">기본적으로 사용자는 ONTAP System Manager에 액세스할 때 ONTAP 자격 증명을 입력하라는 메시지가 표시되지 않습니다. 그러나 조직 관리자 역할을 가진 BlueXP  관리자는 사용자에게 ONTAP 자격 증명을 입력하라는 메시지를 표시하도록 BlueXP 를 구성할 수 있습니다. 이 설정을 사용하는 경우 사용자는 매번 ONTAP 자격 증명을 입력해야 합니다.</block>
   <block id="278edfabbac204688aa13f79c6f52497" category="section-title">2025년 3월 6일</block>
   <block id="256d8753a695f4395908c9903ae723b2" category="paragraph">현재 3.9.50 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
@@ -4904,151 +4892,85 @@ https://support.netapp.com 으로 문의하십시오
   <block id="1fa6d342759ba5c5a8f23c210cac048c" category="doc">커넥터 3.9.51</block>
   <block id="44cd288eedf76c78c5b3b26935538537" category="paragraph">현재 3.9.51 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">BlueXP  ID 및 액세스 관리(IAM)</block>
-  <block id="89e154403778feb30a369a4b9959d2e2" category="inline-link-macro">새로운 역할에 대해 알아보십시오.</block>
   <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025년 4월 14일</block>
   <block id="38469cab8f7065ff2b3a663e28381c62" category="list-text">조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자는 랜섬웨어 방어 역할을 할당해야 랜섬웨어 방지에 액세스할 수 있습니다. 사용자에게 랜섬웨어 차단 관리자 또는 랜섬웨어 차단 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.</block>
   <block id="a9632ee5411be0309684063f13ba77a8" category="list-text">조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자에게는 Keystone 역할이 할당되어야 Keystone에 액세스할 수 있습니다. 사용자에게 Keystone admin 또는 Keystone 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.</block>
   <block id="d4d44165c3ece93b64c24e52e61879a3" category="list-text">조직 관리자 또는 폴더 또는 프로젝트 관리자 역할이 있는 경우 이제 Keystone 구독을 IAM 프로젝트에 연결할 수 있습니다. Keystone 구독과 IAM 프로젝트를 연결하면 BlueXP  내에서 Keystone에 대한 액세스를 제어할 수 있습니다.</block>
-  <block id="06ae2eb5f4697ec006608fbf2e1e5a5e" category="paragraph">BlueXP  ID 및 액세스 관리(IAM)는 BlueXP  리소스에 대한 사용자 액세스를 관리하고 최소 권한 역할을 통해 적절한 권한 수준을 부여하는 확장 가능한 기본 액세스 제어 메커니즘입니다.</block>
-  <block id="d4809de34ba9cc073d054ecbd5e6f4fa" category="paragraph">IAM을 사용하면 NetApp 리소스에 대한 액세스를 구성 및 제어할 수 있습니다. 조직의 계층 구조에 따라 자원을 구성할 수 있습니다. 예를 들어 지리적 위치, 사이트 또는 사업부별로 자원을 구성할 수 있습니다. 그런 다음 계층의 특정 부분에 있는 구성원에게 IAM 역할을 할당할 수 있으므로 계층의 다른 부분에 있는 리소스에 액세스할 수 없습니다.</block>
-  <block id="29869679a689db821d47cf8abfed64b1" category="paragraph">폴더를 관리하려면 사용자에게 조직 관리자 역할이나 폴더 또는 프로젝트 관리자 역할이 있어야 합니다. 조직 관리자 역할을 가진 사용자는 BlueXP  조직의 모든 위치에서 리소스를 만들고 관리할 수 있습니다. 폴더 및 프로젝트 관리자 역할을 가진 사용자는 자신이 할당된 폴더 또는 프로젝트에 대해서만 이러한 작업을 수행할 수 있습니다.</block>
-  <block id="facb12ccfc7fd1078f18b312bcd32fec" category="paragraph">링크::reference-iam-predefined-roles.html [BlueXP  역할에 대해 자세히 알아보기]</block>
-  <block id="723f0aaeaff3d17b73530431650056f5" category="paragraph">BlueXP  IAM을 사용할 때 이러한 역할을 가진 사용자는 다음 구성 요소를 관리합니다.</block>
-  <block id="a5cd3ed116608dac017f14c046ea56bf" category="list-text">역할</block>
-  <block id="a246a657e3bb11b0fad6ac951e7a7921" category="paragraph">조직 _ 은(는) BlueXP  IAM 시스템의 최상위 수준이며 일반적으로 회사를 나타냅니다. 조직은 커넥터, 저장소 및 구독과 같은 리소스로 구성되며 이러한 리소스는 폴더 및 프로젝트로 구성할 수 있습니다. 그런 다음 저장소 환경 관리의 책임에 따라 폴더 또는 프로젝트에 대한 조직 구성원(사용자) 액세스를 할당할 수 있습니다.</block>
-  <block id="eaea6bbd21c34da8f5c712819b2fa7e8" category="paragraph">조직의 크기와 보유 중인 스토리지 리소스 수에 따라 폴더는 NetApp 리소스를 정리하는 데 유용한 도구입니다. 또한 여러 폴더의 관리를 다른 사용자와 공유하려는 경우 액세스 관리를 보다 효율적으로 관리할 수 있습니다. 사용자에게 특정 폴더에 대한 폴더 또는 프로젝트 관리자 역할을 할당할 수 있습니다. 그러면 해당 사용자가 폴더 및 해당 프로젝트에 대한 액세스를 관리할 수 있을 뿐 아니라 폴더에 새 프로젝트를 만들 수도 있습니다.</block>
-  <block id="e89b4a6e191e212029f58a77e3906781" category="paragraph">폴더를 만들 때 해당 폴더에 대한 사용자 액세스 권한을 할당할 수 있습니다. 사용자에게 폴더에 대한 액세스 역할을 할당하면 해당 사용자는 해당 폴더 내의 모든 프로젝트에 대해 해당 역할과 관련된 업무를 수행할 수 있습니다. 반대로 프로젝트에 대한 사용자 액세스 권한을 프로젝트 단위로 부여하도록 선택할 수 있습니다.</block>
-  <block id="99b209bdb6e04c3b0bb3aadbaf4809f0" category="paragraph">NetApp 리소스에 더 세부적인 액세스를 제공할 수 있도록 여러 프로젝트를 생성합니다. 예를 들어 소규모 조직에서는 각 사업부 또는 지리적 위치에 대한 프로젝트를 가질 수 있습니다. 대규모 조직에서는 액세스를 더욱 강력하게 제어하기 위해 부서당 여러 프로젝트로 스토리지 리소스를 구성하려고 할 수 있습니다. 프로젝트 또는 폴더별로 자원에 대한 액세스 권한을 사용자에게 할당할 수 있습니다.</block>
-  <block id="31a47a2847cf69d6a86e5dc8e6475320" category="paragraph">프로젝트가 폴더에 있으면 가능합니다</block>
-  <block id="2c2e7be4268cd14a5e106bbdd7de7669" category="section-title">액세스 역할</block>
-  <block id="55b6d94d9ad6439fe5c46ccdba149ed3" category="paragraph">BlueXP 에서는 조직 구성원에게 할당할 수 있는 몇 가지 액세스 역할을 지원합니다.</block>
-  <block id="f0b3d6677a212276d758f01224d831be" category="paragraph"><block ref="358dd7829c43f386bdd1bc16bf83b432" category="inline-link-macro-rx"></block>..</block>
-  <block id="8c3d337cee5ab07c0918b1ab7f1db96a" category="doc">BlueXP  액세스 역할</block>
-  <block id="5c7fdc642eeb15903590365b16190946" category="paragraph">BlueXP  액세스 역할은 사용자가 스토리지 관리 작업을 수행할 수 있도록 사용자에게 최소 권한을 부여하도록 설계되었습니다. 이렇게 하면 보안이 강화되고 권한이 없는 사용자가 실수로 스토리지 서비스를 중단하는 것을 방지할 수 있습니다. 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 세 가지 범주로 분류됩니다.</block>
-  <block id="6fee4cd31e4fd207650d866994c2e27b" category="paragraph">BlueXP  플랫폼 역할(조직 관리자, 프로젝트 또는 폴더 관리자)을 가진 사용자는 누구나 프로젝트에 사용자를 추가하고 특정 프로젝트나 폴더에 대한 역할이나 역할을 할당할 수 있습니다.</block>
-  <block id="fd2cb0f491a111c6c30e31d8550da648" category="section-title">BlueXP  플랫폼 역할</block>
-  <block id="82d121fce2370e981f0805f28491d2ea" category="paragraph">플랫폼 역할에는 역할 할당 및 사용자 추가를 비롯하여 BlueXP  관리에 대한 모든 권한이 있으며, 스토리지 리소스와 데이터 서비스 모두에 대해 모든 BlueXP  관리 기능을 수행할 수 있습니다. BlueXP 에는 조직 관리자 및 폴더 또는 프로젝트 관리자의 두 가지 플랫폼 수준 역할이 포함되어 있습니다.</block>
-  <block id="2300294e5ba32a77ce27f4dea6bce375" category="paragraph-title">예: 플랫폼 역할을 사용하여 관리 책임을 위임합니다</block>
-  <block id="3f945256abb83dc0dc6e4ab43245f2f7" category="paragraph">다음과 같은 플랫폼 역할을 사용할 수 있습니다.</block>
-  <block id="953cacffc58d4ef1c6a0d6666463490f" category="list-text">* 조직 관리자 * : 사용자가 조직 내의 모든 프로젝트 및 폴더에 제한 없이 액세스할 수 있고, 프로젝트 또는 폴더에 구성원을 추가할 수 있으며, BlueXP  관리 작업을 수행하고 모든 데이터 서비스를 사용할 수 있습니다. 조직에는 하나 이상의 조직 관리자가 있어야 합니다.</block>
-  <block id="b9ec7cf1c2e070364443da595ac27885" category="list-text">* 폴더 또는 프로젝트 관리자 * : 사용자가 할당된 특정 프로젝트 및 폴더에 대해 무제한 액세스를 허용합니다. 자신이 관리하는 프로젝트 또는 폴더에 구성원을 추가할 수 있을 뿐 아니라 BlueXP  관리 작업을 수행하고 할당된 폴더 또는 프로젝트 내의 모든 데이터 서비스를 사용할 수 있습니다. 폴더 또는 프로젝트 관리자 역할이 연결선을 만들 수 없습니다.</block>
-  <block id="12bf15e0266e4456919bca8fc27d8445" category="paragraph">다음 표에는 각 BlueXP  플랫폼 보호 역할이 수행할 수 있는 작업이 나와 있습니다.</block>
-  <block id="d48140a7630d821243e3ac2204b3d871" category="paragraph">다음은 응용 프로그램 범주의 역할 목록입니다.</block>
-  <block id="a11961cab6627eac643ea36ae57ce8df" category="section-title">Keystone 역할</block>
-  <block id="2a04d5504b28b9efe0f0dfff02a03355" category="paragraph">다음 역할을 사용하여 Keystone에 대한 사용자 액세스 권한을 할당할 수 있습니다.</block>
-  <block id="78fdf101e42d4e276f66b98cdfe73866" category="admonition">BlueXP 를 통해 Keystone에 액세스하는 것은 현재 베타 버전입니다. Keystone 베타에 참여하려면 NetApp 담당자에게 문의하십시오.</block>
-  <block id="cdcfd0d4763f6f8983003ea128be38cf" category="list-text">* Keystone admin *: Keystone 구독을 관리하고 경고, 보고서, 구독에 대한 조치를 취하십시오.</block>
-  <block id="3275a956f3a80df98f4623ac3ac931a6" category="list-text">* Keystone 뷰어 *: Keystone 구독은 물론 보고서, 알림 및 자산을 볼 수 있습니다.</block>
-  <block id="cb97d9e7423da9b58bc3b595cad3fe19" category="paragraph">다음 표에는 각 Keystone 역할이 수행할 수 있는 작업이 나와 있습니다.</block>
-  <block id="4420e7353184ac575b539cdce1b991db" category="cell">기능 및 동작</block>
-  <block id="3522959e95c9f2aad088e504a7c016d0" category="cell">Keystone 관리자</block>
-  <block id="9d0ab4774b32ad710dbc8b73cdf29cce" category="cell">Keystone 뷰어</block>
-  <block id="3d96431c652abba07d810be9a4a3b187" category="cell">구독, 자산, 모니터 및 관리 탭을 봅니다</block>
-  <block id="04b2aaee865f1746c975de785d02e95f" category="cell">* Keystone 구독 페이지 *:</block>
-  <block id="96a37a10e0f320cc761610a86cf2637c" category="cell">구독을 볼 수 있습니다</block>
-  <block id="0c6e0cfae3b0f2712b3389db1db10e1b" category="cell">구독을 수정하거나 갱신할 수 있습니다</block>
-  <block id="86744a031b02e581d9a8908f0dbdc8c1" category="cell">* Keystone 자산 페이지 *:</block>
-  <block id="7c38a1a6d325208696c25a2b660d7c45" category="cell">자산을 봅니다</block>
-  <block id="bb295074f705be0407b1b743a2f6e967" category="cell">자산 관리</block>
-  <block id="f00f11f1b7ecc36f276ac4d83ea8ba95" category="cell">* Keystone 알림 페이지 *:</block>
-  <block id="428c58ec1c2902ea6bff31e38cae88ff" category="cell">알림을 봅니다</block>
-  <block id="685b0f2db45e4fc09a06ccb4695806de" category="cell">알림을 관리합니다</block>
-  <block id="683e7b4cc33c1c5bb12cefaa8e17c9da" category="cell">자신에 대한 알림을 생성합니다</block>
-  <block id="203311c515509be12349a4f1fc044cd7" category="cell">* 디지털 지갑 *:</block>
-  <block id="d7609c91ac60bd14d6f61465cd81ab5a" category="cell">디지털 지갑을 볼 수 있습니다</block>
-  <block id="605bf3e1f808ef9bc9fe99c9bf4cdf1f" category="cell">* Keystone 보고서 페이지 *:</block>
-  <block id="df6e3c89245cdc5bf0a7191c642d6997" category="cell">보고서 다운로드</block>
-  <block id="61b0e09fe12f82c766454563f7be036b" category="cell">보고서 관리</block>
-  <block id="4d1159457f35bcc3ef7ee5b2f65bc124" category="cell">자체 보고서를 생성합니다</block>
-  <block id="3b8988881170da948296006bcb3af098" category="cell">* 서비스 요청 *:</block>
-  <block id="c144ad302e0d51a72f17afbd09594ba8" category="cell">서비스 요청 작성</block>
-  <block id="3f07e6ff7933633c723d3474e50d9d65" category="cell">조직 내의 모든 사용자가 작성한 서비스 요청을 볼 수 있습니다</block>
-  <block id="aafdddc00f0073d6f8feca81436dbc0f" category="paragraph">아래는 데이터 서비스 범주의 역할 목록입니다.</block>
-  <block id="452c59bc627cf63c04afb8e67c894d8f" category="paragraph">분류에 관리자 역할이 없습니다.</block>
-  <block id="6e4131153ef85e6099f1a34150c48c4e" category="paragraph">다음 역할을 사용하여 사용자에게 랜섬웨어 보호에 대한 액세스 권한을 할당할 수 있습니다.</block>
-  <block id="bdcfe1c3dfeb861ab87e4cc4b8edc1fc" category="list-text">* 랜섬웨어 방어 관리자 * : 보호, 경고, 복구, 설정 및 보고서 탭에서 작업을 관리합니다.</block>
-  <block id="2342f940e11a97078a40faa46aad14e1" category="list-text">* 랜섬웨어 방어 뷰어 * : 워크로드 데이터를 보고, 경고 데이터를 보고, 복구 데이터를 다운로드하고 보고서를 다운로드합니다.</block>
-  <block id="38af51c4aaeb25c0489791e4bbad2347" category="paragraph">다음 표는 각 BlueXP  랜섬웨어 차단 역할이 수행할 수 있는 작업을 나타냅니다.</block>
-  <block id="a95fe9e5a7b678fa4abc81ea69f1e257" category="cell">랜섬웨어 차단 관리자</block>
-  <block id="6a05decc7d63f19c1d5812a3c728ce8a" category="cell">랜섬웨어 방어 뷰어</block>
-  <block id="b60c44c6bbbb3793d0c08c34cd6e2382" category="cell">대시보드 및 모든 탭을 봅니다</block>
-  <block id="78c7efbfa07116553a52f59800129dde" category="cell">무료 평가판을 시작하십시오</block>
-  <block id="42174d568723a8694dc7e6dfd143cb12" category="cell">워크로드 검색 시작</block>
-  <block id="26548eb85488e3cdc0f0b9b27802995f" category="cell">* 보호 탭 *:</block>
-  <block id="0ceaa792ae3f25d0f79dcd1125e9284e" category="cell">정책을 추가, 수정 또는 삭제합니다</block>
-  <block id="bf4011ddd9ae5a6521f75843972999ab" category="cell">워크로드 보호</block>
-  <block id="21a74bcaa4f6aef211c1ce1e13ed98fe" category="cell">중요 데이터를 식별합니다</block>
-  <block id="c102bfc829ed11fa589522aa305984a3" category="cell">워크로드 보호를 편집합니다</block>
-  <block id="d1e541a95d5060702dc6153a411c6c35" category="cell">워크로드 세부 정보를 봅니다</block>
-  <block id="4330b42a340140b836c42bbe9c7105be" category="cell">데이터 다운로드</block>
-  <block id="b1e60ac72e50f485ca0a5ea9c82143d2" category="cell">* 경고 탭 *:</block>
-  <block id="9f64c529078a13eebc43993d1ac578d4" category="cell">알림 세부 정보를 봅니다</block>
-  <block id="f700fad2259a25a87fbe56ba2810e8ff" category="cell">인시던트 상태를 편집합니다</block>
-  <block id="ef9988f85b068b8709daa3be2c31fca3" category="cell">인시던트 세부 정보를 봅니다</block>
-  <block id="38de1b212ca13fa4c230f4c20adbb48a" category="cell">영향을 받는 파일의 전체 목록을 가져옵니다</block>
-  <block id="4b1b2c63b979feafab4b35d6b2307876" category="cell">알림 데이터를 다운로드합니다</block>
-  <block id="b338bf8c8e0fbc61d8a0fad3b4a74e35" category="cell">* 복구 탭 *:</block>
-  <block id="f5f949f53a00b2da6ffa7a9f7a0fd0f8" category="cell">영향을 받는 파일을 다운로드합니다</block>
-  <block id="65ca8041cc328ebb64db5f8368a9101a" category="cell">워크로드를 복원합니다</block>
-  <block id="4ebc1406711ca6754873e22a81f31c6f" category="cell">복구 데이터를 다운로드합니다</block>
-  <block id="a4f2411faacb07693dd051a3d2d9f97e" category="cell">* 설정 탭 *:</block>
-  <block id="988c84a947938e98e39deda3665fae89" category="cell">백업 타겟을 추가하거나 수정합니다</block>
-  <block id="08fec10c338548595a28b0310a1c0600" category="cell">SIEM 타겟을 추가하거나 수정합니다</block>
-  <block id="1ed006cd78ff9bf590a02c6fc268141f" category="cell">* 보고서 탭 *:</block>
-  <block id="4d2ba7b1416b46d72e4a391ee901ec54" category="paragraph">SnapCenter에는 뷰어 역할이 없습니다.</block>
-  <block id="b5d12b62e8878125882ab75bf3c30b5a" category="paragraph">필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 액세스 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.</block>
-  <block id="eca36d51093f2e51afd4eb802cf98239" category="inline-link-macro">구성원 페이지에서 역할을 관리합니다</block>
-  <block id="af604cf2b2afd9d725da34221d04ae6a" category="paragraph">상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스가 제공된 경우에는 하위 수준 폴더 또는 프로젝트를 볼 때 해당 역할을 제거하거나 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 역할을 업데이트해야 합니다. 또는 다음을 수행할 수 <block ref="af57133875ea4f57510f09c053d32073" category="inline-link-macro-rx"></block>있습니다.</block>
-  <block id="e07d586e54fb2ecc1791d2d434436330" category="doc">BlueXP  구성원을 추가하고 권한을 관리합니다</block>
-  <block id="45fa36bab7b7452cfb911598ccd2d223" category="inline-link-macro">역할을 사용하여 BlueXP  리소스에 대한 액세스를 제어하는 방법을 알아보십시오.</block>
-  <block id="eef972128da3061d69cdfbbd20808652" category="paragraph">BlueXP  조직의 모든 구성원 목록을 볼 수 있습니다. 구성원에게 사용할 수 있는 리소스와 사용 권한을 이해하려면 조직의 자원 계층 구조의 여러 수준에서 구성원에 할당된 역할을 볼 수 있습니다. <block ref="4e7a66baee137600d665a8be3cbcb6a5" category="inline-link-macro-rx"></block></block>
-  <block id="57c4db21a8e5f9688baa21606de89184" category="paragraph">tMembers * 페이지에서 사용자 계정과 서비스 계정을 모두 볼 수 있습니다.</block>
-  <block id="d5979f6638739f52389534c5a5861979" category="sidebar">BlueXP  설정 및 관리</block>
-  <block id="9a95138b9cb83f59109eb15c038b1073" category="sidebar">구성원 및 서비스 계정을 추가합니다</block>
-  <block id="7211199f77a8a73dc960b8a15a019199" category="sidebar">역할을 사용하여 리소스에 대한 구성원 액세스를 제어합니다</block>
-  <block id="e5a26c78a572123c5a5e442167efbf6e" category="paragraph">커넥터는 BlueXP 가 스토리지 인프라 관리를 위해 수행해야 하는 작업을 실행하는 NetApp 소프트웨어입니다. BlueXP 의 많은 기능을 위한 커넥터가 필요하지 않지만 그렇지 않은 경우에는 일부 기능을 사용할 수 없습니다.</block>
-  <block id="9097a69a8c3aa1836902abae4c2af6b5" category="paragraph">표준 모드에서 BlueXP 를 실행하는 경우 소프트웨어 업데이트 및 디지털 지갑과 같은 BlueXP 의 일부 서비스를 실행하기 위해 커넥터를 설치할 필요가 없습니다. 그러나 랜섬웨어 방지 또는 재해 복구와 같은 BlueXP 의 일부 프리미엄 서비스에는 커넥터를 설치해야 합니다. BlueXP 를 제한 또는 비공개 모드로 사용하는 경우 커넥터를 설치해야 합니다.</block>
-  <block id="c9ea5b101d4c3beb590e4912f1117899" category="section-title">표준 모드에서 커넥터 없이 수행할 수 있는 작업</block>
-  <block id="8d17fdbbeb88dfc223add1e324431fb7" category="paragraph">디지털 지갑에 라이센스를 추가하는 데 Connector가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. BlueXP 가 Cloud Volumes ONTAP 시스템에 설치된 사용권 데이터에 도달해야 하기 때문에 커넥터가 필요합니다.</block>
-  <block id="8cba62c58c5613090d8d857aa64a0495" category="paragraph">표준 모드에서 BlueXP 를 사용하는 경우 BlueXP 에서 다음 기능 및 서비스를 사용하려면 하나 이상의 커넥터를 설치해야 합니다.</block>
-  <block id="3dc40720b958919be726cd65a8331a73" category="list-text">경제적 효율성(보기 전용)</block>
-  <block id="79dbd2d28f5fa406ce0123e58631e94a" category="list-text">운영 복원력(보기 전용)</block>
-  <block id="3f5774e40931df608d3773b69b87ef4b" category="paragraph">커넥터는 BlueXP  서비스 아키텍처의 기본 부분이므로 관련 커넥터가 항상 작동 및 작동하고 액세스 가능한지 확인해야 합니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.</block>
-  <block id="6029872bf2fc642a049b16e0cc87fa62" category="paragraph">필요에 따라 지원되는 하이퍼스케일러 환경 또는 사내에 커넥터를 설치할 수 있습니다.</block>
-  <block id="71428b007b4ee7fbedd790d9e4085760" category="paragraph">Connector를 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 지역 또는 Cloud Volumes ONTAP 시스템용 에<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> 배포합니다. 이렇게 하면 Cloud Volumes ONTAP와 관련 저장소 계정 간에 Azure Private Link 연결이 사용됩니다.<block ref="ebdf8919a4d90c512f0e43f5b0739281" category="inline-link-rx"></block></block>
-  <block id="e8094f36d739ced855fc51d64c727572" category="paragraph">NetApp는 일반적으로 새로운 기능을 소개하고 안정성을 개선하기 위해 커넥터 소프트웨어를 매달 업데이트합니다. BlueXP  플랫폼의 대부분의 서비스와 기능은 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
-  <block id="3266a93708e14f8781ccf9c017419275" category="paragraph">동일한 커넥터를 사용하여 BlueXP 에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.</block>
-  <block id="48daeaff5628b782edf714a3920f97e6" category="paragraph">대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다.</block>
-  <block id="238a6a671596e52b58d129f978852aea" category="paragraph">필요한 커넥터 수를 결정할 때 고려해야 할 또 다른 사항은 스토리지가 있는 위치입니다. 예를 들어 Google Cloud와 Azure에 모두 Cloud Volumes ONTAP가 있는 경우 각 환경에 대한 커넥터가 필요합니다. 스토리지가 완전히 사내에 있는 경우 Connector를 모든 하이퍼스케일러 또는 온프레미스에서 실행할 수 있습니다.</block>
-  <block id="42e49d3f23439ff5f06a12f88d7a3c26" category="paragraph">다른 예는 다음과 같습니다.</block>
-  <block id="1d5ad44f665df12a6f6a58cc6fb9cf6a" category="doc">BlueXP  서비스에 관해 자세히 알아보십시오</block>
-  <block id="d0a6b7265534b9aa87f97edbb7ef469d" category="paragraph">BlueXP  SaaS 서비스(표준 모드), 제한된 클라우드 환경에서 BlueXP 를 실행할지(제한된 모드), 아니면 자체 온프레미스 데이터 센터(프라이빗 모드)에 설치할지를 선택할 수 있습니다. 어떤 환경에서든 중앙 집중식 관리 및 추가 데이터 서비스를 활용하여 스토리지 리소스의 상태를 유지하고 안전하게 보호할 수 있습니다.</block>
-  <block id="4a67cdf9663ed372213e941f6b1c835e" category="paragraph">선택한 모드에 따라 사용 가능한 서비스와 관리할 수 있는 스토리지 리소스가 결정됩니다.</block>
-  <block id="bd28522af899bdfb48bbdcbf50ce271e" category="paragraph">시작하기 전에 각 모드에서 지원하는 다양한 스토리지 리소스와 사용 가능한 데이터 서비스를 비교하여 회사의 요구 사항에 적합한 스토리지 리소스를 결정하십시오.</block>
-  <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">데이터 서비스</block>
-  <block id="af355bb6bfae3acf3e713a8c3d2a386f" category="paragraph">다음 표에서는 각 배포 모드에서 사용할 수 있는 데이터 서비스, 구독이 필요한지 여부 및 지원 계정이 필요한 시기를 보여 줍니다.</block>
-  <block id="d8f0364777231272b45dd87c1943194e" category="paragraph">* 커넥터 * 테이블의 커넥터 열은 표준 모드용 커넥터가 필요한 시기를 나타냅니다. BlueXP 를 제한 모드 또는 비공개 모드로 사용하는 경우 항상 커넥터가 있어야 합니다.</block>
-  <block id="adf5b3dacd7f6732c9acfae29de9cacd" category="cell">지원 계정이 필요합니다</block>
-  <block id="76d09e89f502dea59e4838b6958c8154" category="cell">커넥터가 필요합니다</block>
-  <block id="7f4170ba49bff091502ae17552e7bdf2" category="cell">구독이 필요합니다</block>
-  <block id="bfb78ce9833860669efdf093e894f0d5" category="cell">모드 가용성</block>
-  <block id="331dfa1e0a93d1ecb14265311c06848f" category="cell">표준, 제한</block>
-  <block id="b1b40427c8eb8d0a083ddb16e250325b" category="cell">아니요 *</block>
-  <block id="01a9a3b8d0fcae3055dc91935e8ec6c6" category="cell">예 *</block>
-  <block id="eb6d8ae6f20283755b339c0dc273988b" category="cell">표준</block>
-  <block id="305f778e06640140a90fcc1103d99f58" category="cell">지원 케이스 관리</block>
-  <block id="48c9d7749bddd450ac433b0db5269a96" category="section-title">NetApp 스토리지</block>
-  <block id="51a20565c05385787bec584ddd2bb7fc" category="paragraph">대부분의 NetApp 스토리지 리소스를 BlueXP 에서 직접 관리할 수 있으므로 동일한 애플리케이션에서 모든 리소스를 볼 수 있습니다.</block>
-  <block id="1a72ece311084649076a195de688d4b0" category="paragraph">다음 표에는 각 배포 모드에서 관리할 수 있는 스토리지 리소스 및 Connector 또는 구독이 필요한 경우에 대한 목록이 나와 있습니다.</block>
-  <block id="fec52cc0232a22ef4060c7b61d92c0a0" category="cell">없음 1</block>
-  <block id="107ca0e0ef4ce423ae66855ce620468c" category="cell">없음 2</block>
-  <block id="8ad971c5d8a76d2b69437c57eda95147" category="cell">예?</block>
-  <block id="c8ee5046cfa22e8d07f9b9c103372ad2" category="cell">없음 3</block>
-  <block id="2141549841410236509f332565c7d685" category="paragraph">일부 작업에는 커넥터 또는 BlueXP  워크로드 팩토리 링크가 필요합니다.<block ref="eab18bd75996775296aa94b3a12b305e" category="inline-link-rx"></block></block>
-  <block id="4304dbdc82316f438e38c644a361fd66" category="paragraph">BlueXP  분류를 사용하여 Azure NetApp Files 데이터를 스캔하려면 커넥터가 필요하지만 Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 않습니다.</block>
-  <block id="86429eb78c6bc64d5f1ce4125590fe22" category="paragraph">ONTAP 클러스터 직접 검색에 커넥터는 필요하지 않지만 추가 BlueXP  기능을 사용하려면 커넥터가 필요합니다.<block ref="04529f27c98d308747ea6be915c240c4" category="inline-link-rx"></block></block>
-  <block id="9c723fb8e231218b213744c9ee3160ca" category="paragraph">Azure에서 실행되는 Linux 호스트에 Connector를 수동으로 설치할 수 있습니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 Azure 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
-  <block id="e6ddd5a54a1d2f8ae254b9358dfed6b9" category="paragraph">표준 모드에서 실행 중인 경우 BlueXP 를 사용하여 커넥터를 설치하지 않고도 저장소 리소스를 중앙에서 관리할 수 있습니다.</block>
-  <block id="e179a365cbbaaab0ffe96afa0b1123f8" category="paragraph"><block ref="e179a365cbbaaab0ffe96afa0b1123f8" category="inline-link-macro-rx"></block></block>
   <block id="5f2734b84896bdabcf7fd3574325d116" category="section-title">2025년 3월 28일</block>
+  <block id="a97214620795cdb6071bd24584271e12" category="paragraph">이 기능은 커넥터 버전 3.9.49 이상에서 사용할 수 있습니다. <block ref="d8aff65091362c86f97d60b0103d6fe5" category="inline-link-macro-rx"></block>..</block>
+  <block id="205d3d3e91b5bdc14b60b9aa01a583a5" category="paragraph"><block ref="205d3d3e91b5bdc14b60b9aa01a583a5" category="inline-link-macro-rx"></block></block>
+  <block id="2a1c6b0713eb3b0e8cc5584c21fe42b6" category="paragraph">A_Connector _ 는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. 데이터 인프라를 관리하기 위해 BlueXP에서 수행해야 하는 작업을 실행합니다. 커넥터는 필요한 작업을 위해 BlueXP  SaaS(서비스형 소프트웨어) 계층을 지속적으로 폴링합니다. BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다.</block>
+  <block id="0c1ff69304e8a667d66b73796ae020d8" category="section-title">커넥터 없이 수행할 수 있는 작업</block>
+  <block id="4d3fca1d2cf37433752c20e52858221f" category="paragraph">BlueXP를 시작하기 위해 커넥터가 필요하지 않습니다. Connector를 만들지 않고도 BlueXP 내에서 여러 기능 및 서비스를 사용할 수 있습니다.</block>
+  <block id="da48a166a29b8e248a3113d9bd6cba04" category="paragraph">디지털 지갑에 라이센스를 추가하는 데 Connector가 필요한 유일한 시간은 Cloud Volumes ONTAP_node-based_licenses입니다. 이 경우 Cloud Volumes ONTAP 시스템에 설치된 라이센스에서 데이터를 가져왔기 때문에 커넥터가 필요합니다.</block>
+  <block id="bf2f35a1367a7ddb519a7dd3cedacfdd" category="paragraph">표준 모드에서 BlueXP를 사용하는 경우 BlueXP의 다음 기능 및 서비스에 커넥터가 필요합니다.</block>
+  <block id="c7a576f5db262c0475afa4a53822979e" category="list-text">경제 효율성 ^1^</block>
+  <block id="7713949d8f17ff00f9cdb21469da8a35" category="list-text">작업 복구 ^1^</block>
+  <block id="6d95cfc501ca88bca8a0045681608071" category="paragraph">^1^ 커넥터 없이 이러한 서비스에 액세스할 수 있는 동안 서비스에서 작업을 시작하려면 Connector가 필요합니다.</block>
+  <block id="ca61c00bb942882ff64e228d1e677f97" category="paragraph">BlueXP가 제한된 모드 또는 프라이빗 모드로 사용하려면 커넥터가 필요합니다.</block>
+  <block id="dd42f0ca79b192af5e1f5734b490f194" category="paragraph">커넥터는 BlueXP 서비스 아키텍처의 기본 부분입니다. 관련 커넥터가 항상 가동, 작동 및 액세스 가능한지 확인하는 것은 귀하의 책임입니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.</block>
+  <block id="a92005953b68970af3654f93b3a572c1" category="paragraph">커넥터는 다음 위치에서 지원됩니다.</block>
+  <block id="c6c3b56410517700ef27e6cfa0cae38d" category="paragraph">Azure의 커넥터는 관리하는 Cloud Volumes ONTAP 시스템과 동일한 Azure 지역 또는 Cloud Volumes ONTAP 시스템용 에 배포해야<block ref="71e0e9a7366955554f0600c5ea8cfc7f" category="inline-link-rx"></block> 합니다. 이 요구 사항은 Cloud Volumes ONTAP와 관련 저장소 계정 간에 Azure Private Link 연결이 사용되도록 보장합니다.<block ref="ebdf8919a4d90c512f0e43f5b0739281" category="inline-link-rx"></block></block>
+  <block id="be6236f35c24aae3ee086b3f6ec01213" category="paragraph">일반적으로 매월 커넥터 소프트웨어를 업데이트하여 새로운 기능을 소개하고 안정성 향상을 제공합니다. BlueXP  플랫폼의 대부분의 서비스와 기능은 SaaS 기반 소프트웨어를 통해 제공되지만 커넥터 버전에 따라 몇 가지 기능이 달라집니다. 여기에는 Cloud Volumes ONTAP 관리, 온프레미스 ONTAP 클러스터 관리, 설정 및 도움말이 포함됩니다.</block>
+  <block id="4102d173f8e2253a011fe9286a6db2a3" category="paragraph">커넥터는 BlueXP에서 여러 작업 환경을 관리할 수 있습니다. 단일 커넥터가 관리해야 하는 최대 작업 환경 수는 서로 다릅니다. 운영 환경의 유형, 볼륨 수, 관리되는 용량 및 사용자 수에 따라 달라집니다.</block>
+  <block id="63e8317d7c5806dc1cb56752525c4d52" category="paragraph">대규모 구축이 있는 경우 NetApp 담당자와 협력하여 환경을 사이징합니다. 도중에 문제가 발생하는 경우 제품 내 채팅을 통해 문의해 주십시오.</block>
+  <block id="18d5aadda239c924412f84368e73290b" category="paragraph">경우에 따라 하나의 커넥터만 필요할 수 있지만 둘 이상의 커넥터가 필요할 수 있습니다.</block>
+  <block id="c270270ae413e473bd85d972dfddb840" category="paragraph">다음은 몇 가지 예입니다.</block>
+  <block id="e1625dbf565504d716b37b407e4f24a4" category="paragraph">BlueXP  IAM(Identity and Access Management)을 사용하면 NetApp 리소스에 대한 액세스를 구성하고 제어할 수 있습니다. 조직의 계층 구조에 따라 자원을 구성할 수 있습니다. 예를 들어 지리적 위치, 사이트 또는 사업부별로 자원을 구성할 수 있습니다. 그런 다음 계층의 특정 부분에 있는 구성원에게 IAM 역할을 할당할 수 있으므로 계층의 다른 부분에 있는 리소스에 액세스할 수 없습니다.</block>
+  <block id="7d5499ec968e6c97c7264ba95116b2d6" category="paragraph">BlueXP  IAM을 사용하면 다음 구성 요소를 관리할 수 있습니다.</block>
+  <block id="31e872437335d3d81483e87525b418b2" category="paragraph">조직 _ 은(는) BlueXP  IAM 시스템의 최상위 수준이며 일반적으로 회사를 나타냅니다. 조직은 폴더, 프로젝트, 구성원, 역할 및 리소스로 구성됩니다. 커넥터는 조직의 특정 프로젝트와 연결됩니다.</block>
+  <block id="2514dc2ef1e14f7696838f5cc8280315" category="paragraph">BlueXP 에 등록하면 새 조직을 만들라는 메시지가 나타납니다.</block>
+  <block id="229579d2bfa52f21a46468d1600ae5db" category="paragraph">폴더를 만들 필요가 없습니다. 선택 사항입니다.</block>
+  <block id="778cae7482baa87153f906bf3473adc3" category="section-title">미리 정의된 역할</block>
+  <block id="befeea17a6d7eca164cf128f9bffe000" category="paragraph">BlueXP 에서는 조직의 구성원에게 할당할 수 있는 몇 가지 미리 정의된 역할을 지원합니다.</block>
+  <block id="2b01a456faf456f22f55be4aabe17b53" category="inline-link-macro">사전 정의된 IAM 역할에 대해 알아봅니다</block>
+  <block id="5939586d23777de38b1394aad3c31735" category="paragraph"><block ref="1d6a3b55f851d6a1155ab766483f6eac" category="inline-link-macro-rx"></block>..</block>
+  <block id="9a4737feea9b9d5b10fea0c8478ac45b" category="doc">사전 정의된 BlueXP  IAM 역할 및 권한</block>
+  <block id="94d01a25e8d719777d74e40fde0e74eb" category="paragraph">BlueXP  IAM(ID 및 액세스 관리)에는 리소스 계층 구조의 다양한 수준에서 조직 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다. 이러한 역할을 할당하기 전에 각 역할에 포함된 사용 권한을 이해해야 합니다. 역할은 플랫폼과 데이터 서비스의 두 가지 범주로 분류됩니다.</block>
+  <block id="cb9e27422b343274f9974efbc9c3dbc1" category="section-title">플랫폼 역할</block>
+  <block id="5e1d7b4c2de3509435462a15161a1c7f" category="paragraph">플랫폼 역할은 사용자에게 할당할 수 있는 가장 광범위한 역할이며 역할 할당 및 사용자 추가, 모든 BlueXP  기능 수행 등 BlueXP  관리에 대한 광범위한 권한을 허용합니다. BlueXP  IAM에는 조직 관리자 및 폴더 또는 프로젝트 관리자의 두 가지 플랫폼 역할이 포함되어 있습니다. 두 BlueXP  IAM 플랫폼 역할의 주된 차이점은 범위입니다.</block>
+  <block id="64c67a7c22b0ed8bf6e82d2edf341abc" category="paragraph">사용자가 조직 내의 모든 프로젝트 및 폴더에 제한 없이 액세스하고, 프로젝트 또는 폴더에 구성원을 추가하고, BlueXP  작업을 수행하고 모든 데이터 서비스를 사용할 수 있도록 합니다.</block>
+  <block id="d35d08b038947991ac552eb86cf0f88e" category="paragraph">사용자가 할당된 특정 프로젝트 및 폴더에 대해 무제한 액세스를 허용합니다. 자신이 관리하는 프로젝트 또는 폴더에 구성원을 추가할 수 있을 뿐 아니라 BlueXP  작업을 수행하고 할당된 폴더 또는 프로젝트 내의 모든 데이터 서비스를 사용할 수 있습니다.</block>
+  <block id="6573eb5e7a9033869897566e8b1b5f6a" category="paragraph">폴더 또는 프로젝트 관리자 역할은 커넥터를 만들 수 없습니다.</block>
+  <block id="11631a24c36e1c2153a968d2579a70d4" category="section-title">플랫폼 역할 비교 표</block>
+  <block id="bc76903dd69fe38bc3b58cc4ef4a02c8" category="list-text">대규모 다국적 조직에 대한 BlueXP 의 조직 역할의 예</block>
+  <block id="09246652e91bee267cf93f6b3c2e9a32" category="paragraph">데이터 서비스 역할은 사용자에게 액세스 권한이 있는 조직, 프로젝트 또는 폴더 내의 데이터 서비스에 대한 사용 권한을 제공합니다.</block>
+  <block id="5924e866f66794971195c3e6a6aa8e84" category="paragraph">필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.</block>
+  <block id="f676fbba085923546a37baf94ce6784b" category="inline-link-macro">구성원 페이지에서 사용 권한을 관리합니다</block>
+  <block id="5ca796b399d85f3455d2d1844012b11a" category="paragraph">상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스 권한이 제공된 경우 하위 수준 폴더 또는 프로젝트를 볼 때 구성원 액세스 권한을 제거하거나 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 사용 권한을 업데이트해야 합니다. 또는 다음을 수행할 수 <block ref="101f940efcb2d2a02ec2f0fe1cb20220" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="f9c68f2e2a54251bd4aa39562ccd5a0a" category="doc">BlueXP  IAM 구성원을 추가하고 권한을 관리합니다</block>
+  <block id="85f7f0a38e4d8907b849af9be7f0523b" category="paragraph">BlueXP  조직의 모든 구성원 목록을 볼 수 있습니다. 구성원에게 사용할 수 있는 리소스와 사용 권한을 이해하려면 조직의 자원 계층 구조의 여러 수준에서 구성원에 할당된 역할을 볼 수 있습니다.</block>
+  <block id="6f3b2d366fd74358540895c5d487f7fc" category="paragraph">다음은 폴더에 있는 세 프로젝트에 대한 사용 권한을 제공하는 폴더에 대해 _Folder 또는 프로젝트 admin_역할이 할당된 구성원의 예입니다.</block>
+  <block id="a6102229f11a975b96c232bac6fe4518" category="inline-image-macro">프로젝트 및 폴더에 대한 권한이 있는 구성원의 세부 정보 페이지 스크린샷</block>
+  <block id="77029620a91c1437c153c854b16400d8" category="paragraph"><block ref="77029620a91c1437c153c854b16400d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2ec798ce1d65b266be695e73de188467" category="paragraph">다음은 조직 관리자 역할을 가진 구성원을 보여 주는 또 다른 예입니다. 이 구성원은 조직 내 모든 리소스에 대한 액세스 권한을 사용자에게 부여합니다.</block>
+  <block id="8395f2651a81b25e9b7a23fbee8b9549" category="inline-image-macro">조직 관리자 권한이 있는 구성원의 세부 정보 페이지 스크린샷</block>
+  <block id="3d5d541246a5be6ff781d877024461b5" category="paragraph"><block ref="3d5d541246a5be6ff781d877024461b5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4bd98620ebfd813b73be1bb04c31e63a" category="paragraph">Members * 페이지에는 사용자 계정과 서비스 계정 등 두 가지 유형의 멤버에 대한 세부 정보가 표시됩니다.</block>
+  <block id="71a902b9bd8bd5f915e170707c50e813" category="section-title">구성원 역할을 관리합니다</block>
+  <block id="e9d61c4ab8f60a06a549f931f8154bc3" category="paragraph">조직 구성원에게 각 수준과 하나 이상의 리소스 계층 수준에서 역할을 할당할 수 있습니다. BlueXP  조직에서 해당 책임과 관련된 구성원 역할을 할당할 수 있습니다.</block>
+  <block id="bb6a1c303d753a3800aa29f0149ef2da" category="paragraph">구성원에서 역할 할당을 취소하거나, 새 역할을 추가하거나, 둘 다 수행할 수 있습니다. 역할은 조직, 폴더 또는 프로젝트 수준에서 구성원에게 할당된 사용 권한을 정의합니다. BlueXP  조직에서 자신의 책임과 관련된 구성원 역할을 할당할 수 있습니다.</block>
+  <block id="6cbcd95c7c747face3f074348da093de" category="paragraph">각 조직 구성원은 조직 계층의 서로 다른 수준에서 역할이 할당될 수 있습니다. 동일한 역할이거나 다른 역할일 수 있습니다. 예를 들어 프로젝트 1에는 구성원 역할 A, 프로젝트 2에는 역할 B를 할당할 수 있습니다.</block>
+  <block id="07e7a075870b5fd1a97b81d0f2032e95" category="admonition">조직 관리자 역할이 할당된 구성원에게 추가 역할을 할당할 수 없습니다. 이미 조직 전체에 대한 사용 권한이 있습니다.</block>
+  <block id="914f7dbf9ae27653eb2ab889d315d7b8" category="paragraph">구성원을 확인하여 현재 할당된 역할을 확인할 수 있습니다.</block>
+  <block id="787919896edfa2afa28d9030c2bd8ee2" category="list-text">테이블에서 구성원의 할당된 역할을 보려는 조직, 폴더 또는 프로젝트의 각 행을 확장하고 * 역할 * 열에서 * 보기 * 를 선택합니다.</block>
+  <block id="3f4fb5bf409c65d0cdc07e16e971923b" category="section-title">역할을 할당합니다</block>
+  <block id="ffb0fd8d3db2f95c2bb0961f852f2b9f" category="paragraph">조직, 폴더 또는 프로젝트 수준에 적용되는 역할을 추가하여 구성원에게 조직의 추가 사용 권한을 제공합니다.</block>
+  <block id="868c665304c1cc003d592c37eb2d9284" category="inline-link-macro">IAM 역할에 대해 알아보십시오</block>
+  <block id="8eaa33e37e898cc8fe60223764d1b067" category="list-text">* 범주 선택 *: BlueXP 는 플랫폼과 데이터 서비스의 두 가지 범주로 역할을 구분합니다. <block ref="95a2a1c0b49231381e965b8dd6b00696" category="inline-link-macro-rx"></block>..</block>
+  <block id="edd875bb1109a9f8286024a3b4794e94" category="list-text">조직을 선택한 경우 * 폴더 또는 프로젝트 관리자 * 가 아닌 다른 역할에서 선택할 수 있습니다.</block>
+  <block id="5f3c99e4fd9b4f957adfdcdde4d5a1de" category="list-text">* 역할 추가 *: 조직 내의 추가 폴더 또는 프로젝트에 대한 액세스를 제공하려면 * 역할 추가 * 를 선택하고 다른 폴더 또는 프로젝트 또는 역할 범주를 지정한 다음 역할 범주와 해당 역할을 선택합니다.</block>
+  <block id="955a0a3e2fca13996f710db6f2fbe6a3" category="paragraph">조직, 폴더 또는 프로젝트 수준에서 에 대해 할당된 역할을 변경할 수 있습니다. 구성원들은 조직의 각 수준에서 서로 다른 역할을 가질 수 있습니다.</block>
+  <block id="2862531e5d6bc94c86cde4ee59b36495" category="paragraph">BlueXP 에서 직접 AWS에 커넥터를 생성할 수 있습니다. BlueXP에서 AWS에 Connector를 생성하려면 네트워킹을 설정하고 AWS 권한을 준비한 다음 Connector를 생성해야 합니다.</block>
+  <block id="6c6728a3304e61d70edb5c350db7efa1" category="paragraph">AWS에서 실행되는 Linux 호스트에 Connector를 수동으로 설치할 수 있습니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 AWS 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
+  <block id="0beb1e6219ede132ce0fe96557a2c156" category="paragraph">AWS Marketplace에서 직접 AWS에서 Connector를 생성합니다. AWS Marketplace에서 Connector를 만들려면 네트워킹을 설정하고 AWS 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
+  <block id="c6acdb50d79d156c5d35c5c9692f84da" category="paragraph">BlueXP 에서 직접 Azure에 커넥터를 설치할 수 있습니다. BlueXP 에서 Azure에 커넥터를 만들려면 네트워킹을 설정하고 커넥터를 배포하는 데 사용할 Azure 역할을 준비한 다음 커넥터를 배포해야 합니다.</block>
+  <block id="5cb6efc5332c23d8c22978f3559aa613" category="paragraph">커넥터는 클라우드 네트워크 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어로, BlueXP 의 모든 기능과 서비스를 사용할 수 있습니다. 사용 가능한 설치 옵션 중 하나는 Azure에서 실행되는 Linux 호스트에 Connector 소프트웨어를 수동으로 설치하는 것입니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 Azure 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
+  <block id="b77a1e89a541eeacf0915500a2395a39" category="paragraph">Azure 마켓플레이스에서 Azure에서 커넥터를 직접 만들 수 있습니다. Azure 마켓플레이스에서 Connector를 만들려면 네트워킹을 설정하고 Azure 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
+  <block id="44fc4ca54d8261b4facf220d04704531" category="paragraph">BlueXP 에서 또는 Google Cloud를 사용하여 Google Cloud에 커넥터를 생성할 수 있습니다. 네트워킹을 설정하고 Google Cloud 권한을 준비하고 Google Cloud API를 활성화한 다음 Connector를 생성해야 합니다.</block>
+  <block id="5e7dbc359167a6195a71df82607e8477" category="paragraph">Google Cloud에서 실행되는 Linux 호스트에 q Connector를 수동으로 설치할 수 있습니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, Google Cloud 권한을 준비하고, API를 활성화하고, Connector를 설치한 다음 준비된 사용 권한을 제공해야 합니다.</block>
+  <block id="0d11271abad1cfef17e56e17367d09de" category="paragraph">온-프레미스 컴퓨터 중 하나에 커넥터를 설치할 수 있습니다. Connector 온-프레미스를 실행하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, 클라우드 권한을 준비하고, Connector를 설치하고, Connector를 설정하고, 준비한 사용 권한을 제공해야 합니다.</block>
+  <block id="60b81afd9ad770d185b5a9b9f08f9809" category="sidebar">BlueXP  설정 및 관리 문서</block>
+  <block id="739addbbddeacc0bb15e86502b6685e9" category="sidebar">구성원을 추가하고 권한을 관리합니다</block>
+  <block id="4e9a240c5fb31e56c6b0ab71a915953f" category="sidebar">사전 정의된 IAM 역할</block>
 </blocks>
