@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-install-options-aws.html 
-keywords: install connector aws, aws install connector, connector aws, aws connector, installation options, aws marketplace, manual install 
+keywords: install connector aws, aws install connector, connector aws, aws connector, installation options, aws marketplace, manual install, deploy 
 summary: AWS에서 커넥터를 생성하는 방법은 몇 가지가 있습니다. BlueXP에서 직접 연결하는 것이 가장 일반적인 방법입니다. 
 ---
 = AWS의 커넥터 설치 옵션
