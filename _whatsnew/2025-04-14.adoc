@@ -16,8 +16,7 @@
 
 * 조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자는 랜섬웨어 방어 역할을 할당해야 랜섬웨어 방지에 액세스할 수 있습니다. 사용자에게 랜섬웨어 차단 관리자 또는 랜섬웨어 차단 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.
 * 조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자에게는 Keystone 역할이 할당되어야 Keystone에 액세스할 수 있습니다. 사용자에게 Keystone admin 또는 Keystone 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.
-
-
++
 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["액세스 역할에 대해 알아봅니다."^]
 
 * 조직 관리자 또는 폴더 또는 프로젝트 관리자 역할이 있는 경우 이제 Keystone 구독을 IAM 프로젝트에 연결할 수 있습니다. Keystone 구독과 IAM 프로젝트를 연결하면 BlueXP  내에서 Keystone에 대한 액세스를 제어할 수 있습니다.

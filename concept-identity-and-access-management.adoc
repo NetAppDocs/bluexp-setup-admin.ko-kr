@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-identity-and-access-management.html 
-keywords: iam overview, overview, how iam works, iam example, organization, folders, projects, resources, members, roles, permissions, resource hierarchy, identity and access management, iam 
+keywords: iam overview, overview, how iam works, iam example, organization, folders, projects, resources, members, roles, permissions, resource hierarchy, identity and access management, access roles, iam 
 summary: 'BlueXP  IAM(Identity and Access Management)을 사용하면 조직의 리소스에 대한 액세스를 제어할 수 있습니다.' 
 ---
 = BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오
