@@ -4474,14 +4474,9 @@ https://support.netapp.com 으로 문의하십시오
   <block id="936eb1752a4903797cd8c4e6f2cfa68b" category="paragraph"><block ref="936eb1752a4903797cd8c4e6f2cfa68b" category="inline-link-rx"></block></block>
   <block id="e444b5bc216b871d85a48d564b7ce0c4" category="paragraph">BlueXP 에는 SaaS 계층을 통해 제공되는 웹 기반 콘솔, 리소스 및 액세스 관리 시스템, 작업 환경을 관리하고 BlueXP  클라우드 서비스를 지원하는 커넥터, 비즈니스 요구사항을 충족하는 다양한 배포 모드가 포함되어 있습니다.</block>
   <block id="c7c20b1a51c664c1850bab1281296aca" category="paragraph">BlueXP 은 3가지 구축 모드를 제공합니다. _표준 모드_ BlueXP  SaaS(Software as a Service) 계층을 활용하여 모든 기능을 제공합니다. 사용자 환경에 보안 및 연결 제한이 있는 경우 _restricted mode_and_private mode_limit BlueXP  SaaS 계층에 대한 아웃바운드 연결을 제한합니다.</block>
-  <block id="36dc01ca540c36d8a66ee2b32bacb1b6" category="cell">폴더 또는 프로젝트 관리자</block>
-  <block id="10c51a836e78385fbf6ad623ad658ee0" category="cell">커넥터를 작성합니다</block>
   <block id="1feb614364d6d0a180fddcd6e40a0223" category="cell">작업 환경 생성, 수정 또는 삭제(BlueXP  Canvas를 사용하여 새 리소스 추가 또는 검색)</block>
   <block id="15a95a870efdd28ed28ff5a317681ee4" category="cell">역할을 할당하고 사용자를 추가합니다</block>
   <block id="c89eaf90b9f27cb0ed6b4d2e288716ba" category="list-text">다국적 기업인 XYZ Corporation은 북미, 유럽 및 아시아 태평양을 기준으로 데이터 스토리지 리소스에 대한 액세스 권한을 분리하는 것을 목표로 합니다. 이들은 각 지역에서 리소스를 독점적으로 제어하면서 중앙 집중식 감독을 유지하기를 원합니다.</block>
-  <block id="38e4f28b5f78613457381816eb4a925e" category="paragraph">이를 위해 XYZ Corporation의 BlueXP 에서 조직 관리자 역할을 할당한 사람이 초기 작업 환경을 만든 다음 BlueXP 에 각 지역에 대해 별도의 폴더를 만듭니다. 각 영역의 폴더에는 해당 영역과 관련된 프로젝트(관련 리소스 포함)가 포함되어 있습니다. 조직 관리자는 각 지역의 BlueXP  사용자에게 폴더/프로젝트 관리자 역할을 할당합니다.</block>
-  <block id="b232bda0fe68f193c9d3c56d75b4bb04" category="paragraph">초기 설정이 완료되면 폴더 또는 프로젝트 관리자 역할을 가진 지역 관리자는 새 작업 환경을 만들고 해당 지역 내에 사용자를 추가할 수 있습니다. 이러한 지역 관리자는 할당된 폴더 및 프로젝트를 추가/제거/이름 변경할 수도 있습니다. 조직 관리자는 새로운 작업 환경 또는 리소스에 대한 권한을 상속하여 전체 조직 전체의 스토리지 사용량에 대한 가시성을 유지합니다.</block>
-  <block id="35cbd88f43ce85ef7ed6866daa2c6066" category="section-title">데이터 서비스 역할</block>
   <block id="6dbd17d362d540a01bdcf61fb73192e3" category="paragraph"><block ref="6dbd17d362d540a01bdcf61fb73192e3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8aed33df97a7e5d16736c205973e6239" category="paragraph"><block ref="8aed33df97a7e5d16736c205973e6239" category="inline-image-macro-rx" type="image"></block></block>
   <block id="670c21c09cc12fa2b540e85129379b5e" category="paragraph">|\https://\*.api.BlueXP .NetApp.com\https://api.BlueXP .NetApp.com\https://*.cloudmanager.cloud.NetApp.com\https://cloudmanager.cloud.NetApp.com\https://NetApp -cloud-account.auth0.com</block>
@@ -4578,12 +4573,7 @@ https://support.netapp.com 으로 문의하십시오
   <block id="492bd3385d9d03385f8098817a8d0196" category="paragraph">BlueXP  IAM은 표준 모드 및 제한 모드에서 BlueXP 를 사용할 때 지원됩니다. 비공개 모드에서 BlueXP 를 사용하는 경우 BlueXP _ACCOUNT_를 사용하여 사용자와 리소스를 관리합니다.</block>
   <block id="73f420193f5136d2f1d09a09d6f9aabb" category="paragraph">표준 모드 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP  계정이 없습니다. 대신 BlueXP  ID 및 액세스 관리(IAM)를 사용하여 관리하는 _BlueXP  조직_ 이 있습니다.</block>
   <block id="08fe1197004da98b5b31b7f36eb2ecd2" category="section-title">폴더 또는 프로젝트 관리자</block>
-  <block id="7a6a3038937ff2733afeba79c5939221" category="cell">삭제를 포함하여 프로젝트/폴더를 작성합니다</block>
-  <block id="9190c2227acc58d22f06cf5bd5f7f517" category="cell">기존 프로젝트/폴더 이름을 바꿉니다</block>
   <block id="f713962a8902c207873eb4046423a1bd" category="cell">자원을 폴더 및 프로젝트와 연결합니다</block>
-  <block id="894e6dbd6e66d6ab2ca99432100d70c4" category="cell">커넥터를 폴더 및 프로젝트에 연결합니다</block>
-  <block id="aa3ec14d13bb1138309921733478241a" category="cell">폴더 및 프로젝트에서 커넥터를 제거합니다</block>
-  <block id="a45abfc4b47949975fbb4a65b1c69386" category="cell">커넥터 관리(인증서, 설정 등 편집)</block>
   <block id="9c671793f6e87d755268257623fd8ca3" category="paragraph">사용자 및 해당 권한을 관리하려면 다음 역할 중 하나를 할당해야 합니다.</block>
   <block id="e315fd1b95b71681931eeb8955a37b50" category="paragraph">이 역할을 가진 사용자는 모든 구성원을 관리할 수 있습니다</block>
   <block id="c51c480c437b7c47a9f2adb67928e089" category="paragraph">이 역할을 가진 사용자는 지정된 폴더 또는 프로젝트의 구성원만 관리할 수 있습니다</block>
@@ -4919,12 +4909,8 @@ https://support.netapp.com 으로 문의하십시오
   <block id="befeea17a6d7eca164cf128f9bffe000" category="paragraph">BlueXP 에서는 조직의 구성원에게 할당할 수 있는 몇 가지 미리 정의된 역할을 지원합니다.</block>
   <block id="2b01a456faf456f22f55be4aabe17b53" category="inline-link-macro">사전 정의된 IAM 역할에 대해 알아봅니다</block>
   <block id="5939586d23777de38b1394aad3c31735" category="paragraph"><block ref="1d6a3b55f851d6a1155ab766483f6eac" category="inline-link-macro-rx"></block>..</block>
-  <block id="94d01a25e8d719777d74e40fde0e74eb" category="paragraph">BlueXP  IAM(ID 및 액세스 관리)에는 리소스 계층 구조의 다양한 수준에서 조직 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다. 이러한 역할을 할당하기 전에 각 역할에 포함된 사용 권한을 이해해야 합니다. 역할은 플랫폼과 데이터 서비스의 두 가지 범주로 분류됩니다.</block>
   <block id="cb9e27422b343274f9974efbc9c3dbc1" category="section-title">플랫폼 역할</block>
-  <block id="5e1d7b4c2de3509435462a15161a1c7f" category="paragraph">플랫폼 역할은 사용자에게 할당할 수 있는 가장 광범위한 역할이며 역할 할당 및 사용자 추가, 모든 BlueXP  기능 수행 등 BlueXP  관리에 대한 광범위한 권한을 허용합니다. BlueXP  IAM에는 조직 관리자 및 폴더 또는 프로젝트 관리자의 두 가지 플랫폼 역할이 포함되어 있습니다. 두 BlueXP  IAM 플랫폼 역할의 주된 차이점은 범위입니다.</block>
   <block id="64c67a7c22b0ed8bf6e82d2edf341abc" category="paragraph">사용자가 조직 내의 모든 프로젝트 및 폴더에 제한 없이 액세스하고, 프로젝트 또는 폴더에 구성원을 추가하고, BlueXP  작업을 수행하고 모든 데이터 서비스를 사용할 수 있도록 합니다.</block>
-  <block id="d35d08b038947991ac552eb86cf0f88e" category="paragraph">사용자가 할당된 특정 프로젝트 및 폴더에 대해 무제한 액세스를 허용합니다. 자신이 관리하는 프로젝트 또는 폴더에 구성원을 추가할 수 있을 뿐 아니라 BlueXP  작업을 수행하고 할당된 폴더 또는 프로젝트 내의 모든 데이터 서비스를 사용할 수 있습니다.</block>
-  <block id="6573eb5e7a9033869897566e8b1b5f6a" category="paragraph">폴더 또는 프로젝트 관리자 역할은 커넥터를 만들 수 없습니다.</block>
   <block id="11631a24c36e1c2153a968d2579a70d4" category="section-title">플랫폼 역할 비교 표</block>
   <block id="bc76903dd69fe38bc3b58cc4ef4a02c8" category="list-text">대규모 다국적 조직에 대한 BlueXP 의 조직 역할의 예</block>
   <block id="5924e866f66794971195c3e6a6aa8e84" category="paragraph">필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.</block>
@@ -4943,10 +4929,8 @@ https://support.netapp.com 으로 문의하십시오
   <block id="8c3d337cee5ab07c0918b1ab7f1db96a" category="inline-link-macro">BlueXP  액세스 역할</block>
   <block id="a7d6279e87395342f6ca8ef1ab6ad3ca" category="list-text"><block ref="a7d6279e87395342f6ca8ef1ab6ad3ca" category="inline-link-macro-rx"></block></block>
   <block id="3780f4c88e2a0b66a6db0bbed86d39da" category="section-title">응용 프로그램 역할</block>
-  <block id="d48140a7630d821243e3ac2204b3d871" category="paragraph">다음은 응용 프로그램 범주의 역할 목록입니다.</block>
   <block id="a11961cab6627eac643ea36ae57ce8df" category="section-title">Keystone 역할</block>
   <block id="2a04d5504b28b9efe0f0dfff02a03355" category="paragraph">다음 역할을 사용하여 Keystone에 대한 사용자 액세스 권한을 할당할 수 있습니다.</block>
-  <block id="78fdf101e42d4e276f66b98cdfe73866" category="admonition">BlueXP 를 통해 Keystone에 액세스하는 것은 현재 베타 버전입니다. Keystone 베타에 참여하려면 NetApp 담당자에게 문의하십시오.</block>
   <block id="cdcfd0d4763f6f8983003ea128be38cf" category="list-text">* Keystone admin *: Keystone 구독을 관리하고 경고, 보고서, 구독에 대한 조치를 취하십시오.</block>
   <block id="3275a956f3a80df98f4623ac3ac931a6" category="list-text">* Keystone 뷰어 *: Keystone 구독은 물론 보고서, 알림 및 자산을 볼 수 있습니다.</block>
   <block id="147e83598b37ab6627136a0fbebd7717" category="paragraph">다음 표에는 각 Keystone 역할이 수행할 수 있는 작업이 나와 있습니다.</block>
@@ -4955,8 +4939,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="9d0ab4774b32ad710dbc8b73cdf29cce" category="cell">Keystone 뷰어</block>
   <block id="3d96431c652abba07d810be9a4a3b187" category="cell">구독, 자산, 모니터 및 관리 탭을 봅니다</block>
   <block id="04b2aaee865f1746c975de785d02e95f" category="cell">* Keystone 구독 페이지 *:</block>
-  <block id="96a37a10e0f320cc761610a86cf2637c" category="cell">구독을 볼 수 있습니다</block>
-  <block id="0c6e0cfae3b0f2712b3389db1db10e1b" category="cell">구독을 수정하거나 갱신할 수 있습니다</block>
   <block id="86744a031b02e581d9a8908f0dbdc8c1" category="cell">* Keystone 자산 페이지 *:</block>
   <block id="7c38a1a6d325208696c25a2b660d7c45" category="cell">자산을 봅니다</block>
   <block id="bb295074f705be0407b1b743a2f6e967" category="cell">자산 관리</block>
@@ -4972,8 +4954,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="4d1159457f35bcc3ef7ee5b2f65bc124" category="cell">자체 보고서를 생성합니다</block>
   <block id="3b8988881170da948296006bcb3af098" category="cell">* 서비스 요청 *:</block>
   <block id="c144ad302e0d51a72f17afbd09594ba8" category="cell">서비스 요청 작성</block>
-  <block id="3f07e6ff7933633c723d3474e50d9d65" category="cell">조직 내의 모든 사용자가 작성한 서비스 요청을 볼 수 있습니다</block>
-  <block id="aafdddc00f0073d6f8feca81436dbc0f" category="paragraph">아래는 데이터 서비스 범주의 역할 목록입니다.</block>
   <block id="452c59bc627cf63c04afb8e67c894d8f" category="paragraph">분류에 관리자 역할이 없습니다.</block>
   <block id="6e4131153ef85e6099f1a34150c48c4e" category="paragraph">다음 역할을 사용하여 사용자에게 랜섬웨어 보호에 대한 액세스 권한을 할당할 수 있습니다.</block>
   <block id="bdcfe1c3dfeb861ab87e4cc4b8edc1fc" category="list-text">* 랜섬웨어 방어 관리자 * : 보호, 경고, 복구, 설정 및 보고서 탭에서 작업을 관리합니다.</block>
@@ -5024,4 +5004,22 @@ https://support.netapp.com 으로 문의하십시오
   <block id="9a95138b9cb83f59109eb15c038b1073" category="sidebar">구성원 및 서비스 계정을 추가합니다</block>
   <block id="7211199f77a8a73dc960b8a15a019199" category="sidebar">역할을 사용하여 리소스에 대한 구성원 액세스를 제어합니다</block>
   <block id="d5979f6638739f52389534c5a5861979" category="sidebar">BlueXP  설정 및 관리</block>
+  <block id="52ae0ac7aa539174fa20e657c71eddf3" category="paragraph">BlueXP  IAM(ID 및 액세스 관리)에는 리소스 계층 구조의 다양한 수준에서 조직 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다. 이러한 역할을 할당하기 전에 각 역할에 포함된 사용 권한을 이해해야 합니다. 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 범주로 분류됩니다.</block>
+  <block id="af7aabee58f78d8c3ba27e6b227a45cd" category="paragraph">플랫폼 역할은 사용자에게 할당할 수 있는 가장 광범위한 역할이며 역할 할당 및 사용자 추가를 포함하여 BlueXP 관리에 대한 모든 권한을 허용할 수 있습니다. 플랫폼 역할을 가진 사용자는 BlueXP  내의 모든 데이터 서비스와 애플리케이션에 액세스할 수 있습니다. BlueXP  IAM에는 조직 관리자 및 폴더 또는 프로젝트 관리자의 두 가지 플랫폼 역할이 포함되어 있습니다. 두 BlueXP  IAM 플랫폼 역할의 주된 차이점은 범위입니다.</block>
+  <block id="354b5c7e04f33eff066b4dc5b8104237" category="paragraph">사용자가 할당된 특정 프로젝트 및 폴더에 대해 무제한 액세스를 허용합니다. 는 자신이 관리하는 폴더나 프로젝트에 구성원을 추가할 수 있을 뿐만 아니라 BlueXP  작업을 수행하고 할당된 폴더 또는 프로젝트 내의 리소스에서 데이터 서비스 또는 응용 프로그램을 사용할 수 있습니다.</block>
+  <block id="ac6f21d3ccd4ab7c12a14f56f9a464bd" category="paragraph">폴더 또는 프로젝트 관리 역할은 커넥터를 만들 수 없습니다.</block>
+  <block id="91ddd20c84fc1e8ded7b005f805d8705" category="cell">커넥터 작성</block>
+  <block id="1963c5def9c98c78ad1a24795d77fd45" category="cell">삭제를 포함하여 폴더와 프로젝트를 작성합니다</block>
+  <block id="3e02e95230f791e515adffdd7086123c" category="cell">기존 폴더와 프로젝트의 이름을 바꿉니다</block>
+  <block id="c9cff18229760a66e25f980da9c1850b" category="cell">폴더 및 프로젝트에서 커넥터를 제거합니다</block>
+  <block id="b6f5b5483997d6dff9a8ee0bc1932433" category="cell">커넥터 관리(인증서, 설정 등 편집)</block>
+  <block id="0600246627669cf56a49de00fb320e66" category="paragraph">이를 위해 XYZ Corporation의 BlueXP 에서 조직 관리자 역할을 할당한 사람이 초기 작업 환경을 만든 다음 BlueXP 에 각 지역에 대해 별도의 폴더를 만듭니다. 각 영역의 폴더에는 해당 영역과 관련된 프로젝트(관련 리소스 포함)가 포함되어 있습니다. 조직 관리자는 각 지역의 BlueXP  사용자에게 폴더/프로젝트 관리자 역할을 할당합니다.</block>
+  <block id="35a83113bde80420d7102c597d0dfac6" category="paragraph">초기 설정이 완료되면 폴더 또는 프로젝트 관리자 역할을 가진 지역 관리자는 새 작업 환경을 만들고 해당 지역 내에 사용자를 추가할 수 있습니다. 이러한 지역 관리자는 할당된 폴더 및 프로젝트를 추가/제거/이름 변경할 수도 있습니다. 조직 관리자는 새로운 작업 환경 또는 리소스에 대한 권한을 상속하여 전체 조직 전체의 스토리지 사용량에 대한 가시성을 유지합니다.</block>
+  <block id="d76310e425debd9a2b76f8114d4c1d27" category="paragraph">다음은 응용 프로그램 범주의 역할 목록입니다. 각 역할은 지정된 범위 내에서 특정 권한을 부여합니다. 필요한 응용 프로그램 역할이나 플랫폼 역할이 없는 사용자는 응용 프로그램에 액세스할 수 없습니다.</block>
+  <block id="4be5ebc45ada5051c97493c24dafb98f" category="admonition">BlueXP 를 통해 Keystone에 액세스하는 것은 현재 베타 버전입니다. Keystone 베타에 참여하려면 NetApp 담당자에게 문의하십시오.</block>
+  <block id="124cd0f2df6f1c0e90303ec188b16200" category="cell">구독 보기</block>
+  <block id="d01d98071916332acadef4e86c7ff279" category="cell">구독을 수정하거나 갱신합니다</block>
+  <block id="57b248bc2bcc519c9d26da79b5753feb" category="cell">조직 내의 모든 사용자가 생성한 CView 서비스 요청</block>
+  <block id="40abfc355f5aea2697c05cedc7637005" category="section-title">데이터 서비스 역할</block>
+  <block id="3b5148467641fe76592e826ef571410c" category="paragraph">다음은 데이터 서비스 범주의 역할 목록입니다. 각 역할은 지정된 범위 내에서 특정 권한을 부여합니다. 필요한 데이터 서비스 역할이나 플랫폼 역할이 없는 사용자는 데이터 서비스에 액세스할 수 없습니다.</block>
 </blocks>
