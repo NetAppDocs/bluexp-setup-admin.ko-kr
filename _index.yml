@@ -30,10 +30,10 @@ indexpage:
       url: task-iam-get-started.html
     - title: 폴더와 프로젝트를 사용하여 자원을 구성합니다
       url: task-iam-manage-folders-projects.html
-    - title: 구성원 및 해당 사용 권한을 관리합니다
+    - title: 구성원 및 서비스 계정을 추가합니다
       url: task-iam-manage-members-permissions.html
-    - title: 자원 계층 구조를 관리합니다
-      url: task-iam-manage-resources.html
+    - title: 역할을 사용하여 리소스에 대한 구성원 액세스를 제어합니다
+      url: task-iam-manage-roles.html
   - title: 커넥터
     links:
     - title: 커넥터에 대해 자세히 알아보십시오

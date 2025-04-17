@@ -1532,7 +1532,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="83510fd4a5d6f463975ffcf1a28079a3" category="paragraph">서비스 계정은 자동화를 위해 Cloud Manager에 승인된 API 호출을 수행할 수 있는 "사용자" 역할을 합니다. 따라서 언제든지 퇴사할 수 있는 실제 사용자의 계정을 기반으로 자동화 스크립트를 작성할 필요가 없으므로 자동화를 더욱 쉽게 관리할 수 있습니다. 페더레이션을 사용하는 경우 클라우드에서 새로 고침 토큰을 생성하지 않고 토큰을 생성할 수 있습니다.</block>
   <block id="f172ba98380ffa94100632430ae9c805" category="inline-link-macro">서비스 계정 사용에 대해 자세히 알아보십시오</block>
   <block id="18da70587f043904939613fa4c43ba6d" category="paragraph">이제 고객 어카운트의 프라이빗 미리보기 기능을 사용하여 Cloud Manager의 미리보기 기능을 이용하여 새로운 NetApp 클라우드 서비스에 액세스할 수 있습니다.</block>
-  <block id="50ea4e8dccd315b387c3720bf218560a" category="inline-link-macro">이 옵션에 대해 자세히 알아보십시오</block>
   <block id="4823145b3655f45dcb57edeef856c1a9" category="paragraph">또한 사용자 계정의 타사 서비스가 Cloud Manager에서 사용 가능한 타사 서비스에 액세스하도록 허용할 수도 있습니다.</block>
   <block id="2a42bd1b25c8685af4b1b1d1ca8e4805" category="paragraph">NetApp Support 사이트 자격 증명을 추가하여 지원을 등록할 수 있도록 지원 대시보드를 업데이트했습니다. 대시보드에서 직접 NetApp 지원 케이스를 시작할 수도 있습니다. 도움말 아이콘을 클릭한 다음 * 지원 * 을 클릭하십시오.</block>
   <block id="eb13228b7d3a81ef5fba30ba79924b80" category="list-text">Google Cloud에서 사용자 지정 역할 생성:</block>
@@ -2802,8 +2801,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="51a7ac19cbf0f9d074132cf117ad2e0c" category="paragraph">기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다. <block ref="c25c39db29c727f1578fc8385e3c589b" category="inline-xref-macro-rx"></block>.</block>
   <block id="fb2327495633231db53b83b63281ec59" category="paragraph"><block ref="ba792a8f94fc4fa1d6890491a6d3ca88" category="inline-link-macro-rx"></block>.</block>
   <block id="785c09ae237878056a26f76d752f9655" category="paragraph"><block ref="d681f410de8bf56d0591b119af19b91f" category="inline-link-macro-rx"></block>.</block>
-  <block id="819bbc17eab62ac696bc204d9864298c" category="paragraph"><block ref="317e81beacf8b3184ba06b75c8cba7f0" category="inline-link-macro-rx"></block>.</block>
-  <block id="d5a6b4dc8861625dfe113504ac0e255e" category="paragraph"><block ref="fdc7ca711ae67c971d281a756b555324" category="inline-link-macro-rx"></block>.</block>
   <block id="ae74a3a0435bedb1f051b5b083969faa" category="paragraph">BlueXP를 사용하려면 Connector 및 개별 서비스에 대한 AWS 권한이 필요합니다.</block>
   <block id="12c74214cb4c18cf36d885303d6aa2e1" category="cell">목표</block>
   <block id="4afbf095518e3a60998aad1ce6f249ce" category="cell">BlueXP에서 Connector를 구축합니다</block>
@@ -4327,7 +4324,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="2cc038b51982044440dd65fe627f5133" category="sidebar">온프레미스 및 클라우드 환경 전반에서 데이터를 구축, 보호, 규제할 수 있도록 NetApp BlueXP를 시작하십시오. 설정이 완료되면 BlueXP  IAM(Identity and Access Management)을 사용하여 리소스에 대한 액세스를 제어하고 커넥터, 클라우드 공급자 계정 등을 관리할 수 있습니다.</block>
   <block id="d7818a3dcaa08963a99fa80d50e4d009" category="sidebar">BlueXP IAM</block>
   <block id="f9979c483e6c4c3e0bb110084e2529e7" category="sidebar">폴더와 프로젝트를 사용하여 자원을 구성합니다</block>
-  <block id="ff72511bc39f980fe978f1f136d5b661" category="sidebar">구성원 및 해당 사용 권한을 관리합니다</block>
   <block id="e824a4cdd52665a1b8f0bccc58724034" category="sidebar">자원 계층 구조를 관리합니다</block>
   <block id="0baaa5b5cebd5e340294b6393a2b73f4" category="sidebar">BlueXP 와 ID 페더레이션을 사용합니다</block>
   <block id="22bdd8c71cc34511ea88881e20f7ca21" category="sidebar">ID 및 액세스 관리</block>
@@ -4933,30 +4929,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="bc76903dd69fe38bc3b58cc4ef4a02c8" category="list-text">대규모 다국적 조직에 대한 BlueXP 의 조직 역할의 예</block>
   <block id="5924e866f66794971195c3e6a6aa8e84" category="paragraph">필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.</block>
   <block id="f676fbba085923546a37baf94ce6784b" category="inline-link-macro">구성원 페이지에서 사용 권한을 관리합니다</block>
-  <block id="5ca796b399d85f3455d2d1844012b11a" category="paragraph">상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스 권한이 제공된 경우 하위 수준 폴더 또는 프로젝트를 볼 때 구성원 액세스 권한을 제거하거나 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 사용 권한을 업데이트해야 합니다. 또는 다음을 수행할 수 <block ref="101f940efcb2d2a02ec2f0fe1cb20220" category="inline-link-macro-rx"></block>있습니다.</block>
-  <block id="f9c68f2e2a54251bd4aa39562ccd5a0a" category="doc">BlueXP  IAM 구성원을 추가하고 권한을 관리합니다</block>
-  <block id="85f7f0a38e4d8907b849af9be7f0523b" category="paragraph">BlueXP  조직의 모든 구성원 목록을 볼 수 있습니다. 구성원에게 사용할 수 있는 리소스와 사용 권한을 이해하려면 조직의 자원 계층 구조의 여러 수준에서 구성원에 할당된 역할을 볼 수 있습니다.</block>
-  <block id="6f3b2d366fd74358540895c5d487f7fc" category="paragraph">다음은 폴더에 있는 세 프로젝트에 대한 사용 권한을 제공하는 폴더에 대해 _Folder 또는 프로젝트 admin_역할이 할당된 구성원의 예입니다.</block>
-  <block id="a6102229f11a975b96c232bac6fe4518" category="inline-image-macro">프로젝트 및 폴더에 대한 권한이 있는 구성원의 세부 정보 페이지 스크린샷</block>
-  <block id="77029620a91c1437c153c854b16400d8" category="paragraph"><block ref="77029620a91c1437c153c854b16400d8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2ec798ce1d65b266be695e73de188467" category="paragraph">다음은 조직 관리자 역할을 가진 구성원을 보여 주는 또 다른 예입니다. 이 구성원은 조직 내 모든 리소스에 대한 액세스 권한을 사용자에게 부여합니다.</block>
-  <block id="8395f2651a81b25e9b7a23fbee8b9549" category="inline-image-macro">조직 관리자 권한이 있는 구성원의 세부 정보 페이지 스크린샷</block>
-  <block id="3d5d541246a5be6ff781d877024461b5" category="paragraph"><block ref="3d5d541246a5be6ff781d877024461b5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4bd98620ebfd813b73be1bb04c31e63a" category="paragraph">Members * 페이지에는 사용자 계정과 서비스 계정 등 두 가지 유형의 멤버에 대한 세부 정보가 표시됩니다.</block>
-  <block id="71a902b9bd8bd5f915e170707c50e813" category="section-title">구성원 역할을 관리합니다</block>
-  <block id="e9d61c4ab8f60a06a549f931f8154bc3" category="paragraph">조직 구성원에게 각 수준과 하나 이상의 리소스 계층 수준에서 역할을 할당할 수 있습니다. BlueXP  조직에서 해당 책임과 관련된 구성원 역할을 할당할 수 있습니다.</block>
-  <block id="bb6a1c303d753a3800aa29f0149ef2da" category="paragraph">구성원에서 역할 할당을 취소하거나, 새 역할을 추가하거나, 둘 다 수행할 수 있습니다. 역할은 조직, 폴더 또는 프로젝트 수준에서 구성원에게 할당된 사용 권한을 정의합니다. BlueXP  조직에서 자신의 책임과 관련된 구성원 역할을 할당할 수 있습니다.</block>
-  <block id="6cbcd95c7c747face3f074348da093de" category="paragraph">각 조직 구성원은 조직 계층의 서로 다른 수준에서 역할이 할당될 수 있습니다. 동일한 역할이거나 다른 역할일 수 있습니다. 예를 들어 프로젝트 1에는 구성원 역할 A, 프로젝트 2에는 역할 B를 할당할 수 있습니다.</block>
-  <block id="07e7a075870b5fd1a97b81d0f2032e95" category="admonition">조직 관리자 역할이 할당된 구성원에게 추가 역할을 할당할 수 없습니다. 이미 조직 전체에 대한 사용 권한이 있습니다.</block>
-  <block id="914f7dbf9ae27653eb2ab889d315d7b8" category="paragraph">구성원을 확인하여 현재 할당된 역할을 확인할 수 있습니다.</block>
-  <block id="787919896edfa2afa28d9030c2bd8ee2" category="list-text">테이블에서 구성원의 할당된 역할을 보려는 조직, 폴더 또는 프로젝트의 각 행을 확장하고 * 역할 * 열에서 * 보기 * 를 선택합니다.</block>
-  <block id="3f4fb5bf409c65d0cdc07e16e971923b" category="section-title">역할을 할당합니다</block>
-  <block id="ffb0fd8d3db2f95c2bb0961f852f2b9f" category="paragraph">조직, 폴더 또는 프로젝트 수준에 적용되는 역할을 추가하여 구성원에게 조직의 추가 사용 권한을 제공합니다.</block>
-  <block id="868c665304c1cc003d592c37eb2d9284" category="inline-link-macro">IAM 역할에 대해 알아보십시오</block>
-  <block id="8eaa33e37e898cc8fe60223764d1b067" category="list-text">* 범주 선택 *: BlueXP 는 플랫폼과 데이터 서비스의 두 가지 범주로 역할을 구분합니다. <block ref="95a2a1c0b49231381e965b8dd6b00696" category="inline-link-macro-rx"></block>..</block>
-  <block id="edd875bb1109a9f8286024a3b4794e94" category="list-text">조직을 선택한 경우 * 폴더 또는 프로젝트 관리자 * 가 아닌 다른 역할에서 선택할 수 있습니다.</block>
-  <block id="5f3c99e4fd9b4f957adfdcdde4d5a1de" category="list-text">* 역할 추가 *: 조직 내의 추가 폴더 또는 프로젝트에 대한 액세스를 제공하려면 * 역할 추가 * 를 선택하고 다른 폴더 또는 프로젝트 또는 역할 범주를 지정한 다음 역할 범주와 해당 역할을 선택합니다.</block>
-  <block id="955a0a3e2fca13996f710db6f2fbe6a3" category="paragraph">조직, 폴더 또는 프로젝트 수준에서 에 대해 할당된 역할을 변경할 수 있습니다. 구성원들은 조직의 각 수준에서 서로 다른 역할을 가질 수 있습니다.</block>
   <block id="2862531e5d6bc94c86cde4ee59b36495" category="paragraph">BlueXP 에서 직접 AWS에 커넥터를 생성할 수 있습니다. BlueXP에서 AWS에 Connector를 생성하려면 네트워킹을 설정하고 AWS 권한을 준비한 다음 Connector를 생성해야 합니다.</block>
   <block id="6c6728a3304e61d70edb5c350db7efa1" category="paragraph">AWS에서 실행되는 Linux 호스트에 Connector를 수동으로 설치할 수 있습니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고 네트워킹을 설정하고 AWS 사용 권한을 준비하고 커넥터를 설치한 다음 준비한 사용 권한을 제공해야 합니다.</block>
   <block id="0beb1e6219ede132ce0fe96557a2c156" category="paragraph">AWS Marketplace에서 직접 AWS에서 Connector를 생성합니다. AWS Marketplace에서 Connector를 만들려면 네트워킹을 설정하고 AWS 권한을 준비하고 인스턴스 요구 사항을 검토한 다음 Connector를 만들어야 합니다.</block>
@@ -4966,8 +4938,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="44fc4ca54d8261b4facf220d04704531" category="paragraph">BlueXP 에서 또는 Google Cloud를 사용하여 Google Cloud에 커넥터를 생성할 수 있습니다. 네트워킹을 설정하고 Google Cloud 권한을 준비하고 Google Cloud API를 활성화한 다음 Connector를 생성해야 합니다.</block>
   <block id="5e7dbc359167a6195a71df82607e8477" category="paragraph">Google Cloud에서 실행되는 Linux 호스트에 q Connector를 수동으로 설치할 수 있습니다. 자신의 Linux 호스트에 Connector를 수동으로 설치하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, Google Cloud 권한을 준비하고, API를 활성화하고, Connector를 설치한 다음 준비된 사용 권한을 제공해야 합니다.</block>
   <block id="0d11271abad1cfef17e56e17367d09de" category="paragraph">온-프레미스 컴퓨터 중 하나에 커넥터를 설치할 수 있습니다. Connector 온-프레미스를 실행하려면 호스트 요구 사항을 검토하고, 네트워킹을 설정하고, 클라우드 권한을 준비하고, Connector를 설치하고, Connector를 설정하고, 준비한 사용 권한을 제공해야 합니다.</block>
-  <block id="60b81afd9ad770d185b5a9b9f08f9809" category="sidebar">BlueXP  설정 및 관리 문서</block>
-  <block id="739addbbddeacc0bb15e86502b6685e9" category="sidebar">구성원을 추가하고 권한을 관리합니다</block>
   <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">액세스 역할에 대해 알아봅니다.</block>
   <block id="5a4d408bd57f7cf7efbd6cf878c737a7" category="paragraph"><block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
   <block id="8c3d337cee5ab07c0918b1ab7f1db96a" category="inline-link-macro">BlueXP  액세스 역할</block>
@@ -5045,4 +5015,13 @@ https://support.netapp.com 으로 문의하십시오
   <block id="84d4352e42fd4f7ef347eca44f4f0a88" category="cell">2025년 1월 22일(버전 1.39)</block>
   <block id="b865a42d40947323c5392132a0cf5ae7" category="cell">로<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> 이동하여 1.39 릴리스에 포함된 변경 사항을 참조하십시오.</block>
   <block id="09d7c2dac047caa965175fead07159aa" category="cell">2025년 2월 21일</block>
+  <block id="c77472b3cb88175d9f673b4976ce643a" category="paragraph">상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스 권한이 제공된 경우 하위 수준 폴더 또는 프로젝트를 볼 때 구성원 액세스 권한을 제거하거나 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 사용 권한을 업데이트해야 합니다. 또는 다음을 수행할 수 <block ref="2e250d63a19626cb0aeed14260bd2f59" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="e07d586e54fb2ecc1791d2d434436330" category="doc">BlueXP  구성원을 추가하고 권한을 관리합니다</block>
+  <block id="f0b3d6677a212276d758f01224d831be" category="paragraph"><block ref="358dd7829c43f386bdd1bc16bf83b432" category="inline-link-macro-rx"></block>..</block>
+  <block id="45fa36bab7b7452cfb911598ccd2d223" category="inline-link-macro">역할을 사용하여 BlueXP  리소스에 대한 액세스를 제어하는 방법을 알아보십시오.</block>
+  <block id="eef972128da3061d69cdfbbd20808652" category="paragraph">BlueXP  조직의 모든 구성원 목록을 볼 수 있습니다. 구성원에게 사용할 수 있는 리소스와 사용 권한을 이해하려면 조직의 자원 계층 구조의 여러 수준에서 구성원에 할당된 역할을 볼 수 있습니다. <block ref="4e7a66baee137600d665a8be3cbcb6a5" category="inline-link-macro-rx"></block></block>
+  <block id="57c4db21a8e5f9688baa21606de89184" category="paragraph">tMembers * 페이지에서 사용자 계정과 서비스 계정을 모두 볼 수 있습니다.</block>
+  <block id="9a95138b9cb83f59109eb15c038b1073" category="sidebar">구성원 및 서비스 계정을 추가합니다</block>
+  <block id="7211199f77a8a73dc960b8a15a019199" category="sidebar">역할을 사용하여 리소스에 대한 구성원 액세스를 제어합니다</block>
+  <block id="d5979f6638739f52389534c5a5861979" category="sidebar">BlueXP  설정 및 관리</block>
 </blocks>

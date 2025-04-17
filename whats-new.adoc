@@ -1840,15 +1840,11 @@ link:task-managing-netapp-accounts.html#create-and-manage-service-accounts["서�
 
 이제 고객 어카운트의 프라이빗 미리보기 기능을 사용하여 Cloud Manager의 미리보기 기능을 이용하여 새로운 NetApp 클라우드 서비스에 액세스할 수 있습니다.
 
-link:task-managing-netapp-accounts.html#allow-private-previews["이 옵션에 대해 자세히 알아보십시오"].
-
 
 
 === 타사 서비스
 
 또한 사용자 계정의 타사 서비스가 Cloud Manager에서 사용 가능한 타사 서비스에 액세스하도록 허용할 수도 있습니다.
-
-link:task-managing-netapp-accounts.html#allow-third-party-services["이 옵션에 대해 자세히 알아보십시오"].
 
 
 
