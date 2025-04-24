@@ -82,6 +82,12 @@ link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-r
 
 이번 BlueXP Connector 릴리즈에는 사소한 보안 개선사항과 버그 수정이 포함되어 있습니다.
 
+* Cloud Volumes ONTAP 시스템 관리는 이제 운영 체제에서 SELinux가 활성화된 커넥터를 통해 지원됩니다.
++
+https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/getting-started-with-selinux_using-selinux["SELinux에 대해 자세히 알아보십시오"^]
+
+
+
 현재 3.9.50 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
 
 
@@ -125,6 +131,31 @@ NOTE: 이 변경 사항은 항상 커넥터를 직접 업그레이드해야 하�
 
 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["커넥터에 대한 자동 업그레이드를 비활성화하는 방법에 대해 알아봅니다."^]
 
+
+
+== 2025년 2월 18일
+
+
+
+=== 비공개 모드 해제(3.9.48)
+
+이제 에서 새 비공개 모드 릴리스를 다운로드할 수 있습니다 https://mysupport.netapp.com/site/downloads["NetApp Support 사이트"^]
+
+3.9.48 릴리스에는 다음 BlueXP  구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.
+
+[cols="3*"]
+|===
+| 구성 요소 또는 서비스 | 이 릴리스에 포함된 버전입니다 | 이전 비공개 모드 릴리스 이후 변경된 사항입니다 
+
+
+| 커넥터 | 3.9.48 | 로 https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-48["BlueXP  커넥터 페이지의 새로운 기능"] 이동하여 버전 3.9.48에 포함된 변경 사항을 참조하십시오. 
+
+
+| 백업 및 복구 | 2025년 2월 21일 | 로 https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP  백업 및 복구 페이지의 새로운 기능"^] 이동하여 2025년 2월 릴리즈에 포함된 변경 사항을 참조하십시오. 
+
+
+| 분류 | 2025년 1월 22일(버전 1.39) | 로 https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP  분류 페이지의 새로운 기능"^] 이동하여 1.39 릴리스에 포함된 변경 사항을 참조하십시오. 
+|===
 
 
 == 2025년 2월 10일

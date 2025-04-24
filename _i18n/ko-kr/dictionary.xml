@@ -508,9 +508,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="5f74d1c3714e49926cf5f752029ebcc2" category="inline-xref">이러한 작업 환경을 다른 NSS 계정에 연결합니다</block>
   <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">세 개의 나란히 점이 있는 아이콘입니다</block>
   <block id="8cb2ff10d15cea1a460cee3b506d5a6c" category="section-title">NSS 자격 증명을 업데이트합니다</block>
-  <block id="90488de845793cd541dd12866e86b44a" category="paragraph">다음 중 하나가 발생할 경우 BlueXP의 NSS 계정에 대한 자격 증명을 업데이트해야 합니다.</block>
-  <block id="d7fb44c1919b66d02d93dc18ebb82756" category="list-text">계정의 자격 증명을 변경합니다</block>
-  <block id="b3926834345be7a1da662eba385876a4" category="list-text">계정에 연결된 새로 고침 토큰이 3개월 후에 만료됩니다</block>
   <block id="a316383f81642dfed8c486925c8bc0d9" category="list-text">업데이트할 NSS 계정의 경우 를 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 자격 증명 업데이트 * 를 선택합니다.</block>
   <block id="6194803972b351a3a1a725ec35734320" category="inline-image-macro">삭제 옵션을 선택할 수 있는 기능이 포함된 NetApp Support 사이트 계정의 작업 메뉴를 보여주는 스크린샷</block>
   <block id="2aa3557242cb0eddbff8233ad0c81a45" category="paragraph"><block ref="2aa3557242cb0eddbff8233ad0c81a45" category="inline-image-macro-rx" type="image"></block></block>
@@ -524,14 +521,10 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="11ecc3de6ba7beb5561699b813f5f452" category="paragraph"><block ref="11ecc3de6ba7beb5561699b813f5f452" category="inline-image-macro-rx" type="image"></block></block>
   <block id="17b44f0405de560bdd9ba352b67adb7a" category="list-text">계정을 선택한 다음 * 저장 * 을 선택합니다.</block>
   <block id="504f62cd55407d98070b45659035b7f5" category="section-title">NSS 계정의 이메일 주소를 표시합니다</block>
-  <block id="a74d4f6da1f4962caa974b5e68852f05" category="admonition">NSS 관리 페이지로 이동하면 BlueXP에서 표의 각 계정에 대한 토큰을 생성합니다. 이 토큰에는 연결된 이메일 주소에 대한 정보가 포함됩니다. 그런 다음 페이지를 나갈 때 토큰이 제거됩니다. 정보는 캐싱되지 않으며 개인 정보를 보호하는 데 도움이 됩니다.</block>
-  <block id="fb62719b7db2f72c6247845a1f5cbcb1" category="list-text">업데이트할 NSS 계정의 경우 를 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 이메일 주소 표시 * 를 선택합니다.</block>
   <block id="51f80facd7c70833cf77adf937c57d0f" category="inline-image-macro">이메일 주소를 표시할 수 있는 기능이 포함된 NetApp Support 사이트 계정의 작업 메뉴를 보여주는 스크린샷</block>
   <block id="e1116fc74825566193b6ce2f33cadc2b" category="paragraph"><block ref="e1116fc74825566193b6ce2f33cadc2b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c7a6c5419388c54dd17826c0c6b4dc85" category="paragraph">BlueXP는 NetApp Support 사이트 사용자 이름과 관련 이메일 주소를 표시합니다. 복사 버튼을 사용하여 이메일 주소를 복사할 수 있습니다.</block>
   <block id="269f277ce2140226081fe499a22595d6" category="section-title">NSS 계정을 제거합니다</block>
   <block id="09e40761f22ee02fc6f59d79db4d6f93" category="paragraph">BlueXP에서 더 이상 사용하지 않을 NSS 계정을 삭제합니다.</block>
-  <block id="76734448143dd55adf6431fa26af46e4" category="paragraph">현재 Cloud Volumes ONTAP 작업 환경과 연결된 계정은 삭제할 수 없습니다. 먼저 해야 할 일 <block ref="ac2d4b7aa5ce32d2814e2f5e96d09326" category="inline-xref-macro-rx"></block>.</block>
   <block id="e5db2949e66eb1e7684dd81e4145d6e3" category="list-text">삭제할 NSS 계정의 경우 을 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 * 삭제 * 를 선택합니다.</block>
   <block id="007f1e2d3f01b80a8179746ea45b3c41" category="paragraph"><block ref="007f1e2d3f01b80a8179746ea45b3c41" category="inline-image-macro-rx" type="image"></block></block>
   <block id="93ab98e83f767e271a56c06a99e0061f" category="list-text">삭제하려면 * 삭제 * 를 선택합니다.</block>
@@ -3176,8 +3169,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="aa58ae713abe4e1f7b639f232b2814b8" category="list-text">BlueXP 분류를 사용하여 회사 데이터 소스를 검사하려는 경우 BlueXP Connector 시스템과 BlueXP 분류 시스템 모두에서 NTP(Network Time Protocol) 서비스를 활성화하여 시스템 간에 시간이 동기화되도록 해야 합니다.<block ref="f37549d88d23259dc9470e2f2bfbbbf0" category="inline-link-rx"></block></block>
   <block id="9ed6715eace733ae6dc526b52a03058e" category="paragraph">Connector를 만든 후 이 네트워킹 요구 사항을 구현해야 합니다.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
-  <block id="dfec517d439938ca1ef24de3972ed1d6" category="paragraph">이 기능은 ID 관리를 위해 NetApp에서 채택한 Microsoft Entra ID를 사용하도록 구성된 NSS 계정에서만 지원됩니다. 이 기능을 사용하려면 * NSS 계정 추가 * 또는 * 계정 업데이트 * 를 선택해야 합니다.</block>
-  <block id="a5b46ae1ec2ad5287349444529a0b53c" category="paragraph">이제 NetApp Support 사이트 계정에서 인증 서비스에 Microsoft Entra ID를 사용했으므로 BlueXP에 표시되는 NSS 사용자 이름은 일반적으로 Microsoft Entra에서 생성되는 식별자입니다. 따라서 해당 계정과 연결된 전자 메일 주소를 즉시 알지 못할 수 있습니다. 그러나 BlueXP에는 관련 이메일 주소를 표시하는 옵션이 있습니다.</block>
   <block id="009cf1f7b9b15240104b17e10bb20e3a" category="paragraph">Microsoft Entra ID에서 서비스 주체를 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 받습니다.</block>
   <block id="20a548e155064dfebc2cf8e9a74ab489" category="list-title">역할 기반 액세스 제어를 위한 Microsoft Entra 응용 프로그램을 만듭니다</block>
   <block id="3acc75f616414df16724fc2f4fe192eb" category="list-text">Azure 포털에서 * Microsoft Entra ID * 서비스를 엽니다.</block>
@@ -3998,7 +3989,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="1ebe3d8a3d69a73646283d430c26a946" category="paragraph">BlueXP 에서는 BlueXP  사용자 계정당 하나의 NSS 계정을 연결할 수도 있습니다. <block ref="92ab4e1c25ae34810f6c6d2ede81f4ab" category="inline-link-macro-rx"></block>..</block>
   <block id="e2ca9dfd816e611b53e740c0def06a75" category="paragraph">BlueXP 에서 다음 작업을 수행하려면 NetApp 지원 사이트 자격 증명을 특정 BlueXP  계정 일련 번호와 연결해야 합니다.</block>
   <block id="acc5d74b9730b17cf679fd826310c607" category="paragraph">이러한 자격 증명은 특정 BlueXP  계정의 일련 번호와 연관됩니다. BlueXP  조직 또는 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
-  <block id="607d5f9332bf0fe8fef9f43fcf68c22e" category="paragraph">지원 대시보드를 사용하면 BlueXP  조직 또는 계정 수준에서 BlueXP 과 함께 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.</block>
   <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">작업 환경 목록은 서비스 상단 배너에서 선택한 BlueXP  조직(또는 계정), 프로젝트(또는 작업 영역) 및 커넥터 범위 내에 있습니다.</block>
   <block id="aeaa07e62e0681df3c00b18be44e1799" category="summary">조직의 구성원이 다른 프로젝트에서 커넥터를 사용해야 하는 경우 BlueXP  IAM에서 연결을 만들어야 합니다.</block>
   <block id="9c1561cceda808c78453a453f4175e14" category="doc">BlueXP  커넥터를 다른 폴더 및 프로젝트에 연결합니다</block>
@@ -5022,4 +5012,25 @@ https://support.netapp.com 으로 문의하십시오
   <block id="57b248bc2bcc519c9d26da79b5753feb" category="cell">조직 내의 모든 사용자가 생성한 CView 서비스 요청</block>
   <block id="40abfc355f5aea2697c05cedc7637005" category="section-title">데이터 서비스 역할</block>
   <block id="3b5148467641fe76592e826ef571410c" category="paragraph">다음은 데이터 서비스 범주의 역할 목록입니다. 각 역할은 지정된 범위 내에서 특정 권한을 부여합니다. 필요한 데이터 서비스 역할이나 플랫폼 역할이 없는 사용자는 데이터 서비스에 액세스할 수 없습니다.</block>
+  <block id="490e13bea5876f4583d326593619ee16" category="list-text">Cloud Volumes ONTAP 시스템 관리는 이제 운영 체제에서 SELinux가 활성화된 커넥터를 통해 지원됩니다.</block>
+  <block id="a34db0f5fbf1e24b51b5a7a24f301c5e" category="doc">연결된 BlueXP 에 대한 NSS 자격 증명을 관리합니다</block>
+  <block id="c60157a3e7becc31536d0dc036b53af0" category="admonition">표준 모드 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP  IAM(ID 및 액세스 관리)을 사용하여 관리하는 _BlueXP  조직_ 이 있습니다. 하지만 비공개 모드에서 BlueXP 를 사용하는 경우에는 _ BlueXP  계정이 있습니다.</block>
+  <block id="6dbd01b1c2b8dd3f051f0a9d6b7b2bd3" category="paragraph">BlueXP 의 지원 대시보드에서 BlueXP 과 함께 사용할 NetApp Support 사이트 계정을 추가하고 관리할 수 있습니다.</block>
+  <block id="cd35825320d9b999711fdb0b0b96b105" category="paragraph">NSS 계정을 추가한 경우 BlueXP 는 이 정보를 라이센스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록 등에 사용할 수 있습니다.</block>
+  <block id="668a927dea46030d99f290f562cf9a8c" category="paragraph">여러 NSS 계정을 BlueXP  조직에 연결할 수 있지만 동일한 조직 내에 고객 계정 및 파트너 계정을 가질 수는 없습니다.</block>
+  <block id="aa46302bfdec80cdcbdb3268e1b7a8f4" category="list-text">Microsoft 로그인 페이지로 리디렉션하려면 * 계속 * 을 선택하십시오.</block>
+  <block id="55e65cdb758bf0c89a872d9cbd3e9b79" category="list-text">로그인 페이지에서 NetApp 지원 사이트에 등록된 이메일 주소와 암호를 입력합니다.</block>
+  <block id="256ed78b4e0484125eb0f0e66fdb7156" category="inline-link-macro">알림 센터에 대해 알아봅니다</block>
+  <block id="4689ffd51b2968888f8c155b13dfcaf5" category="paragraph">보안상의 이유로 90일마다 NSS 자격 증명을 업데이트해야 합니다. NSS 자격 증명이 만료되면 BlueXP  알림 센터에서 알림을 받게 됩니다. <block ref="7547de016d191efcd551f32d625b2bc1" category="inline-link-macro-rx"></block>..</block>
+  <block id="a68bd898b36ffcd9b8247470114f5f4a" category="paragraph">만료된 자격 증명은 다음을 방해할 수 있지만 이에 국한되지 않습니다.</block>
+  <block id="41a210fc1fd64ddb44bf15d9fe670679" category="list-text">디지털 지갑의 라이센스 업데이트. 즉, 새로 구입한 용량을 활용할 수 없습니다.</block>
+  <block id="9866777d09d57d152447888262701c25" category="list-text">지원 사례 제출 및 추적 기능</block>
+  <block id="6179959f116f310a8ad1ec9ecbaf81f6" category="paragraph">또한 BlueXP  조직과 연결된 NSS 계정을 변경하려는 경우 조직과 연결된 NSS 자격 증명을 업데이트할 수 있습니다. 예를 들어 NSS 계정에 연결된 사람이 회사를 떠난 경우</block>
+  <block id="021c1a8115e127518ed9afb84086b193" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
+  <block id="eeda1356f6044cf81d9e31043444b9aa" category="paragraph">먼저 계정을 BlueXP 에 연결해야 합니다.</block>
+  <block id="2f8da686adebbe94321da99d4cee7340" category="paragraph">보안을 위해 NSS 계정과 연결된 전자 메일 주소는 기본적으로 표시되지 않습니다. NSS 계정의 전자 메일 주소 및 관련 사용자 이름을 볼 수 있습니다.</block>
+  <block id="9231e2c70a8d6560c0d7f9c307c71524" category="admonition">NSS 관리 페이지로 이동하면 BlueXP에서 표의 각 계정에 대한 토큰을 생성합니다. 이 토큰에는 연결된 이메일 주소에 대한 정보가 포함됩니다. 페이지에서 나가면 토큰이 제거됩니다. 정보는 캐싱되지 않으며 개인 정보를 보호하는 데 도움이 됩니다.</block>
+  <block id="91db0dcecdec6f07d8d7296d1c7d5cf1" category="list-text">업데이트할 NSS 계정에 대해 을 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 선택한 다음 * 전자 메일 주소 표시 * 를 선택합니다. 복사 버튼을 사용하여 이메일 주소를 복사할 수 있습니다.</block>
+  <block id="95113dfcf72340b0f58f2233f6b68f7d" category="paragraph">현재 Cloud Volumes ONTAP 작업 환경과 연결된 계정은 삭제할 수 없습니다. 먼저 해야 <block ref="ac2d4b7aa5ce32d2814e2f5e96d09326" category="inline-xref-macro-rx"></block>합니다.</block>
+  <block id="df3f743aae5476a7b16bbbc329251f85" category="section-title">2025년 2월 18일</block>
 </blocks>
