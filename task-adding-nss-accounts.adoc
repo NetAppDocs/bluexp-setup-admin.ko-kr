@@ -4,7 +4,7 @@ permalink: task-adding-nss-accounts.html
 keywords: adding, creating, netapp support site account, nss, update account, update nss account, update nss credentials, delete nss account, remove nss account, change working environment, working environment nss, digital wallet, license 
 summary: NetApp 지원 사이트 계정을 BlueXP  조직 또는 계정에 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 사용하도록 설정합니다. 이러한 NSS 자격 증명은 전체 BlueXP  조직 또는 계정과 연결됩니다. 
 ---
-= 연결된 BlueXP 에 대한 NSS 자격 증명을 관리합니다
+= BlueXP 와 연결된 NSS 자격 증명을 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
