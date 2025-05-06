@@ -1714,7 +1714,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="e8e3de05575910fc8863b3e5715b75a4" category="inline-image-macro">비활성 커넥터를 제거할 수 있는 커넥터 위젯의 스크린샷</block>
   <block id="2edb4e92b7a9da8aeba40d13e6c35982" category="paragraph"><block ref="2edb4e92b7a9da8aeba40d13e6c35982" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ec2047192779921dd8c042d6555c8cd8" category="list-text">확인할 커넥터 이름을 입력한 다음 * 제거 * 를 선택합니다.</block>
-  <block id="7c42efcb94d7f8204bfb69f49301938f" category="paragraph">BlueXP는 커넥터에서 커넥터를 제거합니다.</block>
   <block id="6a5be3e06b444aea04beccda3bc9e1d6" category="list-text">Linux 호스트에서 제거 스크립트를 실행합니다.</block>
   <block id="0bb43692ecd0352eecc69c235e34d6f0" category="paragraph">_silent_는 확인 메시지를 표시하지 않고 스크립트를 실행합니다.</block>
   <block id="c89064bda3f1ae133a231f5b1f44c3b0" category="list-text">Linux 호스트에서 다음 명령을 실행합니다.</block>
@@ -3529,7 +3528,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="716e455593e3f61d09e3bf6cbb30d375" category="doc">커넥터를 제거하고 분리합니다</block>
   <block id="0ca48b615c940d64cdde98b76cdee8b3" category="section-title">표준 또는 제한 모드를 사용할 경우 커넥터를 제거합니다</block>
   <block id="da529abe542a53761e1008dc23815cf7" category="paragraph">표준 모드 또는 제한된 모드에서 BlueXP를 사용 중인 경우(즉, 커넥터 호스트에 아웃바운드 연결이 있음), 다음 단계에 따라 Connector 소프트웨어를 제거해야 합니다.</block>
-  <block id="0f915c6b577573f25e2e8bfac8c2aacb" category="paragraph">이제 Connector 소프트웨어가 Linux 호스트에서 제거됩니다.</block>
   <block id="32b4ba2ff55d15357ed5b70aeb566059" category="section-title">비공개 모드를 사용하는 경우 커넥터를 제거합니다</block>
   <block id="34a2bd34ae23cc65060f62957132c0eb" category="paragraph">비공개 모드(즉, 커넥터 호스트에 _NO_아웃바운드 연결이 있음)에서 BlueXP를 사용하는 경우 다음 단계에 따라 Connector 소프트웨어를 제거해야 합니다.</block>
   <block id="a1fd436d8cb76b77def4aeb2d8bba352" category="doc">Connector VM 및 운영 체제를 유지 관리합니다</block>
@@ -3674,7 +3672,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="dee6ffcadeee95a4920b20e3dff92f16" category="paragraph">기본 암호 환경은 등록된 이메일 주소에 대한 OTP(일회성 암호)입니다. 로그인할 때마다 새 OTP가 생성됩니다.</block>
   <block id="3216eccdc5ba0609640cf6e084e8b99b" category="list-text">Cloud Volumes ONTAP CLI에서 권한 수준을 advanced로 설정합니다.</block>
   <block id="12cf6b8337c04d4e7e622d1c39b40efe" category="list-text">다음 명령을 실행하여 현재 백업 타겟을 표시합니다.</block>
-  <block id="eb34b10d2fd231974ff6010bc6aa4d4b" category="paragraph"><block ref="5b014535a251b1d5d0c9044a548a8e20" prefix="" category="inline-code"></block><block ref="3be06caa62382aade39cdb5bcb105da0" prefix=" " category="inline-code"></block></block>
   <block id="d44b908365d28414a72f5b042c756f89" category="cell">Cloud Volumes ONTAP의 특정 영역을 지정하려면 유연한 조정 모드에서 가상 머신 확장 집합을 사용합니다</block>
   <block id="e32bb1c8b64cbfd8bf1712551cd39a15" category="cell">Microsoft를 선택합니다. Compute/virtualMachineScaleSets/write</block>
   <block id="da4802bef00f05ba8274ecb054d0388f" category="cell">Microsoft를 선택합니다. Compute/virtualMachineScaleSets/read</block>
@@ -5032,4 +5029,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="df3f743aae5476a7b16bbbc329251f85" category="section-title">2025년 2월 18일</block>
   <block id="186343db38833a48df757e694e69337d" category="doc">BlueXP 와 연결된 NSS 자격 증명을 관리합니다</block>
   <block id="b0a6f78c81db9101142cfbb4b289b156" category="list-text">디지털 지갑의 라이센스 업데이트. 즉, 새로 구입한 용량을 활용할 수 없습니다.</block>
+  <block id="0e9f50ce17eb61023683d8254bc6a553" category="paragraph">커넥터 호스트에서 운영 체제를 유지 관리하는 것은 고객의 책임입니다. 예를 들어, 귀사(고객)는 운영 체제 배포에 대한 회사의 표준 절차에 따라 Connector 호스트의 운영 체제에 보안 업데이트를 적용해야 합니다.</block>
+  <block id="ec3b20ec97830a6ca400807ee52fba22" category="list-text">Linux 호스트에서 사용되지 않는 오래된 컨테이너 이미지 파일을 제거합니다. 이렇게 하면 /var 디렉토리에 다시 설치할 공간이 충분해집니다.</block>
 </blocks>
