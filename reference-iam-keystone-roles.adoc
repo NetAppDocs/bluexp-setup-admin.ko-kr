@@ -1,0 +1,143 @@
+---
+sidebar: sidebar 
+permalink: reference-iam-keystone-roles.html 
+keywords: predefined roles, iam roles, organization admin, folder or project admin, identity and access management, access roles, admin 
+summary: BlueXP  ID 및 액세스 관리는 조직의 구성원에게 할당할 수 있는 두 가지 관리 역할을 제공합니다. 
+---
+= BlueXP 에 대한 Keystone 액세스 역할
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Keystone 역할을 통해 Keystone 대시보드에 액세스할 수 있으며 사용자가 Keystone 구독을 확인 및 관리할 수 있습니다. Keystone 역할에는 Keystone admin과 Keystone 뷰어의 두 가지가 있습니다. 두 역할의 주된 차이점은 Keystone에서 수행할 수 있는 조치입니다. Keystone 관리자 역할은 서비스 요청을 생성하거나 구독을 수정할 수 있는 유일한 역할입니다.
+
+.BlueXP 에서 Keystone 역할의 예
+XYZ Corporation에는 Keystone 구독 내에서 Keystone 구독에 대한 정보를 볼 수 있는 여러 부서의 스토리지 엔지니어 4명이 있습니다. 모든 사용자가 Keystone 구독을 모니터링해야 하지만 팀장만 서비스를 요청할 수 있습니다. 팀 구성원 중 3명에게 * Keystone 뷰어 * 역할이 부여되고, 팀 리더에게 * Keystone 관리자 * 역할이 부여되어 회사의 서비스 요청을 제어할 수 있습니다.
+
+다음 표에는 각 Keystone 역할이 수행할 수 있는 작업이 나와 있습니다.
+
+[cols="40,20a,20a"]
+|===
+| 기능 및 동작 | Keystone 관리자 | Keystone 뷰어 
+
+
+| 구독, 자산, 모니터 및 관리 탭을 봅니다  a| 
+예
+ a| 
+예
+
+
+
+3+| * Keystone 구독 페이지 *: 
+
+
+| 구독 보기  a| 
+예
+ a| 
+예
+
+
+
+| 구독을 수정하거나 갱신합니다  a| 
+예
+ a| 
+아니요
+
+
+
+3+| * Keystone 자산 페이지 *: 
+
+
+| 자산을 봅니다  a| 
+예
+ a| 
+예
+
+
+
+| 자산 관리  a| 
+예
+ a| 
+아니요
+
+
+
+3+| * Keystone 알림 페이지 *: 
+
+
+| 알림을 봅니다  a| 
+예
+ a| 
+아니요
+
+
+
+| 알림을 관리합니다  a| 
+예
+ a| 
+아니요
+
+
+
+| 자신에 대한 알림을 생성합니다  a| 
+예
+ a| 
+예
+
+
+
+3+| * 디지털 지갑 *: 
+
+
+| 디지털 지갑을 볼 수 있습니다  a| 
+예
+ a| 
+예
+
+
+
+3+| * Keystone 보고서 페이지 *: 
+
+
+| 보고서 다운로드  a| 
+예
+ a| 
+예
+
+
+
+| 보고서 관리  a| 
+예
+ a| 
+예
+
+
+
+| 자체 보고서를 생성합니다  a| 
+예
+ a| 
+예
+
+
+
+3+| * 서비스 요청 *: 
+
+
+| 서비스 요청 작성  a| 
+예
+ a| 
+아니요
+
+
+
+| 조직 내의 모든 사용자가 생성한 서비스 요청을 봅니다  a| 
+예
+ a| 
+예
+
+|===

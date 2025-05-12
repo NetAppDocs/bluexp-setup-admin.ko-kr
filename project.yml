@@ -130,7 +130,19 @@ sidebar:
       - title: IAM 활동 모니터링 또는 감사
         url: "/task-iam-audit-actions-timeline.html"
       - title: BlueXP  액세스 역할
-        url: "/reference-iam-predefined-roles.html"
+        entries:
+        - title: BlueXP  액세스 역할에 대해 알아보십시오
+          url: "/reference-iam-predefined-roles.html"
+        - title: 플랫폼 역할
+          url: "/reference-iam-platform-roles.html"
+        - title: 응용 프로그램 역할
+          entries:
+          - title: Keystone 역할
+            url: "/reference-iam-keystone-roles.html"
+        - title: 데이터 서비스 역할
+          entries:
+          - title: 랜섬웨어 차단 역할
+            url: "/reference-iam-ransomware-roles.html"
     - title: BlueXP  계정(비공개 모드만 해당)
       entries:
       - title: 어카운트에 대해 알아보십시오

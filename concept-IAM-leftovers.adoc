@@ -1,34 +1,8 @@
----
-sidebar: sidebar 
-permalink: concept-identity-and-access-management.html 
-keywords: iam overview, overview, how iam works, iam example, organization, folders, projects, resources, members, roles, permissions, resource hierarchy, identity and access management, access roles, iam 
-summary: 'BlueXP  IAM(Identity and Access Management)을 사용하면 조직의 리소스에 대한 액세스를 제어할 수 있습니다.' 
----
-= BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오
-:hardbreaks:
+= 조직
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
 
-[role="lead"]
-BlueXP  IAM(Identity and Access Management)을 사용하면 NetApp 리소스에 대한 액세스를 구성하고 제어할 수 있습니다. 조직의 계층 구조에 따라 자원을 구성할 수 있습니다. 예를 들어 지리적 위치, 사이트 또는 사업부별로 자원을 구성할 수 있습니다. 그런 다음 계층의 특정 부분에 있는 구성원에게 IAM 역할을 할당할 수 있으므로 계층의 다른 부분에 있는 리소스에 액세스할 수 없습니다.
-
-BlueXP  IAM은 BlueXP  계정에서 제공하는 이전 기능을 대체하고 개선합니다. link:whats-new.html#iam["BlueXP  IAM 도입에 대해 자세히 알아보십시오"]..
-
-BlueXP  IAM은 표준 모드 및 제한 모드에서 BlueXP 를 사용할 때 지원됩니다. 비공개 모드에서 BlueXP 를 사용하는 경우 BlueXP _ACCOUNT_를 사용하여 사용자와 리소스를 관리합니다.
-
-* link:concept-netapp-accounts.html["BlueXP 계정에 대해 알아보십시오"]
-* link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"]
-
-
-
-
-== BlueXP  IAM 작동 방법
-
-BlueXP  IAM을 사용하면 조직 계층 구조의 특정 부분에 대한 사용 권한을 가진 구성원을 정의하여 조직의 리소스에 대한 액세스 권한을 부여할 수 있습니다. 예를 들어 5개의 관련 자원이 있는 프로젝트에 대해 구성원에게는 프로젝트 관리자 권한이 있을 수 있습니다.
+다음 섹션에서는 BlueXP  내에서 IAM을 사용하는 다양한 구성 요소에 대해 설명합니다.
 
 BlueXP  IAM을 사용하면 다음 구성 요소를 관리할 수 있습니다.
 
@@ -69,8 +43,6 @@ _folder_를 사용하면 관련된 프로젝트를 그룹화하고 조직의 다
 
 폴더에는 프로젝트, 다른 폴더 또는 이 둘의 조합이 포함될 수 있습니다.
 
-폴더를 만들 필요가 없습니다. 선택 사항입니다.
-
 
 
 === 프로젝트
@@ -96,7 +68,7 @@ TIP: 조직의 다른 폴더나 프로젝트에 Connector를 연결할 수도 �
 
 ==== 자원을 폴더와 연결하는 경우
 
-또한 리소스를 폴더와 연결할 수도 있지만 이 옵션은 선택 사항이며 특정 활용 사례의 요구 사항을 충족합니다.
+책임이나 스토리지 리소스를 분리해야 하는 경우 리소스를 폴더로 구성할 수 있습니다.
 
 조직 관리 _ 는(는) 폴더와 자원을 연결하여 _Folder 또는 프로젝트 관리자 _ 가 해당 자원을 폴더에 있는 적절한 프로젝트와 연결할 수 있습니다.
 
@@ -164,7 +136,7 @@ BlueXP  IAM에서는 조직 구성원에게 권한을 직접 부여하지 않�
 
 ==== 액세스 역할
 
-BlueXP 에서는 조직의 구성원에게 할당할 수 있는 몇 가지 미리 정의된 역할을 지원합니다.
+BlueXP 에서는 조직 구성원에게 할당할 수 있는 몇 가지 액세스 역할을 지원합니다.
 
 link:reference-iam-predefined-roles.html["액세스 역할에 대해 알아봅니다"]..
 
@@ -196,57 +168,4 @@ Connector를 폴더에 연결한다고 해서 폴더의 모든 프로젝트에�
 +
 조직 관리 _ 는(는) 폴더 또는 프로젝트 관리자 _ 가 해당 Connector를 폴더에 있는 적절한 프로젝트와 연결하도록 결정할 수 있도록 커넥터를 폴더에 연결할 수 있습니다.
 
-
-
-
-
-== IAM의 예
-
-다음 예제에서는 조직을 설정하는 방법을 보여 줍니다.
-
-
-
-=== 단순한 조직
-
-다음 다이어그램에서는 폴더가 없는 기본 프로젝트를 사용하는 조직의 간단한 예를 보여 줍니다. 단일 구성원이 전체 조직을 관리합니다.
-
-image:diagram-iam-example-hierarchy-simple.png["프로젝트, 관련 리소스 및 조직 관리자 한 명이 있는 조직을 보여 주는 개념적 다이어그램"]
-
-
-
-=== 고급 조직
-
-다음 다이어그램은 폴더를 사용하여 비즈니스의 각 지리적 위치에 대한 프로젝트를 구성하는 조직을 보여 줍니다. 각 프로젝트에는 고유한 관련 자원 집합이 있습니다. 구성원에는 조직 관리자 및 조직의 각 폴더에 대한 관리자가 포함됩니다.
-
-image:diagram-iam-example-hierarchy-advanced.png["세 개의 폴더가 있는 조직, 각각 세 개의 프로젝트 및 관련 자원을 보여 주는 개념도 다이어그램 4명의 구성원이 있습니다: 조직 관리자 한 명과 폴더 관리자 세 명."]
-
-
-
-== BlueXP  IAM으로 수행할 수 있는 작업
-
-다음 예에서는 IAM을 사용하여 BlueXP  조직을 관리하는 방법을 설명합니다.
-
-* 특정 구성원에게 특정 역할을 부여하여 필요한 작업만 완료할 수 있도록 합니다.
-* 부서를 이동했거나 추가 책임이 있기 때문에 구성원 권한을 수정합니다.
-* 회사를 떠난 사용자를 제거합니다.
-* 새 사업부에서 NetApp 스토리지를 추가했으므로 계층 구조에 폴더 또는 프로젝트를 추가합니다.
-* 다른 팀에서 활용할 수 있는 작업 시간이 자원에 있으므로 자원을 다른 프로젝트에 연결합니다.
-* 구성원이 액세스할 수 있는 리소스를 봅니다.
-* 특정 프로젝트와 관련된 구성원 및 자원을 봅니다.
-
-
-
-
-== 다음 단계로 넘어갑니다
-
-* link:task-iam-get-started.html["BlueXP  IAM을 시작하십시오"]
-* link:task-iam-manage-folders-projects.html["BlueXP 에서 폴더와 프로젝트를 사용하여 자원을 구성합니다"]
-* link:task-iam-manage-members-permissions.html["BlueXP  구성원 및 해당 사용 권한을 관리합니다"]
-* link:task-iam-manage-resources.html["BlueXP  조직에서 리소스 계층 구조를 관리합니다"]
-* link:task-iam-associate-connectors.html["커넥터를 폴더 및 프로젝트와 연결합니다"]
-* link:task-iam-switch-organizations-projects.html["BlueXP  프로젝트와 조직 간 전환"]
-* link:task-iam-rename-organization.html["BlueXP  조직의 이름을 바꿉니다"]
-* link:task-iam-audit-actions-timeline.html["IAM 활동 모니터링 또는 감사"]
-* link:reference-iam-predefined-roles.html["BlueXP  액세스 역할"]
-* https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/overview.html["BlueXP  IAM용 API에 대해 알아보십시오"^]
 

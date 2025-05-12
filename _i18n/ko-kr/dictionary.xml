@@ -1658,7 +1658,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="738140038c4506b7e29508b58d682758" category="paragraph"><block ref="738140038c4506b7e29508b58d682758" category="inline-link-rx"></block></block>
   <block id="28d40d49edc5d8557dfa8624f4921f55" category="section-title">운영 체제 및 VM 유지 보수</block>
   <block id="19584c42f9ee050980069e98aba18776" category="paragraph">커넥터 호스트에서 운영 체제를 유지 관리하는 것은 사용자의 책임입니다. 예를 들어, 회사의 운영 체제 배포 표준 절차에 따라 Connector 호스트의 운영 체제에 보안 업데이트를 적용해야 합니다.</block>
-  <block id="58eaadf4bb73c6121323ec8ad981c1bf" category="paragraph">Connector VM을 중지한 다음 시작해야 하는 경우, 클라우드 공급자의 콘솔에서 또는 온프레미스 관리를 위한 표준 절차를 사용하여 시작해야 합니다.</block>
   <block id="56f7fa1ed2a5960645c3e1c3f3521ac4" category="inline-link-macro">커넥터는 항상 작동해야 합니다</block>
   <block id="50f74838f982f7a3b705af170ddd7da4" category="paragraph"><block ref="c94a7910d5b535a9c639377af3b5e75b" category="inline-link-macro-rx"></block>.</block>
   <block id="f86faf1862caeed3f6dccfce3a669edf" category="section-title">커넥터 사이를 전환합니다</block>
@@ -3486,7 +3485,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="99ca40e706695ba7607287669fab39f3" category="cell">가용 영역이 AWS 로컬 영역인지 확인하고 모든 배포 매개 변수가 호환되는지 확인합니다</block>
   <block id="0683995d371439e19d907680da921ba9" category="section-title">2024년 5월 9일</block>
   <block id="376a26b461e6c64a1c38b284dbc9703f" category="paragraph">이제 Cloud Volumes ONTAP에 다음 권한이 필요합니다.</block>
-  <block id="caf547270bba046bebc03d7ccf4b0203" category="paragraph">보조 보안 업데이트를 적용할 때 Connector 호스트의 서비스를 중지할 필요가 없습니다.</block>
   <block id="ebb952d62c1eec36921c93691e959c82" category="paragraph"><block ref="ebb952d62c1eec36921c93691e959c82" category="inline-link-macro-rx"></block></block>
   <block id="25ed61080ee73d701a5ba6feef931050" category="paragraph"><block ref="25ed61080ee73d701a5ba6feef931050" category="inline-link-macro-rx"></block></block>
   <block id="1b9eb4a1347f52519d9e7d0e26300a53" category="paragraph"><block ref="01cf67ff20127008355664826b726767" category="inline-link-macro-rx"></block>.</block>
@@ -3951,19 +3949,13 @@ https://support.netapp.com 으로 문의하십시오
   <block id="cdf60a7d13d1d74e115661d87ae97a3f" category="list-text">우분투 24.04 LTS</block>
   <block id="b6f945763d62ac8e8f24fb52111049ee" category="summary">BlueXP  ID 및 액세스 관리에는 조직의 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다.</block>
   <block id="6a476d78ce3a8169d99c99c3285fa106" category="section-title">조직 관리자</block>
-  <block id="b35f7cd4ff8cf3b50f8a254ff8eaab4d" category="list-text">이 역할을 가진 구성원은 BlueXP 에서 다음 작업을 수행할 수 있습니다.</block>
   <block id="b7468effacd77ea7140c661bd2dce11a" category="list-text">권한이 있는 프로젝트 및 폴더의 모든 작업 환경을 관리합니다</block>
   <block id="b510afc7b0f705daf7ba3b0e6a9509ab" category="list-text">모든 BlueXP  서비스 사용</block>
   <block id="379e8cc7b99cd4d7696788fde49a89de" category="list-text">설정 &gt; 자격 증명에서 자격 증명을 관리합니다</block>
   <block id="5c2549b200adb54fcf4ab1fa173b79b7" category="list-text">BlueXP  타임라인을 봅니다</block>
   <block id="ea6f3818343083288cee520c382ca65a" category="list-text">지원에 BlueXP 를 등록하고 사례를 제출합니다</block>
   <block id="36910b765d93c29f4611f725c05faabe" category="section-title">SnapCenter 관리자</block>
-  <block id="9475c3d2084f0988bba4e27b2659a267" category="list-text">애플리케이션에 대한 BlueXP  백업 및 복구를 사용하여 온프레미스 ONTAP 클러스터의 스냅샷을 백업하는 기능을 제공합니다.</block>
   <block id="b839a58c0750f04dc83675a2a8c1ba61" category="list-text">백업 및 복구 &gt; 애플리케이션에서 모든 작업을 완료합니다</block>
-  <block id="1393a4279651a3334e20f39925a139f5" category="section-title">분류 뷰어</block>
-  <block id="4a7c2bc5a034a095b9cd966aff4637c5" category="list-text">BlueXP  분류 스캔 결과를 볼 수 있는 기능을 제공합니다.</block>
-  <block id="84e4a7656b5466806bf9fbeda2eedd15" category="list-text">규정 준수 정보를 보고 액세스 권한이 있는 리소스에 대한 보고서를 생성합니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마의 스캔을 활성화하거나 비활성화할 수 없습니다.</block>
-  <block id="5f8c43dca47697fafd9a89eae3ea6f82" category="paragraph">이 역할을 가진 구성원은 다른 작업을 사용할 수 없습니다.</block>
   <block id="ef8eb5bec0bebce3b4cac1797fe12831" category="list-text"><block ref="ef8eb5bec0bebce3b4cac1797fe12831" category="inline-link-macro-rx"></block></block>
   <block id="24fff469b53b3c0caad8c3049aada3bc" category="doc">BlueXP  콘솔에 대한 네트워킹을 준비합니다</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="list-title">관련 정보</block>
@@ -4891,13 +4883,8 @@ https://support.netapp.com 으로 문의하십시오
   <block id="31e872437335d3d81483e87525b418b2" category="paragraph">조직 _ 은(는) BlueXP  IAM 시스템의 최상위 수준이며 일반적으로 회사를 나타냅니다. 조직은 폴더, 프로젝트, 구성원, 역할 및 리소스로 구성됩니다. 커넥터는 조직의 특정 프로젝트와 연결됩니다.</block>
   <block id="2514dc2ef1e14f7696838f5cc8280315" category="paragraph">BlueXP 에 등록하면 새 조직을 만들라는 메시지가 나타납니다.</block>
   <block id="229579d2bfa52f21a46468d1600ae5db" category="paragraph">폴더를 만들 필요가 없습니다. 선택 사항입니다.</block>
-  <block id="778cae7482baa87153f906bf3473adc3" category="section-title">미리 정의된 역할</block>
   <block id="befeea17a6d7eca164cf128f9bffe000" category="paragraph">BlueXP 에서는 조직의 구성원에게 할당할 수 있는 몇 가지 미리 정의된 역할을 지원합니다.</block>
-  <block id="2b01a456faf456f22f55be4aabe17b53" category="inline-link-macro">사전 정의된 IAM 역할에 대해 알아봅니다</block>
-  <block id="5939586d23777de38b1394aad3c31735" category="paragraph"><block ref="1d6a3b55f851d6a1155ab766483f6eac" category="inline-link-macro-rx"></block>..</block>
   <block id="cb9e27422b343274f9974efbc9c3dbc1" category="section-title">플랫폼 역할</block>
-  <block id="64c67a7c22b0ed8bf6e82d2edf341abc" category="paragraph">사용자가 조직 내의 모든 프로젝트 및 폴더에 제한 없이 액세스하고, 프로젝트 또는 폴더에 구성원을 추가하고, BlueXP  작업을 수행하고 모든 데이터 서비스를 사용할 수 있도록 합니다.</block>
-  <block id="11631a24c36e1c2153a968d2579a70d4" category="section-title">플랫폼 역할 비교 표</block>
   <block id="bc76903dd69fe38bc3b58cc4ef4a02c8" category="list-text">대규모 다국적 조직에 대한 BlueXP 의 조직 역할의 예</block>
   <block id="5924e866f66794971195c3e6a6aa8e84" category="paragraph">필요한 경우 * 구성원 추가 * 를 선택하여 폴더 또는 프로젝트에 액세스할 수 있는 추가 조직 구성원을 지정한 다음 역할을 선택합니다. 역할은 폴더 또는 프로젝트에 대해 구성원이 갖는 권한을 정의합니다.</block>
   <block id="f676fbba085923546a37baf94ce6784b" category="inline-link-macro">구성원 페이지에서 사용 권한을 관리합니다</block>
@@ -4916,9 +4903,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="a7d6279e87395342f6ca8ef1ab6ad3ca" category="list-text"><block ref="a7d6279e87395342f6ca8ef1ab6ad3ca" category="inline-link-macro-rx"></block></block>
   <block id="3780f4c88e2a0b66a6db0bbed86d39da" category="section-title">응용 프로그램 역할</block>
   <block id="a11961cab6627eac643ea36ae57ce8df" category="section-title">Keystone 역할</block>
-  <block id="2a04d5504b28b9efe0f0dfff02a03355" category="paragraph">다음 역할을 사용하여 Keystone에 대한 사용자 액세스 권한을 할당할 수 있습니다.</block>
-  <block id="cdcfd0d4763f6f8983003ea128be38cf" category="list-text">* Keystone admin *: Keystone 구독을 관리하고 경고, 보고서, 구독에 대한 조치를 취하십시오.</block>
-  <block id="3275a956f3a80df98f4623ac3ac931a6" category="list-text">* Keystone 뷰어 *: Keystone 구독은 물론 보고서, 알림 및 자산을 볼 수 있습니다.</block>
   <block id="147e83598b37ab6627136a0fbebd7717" category="paragraph">다음 표에는 각 Keystone 역할이 수행할 수 있는 작업이 나와 있습니다.</block>
   <block id="4420e7353184ac575b539cdce1b991db" category="cell">기능 및 동작</block>
   <block id="3522959e95c9f2aad088e504a7c016d0" category="cell">Keystone 관리자</block>
@@ -4940,10 +4924,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="4d1159457f35bcc3ef7ee5b2f65bc124" category="cell">자체 보고서를 생성합니다</block>
   <block id="3b8988881170da948296006bcb3af098" category="cell">* 서비스 요청 *:</block>
   <block id="c144ad302e0d51a72f17afbd09594ba8" category="cell">서비스 요청 작성</block>
-  <block id="452c59bc627cf63c04afb8e67c894d8f" category="paragraph">분류에 관리자 역할이 없습니다.</block>
-  <block id="6e4131153ef85e6099f1a34150c48c4e" category="paragraph">다음 역할을 사용하여 사용자에게 랜섬웨어 보호에 대한 액세스 권한을 할당할 수 있습니다.</block>
-  <block id="bdcfe1c3dfeb861ab87e4cc4b8edc1fc" category="list-text">* 랜섬웨어 방어 관리자 * : 보호, 경고, 복구, 설정 및 보고서 탭에서 작업을 관리합니다.</block>
-  <block id="2342f940e11a97078a40faa46aad14e1" category="list-text">* 랜섬웨어 방어 뷰어 * : 워크로드 데이터를 보고, 경고 데이터를 보고, 복구 데이터를 다운로드하고 보고서를 다운로드합니다.</block>
   <block id="38af51c4aaeb25c0489791e4bbad2347" category="paragraph">다음 표는 각 BlueXP  랜섬웨어 차단 역할이 수행할 수 있는 작업을 나타냅니다.</block>
   <block id="a95fe9e5a7b678fa4abc81ea69f1e257" category="cell">랜섬웨어 차단 관리자</block>
   <block id="6a05decc7d63f19c1d5812a3c728ce8a" category="cell">랜섬웨어 방어 뷰어</block>
@@ -4992,20 +4972,15 @@ https://support.netapp.com 으로 문의하십시오
   <block id="d5979f6638739f52389534c5a5861979" category="sidebar">BlueXP  설정 및 관리</block>
   <block id="52ae0ac7aa539174fa20e657c71eddf3" category="paragraph">BlueXP  IAM(ID 및 액세스 관리)에는 리소스 계층 구조의 다양한 수준에서 조직 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다. 이러한 역할을 할당하기 전에 각 역할에 포함된 사용 권한을 이해해야 합니다. 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 범주로 분류됩니다.</block>
   <block id="af7aabee58f78d8c3ba27e6b227a45cd" category="paragraph">플랫폼 역할은 사용자에게 할당할 수 있는 가장 광범위한 역할이며 역할 할당 및 사용자 추가를 포함하여 BlueXP 관리에 대한 모든 권한을 허용할 수 있습니다. 플랫폼 역할을 가진 사용자는 BlueXP  내의 모든 데이터 서비스와 애플리케이션에 액세스할 수 있습니다. BlueXP  IAM에는 조직 관리자 및 폴더 또는 프로젝트 관리자의 두 가지 플랫폼 역할이 포함되어 있습니다. 두 BlueXP  IAM 플랫폼 역할의 주된 차이점은 범위입니다.</block>
-  <block id="354b5c7e04f33eff066b4dc5b8104237" category="paragraph">사용자가 할당된 특정 프로젝트 및 폴더에 대해 무제한 액세스를 허용합니다. 는 자신이 관리하는 폴더나 프로젝트에 구성원을 추가할 수 있을 뿐만 아니라 BlueXP  작업을 수행하고 할당된 폴더 또는 프로젝트 내의 리소스에서 데이터 서비스 또는 응용 프로그램을 사용할 수 있습니다.</block>
-  <block id="ac6f21d3ccd4ab7c12a14f56f9a464bd" category="paragraph">폴더 또는 프로젝트 관리 역할은 커넥터를 만들 수 없습니다.</block>
   <block id="91ddd20c84fc1e8ded7b005f805d8705" category="cell">커넥터 작성</block>
   <block id="1963c5def9c98c78ad1a24795d77fd45" category="cell">삭제를 포함하여 폴더와 프로젝트를 작성합니다</block>
   <block id="3e02e95230f791e515adffdd7086123c" category="cell">기존 폴더와 프로젝트의 이름을 바꿉니다</block>
   <block id="c9cff18229760a66e25f980da9c1850b" category="cell">폴더 및 프로젝트에서 커넥터를 제거합니다</block>
   <block id="b6f5b5483997d6dff9a8ee0bc1932433" category="cell">커넥터 관리(인증서, 설정 등 편집)</block>
-  <block id="0600246627669cf56a49de00fb320e66" category="paragraph">이를 위해 XYZ Corporation의 BlueXP 에서 조직 관리자 역할을 할당한 사람이 초기 작업 환경을 만든 다음 BlueXP 에 각 지역에 대해 별도의 폴더를 만듭니다. 각 영역의 폴더에는 해당 영역과 관련된 프로젝트(관련 리소스 포함)가 포함되어 있습니다. 조직 관리자는 각 지역의 BlueXP  사용자에게 폴더/프로젝트 관리자 역할을 할당합니다.</block>
-  <block id="35a83113bde80420d7102c597d0dfac6" category="paragraph">초기 설정이 완료되면 폴더 또는 프로젝트 관리자 역할을 가진 지역 관리자는 새 작업 환경을 만들고 해당 지역 내에 사용자를 추가할 수 있습니다. 이러한 지역 관리자는 할당된 폴더 및 프로젝트를 추가/제거/이름 변경할 수도 있습니다. 조직 관리자는 새로운 작업 환경 또는 리소스에 대한 권한을 상속하여 전체 조직 전체의 스토리지 사용량에 대한 가시성을 유지합니다.</block>
   <block id="d76310e425debd9a2b76f8114d4c1d27" category="paragraph">다음은 응용 프로그램 범주의 역할 목록입니다. 각 역할은 지정된 범위 내에서 특정 권한을 부여합니다. 필요한 응용 프로그램 역할이나 플랫폼 역할이 없는 사용자는 응용 프로그램에 액세스할 수 없습니다.</block>
   <block id="4be5ebc45ada5051c97493c24dafb98f" category="admonition">BlueXP 를 통해 Keystone에 액세스하는 것은 현재 베타 버전입니다. Keystone 베타에 참여하려면 NetApp 담당자에게 문의하십시오.</block>
   <block id="124cd0f2df6f1c0e90303ec188b16200" category="cell">구독 보기</block>
   <block id="d01d98071916332acadef4e86c7ff279" category="cell">구독을 수정하거나 갱신합니다</block>
-  <block id="57b248bc2bcc519c9d26da79b5753feb" category="cell">조직 내의 모든 사용자가 생성한 CView 서비스 요청</block>
   <block id="40abfc355f5aea2697c05cedc7637005" category="section-title">데이터 서비스 역할</block>
   <block id="3b5148467641fe76592e826ef571410c" category="paragraph">다음은 데이터 서비스 범주의 역할 목록입니다. 각 역할은 지정된 범위 내에서 특정 권한을 부여합니다. 필요한 데이터 서비스 역할이나 플랫폼 역할이 없는 사용자는 데이터 서비스에 액세스할 수 없습니다.</block>
   <block id="490e13bea5876f4583d326593619ee16" category="list-text">Cloud Volumes ONTAP 시스템 관리는 이제 운영 체제에서 SELinux가 활성화된 커넥터를 통해 지원됩니다.</block>
@@ -5027,8 +5002,113 @@ https://support.netapp.com 으로 문의하십시오
   <block id="91db0dcecdec6f07d8d7296d1c7d5cf1" category="list-text">업데이트할 NSS 계정에 대해 을 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 선택한 다음 * 전자 메일 주소 표시 * 를 선택합니다. 복사 버튼을 사용하여 이메일 주소를 복사할 수 있습니다.</block>
   <block id="95113dfcf72340b0f58f2233f6b68f7d" category="paragraph">현재 Cloud Volumes ONTAP 작업 환경과 연결된 계정은 삭제할 수 없습니다. 먼저 해야 <block ref="ac2d4b7aa5ce32d2814e2f5e96d09326" category="inline-xref-macro-rx"></block>합니다.</block>
   <block id="df3f743aae5476a7b16bbbc329251f85" category="section-title">2025년 2월 18일</block>
-  <block id="186343db38833a48df757e694e69337d" category="doc">BlueXP 와 연결된 NSS 자격 증명을 관리합니다</block>
   <block id="b0a6f78c81db9101142cfbb4b289b156" category="list-text">디지털 지갑의 라이센스 업데이트. 즉, 새로 구입한 용량을 활용할 수 없습니다.</block>
   <block id="0e9f50ce17eb61023683d8254bc6a553" category="paragraph">커넥터 호스트에서 운영 체제를 유지 관리하는 것은 고객의 책임입니다. 예를 들어, 귀사(고객)는 운영 체제 배포에 대한 회사의 표준 절차에 따라 Connector 호스트의 운영 체제에 보안 업데이트를 적용해야 합니다.</block>
   <block id="ec3b20ec97830a6ca400807ee52fba22" category="list-text">Linux 호스트에서 사용되지 않는 오래된 컨테이너 이미지 파일을 제거합니다. 이렇게 하면 /var 디렉토리에 다시 설치할 공간이 충분해집니다.</block>
+  <block id="1d91ba09123988594615f201a8f3eb35" category="paragraph">27.0.0 및 28.0.0은 _NEW_Connector 3.9.52 이상 설치에서 지원됩니다</block>
+  <block id="acd994f3f908677c5d2ca549b13f2fdd" category="paragraph">고객(고객)은 사소한 보안 업데이트를 적용할 때 Connector 호스트의 서비스를 중지할 필요가 없습니다.</block>
+  <block id="cadb6c86b1cf837dd9677b37639d5d4d" category="paragraph">Connector VM을 중지했다가 시작해야 하는 경우 클라우드 공급자의 콘솔에서 또는 온프레미스 관리를 위한 표준 절차를 사용해야 합니다.</block>
+  <block id="f4136fdf902ca32b4530c7a614c0ed71" category="doc">커넥터 3.9.52</block>
+  <block id="aa9f9a6b10a3fcd2209035620051306c" category="paragraph">이 BlueXP  커넥터 릴리스에는 사소한 보안 개선 사항 및 버그 수정 사항, 몇 가지 추가 업데이트가 포함되어 있습니다.</block>
+  <block id="6f9b6bb76caa4f1e59bff34c9ae037fe" category="paragraph">현재 3.9.52 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="66b821747bf772a5a92a60270143558a" category="section-title">Docker 27 및 Docker 28을 지원합니다</block>
+  <block id="01bd213c78b554183ce88619eeb02cce" category="paragraph">Docker 27 및 Docker 28이 이제 커넥터에서 지원됩니다.</block>
+  <block id="ab83fd01c3620a62252ab67adbc06a91" category="section-title">BlueXP 에서 Keystone 관리 기능 제공</block>
+  <block id="4359bea5882e2896e306955792589a33" category="paragraph">BlueXP 에서 NetApp Keystone를 위한 베타에서 Keystone 관리에 대한 액세스 권한이 추가되었습니다. BlueXP 의 왼쪽 탐색 모음에서 NetApp Keystone 베타의 등록 페이지에 액세스할 수 있습니다.</block>
+  <block id="3c4f7accda6c4e5b05c122dfef01bebe" category="paragraph">다음 섹션에서는 BlueXP  내에서 IAM을 사용하는 다양한 구성 요소에 대해 설명합니다.</block>
+  <block id="e95e1ea14aa7dd2b3186795a75b45b13" category="paragraph">책임이나 스토리지 리소스를 분리해야 하는 경우 리소스를 폴더로 구성할 수 있습니다.</block>
+  <block id="b1371d1a1eaa0db34a42be4569a94358" category="section-title">액세스 역할</block>
+  <block id="55b6d94d9ad6439fe5c46ccdba149ed3" category="paragraph">BlueXP 에서는 조직 구성원에게 할당할 수 있는 몇 가지 액세스 역할을 지원합니다.</block>
+  <block id="2c2e7be4268cd14a5e106bbdd7de7669" category="section-title">액세스 역할</block>
+  <block id="481fde2b9d3163b5bc94a4f5d5a81c31" category="summary">BlueXP  ID 및 액세스 관리는 조직의 구성원에게 할당할 수 있는 두 가지 관리 역할을 제공합니다.</block>
+  <block id="917ed85266888b2a7a9981b7b5a988fd" category="doc">BlueXP 에 대한 Keystone 액세스 역할</block>
+  <block id="8523ef412b93586e7483ff371da34a44" category="paragraph">Keystone 역할을 통해 Keystone 대시보드에 액세스할 수 있으며 사용자가 Keystone 구독을 확인 및 관리할 수 있습니다. Keystone 역할에는 Keystone admin과 Keystone 뷰어의 두 가지가 있습니다. 두 역할의 주된 차이점은 Keystone에서 수행할 수 있는 조치입니다. Keystone 관리자 역할은 서비스 요청을 생성하거나 구독을 수정할 수 있는 유일한 역할입니다.</block>
+  <block id="cf05bacc5606910682219fb31232e8be" category="paragraph-title">BlueXP 에서 Keystone 역할의 예</block>
+  <block id="6711a14165f040e53c13e848daea3ef0" category="paragraph">XYZ Corporation에는 Keystone 구독 내에서 Keystone 구독에 대한 정보를 볼 수 있는 여러 부서의 스토리지 엔지니어 4명이 있습니다. 모든 사용자가 Keystone 구독을 모니터링해야 하지만 팀장만 서비스를 요청할 수 있습니다. 팀 구성원 중 3명에게 * Keystone 뷰어 * 역할이 부여되고, 팀 리더에게 * Keystone 관리자 * 역할이 부여되어 회사의 서비스 요청을 제어할 수 있습니다.</block>
+  <block id="e9bbe4519d8938c73c2ce0dbaa4adf60" category="cell">조직 내의 모든 사용자가 생성한 서비스 요청을 봅니다</block>
+  <block id="f14b021b1ac020c4bd6150459ddd2d19" category="doc">BlueXP  플랫폼 액세스 역할</block>
+  <block id="2a80e7029e86e0b477bbea9ab387b5e3" category="paragraph">플랫폼 역할은 사용자에게 할당할 수 있는 가장 광범위한 역할이며 역할 할당 및 사용자 추가를 포함하여 BlueXP 관리에 대한 모든 권한을 허용할 수 있습니다. 플랫폼 역할을 가진 사용자는 BlueXP  내의 모든 데이터 서비스와 애플리케이션에 액세스할 수 있습니다. BlueXP 에는 * 조직 관리자 * 와 * 폴더 또는 프로젝트 관리자 * 의 두 가지 플랫폼 역할이 포함되어 있습니다. 두 BlueXP  플랫폼 역할 간의 주요 차이점은 역할이 적용되는 범위입니다.</block>
+  <block id="0a93e6a5a2b06eac2cb4370bc70d9a40" category="paragraph">이를 위해 XYZ Corporation의 BlueXP 에서 * 조직 관리자 * 역할을 할당한 사람이 초기 작업 환경을 만든 다음 각 지역에 대해 BlueXP 에 별도의 폴더를 만듭니다. 각 영역의 폴더에는 해당 영역과 관련된 프로젝트(관련 리소스 포함)가 포함되어 있습니다. 조직 관리자 * 는 각 지역의 BlueXP  사용자에게 * 폴더 또는 프로젝트 관리자 * 역할을 할당합니다.</block>
+  <block id="14be76003904f893c083de9f6a193111" category="paragraph">초기 설정이 완료되면 * 폴더 또는 프로젝트 관리자 * 역할을 가진 지역 관리자가 새 작업 환경을 만들고 해당 지역 내에 사용자를 추가할 수 있습니다. 이러한 지역 관리자는 할당된 폴더 및 프로젝트를 추가/제거/이름 변경할 수도 있습니다. 조직 관리자 * 는 새로운 작업 환경 또는 리소스에 대한 권한을 상속하여 조직 전체의 스토리지 사용량을 지속적으로 확인할 수 있습니다.</block>
+  <block id="f7e279e88014dd7b5f4694b49a2c91f2" category="paragraph">다음 표에는 각 BlueXP  플랫폼 역할이 수행할 수 있는 작업이 나와 있습니다.</block>
+  <block id="3aba2887bff41f744b43940b1b82080a" category="cell">플랫폼 역할</block>
+  <block id="460874c7c996eb6762b8a5b10ff2d76f" category="cell">책임을 집니다</block>
+  <block id="692fafcb7a4c1881280af40a80baa20d" category="inline-link-macro">조직 관리자</block>
+  <block id="35ccbb635b1465432c3a19f88cbf034c" category="cell"><block ref="35ccbb635b1465432c3a19f88cbf034c" category="inline-link-macro-rx"></block></block>
+  <block id="6d67156c2e45db37cd67283f29d6768d" category="cell">사용자가 조직 내의 모든 프로젝트 및 폴더에 제한 없이 액세스하고, 프로젝트 또는 폴더에 구성원을 추가하고, BlueXP  작업을 수행하고 모든 데이터 서비스를 사용할 수 있도록 합니다. 이 역할을 가진 사용자는 전체 BlueXP  환경을 구성하고 관리하는 업무를 담당합니다. 폴더 및 프로젝트를 만들고, 역할을 할당하고, 모든 프로젝트나 폴더에 사용자를 추가할 수 있습니다. 또한 조직 내의 모든 작업 환경을 관리할 수 있습니다. 이것은 커넥터를 만들 수 있는 유일한 액세스 역할입니다.</block>
+  <block id="7f2befb18aac1f714ed732d436d27957" category="cell"><block ref="7f2befb18aac1f714ed732d436d27957" category="inline-link-macro-rx"></block></block>
+  <block id="62263858ac3fcc39efab4f2c55c4b609" category="cell">사용자가 할당된 특정 프로젝트 및 폴더에 대해 무제한 액세스를 허용합니다. 는 자신이 관리하는 폴더나 프로젝트에 구성원을 추가할 수 있을 뿐만 아니라 BlueXP  작업을 수행하고 할당된 폴더 또는 프로젝트 내의 리소스에서 데이터 서비스 또는 응용 프로그램을 사용할 수 있습니다. 폴더 또는 프로젝트 관리 역할은 커넥터를 만들 수 없습니다.</block>
+  <block id="ee1afb77ea65d6282a6b2db5ef1c9599" category="cell">응용 프로그램 역할</block>
+  <block id="cfc1bf581403883b7597ea57212f92d0" category="cell"><block ref="cfc1bf581403883b7597ea57212f92d0" category="inline-link-macro-rx"></block></block>
+  <block id="ff7835459affd6ea09ace7258f1ea831" category="cell">Keystone 관리자 역할이 있는 사용자는 서비스 요청을 생성할 수 있습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다.</block>
+  <block id="eee920c46940781b9236f383eb481644" category="cell"><block ref="eee920c46940781b9236f383eb481644" category="inline-link-macro-rx"></block></block>
+  <block id="1457cd573aaf85c5528a52382534d843" category="cell">Keystone 뷰어 역할을 가진 사용자는 서비스를 요청할 수 없습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. / / / / /</block>
+  <block id="316bb1d5ed8c0cbdba665a6326ba1bde" category="inline-link-macro">스토리지 관리자</block>
+  <block id="1a137246f35bc1bb21510edbe9caad21" category="cell"><block ref="1a137246f35bc1bb21510edbe9caad21" category="inline-link-macro-rx"></block></block>
+  <block id="2c0951a9d6b056c060a4c61f7f245bf2" category="cell">스토리지 상태 및 거버넌스 기능을 관리하고, 스토리지 리소스를 검색하고, 기존 작업 환경을 수정 및 삭제합니다.</block>
+  <block id="1d63b1d397254c4d509474883c1cb2b9" category="inline-link-macro">스토리지 뷰어</block>
+  <block id="59f722e254214ae7991868e178f8311d" category="cell"><block ref="59f722e254214ae7991868e178f8311d" category="inline-link-macro-rx"></block></block>
+  <block id="7276a8e39254ac9c35a2e44a3d09f7ef" category="cell">스토리지 상태 및 거버넌스 기능을 확인하고 이전에 검색된 스토리지 리소스를 확인합니다. 기존 스토리지 작업 환경을 검색, 수정 또는 삭제할 수 없습니다.</block>
+  <block id="172d68d57647cf0cb58a3cbcac52a80d" category="inline-link-macro">시스템 상태 전문가</block>
+  <block id="92c9978d93758d2c0ddea09cb5842e0f" category="cell"><block ref="92c9978d93758d2c0ddea09cb5842e0f" category="inline-link-macro-rx"></block></block>
+  <block id="d5ce9b158c00a4469a72ebb1ff919ca7" category="cell">스토리지 및 상태 및 거버넌스 기능, 기존 작업 환경을 수정하거나 삭제할 수 없는 경우를 제외하고 스토리지 관리자의 모든 권한을 관리합니다. / / / / /</block>
+  <block id="f9e4f3681d11897d8d94c7430ef166b2" category="cell">데이터 서비스 역할입니다</block>
+  <block id="64ed34c845e9e3ebe96d95642bd80c2c" category="cell">분류 관리자</block>
+  <block id="951e833c91b111e3d8854609f6e22cd0" category="cell">BlueXP  분류 스캔 결과를 볼 수 있는 기능을 제공합니다. 분류에 뷰어 역할이 없습니다. 이 역할을 가진 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 리소스에 대한 보고서를 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마의 스캔을 활성화하거나 비활성화할 수 없습니다.</block>
+  <block id="d9662380e44d74fee971f8bcdbb998ba" category="cell"><block ref="d9662380e44d74fee971f8bcdbb998ba" category="inline-link-macro-rx"></block></block>
+  <block id="83dcec25bcd459aaca6d3bde03c5731a" category="cell">랜섬웨어 보호 서비스의 보호, 알림, 복구, 설정 및 보고서 탭에서 작업을 관리합니다.</block>
+  <block id="61e1bc1deec24a3ec686d90d9df2cf23" category="cell"><block ref="61e1bc1deec24a3ec686d90d9df2cf23" category="inline-link-macro-rx"></block></block>
+  <block id="c449660979799948a46372470a0eddb9" category="cell">랜섬웨어 차단 서비스에서 워크로드 데이터 보기, 경고 데이터 보기, 복구 데이터 다운로드, 보고서 다운로드</block>
+  <block id="7da7bcb3da6129c11bc8f0544e81beb1" category="paragraph">애플리케이션에 대한 BlueXP  백업 및 복구를 사용하여 온프레미스 ONTAP 클러스터의 스냅샷을 백업하는 기능을 제공합니다. 이 역할을 가진 구성원은 BlueXP 에서 다음 작업을 수행할 수 있습니다.</block>
+  <block id="720f5754e0beaeec96d607861fcee6d3" category="doc">BlueXP 의 랜섬웨어 차단 액세스 역할</block>
+  <block id="47ecf80e12db1325b5156ff3a7d35b15" category="paragraph">랜섬웨어 역할은 랜섬웨어 차단 서비스에 대한 액세스를 제공하도록 설계되었습니다. 사용자에게 랜섬웨어 방어에 대한 조치를 취할 수 있는 관리 역할을 할당하거나 모니터링 책임만 있는 경우 시청자 역할을 할당할 수 있습니다. 두 역할은 랜섬웨어 보호 관리자와 랜섬웨어 보호 뷰어입니다. 이 두 역할 간의 주된 차이점은 랜섬웨어 방어에서 취할 수 있는 조치입니다.</block>
+  <block id="318302fa87b47b527d51268d94db7ea6" category="doc">BlueXP 에 대한 스토리지 액세스 역할</block>
+  <block id="53105795a2d166c0331ae09564295071" category="paragraph">지원되는 스토리지 리소스와 연결된 BlueXP 의 스토리지 관리 기능에 대한 액세스 권한을 사용자에게 제공하기 위해 다음 역할을 할당할 수 있습니다. 사용자에게 스토리지 관리에서 조치를 취할 수 있는 관리 역할을 할당하거나 모니터링 책임만 있는 경우 뷰어 역할을 할당할 수 있습니다.</block>
+  <block id="09e3c84fe1afd5eaa9fc94f8638d3695" category="paragraph">다음 스토리지 리소스 및 기능에 대해 사용자에게 스토리지 역할을 할당할 수 있습니다.</block>
+  <block id="2074db110c64e6023c79b620df0670af" category="paragraph">스토리지 리소스:</block>
+  <block id="8961844857d18125fa7300df96ad4e94" category="paragraph">BlueXP  서비스 및 기능:</block>
+  <block id="7d4d3675a79561800c46dfdad71222a2" category="paragraph-title">BlueXP 의 스토리지 역할에 대한 예</block>
+  <block id="47f8970af0c44342a763bfde8e222e13" category="paragraph">XYZ Corporation은 다국적 기업이며 스토리지 엔지니어와 스토리지 관리자로 구성된 대규모 팀을 운영하고 있습니다. 이들은 이 팀이 해당 지역의 스토리지 자산을 관리할 수 있도록 하면서도 사용자 관리, 커넥터 생성 및 디지털 지갑과 같은 비용 관리 도구와 같은 핵심 BlueXP  관리 작업에 대한 액세스를 제한하고자 합니다.</block>
+  <block id="3917088f255e5877d39c6fe9da2e1f62" category="paragraph">12명으로 구성된 팀 내에서 두 명의 사용자에게 * 스토리지 뷰어 * 역할이 부여되어 할당된 BlueXP  프로젝트와 관련된 스토리지 리소스를 모니터링할 수 있습니다. 나머지 9개 항목에는 소프트웨어 업데이트 관리, BlueXP 를 통한 ONTAP 시스템 관리자 액세스, 스토리지 리소스 검색(작업 환경 추가) 기능이 포함된 * 스토리지 관리자 * 역할이 부여됩니다. 팀 구성원 중 한 명은 * 시스템 상태 전문가 * 역할을 맡아 해당 지역에서 스토리지 리소스의 상태를 관리할 수 있지만 작업 환경을 수정하거나 삭제할 수는 없습니다. 할당된 프로젝트의 스토리지 리소스에 대한 소프트웨어 업데이트를 수행할 수도 있습니다.</block>
+  <block id="31fd11b2048f5356558b9e26634e67ce" category="paragraph">조직에는 사용자 관리, 커넥터 생성 및 디지털 지갑과 같은 비용 관리 도구를 비롯한 BlueXP 의 모든 측면을 관리할 수 있는 * 조직 관리자 * 역할을 가진 두 명의 추가 사용자와 할당된 폴더 및 프로젝트에 대해 BlueXP  관리 작업을 수행할 수 있는 * 폴더 또는 프로젝트 관리자 * 역할을 가진 여러 사용자가 있습니다.</block>
+  <block id="294e40f9cc227c86e788ac8d546ddade" category="paragraph">다음 표에는 각 BlueXP  스토리지 역할이 수행할 수 있는 작업이 나와 있습니다.</block>
+  <block id="32d0b8cf78bc04242aed5ba6801818b6" category="cell">* 캔버스 *:</block>
+  <block id="eaef5d2ec844a2f5d6658bd86a05a85a" category="cell">새로운 리소스 검색(새로운 작업 환경 조성)</block>
+  <block id="65075797bf35acb1b1da033d464a2127" category="cell">검색된 리소스를 봅니다</block>
+  <block id="93b557fcf4dca896b9a77328a5ae0e92" category="cell">작업 환경을 삭제합니다</block>
+  <block id="c7b18a0b4f7adea3bae003772260030d" category="cell">작업 환경을 수정합니다</block>
+  <block id="a58bf8bc00d7951e76f88f0a279baa68" category="cell">* 커넥터 만들기 *</block>
+  <block id="8822cc008eedc76497bc19a6017e6e3c" category="cell">* 디지털 어드바이저 *</block>
+  <block id="eab210dd297eed7a23f02ae9ff070512" category="cell">모든 페이지 및 기능을 봅니다</block>
+  <block id="15f388beaad85e03ee21e73343d1f1e7" category="cell">* 디지털 지갑 *</block>
+  <block id="5c079e1551d5969c8a448104c556be58" category="cell">* 소프트웨어 업데이트 *</block>
+  <block id="f65dcc1f4a8bfacd0a2da1809fb7646a" category="cell">랜딩 페이지 및 권장사항 보기</block>
+  <block id="b578911d78bfaf1e75bbe69b0a471d0b" category="cell">잠재적인 버전 권장사항 및 주요 이점을 검토하십시오</block>
+  <block id="34153016d27f6bc08ca28afe350597f0" category="cell">클러스터의 업데이트 세부 정보를 봅니다</block>
+  <block id="b9632e5402da95a15f8096dffe8fe849" category="cell">사전 업데이트 확인을 실행하고 업그레이드 계획을 다운로드합니다</block>
+  <block id="26c438938da81386c731f3d387eda803" category="cell">소프트웨어 업데이트를 설치합니다</block>
+  <block id="faf3b0fdd74f34bfe5b5e712fd212952" category="cell">* 운영 복원력 *</block>
+  <block id="71dfe4aa697335a7f919f97a8273c0b2" category="cell">보안 위험 문제를 검토합니다</block>
+  <block id="0416203226164e8fc52087494d33b58d" category="cell">Ansible 플레이북 다운로드</block>
+  <block id="55ecbcc86c1df8e0bbccc58434b65675" category="cell">문제를 자동으로 해결합니다</block>
+  <block id="c7c10204d64df7a89f6234e58c752612" category="cell">* 경제적 효율성 *</block>
+  <block id="2dcdbb99022cfb6c4ef2bd327930b9d0" category="cell">용량 계획 상태를 검토합니다</block>
+  <block id="a9857843d1ca1e121ff59133f171d8cf" category="cell">다음 작업 선택(모범 사례, 등급)</block>
+  <block id="80b117d13aeb1c0337cca44c4f432522" category="cell">콜드 데이터를 클라우드 스토리지에 계층화하여 스토리지를 확보하십시오</block>
+  <block id="92232278439b322df2fe12388a374e65" category="cell">미리 알림을 설정합니다</block>
+  <block id="b028539b680706e70a20202f01750b69" category="cell">* 지속 가능성 *</block>
+  <block id="912c827ef07339a2dbfe984d27d383f4" category="cell">대시보드 및 권장 사항 보기</block>
+  <block id="7060312ff39606d1f6621f242cc6790b" category="cell">보고서 데이터를 다운로드합니다</block>
+  <block id="512234aa0dc7508aa0db235f9f41b384" category="cell">탄소 완화 비율을 편집합니다</block>
+  <block id="45ecf2d70851bc50cacb9f98bc2fea05" category="cell">권장 사항을 수정합니다</block>
+  <block id="7aea1a17c89c2ee783bd1fa5128e24a4" category="cell">권장 사항을 연기합니다</block>
+  <block id="6223d9366b08aab00344df4d74ae6ef3" category="cell">* 시스템 관리자 액세스 *</block>
+  <block id="27f3006d10a705c76accae9904ea16cd" category="cell">자격 증명을 입력할 수 있습니다</block>
+  <block id="3a8e375f86c81e7b283b9ee0db531e4d" category="cell">자격 증명 *</block>
+  <block id="1dc9c22149f4c0ef8e2fc6c49159dc73" category="cell">사용자 자격 증명</block>
+  <block id="6cf4eb09d2134609121513a507415999" category="doc">BlueXP 와 연결된 NSS 자격 증명을 관리합니다</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025년 5월 12일</block>
+  <block id="5f04b1505df8c3795b59e8cd4a8e01e3" category="sidebar">BlueXP  액세스 역할에 대해 알아보십시오</block>
+  <block id="35cbd88f43ce85ef7ed6866daa2c6066" category="sidebar">데이터 서비스 역할</block>
+  <block id="0310ff69ee2ad8b9fa1fbf2f23946a8e" category="sidebar">랜섬웨어 차단 역할</block>
 </blocks>
