@@ -46,19 +46,10 @@ NOTE: BlueXP 를 통해 Keystone에 액세스하는 것은 현재 베타 버전
 | 응용 프로그램 역할 | 책임을 집니다 
 
 
-| link:reference-iam-keystone-roles.html["Keystone 관리자"] | Keystone 관리자 역할이 있는 사용자는 서비스 요청을 생성할 수 있습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
+| link:reference-iam-keystone-roles.html["Keystone 관리자"^] | Keystone 관리자 역할이 있는 사용자는 서비스 요청을 생성할 수 있습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
 
 
-| link:reference-iam-keystone-roles.html["Keystone 뷰어"] | Keystone 뷰어 역할을 가진 사용자는 서비스를 요청할 수 없습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. / / / / / 
-
-
-| link:reference-iam-storage-roles.html["스토리지 관리자"] | 스토리지 상태 및 거버넌스 기능을 관리하고, 스토리지 리소스를 검색하고, 기존 작업 환경을 수정 및 삭제합니다. 
-
-
-| link:reference-iam-storage-roles.html["스토리지 뷰어"] | 스토리지 상태 및 거버넌스 기능을 확인하고 이전에 검색된 스토리지 리소스를 확인합니다. 기존 스토리지 작업 환경을 검색, 수정 또는 삭제할 수 없습니다. 
-
-
-| link:reference-iam-storage-roles.html["시스템 상태 전문가"] | 스토리지 및 상태 및 거버넌스 기능, 기존 작업 환경을 수정하거나 삭제할 수 없는 경우를 제외하고 스토리지 관리자의 모든 권한을 관리합니다. / / / / / 
+| link:reference-iam-keystone-roles.html["Keystone 뷰어"^] | Keystone 뷰어 역할을 가진 사용자는 서비스 요청을 생성할 수 없습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
 |===
 
 
