@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, connectors, bluexp, iam' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, connectors, bluexp, iam, notice' 
 summary: BlueXP  IAM, 커넥터, 클라우드 공급자 자격 증명 등 BlueXP  관리 기능의 새로운 기능에 대해 알아보십시오. 
 ---
 = 새로운 기능
