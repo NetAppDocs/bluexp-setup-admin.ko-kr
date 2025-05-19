@@ -12,6 +12,12 @@
 
 
 
+==== 이제 Connector 다운로드용 보안 엔드포인트가 백업 및 복구 및 랜섬웨어 방어에 대해 지원됩니다
+
+백업 및 복구 또는 랜섬웨어 보호를 사용 중인 경우 이제 Connector 다운로드에 보안 엔드포인트를 사용할 수 있습니다. link:https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#new-secure-endpoints-to-obtain-connector-images["Connector 다운로드용 보안 끝점에 대해 자세히 알아보십시오."^]
+
+
+
 === BlueXP  ID 및 액세스 관리(IAM)
 
 * 조직 관리자 또는 폴더 또는 프로젝트 관리자가 없는 사용자는 랜섬웨어 방어 역할을 할당해야 랜섬웨어 방지에 액세스할 수 있습니다. 사용자에게 랜섬웨어 차단 관리자 또는 랜섬웨어 차단 뷰어의 두 가지 역할 중 하나를 할당할 수 있습니다.
