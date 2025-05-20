@@ -41,10 +41,6 @@ link:https://www.netapp.com/pdf.html?item=/media/11887-patentspage.pdf["https://
 
 link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.com/company/legal/privacy-policy/"^]
 
-
-
-== 오픈 소스
-
-통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.
+42f8acba84cdae8f80e8f42b553af5a4
 
 link:media/notice.pdf["BlueXP에 대한 고지 사항"^]

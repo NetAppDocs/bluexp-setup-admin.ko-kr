@@ -31,6 +31,8 @@ Red Hat Enterprise Linux
 9.1 - 9.4
 
 8.6 - 8.10
+
+7.9
  a| 
 표준 모드 또는 제한 모드에서 BlueXP  사용 시 3.9.40 이상
  a| 

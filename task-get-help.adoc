@@ -11,158 +11,158 @@ summary: 'NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자
 
 
 [role="lead"]
-NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.
+7c5661ab6b39ee901cea00a6e7020a49
 
 
 
-== 클라우드 공급자의 파일 서비스에 대한 지원을 받습니다
+== 522cbb900314aeb84eb5a961c5f94672
 
-클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.
+f6185bb12f5e53c800be8cda7fbca65b
 
-* link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help["ONTAP용 Amazon FSx"^]
-* link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
-* link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/concept-cvs-gcp.html#getting-help["Google Cloud용 Cloud Volumes Service"^]
-
-
-BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.
+* 9d06990508d25d367d9158c6558eb9c8
+* 2e0c742f4616eb27b5b7646aa790edfe
+* cf14bff66a8b72d3675db8ffe0f02ee3
 
 
+3880ae5df9fdc4d0fc4a6d00a2239530
 
-== 자체 지원 옵션을 사용합니다
 
-이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.
 
-* 문서화
+== edd15fbeb7b2dffa163336ecd4f3e80c
+
+5e4b821a1a82558dead1ef6961e90666
+
+* 5b6cf869265c13af8566f192b4ab3d2a
 +
-현재 보고 있는 BlueXP 문서입니다.
+a4a6c2ea0078252eac2d74ef3e6c917c
 
-* https://kb.netapp.com/Cloud/BlueXP["기술 자료"^]
+* 942c9249796cf6b78c981ebf15195809
 +
-문제를 해결하는 데 도움이 되는 문서를 찾으려면 BlueXP 기술 자료를 검색하십시오.
+9a3db1abe5491d0eb9bb5d125981356c
 
-* http://community.netapp.com/["커뮤니티"^]
+* 410fdb9caa9c64da2ff3f88f4836960d
 +
-BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.
+00c5fef3bb9d593ae96bf5d2ee60354a
 
 
 
 
 
-== NetApp Support로 케이스 생성
+== d88bacf2a9fdcbbc844edcba97c34e30
 
-위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.
+82812db645b6ff5e9c2a24ddfb66c8d6
 
-.시작하기 전에
-* 케이스 생성 * 기능을 사용하려면 먼저 NetApp Support 사이트 자격 증명을 BlueXP 로그인에 연결해야 합니다. https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-user-credentials.html["BlueXP 로그인과 관련된 자격 증명을 관리하는 방법에 대해 알아봅니다"^].
-* 일련 번호가 있는 ONTAP 시스템의 케이스를 여는 경우 NSS 계정은 해당 시스템의 일련 번호와 연결되어 있어야 합니다.
+.8fece025a1a8fef7018449bf104a2527
+* e1d2e1a634647fd631081bc4f6f8e523
+* e49aa971c20ec071f1b5bbc3c7266769
 
 
 .단계
-. BlueXP에서 * 도움말 > 지원 * 을 선택합니다.
-. 리소스 * 페이지의 기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.
+. 7fe6981833e8fe7fd89e0a99a55573da
+. 08d96fdd1a845d80db99e6e1dffb8bc7
 +
-.. 전화로 통화하려면 * 전화 * 를 선택하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.
-.. NetApp 지원 전문가와 함께 티켓을 열려면 * 케이스 생성 * 을 선택하십시오.
+.. 6a1b74969231967ed071d465206b15c7
+.. d65a2a6fc9caad1867728d4382eeb989
 +
-*** * 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.
-*** * 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.
+*** d63bf50426f4c712554faec55b30c548
+*** 2e50c5f85523f0aba9ff2db10f18279c
 +
-작업 환경 목록은 서비스 상단 배너에서 선택한 BlueXP  조직(또는 계정), 프로젝트(또는 작업 영역) 및 커넥터 범위 내에 있습니다.
+98d90e398fc56688ddc647e5f49075ec
 
-*** * 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.
+*** e6f29fb3c7636dc0040600dd0e84bb79
 +
-이러한 우선 순위에 대한 자세한 내용을 보려면 필드 이름 옆에 있는 정보 아이콘 위로 마우스를 가져갑니다.
+835eb4008e97c2a7f69bbb2725285e34
 
-*** * 문제 설명 * : 해당 오류 메시지 또는 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공합니다.
-*** * 추가 이메일 주소 *: 다른 사람에게 이 문제를 알고자 할 경우 추가 이메일 주소를 입력하십시오.
-*** * 첨부 파일(선택 사항) *: 한 번에 하나씩 최대 5개의 첨부 파일을 업로드합니다.
+*** 0f7d9319c95a8be1492e74601c4b3259
+*** 002c6f26fb01affb37b8cf3cef7a1fb0
+*** c7f5c1a75acc58c6f004efc0ce1eba09
 +
-첨부 파일은 파일당 25MB로 제한됩니다. txt, log, pdf, jpg/jpeg, rtf, DOC/docx, xls/xlsx 및 CSV.
+bfa80e7aaad6da353b431bff3a0e12d6
 
 
 
 
 
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-create-case.png["NetApp Support로 케이스를 생성할 수 있는 케이스 생성 양식 스크린샷"]
+509259be6d5e15d8959f705cbe0cbcc1
 
 
 
 .작업을 마친 후
-지원 케이스 번호와 함께 팝업이 나타납니다. NetApp 지원 전문가가 귀사의 사례를 검토하고 곧 다시 연결해 드릴 것입니다.
+18f487556417bb6d9721a7005ae097c9
 
-지원 케이스 내역을 보려면 * 설정 > 타임라인 * 을 선택하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.
+0ff9b4b8684b9e03c9c1e1320935eae3
 
-케이스를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.
+5c56753585e89a84941bb3a78bc681af
 
-"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."
+a30f69ab0ec85d427a3e8835713525bd
 
-이 오류는 NSS 계정과 연결된 레코드 회사가 BlueXP 계정 일련 번호( 960xxxx) 또는 작동 환경 일련 번호 다음 옵션 중 하나를 사용하여 지원을 요청할 수 있습니다.
+c7b7a5ae9f37fd7d24e4d641b9186fe9
 
-* 제품 내 채팅을 사용합니다
-* 에서 비기술 케이스를 제출하십시오 https://mysupport.netapp.com/site/help[]
-
-
+* e01df0b4dfd95eba2c59333419e4fac6
+* 639be990cfca56ab4b63685d8bacd437
 
 
-== 지원 사례 관리(Preview)
+
+
+== 898e35e1a4bf4b025c3edec879439b08
 
 BlueXP에서 직접 활성 및 해결된 지원 사례를 보고 관리할 수 있습니다. NSS 계정 및 회사와 관련된 케이스를 관리할 수 있습니다.
 
-케이스 관리를 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.
+394ef093ad3259b9ff0fe7406f015b83
 
 다음 사항에 유의하십시오.
 
-* 페이지 상단의 케이스 관리 대시보드에서는 두 가지 보기를 제공합니다.
+* 5e4e7672ec2ba2b8a763da7f6714e212
 +
-** 왼쪽 보기에는 사용자가 제공한 NSS 계정으로 지난 3개월 동안 개설된 총 케이스가 표시됩니다.
-** 오른쪽 보기에는 사용자 NSS 계정을 기준으로 회사 수준에서 지난 3개월 동안 개설된 총 사례가 표시됩니다.
+** 01c3ffea552d74a5ae390b10e71a1f26
+** e3b6c09a5686233f72ce1ea60a1eb088
 
 
 +
-테이블의 결과에는 선택한 보기와 관련된 사례가 반영됩니다.
+b19b168cc8a2b8c984465e140256b3a2
 
-* 관심 있는 열을 추가 또는 제거할 수 있으며 우선 순위 및 상태 등의 열 내용을 필터링할 수 있습니다. 다른 열은 정렬 기능만 제공합니다.
+* 56dcadeee6b0e5c47a52673f9b5a0bb3
 +
-자세한 내용은 아래 단계를 참조하십시오.
+6f936762e1223311f031685422fcd3a4
 
-* 케이스 수준별로 케이스 메모를 업데이트하거나 아직 종결 또는 미결 종결 상태가 아닌 케이스를 종결할 수 있습니다.
+* b14929795a61440e9b4ec9f8a4885ae3
 
 
 .단계
-. BlueXP에서 * 도움말 > 지원 * 을 선택합니다.
-. Case Management * 를 선택하고 메시지가 표시되면 NSS 계정을 BlueXP에 추가합니다.
+. 7fe6981833e8fe7fd89e0a99a55573da
+. 0a4050ac39772e9281a9aba225254bf8
 +
-케이스 관리 * 페이지에는 BlueXP 사용자 계정과 연결된 NSS 계정과 관련된 미해결 케이스가 표시됩니다. NSS 관리 * 페이지 상단에 나타나는 것과 동일한 NSS 계정입니다.
+d8ce1865cf1fe3cffd60300b4b86ad63
 
-. 필요한 경우 테이블에 표시되는 정보를 수정합니다.
+. 2ae5ae78bdb2d222f15fd8e89248709c
 +
-** 조직의 케이스 * 에서 * 보기 * 를 선택하여 회사와 관련된 모든 케이스를 봅니다.
-** 정확한 날짜 범위를 선택하거나 다른 기간을 선택하여 날짜 범위를 수정합니다.
+** 1d39d3ab518e1e3f16cbafb2a56e1fd9
+** 059e856250b59be3069246887b74a23c
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-date-range.png["케이스 관리 페이지의 표 위에 있는 옵션 스크린샷으로 정확한 날짜 범위 또는 최근 7일, 30일 또는 3개월을 선택할 수 있습니다."]
+0972db30d942fdb65d1732e6e84bde99
 
-** 열의 내용을 필터링합니다.
+** a1bb576be9e5a356290f231efb51b3f5
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-filter.png["활성 또는 종료와 같은 특정 상태와 일치하는 케이스를 필터링할 수 있는 상태 열의 필터 옵션 스크린샷"]
+cb6a777dd3c6e43b0dc441d38519d219
 
-** 를 선택하여 테이블에 표시되는 열을 변경합니다 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png["테이블에 나타나는 더하기 아이콘입니다"] 표시할 열을 선택합니다.
+** cdf14d2156528231a5dbd12ad5c95d3f
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-columns.png["표에 표시할 수 있는 열을 보여 주는 스크린샷"]
+e65065c4fd326b9f3a1eeb9453c30d73
 
 
 
-. 를 선택하여 기존 케이스를 관리합니다 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png["표의 마지막 열에 세 개의 점이 있는 아이콘"] 사용 가능한 옵션 중 하나를 선택합니다.
+. 348552521b849746260fe8d296d34c15
 +
-** * 사례 보기 *: 특정 케이스에 대한 전체 세부 정보를 봅니다.
-** * 케이스 메모 업데이트 *: 문제에 대한 추가 세부 정보를 제공하거나 * 파일 업로드 * 를 선택하여 최대 5개의 파일을 첨부할 수 있습니다.
+** 6d9dd74e7709ef802d299966f7898f6b
+** 8e6b52a532a4fbbfc98dca3ebfa5f1e6
 +
-첨부 파일은 파일당 25MB로 제한됩니다. txt, log, pdf, jpg/jpeg, rtf, DOC/docx, xls/xlsx 및 CSV.
+bfa80e7aaad6da353b431bff3a0e12d6
 
-** * 케이스 종료 *: 케이스를 종료하는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 선택합니다.
+** bb6d5d351525342dd6b3cf4d15b6f298
 
 
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-actions.png["표의 마지막 열에서 메뉴를 선택한 후 수행할 수 있는 작업을 보여 주는 스크린샷"]
+2ea260929e27ffcb623c8aa35689bd18
 
 
