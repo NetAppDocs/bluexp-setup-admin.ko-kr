@@ -4,7 +4,7 @@ permalink: concept-connectors.html
 keywords: 'concept, connectors, learn about connectors, what are connectors, what is a connector, what"s a connector, days, 14 days, when is a connector required, connector supported locations, restricted mode, private mode, dark site, permissions, multiple connectors, disaster recovery' 
 summary: Connector는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. 데이터 인프라를 관리하기 위해 BlueXP에서 수행해야 하는 작업을 실행합니다. Connector는 수행해야 하는 작업에 대해 BlueXP SaaS 레이어를 지속적으로 폴링합니다. BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 모든 BlueXP 기능 및 서비스를 잠금 해제하려면 커넥터를 만들어야 합니다. 
 ---
-= 커넥터에 대해 자세히 알아보십시오
+= BlueXP  커넥터에 대해 알아봅니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -48,7 +48,7 @@ Azure NetApp Files를 설정하고 관리하는 데 커넥터가 필요하지 �
 사내 ONTAP 클러스터를 직접 검색하는 데는 커넥터가 필요하지 않지만 추가 BlueXP 기능을 사용하려면 커넥터가 필요합니다.
 
 +
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터를 위한 검색 및 관리 옵션에 대해 자세히 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터에 대한 검색 및 관리 옵션에 대해 자세히 알아보세요."^]
 
 * 소프트웨어 업데이트
 * 지속 가능성
@@ -90,7 +90,7 @@ BlueXP가 제한된 모드 또는 프라이빗 모드로 사용하려면 커넥�
 
 커넥터는 BlueXP 서비스 아키텍처의 기본 부분입니다. 관련 커넥터가 항상 가동, 작동 및 액세스 가능한지 확인하는 것은 귀하의 책임입니다. 이 서비스는 커넥터 가용성의 짧은 중단을 극복하도록 설계되었지만, 인프라 장애를 해결하기 위해 필요한 경우 즉각적인 조치를 취해야 합니다.
 
-이 문서는 EULA의 적용을 받습니다. 문서에 따라 제품을 작동하지 않는 경우 제품의 기능 및 작동, EULA에 따른 사용자의 권리에 부정적인 영향을 미칠 수 있습니다.
+이 문서는 EULA의 적용을 받습니다. 설명서에 따라 제품을 작동하지 않을 경우, 제품의 기능 및 작동, 그리고 EULA에 따른 귀하의 권리에 부정적인 영향을 미칠 수 있습니다.
 
 
 
@@ -114,7 +114,7 @@ Google Cloud에서 BlueXP 서비스를 사용하려면 Google Cloud에서 실행
 
 == 클라우드 공급자와 커뮤니케이션
 
-Connector는 AWS, Azure 및 Google Cloud와의 모든 통신에 TLS 1.2를 사용합니다.
+Connector는 AWS, Azure 및 Google Cloud와의 모든 통신에 TLS 1.3를 사용합니다.
 
 
 
@@ -126,9 +126,9 @@ link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"].
 
 
 
-== 커넥터 작성 방법
+== 커넥터를 설치하는 방법
 
-BlueXP 에서 직접 커넥터를 만들거나, 클라우드 공급자의 마켓플레이스에서 직접 만들거나, 자신의 Linux 호스트에 소프트웨어를 수동으로 설치할 수 있습니다. 표준 모드, 제한 모드 또는 비공개 모드에서 BlueXP를 사용하고 있는지 여부에 따라 시작 방법이 달라집니다.
+BlueXP에서 직접 커넥터를 설치하거나, 클라우드 공급업체의 마켓플레이스를 이용하거나, 직접 Linux 호스트에 소프트웨어를 수동으로 설치할 수 있습니다. 표준 모드, 제한 모드 또는 비공개 모드에서 BlueXP를 사용하고 있는지 여부에 따라 시작 방법이 달라집니다.
 
 * link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"]
 * link:task-quick-start-standard-mode.html["표준 모드에서 BlueXP를 시작하십시오"]
@@ -151,7 +151,7 @@ BlueXP에서 직접 Connector를 만들려면 특정 권한이 필요하며 Conn
 ** link:concept-install-options-aws.html["AWS의 커넥터 설치 옵션"]
 ** link:concept-install-options-azure.html["Azure의 커넥터 설치 옵션"]
 ** link:concept-install-options-google.html["Google Cloud의 커넥터 설치 옵션"]
-** link:task-install-connector-on-prem.html#step-4-set-up-cloud-permissions["온프레미스 구축을 위한 클라우드 권한 설정"]
+** link:task-install-connector-on-prem.html#step-4-set-up-cloud-permissions["온프레미스 배포에 대한 클라우드 권한 설정"]
 
 
 * link:task-prepare-restricted-mode.html#step-6-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]
@@ -201,6 +201,6 @@ Connector VM을 중지했다가 시작해야 하는 경우 클라우드 공급�
 
 다음은 몇 가지 예입니다.
 
-* 다중 클라우드 환경(예: AWS 및 Azure)이 있고 AWS에 커넥터 1개와 Azure에 커넥터 1개가 있는 것을 선호합니다. 각 는 이러한 환경에서 실행되는 Cloud Volumes ONTAP 시스템을 관리합니다.
+* 멀티클라우드 환경(예: AWS와 Azure)이 있고 AWS에 하나의 커넥터를 두고 Azure에 다른 커넥터를 두는 것을 선호합니다. 각 는 이러한 환경에서 실행되는 Cloud Volumes ONTAP 시스템을 관리합니다.
 * 서비스 공급자는 하나의 BlueXP  조직을 사용하여 고객에게 서비스를 제공하고 다른 조직을 사용하여 하나의 사업부에 대한 재해 복구를 제공할 수 있습니다. 각 조직에는 별도의 커넥터가 있습니다.
 

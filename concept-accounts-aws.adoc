@@ -131,7 +131,7 @@ link:task-adding-aws-accounts.html#subscribe["AWS 구독을 연결하는 방법�
 
 
 
-=== 마켓플레이스 배포 및 온프레미스 배포에 자격 증명이 어떻게 작동합니까?
+=== 마켓플레이스 배포와 온프레미스 배포에서 자격 증명은 어떻게 작동합니까?
 
 위 섹션에서는 BlueXP의 커넥터에 권장되는 배포 방법에 대해 설명합니다. AWS Marketplace에서 Connector를 AWS에 구축할 수도 있고, 자신의 Linux 호스트에 Connector 소프트웨어를 수동으로 설치할 수도 있습니다.
 
@@ -144,7 +144,7 @@ Marketplace를 사용하는 경우 사용 권한이 동일한 방식으로 제�
 * 표준 모드
 +
 ** link:task-install-connector-aws-marketplace.html#step-2-set-up-aws-permissions["AWS Marketplace 구축에 대한 사용 권한을 설정합니다"]
-** link:task-install-connector-on-prem.html#step-4-set-up-cloud-permissions["온프레미스 배포에 대한 권한을 설정합니다"]
+** link:task-install-connector-on-prem.html#step-4-set-up-cloud-permissions["온프레미스 배포에 대한 권한 설정"]
 
 
 * link:task-prepare-restricted-mode.html#step-6-prepare-cloud-permissions["제한된 모드에 대한 권한을 설정합니다"]

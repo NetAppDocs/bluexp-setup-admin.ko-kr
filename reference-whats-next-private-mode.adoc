@@ -20,7 +20,7 @@ summary: 비공개 모드에서 BlueXP를 시작하고 실행한 후 비공개 �
 
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["사내 ONTAP 클러스터에 대해 알아보십시오"^]
 * https://docs.netapp.com/us-en/bluexp-software-updates/index.html["소프트웨어 업데이트를 관리합니다"^]
-* https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-dark-site.html["BlueXP 분류를 사용하여 온프레미스 ONTAP 볼륨 데이터를 스캔합니다"^]
+* https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-dark-site.html["BlueXP 분류를 사용하여 온프레미스 ONTAP 볼륨 데이터 스캔"^]
 * https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["디지털 지갑으로 라이센스 사용을 모니터링합니다"^]
 * https://docs.netapp.com/us-en/active-iq/index.html["디지털 어드바이저를 통해 스토리지 상태 정보 보기"^]
 

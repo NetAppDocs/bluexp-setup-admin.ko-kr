@@ -221,7 +221,7 @@ sidebar:
         url: "/reference-ports-azure.html"
       - title: Google Cloud의 커넥터 방화벽 규칙
         url: "/reference-ports-gcp.html"
-      - title: 사내 커넥터용 포트
+      - title: 온프레미스 커넥터용 포트
         url: "/reference-ports-on-prem.html"
   - title: 지식 및 지원
     entries:
