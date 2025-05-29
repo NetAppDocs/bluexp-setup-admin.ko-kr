@@ -13,7 +13,7 @@ summary: 조직의 구성원이 다른 프로젝트에서 커넥터를 사용해
 :imagesdir: ./media/
 
 
- \When an _Organization admin_ creates a Connector, BlueXP automatically associates that Connector with the organization and the currently selected project. The _Organization admin_ automatically has access to that Connector from anywhere in the organization. Other members in your organization can only access that Connector from the project in which it was created, unless you associate that Connector with other projects from BlueXP identity and access management (IAM).
+ When an _Organization admin_ creates a Connector, BlueXP automatically associates that Connector with the organization and the currently selected project. The _Organization admin_ automatically has access to that Connector from anywhere in the organization. Other members in your organization can only access that Connector from the project in which it was created, unless you associate that Connector with other projects from BlueXP identity and access management (IAM).
 .시작하기 전에
 커넥터 연결이 작동하는 방식을 이해해야 합니다. link:concept-identity-and-access-management.html#associate-connectors["BlueXP  IAM에서 커넥터를 사용하는 방법에 대해 알아봅니다"]..
 

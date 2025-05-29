@@ -94,14 +94,6 @@ BlueXP가 제한된 모드 또는 프라이빗 모드로 사용하려면 커넥�
 
 
 
-=== Cloud Volumes ONTAP에 미치는 영향
-
-커넥터는 Cloud Volumes ONTAP의 상태 및 작동에 있어 중요한 구성요소입니다. 커넥터가 꺼져 있는 경우, Cloud Volumes ONTAP PAYGO 시스템 및 용량 기반 BYOL 시스템은 커넥터와 14일 이상 통신이 두절 이상 끊긴 후 종료됩니다. 이는 Connector가 매일 시스템의 라이센스를 갱신하기 때문에 발생합니다.
-
-Cloud Volumes ONTAP 시스템에 노드 기반 BYOL 라이센스가 있는 경우 Cloud Volumes ONTAP 시스템에 라이센스가 설치되므로 시스템이 14일 후에도 계속 실행됩니다.
-
-
-
 == 지원되는 위치
 
 커넥터는 다음 위치에서 지원됩니다.

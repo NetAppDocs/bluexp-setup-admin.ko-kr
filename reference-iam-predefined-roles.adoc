@@ -4,7 +4,7 @@ permalink: reference-iam-predefined-roles.html
 keywords: predefined roles, iam roles, organization admin, folder or project admin, classification viewer, snapcenter admin, role, iam role, admin, iam, identity and access management 
 summary: BlueXP  ID 및 액세스 관리에는 조직의 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다. 
 ---
-= BlueXP  액세스 역할
+= BlueXP  액세스 역할에 대해 알아보십시오
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -20,17 +20,17 @@ BlueXP  IAM(ID 및 액세스 관리)에는 리소스 계층 구조의 다양한
 
 == 플랫폼 역할
 
-플랫폼 역할은 사용자에게 할당할 수 있는 가장 광범위한 역할이며 역할 할당 및 사용자 추가를 포함하여 BlueXP 관리에 대한 모든 권한을 허용할 수 있습니다. 플랫폼 역할을 가진 사용자는 BlueXP  내의 모든 데이터 서비스와 애플리케이션에 액세스할 수 있습니다. BlueXP  IAM에는 조직 관리자 및 폴더 또는 프로젝트 관리자의 두 가지 플랫폼 역할이 포함되어 있습니다. 두 BlueXP  IAM 플랫폼 역할의 주된 차이점은 범위입니다.
+플랫폼 역할은 사용자에게 할당할 수 있는 가장 광범위한 역할이며 역할 할당 및 사용자 추가를 포함하여 BlueXP 관리에 대한 모든 권한을 허용할 수 있습니다. 플랫폼 역할을 가진 사용자는 BlueXP  내의 모든 데이터 서비스와 애플리케이션에 액세스할 수 있습니다. BlueXP IAM에는 조직 관리자와 폴더 또는 프로젝트 관리자라는 두 가지 플랫폼 역할이 포함됩니다. 두 BlueXP  IAM 플랫폼 역할의 주된 차이점은 범위입니다.
 
 [cols="1,2"]
 |===
 | 플랫폼 역할 | 책임을 집니다 
 
 
-| link:reference-iam-platform-roles.html["조직 관리자"^] | 사용자가 조직 내의 모든 프로젝트 및 폴더에 제한 없이 액세스하고, 프로젝트 또는 폴더에 구성원을 추가하고, BlueXP  작업을 수행하고 모든 데이터 서비스를 사용할 수 있도록 합니다. 이 역할을 가진 사용자는 전체 BlueXP  환경을 구성하고 관리하는 업무를 담당합니다. 폴더 및 프로젝트를 만들고, 역할을 할당하고, 모든 프로젝트나 폴더에 사용자를 추가할 수 있습니다. 또한 조직 내의 모든 작업 환경을 관리할 수 있습니다. 이것은 커넥터를 만들 수 있는 유일한 액세스 역할입니다. 
+| link:reference-iam-platform-roles.html["조직 관리자"] | 사용자가 조직 내의 모든 프로젝트 및 폴더에 제한 없이 액세스하고, 프로젝트 또는 폴더에 구성원을 추가하고, BlueXP  작업을 수행하고 모든 데이터 서비스를 사용할 수 있도록 합니다. 이 역할을 가진 사용자는 전체 BlueXP  환경을 구성하고 관리하는 업무를 담당합니다. 폴더 및 프로젝트를 만들고, 역할을 할당하고, 모든 프로젝트나 폴더에 사용자를 추가할 수 있습니다. 또한 조직 내의 모든 작업 환경을 관리할 수 있습니다. 이것은 커넥터를 만들 수 있는 유일한 액세스 역할입니다. 
 
 
-| link:reference-iam-platform-roles.html["폴더 또는 프로젝트 관리자"^] | 사용자가 할당된 특정 프로젝트 및 폴더에 대해 무제한 액세스를 허용합니다. 는 자신이 관리하는 폴더나 프로젝트에 구성원을 추가할 수 있을 뿐만 아니라 BlueXP  작업을 수행하고 할당된 폴더 또는 프로젝트 내의 리소스에서 데이터 서비스 또는 응용 프로그램을 사용할 수 있습니다. 폴더 또는 프로젝트 관리 역할은 커넥터를 만들 수 없습니다. 
+| link:reference-iam-platform-roles.html["폴더 또는 프로젝트 관리자"] | 사용자가 할당된 특정 프로젝트 및 폴더에 대해 무제한 액세스를 허용합니다. 는 자신이 관리하는 폴더나 프로젝트에 구성원을 추가할 수 있을 뿐만 아니라 BlueXP  작업을 수행하고 할당된 폴더 또는 프로젝트 내의 리소스에서 데이터 서비스 또는 응용 프로그램을 사용할 수 있습니다. 폴더 또는 프로젝트 관리 역할은 커넥터를 만들 수 없습니다. 
 |===
 
 
@@ -46,10 +46,19 @@ NOTE: BlueXP 를 통해 Keystone에 액세스하는 것은 현재 베타 버전
 | 응용 프로그램 역할 | 책임을 집니다 
 
 
-| link:reference-iam-keystone-roles.html["Keystone 관리자"^] | Keystone 관리자 역할이 있는 사용자는 서비스 요청을 생성할 수 있습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
+| link:reference-iam-keystone-roles.html["Keystone 관리자"] | Keystone 관리자 역할이 있는 사용자는 서비스 요청을 생성할 수 있습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
 
 
-| link:reference-iam-keystone-roles.html["Keystone 뷰어"^] | Keystone 뷰어 역할을 가진 사용자는 서비스 요청을 생성할 수 없습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
+| link:reference-iam-keystone-roles.html["Keystone 뷰어"] | Keystone 뷰어 역할을 가진 사용자는 서비스 요청을 생성할 수 없습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
+
+
+| link:reference-iam-storage-roles.html["스토리지 관리자"] | 스토리지 상태 및 거버넌스 기능을 관리하고, 스토리지 리소스를 검색하고, 기존 작업 환경을 수정 및 삭제합니다. 
+
+
+| link:reference-iam-storage-roles.html["스토리지 뷰어"] | 스토리지 상태 및 거버넌스 기능을 확인하고 이전에 검색된 스토리지 리소스를 확인합니다. 기존 스토리지 작업 환경을 검색, 수정 또는 삭제할 수 없습니다. 
+
+
+| link:reference-iam-storage-roles.html["시스템 상태 전문가"] | 스토리지 및 상태 및 거버넌스 기능, 기존 작업 환경을 수정하거나 삭제할 수 없는 경우를 제외하고 스토리지 관리자의 모든 권한을 관리합니다. 
 |===
 
 
@@ -65,10 +74,10 @@ NOTE: BlueXP 를 통해 Keystone에 액세스하는 것은 현재 베타 버전
 | 분류 관리자 | BlueXP  분류 스캔 결과를 볼 수 있는 기능을 제공합니다. 분류에 뷰어 역할이 없습니다. 이 역할을 가진 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 리소스에 대한 보고서를 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마의 스캔을 활성화하거나 비활성화할 수 없습니다. 
 
 
-| link:reference-iam-ransomware-roles.html["랜섬웨어 차단 관리자"^] | 랜섬웨어 보호 서비스의 보호, 알림, 복구, 설정 및 보고서 탭에서 작업을 관리합니다. 
+| link:reference-iam-ransomware-roles.html["랜섬웨어 차단 관리자"] | 랜섬웨어 보호 서비스의 보호, 알림, 복구, 설정 및 보고서 탭에서 작업을 관리합니다. 
 
 
-| link:reference-iam-ransomware-roles.html["랜섬웨어 방어 뷰어"^] | 랜섬웨어 차단 서비스에서 워크로드 데이터 보기, 경고 데이터 보기, 복구 데이터 다운로드, 보고서 다운로드 
+| link:reference-iam-ransomware-roles.html["랜섬웨어 방어 뷰어"] | 랜섬웨어 차단 서비스에서 워크로드 데이터 보기, 경고 데이터 보기, 복구 데이터 다운로드, 보고서 다운로드 
 
 
 | SnapCenter 관리자  a| 

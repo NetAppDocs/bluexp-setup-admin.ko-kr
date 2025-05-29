@@ -139,6 +139,8 @@ sidebar:
           entries:
           - title: Keystone 역할
             url: "/reference-iam-keystone-roles.html"
+          - title: 스토리지 역할
+            url: "/reference-iam-storage.roles.html"
         - title: 데이터 서비스 역할
           entries:
           - title: 랜섬웨어 차단 역할
