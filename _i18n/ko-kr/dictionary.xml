@@ -175,8 +175,6 @@
   <block id="407c4e9fac86b98147da49acd4fa0d01" category="section-title">포트</block>
   <block id="b68600c18c6dd9598d4518bc4a3f2c90" category="list-text">HTTP(80) 및 HTTPS(443)는 드물게 사용되는 로컬 UI에 대한 액세스를 제공합니다.</block>
   <block id="a72a43431413f493c5087ab72327a680" category="list-text">SSH(22)는 문제 해결을 위해 호스트에 연결해야 하는 경우에만 필요합니다.</block>
-  <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link-macro">자세히 알아보기</block>
-  <block id="4a126f1568270f6124f9c053bf5a5b02" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="9cb3f4e3b2f30b874e967976f1105dcc" category="inline-link-macro-rx"></block>.</block>
   <block id="c49ff7d7009f9d4727b2b25afa496418" category="section-title">HTTPS 인증서를 설치합니다</block>
   <block id="bfad05e4d9a8b5fbc930a21d6b53cd7a" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * HTTPS 설정 * 을 선택합니다.</block>
   <block id="4d646a6e32f8084a095a674812f1fb31" category="list-text">HTTPS 설정 페이지에서 인증서 서명 요청(CSR)을 생성하거나 고유한 CA 서명 인증서를 설치하여 인증서를 설치합니다.</block>
@@ -2222,7 +2220,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="0919fa8ef252f518174a76feefbed72b" category="inline-link">ONTAP용 Amazon FSx에 대한 BlueXP 문서</block>
   <block id="4f75e9590de3cece316768ef4b82f1ed" category="paragraph">자세한 내용은 를 참조하십시오<block ref="c186ea5d7dffe196818c2e5a7f99ad62" category="inline-link-rx"></block></block>
   <block id="7061e8aac5780f13c42d7f3d3010b5c2" category="inline-link-macro">커넥터를 만드는 방법에 대해 알아봅니다</block>
-  <block id="4affaad75ff37743ed549d6641de07e8" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="ffb61fe647da5972e7e78ecadafdfb45" category="inline-link-macro-rx"></block>.</block>
   <block id="eceb74088d706d5484df6b70296f87ad" category="paragraph">계정 유형(AWS 키 또는 역할 담당)을 변경하거나, 이름을 편집하거나, 자격 증명(키 또는 ARN 역할)을 업데이트하여 BlueXP에서 AWS 자격 증명을 편집합니다.</block>
   <block id="608e5d2c6ae29eafd4acefb54d76730a" category="admonition">Connector 인스턴스와 연결된 인스턴스 프로파일의 자격 증명은 편집할 수 없습니다.</block>
   <block id="a53da898c0e5410eb934bcf693e8290e" category="admonition">Connector 인스턴스와 연결된 인스턴스 프로파일의 자격 증명은 삭제할 수 없습니다.</block>
@@ -3826,8 +3823,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="cd42e1c1af0a908f68d68ae6103b5c30" category="list-text">BlueXP  콘솔의 오른쪽 위에서&gt; * ID 및 액세스 관리 * 를 선택합니다<block ref="32173ab85f1c68a28384d1a40cf387db" category="inline-image-macro-rx" type="image"></block>.</block>
   <block id="898a5f7650c6f7bf6a01efe09c881973" category="list-text">커넥터 * 를 선택합니다.</block>
   <block id="efd7c600c956f9a4ecd581c9e8a5de04" category="list-text">테이블에서 연결할 연결선을 찾습니다.</block>
-  <block id="0e081d7aa898f932c4f244f1d41dd4df" category="paragraph">특정 연결선을 찾으려면 테이블 위에 있는 검색을 사용하고 자원 계층의 특정 부분을 선택하여 테이블 내용을 필터링할 수 있습니다.</block>
-  <block id="16b0f0c24bd4a14288344d064f0b09c2" category="list-text">커넥터가 연결된 폴더 및 프로젝트를 먼저 보려면 을 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 선택한 다음 * 세부 정보 보기 * 를 선택합니다.</block>
   <block id="a2884a208c64d00906f60b988f29dfd3" category="paragraph">BlueXP  커넥터가 연결된 폴더 및 프로젝트에 대한 세부 정보를 표시합니다.</block>
   <block id="7b0e84897f645e2241868699f64b6699" category="list-text">폴더 또는 프로젝트에 연결 * 을 선택합니다.</block>
   <block id="3ecb65defa4c1a5901512a34a0590820" category="list-text">폴더 또는 프로젝트를 선택한 다음 * 수락 * 을 선택합니다.</block>
@@ -3887,7 +3882,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="5506a3204ff4171234856af0ca0d34fd" category="list-text">폴더 또는 프로젝트에 대한 세부 정보를 제공합니다.</block>
   <block id="0ab63481584814b59197d796cfc5dc97" category="list-text">* 이름 및 위치 *: 이름을 입력하고 폴더 또는 프로젝트의 계층 구조에서 위치를 선택합니다. 폴더 또는 프로젝트는 조직 바로 아래 또는 폴더 내에 있을 수 있습니다.</block>
   <block id="f46059ba82cb53e4af025ce918760999" category="list-text">* 리소스 *: 이 폴더나 프로젝트와 연결할 자원을 선택합니다.</block>
-  <block id="217f7358d2ee319a9c814b539574d78d" category="paragraph">폴더 또는 프로젝트의 모체와 연결된 자원에서만 선택할 수 있습니다. 상위 항목이 조직인 경우 조직의 모든 리소스에서 선택할 수 있습니다. 상위 항목이 폴더인 경우 폴더와 연결된 리소스에서만 선택할 수 있습니다.</block>
   <block id="dc401be3adab60c813414832f0b97d88" category="inline-link-macro">자원을 폴더와 연결할 수 있는 경우에 대해 알아봅니다</block>
   <block id="d706c5ded100123a86d8602a03703158" category="paragraph"><block ref="114ceb4aae340f51ba021c40f504c25f" category="inline-link-macro-rx"></block>..</block>
   <block id="8bb3c5dc86a399d0babf2eb49831e5ec" category="list-text">* 액세스 *: 자원 계층에 이미 정의된 기존 권한을 기반으로 폴더 또는 프로젝트에 액세스할 수 있는 구성원을 봅니다.</block>
@@ -3912,7 +3906,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="883f9a97670aa2ea1a29d0163ef97be1" category="paragraph"><block ref="883f9a97670aa2ea1a29d0163ef97be1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c16f1c2a54634bdad6dee177f8131ef5" category="list-text">적용 * 을 선택합니다</block>
   <block id="19df46354fac1ffd06065f8388377f84" category="section-title">폴더 또는 프로젝트에 대한 구성원 액세스 권한을 수정합니다</block>
-  <block id="710dfcb474fc8ee49343c58686c8aded" category="paragraph">폴더 또는 프로젝트에 대한 구성원 액세스 권한을 수정하여 권한 구성원이 폴더 또는 프로젝트와 관련된 리소스에 액세스할 수 있도록 합니다.</block>
   <block id="904a2691210bbfe6dfc1b17db516d71c" category="list-text">구성원 액세스 수정:</block>
   <block id="b49630790a232696bd0f62fa51014e55" category="list-text">* 구성원 추가 *: 폴더 또는 프로젝트에 추가할 구성원을 선택하고 역할을 할당합니다.</block>
   <block id="a4f439c667db8a94e9e3159df300905d" category="list-text">* 구성원 역할 변경 *: 조직 관리자 이외의 역할을 가진 모든 구성원에 대해 기존 역할을 선택한 다음 새 역할을 선택합니다.</block>
@@ -4185,8 +4178,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="798eb88714cdc2034c3335c3a6c21193" category="list-text">조직 * 페이지에서 테이블의 프로젝트로 이동하고 을 선택합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="efb318f1d905ec45c96414554f0f7c18" category="paragraph">프로젝트 ID가 표시됩니다.</block>
   <block id="811c7706be3ba95d1d407ea18e420365" category="list-text">ID를 복사하려면 복사 버튼을 선택합니다.</block>
-  <block id="c5f7a94f7e361ce9dc993775dd14b3c1" category="inline-image-macro">프로젝트의 작업 메뉴를 선택하는 데 도움이 되는 프로젝트 ID를 보여 주는 폴더 및 프로젝트 테이블의 스크린샷</block>
-  <block id="c4c78a982626adb55fd316627b7b9909" category="paragraph"><block ref="c4c78a982626adb55fd316627b7b9909" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
   <block id="64a7a8a4f820d38dc5cedd70930717c0" category="doc">비공개 모드 해제(3.9.46)</block>
   <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">이제 에서 새 비공개 모드 릴리스를 다운로드할 수 있습니다<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
@@ -4335,11 +4326,9 @@ https://support.netapp.com 으로 문의하십시오
   <block id="98ab56b1913a765c1df746951483fcf9" category="paragraph">BlueXP 에 자격 증명을 이미 추가한 후 AWS Marketplace 구독을 구성할 수 있는 두 가지 시나리오가 있습니다.</block>
   <block id="5ae59f56e745767e7fb2cc05712fc6a6" category="list-text">처음에 BlueXP 에 자격 증명을 추가했을 때 구독을 구성하지 않았습니다.</block>
   <block id="1fa2cd673301895c14fbffad8568f063" category="list-text">AWS 자격 증명에 구성된 AWS Marketplace 구독을 변경하려고 합니다.</block>
-  <block id="992e95d72701e4be3c32c42f86ff8eb2" category="paragraph">조직의 자원 계층 구조 수준은 7단계로 내려갈 수 있습니다. 따라서 6단계까지 중첩된 폴더를 만들 수 있습니다. 마지막으로 중첩된 폴더에는 계층 구조의 일곱 번째 수준에 있는 프로젝트가 포함될 수 있습니다.</block>
   <block id="602717d0c1fbb3310698d48708d917bc" category="paragraph">다음 이미지는 조직의 리소스 계층 구조에 대한 최대 수준을 보여 줍니다.</block>
   <block id="7ef08e2a2795e0ebd33ca241791da34d" category="section-title">폴더 또는 프로젝트와 관련된 자원을 봅니다</block>
   <block id="b9cbaac63edb6628a694750d4f1ba083" category="list-text">편집 * 페이지에서 * 리소스 * 또는 * 액세스 * 섹션을 확장하여 선택한 폴더 또는 프로젝트에 대한 세부 정보를 볼 수 있습니다.</block>
-  <block id="c89793030e51a304fd86f478545c616e" category="paragraph">자원을 연결 또는 연결 해제하여 폴더 또는 프로젝트와 연결된 자원을 수정할 수 있습니다. 예를 들어 다른 팀에서 활용할 수 있는 작업 시간이 있는 자원을 다른 프로젝트에 연결할 수 있습니다. 자원을 폴더나 프로젝트에 연결하면 해당 폴더나 프로젝트에 대한 권한이 있는 조직 구성원이 연결된 자원에 액세스할 수 있습니다.</block>
   <block id="e3621d23b92254c73b3a713d227a66f5" category="section-title">폴더 또는 프로젝트와 관련된 구성원을 봅니다</block>
   <block id="2bd6967deb6b9eb3d79e794bad318fb4" category="list-text">편집 * 페이지에서 * 액세스 * 를 선택하여 선택한 폴더 또는 프로젝트에 액세스할 수 있는 구성원 목록을 봅니다.</block>
   <block id="d94261042140ed4ba051dbe4ecd2eeb1" category="paragraph">BlueXP  IAM(ID 및 액세스 관리)을 사용하여 구성원을 조직과 연결하는 경우 조직, 폴더 또는 프로젝트 수준에서 사용 권한을 제공합니다. 이러한 구성원이 적절한 자원에 액세스할 수 있는 권한을 갖도록 하려면 자원을 특정 프로젝트 및 폴더와 연결하여 조직의 자원 계층 구조를 관리해야 합니다. a_resource_은(는) BlueXP 이 이미 관리하고 있거나 알고 있는 스토리지 리소스입니다.</block>
@@ -4769,7 +4758,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="84d4352e42fd4f7ef347eca44f4f0a88" category="cell">2025년 1월 22일(버전 1.39)</block>
   <block id="b865a42d40947323c5392132a0cf5ae7" category="cell">로<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> 이동하여 1.39 릴리스에 포함된 변경 사항을 참조하십시오.</block>
   <block id="09d7c2dac047caa965175fead07159aa" category="cell">2025년 2월 21일</block>
-  <block id="c77472b3cb88175d9f673b4976ce643a" category="paragraph">상위 계층 수준(폴더 또는 조직 수준)에서 구성원 액세스 권한이 제공된 경우 하위 수준 폴더 또는 프로젝트를 볼 때 구성원 액세스 권한을 제거하거나 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 사용 권한을 업데이트해야 합니다. 또는 다음을 수행할 수 <block ref="2e250d63a19626cb0aeed14260bd2f59" category="inline-link-macro-rx"></block>있습니다.</block>
   <block id="e07d586e54fb2ecc1791d2d434436330" category="doc">BlueXP  구성원을 추가하고 권한을 관리합니다</block>
   <block id="f0b3d6677a212276d758f01224d831be" category="paragraph"><block ref="358dd7829c43f386bdd1bc16bf83b432" category="inline-link-macro-rx"></block>..</block>
   <block id="45fa36bab7b7452cfb911598ccd2d223" category="inline-link-macro">역할을 사용하여 BlueXP  리소스에 대한 액세스를 제어하는 방법을 알아보십시오.</block>
@@ -5133,4 +5121,24 @@ https://support.netapp.com 으로 문의하십시오
   <block id="ab244aa8ea93b8114e0cc9009af3f81b" category="list-text">이제 E-Series 및 StorageGRID와 같은 더 많은 온프레미스 스토리지 시스템을 관리할 수 있습니다.</block>
   <block id="036d3952a98988224205b6f039be487f" category="list-text"><block ref="036d3952a98988224205b6f039be487f" category="inline-link-rx"></block></block>
   <block id="6a3405f47013290acf99c18684c84269" category="list-text">이제 Cloud Tiering에서 검색되지 않은 온프레미스 ONTAP 클러스터가 있는 경우 표시되므로 이를 Cloud Manager에 추가하여 해당 클러스터에서 계층화 또는 기타 서비스를 활성화할 수 있습니다.</block>
+  <block id="5aac456da49390227897f1fa93e12f80" category="doc">비공개 모드 해제(3.9.52)</block>
+  <block id="3ad3533e2236195b0d2ff39cc302bac1" category="paragraph">3.9.52 릴리스에는 다음 BlueXP  구성 요소 및 서비스에 대한 업데이트가 포함되어 있습니다.</block>
+  <block id="918d08b069e4e8b9bd825945d099eff0" category="cell">3.9.52, 3.9.51</block>
+  <block id="d29240cb60727e796e55d4bf8ac33966" category="cell">로<block ref="291fbb881b3918f162f476bad9d0c478" category="inline-link-rx"></block> 이동하여 버전 3.9.52 및 3.9.50에 포함된 변경 사항을 참조하십시오.</block>
+  <block id="fb6bee0c273267d6fdde07008552b62f" category="cell">로 가다 <block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> 2025년 5월 릴리스에 포함된 변경 사항을 참조하세요.</block>
+  <block id="3e18ba454ff1bfb5aee5e5d425b20ea3" category="cell">2025년 5월 12일(버전 1.43)</block>
+  <block id="e604d3f0ea5a3e895506b1c61f048b4d" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="d6da137eb117a8b1a6fe744483bdf83d" category="inline-link-macro-rx"></block>..</block>
+  <block id="5b5ddc8c08b78e13543c02ee18a88455" category="paragraph">BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. <block ref="d6da137eb117a8b1a6fe744483bdf83d" category="inline-link-macro-rx"></block> .</block>
+  <block id="e049b2d97a8ed0a8d2e842c6e0c625b3" category="inline-image-macro">설정 아이콘</block>
+  <block id="1ffc44d5620a15f62b04c6a8580e783a" category="list-text">BlueXP  콘솔의 오른쪽 위에서&gt; * ID 및 액세스 관리 * 를 선택합니다<block ref="c0116accfefd0197a42c99a28533a02c" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="aa16286c48b235d2df04d578aeed8edb" category="paragraph">표 위의 검색을 사용하여 특정 커넥터를 찾거나 리소스 계층 구조별로 표를 필터링하세요.</block>
+  <block id="f53392d049b9dddff4ba55ad74c96588" category="inline-image-macro">세 개의 점이 있는 아이콘</block>
+  <block id="c16d0f9fc94c90341b26a5a3efda881c" category="list-text">커넥터에 연결된 폴더와 프로젝트를 보려면 다음을 선택하세요. <block ref="e85cc783c74f9ef35cfeeca99fcaf6f6" category="inline-image-macro-rx" type="image"></block> 그런 다음 *세부정보 보기*를 선택하세요.</block>
+  <block id="e91f37331347d046e8f84d619f57d7c8" category="paragraph">조직의 리소스 계층 구조는 최대 7개 수준으로 구성될 수 있으며, 중첩된 폴더는 6개 수준까지, 프로젝트는 7번째 수준까지 구성될 수 있습니다.</block>
+  <block id="8d7e1bfd65485e98b0f12b20edd6d4b2" category="paragraph">상위 폴더 또는 프로젝트와 연관된 리소스를 선택할 수 있습니다. 조직 상위에 대한 모든 리소스 또는 폴더 상위에 대한 폴더별 리소스를 선택할 수 있습니다.</block>
+  <block id="e6e4545a44f4062ee0d1ed5ca569ddc1" category="paragraph">시스템은 프로젝트 ID를 표시합니다.</block>
+  <block id="189b8907a7ab6c4c7b1ea92510e40d70" category="paragraph">폴더 또는 프로젝트에 대한 권한이 있는 멤버는 연관된 리소스에 액세스할 수 있습니다.</block>
+  <block id="838d404665efe77bad8374ea27c3b7ca" category="paragraph">올바른 멤버가 연관된 리소스에 액세스할 수 있도록 멤버 액세스를 수정합니다.</block>
+  <block id="a5adc30e4e36f3ae2a8e99ff0f19a490" category="paragraph">상위 계층에서 제공되는 멤버 접근 권한은 하위 계층에서 변경할 수 없습니다. 계층 구조의 해당 부분으로 전환하고 해당 위치에서 구성원의 사용 권한을 업데이트해야 합니다. 또는 다음을 수행할 수 <block ref="2e250d63a19626cb0aeed14260bd2f59" category="inline-link-macro-rx"></block>있습니다.</block>
+  <block id="1971cba9fca6bc598cf10a08dfb20cb6" category="section-title">2025년 5월 29일</block>
 </blocks>

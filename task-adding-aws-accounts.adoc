@@ -235,7 +235,7 @@ BlueXP 에 자격 증명을 이미 추가한 후 AWS Marketplace 구독을 구�
 
 
 .시작하기 전에
-BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. link:concept-connectors.html#how-to-create-a-connector["커넥터를 만드는 방법에 대해 알아봅니다"].
+BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. link:concept-connectors.html#connector-installation["커넥터를 만드는 방법에 대해 알아봅니다"]..
 
 다음 비디오는 AWS 마켓플레이스에서 BlueXP 을 구독하는 단계를 보여줍니다.
 
