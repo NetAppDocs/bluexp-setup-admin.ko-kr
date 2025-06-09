@@ -14,9 +14,9 @@ summary: BlueXP 콘솔을 위한 네트워킹을 준비하고, 계정을 등록 
 
 
 [role="lead"]
-BlueXP 콘솔을 위한 네트워킹을 준비하고, 계정을 등록 및 생성하고, 선택적으로 Connector를 생성하고, BlueXP를 구독하여 BlueXP를 표준 모드로 시작하십시오.
+BlueXP 콘솔을 위한 네트워킹을 준비하고, 가입하고 계정을 만들고, 선택적으로 커넥터를 만들고, NetApp Intelligent Services를 구독하여 표준 모드에서 BlueXP를 시작하세요.
 
-표준 모드에서 BlueXP는 웹 기반 콘솔에서 클라우드 서비스로 사용자에게 액세스할 수 있습니다. 시작하기 전에 및 에 대해 이해하고 있어야 link:concept-modes.html["배포 모드"] link:concept-connectors.html["커넥터"]합니다.
+표준 모드에서는 NetApp의 SaaS(Software-as-a-Service) 제품으로 호스팅되는 웹 기반 콘솔에 액세스합니다. 시작하기 전에 및 에 대해 이해하고 있어야 link:concept-modes.html["배포 모드"] link:concept-connectors.html["커넥터"]합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] link:reference-networking-saas-console.html["BlueXP 콘솔을 사용하기 위한 네트워킹을 준비합니다"]
 [role="quick-margin-para"]
@@ -24,7 +24,7 @@ BlueXP 콘솔에 액세스하는 컴퓨터는 몇 가지 관리 작업을 완료
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] link:task-sign-up-saas.html["등록하고 조직을 만드십시오"]
 [role="quick-margin-para"]
-로 https://console.bluexp.netapp.com["BlueXP 콘솔"^] 이동하여 가입합니다. BlueXP  조직을 만들 수 있는 옵션이 제공되지만 기존 조직에 초대된 경우에는 이 단계를 건너뛸 수 있습니다.
+로 https://console.bluexp.netapp.com["BlueXP 콘솔"^] 이동하여 가입합니다. 조직을 만들 수 있는 옵션이 제공되지만 기존 조직에 초대받은 경우 해당 단계를 건너뛸 수 있습니다.
 
 [role="quick-margin-para"]
 이 시점에서 로그인하면 디지털 어드바이저, ONTAP용 Amazon FSx, Azure NetApp Files 등과 같은 여러 BlueXP 서비스를 사용할 수 있습니다. link:concept-connectors.html["커넥터 없이 수행할 수 있는 작업을 알아보십시오"].
@@ -45,8 +45,8 @@ BlueXP를 시작하기 위해 커넥터가 필요하지 않지만 커넥터를 �
 
 
 [role="quick-margin-para"]
-BlueXP 서비스를 사용하여 Google Cloud에서 스토리지 및 데이터를 관리하려면 Connector가 Google Cloud에서 실행되고 있어야 합니다.
+NetApp Intelligent Data Services를 사용하여 Google Cloud의 스토리지와 데이터를 관리하려면 커넥터가 Google Cloud에서 실행 중이어야 합니다. NetApp의 Intelligent Data Services를 사용하여 Google Cloud의 스토리지와 데이터를 관리하려면 커넥터가 Google Cloud에서 실행 중이어야 합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] link:task-subscribe-standard-mode.html["BlueXP에 가입하십시오"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] link:task-subscribe-standard-mode.html["NetApp Intelligent Services 구독(선택 사항)"]
 [role="quick-margin-para"]
-클라우드 공급업체의 시장에서 BlueXP를 구독하여 시간당 요금(PAYGO)이나 연간 계약을 통해 BlueXP 서비스 비용을 지불하십시오.
+클라우드 공급업체 마켓플레이스에서 NetApp Intelligent Services를 구독하여 시간당 요금(PAYGO) 또는 연간 계약으로 데이터 서비스 비용을 지불하세요. NetApp Intelligent Services에는 백업 및 복구, Cloud Volumes ONTAP, 계층화, 랜섬웨어 방지, 재해 복구가 포함됩니다. 분류 기능은 추가 비용 없이 구독에 포함되어 있습니다.

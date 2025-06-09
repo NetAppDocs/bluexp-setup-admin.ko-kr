@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-adding-gcp-accounts.html 
 keywords: permissions, gcp, marketplace, gcp subscription, subscription, gcp marketplace, subscribe, data tiering, tiering, setup, requirements, account for data tiering, account for tiering, interoperable, interoperability, interoperable storage access keys, access keys 
-summary: 마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다. 
+summary: 마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 두 가지 작업을 모두 수행하면 마켓플레이스 구독을 사용하여 데이터 서비스 비용을 지불할 수 있습니다. 
 ---
 = BlueXP용 Google Cloud 자격 증명 및 구독을 관리합니다
 :hardbreaks:
@@ -14,18 +14,18 @@ summary: 마켓플레이스 가입을 연결하고 가입 프로세스를 해결
 
 
 [role="lead"]
-마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 이러한 두 가지 작업을 통해 마켓플레이스 가입을 통해 BlueXP 서비스 비용을 지불할 수 있습니다.
+마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 두 가지 작업을 모두 수행하면 마켓플레이스 구독을 사용하여 데이터 서비스 비용을 지불할 수 있습니다.
 
 
 
 == 마켓플레이스 구독을 Google Cloud 자격 증명과 연결합니다
 
-Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. 언제든지 이러한 자격 증명과 연결된 Google Cloud Marketplace 구독을 변경할 수 있습니다. 이 구독을 통해 선불 종량제 Cloud Volumes ONTAP 시스템을 생성하고 다른 BlueXP 서비스를 사용할 수 있습니다.
+Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. 언제든지 이러한 자격 증명과 연결된 Google Cloud Marketplace 구독을 변경할 수 있습니다. 구독하면 사용량에 따라 요금을 지불하는 Cloud Volumes ONTAP 시스템을 만들고 다른 데이터 서비스를 사용할 수 있습니다.
 
 현재 마켓플레이스 구독을 새 구독으로 교체하면 기존 Cloud Volumes ONTAP 작업 환경과 모든 새로운 작업 환경에 대한 마켓플레이스 구독이 변경됩니다.
 
 .단계
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
+. 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 *자격 증명*을 선택합니다.
 . 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 구독 구성 * 을 선택합니다. + 새 스크린샷 필요(TS) image:screenshot_gcp_add_subscription.png["기존 자격 증명 집합에 대한 작업 메뉴 스크린샷"]
 . 선택한 자격 증명으로 기존 구독을 구성하려면 드롭다운 목록에서 Google Cloud 프로젝트 및 구독을 선택한 다음 * 구성 * 을 선택합니다.
 +
@@ -37,7 +37,7 @@ image:screenshot_gcp_associate.gif["Google Cloud 자격 증명을 위해 선택�
 NOTE: 다음 단계를 완료하기 전에 Google Cloud 계정과 BlueXP 로그인에 Billing Admin 권한이 모두 있는지 확인하십시오.
 
 +
-.. 로 리디렉션된 후 https://console.cloud.google.com/marketplace/product/netapp-cloudmanager/cloud-manager["Google Cloud 마켓플레이스의 NetApp BlueXP 페이지"^]상단 탐색 메뉴에서 올바른 프로젝트가 선택되어 있는지 확인합니다.
+.. 다음으로 리디렉션된 후  https://console.cloud.google.com/marketplace/product/netapp-cloudmanager/cloud-manager["Google Cloud Marketplace의 NetApp Intelligent Services 페이지"^] 상단 탐색 메뉴에서 올바른 프로젝트가 선택되었는지 확인하세요.
 +
 image:screenshot_gcp_cvo_marketplace.png["Google Cloud의 Cloud Volumes ONTAP 마켓플레이스 페이지 스크린샷"]
 
@@ -89,7 +89,7 @@ image:screenshot_gcp_associate.gif["구독 할당 페이지의 스크린샷."]
 
 == 마켓플레이스 가입 프로세스 문제 해결
 
-때로는 Google Cloud Marketplace를 통해 BlueXP를 구독하는 경우 권한이 잘못되거나 BlueXP 웹 사이트로 리디렉션되는 것을 실수로 수행하지 않기 때문에 조각화될 수 있습니다. 이 경우 다음 단계를 사용하여 구독 프로세스를 완료합니다.
+때로는 Google Cloud Marketplace를 통해 NetApp Intelligent Services를 구독하는 것이 잘못된 권한으로 인해 또는 실수로 BlueXP 웹사이트로 리디렉션되는 것을 따르지 않아 단편화될 수 있습니다. 이 경우 다음 단계를 사용하여 구독 프로세스를 완료합니다.
 
 .단계
 . 로 이동합니다 https://console.cloud.google.com/marketplace/product/netapp-cloudmanager/cloud-manager["Google Cloud 마켓플레이스의 NetApp BlueXP 페이지"^] 주문 상태를 확인합니다. 페이지에 * 공급자 * 에서 관리 * 가 표시되면 아래로 스크롤하여 * 주문 관리 * 를 선택합니다.

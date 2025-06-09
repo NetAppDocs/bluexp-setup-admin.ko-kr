@@ -14,7 +14,7 @@ summary: BlueXP에서 AWS 계정에 클라우드 리소스를 배포하고 관�
 
 
 [role="lead"]
-BlueXP에서 AWS 계정에 클라우드 리소스를 배포하고 관리하는 데 필요한 권한을 갖도록 AWS 자격 증명을 추가 및 관리합니다. 여러 AWS Marketplace 구독을 관리하는 경우 자격 증명 페이지에서 각 구독을 서로 다른 AWS 자격 증명에 할당할 수 있습니다.
+BlueXP에서 AWS 계정의 클라우드 리소스를 배포하고 관리할 수 있도록 AWS 자격 증명을 추가하고 관리하세요. 여러 AWS Marketplace 구독을 관리하는 경우 자격 증명 페이지에서 각 구독을 서로 다른 AWS 자격 증명에 할당할 수 있습니다.
 
 
 
@@ -24,7 +24,7 @@ BlueXP에서 AWS 계정에 클라우드 리소스를 배포하고 관리하는 �
 
 * 기존 커넥터에 AWS 자격 증명을 추가합니다
 +
-기존 Connector에 AWS 자격 증명을 추가하면 퍼블릭 클라우드 환경 내의 리소스 및 프로세스를 관리하는 데 필요한 권한이 제공됩니다. <<Connector에 추가 자격 증명을 추가합니다,Connector에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오>>.
+클라우드 환경의 리소스를 관리하려면 커넥터에 AWS 자격 증명을 추가하세요. <<Connector에 추가 자격 증명을 추가합니다,Connector에 AWS 자격 증명을 추가하는 방법에 대해 알아보십시오>>..
 
 * Connector 생성을 위해 BlueXP에 AWS 자격 증명을 추가합니다
 +
@@ -32,7 +32,7 @@ BlueXP에 새 AWS 자격 증명을 추가하면 BlueXP에서 커넥터를 생성
 
 * ONTAP용 FSx용 BlueXP에 AWS 자격 증명을 추가합니다
 +
-BlueXP에 새로운 AWS 자격 증명을 추가하면 ONTAP용 FSx를 생성 및 관리하는 데 필요한 권한이 BlueXP에 부여됩니다. https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["ONTAP용 FSx에 대한 사용 권한을 설정하는 방법에 대해 알아봅니다"^]
+BlueXP에 새로운 AWS 자격 증명을 추가하여 FSx for ONTAP을 생성하고 관리합니다.  https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["ONTAP용 FSx에 대한 사용 권한을 설정하는 방법에 대해 알아봅니다"^]
 
 
 
@@ -44,7 +44,7 @@ BlueXP를 사용하면 Connector 인스턴스와 연관된 IAM 역할, 신뢰할
 
 처음 두 가지 옵션을 사용할 경우 BlueXP는 AWS 보안 토큰 서비스를 사용하여 지속적으로 회전하는 임시 자격 증명을 얻습니다. 이 프로세스는 자동적이며 안전하기 때문에 가장 좋은 방법입니다.
 
-BlueXP에 AWS 액세스 키를 제공하는 경우 정기적으로 BlueXP에서 키를 업데이트하여 키를 회전해야 합니다. 이는 완전히 수동으로 진행되는 프로세스입니다.
+BlueXP에서 AWS 액세스 키를 정기적으로 업데이트하여 교체하세요. 이 프로세스는 수동으로 진행됩니다.
 
 
 
@@ -58,10 +58,10 @@ BlueXP를 처음 사용하는 경우 link:concept-accounts-aws.html["BlueXP에�
 
 === 권한을 부여합니다
 
-Connector에 AWS 자격 증명을 추가하기 전에 필요한 권한을 제공해야 합니다. 권한을 통해 BlueXP는 해당 AWS 계정 내의 리소스와 프로세스를 관리할 수 있습니다. 사용 권한을 제공하는 방법은 BlueXP에서 신뢰할 수 있는 계정 또는 AWS 키의 역할을 ARN으로 제공할지 여부에 따라 달라집니다.
+커넥터에 AWS 자격 증명을 추가하기 전에 필요한 권한을 제공하세요. 이 권한을 통해 커넥터는 해당 AWS 계정 내의 리소스와 프로세스를 관리할 수 있습니다. 신뢰할 수 있는 계정의 역할 ARN 또는 AWS 키를 사용하여 권한을 제공할 수 있습니다.
 
 
-NOTE: BlueXP에서 커넥터를 배포한 경우, BlueXP는 Connector를 배포한 계정에 대해 AWS 자격 증명을 자동으로 추가했습니다. AWS Marketplace에서 Connector를 배포했거나 기존 시스템에 Connector 소프트웨어를 수동으로 설치한 경우에는 이 초기 계정이 추가되지 않습니다. link:concept-accounts-aws.html["AWS 자격 증명 및 권한에 대해 알아보십시오"].
+NOTE: BlueXP에서 커넥터를 배포한 경우, BlueXP는 Connector를 배포한 계정에 대해 AWS 자격 증명을 자동으로 추가했습니다. 이를 통해 리소스 관리에 필요한 권한이 있는지 확인할 수 있습니다. link:concept-accounts-aws.html["AWS 자격 증명 및 권한에 대해 알아보십시오"]..
 
 * 선택 *
 
@@ -126,11 +126,11 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html["AW
 필요한 권한이 있는 AWS 계정을 제공한 후 해당 계정의 자격 증명을 기존 Connector에 추가할 수 있습니다. 이렇게 하면 동일한 커넥터를 사용하여 해당 계정에서 Cloud Volumes ONTAP 시스템을 시작할 수 있습니다.
 
 .시작하기 전에
-클라우드 공급자에서 이러한 자격 증명을 만든 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.
+클라우드 공급자에서 이러한 자격 증명을 만든 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. 몇 분간 기다린 후 자격 증명을 추가합니다.
 
 .단계
-. 현재 BlueXP에서 올바른 커넥터가 선택되어 있는지 확인합니다.
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
+. 상단 탐색 모음을 사용하여 자격 증명을 추가할 커넥터를 선택합니다.
+. 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 *자격 증명*을 선택합니다.
 +
 image:screenshot-settings-icon-organization.png["BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷."]
 
@@ -140,7 +140,7 @@ image:screenshot-settings-icon-organization.png["BlueXP 콘솔의 오른쪽 위�
 .. * 자격 증명 정의 *: 신뢰할 수 있는 IAM 역할의 ARN(Amazon Resource Name)을 제공하거나 AWS 액세스 키와 비밀 키를 입력합니다.
 .. * Marketplace 구독 *: 지금 가입하거나 기존 구독을 선택하여 마켓플레이스 구독을 이러한 자격 증명과 연결합니다.
 +
-PAYGO(시간별 비용) 또는 연간 계약으로 BlueXP 서비스에 대한 비용을 지불하려면 AWS Marketplace 구독과 AWS 자격 증명이 연결되어 있어야 합니다.
+시간당 요금(PAYGO) 또는 연간 계약으로 서비스 비용을 지불하려면 AWS 자격 증명을 AWS Marketplace 구독과 연결해야 합니다.
 
 .. * 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 선택합니다.
 
@@ -156,7 +156,7 @@ image:screenshot_accounts_switch_aws.png["세부 정보 및 amp;Credentials 페�
 
 == Connector 생성을 위해 BlueXP에 자격 증명을 추가합니다
 
-BlueXP에 Connector 생성에 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 BlueXP에 AWS 자격 증명을 추가합니다. 새 Connector를 만들 때 이러한 자격 증명을 선택할 수 있습니다.
+커넥터를 만드는 데 필요한 권한을 부여하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 추가합니다. 새 Connector를 만들 때 이러한 자격 증명을 선택할 수 있습니다.
 
 
 
@@ -210,9 +210,6 @@ image:screenshot-settings-icon-organization.png["BlueXP 콘솔의 오른쪽 위�
 
 
 
-.결과
-이제 새 커넥터를 만들 때 자격 증명을 사용할 수 있습니다.
-
 
 
 == ONTAP용 Amazon FSx용 BlueXP에 자격 증명을 추가합니다
@@ -223,11 +220,11 @@ image:screenshot-settings-icon-organization.png["BlueXP 콘솔의 오른쪽 위�
 
 == AWS 구독 구성
 
-AWS 자격 증명을 BlueXP 에 추가한 후에는 해당 자격 증명을 사용하여 AWS Marketplace 구독을 구성할 수 있습니다. 이 구독을 통해 PAYGO(hourly rate)로 Cloud Volumes ONTAP를 결제하거나 연간 계약을 통해 다른 BlueXP 서비스를 사용할 수 있습니다.
+AWS 자격 증명을 추가한 후 해당 자격 증명을 사용하여 AWS Marketplace 구독을 구성할 수 있습니다. 이 구독을 통해 Cloud Volumes ONTAP을 시간당 요금(PAYGO) 또는 연간 계약으로 결제하고, 다른 데이터 서비스 요금도 지불할 수 있습니다.
 
-BlueXP 에 자격 증명을 이미 추가한 후 AWS Marketplace 구독을 구성할 수 있는 두 가지 시나리오가 있습니다.
+자격 증명을 추가한 후에 AWS Marketplace 구독을 구성할 수 있는 시나리오는 두 가지가 있습니다.
 
-* 처음에 BlueXP 에 자격 증명을 추가했을 때 구독을 구성하지 않았습니다.
+* 처음 자격 증명을 추가할 때 구독을 구성하지 않았습니다.
 * AWS 자격 증명에 구성된 AWS Marketplace 구독을 변경하려고 합니다.
 +
 현재 마켓플레이스 구독을 새 구독으로 교체하면 기존 Cloud Volumes ONTAP 작업 환경과 모든 새로운 작업 환경에 대한 마켓플레이스 구독이 변경됩니다.
@@ -235,11 +232,11 @@ BlueXP 에 자격 증명을 이미 추가한 후 AWS Marketplace 구독을 구�
 
 
 .시작하기 전에
-BlueXP 설정을 변경하려면 먼저 커넥터를 만들어야 합니다. link:concept-connectors.html#connector-installation["커넥터를 만드는 방법에 대해 알아봅니다"]..
+구독을 구성하려면 먼저 커넥터를 만들어야 합니다. link:concept-connectors.html#connector-installation["커넥터를 만드는 방법에 대해 알아봅니다"]..
 
-다음 비디오는 AWS 마켓플레이스에서 BlueXP 을 구독하는 단계를 보여줍니다.
+다음 비디오는 AWS Marketplace에서 NetApp Intelligent Services를 구독하는 단계를 보여줍니다.
 
-.AWS 마켓플레이스에서 BlueXP를 구독하십시오
+.AWS Marketplace에서 NetApp Intelligent Services 구독
 video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
@@ -280,33 +277,33 @@ BlueXP 는 조직 또는 계정의 모든 자격 증명에 대한 기존 구독
 
 == 기존 구독을 조직 또는 계정에 연결합니다
 
-AWS 마켓플레이스에서 BlueXP 을 구독하는 경우 프로세스의 마지막 단계는 구독을 BlueXP  웹 사이트의 BlueXP  조직 또는 BlueXP  계정에 연결하는 것입니다. 이 단계를 완료하지 않은 경우 BlueXP  조직이나 계정에 구독을 사용할 수 없습니다.
+AWS Marketplace에서 구독하는 경우, 마지막 단계는 구독을 조직과 연결하는 것입니다. 이 단계를 완료하지 않으면 조직이나 계정에서 해당 구독을 사용할 수 없습니다.
 
 
-TIP: 표준 모드에서 BlueXP 를 사용하는 경우 BlueXP  IAM(Identity and Access Management)을 사용하여 관리하는 _BlueXP  조직_ 이 있습니다. 하지만 제한된 모드나 비공개 모드에서 BlueXP 를 사용하고 있다면 _ BlueXP  계정이 _ 됩니다.
+TIP: 표준 모드나 제한 모드를 사용하는 경우 _BlueXP 조직_이 생성되고, BlueXP ID 및 액세스 관리(IAM)를 사용하여 이를 관리합니다. 하지만 비공개 모드에서 BlueXP 를 사용하는 경우에는 _ BlueXP  계정이 있습니다.
 
 * link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"]
 * link:concept-identity-and-access-management.html["BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오"]
 * link:concept-netapp-accounts.html["BlueXP 계정에 대해 알아보십시오"]
 
 
-AWS 마켓플레이스에서 BlueXP를 구독했지만 구독과 계정을 연결하는 단계를 놓친 경우 아래 단계를 따르십시오.
+AWS Marketplace에서 NetApp 지능형 데이터 서비스를 구독했지만 구독을 계정과 연결하는 단계를 놓친 경우 아래 단계를 따르세요.
 
 .단계
-. BlueXP  디지털 지갑으로 이동하여 구독을 BlueXP  조직 또는 계정과 연결하지 않았는지 확인합니다.
+. 디지털 지갑으로 이동하여 구독을 BlueXP 조직이나 계정과 연결하지 않았는지 확인하세요.
 +
-.. BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
+.. 탐색 메뉴에서 *거버넌스 > 디지털 지갑*을 선택하세요.
 .. 구독 * 을 선택합니다.
-.. BlueXP 구독이 나타나지 않는지 확인합니다.
+.. 귀하의 구독이 나타나지 않는지 확인하세요.
 +
 현재 보고 있는 조직 또는 계정과 연결된 구독만 표시됩니다. 구독이 표시되지 않으면 다음 단계를 진행합니다.
 
 
 
 . AWS 콘솔에 로그인하고 * AWS Marketplace 구독 * 으로 이동합니다.
-. NetApp BlueXP 구독을 찾을 수 있습니다.
+. NetApp Intelligent Data Services 구독을 찾아보세요.
 +
-image:screenshot-aws-marketplace-bluexp-subscription.png["NetApp BlueXP 가입이 표시된 AWS 마켓플레이스의 스크린샷"]
+image:screenshot-aws-marketplace-bluexp-subscription.png["NetApp 구독을 보여주는 AWS Marketplace의 스크린샷입니다."]
 
 . 제품 설정 * 을 선택합니다.
 +
@@ -314,7 +311,7 @@ image:screenshot-aws-marketplace-bluexp-subscription.png["NetApp BlueXP 가입�
 
 . 계정 설정 * 을 선택합니다.
 +
-image:screenshot-aws-marketplace-set-up-account.png["페이지의 오른쪽 상단에 NetApp BlueXP 구독과 계정 설정 옵션이 표시된 AWS 마켓플레이스의 스크린샷"]
+image:screenshot-aws-marketplace-set-up-account.png["NetApp 구독과 페이지 오른쪽 상단에 나타나는 계정 설정 옵션을 보여주는 AWS Marketplace의 스크린샷입니다."]
 
 +
 netapp.com 의 * 구독 할당 * 페이지가 새 브라우저 탭 또는 창에 로드되어야 합니다.
@@ -337,16 +334,16 @@ image:screenshot-subscription-assignment.png["이 구독과 연결할 BlueXP 계
 
 
 
-. BlueXP  디지털 지갑으로 이동하여 구독이 BlueXP  조직 또는 계정과 연결되어 있는지 확인합니다.
+. 디지털 지갑으로 이동하여 구독이 귀하의 조직이나 계정과 연결되어 있는지 확인하세요.
 +
-.. BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
+.. 탐색 메뉴에서 *거버넌스 > 디지털 지갑*을 선택하세요.
 .. 구독 * 을 선택합니다.
-.. BlueXP 구독이 나타나는지 확인합니다.
+.. 구독이 표시되는지 확인하세요.
 
 
 . 구독이 AWS 자격 증명과 연결되어 있는지 확인합니다.
 +
-.. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
+.. 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 *자격 증명*을 선택합니다.
 .. 조직 자격 증명 * 또는 * 계정 자격 증명 * 페이지에서 구독이 AWS 자격 증명과 연결되어 있는지 확인합니다.
 +
 예를 들어,
@@ -362,13 +359,13 @@ image:screenshot-credentials-with-subscription.png["자격 증명과 연결된 �
 
 == 자격 증명을 편집합니다
 
-계정 유형(AWS 키 또는 역할 담당)을 변경하거나, 이름을 편집하거나, 자격 증명(키 또는 ARN 역할)을 업데이트하여 BlueXP에서 AWS 자격 증명을 편집합니다.
+계정 유형(AWS 키 또는 역할 가정)을 변경하거나, 이름을 편집하거나, 자격 증명 자체(키 또는 역할 ARN)를 업데이트하여 AWS 자격 증명을 편집합니다.
 
 
-TIP: Connector 인스턴스와 연결된 인스턴스 프로파일의 자격 증명은 편집할 수 없습니다.
+NOTE: 커넥터 인스턴스 또는 Amazon FSx for ONTAP 인스턴스와 연결된 인스턴스 프로필의 자격 증명은 편집할 수 없습니다.
 
 .단계
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
+. 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 *자격 증명*을 선택합니다.
 . 조직 자격 증명 * 또는 * 계정 자격 증명 * 페이지에서 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 자격 증명 편집 * 을 선택합니다.
 . 필요한 내용을 변경한 다음 * Apply * 를 선택합니다.
 
@@ -377,13 +374,13 @@ TIP: Connector 인스턴스와 연결된 인스턴스 프로파일의 자격 증
 
 == 자격 증명을 삭제합니다
 
-더 이상 자격 증명 세트가 필요하지 않으면 BlueXP에서 삭제할 수 있습니다. 작업 환경과 연결되지 않은 자격 증명만 삭제할 수 있습니다.
+더 이상 자격 증명이 필요하지 않으면 삭제할 수 있습니다. 작업 환경과 연결되지 않은 자격 증명만 삭제할 수 있습니다.
 
 
 TIP: Connector 인스턴스와 연결된 인스턴스 프로파일의 자격 증명은 삭제할 수 없습니다.
 
 .단계
-. BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.
+. 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 *자격 증명*을 선택합니다.
 . 조직 자격 증명 * 또는 * 계정 자격 증명 * 페이지에서 자격 증명 집합에 대한 작업 메뉴를 선택한 다음 * 자격 증명 삭제 * 를 선택합니다.
 . 삭제하려면 * 삭제 * 를 선택합니다.
 

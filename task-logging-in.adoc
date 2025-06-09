@@ -16,8 +16,6 @@ summary: BlueXP에 로그인하는 방법은 계정에 사용하는 BlueXP 구�
 [role="lead"]
 BlueXP에 로그인하는 방법은 계정에 사용하는 BlueXP 구축 모드에 따라 다릅니다.
 
-Connector에는 커넥터 호스트에서 액세스할 수 있는 로컬 UI가 포함되어 있습니다. 이 UI는 제한된 모드 또는 프라이빗 모드에서 BlueXP를 사용하는 고객을 위해 제공됩니다. 표준 모드에서 BlueXP를 사용하는 경우 에서 사용자 인터페이스에 액세스해야 합니다 https://console.bluexp.netapp.com/["BlueXP SaaS 콘솔"^]
-
 link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"].
 
 [role="tabbed-block"]

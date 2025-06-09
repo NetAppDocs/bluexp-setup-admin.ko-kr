@@ -1,0 +1,29 @@
+= 커넥터 3.9.53
+:allow-uri-read: 
+
+
+
+
+=== 커넥터 3.9.53
+
+이번 BlueXP 커넥터 릴리스에는 보안 개선 사항과 버그 수정이 포함되어 있습니다.
+
+현재 3.9.53 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.
+
+
+
+=== BlueXP  ID 및 액세스 관리(IAM)
+
+
+
+==== 멀티팩터 인증(MFA)
+
+페더레이션되지 않은 사용자는 이제 BlueXP 계정에 대해 다중 요소 인증(MFA)을 활성화하여 계정 보안을 강화할 수 있습니다. BlueXP 관리자는 사용자의 MFA 설정을 관리하고, 필요에 따라 개별 사용자의 MFA를 재설정하거나 비활성화할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#task-user-mfa["다중 요소 인증을 설정하는 방법에 대해 알아보세요."^] link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members.permission.html#manage-mfa["사용자의 다중 요소 인증 관리에 대해 알아보세요."^]
+
+
+
+=== 워크로드
+
+이제 BlueXP의 자격 증명 페이지에서 Amazon FSx for NetApp ONTAP 자격 증명을 보고 삭제할 수 있습니다.

@@ -17,7 +17,7 @@ summary: BlueXP  ID 및 액세스 관리는 조직의 구성원에게 할당할
 Keystone 역할을 통해 Keystone 대시보드에 액세스할 수 있으며 사용자가 Keystone 구독을 확인 및 관리할 수 있습니다. Keystone 역할에는 Keystone admin과 Keystone 뷰어의 두 가지가 있습니다. 두 역할의 주된 차이점은 Keystone에서 수행할 수 있는 조치입니다. Keystone 관리자 역할은 서비스 요청을 생성하거나 구독을 수정할 수 있는 유일한 역할입니다.
 
 .BlueXP 에서 Keystone 역할의 예
-XYZ Corporation에는 Keystone 구독 내에서 Keystone 구독에 대한 정보를 볼 수 있는 여러 부서의 스토리지 엔지니어 4명이 있습니다. 모든 사용자가 Keystone 구독을 모니터링해야 하지만 팀장만 서비스를 요청할 수 있습니다. 팀 구성원 중 3명에게 * Keystone 뷰어 * 역할이 부여되고, 팀 리더에게 * Keystone 관리자 * 역할이 부여되어 회사의 서비스 요청을 제어할 수 있습니다.
+XYZ Corporation에는 Keystone 구독 정보를 확인하는 여러 부서의 스토리지 엔지니어가 4명 있습니다. 모든 사용자가 Keystone 구독을 모니터링해야 하지만 팀장만 서비스를 요청할 수 있습니다. 팀 구성원 중 3명에게 * Keystone 뷰어 * 역할이 부여되고, 팀 리더에게 * Keystone 관리자 * 역할이 부여되어 회사의 서비스 요청을 제어할 수 있습니다.
 
 다음 표에는 각 Keystone 역할이 수행할 수 있는 작업이 나와 있습니다.
 

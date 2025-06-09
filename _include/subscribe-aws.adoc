@@ -2,9 +2,9 @@
 :allow-uri-read: 
 
 
-다음 비디오는 AWS 마켓플레이스에서 BlueXP 을 구독하는 단계를 보여줍니다.
+다음 비디오는 AWS Marketplace에서 NetApp Intelligent Services를 구독하는 단계를 보여줍니다.
 
-.AWS 마켓플레이스에서 BlueXP를 구독하십시오
+.AWS Marketplace에서 NetApp Intelligent Services 구독
 video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.

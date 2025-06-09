@@ -71,7 +71,7 @@ sidebar:
             url: "/task-install-connector-google-manual.html"
         - title: 온프레미스
           url: "/task-install-connector-on-prem.html"
-      - title: BlueXP에 가입하십시오
+      - title: NetApp Intelligent Services 구독
         url: "/task-subscribe-standard-mode.html"
       - title: 다음에 할 수 있는 일
         url: "/reference-whats-next.html"
@@ -83,7 +83,7 @@ sidebar:
         url: "/task-prepare-restricted-mode.html"
       - title: 커넥터를 배포합니다
         url: "/task-install-restricted-mode.html"
-      - title: BlueXP에 가입하십시오
+      - title: NetApp Intelligent Services 구독
         url: "/task-subscribe-restricted-mode.html"
       - title: 다음에 할 수 있는 일
         url: "/reference-whats-next-restricted-mode.html"
@@ -103,8 +103,12 @@ sidebar:
           url: "/task-managing-netapp-accounts.html"
       - title: 다음에 할 수 있는 일
         url: "/reference-whats-next-private-mode.html"
+  - title: BlueXP를 사용하세요
+    entries:
     - title: BlueXP에 로그인합니다
       url: "/task-logging-in.html"
+    - title: BlueXP 사용자 설정 관리
+      url: "/task-user-settings.html"
   - title: BlueXP 관리
     entries:
     - title: ID 및 액세스 관리
@@ -115,7 +119,7 @@ sidebar:
         url: "/task-iam-get-started.html"
       - title: 폴더와 프로젝트를 사용하여 자원을 구성합니다
         url: "/task-iam-manage-folders-projects.html"
-      - title: 구성원 및 서비스 계정을 추가합니다
+      - title: 회원 및 서비스 계정 관리
         url: "/task-iam-manage-members-permissions.html"
       - title: 역할을 사용하여 리소스에 대한 구성원 액세스를 제어합니다
         url: "/task-iam-manage-roles.html"
