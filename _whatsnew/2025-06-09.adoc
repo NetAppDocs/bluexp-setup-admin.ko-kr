@@ -20,7 +20,7 @@
 
 페더레이션되지 않은 사용자는 이제 BlueXP 계정에 대해 다중 요소 인증(MFA)을 활성화하여 계정 보안을 강화할 수 있습니다. BlueXP 관리자는 사용자의 MFA 설정을 관리하고, 필요에 따라 개별 사용자의 MFA를 재설정하거나 비활성화할 수 있습니다.
 
-link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#task-user-mfa["다중 요소 인증을 설정하는 방법에 대해 알아보세요."^] link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members.permission.html#manage-mfa["사용자의 다중 요소 인증 관리에 대해 알아보세요."^]
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#task-user-mfa["다중 요소 인증을 설정하는 방법에 대해 알아보세요."^] link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#manage-mfa["사용자의 다중 요소 인증 관리에 대해 알아보세요."^]
 
 
 
