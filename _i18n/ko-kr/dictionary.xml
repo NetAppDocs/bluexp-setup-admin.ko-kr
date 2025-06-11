@@ -4939,15 +4939,10 @@ https://support.netapp.com 으로 문의하십시오
   <block id="12cae065030aa4e0842692035a8202bd" category="inline-link">Google Cloud Marketplace의 NetApp Intelligent Services 페이지</block>
   <block id="6e7edd679a9a95191eb6b90ce6943fe5" category="list-text">다음으로 리디렉션된 후 <block ref="e3f48af04aeab9b1f546df3c8b75ea2a" category="inline-link-rx"></block> 상단 탐색 메뉴에서 올바른 프로젝트가 선택되었는지 확인하세요.</block>
   <block id="d46543c7114457c380d6e75a76c470af" category="paragraph">클라우드 공급업체의 마켓플레이스에서 NetApp Intelligent Services를 구독하면 시간당 요금(PAYGO) 또는 연간 계약을 통해 데이터 서비스 비용을 지불할 수 있습니다. NetApp(BYOL)에서 라이센스를 구입한 경우에도 마켓플레이스 제품을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
-  <block id="4f8b575844fe92cc4a57a5823b2c4c6f" category="paragraph">커넥터가 규정을 준수하지 않거나 14일 이상 중단된 경우에도 Cloud Volumes ONTAP 용량 기반 노드가 더 이상 종료되지 않습니다. Cloud Volumes ONTAP은 커넥터에 액세스할 수 없어도 이벤트 관리 메시지를 계속 전송합니다. 이 변경 사항은 커넥터가 장기간 다운되어도 Cloud Volumes ONTAP이 계속 작동할 수 있도록 하기 위한 것입니다. 커넥터의 규정 준수 요구 사항은 변경되지 않습니다.</block>
-  <block id="078afc7a02a9e486708bde9dd30391e7" category="paragraph">BlueXP IAM에서는 다음과 같은 새로운 기능을 사용할 수 있습니다.</block>
-  <block id="6b83d0ae16acd42e6178ac5dde77e977" category="section-title">로컬 사용자를 위한 다중 요소 인증(MFA)</block>
-  <block id="e79a1a29d1adbbfc3e2d52a916a22b07" category="paragraph">로컬 사용자(페더레이션되지 않고 NetApp 지원 사이트 계정과 연결되지 않은 사용자)는 다중 요소 인증을 활성화할 수 있습니다. 관리자는 사용자의 다중 요소 인증(MFA) 설정을 관리하여 필요에 따라 임시 비활성화 또는 제거할 수 있습니다.</block>
   <block id="e9bf07011be1831466ac0bf1bbfe1140" category="doc">커넥터 3.9.53</block>
   <block id="734a861d3d201b7a4e47067ddb5a7339" category="paragraph">이번 BlueXP 커넥터 릴리스에는 보안 개선 사항과 버그 수정이 포함되어 있습니다.</block>
   <block id="216b28cad63bed5c978cb116067bfc38" category="paragraph">현재 3.9.53 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="2519e52723b63d73b91fe9567002e2ad" category="section-title">멀티팩터 인증(MFA)</block>
-  <block id="35234ac77de9ce6dd39c6d724c620019" category="paragraph">페더레이션되지 않은 사용자는 이제 BlueXP 계정에 대해 다중 요소 인증(MFA)을 활성화하여 계정 보안을 강화할 수 있습니다. BlueXP 관리자는 사용자의 MFA 설정을 관리하고, 필요에 따라 개별 사용자의 MFA를 재설정하거나 비활성화할 수 있습니다.</block>
   <block id="9950fd493db1cd52e6769f96bf27cc78" category="inline-link-macro">다중 요소 인증을 설정하는 방법에 대해 알아보세요.</block>
   <block id="35084d885dea7b061e6894c1cf3036d9" category="section-title">워크로드</block>
   <block id="01537291f07f4eb50dc075e6b0282ce8" category="paragraph">이제 BlueXP의 자격 증명 페이지에서 Amazon FSx for NetApp ONTAP 자격 증명을 보고 삭제할 수 있습니다.</block>
@@ -5144,8 +5139,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="102e22f275df79c5a1dde1e8293216b7" category="sidebar">NetApp Intelligent Services 구독</block>
   <block id="60a6933aebf1c90a063b74167b72b65a" category="sidebar">BlueXP를 사용하세요</block>
   <block id="6055633e93e75f195e1ce7a98f705965" category="sidebar">회원 및 서비스 계정 관리</block>
-  <block id="09788a09cd40182e19bc9a2e7bfaa2ac" category="inline-link-macro">사용자의 다중 요소 인증 관리에 대해 알아보세요.</block>
-  <block id="b06421b9a95d9ca2cc843abf3c5edbe4" category="paragraph"><block ref="b5f93708cb2e7c8499feb8c2a3a457d0" category="inline-link-macro-rx"></block> <block ref="6e0396b4058b8ab3f91c2a62781d9fbc" category="inline-link-macro-rx"></block></block>
   <block id="b41bf2522840309de504df12a13b70d2" category="paragraph">NetApp 지원팀에서 귀하의 요청을 검토하고 처리해드리겠습니다.</block>
   <block id="fcad29f3a62024a218de540d2a955cdf" category="paragraph">ID 페더레이션을 설정하면 BlueXP의 인증 서비스 공급자(Auth0)와 사용자 고유의 ID 관리 공급자 간에 트러스트 연결이 만들어집니다.</block>
   <block id="d1d43f38caca7dedb941839c492f984b" category="list-text">Active Directory 페더레이션 서비스(AD FS)</block>
@@ -5214,4 +5207,10 @@ https://support.netapp.com 으로 문의하십시오
   <block id="62fb2f4eacb3d56ea8cb96e9b068426c" category="admonition">인증 앱이나 복구 코드에 액세스할 수 없는 경우 BlueXP 관리자에게 문의하여 MFA 구성을 재설정해야 합니다.</block>
   <block id="42f007f9f4877a6aa4543c5ae82e6e41" category="paragraph">조직 관리자에게 문의해야 하는 경우 BlueXP에서 직접 이메일을 보낼 수 있습니다. 관리자는 조직 내의 사용자 계정과 권한을 관리합니다.</block>
   <block id="f27f1ce6df3e2ec2518f77e8e1a4a531" category="section-title">2025년 6월 9일</block>
+  <block id="079da054a19d880b356cedc5deeaf9e3" category="paragraph">페더레이션되지 않은 사용자는 이제 BlueXP 계정에 대해 다중 요소 인증(MFA)을 활성화하여 계정 보안을 강화할 수 있습니다. BlueXP 관리자는 사용자의 MFA 설정을 관리하고, 필요에 따라 개별 사용자의 MFA를 재설정하거나 비활성화할 수 있습니다. 이 기능은 표준 모드에서만 지원됩니다.</block>
+  <block id="8b6178443fc25355a974613e3d6951b4" category="inline-link-macro">사용자를 위한 다중 요소 인증 관리에 대해 알아보세요.</block>
+  <block id="432ca61a502f036a7c9fe7850d55f376" category="paragraph"><block ref="b5f93708cb2e7c8499feb8c2a3a457d0" category="inline-link-macro-rx"></block> <block ref="1104a8a08c217b6a8c157f716ea4a98c" category="inline-link-macro-rx"></block></block>
+  <block id="1a504cebc3822fd967eb6426a7ff0a31" category="cell">다중 요소 인증</block>
+  <block id="812dbc1b1f1c0d72bc2c50e8ea107ab8" category="cell">로컬 사용자 사용 가능</block>
+  <block id="2d25c72c1b18e562f6654fff8e11711e" category="cell">사용할 수 없음</block>
 </blocks>
