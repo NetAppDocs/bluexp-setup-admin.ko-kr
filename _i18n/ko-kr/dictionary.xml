@@ -4941,7 +4941,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="d46543c7114457c380d6e75a76c470af" category="paragraph">클라우드 공급업체의 마켓플레이스에서 NetApp Intelligent Services를 구독하면 시간당 요금(PAYGO) 또는 연간 계약을 통해 데이터 서비스 비용을 지불할 수 있습니다. NetApp(BYOL)에서 라이센스를 구입한 경우에도 마켓플레이스 제품을 구독해야 합니다. 라이센스 비용이 항상 먼저 청구되지만 라이센스 용량을 초과하거나 라이센스 기간이 만료되면 시간당 요금이 부과됩니다.</block>
   <block id="e9bf07011be1831466ac0bf1bbfe1140" category="doc">커넥터 3.9.53</block>
   <block id="734a861d3d201b7a4e47067ddb5a7339" category="paragraph">이번 BlueXP 커넥터 릴리스에는 보안 개선 사항과 버그 수정이 포함되어 있습니다.</block>
-  <block id="216b28cad63bed5c978cb116067bfc38" category="paragraph">현재 3.9.53 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
   <block id="2519e52723b63d73b91fe9567002e2ad" category="section-title">멀티팩터 인증(MFA)</block>
   <block id="9950fd493db1cd52e6769f96bf27cc78" category="inline-link-macro">다중 요소 인증을 설정하는 방법에 대해 알아보세요.</block>
   <block id="35084d885dea7b061e6894c1cf3036d9" category="section-title">워크로드</block>
@@ -5213,4 +5212,11 @@ https://support.netapp.com 으로 문의하십시오
   <block id="1a504cebc3822fd967eb6426a7ff0a31" category="cell">다중 요소 인증</block>
   <block id="812dbc1b1f1c0d72bc2c50e8ea107ab8" category="cell">로컬 사용자 사용 가능</block>
   <block id="2d25c72c1b18e562f6654fff8e11711e" category="cell">사용할 수 없음</block>
+  <block id="33eba214b6723fe54975309f2fc419fe" category="paragraph">3.9.53 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
+  <block id="39615b94cc2fe576502275ed459d404b" category="section-title">디스크 공간 사용 알림</block>
+  <block id="0b6d76bd9d461e2dc31436ce64d71b70" category="paragraph">알림 센터에는 이제 커넥터의 디스크 공간 사용에 대한 알림이 포함되었습니다. <block ref="f731d1927408fd2f4c1db9e73951a633" category="inline-link-macro-rx"></block></block>
+  <block id="797f681b34046f4455905e56cb5d8cd4" category="section-title">디스크 공간 모니터링</block>
+  <block id="373df0df4c9bf458b635c60e6bd81875" category="inline-link-macro">NetApp 기술 자료 문서를 검토하세요</block>
+  <block id="2b081e4d7f5e73b0295cc7f384e9ef53" category="paragraph">BlueXP는 Connector VM의 디스크 공간이 부족할 때 알림을 제공합니다. 알림 센터에서 이러한 알림을 모니터링하거나 이메일 알림을 보내도록 설정하세요. 디스크 공간 문제 해결은 사용자의 책임입니다. <block ref="2f3ae1328a4e13fb2f2d9aa6f559f827" category="inline-link-macro-rx"></block>..</block>
+  <block id="b76919d8a6dd33b62b49a16ab1b560aa" category="paragraph"><block ref="b76919d8a6dd33b62b49a16ab1b560aa" category="inline-link-macro-rx"></block></block>
 </blocks>

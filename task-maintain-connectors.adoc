@@ -41,6 +41,14 @@ link:reference-connector-default-config.html["Connector의 기본 설정에 대�
 
 
 
+== 디스크 공간 모니터링
+
+BlueXP는 Connector VM의 디스크 공간이 부족할 때 알림을 제공합니다. 알림 센터에서 이러한 알림을 모니터링하거나 이메일 알림을 보내도록 설정하세요. 디스크 공간 문제 해결은 사용자의 책임입니다. link:ttps://kb.netapp.com/Cloud/BlueXP/Cloud_Manager/How_to_resolve_disk_space_issues_on_BlueXP_connector_VM["NetApp 기술 자료 문서를 검토하세요"^]..
+
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#notification-center["자세한 정보."^]
+
+
+
 == Connector VM 중지 및 시작
 
 Connector VM을 중지했다가 시작해야 하는 경우에는 클라우드 공급자의 콘솔에서 또는 온-프레미스 관리를 위한 표준 절차를 사용해야 합니다.
