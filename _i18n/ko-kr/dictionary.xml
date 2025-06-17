@@ -1891,7 +1891,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="3d1f92a565d3b1a61880236e33c49bf3" category="cell">타임라인</block>
   <block id="0486b07a3d352a89611f0005bff8bbd3" category="cell">이벤트 및 작업에 대한 상위 상태를 표시합니다</block>
   <block id="c32042b6c968f47ecb4422de1d828cb1" category="cell">추가 조사를 위한 각 이벤트 또는 조치에 대한 세부 정보를 제공합니다</block>
-  <block id="2ddcf1998aac047c3f06e0a1fcf978b5" category="cell">현재 로그인 세션의 상태를 표시합니다(로그오프 후 알림 센터에 정보가 표시되지 않음).</block>
   <block id="2fe85263c62b0b870277c30652459354" category="cell">지난 달의 상태를 유지합니다</block>
   <block id="b2d8a4e919485c2282a84ad3f4408095" category="cell">사용자 인터페이스에서 시작된 작업만 표시합니다</block>
   <block id="8c6775236733a876a2482bf9932cd018" category="cell">UI 또는 API의 모든 작업을 표시합니다</block>
@@ -1905,7 +1904,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="d59387ab05a2cbd005866b74628417a0" category="inline-image-macro">알림 센터의 현재 알림 목록을 보여 주는 스크린샷</block>
   <block id="e24c5199eee665d8e879dc72dc56c667" category="paragraph"><block ref="e24c5199eee665d8e879dc72dc56c667" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2a4be390687f80c7cdf976afca0fe778" category="section-title">알림 유형</block>
-  <block id="0ebfeb3212b9bb4b152ea82a5877a33b" category="paragraph">알림은 다음 범주로 분류됩니다.</block>
   <block id="9e89e978c220a2a733d027866cb12907" category="cell">알림 유형입니다</block>
   <block id="278d01e5af56273bae1bb99a98b370cd" category="cell">심각</block>
   <block id="0b68cecd3f3f6281c0b25a5c4847524e" category="cell">수정 조치를 즉시 취하지 않으면 서비스가 중단될 수 있는 문제가 발생했습니다.</block>
@@ -1938,7 +1936,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="5e56842d0cfbf695522e945a01570eba" category="paragraph"><block ref="5e56842d0cfbf695522e945a01570eba" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d7c731c9a7afeb038e27198fc653763a" category="list-text">이름, 이메일 주소를 입력하고 수신인이 수신할 알림 유형을 선택한 다음 * 새 수신자 추가 * 를 선택합니다.</block>
   <block id="f56df3affea06e9aeedc9830da1f0d91" category="section-title">알림을 닫습니다</block>
-  <block id="e438ae665566728a83af19e41ac9ac6d" category="paragraph">더 이상 알림을 볼 필요가 없는 경우 페이지에서 알림을 제거할 수 있습니다. 모든 알림을 한 번에 해제하거나 개별 알림을 해제할 수 있습니다.</block>
   <block id="61130fb01406e968937613de0add552f" category="inline-image-macro">세 개의 세로 점이 있는 아이콘</block>
   <block id="ca1c9774b98be72a0f55d88b3579e19c" category="inline-image-macro">설정을 선택하고 모든 옵션을 해제할 수 있는 알림 메뉴가 표시된 스크린샷</block>
   <block id="fd0bf9d17b691309acb1c6ef4b12bd43" category="paragraph">모든 알림을 해제하려면 알림 센터에서 을 선택합니다 <block ref="bfe50e4fac5e58634c6fb748dce94758" category="inline-image-macro-rx" type="image"></block> 를 선택하고 * 모두 해제 * 를 선택합니다.
@@ -1946,7 +1943,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="8e94ce578d759d7ee56ab163db1168d4" category="inline-image-macro">단일 알림을 닫는 방법을 보여 주는 스크린샷</block>
   <block id="f0347b571f6b77eac494a6f04226e225" category="paragraph">개별 알림을 해제하려면 알림 위에 커서를 놓고 * Dismiss * 를 선택합니다.
 <block ref="1932261efa358e221b5ec460a7384dc2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="322812be635bbd80fb94dbae450a00b4" category="paragraph">특정 작업을 수행한 사람을 확인해야 하거나 작업의 상태를 확인해야 하는 경우 시간 표시 막대를 확인하는 것이 도움이 됩니다.</block>
   <block id="1c03861f288d9b723fd929e611a6e8fd" category="summary">Azure 자격 증명을 추가 및 관리하여 BlueXP가 Azure 구독에서 클라우드 리소스를 배포하고 관리하는 데 필요한 권한을 갖도록 합니다. 여러 Azure Marketplace 구독을 관리하는 경우 자격 증명 페이지에서 각 구독을 서로 다른 Azure 자격 증명에 할당할 수 있습니다.</block>
   <block id="92a9c164b3357bd8694c8be608dc3d23" category="paragraph">Cloud Volumes ONTAP에 대해 여러 Azure 자격 증명 또는 여러 Azure 마켓플레이스 구독을 사용해야 하는 경우 이 페이지의 단계를 따릅니다.</block>
   <block id="67cbb61f9d12c71b3b67153567963530" category="paragraph">BlueXP에서 Azure 구독 및 자격 증명을 추가하는 방법에는 두 가지가 있습니다.</block>
@@ -2370,7 +2366,6 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="cb4a26e3cea7ec3938d93961d212ef39" category="list-text">다른 프로젝트의 리소스를 관리하려면 해당 프로젝트에 BlueXP 역할의 서비스 계정을 추가하여 액세스 권한을 부여합니다. 각 프로젝트에 대해 이 단계를 반복해야 합니다.</block>
   <block id="c063b725387c641804ed10699362a645" category="list-text">커넥터를 배포할 때 를 선택하라는 메시지가 나타납니다<block ref="98f22f2dda0728ebb39af9a8fe826c8e" category="inline-link-rx"></block> VM 인스턴스의 경우. BlueXP는 서비스 계정에서 Cloud Volumes ONTAP 시스템을 생성 및 관리하고 BlueXP 백업 및 복구를 사용하여 백업을 관리하는 권한을 얻습니다. 권한은 서비스 계정에 사용자 지정 역할을 첨부하여 제공됩니다.</block>
   <block id="4196d70b52fef46e6943a70842908897" category="paragraph">Cloud Volumes ONTAP에 대한 새 작업 환경을 생성하는 경우 BlueXP는 기본적으로 다음과 같은 Azure 자격 증명을 선택합니다.</block>
-  <block id="9704e328148ed91b7f98eb143244edd7" category="paragraph">알림은 BlueXP에서 시작한 작업의 진행 상황을 추적하므로 작업의 성공 여부를 확인할 수 있습니다. 이 기능을 사용하면 현재 로그인 세션 중에 시작한 여러 BlueXP 작업의 상태를 볼 수 있습니다. 현재 모든 BlueXP 서비스가 알림 센터에 정보를 보고하는 것은 아닙니다.</block>
   <block id="8efb4a247c34c0ca71ba217009352182" category="inline-xref">이메일 알림 설정을 지정합니다</block>
   <block id="b0689737e83154357ff9ef36053bda4f" category="paragraph">기본적으로 알림 센터에는 모든 활성 알림이 표시됩니다. 표시되는 알림을 필터링하여 중요한 알림만 표시할 수 있습니다. BlueXP "서비스" 및 "유형" 알림별로 필터링할 수 있습니다.</block>
   <block id="7fcffcce675dad706dbf53d68f1f86f2" category="paragraph">다른 모든 사용자와 수신자는 알림 이메일을 수신하지 않도록 구성되어 있으므로 추가 사용자에 대한 알림 설정을 구성해야 합니다.</block>
@@ -3895,12 +3890,10 @@ https://support.netapp.com 으로 문의하십시오
   <block id="a15dab64157b0024121a37b3726311bd" category="summary">사용자를 추가하고, 자동화를 위해 서비스 계정을 만들고, 작업 영역을 추가하는 등의 방법으로 BlueXP  계정을 관리합니다.</block>
   <block id="b89af40709c02abb8e0b01ae305dfd7f" category="summary">BlueXP가 수행하는 작업의 상태를 모니터링하여 해결해야 할 문제가 있는지 확인할 수 있습니다. 타임라인, 알림 센터에서 상태를 보거나 이메일로 알림을 보낼 수 있습니다.</block>
   <block id="57bee919903f0c92a41c5582519db779" category="doc">BlueXP  작업 모니터링</block>
-  <block id="5d4df6d8936b94b888789b2712dcb953" category="paragraph">다음 표에서는 각 타임라인과 알림 센터를 비교하여 각 타임라인이 제공하는 기능을 이해할 수 있습니다.</block>
   <block id="a7eb158a02fb55f7c66bb86081e76732" category="cell">사용자 및 다른 사람에게 알림을 전자 메일로 보내는 기능을 제공합니다</block>
   <block id="5059f2db2465d7555c44d131a23b2fdb" category="section-title">BlueXP  타임라인에서 사용자 활동 감사</block>
   <block id="e8bcacc75837d7d116d27b0912ef8827" category="list-text">테이블 위에 있는 필터를 사용하여 테이블에 표시할 작업을 변경합니다.</block>
   <block id="76bf1023f56feea71963b97c682ddeec" category="paragraph">예를 들어 * 서비스 * 필터를 사용하여 특정 BlueXP  서비스와 관련된 작업을 표시하거나 * 사용자 * 필터를 사용하여 특정 사용자 계정과 관련된 작업을 표시할 수 있습니다.</block>
-  <block id="706ba753310eea4d62504cab3d622cb4" category="paragraph">타임라인이 업데이트되어 완료된 관리 작업을 표시합니다.</block>
   <block id="d9e60fcce9ab0af5d2ac79ed5bd1726a" category="paragraph">또한 시스템에 로그인하지 않은 경우에도 중요한 시스템 작업을 알 수 있도록 이메일을 통해 특정 유형의 알림을 보내도록 BlueXP를 구성할 수 있습니다. 이메일은 BlueXP  조직 또는 계정에 속한 모든 사용자 또는 특정 유형의 시스템 활동을 알고 있어야 하는 다른 수신자에게 보낼 수 있습니다. 방법 보기<block ref="a148e670707e0255b9681ed2a38729bc" category="inline-xref-macro-rx"></block>.</block>
   <block id="d7070a88c379ebcd8e00bafb5d6aaffa" category="section-title">알림 센터와 BlueXP  알림 비교</block>
   <block id="9e449a0ea34e3a3f3848e51e4cec5859" category="paragraph">알림 센터를 사용하면 BlueXP 에서 시작한 작업의 상태를 확인하고 특정 유형의 시스템 작업에 대한 알림 알림을 설정할 수 있습니다. 한편, BlueXP  경고를 사용하면 ONTAP 스토리지 환경의 용량, 가용성, 성능, 보호 및 보안과 관련된 문제 또는 잠재적 위험을 볼 수 있습니다.</block>
@@ -5058,8 +5051,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="559bd85dc0b5b9d897cd8986e9388b2b" category="paragraph">NSS 계정 수준 자격 증명은 BlueXP 로그인과 연결된 NSS 계정과 다릅니다. NSS 계정 수준 자격 증명을 사용하면 BYOL로 Cloud Volumes ONTAP을 배포하고, PAYGO 시스템을 등록하고, 소프트웨어를 업그레이드할 수 있습니다.</block>
   <block id="5c6dd86ba1cfb5c1af500970adb2daaa" category="paragraph">BlueXP가 사용자 자격 증명을 업데이트하면 ONTAP 클러스터, 디지털 어드바이저 또는 사례 관리 페이지에 액세스할 때 변경 사항을 확인할 수 있습니다.</block>
   <block id="521c45217c3b337424dd8adb5c5179b2" category="paragraph">타임라인은 사용자가 조직이나 계정을 관리하기 위해 완료한 작업을 보여줍니다. 여기에는 사용자 연결, 작업 환경 만들기, 커넥터 만들기 등과 같은 관리 작업이 포함됩니다.</block>
-  <block id="575fd6319f836c10418c8e0f6cdd8167" category="list-text">다음 기능과 서비스에 대한 알림은 이메일로 전송됩니다: 커넥터, 디지털 지갑, 복사 및 동기화, 백업 및 복구.</block>
-  <block id="72cda922628bc633fbe14c3e16ca18f4" category="paragraph">알림 설정을 사용자 지정하려면 조직 관리자 역할이 있어야 합니다.</block>
   <block id="1d0dc238d165f094b64e86313624b2d9" category="paragraph">_사용자_ 탭에 나타나는 사용자는 조직이나 계정의 사용자 중에서 자동으로 채워집니다. BlueXP에 액세스할 수 없지만 특정 유형의 경고 및 알림에 대해 알림을 받아야 하는 다른 사람 또는 그룹에 대해서는 _Additional Recipients_tab에서 전자 메일 주소를 추가할 수 있습니다.</block>
   <block id="6eee4754146b2d969d2a7e90197130a3" category="paragraph">기본적으로 커넥터 자격 증명을 통해 사용자는 고급 보기(ONTAP 시스템 관리자)에 액세스할 수 있습니다. 대신 사용자에게 ONTAP 자격 증명을 입력하라는 메시지를 표시할 수 있습니다. 따라서 Cloud Volumes ONTAP 및 ONTAP 온프레미스 클러스터 모두에서 ONTAP 클러스터로 작업할 때 사용자의 ONTAP 권한이 적용됩니다.</block>
   <block id="00acd0a6ea62c6d6fd734cfcb2850d1f" category="admonition">커넥터 설정을 편집하려면 조직 관리자 역할이 있어야 합니다.</block>
@@ -5219,4 +5210,21 @@ https://support.netapp.com 으로 문의하십시오
   <block id="373df0df4c9bf458b635c60e6bd81875" category="inline-link-macro">NetApp 기술 자료 문서를 검토하세요</block>
   <block id="2b081e4d7f5e73b0295cc7f384e9ef53" category="paragraph">BlueXP는 Connector VM의 디스크 공간이 부족할 때 알림을 제공합니다. 알림 센터에서 이러한 알림을 모니터링하거나 이메일 알림을 보내도록 설정하세요. 디스크 공간 문제 해결은 사용자의 책임입니다. <block ref="2f3ae1328a4e13fb2f2d9aa6f559f827" category="inline-link-macro-rx"></block>..</block>
   <block id="b76919d8a6dd33b62b49a16ab1b560aa" category="paragraph"><block ref="b76919d8a6dd33b62b49a16ab1b560aa" category="inline-link-macro-rx"></block></block>
+  <block id="35e36a667d1baf91dbb76a03357b3183" category="section-title">감사 개선</block>
+  <block id="37e905ff49f6da834567cfa78667e2b7" category="paragraph">타임라인에 이제 사용자 로그인 이벤트가 포함됩니다. 이를 통해 사용자가 BlueXP에 로그인한 시점을 확인할 수 있어 감사 및 보안 모니터링에 도움이 될 수 있습니다. 조직 관리자 역할을 가진 API 사용자는 다음을 포함하여 로그인한 사용자의 이메일 주소를 볼 수 있습니다. <block ref="603b75134f0f5d7ea187a9ec930623d0" prefix=" " category="inline-code"></block> 매개변수는 다음과 같습니다. <block ref="a87d1f23773a5263432b2160d5b0c667" prefix=" " category="inline-code"></block> .</block>
+  <block id="a0b97dd4496f33209c0a49172d25b07e" category="section-title">BlueXP에서 Keystone 구독 관리 사용 가능</block>
+  <block id="92fd6983a547cfe3acf24d017a43dd47" category="paragraph">BlueXP에서 NetApp Keystone 구독을 관리할 수 있습니다.</block>
+  <block id="29e615c9125f030edfca48f5dd489a27" category="inline-link-macro">BlueXP에서 Keystone 구독 관리에 대해 알아보세요.</block>
+  <block id="b449211baca42f6cd385865db145f827" category="paragraph"><block ref="b449211baca42f6cd385865db145f827" category="inline-link-macro-rx"></block></block>
+  <block id="edf88e3025787a448a9dd00447a52f8b" category="paragraph">이 표에서는 타임라인과 알림 센터를 비교하여 각 기능을 강조합니다.</block>
+  <block id="b89956868ff9efb9e5c6419d523fce3a" category="cell">현재 로그인 세션의 상태를 표시합니다(로그오프한 후에는 알림 센터에 정보가 나타나지 않습니다)</block>
+  <block id="4219da23ef386f3439d954a399b71bf7" category="paragraph">타임라인은 누가 작업을 수행했는지 또는 작업의 상태를 식별하는 데 도움이 됩니다.</block>
+  <block id="7e141c8ec6a4f5611124b9a17fc58d90" category="section-title">타임라인에서 감사 로그 다운로드</block>
+  <block id="818dacbccd1bb52d545879ff94db3fb8" category="paragraph">타임라인의 감사 로그를 CSV 파일로 다운로드할 수 있습니다. 이를 통해 조직 내 사용자가 수행한 작업을 기록할 수 있습니다. 다운로드한 CSV 파일에는 타임라인에서 필터링하거나 표시하는 열과 관계없이 사용 가능한 모든 열이 포함되어 있습니다.</block>
+  <block id="5ed869e88cbd6968dfbc3468b7f488e9" category="list-text">타임라인에서 표의 오른쪽 상단에 있는 다운로드 아이콘을 선택하세요.</block>
+  <block id="4a299decaff59944c828ad4546959edb" category="paragraph">알림은 BlueXP 작업의 진행 상황을 추적하여 성공 여부를 확인합니다. 이 기능을 사용하면 현재 로그인 세션 중에 시작한 여러 BlueXP 작업의 상태를 볼 수 있습니다. 현재 모든 BlueXP 서비스가 알림 센터에 정보를 보고하는 것은 아닙니다.</block>
+  <block id="9cb953f0886e30994918dec9a83c9369" category="paragraph">BlueXP는 알림을 다음 범주로 분류합니다.</block>
+  <block id="5c978e399a8f1d0acd4407aa13d8eb47" category="paragraph">더 이상 알림을 볼 필요가 없는 경우 페이지에서 알림을 제거할 수 있습니다. 알림을 개별적으로 또는 한꺼번에 해제할 수 있습니다.</block>
+  <block id="d7fce9a3c3250c2897219cf1e55613fc" category="list-text">BlueXP는 커넥터, 디지털 지갑, 복사 및 동기화, 백업 및 복구에 대한 이메일 알림을 보냅니다.</block>
+  <block id="1d3e249b6555eefc80860021fe042ffd" category="paragraph">알림 설정을 사용자 지정하려면 조직 관리자 역할이 있어야 합니다.</block>
 </blocks>

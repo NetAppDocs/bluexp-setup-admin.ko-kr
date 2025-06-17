@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, connectors, bluexp, iam, notice' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, connectors, bluexp, iam, notice, releases' 
 summary: BlueXP  IAM, 커넥터, 클라우드 공급자 자격 증명 등 BlueXP  관리 기능의 새로운 기능에 대해 알아보십시오. 
 ---
 = 새로운 기능
@@ -33,6 +33,20 @@ ID 및 액세스 관리(IAM), 커넥터, 클라우드 공급자 자격 증명 �
 === 디스크 공간 사용 알림
 
 알림 센터에는 이제 커넥터의 디스크 공간 사용에 대한 알림이 포함되었습니다. link:task-maintain-connectors.html#monitor-disk-space["자세한 정보."^]
+
+
+
+=== 감사 개선
+
+타임라인에 이제 사용자 로그인 이벤트가 포함됩니다. 이를 통해 사용자가 BlueXP에 로그인한 시점을 확인할 수 있어 감사 및 보안 모니터링에 도움이 될 수 있습니다. 조직 관리자 역할을 가진 API 사용자는 다음을 포함하여 로그인한 사용자의 이메일 주소를 볼 수 있습니다.  `includeUserData=true`` 매개변수는 다음과 같습니다.  `/audit/<account_id>?includeUserData=true` .
+
+
+
+=== BlueXP에서 Keystone 구독 관리 사용 가능
+
+BlueXP에서 NetApp Keystone 구독을 관리할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/keystone-staas/index.html["BlueXP에서 Keystone 구독 관리에 대해 알아보세요."^]
 
 
 
