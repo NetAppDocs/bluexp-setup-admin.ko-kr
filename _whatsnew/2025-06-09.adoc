@@ -14,7 +14,7 @@
 
 === 디스크 공간 사용 알림
 
-알림 센터에는 이제 커넥터의 디스크 공간 사용에 대한 알림이 포함되었습니다. link:task-maintain-connectors.html#monitor-disk-space["자세한 정보."^]
+알림 센터에는 이제 커넥터의 디스크 공간 사용에 대한 알림이 포함되었습니다. link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-maintain-connectors.html#monitor-disk-space["자세한 정보."^]
 
 
 
