@@ -362,7 +362,7 @@ image:screenshot-credentials-with-subscription.png["자격 증명과 연결된 �
 계정 유형(AWS 키 또는 역할 가정)을 변경하거나, 이름을 편집하거나, 자격 증명 자체(키 또는 역할 ARN)를 업데이트하여 AWS 자격 증명을 편집합니다.
 
 
-NOTE: 커넥터 인스턴스 또는 Amazon FSx for ONTAP 인스턴스와 연결된 인스턴스 프로필의 자격 증명은 편집할 수 없습니다.
+NOTE: 커넥터 인스턴스 또는 Amazon FSx for ONTAP 인스턴스와 연결된 인스턴스 프로필의 자격 증명은 편집할 수 없습니다. FSx for ONTAP 인스턴스의 자격 증명 이름만 바꿀 수 있습니다.
 
 .단계
 . 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 *자격 증명*을 선택합니다.

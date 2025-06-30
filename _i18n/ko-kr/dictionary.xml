@@ -5000,7 +5000,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="b3dcf4c270625912aa46f11d96df2bae" category="list-text">디지털 지갑으로 이동하여 구독이 귀하의 조직이나 계정과 연결되어 있는지 확인하세요.</block>
   <block id="63efa257b0b77bd676137930df4d9b38" category="list-text">구독이 표시되는지 확인하세요.</block>
   <block id="62ce53ce4e7e424908529a45cc3ea1d3" category="paragraph">계정 유형(AWS 키 또는 역할 가정)을 변경하거나, 이름을 편집하거나, 자격 증명 자체(키 또는 역할 ARN)를 업데이트하여 AWS 자격 증명을 편집합니다.</block>
-  <block id="0da97e00ea780b9865f7c3ffbb4c3271" category="admonition">커넥터 인스턴스 또는 Amazon FSx for ONTAP 인스턴스와 연결된 인스턴스 프로필의 자격 증명은 편집할 수 없습니다.</block>
   <block id="f6e35353d921e75b732126993889eaf7" category="paragraph">더 이상 자격 증명이 필요하지 않으면 삭제할 수 있습니다. 작업 환경과 연결되지 않은 자격 증명만 삭제할 수 있습니다.</block>
   <block id="f54a1ada6e84cbd77add137de73fe499" category="summary">마켓플레이스 가입을 연결하고 가입 프로세스를 해결하여 Connector VM 인스턴스와 연결된 Google Cloud 자격 증명을 관리할 수 있습니다. 두 가지 작업을 모두 수행하면 마켓플레이스 구독을 사용하여 데이터 서비스 비용을 지불할 수 있습니다.</block>
   <block id="0e46c1615780fb701a31f342948323ee" category="paragraph">Google Cloud에서 Connector를 배포하면 BlueXP는 Connector VM 인스턴스와 연결된 기본 자격 증명 집합을 만듭니다. 언제든지 이러한 자격 증명과 연결된 Google Cloud Marketplace 구독을 변경할 수 있습니다. 구독하면 사용량에 따라 요금을 지불하는 Cloud Volumes ONTAP 시스템을 만들고 다른 데이터 서비스를 사용할 수 있습니다.</block>
@@ -5227,4 +5226,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="da15b66e2df6f7619f48e376251ca70a" category="paragraph">알림 센터에는 이제 커넥터의 디스크 공간 사용에 대한 알림이 포함되었습니다. <block ref="c622bedc83ce36b38252ce6167a6dc1f" category="inline-link-macro-rx"></block></block>
   <block id="8d6b52099b0900a6f09e2d0ebba1cd5a" category="paragraph">Docker 엔진 23.06~28.0.0.</block>
   <block id="0930e6e62078c5446e99045f0a678607" category="paragraph">Docker 엔진 23.0.6~28.0.0.</block>
+  <block id="457d598af578e6f47129cba886b757ba" category="admonition">커넥터 인스턴스 또는 Amazon FSx for ONTAP 인스턴스와 연결된 인스턴스 프로필의 자격 증명은 편집할 수 없습니다. FSx for ONTAP 인스턴스의 자격 증명 이름만 바꿀 수 있습니다.</block>
 </blocks>
