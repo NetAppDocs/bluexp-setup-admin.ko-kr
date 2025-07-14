@@ -95,12 +95,6 @@ sidebar:
         url: "/task-prepare-private-mode.html"
       - title: 커넥터를 배포합니다
         url: "/task-install-private-mode.html"
-      - title: BlueXP 계정
-        entries:
-        - title: 어카운트에 대해 알아보십시오
-          url: "/concept-netapp-accounts.html"
-        - title: BlueXP 계정을 관리합니다
-          url: "/task-managing-netapp-accounts.html"
       - title: 다음에 할 수 있는 일
         url: "/reference-whats-next-private-mode.html"
   - title: BlueXP를 사용하세요
@@ -147,16 +141,34 @@ sidebar:
             url: "/reference-iam-storage-roles.html"
         - title: 데이터 서비스 역할
           entries:
+          - title: 백업 및 복구 역할
+            url: "/reference-iam-backup-rec-roles.html"
+          - title: 재해 복구 역할
+            url: "/reference-iam-disaster-rec-roles.html"
           - title: 랜섬웨어 차단 역할
             url: "/reference-iam-ransomware-roles.html"
-    - title: BlueXP  계정(비공개 모드만 해당)
-      entries:
-      - title: 어카운트에 대해 알아보십시오
-        url: "/concept-netapp-accounts.html"
-      - title: BlueXP 계정을 관리합니다
-        url: "/task-managing-netapp-accounts.html"
     - title: ID 제휴
-      url: "/concept-federation.html"
+      entries:
+      - title: ID 페더레이션에 대해 알아보세요
+        url: "/concept-federation.html"
+      - title: 도메인 확인
+        entries:
+        - title: 도메인을 확인하세요
+          url: "/task-federation-verify-domain.html"
+      - title: 페더레이션 구성
+        entries:
+        - title: AD FS(Active Directory Federation Services) 공급자와 페더레이션
+          url: "/task-federation-adfs.html"
+        - title: Microsoft Entra ID 공급자와 페더레이션
+          url: "/task-federation-entra-id.html"
+        - title: PingFederate로 페더레이션
+          url: "/task-federation-ping.html"
+        - title: SAML ID 공급자와 페더레이션
+          url: "/task-federation-saml.html"
+      - title: 연합 관리
+        url: "/task-federation-manage.html"
+      - title: 기존 페더레이션 연결을 가져옵니다.
+        url: "/task-federation-import.html"
     - title: 커넥터
       entries:
       - title: VM 및 OS를 유지 관리합니다
@@ -207,6 +219,10 @@ sidebar:
       url: "/task-monitor-cm-operations.html"
   - title: 참조하십시오
     entries:
+    - title: 커넥터 유지 관리 콘솔
+      entries:
+      - title: 커넥터 유지 보수 온솔
+        url: "/reference-connector-maint-console.html"
     - title: 권한
       entries:
       - title: 권한 요약

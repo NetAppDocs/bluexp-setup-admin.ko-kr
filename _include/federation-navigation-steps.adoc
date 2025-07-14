@@ -1,0 +1,9 @@
+= 
+:allow-uri-read: 
+
+
+.단계
+. BlueXP  콘솔의 오른쪽 위에서> * ID 및 액세스 관리 * 를 선택합니다image:icon-settings-option.png["BlueXP  웹 콘솔의 오른쪽 상단에 표시되는 설정 아이콘입니다."].
+. *연방* 탭을 선택하세요.
+. *새로운 페더레이션 구성*을 선택합니다.
+

@@ -279,12 +279,8 @@ BlueXP 는 조직 또는 계정의 모든 자격 증명에 대한 기존 구독
 
 AWS Marketplace에서 구독하는 경우, 마지막 단계는 구독을 조직과 연결하는 것입니다. 이 단계를 완료하지 않으면 조직이나 계정에서 해당 구독을 사용할 수 없습니다.
 
-
-TIP: 표준 모드나 제한 모드를 사용하는 경우 _BlueXP 조직_이 생성되고, BlueXP ID 및 액세스 관리(IAM)를 사용하여 이를 관리합니다. 하지만 비공개 모드에서 BlueXP 를 사용하는 경우에는 _ BlueXP  계정이 있습니다.
-
 * link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"]
 * link:concept-identity-and-access-management.html["BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오"]
-* link:concept-netapp-accounts.html["BlueXP 계정에 대해 알아보십시오"]
 
 
 AWS Marketplace에서 NetApp 지능형 데이터 서비스를 구독했지만 구독을 계정과 연결하는 단계를 놓친 경우 아래 단계를 따르세요.

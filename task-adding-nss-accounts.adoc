@@ -14,16 +14,12 @@ summary: NetApp 지원 사이트 계정을 BlueXP  조직 또는 계정에 연�
 
 
 [role="lead"]
-NetApp 지원 사이트 계정을 BlueXP  조직 또는 계정에 연결하여 Cloud Volumes ONTAP의 주요 워크플로를 사용하도록 설정합니다. 이러한 NSS 자격 증명은 전체 BlueXP  조직 또는 계정과 연결됩니다.
+Cloud Volumes ONTAP 의 주요 워크플로를 활성화하려면 NetApp 지원 사이트 계정을 BlueXP 조직과 연결하세요. 이 NSS 자격 증명은 BlueXP 조직 전체와 연결됩니다.
 
 BlueXP 에서는 BlueXP  사용자 계정당 하나의 NSS 계정을 연결할 수도 있습니다. link:task-manage-user-credentials.html["사용자 수준 자격 증명을 관리하는 방법에 대해 알아봅니다"]..
 
-
-TIP: 표준 모드 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP  IAM(ID 및 액세스 관리)을 사용하여 관리하는 _BlueXP  조직_ 이 있습니다. 하지만 비공개 모드에서 BlueXP 를 사용하는 경우에는 _ BlueXP  계정이 있습니다.
-
 * link:concept-modes.html["BlueXP 배포 모드에 대해 알아보십시오"]
 * link:concept-identity-and-access-management.html["BlueXP  ID 및 액세스 관리에 대해 자세히 알아보십시오"]
-* link:concept-netapp-accounts.html["BlueXP 계정에 대해 알아보십시오"]
 
 
 
