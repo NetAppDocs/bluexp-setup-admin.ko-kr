@@ -5015,7 +5015,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="f7b353257b71afef5402701e6c93dc8a" category="doc">커넥터 3.9.54</block>
   <block id="98b6a9150dc84b6f02a11b49d3f18c05" category="paragraph">BlueXP 커넥터의 이번 릴리스에는 보안 개선, 버그 수정 및 다음과 같은 새로운 기능이 포함되어 있습니다.</block>
   <block id="0e0a4ccfeecf6ead97d3838c2dc57d40" category="inline-link-macro">투명 프록시 구성에 대해 자세히 알아보세요.</block>
-  <block id="313ef52bd65a76709d5fc69694074f0c" category="list-text">Cloud Volumes ONTAP 서비스를 지원하는 커넥터에 대한 투명 프록시 지원. <block ref="139e9d43e4ebdf2d28d8a7ff0c85548a" category="inline-link-macro-rx"></block></block>
   <block id="4439ae12e6cc703b73c18fa22032bcff" category="list-text">Google Cloud 환경에 커넥터가 배포된 경우 네트워크 태그를 사용하여 커넥터 트래픽을 라우팅하는 기능입니다.</block>
   <block id="a72a5a23a9089a372f557a0032363d4e" category="list-text">CPU 및 RAM 사용량을 포함한 커넥터 상태 모니터링을 위한 추가 제품 내 알림입니다.</block>
   <block id="86c10fecfc44ffe6d27d3e73e9158cad" category="paragraph">현재 3.9.54 릴리스는 표준 모드 및 제한 모드에서 사용할 수 있습니다.</block>
@@ -5031,18 +5030,15 @@ https://support.netapp.com 으로 문의하십시오
   <block id="a7cc903fc36eaee51a699d9d59b1496c" category="paragraph">BlueXP 이제 ID 페더레이션 관리를 위한 더욱 직관적인 인터페이스를 제공합니다. 더욱 간편한 탐색, 페더레이션 연결 구성 옵션의 명확성, 그리고 기존 페더레이션에 대한 가시성 향상이 포함됩니다.</block>
   <block id="c06fd8d559af4ac97a50afd1857f0e4e" category="paragraph">ID 페더레이션을 통해 단일 로그인(SSO)을 활성화하면 사용자가 회사 자격 증명으로 BlueXP 에 로그인할 수 있습니다. 이를 통해 보안이 강화되고, 비밀번호 사용이 줄어들며, 온보딩이 간소화됩니다.</block>
   <block id="62532a5520311cce692e8abb3a619189" category="inline-link-macro">기존 페더레이션 연결을 BlueXP 로 가져오는 방법에 대해 자세히 알아보세요.</block>
-  <block id="09de16a2da9f0884c7445f0a40b10aa4" category="paragraph">새로운 관리 기능에 액세스하려면 기존 페더레이션 연결을 새 인터페이스로 가져오라는 메시지가 표시됩니다. 이를 통해 페더레이션 연결을 다시 만들지 않고도 최신 개선 사항을 활용할 수 있습니다. <block ref="172066467f700483f74d71d92d89ce7c" category="inline-link-macro-rx"></block></block>
   <block id="35db97c0083a9f24d4de60744f2ae08c" category="paragraph">개선된 페더레이션 관리를 통해 다음을 수행할 수 있습니다.</block>
   <block id="c7cfa37b557dec5d42fe4ae1f33a84a9" category="list-text">여러 개의 검증된 도메인을 페더레이션 연결에 추가하면 동일한 ID 공급자(IdP)를 사용하여 여러 도메인을 사용할 수 있습니다.</block>
   <block id="b4a4e2a03df0b0c5b7847629f778c654" category="list-text">필요한 경우 페더레이션 연결을 비활성화하거나 삭제하여 사용자 액세스 및 보안을 제어할 수 있습니다.</block>
   <block id="77f3e518793db250165393f568090955" category="list-text">IAM 역할을 사용하여 페더레이션 관리에 대한 액세스를 제어합니다.</block>
   <block id="ac784304eb7a6a12a493cf93b5cef5a9" category="inline-link-macro">BlueXP 의 ID 페더레이션에 대해 자세히 알아보세요.</block>
-  <block id="7970bfbac6093d2cbee1b40bcff193c3" category="paragraph"><block ref="7970bfbac6093d2cbee1b40bcff193c3" category="inline-link-macro-rx"></block></block>
   <block id="e16a950fa56f1c93596e628653af0177" category="section-title">BlueXP backup and recovery, BlueXP disaster recovery 및 페더레이션 관리를 위한 새로운 액세스 역할</block>
   <block id="f4b57a3793a05b2b72338f8e9fcc9496" category="paragraph">이제 BlueXP 다음 기능과 데이터 서비스에 대해 IAM 역할을 사용할 수 있도록 지원합니다.</block>
   <block id="43db2a9bc6b7310c67fd6873bb6ca7a4" category="list-text">연합</block>
   <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">액세스 역할 사용에 대해 자세히 알아보세요.</block>
-  <block id="10bab6385b6290f87ce28199462adf76" category="paragraph"><block ref="10bab6385b6290f87ce28199462adf76" category="inline-link-macro-rx"></block></block>
   <block id="59d63e81aab85c8d960a9f1f13ec3a20" category="paragraph">A_Connector _ 는 클라우드 네트워크 또는 사내 네트워크에서 실행되는 NetApp 소프트웨어입니다. BlueXP 서비스를 사용자의 스토리지 환경에 연결하는 데 사용됩니다.</block>
   <block id="8e3127f706f1e56c4038e102362daa9e" category="summary">ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 있으므로 사용자는 기업 ID의 자격 증명을 사용하여 로그인할 수 있습니다. 시작하려면 설정 과정을 검토하세요.</block>
   <block id="35da6b1009cfb85617a9cb6b76ca78b5" category="paragraph">싱글 사인온(페더레이션)은 사용자가 회사 자격 증명을 사용하여 BlueXP 에 로그인할 수 있도록 하여 로그인 프로세스를 간소화하고 보안을 강화합니다. ID 공급자(IdP) 또는 NetApp 지원 사이트를 통해 싱글 사인온(SSO)을 활성화할 수 있습니다.</block>
@@ -5283,7 +5279,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="c3735d9c34fd4ed334e4dbdf6f9399bf" category="list-text">Relying Trust Identifier를 생성할 때 **YOUR_TENANT** 값을 사용하세요. <block ref="54abc930040d4aaee039ddb6714c161b" prefix=" " category="inline-code"></block></block>
   <block id="5f1e9ae008e49ccbc1bb7bb997f7072d" category="list-text">*WS-Federation 지원 활성화*를 선택하는 경우 **YOUR_AUTH0_DOMAIN** 값을 사용하세요. <block ref="fe93c33621416c4736b5beefec28d44e" prefix=" " category="inline-code"></block></block>
   <block id="bf7f21a3f0a9d15815e8898ab4b0d126" category="list-text">트러스트를 생성한 후 AD FS 서버에서 메타데이터 URL을 복사하거나 페더레이션 메타데이터 파일을 다운로드하세요. BlueXP 에서 연결을 완료하려면 이 URL 또는 파일이 필요합니다.</block>
-  <block id="84999323afead336ecc889d3b9f1f8b9" category="paragraph">+ NetApp BlueXP 최신 AD FS 구성을 자동으로 검색하도록 메타데이터 URL을 사용할 것을 권장합니다. 페더레이션 메타데이터 파일을 다운로드한 경우, AD FS 구성이 변경될 때마다 BlueXP 에서 수동으로 업데이트해야 합니다.</block>
   <block id="ca0d62b869f281351aeda2084ef067c3" category="list-text">BlueXP 로 돌아가서 *다음*을 선택하여 연결을 생성합니다.</block>
   <block id="4b682b6bee53df811273a0bfbe611e45" category="list-text">AD FS로 연결을 만듭니다.</block>
   <block id="c1b7d1f0d06c7cfb1404c3d5e03d6802" category="list-text">이전 단계에서 AD FS 서버에서 복사한 *AD FS URL*을 입력하거나 AD FS 서버에서 다운로드한 페더레이션 메타데이터 파일을 업로드합니다.</block>
@@ -5305,7 +5300,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="a31725e5a996167aefdc67c1628c7ebf" category="list-text">이전 단계에서 생성한 클라이언트 ID와 클라이언트 비밀번호를 입력하세요.</block>
   <block id="56195ae93f466d39ec4d363a2fb1500e" category="list-text">Microsoft Entra ID 도메인 이름을 입력하세요.</block>
   <block id="414584aec7c36f7a64ee722e65458b2f" category="list-text">*연결 만들기*를 선택하세요. 몇 초 안에 연결이 생성됩니다.</block>
-  <block id="a341e999958dd720d932630dc8e0be57" category="floating-title">연결을 테스트하고 활성화합니다</block>
   <block id="085cc3c433cdddd132661c8498367dd3" category="summary">기존 페더레이션 연결을 BlueXP 로 가져와 새 인터페이스에서 관리하세요. 이렇게 하면 페더레이션 연결을 다시 만들지 않고도 최신 개선 사항을 활용할 수 있습니다.</block>
   <block id="c25a3e76b4346814957eaeaf7f21b29b" category="doc">BlueXP 로 연합 가져오기</block>
   <block id="e4ebb9b2ed3ade70212bc0487a5b0956" category="paragraph">BlueXP 에 페더레이션 연결을 이미 설정한 기존 고객은 기존 페더레이션을 새 인터페이스로 가져올 수 있습니다. 이를 통해 페더레이션 연결을 다시 만들지 않고도 새 페더레이션 페이지에서 페더레이션 연결을 관리할 수 있습니다.</block>
@@ -5453,4 +5447,10 @@ https://support.netapp.com 으로 문의하십시오
   <block id="d00255b25e6ac270c154c1b88351cb61" category="sidebar">연합 관리</block>
   <block id="b738cb995b90e7ef0f6b53e82271107a" category="sidebar">기존 페더레이션 연결을 가져옵니다.</block>
   <block id="20bcff7d6fd558badea4ab3c38447c64" category="sidebar">커넥터 유지 보수 온솔</block>
+  <block id="5e976f8888129db7a70ab686bfcc86b9" category="list-text">Cloud Volumes ONTAP 서비스를 지원하는 커넥터에 대한 투명 프록시 지원. <block ref="addeb9305f92d41fc2dd640d1ef810f0" category="inline-link-macro-rx"></block></block>
+  <block id="a930f8ca18589b33c946f81801d0bbf6" category="paragraph">새로운 관리 기능에 액세스하려면 기존 페더레이션 연결을 새 인터페이스로 가져오라는 메시지가 표시됩니다. 이를 통해 페더레이션 연결을 다시 만들지 않고도 최신 개선 사항을 활용할 수 있습니다. <block ref="374020c220651e051317a80c1b5ae1db" category="inline-link-macro-rx"></block></block>
+  <block id="b658b3504fd725bf7abab622b28f1851" category="paragraph"><block ref="b658b3504fd725bf7abab622b28f1851" category="inline-link-macro-rx"></block></block>
+  <block id="12abdfb9ba5fcfe154c4363eb977b22b" category="paragraph"><block ref="12abdfb9ba5fcfe154c4363eb977b22b" category="inline-link-macro-rx"></block></block>
+  <block id="119ba48130d6c62c98b23ef445867ae0" category="paragraph">NetApp BlueXP 최신 AD FS 구성을 자동으로 검색하도록 메타데이터 URL을 사용할 것을 권장합니다. 페더레이션 메타데이터 파일을 다운로드한 경우, AD FS 구성이 변경될 때마다 BlueXP 에서 수동으로 업데이트해야 합니다.</block>
+  <block id="f7ad98daa7023cc12c8a8312a6fb794e" category="floating-title">연결을 테스트하고 활성화합니다.</block>
 </blocks>
