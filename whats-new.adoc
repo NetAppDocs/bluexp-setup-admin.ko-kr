@@ -24,7 +24,7 @@ ID 및 액세스 관리(IAM), 커넥터, 클라우드 공급자 자격 증명 �
 
 === Google Cloud NetApp Volumes 지원
 
-이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다. link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/index.html["Google Cloud NetApp Volumes 에 대해 자세히 알아보세요."]
+이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다. link:https://docs.netapp.com/us-en//bluexp-google-cloud-netapp-volumes/index.html/index.html["Google Cloud NetApp Volumes 에 대해 자세히 알아보세요."]
 
 
 

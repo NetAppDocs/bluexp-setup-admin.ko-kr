@@ -5449,7 +5449,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="540c166e455adde220d6a9dbeddca7d0" category="paragraph">프록시 서버에 대한 PEM 형식의 인증서 파일이 있는지 확인하세요. 인증서가 없는 경우 네트워크 관리자에게 문의하여 인증서를 받으세요.</block>
   <block id="89d69ff3dca93dc4c1c160728186e722" category="doc">Google Cloud NetApp Volumes 지원</block>
   <block id="c0f8420dd2331e8c703faf905ce556ba" category="inline-link-macro">Google Cloud NetApp Volumes 에 대해 자세히 알아보세요.</block>
-  <block id="e1541d92f45c55d1c796b46df595a40b" category="paragraph">이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다. <block ref="2d9a0dbc9abdf3f5520c900e61ce6c78" category="inline-link-macro-rx"></block></block>
   <block id="7ef119d24b993215797de865841c626e" category="section-title">Google Cloud NetApp Volumes 에 대한 새로운 액세스 역할</block>
   <block id="558052264db83696c2bf10ecfe0eaedd" category="paragraph">BlueXP 이제 다음 스토리지 시스템에 대한 액세스 역할 사용을 지원합니다.</block>
   <block id="1215f8190533dfdf63d2224a6d88266f" category="list-text">Google Cloud NetApp 볼륨</block>
@@ -5468,4 +5467,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="afa251e583f752e51e3383587060e30b" category="cell">저장소 상태 및 거버넌스 기능을 관리하고, 저장소 리소스를 검색하고, 기존 작업 환경을 변경 및 제거합니다.</block>
   <block id="95b4eb24270de6ac5f87fadb096e4edf" category="cell">BlueXP classification 스캔 결과를 볼 수 있는 기능을 제공합니다. 이 역할을 가진 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 리소스에 대한 보고서를 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마의 스캔을 활성화하거나 비활성화할 수 없습니다. 분류에 뷰어 역할이 없습니다.</block>
   <block id="6bf86021a24fd009a31d432250a9ad20" category="section-title">2025년 7월 21일</block>
+  <block id="21af40e527b4a74ba2f5692e884472ba" category="paragraph">이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다. <block ref="8ecfd1740a85ce17a70e2419c5980488" category="inline-link-macro-rx"></block></block>
 </blocks>
