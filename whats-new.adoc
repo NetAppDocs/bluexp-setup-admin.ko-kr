@@ -18,6 +18,31 @@ ID 및 액세스 관리(IAM), 커넥터, 클라우드 공급자 자격 증명 �
 
 
 
+== 2025년 7월 21일
+
+
+
+=== Google Cloud NetApp Volumes 지원
+
+이제 BlueXP 에서 Google Cloud NetApp Volumes 볼 수 있습니다. link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/index.html["Google Cloud NetApp Volumes 에 대해 자세히 알아보세요."]
+
+
+
+=== BlueXP  ID 및 액세스 관리(IAM)
+
+
+
+==== Google Cloud NetApp Volumes 에 대한 새로운 액세스 역할
+
+BlueXP 이제 다음 스토리지 시스템에 대한 액세스 역할 사용을 지원합니다.
+
+* Google Cloud NetApp 볼륨
+
+
+link:https://docs.netapp.com/us-en/bluexp-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
+
+
+
 == 2025년 7월 14일
 
 
