@@ -21,4 +21,4 @@ BlueXP 이제 다음 스토리지 시스템에 대한 액세스 역할 사용을
 * Google Cloud NetApp 볼륨
 
 
-link:https://docs.netapp.com/us-en/bluexp-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["액세스 역할 사용에 대해 자세히 알아보세요."]
