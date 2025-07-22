@@ -55,7 +55,13 @@ BlueXP ID 및 액세스 관리(IAM)에는 리소스 계층의 다양한 수준�
 | link:reference-iam-keystone-roles.html["Keystone 관리자"] | Keystone 관리자 역할이 있는 사용자는 서비스 요청을 생성할 수 있습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
 
 
-| link:reference-iam-keystone-roles.html["Keystone 뷰어"] | Keystone 뷰어 역할을 가진 사용자는 서비스 요청을 생성할 수 없습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다. 
+| link:reference-iam-keystone-roles.html["Keystone 뷰어"] | Keystone 뷰어 역할을 가진 사용자는 서비스 요청을 생성할 수 없습니다. 사용자가 액세스한 Keystone 테넌트 내에서 소비량, 자산 및 관리 정보를 모니터링하고 볼 수 있습니다. 
+
+
+| ONTAP Mediator 설정 역할 | ONTAP Mediator 설정 역할이 있는 서비스 계정은 서비스 요청을 생성할 수 있습니다. 이 역할은 서비스 계정에서 인스턴스를 구성하는 데 필요합니다. link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html["ONTAP 클라우드 중재자"^] . 
+
+
+| link:reference-iam-storage-roles.html["스토리지 관리자"] | 스토리지 상태 및 거버넌스 기능을 관리하고, 스토리지 리소스를 검색하고, 기존 작업 환경을 수정 및 삭제합니다. 
 
 
 | link:reference-iam-storage-roles.html["스토리지 관리자"] | 저장소 상태 및 거버넌스 기능을 관리하고, 저장소 리소스를 검색하고, 기존 작업 환경을 변경 및 제거합니다. 
