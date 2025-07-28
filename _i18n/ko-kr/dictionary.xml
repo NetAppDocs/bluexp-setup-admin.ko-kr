@@ -4533,7 +4533,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="dfab73175d9a922a1fe643936c1f54e4" category="cell"><block ref="dfab73175d9a922a1fe643936c1f54e4" category="inline-link-macro-rx"></block></block>
   <block id="bf4e3f1e6e25cc18b8667c6b66e7fdec" category="admonition">이러한 역할은 BlueXP 파트너십 API에서 사용할 수 없습니다.</block>
   <block id="186343db38833a48df757e694e69337d" category="doc">BlueXP 와 연결된 NSS 자격 증명을 관리합니다</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
@@ -4624,8 +4623,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
   <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">리소스 * 페이지에 귀하의 BlueXP  조직이 지원을 위해 등록되었다는 메시지가 표시됩니다.</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">다른 BlueXP 사용자는 BlueXP 로그인과 NetApp Support 사이트 계정을 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 하지만 그렇다고 BlueXP  조직이 지원에 등록되어 있지 않다는 뜻은 아닙니다. 조직 내 한 명의 사용자가 이 단계를 수행하면 조직이 등록됩니다.</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">기존 사용권 및 제품 번호가 _NO_NSS인 기존 NetApp 고객인 경우 NSS 계정을 만들어 BlueXP 로그인과 연결해야 합니다.</block>
@@ -5295,19 +5292,12 @@ https://support.netapp.com 으로 문의하십시오
   <block id="ed0a34e7c50c8b6a49b38156f4ad0507" category="inline-link-macro">연합 관리에 대해 자세히 알아보세요.</block>
   <block id="a28baf546d6789e9df4bf20f4b47ea7e" category="admonition">기존 페더레이션을 가져온 후에는 페더레이션 페이지에서 페더레이션을 관리할 수 있습니다. <block ref="9d534edc1c56628e78a226390e0c6f0b" category="inline-link-macro-rx"></block></block>
   <block id="4538ec0a58b95f3c1aac1a5acb748667" category="paragraph">조직 관리자 또는 연방 관리자. <block ref="8f129ac67aaaf533c741c49d131f7a5d" category="inline-link-macro-rx"></block></block>
-  <block id="6a83e05584ae3a368d76b79ed5fca4ac" category="section-title">연방 가져오기</block>
   <block id="af5e5162616eb70fd66eb845ab93c3b3" category="list-text">*연합 가져오기*를 선택하세요.</block>
   <block id="ad0b8ffb10bbe432e9cf58b09772aa69" category="section-title">기존 페더레이션에 검증된 도메인 추가</block>
-  <block id="a0ddba99351ac47d380e4259aadba269" category="paragraph">BlueXP 에서 기존 페더레이션에 확인된 도메인을 추가할 수 있습니다. BlueXP 에서 기존 페더레이션에 확인된 도메인을 추가하여 동일한 ID 공급자(IdP)를 사용하는 여러 도메인을 사용할 수 있습니다.</block>
-  <block id="be834cc1c8b7f8b6b0e9b3daed0042f5" category="paragraph">페더레이션에 도메인을 추가하려면 BlueXP 에서 도메인을 이미 확인해야 합니다. 아직 도메인을 확인하지 않은 경우 다음 단계에 따라 도메인을 확인할 수 있습니다. <block ref="1a287a79053335f45f3db75bc57fd747" category="inline-link-macro-rx"></block> .</block>
-  <block id="d62d240b9c34b152e7a4c1f1ba2faecc" category="paragraph">&lt;이 작업을 수행할 때의 사용 사례가 필요합니다&gt;--Tonia &lt;이 새 도메인의 사용자가 로그인할 수 있게 되는 데 얼마나 걸립니까?--Tonia&gt; .단계</block>
   <block id="62d5f424f490cb35fe635af945e09e93" category="list-text">작업 메뉴를 선택하세요 <block ref="bfe50e4fac5e58634c6fb748dce94758" category="inline-image-macro-rx" type="image"></block> 확인된 도메인을 추가할 페더레이션 옆에 있는 을 클릭하고 *도메인 업데이트*를 선택하세요. *도메인 업데이트* 대화 상자에는 이 페더레이션에 이미 연결된 도메인이 나열됩니다.</block>
   <block id="d84c85105e6a24d5f4e5213f4a62212a" category="list-text">사용 가능한 도메인 목록에서 확인된 도메인을 선택하세요.</block>
   <block id="35165f9b14f6cde03fa7f6f9b03732ba" category="list-text">Update * 를 선택합니다.</block>
   <block id="b9441c75b64b2bff3d5c0252b881eb80" category="section-title">만료되는 페더레이션 연결 업데이트</block>
-  <block id="50bc8d94201d22ead4d5ac5de70f8c4e" category="paragraph">BlueXP 에서 페더레이션 연결의 세부 정보를 업데이트할 수 있습니다. 예를 들어 인증서나 클라이언트 비밀번호와 같은 자격 증명이 만료되면 페더레이션을 업데이트해야 합니다. 필요한 경우, 만료되기 전에 연결을 업데이트하도록 알림 날짜를 업데이트하세요.</block>
-  <block id="6ec267b868ac52e9c551ecf053445e50" category="admonition">로그인 문제를 방지하려면 BlueXP 에서 연결을 업데이트하기 전에 먼저 IdP를 업데이트하세요. 업데이트하는 동안 BlueXP 에 로그인 상태를 유지하세요. --순서는 무엇인가요?--토니아</block>
-  <block id="e8d5347d0ad03b9156b4d8234c820a54" category="list-text">확인된 도메인을 추가할 페더레이션 옆에 있는 작업 메뉴(세로로 된 점 세 개)를 선택하고 *페더레이션 업데이트*를 선택하세요. *도메인 업데이트* 대화 상자에는 이 페더레이션에 이미 연결된 도메인이 나열됩니다.</block>
   <block id="e82e66adccb64cbe61e87f3c0617c3f8" category="list-text">필요에 따라 연방의 세부 정보를 업데이트하세요.</block>
   <block id="f0c3a42a5f59fcf574664a16032f7f98" category="section-title">기존 연합 테스트</block>
   <block id="579e693274492fb64ae09b19e40c366a" category="paragraph">기존 페더레이션에 문제가 있는 경우, 연결을 테스트하여 제대로 작동하는지 확인할 수 있습니다. 이를 통해 페더레이션의 문제를 파악하고 해결하는 데 도움이 될 수 있습니다.</block>
@@ -5316,7 +5306,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="f00c704f82067284063e6d08ee509d82" category="list-text">*완료*를 선택하면 *연방* 탭으로 돌아갑니다.</block>
   <block id="3104ea2b12b1bb5b1bf9e44f8a04c551" category="section-title">페더레이션 비활성화</block>
   <block id="e29366acd257602b75067c91b960f62f" category="paragraph">더 이상 페더레이션이 필요하지 않으면 비활성화할 수 있습니다. 이렇게 하면 페더레이션에 연결된 사용자가 회사 자격 증명을 사용하여 BlueXP 에 로그인하는 것을 방지할 수 있습니다. 필요한 경우 나중에 페더레이션을 다시 활성화할 수 있습니다.</block>
-  <block id="29fd568fb93920cf501488e171b7f20b" category="paragraph">사용자는 언제 페더레이션을 비활성화해야 하나요? 예를 들어 IdP가 업데이트되거나 페더레이션이 더 이상 필요하지 않은 경우입니다. --토니아?</block>
   <block id="ba1cad8ed3a99d167191e2e7f53a0e1d" category="list-text">작업 메뉴를 선택하세요 <block ref="bfe50e4fac5e58634c6fb748dce94758" category="inline-image-macro-rx" type="image"></block> 검증된 도메인을 추가하려는 페더레이션 옆에 있는 *비활성화*를 선택합니다.</block>
   <block id="a679ca81df887999afdb29cc812dba1a" category="section-title">연합 삭제</block>
   <block id="2e39c9a75c534c723834aef16604225c" category="paragraph">더 이상 페더레이션이 필요하지 않으면 삭제할 수 있습니다. 이렇게 하면 BlueXP 에서 페더레이션이 제거되고 페더레이션에 연결된 사용자가 회사 자격 증명을 사용하여 BlueXP 에 로그인할 수 없게 됩니다. 예를 들어, IdP가 폐기되거나 페더레이션이 더 이상 필요하지 않은 경우가 있습니다. 페더레이션을 삭제한 후에는 복구할 수 없습니다. 새 페더레이션을 생성해야 합니다.</block>
@@ -5474,4 +5463,11 @@ https://support.netapp.com 으로 문의하십시오
   <block id="17968a6208774a9e7e1a042da70ec52f" category="list-text">*회원* 페이지에서 표의 회원으로 이동하여 다음을 선택합니다. <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 그런 다음 *사용자 삭제*를 선택하세요.</block>
   <block id="fa37736e47ccc44e2228f573f9d2a303" category="paragraph"><block ref="fa37736e47ccc44e2228f573f9d2a303" category="inline-link-macro-rx"></block></block>
   <block id="fa5213b8e2ea77f3b22ea8b2e36d85b8" category="cell">Keystone 뷰어 역할을 가진 사용자는 서비스 요청을 생성할 수 없습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다.</block>
+  <block id="43fcb7c92b7808baf72f1cd9eecef7a5" category="list-text">특히 Amazon FSx for NetApp ONTAP 의 경우 "AWS": "arn:aws:iam::952013314444:root"를 포함하도록 *신뢰 관계* 정책을 편집합니다.</block>
+  <block id="f8aabc110ec9d0099e69b9276f73b751" category="paragraph">예를 들어, 정책은 다음과 같아야 합니다.</block>
+  <block id="37747908c82600c4f83a3de02bd7dc1a" category="inline-link-macro">AWS Identity and Access Management(IAM) 문서</block>
+  <block id="e8cffeeec612132e8c2cb2355463f31f" category="paragraph">참조하다 <block ref="ac3530460cd18c242c3653db3709495c" category="inline-link-macro-rx"></block> IAM에서 계정 간 리소스 액세스에 대한 자세한 내용을 확인하세요.</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp BlueXP 와 클라우드 서비스에 대한 다양한 지원을 제공합니다. 지식 베이스(KB) 문서 및 커뮤니티 포럼 등 다양한 무료 셀프 지원 옵션을 연중무휴 24시간 이용하실 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">계정 일련번호, 녹색 확인란, 지원 등록이라는 텍스트가 표시된 스크린샷입니다.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

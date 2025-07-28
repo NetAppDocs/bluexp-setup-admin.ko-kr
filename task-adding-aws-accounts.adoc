@@ -173,6 +173,30 @@ BlueXP  SaaS(Software as a Service) 계층에서 역할을 맡을 수 있도록
 +
 ** 신뢰할 수 있는 엔터티 유형 * 에서 * AWS 계정 * 을 선택합니다.
 ** 다른 AWS 계정 * 을 선택하고 BlueXP SaaS ID:952013314444를 입력합니다
+** 특히 Amazon FSx for NetApp ONTAP 의 경우 "AWS": "arn:aws:iam::952013314444:root"를 포함하도록 *신뢰 관계* 정책을 편집합니다.
++
+예를 들어, 정책은 다음과 같아야 합니다.
+
++
+[source, JSON]
+----
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::952013314444:root",
+        "Service": "ec2.amazonaws.com"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
+----
++
+참조하다 link:https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies-cross-account-resource-access.html["AWS Identity and Access Management(IAM) 문서"^] IAM에서 계정 간 리소스 액세스에 대한 자세한 내용을 확인하세요.
+
 ** Connector를 만드는 데 필요한 권한을 포함하는 정책을 만듭니다.
 +
 *** https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["ONTAP용 FSx에 필요한 권한을 봅니다"^]
