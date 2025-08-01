@@ -4434,7 +4434,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="f14b021b1ac020c4bd6150459ddd2d19" category="doc">BlueXP  플랫폼 액세스 역할</block>
   <block id="3aba2887bff41f744b43940b1b82080a" category="cell">플랫폼 역할</block>
   <block id="460874c7c996eb6762b8a5b10ff2d76f" category="cell">책임을 집니다</block>
-  <block id="692fafcb7a4c1881280af40a80baa20d" category="inline-link-macro">조직 관리자</block>
   <block id="ee1afb77ea65d6282a6b2db5ef1c9599" category="cell">응용 프로그램 역할</block>
   <block id="ff7835459affd6ea09ace7258f1ea831" category="cell">Keystone 관리자 역할이 있는 사용자는 서비스 요청을 생성할 수 있습니다. 사용자가 액세스하는 Keystone 테넌트 내의 소비, 자산, 관리 정보를 모니터링하고 볼 수 있도록 합니다.</block>
   <block id="316bb1d5ed8c0cbdba665a6326ba1bde" category="inline-link-macro">스토리지 관리자</block>
@@ -4520,7 +4519,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="7de6afef390d0c27101fd5599a80c841" category="doc">BlueXP의 Azure 자격 증명 및 권한에 대해 알아보세요</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="3ef1691185c3215cee725eacc5ae60e1" category="cell"><block ref="3ef1691185c3215cee725eacc5ae60e1" category="inline-link-macro-rx"></block></block>
   <block id="92d4c119f475b9887b30ea36f68501b4" category="cell"><block ref="92d4c119f475b9887b30ea36f68501b4" category="inline-link-macro-rx"></block></block>
   <block id="cfc1bf581403883b7597ea57212f92d0" category="cell"><block ref="cfc1bf581403883b7597ea57212f92d0" category="inline-link-macro-rx"></block></block>
   <block id="eee920c46940781b9236f383eb481644" category="cell"><block ref="eee920c46940781b9236f383eb481644" category="inline-link-macro-rx"></block></block>
@@ -5034,14 +5032,12 @@ https://support.netapp.com 으로 문의하십시오
   <block id="78dc241469129405c4f4b99066b0c5c3" category="inline-link-macro">액세스 역할에 대해 자세히 알아보세요.</block>
   <block id="4610064cac3ad84114cc400649031071" category="paragraph">조직 관리자, 연방 관리자, 연방 뷰어. <block ref="8f129ac67aaaf533c741c49d131f7a5d" category="inline-link-macro-rx"></block></block>
   <block id="517210395e603e1c3d5f72b67c9d0d8b" category="section-title">NetApp 지원 사이트를 통한 ID 페더레이션</block>
-  <block id="7f75689f905a0cb4e29c4a2843031d94" category="paragraph">NetApp 지원 사이트와 페더레이션하면 사용자는 NetApp 지원 사이트, Active IQ 및 NetApp 지원 사이트 계정과 연결된 다른 앱에 사용하는 것과 동일한 자격 증명으로 BlueXP 에 로그인하여 액세스할 수 있습니다. 페더레이션을 설정한 후에는 NetApp 지원 사이트 계정을 생성하는 모든 신규 사용자도 BlueXP 액세스할 수 있습니다.</block>
   <block id="465e770e13636214d49910bb014b1053" category="admonition">NetApp 지원 사이트와 페더레이션하는 경우 기업 ID 관리 공급업체와 페더레이션할 수 없습니다. 조직에 가장 적합한 공급업체를 선택하세요.</block>
   <block id="2364b4b1093b706141a365b97b678a4d" category="list-text">다운로드하고 완료하세요 <block ref="82f36446881e14fa28b945cd41d2b383" category="inline-link-rx"></block> .</block>
   <block id="28ff396d9aacc41256de2a2d064386fd" category="list-text">양식에 명시된 이메일 주소로 양식을 제출해 주세요.</block>
   <block id="d712dedaa07f66d96d580961a7fed8f3" category="paragraph">NetApp 지원팀이 귀하의 요청을 검토하고 처리합니다.</block>
   <block id="d6a05f20cad23a452bca7452f796d46c" category="section-title">ID 공급자와 페더레이션 연결을 설정하세요</block>
   <block id="0909b89c9a263634fe87c7ab9bbebb6a" category="paragraph">ID 공급자와 페더레이션 연결을 설정하여 BlueXP 에 대한 SSO(Single Sign-On)를 활성화할 수 있습니다. 이 과정에는 ID 공급자가 NetApp 서비스 공급자로 신뢰하도록 구성한 다음 BlueXP 에서 연결을 생성하는 과정이 포함됩니다.</block>
-  <block id="0c3f7255651040017d5aff94372442bb" category="paragraph">NetApp 페더레이션을 위해 다음과 같은 ID 공급자와 프로토콜을 지원합니다.</block>
   <block id="9985b4390c40137573e6da05caf85874" category="list-title">프로토콜</block>
   <block id="e0485ece44807b13d7328ec34970e8d7" category="list-title">ID 공급자</block>
   <block id="fe24ffaf16a8b56ee36712a6283173a6" category="section-title">BlueXP 워크플로를 사용한 페더레이션</block>
@@ -5474,9 +5470,13 @@ https://support.netapp.com 으로 문의하십시오
   <block id="9cc4b579fbb9d233102b44ff5119e060" category="cell">3.9.54, 3.9.53</block>
   <block id="4e7c2b7c3f7b00a4db742817336d985b" category="inline-link">BlueXP 페이지의 새로운 소식</block>
   <block id="fb973b0a3719c8d26b960aed72e4fe3f" category="cell">로 가다<block ref="f2bb5a2291ad18ff55b18a4b4553234a" category="inline-link-rx"></block> 버전 3.9.54 및 3.9.53에 포함된 변경 사항을 참조하세요.</block>
-  <block id="1caea5bc420fef9b14013d5029b5ada8" category="cell">2025년 7월 22일</block>
   <block id="72d49cd6d8e65ef0285be68616ea0f51" category="cell">로 가다<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block> 2025년 7월 릴리스에 포함된 변경 사항을 참조하세요.</block>
   <block id="9285fd96738351d44da30f801dea109b" category="cell">2025년 7월 14일(버전 1.45)</block>
   <block id="b3b08e322117d7e66cdd302866bc6d85" category="cell">로 가다<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block> .</block>
   <block id="328e39c031d3f6a77403904d6dda2377" category="section-title">2025년 7월 31일</block>
+  <block id="8ec07d17b9626eed73b7d8c3ecb0e32f" category="doc">프라이빗 모드 출시 (3.9.54)</block>
+  <block id="67c66b3b8df7b2dee0354dd9f9fcec17" category="cell">2025년 7월 28일</block>
+  <block id="985faaef42ae98b8d59df17cd449681e" category="paragraph">NetApp 지원 사이트와 페더레이션하는 경우 사용자는 NetApp 지원 사이트, Active IQ Digital Advisor 및 NetApp 지원 사이트 계정과 연결된 다른 앱에 사용하는 것과 동일한 자격 증명으로 로그인하여 BlueXP 액세스할 수 있습니다.  페더레이션을 설정한 후에는 NetApp 지원 사이트 계정을 만드는 모든 새 사용자도 BlueXP 에 액세스할 수 있습니다.</block>
+  <block id="fb18d9c76416da6ad7e8f165ea36f1d5" category="paragraph">NetApp 페더레이션을 위해 다음과 같은 프로토콜과 ID 공급자를 지원합니다.</block>
+  <block id="f207a0643b8dada892565ed2318b05cd" category="cell"><block ref="f207a0643b8dada892565ed2318b05cd" category="inline-link-macro-rx"></block></block>
 </blocks>

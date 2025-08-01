@@ -23,7 +23,7 @@ summary: ID 페더레이션을 사용하면 BlueXP에서 SSO를 사용할 수 �
 
 == NetApp 지원 사이트를 통한 ID 페더레이션
 
-NetApp 지원 사이트와 페더레이션하면 사용자는 NetApp 지원 사이트, Active IQ 및 NetApp 지원 사이트 계정과 연결된 다른 앱에 사용하는 것과 동일한 자격 증명으로 BlueXP 에 로그인하여 액세스할 수 있습니다. 페더레이션을 설정한 후에는 NetApp 지원 사이트 계정을 생성하는 모든 신규 사용자도 BlueXP 액세스할 수 있습니다.
+NetApp 지원 사이트와 페더레이션하는 경우 사용자는 NetApp 지원 사이트, Active IQ Digital Advisor 및 NetApp 지원 사이트 계정과 연결된 다른 앱에 사용하는 것과 동일한 자격 증명으로 로그인하여 BlueXP 액세스할 수 있습니다.  페더레이션을 설정한 후에는 NetApp 지원 사이트 계정을 만드는 모든 새 사용자도 BlueXP 에 액세스할 수 있습니다.
 
 
 NOTE: NetApp 지원 사이트와 페더레이션하는 경우 기업 ID 관리 공급업체와 페더레이션할 수 없습니다. 조직에 가장 적합한 공급업체를 선택하세요.
@@ -46,7 +46,7 @@ ID 공급자와 페더레이션 연결을 설정하여 BlueXP 에 대한 SSO(Sin
 
 === 지원되는 ID 공급자
 
-NetApp 페더레이션을 위해 다음과 같은 ID 공급자와 프로토콜을 지원합니다.
+NetApp 페더레이션을 위해 다음과 같은 프로토콜과 ID 공급자를 지원합니다.
 
 .프로토콜
 * SAML(Security Assertion Markup Language) ID 공급자
