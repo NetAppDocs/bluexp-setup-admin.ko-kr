@@ -2292,14 +2292,11 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="9a29204f81d065ca790be5e05be49951" category="paragraph">이제 로 이동할 수 있습니다<block ref="a47e12f4350b725a128875f50f785a3b" category="inline-link-rx"></block> 을 눌러 BlueXP에서 커넥터 사용을 시작합니다.</block>
   <block id="3cedfb797d3e1bc073ba2b0b4d2502cf" category="inline-link">Azure 문서</block>
   <block id="5c5eae78661bfbe6d566f6e00a0b5a67" category="paragraph">Azure 포털, Azure PowerShell, Azure CLI 또는 REST API를 사용하여 Azure 사용자 지정 역할을 생성할 수 있습니다. 다음 단계에서는 Azure CLI를 사용하여 역할을 생성하는 방법을 보여 줍니다. 다른 방법을 사용하려면 을 참조하십시오<block ref="9dee1d16cb9c40964c81f1bda0fd9839" category="inline-link-rx"></block></block>
-  <block id="5377c5407df56ba84e782b4e83f6c6ba" category="cell">사내 ONTAP 클러스터를 Amazon S3에 백업</block>
   <block id="adfa465566f5539105be4291db1cc510" category="cell">ONTAP 볼륨에서 백업을 활성화할 때 특정 권한이 있는 IAM 사용자에 대한 액세스 키와 암호를 입력하라는 메시지가 BlueXP 백업 및 복구에 표시됩니다.</block>
   <block id="ba37f89d4d4c6ea1b335169793666fbe" category="inline-link">백업에 대한 S3 권한을 설정합니다</block>
-  <block id="3a723efda81312f328c7de4a7741cb2c" category="cell"><block ref="3a723efda81312f328c7de4a7741cb2c" category="inline-link-rx"></block></block>
   <block id="9f60318dba873b8aa280da655451eafb" category="cell">사내 ONTAP 클러스터를 StorageGRID로 백업</block>
   <block id="649c5239d0163afb3411e36c5e857809" category="cell">StorageGRID를 ONTAP 클러스터의 백업 대상으로 준비할 때 BlueXP 백업 및 복구 시 특정 권한이 있는 IAM 사용자에 대한 액세스 키와 암호를 입력하라는 메시지가 표시됩니다.</block>
   <block id="08cdeb7ce64fda06111111c8fea66510" category="inline-link">StorageGRID를 백업 타겟으로 준비합니다</block>
-  <block id="62d09ae20af8b1a53c08a95792d3bdb1" category="cell"><block ref="62d09ae20af8b1a53c08a95792d3bdb1" category="inline-link-rx"></block></block>
   <block id="e6b202bba8f7c7c067b2137e58a41397" category="cell">BlueXP 계층화를 AWS에 활성화하면 마법사에서 액세스 키와 비밀 키를 입력하라는 메시지가 표시됩니다. 이러한 자격 증명은 ONTAP 클러스터에 전달되므로 ONTAP은 데이터를 S3 버킷으로 계층화할 수 있습니다.</block>
   <block id="827bb82562627531a1105788bd9826e6" category="inline-link">계층화에 S3 사용 권한 설정</block>
   <block id="5f2c172dbfc6022aa5027029dc114852" category="cell"><block ref="5f2c172dbfc6022aa5027029dc114852" category="inline-link-rx"></block></block>
@@ -2311,12 +2308,7 @@ cloudkms.keyRings.setIamPolicy 으로 문의하십시오</block>
   <block id="498541290e9165e5844d20ce7c56fdce" category="paragraph">BlueXP 백업 및 복구를 사용하여 Cloud Volumes ONTAP를 백업할 때 다음 시나리오에서 커넥터에 권한을 추가해야 합니다.</block>
   <block id="963c1d6b60ef9ab217e4a2f0f2f4a47f" category="list-text">"검색 및 복원" 기능을 사용하려고 합니다</block>
   <block id="0ce14c433ae57608c1aced4d631bc039" category="list-text">고객 관리 암호화 키(CMEK)를 사용하려는 경우</block>
-  <block id="3f4149dc5a7846817dd458a59e650f5f" category="inline-link">검색 및 표시 권한; 복원 기능</block>
-  <block id="aae920cbe0beab1a7b76937b223c2d92" category="list-text"><block ref="4b3b7e478cad27964ed24a4ab3fe4c45" category="inline-link-rx"></block></block>
-  <block id="dc5b71cece1f13a67fc01472a59d8781" category="inline-link">CMEK에 대한 권한</block>
-  <block id="73206ed184feb2313c9f626b7f266208" category="list-text"><block ref="73206ed184feb2313c9f626b7f266208" category="inline-link-rx"></block></block>
   <block id="6e9436752850e460930666efdaf1e025" category="cell">사내 ONTAP 클러스터를 Google Cloud로 백업</block>
-  <block id="072b4c796b4a06820f943c41d4da3162" category="cell"><block ref="6a045f48523c0716d40c678a68c87636" category="inline-link-rx"></block></block>
   <block id="33afe8d49ba0b54b76d44e7f5b190b53" category="section-title">BlueXP 서비스를 위한 네트워킹을 준비합니다</block>
   <block id="eeb8e055593f1709925a03e2ebb13265" category="inline-link">BlueXP 설명서</block>
   <block id="1c74bcfdef9917ce07420aafab8bce83" category="paragraph"><block ref="1c74bcfdef9917ce07420aafab8bce83" category="inline-link-rx"></block></block>
@@ -2763,12 +2755,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="d0622c7af7b2cc2435986b2d005d8fc3" category="cell">* 작업 환경 *
 
 표의 이 부분에는 BlueXP 캔버스에서 작업 환경 관리를 위한 지원이 나와 있습니다. BlueXP 백업 및 복구에 지원되는 백업 대상은 표시되지 않습니다.</block>
-  <block id="156b68e03278a01a3d2781f8c900caac" category="cell">예
-
-<block ref="14c876cb6a245f558ae78bae571d2b6e" category="inline-link-rx"></block></block>
-  <block id="fa0738e12b2324073fa9b5f91af71e48" category="cell">예
-
-<block ref="42dbd2df9d57eeeb664cce05b5a35bf1" category="inline-link-rx"></block></block>
   <block id="ceff1e7e9afd603be2687369aac73bb6" category="paragraph">이 설정은 관리되는 ID를 통해 Connector 가상 컴퓨터가 자격 증명을 제공하지 않고 Microsoft Entra ID를 식별할 수 있기 때문에 중요합니다.<block ref="f91ce7faef49711445322691b4d6ac64" category="inline-link-rx"></block>.</block>
   <block id="10d9864d222fd249479246f9c50df58c" category="list-text">* 자격 증명 정의 *: 필요한 권한을 부여하는 Microsoft Entra 서비스 보안 주체에 대한 정보를 입력합니다.</block>
   <block id="9c0e62a86b9fe558cad9c4d280ea439d" category="list-text">NTP를 활성화합니다</block>
@@ -4440,7 +4426,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="1d63b1d397254c4d509474883c1cb2b9" category="inline-link-macro">스토리지 뷰어</block>
   <block id="172d68d57647cf0cb58a3cbcac52a80d" category="inline-link-macro">시스템 상태 전문가</block>
   <block id="f9e4f3681d11897d8d94c7430ef166b2" category="cell">데이터 서비스 역할입니다</block>
-  <block id="64ed34c845e9e3ebe96d95642bd80c2c" category="cell">분류 관리자</block>
   <block id="83dcec25bcd459aaca6d3bde03c5731a" category="cell">랜섬웨어 보호 서비스의 보호, 알림, 복구, 설정 및 보고서 탭에서 작업을 관리합니다.</block>
   <block id="c449660979799948a46372470a0eddb9" category="cell">랜섬웨어 차단 서비스에서 워크로드 데이터 보기, 경고 데이터 보기, 복구 데이터 다운로드, 보고서 다운로드</block>
   <block id="720f5754e0beaeec96d607861fcee6d3" category="doc">BlueXP 의 랜섬웨어 차단 액세스 역할</block>
@@ -5192,7 +5177,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="d1030414e0b81438e7c1e475b3ff1c37" category="paragraph">BlueXP ID 및 액세스 관리(IAM)에는 리소스 계층의 다양한 수준에서 조직 구성원에게 할당할 수 있는 미리 정의된 역할이 포함되어 있습니다. 이러한 역할을 할당하기 전에 각 역할에 포함된 사용 권한을 이해해야 합니다. 역할은 플랫폼, 애플리케이션 및 데이터 서비스의 범주로 분류됩니다.</block>
   <block id="10140df1e1454ada0fe484df8f86e609" category="cell"><block ref="10140df1e1454ada0fe484df8f86e609" category="inline-link-macro-rx"></block></block>
   <block id="94dc84e1e8721887c7b647f1cdb802f2" category="cell"><block ref="94dc84e1e8721887c7b647f1cdb802f2" category="inline-link-macro-rx"></block></block>
-  <block id="178e676d4dcf16fc5b1d8f7c9431f792" category="cell">사용자가 BlueXP 사용하여 기존 페더레이션을 볼 수 있도록 허용합니다. 페더레이션을 생성하거나 관리할 수는 없습니다.</block>
   <block id="da46150dd1fb0497beb9ff6a9328d80c" category="cell"><block ref="da46150dd1fb0497beb9ff6a9328d80c" category="inline-link-macro-rx"></block></block>
   <block id="589491adabb65d62d42f2088d68fdee0" category="cell">백업 및 복구 서비스에서 모든 작업을 수행합니다.</block>
   <block id="eaec472b7a23d9c311a78adfd10b1032" category="inline-link-macro">백업 및 복구 관리자</block>
@@ -5445,7 +5429,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="077ceb8a17d475a37128a6986bf1819f" category="inline-link-macro">Google Cloud NetApp Volumes 관리자</block>
   <block id="42e05b82ea98ae962f4c09a6330b152a" category="cell"><block ref="42e05b82ea98ae962f4c09a6330b152a" category="inline-link-macro-rx"></block></block>
   <block id="ee848730515e9ec34272f93a110738f2" category="cell">Google Cloud NetApp Volumes 역할이 있는 사용자는 Google Cloud NetApp Volumes 검색하고 관리할 수 있습니다.</block>
-  <block id="afa251e583f752e51e3383587060e30b" category="cell">저장소 상태 및 거버넌스 기능을 관리하고, 저장소 리소스를 검색하고, 기존 작업 환경을 변경 및 제거합니다.</block>
   <block id="95b4eb24270de6ac5f87fadb096e4edf" category="cell">BlueXP classification 스캔 결과를 볼 수 있는 기능을 제공합니다. 이 역할을 가진 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 리소스에 대한 보고서를 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마의 스캔을 활성화하거나 비활성화할 수 없습니다. 분류에 뷰어 역할이 없습니다.</block>
   <block id="6bf86021a24fd009a31d432250a9ad20" category="section-title">2025년 7월 21일</block>
   <block id="5cc5248d8f5f2a5831a23c2c1c7ba338" category="cell">ONTAP Mediator 설정 역할</block>
@@ -5479,4 +5462,21 @@ https://support.netapp.com 으로 문의하십시오
   <block id="985faaef42ae98b8d59df17cd449681e" category="paragraph">NetApp 지원 사이트와 페더레이션하는 경우 사용자는 NetApp 지원 사이트, Active IQ Digital Advisor 및 NetApp 지원 사이트 계정과 연결된 다른 앱에 사용하는 것과 동일한 자격 증명으로 로그인하여 BlueXP 액세스할 수 있습니다.  페더레이션을 설정한 후에는 NetApp 지원 사이트 계정을 만드는 모든 새 사용자도 BlueXP 에 액세스할 수 있습니다.</block>
   <block id="fb18d9c76416da6ad7e8f165ea36f1d5" category="paragraph">NetApp 페더레이션을 위해 다음과 같은 프로토콜과 ID 공급자를 지원합니다.</block>
   <block id="f207a0643b8dada892565ed2318b05cd" category="cell"><block ref="f207a0643b8dada892565ed2318b05cd" category="inline-link-macro-rx"></block></block>
+  <block id="c1c35b571a8270f43bf6faa6757452f6" category="cell">예<block ref="7017fcd1de8071674201a0278a852eae" category="inline-link-rx"></block></block>
+  <block id="a6c599d9b9bbe744be463c056f9e194a" category="cell">예<block ref="8cbf8dca81955ce6c3d97cec5394e7fd" category="inline-link-rx"></block></block>
+  <block id="e3e606b368c3f3a65f5cb75fbe9c3115" category="cell">사용자가 BlueXP 사용하여 기존 연합을 볼 수 있도록 합니다.  페더레이션을 생성하거나 관리할 수 없습니다.</block>
+  <block id="1393a4279651a3334e20f39925a139f5" category="cell">분류 뷰어</block>
+  <block id="725b2ecc37229f77405f9188278a6a1f" category="cell">BlueXP backup and recovery 사용하여 온프레미스 ONTAP 클러스터를 Amazon S3에 백업하세요.</block>
+  <block id="12e11cedace336bc23a4b1c9ab448974" category="cell"><block ref="12e11cedace336bc23a4b1c9ab448974" category="inline-link-rx"></block></block>
+  <block id="51fa9005485af9016610af9875c0e913" category="cell">Cloud Volumes ONTAP Azure Blob 스토리지에 백업</block>
+  <block id="8625ed737cea7841c422023f4e27bc1d" category="inline-link">백업 및 복구를 사용하여 Cloud Volumes ONTAP 데이터를 Azure Blob 스토리지에 백업합니다.</block>
+  <block id="518ffd78f998d0a25c5446da8989b6a6" category="list-text"><block ref="518ffd78f998d0a25c5446da8989b6a6" category="inline-link-rx"></block></block>
+  <block id="f66493a5c1b72a6a6a675e1d79371789" category="cell">온프레미스 ONTAP 클러스터를 Azure Blob Storage에 백업</block>
+  <block id="957901780fae6c72beed34248e8e252d" category="inline-link">백업 및 복구를 사용하여 온-프레미스 ONTAP 데이터를 Azure Blob 저장소에 백업합니다.</block>
+  <block id="6d94d8c7b4ec021fb7a5a5704629681e" category="cell"><block ref="6d94d8c7b4ec021fb7a5a5704629681e" category="inline-link-rx"></block></block>
+  <block id="cd84e76d2557bd459057089ba5e1385c" category="inline-link">백업 및 복구를 사용하여 Cloud Volumes ONTAP 데이터를 Google Cloud Storage에 백업합니다.</block>
+  <block id="3b5162ff96cd00bbd1b1ad424d59bd8f" category="list-text"><block ref="3b5162ff96cd00bbd1b1ad424d59bd8f" category="inline-link-rx"></block></block>
+  <block id="6d4f1161a06d11fa7424e224b2a86d25" category="inline-link">백업 및 복구를 사용하여 온프레미스 ONTAP 데이터를 Google Cloud Storage에 백업하세요.</block>
+  <block id="b9142ed8495860430205961c82c827a0" category="cell"><block ref="b9142ed8495860430205961c82c827a0" category="inline-link-rx"></block></block>
+  <block id="86b4fb0c56ea4924e5069e8f25d3a778" category="cell"><block ref="86b4fb0c56ea4924e5069e8f25d3a778" category="inline-link-rx"></block></block>
 </blocks>

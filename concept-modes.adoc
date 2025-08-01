@@ -356,11 +356,7 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 .17+| 서비스 * | 경고 | 아니요 | 아니요 
 
 
-| 백업 및 복구 | 예
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-restricted-mode["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] | 예
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-private-mode["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 
+| 백업 및 복구 | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-no-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 
 
 
 | 분류 | 예 | 예 

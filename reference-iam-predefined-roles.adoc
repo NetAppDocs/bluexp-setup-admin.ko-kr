@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-iam-predefined-roles.html 
-keywords: predefined roles, iam roles, organization admin, folder or project admin, classification viewer, snapcenter admin, role, iam role, admin, iam, identity and access management 
+keywords: predefined roles, iam roles, organization admin, folder or project admin, classification viewer, snapcenter admin, role, iam role, admin, iam, identity and access management, access roles, rbac 
 summary: BlueXP  ID 및 액세스 관리에는 조직의 구성원에게 할당할 수 있는 미리 정의된 여러 역할이 포함되어 있습니다. 
 ---
 = BlueXP  액세스 역할에 대해 알아보십시오
@@ -36,7 +36,7 @@ BlueXP ID 및 액세스 관리(IAM)에는 리소스 계층의 다양한 수준�
 | link:reference-iam-platform-roles.html["연방 관리자"] | BlueXP 사용하면 사용자가 페더레이션을 만들고 관리할 수 있으며, SSO(Single Sign-On)가 가능합니다. 
 
 
-| link:reference-iam-platform-roles.html["연방 뷰어"] | 사용자가 BlueXP 사용하여 기존 페더레이션을 볼 수 있도록 허용합니다. 페더레이션을 생성하거나 관리할 수는 없습니다. 
+| link:reference-iam-platform-roles.html["연방 뷰어"] | 사용자가 BlueXP 사용하여 기존 연합을 볼 수 있도록 합니다.  페더레이션을 생성하거나 관리할 수 없습니다. 
 |===
 
 
@@ -62,9 +62,6 @@ BlueXP ID 및 액세스 관리(IAM)에는 리소스 계층의 다양한 수준�
 
 
 | link:reference-iam-storage-roles.html["스토리지 관리자"] | 스토리지 상태 및 거버넌스 기능을 관리하고, 스토리지 리소스를 검색하고, 기존 작업 환경을 수정 및 삭제합니다. 
-
-
-| link:reference-iam-storage-roles.html["스토리지 관리자"] | 저장소 상태 및 거버넌스 기능을 관리하고, 저장소 리소스를 검색하고, 기존 작업 환경을 변경 및 제거합니다. 
 
 
 | link:reference-iam-storage-roles.html["스토리지 뷰어"] | 스토리지 상태 및 거버넌스 기능을 확인하고 이전에 검색된 스토리지 리소스를 확인합니다. 기존 스토리지 작업 환경을 검색, 수정 또는 삭제할 수 없습니다. 
@@ -110,7 +107,7 @@ BlueXP ID 및 액세스 관리(IAM)에는 리소스 계층의 다양한 수준�
 | link:reference-iam-disaster-rec-roles.html["재해 복구 뷰어"] | 정보만 보기. 
 
 
-| 분류 관리자 | BlueXP classification 스캔 결과를 볼 수 있는 기능을 제공합니다. 이 역할을 가진 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 리소스에 대한 보고서를 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마의 스캔을 활성화하거나 비활성화할 수 없습니다. 분류에 뷰어 역할이 없습니다. 
+| 분류 뷰어 | BlueXP classification 스캔 결과를 볼 수 있는 기능을 제공합니다. 이 역할을 가진 사용자는 규정 준수 정보를 보고 액세스 권한이 있는 리소스에 대한 보고서를 생성할 수 있습니다. 이러한 사용자는 볼륨, 버킷 또는 데이터베이스 스키마의 스캔을 활성화하거나 비활성화할 수 없습니다. 분류에 뷰어 역할이 없습니다. 
 
 
 | link:reference-iam-ransomware-roles.html["랜섬웨어 차단 관리자"] | 랜섬웨어 보호 서비스의 보호, 알림, 복구, 설정 및 보고서 탭에서 작업을 관리합니다. 
