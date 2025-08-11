@@ -73,7 +73,6 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["�
 * 경제 효율성 ^1^
 * Google Cloud Storage 버킷
 * BlueXP 데이터 서비스와 사내 ONTAP 클러스터 통합
-* 작업 복구 ^1^
 * 랜섬웨어 보호
 * StorageGRID 시스템
 * 계층화
