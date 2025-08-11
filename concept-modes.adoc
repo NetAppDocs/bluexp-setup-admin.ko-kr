@@ -155,7 +155,7 @@ API 종점:: API 호출은 Connector 가상 시스템으로 이루어집니다.
 | Azure NetApp Files | 완벽한 지원 
 
 
-| 백업 및 복구 | 제한 모드가 있는 정부 지역 및 상업 지역에서 지원됩니다. 제한된 모드의 주권 지역에서는 지원되지 않습니다. 제한된 모드에서 BlueXP  백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-restricted-mode["ONTAP 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 애플리케이션 데이터 및 가상 머신 데이터의 백업 및 복구는 지원되지 않습니다. 
+| 백업 및 복구 | 제한 모드가 적용된 정부 지역 및 상업 지역에서 지원됩니다.  제한 모드가 적용된 주권 지역에서는 지원되지 않습니다.  제한 모드에서 BlueXP backup and recovery ONTAP 볼륨 데이터의 백업과 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^]  애플리케이션 데이터와 가상 머신 데이터의 백업 및 복원은 지원되지 않습니다. 
 
 
 | 분류  a| 
@@ -238,7 +238,7 @@ API 종점:: API 호출은 Connector 가상 시스템으로 이루어집니다.
 | 지원되는 서비스 | 참고 
 
 
-| 백업 및 복구 | AWS 및 Azure 상용 지역에서 지원됩니다. Google Cloud, 또는 프라이빗 모드에서 지원되지 않음 https://aws.amazon.com/federal/secret-cloud/["AWS 비밀 클라우드"^] https://aws.amazon.com/federal/top-secret-cloud/["AWS Top Secret Cloud의 약어입니다"^] https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-dod-il6["Azure iL6"^] BlueXP  백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-private-mode["ONTAP 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 애플리케이션 데이터 및 가상 머신 데이터의 백업 및 복구는 지원되지 않습니다. 
+| 백업 및 복구 | AWS 및 Azure 상업 지역에서 지원됩니다.  Google Cloud 또는 다음에서 지원되지 않습니다. https://aws.amazon.com/federal/secret-cloud/["AWS 비밀 클라우드"^] , https://aws.amazon.com/federal/top-secret-cloud/["AWS Top Secret Cloud의 약어입니다"^] , 또는 https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-dod-il6["Azure iL6"^] 개인 모드에서 BlueXP backup and recovery ONTAP 볼륨 데이터의 백업과 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^]  애플리케이션 데이터와 가상 머신 데이터의 백업 및 복원은 지원되지 않습니다. 
 
 
 | Cloud Volumes ONTAP | 인터넷에 액세스할 수 없으므로 자동화된 소프트웨어 업그레이드 및 AutoSupport 기능을 사용할 수 없습니다. 
@@ -261,7 +261,7 @@ API 종점:: API 호출은 Connector 가상 시스템으로 이루어집니다.
 
 
 | 백업 및 복구  a| 
-프라이빗 모드에서 BlueXP 백업 및 복구는 ONTAP 볼륨 데이터의 백업 및 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#support-when-using-private-mode["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^]
+개인 모드에서 BlueXP backup and recovery ONTAP 볼륨 데이터의 백업과 복원만 지원합니다. https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^]
 
 애플리케이션 데이터 및 가상 머신 데이터의 백업 및 복구는 지원되지 않습니다.
 
@@ -356,7 +356,7 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 .17+| 서비스 * | 경고 | 아니요 | 아니요 
 
 
-| 백업 및 복구 | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-no-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 
+| 백업 및 복구 | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 
 
 
 | 분류 | 예 | 예 

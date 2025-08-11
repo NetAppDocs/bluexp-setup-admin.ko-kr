@@ -40,6 +40,7 @@ BlueXP 를 사용하면 BlueXP  캔버스에서 다음과 같은 유형의 스
 * NetApp ONTAP용 Amazon FSx
 * Azure NetApp Files
 * Cloud Volumes ONTAP
+* Google Cloud NetApp 볼륨
 
 
 --

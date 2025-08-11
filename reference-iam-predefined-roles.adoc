@@ -61,6 +61,9 @@ BlueXP ID 및 액세스 관리(IAM)에는 리소스 계층의 다양한 수준�
 | ONTAP Mediator 설정 역할 | ONTAP Mediator 설정 역할이 있는 서비스 계정은 서비스 요청을 생성할 수 있습니다. 이 역할은 서비스 계정에서 인스턴스를 구성하는 데 필요합니다. link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html["ONTAP 클라우드 중재자"^] . 
 
 
+| link:reference-iam-analyst-roles.html["운영 지원 분석가"] | 알림 및 모니터링 도구에 대한 액세스를 제공하고 지원 사례를 입력하고 관리하는 기능을 제공합니다. 
+
+
 | link:reference-iam-storage-roles.html["스토리지 관리자"] | 스토리지 상태 및 거버넌스 기능을 관리하고, 스토리지 리소스를 검색하고, 기존 작업 환경을 수정 및 삭제합니다. 
 
 
