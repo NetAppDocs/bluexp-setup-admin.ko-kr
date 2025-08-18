@@ -4198,7 +4198,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="f4a866cc8d962c94d7c7fd8decdd7e6c" category="list-text">폴더 수준에서 액세스 역할을 부여하면 해당 폴더의 모든 폴더, 프로젝트 및 리소스가 해당 역할을 상속받습니다.</block>
   <block id="34aee3ad45d37ad6cf603311eb0838fb" category="list-text">프로젝트 수준에서 액세스 역할을 부여하면 해당 프로젝트와 연결된 모든 리소스가 해당 역할을 상속받습니다.</block>
   <block id="b65cc9ab2327fd85f7b0e7503c06a66f" category="paragraph">BlueXP Connector를 사용하여 추가 프로젝트와 연결한 리소스가 검색된 경우 해당 리소스가 현재 연결된 프로젝트에도 Connector를 연결해야 합니다. 그렇지 않으면 _조직 관리자_ 역할이 없는 구성원은 BlueXP 캔버스에서 Connector와 연결된 리소스에 액세스할 수 없습니다.</block>
-  <block id="23281988aab04cbdc82eb76f370939d5" category="paragraph">BlueXP는 비즈니스 및 보안 요구 사항을 충족할 수 있는 다양한 _배포 모드_를 제공합니다. _표준 모드_는 SaaS(Software as a Service) 계층을 활용하여 모든 기능을 제공하고, _제한 모드_와 _개인 모드_는 연결 제한이 있는 조직에서 사용할 수 있습니다.</block>
   <block id="43edcdb6c00656305d8defca5b3b7be0" category="cell">데이터 서비스 라이선스 옵션</block>
   <block id="960800e4f6948441d5ac2b7201b75a9b" category="paragraph">XYZ Corporation에는 Keystone 구독 정보를 확인하는 여러 부서의 스토리지 엔지니어가 4명 있습니다. 모든 사용자가 Keystone 구독을 모니터링해야 하지만 팀장만 서비스를 요청할 수 있습니다. 팀 구성원 중 3명에게 * Keystone 뷰어 * 역할이 부여되고, 팀 리더에게 * Keystone 관리자 * 역할이 부여되어 회사의 서비스 요청을 제어할 수 있습니다.</block>
   <block id="69d1234e785810f2a95867f80dbd3641" category="cell">애플리케이션에 대한 BlueXP  백업 및 복구를 사용하여 온프레미스 ONTAP 클러스터의 스냅샷을 백업하는 기능을 제공합니다. 이 역할이 있는 멤버는 BlueXP에서 다음 작업을 완료할 수 있습니다. * 백업 및 복구 &gt; 애플리케이션에서 모든 작업 완료 * 권한이 있는 프로젝트 및 폴더의 모든 작업 환경 관리 * 모든 BlueXP 서비스 사용 SnapCenter에는 뷰어 역할이 없습니다.</block>
@@ -5002,4 +5001,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="107d607a0fbcdbb5eddd688662ad90ca" category="sidebar">운영 지원 분석가</block>
   <block id="63c109031bd5690629b7c9170bf3f4e8" category="section-title">운영 복원력 기능</block>
   <block id="873883e64c5f2d509253776eb02b66b4" category="paragraph">BlueXP 에서 운영 복원력 기능이 제거되었습니다.  문제가 발생하면 NetApp 지원팀에 문의하세요.</block>
+  <block id="1483f680ce3bdf9d9815a763f9aff7ff" category="paragraph">BlueXP 비즈니스 및 보안 요구 사항을 충족할 수 있는 _배포 모드_를 제공합니다.  _표준 모드_는 SaaS(Software as a Service) 계층을 활용하여 모든 기능을 제공하는 반면, _제한 모드_와 _개인 모드_는 연결 제한이 있는 조직에서 사용할 수 있습니다.</block>
 </blocks>
