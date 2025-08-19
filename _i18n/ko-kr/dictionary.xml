@@ -4208,7 +4208,6 @@ https://support.netapp.com 으로 문의하십시오
   <block id="6c5717b14632d720938288e07cadd604" category="paragraph">XYZ Corporation은 다국적 기업이며 스토리지 엔지니어와 스토리지 관리자로 구성된 대규모 팀을 운영하고 있습니다. 이를 통해 팀은 사용자 관리, 커넥터 생성, 디지털 지갑과 같은 비용 도구와 같은 핵심 BlueXP 작업에 대한 액세스를 제한하는 동시에 해당 지역의 스토리지 자산을 관리할 수 있습니다.</block>
   <block id="496d5f930a1daf128efdaf083cd8dcbb" category="paragraph">다음 표는 각 BlueXP 스토리지 역할이 수행하는 작업을 보여줍니다.</block>
   <block id="f427e4ecee2d5f4a7a3729b4087d142b" category="paragraph">웹 기반 콘솔에 로그인하여 사용하면 BlueXP는 여러 엔드포인트에 연결하여 사용자가 시작한 작업을 완료합니다. 콘솔에 액세스하는 컴퓨터는 이러한 엔드포인트에 연결되어 있어야 합니다.</block>
-  <block id="6c5ff8f0129671982d1831fd73cf4dc0" category="list-text">사용자의 컴퓨터에서 작업을 완료할 때 <block ref="eecb3fc8bedef660fde4567972ba79cf" category="inline-link-rx"></block> 서비스형 소프트웨어(SaaS)로 제공됩니다.</block>
   <block id="6f7595410ecabe6d611ded757d1f969c" category="cell">이는 웹 기반 콘솔을 사용하기 위해 웹 브라우저에 입력하는 엔드포인트입니다.</block>
   <block id="3e692c92398b899f8bef9e541b9e153b" category="cell">웹 기반 콘솔은 이 엔드포인트에 접속하여 권한 부여, 라이선싱, 구독, 자격 증명, 알림 등과 관련된 작업을 위한 API와 상호 작용합니다.</block>
   <block id="f3000ad965f0ab15a5956bdd572c01d0" category="cell">디지털 어드바이저에 접속하려면 필요합니다.</block>
@@ -5002,4 +5001,5 @@ https://support.netapp.com 으로 문의하십시오
   <block id="63c109031bd5690629b7c9170bf3f4e8" category="section-title">운영 복원력 기능</block>
   <block id="873883e64c5f2d509253776eb02b66b4" category="paragraph">BlueXP 에서 운영 복원력 기능이 제거되었습니다.  문제가 발생하면 NetApp 지원팀에 문의하세요.</block>
   <block id="1483f680ce3bdf9d9815a763f9aff7ff" category="paragraph">BlueXP 비즈니스 및 보안 요구 사항을 충족할 수 있는 _배포 모드_를 제공합니다.  _표준 모드_는 SaaS(Software as a Service) 계층을 활용하여 모든 기능을 제공하는 반면, _제한 모드_와 _개인 모드_는 연결 제한이 있는 조직에서 사용할 수 있습니다.</block>
+  <block id="123a6b352fe45a0ef3d13dd5def43f93" category="list-text">섹션을 완료할 때 사용자 컴퓨터에서<block ref="eecb3fc8bedef660fde4567972ba79cf" category="inline-link-rx"></block> 서비스형 소프트웨어(SaaS)로 제공됩니다.</block>
 </blocks>
