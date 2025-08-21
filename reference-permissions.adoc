@@ -49,7 +49,7 @@ AWS Marketplace에서 Connector를 시작하거나 커넥터를 수동으로 설
 | 목표 | 설명 | 링크 
 
 
-| BlueXP backup and recovery 사용하여 온프레미스 ONTAP 클러스터를 Amazon S3에 백업하세요. | ONTAP 볼륨에서 백업을 활성화할 때 특정 권한이 있는 IAM 사용자에 대한 액세스 키와 암호를 입력하라는 메시지가 BlueXP 백업 및 복구에 표시됩니다. | https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-backup-onprem-aws.html["백업에 대한 S3 권한을 설정합니다"^] 
+| BlueXP backup and recovery 사용하여 온프레미스 ONTAP 클러스터를 Amazon S3에 백업하세요. | ONTAP 볼륨에서 백업을 활성화할 때 특정 권한이 있는 IAM 사용자에 대한 액세스 키와 암호를 입력하라는 메시지가 BlueXP 백업 및 복구에 표시됩니다. | https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-backup-onprem-aws.html#set-up-s3-permissions["백업에 대한 S3 권한을 설정합니다"^] 
 |===
 
 
@@ -202,11 +202,12 @@ BlueXP 백업 및 복구를 사용하여 Cloud Volumes ONTAP를 백업할 때 �
 
  a| 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-backup-cvo-gcp.html["백업 및 복구를 사용하여 Cloud Volumes ONTAP 데이터를 Google Cloud Storage에 백업합니다."^]
+* hhttps://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-backup-cvo-gcp.html[CMEK에 대한 권한^]
 
 
 
 
-| 사내 ONTAP 클러스터를 Google Cloud로 백업 | BlueXP 백업 및 복구를 사용하여 온프레미스 ONTAP 클러스터를 백업하는 경우 "검색 및 복원" 기능을 사용하려면 커넥터에 권한을 추가해야 합니다. | https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-backup-onprem-gcp.html["백업 및 복구를 사용하여 온프레미스 ONTAP 데이터를 Google Cloud Storage에 백업하세요."^] 
+| 사내 ONTAP 클러스터를 Google Cloud로 백업 | BlueXP 백업 및 복구를 사용하여 온프레미스 ONTAP 클러스터를 백업하는 경우 "검색 및 복원" 기능을 사용하려면 커넥터에 권한을 추가해야 합니다. | https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-backup-onprem-gcp.html["검색 및 복원 기능에 대한 권한"^] 
 |===
 
 

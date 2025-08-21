@@ -1026,3 +1026,202 @@ BlueXP  및 Connector의 안정성을 높이고 성능을 개선하기 위해 �
 === ID 페더레이션에 대한 사용자 유효성 검사
 
 BlueXP 와 ID 페더레이션을 사용하는 경우 처음으로 BlueXP 에 로그인하는 각 사용자는 빠른 양식을 작성하여 ID를 확인해야 합니다.
+
+
+
+== 2024년 7월 31일
+
+
+
+=== 프라이빗 모드 출시 (3.9.42)
+
+이제 NetApp Support 사이트에서 새로운 비공개 모드 릴리스를 다운로드할 수 있습니다.
+
+.RHEL 8 및 9 지원
+이 릴리스에는 개인 모드에서 BlueXP 사용할 때 Red Hat Enterprise Linux 8 또는 9 호스트에 커넥터를 설치하는 데 대한 지원이 포함되어 있습니다.  다음 RHEL 버전이 지원됩니다.
+
+* 8.6 - 8.10
+* 9.1에서 9.3까지
+
+
+이러한 운영 체제의 컨테이너 오케스트레이션 도구로 Podman이 필요합니다.
+
+Podman 요구 사항, 알려진 제한 사항, 운영 체제 지원 요약, RHEL 7 호스트가 있는 경우 수행할 작업, 시작 방법 등을 알고 있어야 합니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오"].
+
+.이 릴리스에 포함된 버전
+이 릴리스에는 개인 모드에서 지원되는 다음 버전의 BlueXP 서비스가 포함되어 있습니다.
+
+[cols="2*"]
+|===
+| 서비스 | 버전이 포함됩니다 
+
+
+| 커넥터 | 3.9.42 
+
+
+| 백업 및 복구 | 2024년 7월 18일 
+
+
+| 분류 | 2024년 7월 1일(버전 1.33) 
+
+
+| Cloud Volumes ONTAP 관리 | 2024년 6월 10일 
+
+
+| 디지털 지갑 | 2023년 7월 30일 
+
+
+| 온프레미스 ONTAP 클러스터 관리 | 2023년 7월 30일 
+
+
+| 복제 | 2022년 9월 18일 
+|===
+각 BlueXP 서비스 버전에 포함된 내용에 대해 자세히 알아보려면 각 BlueXP 서비스의 릴리스 노트를 참조하세요.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["비공개 모드에 대해 알아봅니다"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다"]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP backup and recovery 의 새로운 기능을 알아보세요"^]
+* https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP classification 의 새로운 기능을 알아보세요"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP 의 Cloud Volumes ONTAP 관리에 대한 새로운 소식을 알아보세요"^]
+
+
+
+
+== 2024년 7월 15일
+
+
+
+=== RHEL 8.10 지원
+
+이제 BlueXP 표준 모드 또는 제한 모드를 사용할 때 Red Hat Enterprise Linux 8.10 호스트에 커넥터를 설치하는 것을 지원합니다.
+
+RHEL 8.10에 대한 지원은 Connector 3.9.40 릴리스부터 시작됩니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오"].
+
+
+
+== 2024년 7월 8일
+
+
+
+=== 커넥터 3.9.42
+
+이 릴리스에는 AWS 캐나다 서부(캘거리) 지역의 커넥터에 대한 사소한 개선 사항, 버그 수정 및 지원이 포함되어 있습니다.
+
+3.9.42 릴리스는 표준 모드와 제한 모드에서 사용할 수 있습니다.
+
+
+
+=== 업데이트된 Docker Engine 요구 사항
+
+커넥터가 Ubuntu 호스트에 설치되면 Docker Engine의 최소 지원 버전은 이제 23.0.6입니다.  이전에는 19.3.1이었습니다.
+
+지원되는 최대 버전은 여전히 25.0.5입니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html#step-1-review-host-requirements["커넥터 호스트 요구 사항을 확인합니다"].
+
+
+
+=== 이제 이메일 확인이 필요합니다
+
+BlueXP 에 가입하는 신규 사용자는 로그인하기 전에 이메일 주소를 확인해야 합니다.
+
+
+
+== 2024년 6월 12일
+
+
+
+=== 커넥터 3.9.41
+
+이번 BlueXP Connector 릴리즈에는 사소한 보안 개선사항과 버그 수정이 포함되어 있습니다.
+
+3.9.41 릴리스는 표준 모드와 제한 모드에서 사용할 수 있습니다.
+
+
+
+== 2024년 6월 4일
+
+
+
+=== 프라이빗 모드 출시 (3.9.40)
+
+새로운 개인 모드 릴리스를 이제 NetApp 지원 사이트에서 다운로드할 수 있습니다.  이 릴리스에는 개인 모드에서 지원되는 다음 버전의 BlueXP 서비스가 포함되어 있습니다.
+
+이 개인 모드 릴리스에는 Red Hat Enterprise Linux 8 및 9의 커넥터에 대한 지원이 포함되지 않습니다.
+
+[cols="2*"]
+|===
+| 서비스 | 버전이 포함됩니다 
+
+
+| 커넥터 | 3.9.40 
+
+
+| 백업 및 복구 | 2024년 5월 17일 
+
+
+| 분류 | 2024년 5월 15일(버전 1.31) 
+
+
+| Cloud Volumes ONTAP 관리 | 2024년 5월 17일 
+
+
+| 디지털 지갑 | 2023년 7월 30일 
+
+
+| 온프레미스 ONTAP 클러스터 관리 | 2023년 7월 30일 
+
+
+| 복제 | 2022년 9월 18일 
+|===
+각 BlueXP 서비스 버전에 포함된 내용에 대해 자세히 알아보려면 각 BlueXP 서비스의 릴리스 노트를 참조하세요.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["비공개 모드에 대해 알아봅니다"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["프라이빗 모드에서 BlueXP를 시작하는 방법을 알아보십시오"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["비공개 모드를 사용할 때 커넥터를 업그레이드하는 방법에 대해 알아봅니다"]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP backup and recovery 의 새로운 기능을 알아보세요"^]
+* https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP classification 의 새로운 기능을 알아보세요"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP 의 Cloud Volumes ONTAP 관리에 대한 새로운 소식을 알아보세요"^]
+
+
+
+
+== 2024년 5월 17일
+
+
+
+=== 커넥터 3.9.40
+
+BlueXP Connector의 이번 릴리스에는 추가 운영 체제 지원, 사소한 보안 개선 및 버그 수정이 포함되어 있습니다.
+
+현재 3.9.40 릴리스는 표준 모드와 제한 모드에서 사용할 수 있습니다.
+
+.RHEL 8 및 9 지원
+이제 BlueXP 표준 모드 또는 제한 모드에서 사용할 때 _새로운_ 커넥터가 설치된 다음 Red Hat Enterprise Linux 버전을 실행하는 호스트에서 커넥터가 지원됩니다.
+
+* 8.6에서 8.9까지
+* 9.1에서 9.3까지
+
+
+이러한 운영 체제의 컨테이너 오케스트레이션 도구로 Podman이 필요합니다.
+
+Podman 요구 사항, 알려진 제한 사항, 운영 체제 지원 요약, RHEL 7 호스트가 있는 경우 수행할 작업, 시작 방법 등을 알고 있어야 합니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["Connector를 사용한 RHEL 8 및 9에 대한 지원에 대해 알아보십시오"].
+
+.RHEL 7 및 CentOS 7에 대한 지원 종료
+2024년 6월 30일, RHEL 7은 유지 관리 종료(EOM)에 도달하고, CentOS 7은 지원 종료(EOL)에 도달합니다.  NetApp 2024년 6월 30일까지 이러한 Linux 배포판에서 Connector를 계속 지원할 예정입니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-system-changes.html["RHEL 7 또는 CentOS 7에서 기존 커넥터가 실행 중인 경우 수행할 작업을 알아보세요."] .
+
+.AWS 권한 업데이트
+3.9.38 릴리스에서는 AWS의 커넥터 정책을 업데이트하여 "ec2:DescribeAvailabilityZones" 권한을 포함했습니다.  이제 Cloud Volumes ONTAP 사용하여 AWS 로컬 영역을 지원하려면 이 권한이 필요합니다.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-aws.html["커넥터에 대한 AWS 권한 보기"] .
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["AWS 로컬 영역 지원에 대해 자세히 알아보세요"^]
+
