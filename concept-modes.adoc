@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-modes.html 
-keywords: dark site, internet, on prem, no internet, supported deployments, govcloud, government access, environments, supported environments, deployment modes, modes, private mode, restricted mode, il6, sc2s, c2s, dark site, sovereign region, saas, government region, secret region, top secret, aws secret, aws top secret, private 
+keywords: dark site, internet, on prem, no internet, supported deployments, govcloud, government access, environments, supported environments, deployment modes, modes, private mode, restricted mode, il6, sc2s, c2s, sovereign region, saas, government region, secret region, top secret, aws secret, aws top secret, private 
 summary: BlueXP는 비즈니스 및 보안 요구 사항을 충족하는 방식으로 BlueXP를 사용할 수 있는 다양한 배포 모드를 제공합니다. 표준 모드는 BlueXP SaaS 계층을 활용하여 모든 기능을 제공하는 반면, 제한된 모드 및 비공개 모드는 연결 제한이 있는 조직에서 사용할 수 있습니다. 
 ---
 = BlueXP 배포 모드에 대해 알아보십시오
@@ -353,10 +353,10 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 | StorageGRID | 아니요 | 아니요 
 
 
-.16+| 서비스 * | 경고 | 아니요 | 아니요 
+.15+| 서비스 * | 경고 | 아니요 | 아니요 
 
 
-| 백업 및 복구 | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivityView[] ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록^] | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-no-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 
+| 백업 및 복구 | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-limited-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] | 예https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html#support-for-sites-with-no-internet-connectivity["ONTAP 볼륨 데이터에 대해 지원되는 백업 대상 목록을 봅니다"^] 
 
 
 | 분류 | 예 | 예 
@@ -398,20 +398,26 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 | 워크로드 공장 | 아니요 | 아니요 
 
 
-.6+| * 기능 * | ID 및 액세스 관리 | 예 
+.8+| * 기능 * | ID 및 액세스 관리 | 예 | 예 
 
 
-| 예 | 자격 증명 | 예 
+| 자격 증명 | 예 | 예 
 
 
-| 예 | NSS 계정 | 예 
+| 연합 | 예 | 아니요 
 
 
-| 아니요 | 알림 | 예 
+| 다중 요소 인증 | 예 | 아니요 
 
 
-| 아니요 | 검색 | 예 
+| NSS 계정 | 예 | 아니요 
 
 
-| 아니요 | 타임라인 | 예 
+| 알림 | 예 | 아니요 
+
+
+| 검색 | 예 | 아니요 
+
+
+| 타임라인 | 예 | 예 
 |===
