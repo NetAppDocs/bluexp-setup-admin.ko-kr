@@ -398,7 +398,7 @@ NOTE: 에서 BlueXP를 사용하려는 경우 https://aws.amazon.com/federal/sec
 | 워크로드 공장 | 아니요 | 아니요 
 
 
-.6+| * 기능 * | BlueXP  ID 및 액세스 관리 | 예 
+.6+| * 기능 * | ID 및 액세스 관리 | 예 
 
 
 | 예 | 자격 증명 | 예 
