@@ -4,7 +4,7 @@ permalink: task-federation-manage.html
 keywords: federation, BlueXP, identity provider, IdP, single sign-on, SSO, verified domain, credentials, certificate, client secret, update, manage federations, security, compliance, user access, productivity, account management, authentication, access control, business continuity 
 summary: 페더레이션 연결을 추가한 후에는 BlueXP 에서 해당 연결을 관리할 수 있습니다. 연결 상태를 확인하고 필요에 따라 활성화 또는 비활성화할 수 있습니다. 
 ---
-= BLueXP에서 페더레이션 관리
+= BlueXP 에서 페더레이션 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
